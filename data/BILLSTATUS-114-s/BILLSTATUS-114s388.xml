@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-02-05</actionDate>
+        <committee>
+          <name>Agriculture, Nutrition, and Forestry Committee</name>
+          <systemCode>ssaf00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-02-05</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:08:09Z</updateDate>
+    <introducedDate>2015-02-05</introducedDate>
+    <recordedVotes />
+    <createDate>2015-02-06T04:59:53Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Cory</firstName>
+        <lastName>Booker</lastName>
+        <state>NJ</state>
+        <bioguideId>B001288</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2194</lisID>
+          <gpoId />
+          <bioguideId>B001288</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>A.</middleName>
+        <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Animals</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>AWARE Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Animal Welfare in Agricultural Research Endeavors Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>A bill to amend the Animal Welfare Act to require humane treatment of animals by Federal Government facilities.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>AWARE Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <lastName>Blumenthal</lastName>
+        <bioguideId>B001277</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>CT</state>
+        <firstName>Richard</firstName>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <identifiers>
+          <lisID>2076</lisID>
+          <bioguideId>B001277</bioguideId>
+          <gpoId>8332</gpoId>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Schatz</lastName>
+        <bioguideId>S001194</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>HI</state>
+        <firstName>Brian</firstName>
+        <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+        <identifiers>
+          <bioguideId>S001194</bioguideId>
+          <gpoId />
+          <lisID>2173</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>DURBIN</lastName>
+        <bioguideId>D000563</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>RICHARD</firstName>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <identifiers>
+          <lisID>326</lisID>
+          <gpoId>8326</gpoId>
+          <bioguideId>D000563</bioguideId>
+        </identifiers>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <lastName>FEINSTEIN</lastName>
+        <bioguideId>F000062</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>DIANNE</firstName>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <identifiers>
+          <gpoId>8338</gpoId>
+          <lisID>1332</lisID>
+          <bioguideId>F000062</bioguideId>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Vitter</lastName>
+        <bioguideId>V000127</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-02-26</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>LA</state>
+        <firstName>David</firstName>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <identifiers>
+          <lisID>1609</lisID>
+          <gpoId>8267</gpoId>
+          <bioguideId>V000127</bioguideId>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>REID</lastName>
+        <bioguideId>R000146</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-03-03</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>NV</state>
+        <firstName>HARRY</firstName>
+        <fullName>Sen. Reid, Harry [D-NV]</fullName>
+        <identifiers>
+          <lisID>952</lisID>
+          <bioguideId>R000146</bioguideId>
+          <gpoId>8271</gpoId>
+        </identifiers>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <lastName>Merkley</lastName>
+        <bioguideId>M001176</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-03-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>OR</state>
+        <firstName>Jeff</firstName>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <identifiers>
+          <lisID>1900</lisID>
+          <bioguideId>M001176</bioguideId>
+          <gpoId>8238</gpoId>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Warren</lastName>
+        <bioguideId>W000817</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>MA</state>
+        <firstName>Elizabeth</firstName>
+        <fullName>Sen. Warren, Elizabeth [D-MA]</fullName>
+        <identifiers>
+          <lisID>2182</lisID>
+          <gpoId />
+          <bioguideId>W000817</bioguideId>
+        </identifiers>
+        <middleName>A.</middleName>
+      </item>
+      <item>
+        <lastName>MARKEY</lastName>
+        <bioguideId>M000133</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-04-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>MA</state>
+        <firstName>EDWARD</firstName>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <identifiers>
+          <lisID>735</lisID>
+          <bioguideId>M000133</bioguideId>
+          <gpoId>7972</gpoId>
+        </identifiers>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <lastName>BOXER</lastName>
+        <bioguideId>B000711</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>BARBARA</firstName>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <identifiers>
+          <lisID>116</lisID>
+          <bioguideId>B000711</bioguideId>
+          <gpoId>8306</gpoId>
+        </identifiers>
+        <middleName />
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Agricultural research</name>
+          </item>
+          <item>
+            <name>Animal protection and human-animal relationships</name>
+          </item>
+          <item>
+            <name>Livestock</name>
+          </item>
+          <item>
+            <name>Museums, exhibitions, cultural centers</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Animals</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Agriculture, Nutrition, and Forestry Committee</name>
+          <systemCode>ssaf00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-02-05T18:16:53Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-02-05</actionDate>
+      <text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>746</number>
+        <type>HR</type>
+        <latestTitle>AWARE Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-02-27</actionDate>
+          <text>Referred to the Subcommittee on Livestock and Foreign Agriculture.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>AWARE Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Animal Welfare in Agricultural Research Endeavors Act or the AWARE Act</b></p> <p>This bill amends the Animal Welfare Act to apply standards for humane treatment to farm animals at federal research or laboratory animal facilities. </p>]]></text>
+          <lastSummaryUpdateDate>2015-07-30T21:54:27Z</lastSummaryUpdateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-02-05</actionDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-02-05T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>388</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

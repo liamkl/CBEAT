@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-03-27T08:45:58Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsju00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <name>Immigration and Border Security Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-04-29T15:08:46Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-03-26T13:06:45Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-03-26</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <systemCode>hsju01</systemCode>
+          <name>Immigration and Border Security Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-03-26</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-03-26</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-03-26</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Vulnerable Immigrant Voice Act</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend section 292 of the Immigration and Nationality Act to require the Attorney General to appoint counsel for unaccompanied alien children and aliens with serious mental disabilities, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Vulnerable Immigrant Voice Act</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Child safety and welfare</name>
+          </item>
+          <item>
+            <name>Disability and paralysis</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Lawyers and legal services</name>
+          </item>
+          <item>
+            <name>Legal fees and court costs</name>
+          </item>
+          <item>
+            <name>Refugees, asylum, displaced persons</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>Karen</firstName>
+        <district>37</district>
+        <fullName>Rep. Bass, Karen [D-CA-37]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bass</lastName>
+        <identifiers>
+          <lisID>1996</lisID>
+          <bioguideId>B001270</bioguideId>
+          <gpoId>7838</gpoId>
+        </identifiers>
+        <bioguideId>B001270</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>Theodore</firstName>
+        <district>21</district>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Deutch</lastName>
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <bioguideId>D000610</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>Judy</firstName>
+        <district>27</district>
+        <fullName>Rep. Chu, Judy [D-CA-27]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Chu</lastName>
+        <identifiers>
+          <lisID>1970</lisID>
+          <gpoId>7837</gpoId>
+          <bioguideId>C001080</bioguideId>
+        </identifiers>
+        <bioguideId>C001080</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>BARBARA</firstName>
+        <district>13</district>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LEE</lastName>
+        <identifiers>
+          <lisID>1501</lisID>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+        </identifiers>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOSE</firstName>
+        <district>15</district>
+        <fullName>Rep. Serrano, Jose E. [D-NY-15]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>SERRANO</lastName>
+        <identifiers>
+          <lisID>1042</lisID>
+          <bioguideId>S000248</bioguideId>
+          <gpoId>8077</gpoId>
+        </identifiers>
+        <bioguideId>S000248</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>ELEANOR</firstName>
+        <district>0</district>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NORTON</lastName>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>HOLMES</middleName>
+        <state>DC</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>JAMES</firstName>
+        <district>2</district>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>MCGOVERN</lastName>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <state>MA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-22</sponsorshipDate>
+        <party>D</party>
+        <firstName>Beto</firstName>
+        <district>16</district>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>O'Rourke</lastName>
+        <identifiers>
+          <bioguideId>O000170</bioguideId>
+          <gpoId />
+          <lisID>2162</lisID>
+        </identifiers>
+        <bioguideId>O000170</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-22</sponsorshipDate>
+        <party>D</party>
+        <firstName>Tony</firstName>
+        <district>29</district>
+        <fullName>Rep. Cardenas, Tony [D-CA-29]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cardenas</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2107</lisID>
+          <bioguideId>C001097</bioguideId>
+        </identifiers>
+        <bioguideId>C001097</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <district>17</district>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>HONDA</lastName>
+        <identifiers>
+          <gpoId>7820</gpoId>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+        </identifiers>
+        <bioguideId>H001034</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <party>D</party>
+        <firstName>Marc</firstName>
+        <district>33</district>
+        <fullName>Rep. Veasey, Marc A. [D-TX-33]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Veasey</lastName>
+        <identifiers>
+          <lisID>2166</lisID>
+          <bioguideId>V000131</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>V000131</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>TX</state>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1700</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-03-26</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-03-26T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Vulnerable Immigrant Voice Act </strong></p> <p>Amends the Immigration and Nationality Act to require that counsel at the government's expense in a removal or related appeal proceeding shall be provided only for an alien who is: (1) an unaccompanied child, or (2) unable to represent himself or herself due to a serious mental disability.</p>]]></text>
+          <lastSummaryUpdateDate>2015-04-06T21:20:39Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. JEFFRIES:H.R. 1700.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clauses 4 and 18 of the United StatesConstitution.[Page H2114]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Vulnerable Immigrant Voice Act</title>
+    <latestAction>
+      <actionDate>2015-04-29</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:00:40Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Jeffries, Hakeem S. [D-NY-8]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>J000294</bioguideId>
+        <district>8</district>
+        <middleName>S.</middleName>
+        <state>NY</state>
+        <firstName>Hakeem</firstName>
+        <lastName>Jeffries</lastName>
+        <identifiers>
+          <lisID>2149</lisID>
+          <bioguideId>J000294</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

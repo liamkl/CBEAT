@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Rules Committee</name>
+          <systemCode>hsru00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <text>Referred to House Rules</text>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>House Administration Committee</name>
+          <systemCode>hsha00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <text>Referred to House Administration</text>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <text>Referred to the Committee on House Administration, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>5</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:54Z</updateDate>
+    <introducedDate>2016-07-14</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-15T07:14:37Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Raul</firstName>
+        <lastName>Ruiz</lastName>
+        <state>CA</state>
+        <bioguideId>R000599</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>R000599</bioguideId>
+          <gpoId />
+          <lisID>2109</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Ruiz, Raul [D-CA-36]</fullName>
+        <district>36</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Right to Petition Congress Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To require the Clerk of the House of Representatives and the Secretary of the Senate to establish a process by which registered voters may sign national discharge petitions with respect to bills and joint resolutions introduced in or referred to the House and Senate, to require the House or Senate to hold a vote on the passage of any bill or joint resolution if a certain number of registered voters sign the national discharge petition for the bill or joint resolution, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Right to Petition Congress Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. RUIZ:H.R. 5885.Congress has the power to enact this legislation pursuantto the following:Clause 18 of section 8 of article I of the Constitution[Page H5015]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Elections, voting, political campaign regulation</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Rules Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-14T13:06:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsru00</systemCode>
+        </item>
+        <item>
+          <name>House Administration Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-14T13:06:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsha00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-14</actionDate>
+      <text>Referred to House Rules</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Right to Petition Congress Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-12-07T23:18:56Z</lastSummaryUpdateDate>
+          <actionDate>2016-07-14</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-07-14T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Right to Petition Congress Act</b></p> <p>This bill requires the Clerk of the House of Representatives and the Secretary of the Senate to establish a process under which they shall:</p> <ul> <li> develop a national discharge petition for a bill or joint resolution introduced in either the House or the Senate or referred to either chamber after passage by the other chamber during a Congress,</li> <li> make each petition available for signature by individuals registered to vote in elections for federal office held in their domiciles, and</li> <li>compile such signatures.</li> </ul> <p>The Clerk or the Secretary may: (1) develop a petition only at the request of the sponsor of the bill or joint resolution; and (2) carry out this bill using such methods as the Clerk and Secretary consider appropriate, including providing for the availability of such petitions and the acceptance of signatures on them exclusively through electronic means.</p> <p>If a discharge petition is certified by the Clerk or the Secretary as having valid signatures of 25% or more of qualified voters, the leadership of the House and Senate shall ensure that a vote on the final passage of the measure takes place within a specified time period.</p> <p>As part of the national discharge petition process, the Clerk and the Secretary shall provide on their public websites a hyperlink through which individuals may obtain information on how to register to vote in federal elections in their domiciles.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5885</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

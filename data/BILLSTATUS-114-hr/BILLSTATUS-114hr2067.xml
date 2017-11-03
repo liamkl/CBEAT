@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-04-29T08:46:09Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-28T16:04:20Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsas02</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-08-13T21:00:37Z</date>
+                </item>
+              </activities>
+              <name>Military Personnel Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-04-28</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-08-13</actionDate>
+        <committee>
+          <systemCode>hsas02</systemCode>
+          <name>Military Personnel Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Armed Services.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Cold War Service Medal Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend title 10, United States Code, to provide for the award of a military service medal to members of the Armed Forces who served honorably during the Cold War, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Cold War Service Medal Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Military history</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>National Guard and reserves</name>
+          </item>
+          <item>
+            <name>U.S. history</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <bioguideId>J000296</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>David</firstName>
+        <identifiers>
+          <bioguideId>J000296</bioguideId>
+          <gpoId />
+          <lisID>2199</lisID>
+        </identifiers>
+        <fullName>Rep. Jolly, David W. [R-FL-13]</fullName>
+        <district>13</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Jolly</lastName>
+        <middleName>W.</middleName>
+      </item>
+      <item>
+        <bioguideId>M001144</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Jeff</firstName>
+        <identifiers>
+          <lisID>1685</lisID>
+          <gpoId>7873</gpoId>
+          <bioguideId>M001144</bioguideId>
+        </identifiers>
+        <fullName>Rep. Miller, Jeff [R-FL-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Miller</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000597</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>ME</state>
+        <firstName>Chellie</firstName>
+        <identifiers>
+          <bioguideId>P000597</bioguideId>
+          <gpoId>7984</gpoId>
+          <lisID>1927</lisID>
+        </identifiers>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Pingree</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>M001137</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>GREGORY</firstName>
+        <identifiers>
+          <gpoId>8067</gpoId>
+          <lisID>1506</lisID>
+          <bioguideId>M001137</bioguideId>
+        </identifiers>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>MEEKS</lastName>
+        <middleName>W.</middleName>
+      </item>
+      <item>
+        <bioguideId>M001180</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>WV</state>
+        <firstName>David</firstName>
+        <identifiers>
+          <lisID>2074</lisID>
+          <bioguideId>M001180</bioguideId>
+          <gpoId>8222</gpoId>
+        </identifiers>
+        <fullName>Rep. McKinley, David B. [R-WV-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>McKinley</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>C001069</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CT</state>
+        <firstName>Joe</firstName>
+        <identifiers>
+          <lisID>1836</lisID>
+          <bioguideId>C001069</bioguideId>
+          <gpoId>7867</gpoId>
+        </identifiers>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Courtney</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001038</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>JOSEPH</firstName>
+        <identifiers>
+          <lisID>1604</lisID>
+          <bioguideId>C001038</bioguideId>
+          <gpoId>8068</gpoId>
+        </identifiers>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <district>14</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>CROWLEY</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001107</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Carlos</firstName>
+        <identifiers>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+          <lisID>2235</lisID>
+        </identifiers>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <district>26</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>Curbelo</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>L000480</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>NITA</firstName>
+        <identifiers>
+          <lisID>709</lisID>
+          <bioguideId>L000480</bioguideId>
+          <gpoId>8079</gpoId>
+        </identifiers>
+        <fullName>Rep. Lowey, Nita M. [D-NY-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>LOWEY</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000577</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>TIM</firstName>
+        <identifiers>
+          <lisID>1756</lisID>
+          <gpoId>8107</gpoId>
+          <bioguideId>R000577</bioguideId>
+        </identifiers>
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <district>13</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>RYAN</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>F000449</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NE</state>
+        <firstName>Jeff</firstName>
+        <identifiers>
+          <lisID>1793</lisID>
+          <bioguideId>F000449</bioguideId>
+          <gpoId>8038</gpoId>
+        </identifiers>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>Fortenberry</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001271</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>Dan</firstName>
+        <identifiers>
+          <bioguideId>B001271</bioguideId>
+          <gpoId>7986</gpoId>
+          <lisID>2027</lisID>
+        </identifiers>
+        <fullName>Rep. Benishek, Dan [R-MI-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>Benishek</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000435</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>ILEANA</firstName>
+        <identifiers>
+          <lisID>985</lisID>
+          <bioguideId>R000435</bioguideId>
+          <gpoId>7890</gpoId>
+        </identifiers>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-27]</fullName>
+        <district>27</district>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <lastName>ROS-LEHTINEN</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>W000800</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>VT</state>
+        <firstName>Peter</firstName>
+        <identifiers>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <district>0</district>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <lastName>Welch</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>L000582</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>Ted</firstName>
+        <identifiers>
+          <lisID>2230</lisID>
+          <gpoId />
+          <bioguideId>L000582</bioguideId>
+        </identifiers>
+        <fullName>Rep. Lieu, Ted [D-CA-33]</fullName>
+        <district>33</district>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <lastName>Lieu</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>E000293</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CT</state>
+        <firstName>Elizabeth</firstName>
+        <identifiers>
+          <lisID>2114</lisID>
+          <gpoId />
+          <bioguideId>E000293</bioguideId>
+        </identifiers>
+        <fullName>Rep. Esty, Elizabeth H. [D-CT-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2015-07-28</sponsorshipDate>
+        <lastName>Esty</lastName>
+        <middleName>H.</middleName>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <firstName>WALTER</firstName>
+        <identifiers>
+          <lisID>612</lisID>
+          <gpoId>8026</gpoId>
+          <bioguideId>J000255</bioguideId>
+        </identifiers>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <lastName>JONES</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000602</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Kathleen</firstName>
+        <identifiers>
+          <lisID>2262</lisID>
+          <gpoId />
+          <bioguideId>R000602</bioguideId>
+        </identifiers>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <lastName>Rice</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>T000473</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>HI</state>
+        <firstName>Mark</firstName>
+        <identifiers>
+          <bioguideId>T000473</bioguideId>
+          <gpoId />
+          <lisID>2240</lisID>
+        </identifiers>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <lastName>Takai</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>H001068</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>Jared</firstName>
+        <identifiers>
+          <lisID>2101</lisID>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2015-09-11</sponsorshipDate>
+        <lastName>Huffman</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>F000372</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NJ</state>
+        <firstName>RODNEY</firstName>
+        <identifiers>
+          <lisID>414</lisID>
+          <bioguideId>F000372</bioguideId>
+          <gpoId>8053</gpoId>
+        </identifiers>
+        <fullName>Rep. Frelinghuysen, Rodney P. [R-NJ-11]</fullName>
+        <district>11</district>
+        <sponsorshipDate>2015-10-07</sponsorshipDate>
+        <lastName>FRELINGHUYSEN</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000096</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NJ</state>
+        <firstName>WILLIAM</firstName>
+        <identifiers>
+          <lisID>1510</lisID>
+          <bioguideId>P000096</bioguideId>
+          <gpoId>8050</gpoId>
+        </identifiers>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <district>9</district>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <lastName>PASCRELL</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>M001184</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>KY</state>
+        <firstName>Thomas</firstName>
+        <identifiers>
+          <lisID>2094</lisID>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+        </identifiers>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2015-12-11</sponsorshipDate>
+        <lastName>Massie</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001289</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>AL</state>
+        <firstName>Bradley</firstName>
+        <identifiers>
+          <lisID>2197</lisID>
+          <bioguideId>B001289</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Byrne, Bradley [R-AL-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2016-05-10</sponsorshipDate>
+        <lastName>Byrne</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Thomas</firstName>
+        <identifiers>
+          <lisID>1916</lisID>
+          <bioguideId>R000583</bioguideId>
+          <gpoId>7888</gpoId>
+        </identifiers>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <lastName>Rooney</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>C001077</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <firstName>Mike</firstName>
+        <identifiers>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+        </identifiers>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2016-12-07</sponsorshipDate>
+        <lastName>Coffman</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2067</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-07-14T13:52:14Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-28</actionDate>
+          <text><![CDATA[<p><strong>Cold War Service Medal Act of 2015</strong></p> <p>Authorizes the military department concerned to issue the Cold War Service Medal to members of the Armed Forces who: (1) served on active duty for at least 24 consecutive months during the Cold War (September 2, 1945, through December 26, 1991); (2) were deployed outside the continental United States for at least 30 days during such period; (3) were members of a reserve component of the Armed Forces and were called or ordered to active duty to participate in exercises or operations directly related to the Cold War; or (4) performed other Cold War service as DOD may prescribe. Disqualifies any such person who was not discharged or released from the Armed Forces under under honorable conditions.</p> <p>Expresses the sense of Congress that DOD should expedite the design and issuance of the Medal.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-28T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ISRAEL:H.R. 2067.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8.[Page H2499]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Cold War Service Medal Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-08-13</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:01:21Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Israel, Steve [D-NY-3]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>I000057</bioguideId>
+        <district>3</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>STEVE</firstName>
+        <lastName>ISRAEL</lastName>
+        <identifiers>
+          <lisID>1663</lisID>
+          <bioguideId>I000057</bioguideId>
+          <gpoId>8063</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

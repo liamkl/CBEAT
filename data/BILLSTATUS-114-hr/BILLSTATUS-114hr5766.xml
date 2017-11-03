@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-07-27</actionDate>
+        <committee>
+          <name>Immigration and Border Security Subcommittee</name>
+          <systemCode>hsju01</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:47Z</updateDate>
+    <introducedDate>2016-07-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-14T06:10:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>ZOE</firstName>
+        <lastName>LOFGREN</lastName>
+        <state>CA</state>
+        <bioguideId>L000397</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>L000397</bioguideId>
+          <gpoId>7821</gpoId>
+          <lisID>701</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <district>19</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Amerasian Paternity Recognition Act of 2016</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Immigration and Nationality Act to provide citizenship for certain children of United States servicemen born overseas during the Vietnam and Korean Wars.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Amerasian Paternity Recognition Act of 2016</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>JOHN</firstName>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>CONYERS</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>M000404</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>WA</state>
+        <firstName>JIM</firstName>
+        <identifiers>
+          <lisID>766</lisID>
+          <bioguideId>M000404</bioguideId>
+          <gpoId>8211</gpoId>
+        </identifiers>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>MCDERMOTT</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>H001034</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>MICHAEL</firstName>
+        <identifiers>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+          <gpoId>7820</gpoId>
+        </identifiers>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>HONDA</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>C001078</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>Gerald</firstName>
+        <identifiers>
+          <lisID>1959</lisID>
+          <bioguideId>C001078</bioguideId>
+          <gpoId>8202</gpoId>
+        </identifiers>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <district>11</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>Connolly</lastName>
+        <middleName>E.</middleName>
+      </item>
+      <item>
+        <bioguideId>L000579</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>Alan</firstName>
+        <identifiers>
+          <lisID>2111</lisID>
+          <bioguideId>L000579</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <district>47</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>Lowenthal</lastName>
+        <middleName>S.</middleName>
+      </item>
+      <item>
+        <bioguideId>G000535</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>LUIS</firstName>
+        <identifiers>
+          <lisID>478</lisID>
+          <gpoId>7924</gpoId>
+          <bioguideId>G000535</bioguideId>
+        </identifiers>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <lastName>GUTIERREZ</lastName>
+        <middleName>V.</middleName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. LOFGREN:H.R. 5766.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 4 and Amendment I, Clause 3 ofthe Constitution.[Page H4927]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Asia</name>
+          </item>
+          <item>
+            <name>Cambodia</name>
+          </item>
+          <item>
+            <name>Citizenship and naturalization</name>
+          </item>
+          <item>
+            <name>Conflicts and wars</name>
+          </item>
+          <item>
+            <name>Family relationships</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Laos</name>
+          </item>
+          <item>
+            <name>North Korea</name>
+          </item>
+          <item>
+            <name>South Korea</name>
+          </item>
+          <item>
+            <name>Thailand</name>
+          </item>
+          <item>
+            <name>Vietnam</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-07-27T20:47:15Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+              <systemCode>hsju01</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-07-13T14:03:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-27</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Amerasian Paternity Recognition Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-11-04T18:31:19Z</lastSummaryUpdateDate>
+          <actionDate>2016-07-13</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-07-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Amerasian Paternity Recognition Act of 2016 </strong></p> <p>This bill amends the Immigration and Nationality Act to confer automatic citizenship on aliens residing in the United States in lawful permanent resident status: </p> <ul> <li>pursuant to an approved classification petition that gives preferential treatment to persons born in Korea, Vietnam, Laos, Kampuchea, or Thailand after 1950 and before October 22, 1982, and fathered by a U.S. citizen; or </li> <li>who were born in Vietnam after January 1, 1962, and before January 1, 1976, and fathered by a U.S. citizen.</li> </ul>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5766</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

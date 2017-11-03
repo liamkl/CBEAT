@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-11-17</sponsorshipDate>
+        <party>R</party>
+        <firstName>Leonard</firstName>
+        <district>7</district>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lance</lastName>
+        <identifiers>
+          <bioguideId>L000567</bioguideId>
+          <gpoId>8049</gpoId>
+          <lisID>1936</lisID>
+        </identifiers>
+        <bioguideId>L000567</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NJ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-17</sponsorshipDate>
+        <party>R</party>
+        <firstName>JOSEPH</firstName>
+        <district>16</district>
+        <fullName>Rep. Pitts, Joseph R. [R-PA-16]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>PITTS</lastName>
+        <identifiers>
+          <lisID>1514</lisID>
+          <bioguideId>P000373</bioguideId>
+          <gpoId>8134</gpoId>
+        </identifiers>
+        <bioguideId>P000373</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>R.</middleName>
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-30</sponsorshipDate>
+        <party>R</party>
+        <firstName>Chris</firstName>
+        <district>2</district>
+        <fullName>Rep. Stewart, Chris [R-UT-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Stewart</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2168</lisID>
+          <bioguideId>S001192</bioguideId>
+        </identifiers>
+        <bioguideId>S001192</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>UT</state>
+      </item>
+    </cosponsors>
+    <notes />
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To limit the use of the Judgement Fund to settle any lawsuit arising under section 1342 of the Patient Protection and Affordable Care Act, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To limit the use of the Judgement Fund to settle any lawsuit arising under section 1342 of the Patient Protection and Affordable Care Act, and for other purposes.</title>
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-12-05</actionDate>
+        <committee>
+          <systemCode>hsju10</systemCode>
+          <name>Constitution and Civil Justice Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2016-11-17</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2016-11-17</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2016-11-17</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <committeeReports />
+    <updateDate>2017-10-27T18:06:19Z</updateDate>
+    <billNumber>6339</billNumber>
+    <latestAction>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <actionDate>2016-12-05</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2016-11-17</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>2070</lisID>
+          <gpoId>8200</gpoId>
+          <bioguideId>G000568</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>G000568</bioguideId>
+        <state>VA</state>
+        <firstName>H.</firstName>
+        <lastName>Griffith</lastName>
+        <middleName>Morgan</middleName>
+        <district>9</district>
+        <fullName>Rep. Griffith, H. Morgan [R-VA-9]</fullName>
+      </item>
+    </sponsors>
+    <billType>HR</billType>
+    <createDate>2016-11-18T05:08:23Z</createDate>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Economics and Public Finance</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GRIFFITH:H.R. 6339.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article I, Section 9 of the United StatesConstitution.[Page H6301]</pre>]]></constitutionalAuthorityStatementText>
+    <title>To limit the use of the Judgement Fund to settle any lawsuit arising under section 1342 of the Patient Protection and Affordable Care Act, and for other purposes.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-11-17</actionDate>
+          <lastSummaryUpdateDate>2016-12-05T13:39:43Z</lastSummaryUpdateDate>
+          <updateDate>2016-11-17T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill prohibits the Judgment Fund from being used to make payments for any compromise settlement in connection with any proceeding brought against the government under the risk corridor program established by the Patient Protection and Affordable Care Act. (The Judgment Fund is a permanent and indefinite appropriation to pay judgments against the United States, including awards, compromise settlements, and related interest and costs. The risk corridor program is a mechanism that adjusts payments to health plans based on the ratio of the allowable costs of the plan to the plan's aggregate premiums.) </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-11-17T14:04:50Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-12-05T21:18:37Z</date>
+                </item>
+              </activities>
+              <systemCode>hsju10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-05-26</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-05-13</actionDate>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-05-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-05-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:08Z</updateDate>
+    <introducedDate>2016-05-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-05-14T04:54:48Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Dan</firstName>
+        <lastName>Benishek</lastName>
+        <state>MI</state>
+        <bioguideId>B001271</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2027</lisID>
+          <gpoId>7986</gpoId>
+          <bioguideId>B001271</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Benishek, Dan [R-MI-1]</fullName>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>To designate the Department of Veterans Affairs community-based outpatient clinic in Traverse City, Michigan, as the "Colonel Demas T. Craw VA Clinic".</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To designate the Department of Veterans Affairs community-based outpatient clinic in Traverse City, Michigan, as the "Colonel Demas T. Craw VA Clinic".</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Huizenga</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Huizenga, Bill [R-MI-2]</fullName>
+        <identifiers>
+          <lisID>2028</lisID>
+          <bioguideId>H001058</bioguideId>
+          <gpoId>7987</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001058</bioguideId>
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Amash</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Amash, Justin [R-MI-3]</fullName>
+        <identifiers>
+          <lisID>2029</lisID>
+          <gpoId>7988</gpoId>
+          <bioguideId>A000367</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000367</bioguideId>
+        <firstName>Justin</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Moolenaar</lastName>
+        <middleName>R.</middleName>
+        <district>4</district>
+        <fullName>Rep. Moolenaar, John R. [R-MI-4]</fullName>
+        <identifiers>
+          <lisID>2248</lisID>
+          <bioguideId>M001194</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001194</bioguideId>
+        <firstName>John</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Kildee</lastName>
+        <middleName>T.</middleName>
+        <district>5</district>
+        <fullName>Rep. Kildee, Daniel T. [D-MI-5]</fullName>
+        <identifiers>
+          <bioguideId>K000380</bioguideId>
+          <gpoId />
+          <lisID>2134</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000380</bioguideId>
+        <firstName>Daniel</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>UPTON</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <identifiers>
+          <bioguideId>U000031</bioguideId>
+          <gpoId>7991</gpoId>
+          <lisID>1177</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>U000031</bioguideId>
+        <firstName>FRED</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Walberg</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Walberg, Tim [R-MI-7]</fullName>
+        <identifiers>
+          <bioguideId>W000798</bioguideId>
+          <gpoId>7992</gpoId>
+          <lisID>1855</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000798</bioguideId>
+        <firstName>Tim</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bishop</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <identifiers>
+          <lisID>2249</lisID>
+          <gpoId />
+          <bioguideId>B001293</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001293</bioguideId>
+        <firstName>Mike</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LEVIN</lastName>
+        <middleName>M.</middleName>
+        <district>9</district>
+        <fullName>Rep. Levin, Sander M. [D-MI-9]</fullName>
+        <identifiers>
+          <gpoId>7997</gpoId>
+          <lisID>683</lisID>
+          <bioguideId>L000263</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000263</bioguideId>
+        <firstName>SANDER</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Miller</lastName>
+        <middleName>S.</middleName>
+        <district>10</district>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <identifiers>
+          <lisID>1731</lisID>
+          <bioguideId>M001150</bioguideId>
+          <gpoId>8589</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001150</bioguideId>
+        <firstName>Candice</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Trott</lastName>
+        <middleName>A.</middleName>
+        <district>11</district>
+        <fullName>Rep. Trott, David A. [R-MI-11]</fullName>
+        <identifiers>
+          <lisID>2250</lisID>
+          <gpoId />
+          <bioguideId>T000475</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000475</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Dingell</lastName>
+        <middleName />
+        <district>12</district>
+        <fullName>Rep. Dingell, Debbie [D-MI-12]</fullName>
+        <identifiers>
+          <bioguideId>D000624</bioguideId>
+          <gpoId />
+          <lisID>2251</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000624</bioguideId>
+        <firstName>Debbie</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CONYERS</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000714</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lawrence</lastName>
+        <middleName>L.</middleName>
+        <district>14</district>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <identifiers>
+          <gpoId />
+          <lisID>2252</lisID>
+          <bioguideId>L000581</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000581</bioguideId>
+        <firstName>Brenda</firstName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BENISHEK:H.R. 5228.Congress has the power to enact this legislation pursuantto the following:United States Constitution, Article I, Section 8.[Page H2386]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Department of Veterans Affairs</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Home and outpatient care</name>
+          </item>
+          <item>
+            <name>Michigan</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr03</systemCode>
+              <activities>
+                <item>
+                  <date>2016-05-26T17:44:30Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-05-13T13:00:21Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-05-26</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>A bill to designate the Traverse City VA Community-Based Outpatient Clinic of the Department of Veterans Affairs in Traverse City, Michigan, as the "Colonel Demas T. Craw VA Clinic".</latestTitle>
+        <latestAction>
+          <actionDate>2016-12-14</actionDate>
+          <text>Became Public Law No: 114-276.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>3492</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To designate the Department of Veterans Affairs community-based outpatient clinic in Traverse City, Michigan, as the "Colonel Demas T. Craw VA Clinic".</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2016-05-13</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-05-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill designates the Department of Veterans Affairs (VA) community-based outpatient clinic in Traverse City, Michigan, as the &quot;Colonel Demas T. Craw VA Clinic.&quot;</p>]]></text>
+          <lastSummaryUpdateDate>2016-07-21T19:36:13Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5228</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

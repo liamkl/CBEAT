@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-09-13</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Referred to House Veterans' Affairs</text>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Referred to House Administration</text>
+        <committee>
+          <name>House Administration Committee</name>
+          <systemCode>hsha00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Referred to the Committee on House Administration, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:06:03Z</updateDate>
+    <introducedDate>2016-09-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-09-14T05:20:48Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Warren</firstName>
+        <lastName>Davidson</lastName>
+        <state>OH</state>
+        <bioguideId>D000626</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2296</lisID>
+          <bioguideId>D000626</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Davidson, Warren [R-OH-8]</fullName>
+        <district>8</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Lead by Example Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To ensure that Members of Congress and Congressional staff receive health care from the Department of Veterans Affairs instead of under the Federal Health Benefits Program or health care exchanges.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Lead by Example Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <lastName>Harris</lastName>
+        <bioguideId>H001052</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Andy</firstName>
+        <state>MD</state>
+        <identifiers>
+          <lisID>2026</lisID>
+          <bioguideId>H001052</bioguideId>
+          <gpoId>7976</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <district>1</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DAVIDSON:H.R. 6005.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18: Since Members of Congressand other federal employees are ``necessary'' to fulfill theconstitutional functions of government, laws determining thecompensation of Members of Congress and federal employees areconstitutional under the necessary and proper clause.[Page H5436]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional officers and employees</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr03</systemCode>
+              <activities>
+                <item>
+                  <date>2016-09-13T19:01:27Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+          <activities>
+            <item>
+              <date>2016-09-13T14:00:12Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>House Administration Committee</name>
+          <systemCode>hsha00</systemCode>
+          <activities>
+            <item>
+              <date>2016-09-13T14:00:07Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-13</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Lead by Example Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-12-05T21:50:26Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-09-13</actionDate>
+          <text><![CDATA[<p><b>Lead by Example Act of 2016</b></p> <p>This bill provides that, beginning January 3, 2019, the only health care plan the federal government may make available to Members of Congress and congressional staff shall be health care provided through the Department of Veterans Affairs (VA).</p> <p>By September 15, 2017, the VA and the Office of Personnel Management shall jointly submit to Congress a plan to carry out this bill, including recommendations for any necessary legislative actions.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-13T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>6005</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

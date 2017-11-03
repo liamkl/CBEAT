@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to apply the provisions of the Patient Protection and Affordable Care Act to Congressional members and members of the executive branch.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to apply the provisions of the Patient Protection and Affordable Care Act to Congressional members and members of the executive branch.</title>
+      </item>
+    </titles>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-06-29</actionDate>
+        <committee>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>S4725-4729</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S4725-4729</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs. (Sponsor introductory remarks on measure: CR S4725-4729)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-06-29</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors />
+    <introducedDate>2016-06-29</introducedDate>
+    <latestAction>
+      <actionDate>2016-06-29</actionDate>
+      <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs. (Sponsor introductory remarks on measure: CR S4725-4729)</text>
+      <links />
+    </latestAction>
+    <billNumber>3120</billNumber>
+    <amendments />
+    <laws />
+    <createDate>2016-06-30T05:52:46Z</createDate>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers />
+    <title>A bill to apply the provisions of the Patient Protection and Affordable Care Act to Congressional members and members of the executive branch.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-06-29T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2016-06-29</actionDate>
+          <text><![CDATA[<p>This bill requires Members of Congress, the President, and the Vice President to purchase health insurance through a health insurance exchange. These officials may receive a federal subsidy or contribution to the costs of coverage through congressional disbursing offices, the Office of Personnel Management, or tax credits only if the subsidy or contribution is otherwise available to individuals at a similar income level.</p> <p> <p><BR> </p>]]></text>
+          <lastSummaryUpdateDate>2016-07-11T22:55:48Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>1810</number>
+        <congress>114</congress>
+        <latestTitle>No Exemption for Washington from Obamacare Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-21</actionDate>
+          <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>ssga00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-06-29T21:55:01Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:11:38Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+          <item>
+            <name>Presidents and presidential powers, Vice Presidents</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Vitter</lastName>
+        <firstName>David</firstName>
+        <bioguideId>V000127</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1609</lisID>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+        </identifiers>
+        <state>LA</state>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

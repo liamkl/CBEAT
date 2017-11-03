@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-12-07</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <actionDate>2016-12-07</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:12:00Z</updateDate>
+    <introducedDate>2016-12-07</introducedDate>
+    <recordedVotes />
+    <createDate>2016-12-08T05:08:13Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Joe</firstName>
+        <lastName>Donnelly</lastName>
+        <state>IN</state>
+        <bioguideId>D000607</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>D000607</bioguideId>
+          <gpoId>7941</gpoId>
+          <lisID>1850</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Donnelly, Joe [D-IN]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Investing in Neighborhood-focused, Vital, Evidence-based Strategies and Trust to Prevent Crime Act of 2016</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>INVEST to Prevent Crime Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>A bill to authorize previously appropriated resources for communities to address persistent or historical crime through collaborative cross-sector partnerships.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Investing in Neighborhood-focused, Vital, Evidence-based Strategies and Trust to Prevent Crime Act of 2016</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <firstName>LINDSEY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Graham, Lindsey [R-SC]</fullName>
+        <state>SC</state>
+        <bioguideId>G000359</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>GRAHAM</lastName>
+        <middleName>O.</middleName>
+        <sponsorshipDate>2016-12-07</sponsorshipDate>
+        <identifiers>
+          <lisID>452</lisID>
+          <bioguideId>G000359</bioguideId>
+          <gpoId>8335</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+          <activities>
+            <item>
+              <date>2016-12-07T21:40:57Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-12-07</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Investing in Neighborhood-focused, Vital, Evidence-based Strategies and Trust to Prevent Crime Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-12-07T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2016-12-07</actionDate>
+          <text><![CDATA[<p><b>Investing in Neighborhood-focused, Vital, Evidence-based Strategies and Trust to Prevent Crime Act of 2016 or the INVEST to Prevent Crime Act</b></p> <p>This bill amends the Omnibus Crime Control and Safe Streets Act of 1968 to establish a grant program for governments, nonprofit organizations, and institutions of higher education to prepare a comprehensive plan and enhance community capacity to address crime through collaborative cross-sector approaches.</p>]]></text>
+          <lastSummaryUpdateDate>2017-05-23T13:52:35Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3515</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

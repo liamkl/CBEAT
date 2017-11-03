@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <state>IL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Quigley</lastName>
+        <identifiers>
+          <lisID>1967</lisID>
+          <bioguideId>Q000023</bioguideId>
+          <gpoId>7925</gpoId>
+        </identifiers>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <bioguideId>Q000023</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Rigell, E. Scott [R-VA-2]</fullName>
+        <state>VA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Rigell</lastName>
+        <identifiers>
+          <lisID>2068</lisID>
+          <bioguideId>R000589</bioguideId>
+          <gpoId>8193</gpoId>
+        </identifiers>
+        <firstName>E.</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+        <middleName>Scott</middleName>
+        <sponsorshipDate>2016-04-18</sponsorshipDate>
+        <bioguideId>R000589</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Farenthold, Blake [R-TX-27]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Farenthold</lastName>
+        <identifiers>
+          <bioguideId>F000460</bioguideId>
+          <gpoId>8183</gpoId>
+          <lisID>2067</lisID>
+        </identifiers>
+        <firstName>Blake</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>27</district>
+        <middleName />
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <bioguideId>F000460</bioguideId>
+      </item>
+    </cosponsors>
+    <notes />
+    <titles>
+      <item>
+        <title>Equal Access to Congressional Research Service Reports Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To direct the Director of the Government Publishing Office to provide members of the public with Internet access to Congressional Research Service reports, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Equal Access to Congressional Research Service Reports Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on House Administration.</text>
+        <actionDate>2016-03-03</actionDate>
+        <committee>
+          <systemCode>hsha00</systemCode>
+          <name>House Administration Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-03-03</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-03-03</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:31Z</updateDate>
+    <billNumber>4702</billNumber>
+    <latestAction>
+      <text>Referred to the House Committee on House Administration.</text>
+      <actionDate>2016-03-03</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2016-03-03</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <bioguideId>L000567</bioguideId>
+          <gpoId>8049</gpoId>
+          <lisID>1936</lisID>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>L000567</bioguideId>
+        <state>NJ</state>
+        <firstName>Leonard</firstName>
+        <lastName>Lance</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+      </item>
+    </sponsors>
+    <billType>HR</billType>
+    <createDate>2016-03-04T05:08:59Z</createDate>
+    <relatedBills>
+      <item>
+        <number>2639</number>
+        <latestAction>
+          <actionDate>2016-03-03</actionDate>
+          <text>Read twice and referred to the Committee on Rules and Administration. (Sponsor introductory remarks on measure: CR S1279-1281)</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <latestTitle>Equal Access to Congressional Research Service Reports Act of 2016</latestTitle>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional Research Service (CRS)</name>
+          </item>
+          <item>
+            <name>Congressional agencies</name>
+          </item>
+          <item>
+            <name>Congressional operations and organization</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Library of Congress</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LANCE:H.R. 4702.Congress has the power to enact this legislation pursuantto the following:Article I, Sec 8, Clause 18, of the United StatesConstitution Which states: Congress shall have power . . . tomake all laws which shall be necessary and proper forcarrying in execution the foregoing powers, and all otherpowers vested by this Constitution in the government of theUnited States, or in any other department or officer thereof.[Page H1145]</pre>]]></constitutionalAuthorityStatementText>
+    <title>Equal Access to Congressional Research Service Reports Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-06-20T17:48:33Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Equal Access to Congressional Research Service Reports Act of 2016</b></p> <p>This bill directs the Government Publishing Office (GPO) to establish and maintain a public website containing Congressional Research Service (CRS) Reports, and an index, that are searchable, sortable, and downloadable (including in bulk), for which no fee may be charged.</p> <p>The CRS Reports on the website shall include CRS Authorization of Appropriations Products, Appropriations Products, and any other written CRS product containing CRS research or analysis available for general congressional access on the CRS Congressional Intranet.</p> <p>The website shall exclude any:</p> <ul> <li>custom product or service prepared in direct response to a request for custom analysis or research and not available for general congressional access on the CRS Congressional Intranet;</li> <li>CRS Reports, Authorization of Appropriations Products, or Appropriations Products not so available; or</li> <li>written CRS products that CRS has made available on a public website (besides this website) maintained by the GPO or the Library of Congress.</li> </ul> <p>The GPO shall ensure that the website is updated contemporaneously, automatically, and electronically to include each new or updated CRS Report.</p> <p>Before transmitting a CRS Report to the GPO for publication on the website, CRS may remove the name of, and any contact information for, any CRS employee.</p> <p>The Legislative Reorganization Act of 1946 is amended to require CRS to comply with this Act.</p>]]></text>
+          <updateDate>2016-03-03T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-03-03</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>House Administration Committee</name>
+          <systemCode>hsha00</systemCode>
+          <activities>
+            <item>
+              <date>2016-03-03T14:01:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

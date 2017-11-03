@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Government trust funds</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Research administration and funding</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>Technology transfer and commercialization</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2015-10-01</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Carlos</firstName>
+        <party>R</party>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <state>FL</state>
+        <byRequestType />
+        <bioguideId>C001107</bioguideId>
+        <lastName>Curbelo</lastName>
+        <middleName />
+        <district>26</district>
+        <identifiers>
+          <lisID>2235</lisID>
+          <gpoId />
+          <bioguideId>C001107</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills />
+    <updateDate>2017-10-27T18:03:23Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-09-30T15:32:12Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Research and Technology Subcommittee</name>
+              <systemCode>hssy15</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-10-01T13:01:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Science, Space, and Technology Committee</name>
+          <systemCode>hssy00</systemCode>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-10-02T15:01:03Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Highways and Transit Subcommittee</name>
+              <systemCode>hspw12</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-10-01T13:01:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2015-10-02T12:57:52Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-09-30</actionDate>
+      <text>Referred to the Subcommittee on Research and Technology.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>2</placeholderTextForH>
+        <billReferrals>2</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-09-30</actionDate>
+        <committee>
+          <name>Research and Technology Subcommittee</name>
+          <systemCode>hssy15</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Research and Technology.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-10-02</actionDate>
+        <committee>
+          <name>Highways and Transit Subcommittee</name>
+          <systemCode>hspw12</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Highways and Transit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-10-01</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to House Transportation and Infrastructure</text>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-01</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to House Science, Space, and Technology</text>
+        <committee>
+          <name>Science, Space, and Technology Committee</name>
+          <systemCode>hssy00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-01</actionDate>
+        <links />
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-01</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-01</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <amendments />
+    <title>To authorize appropriations for the university transportation centers program for fiscal years 2016 through 2021, and for other purposes.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill authorizes FY2016-FY2021 appropriations from the Highway Trust Fund (other than the Mass Transit Account) for the University Transportation Centers Program and requires the Federal Highway Administration to administer the program. </p> <p>The program provides grants to nonprofit institutions of higher education to establish and operate university transportation centers to advance transportation expertise and technology, provide a transportation knowledge base outside of the Department of Transportation, address critical workforce needs, and educate the next generation of transportation leaders. </p>]]></text>
+          <lastSummaryUpdateDate>2015-10-13T18:30:50Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-10-01</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-10-01T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>3665</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CURBELO of Florida:H.R. 3665.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the United States Constitution[Page H6788]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <lastName>Lipinski</lastName>
+        <bioguideId>L000563</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Daniel</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>1781</lisID>
+          <bioguideId>L000563</bioguideId>
+          <gpoId>7923</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>William</middleName>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>RANGEL</lastName>
+        <bioguideId>R000053</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>CHARLES</firstName>
+        <state>NY</state>
+        <identifiers>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>Thompson</lastName>
+        <bioguideId>T000467</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Glenn</firstName>
+        <state>PA</state>
+        <identifiers>
+          <lisID>1952</lisID>
+          <gpoId>8123</gpoId>
+          <bioguideId>T000467</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Thompson, Glenn [R-PA-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Clarke</lastName>
+        <bioguideId>C001067</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Yvette</firstName>
+        <state>NY</state>
+        <identifiers>
+          <lisID>1864</lisID>
+          <bioguideId>C001067</bioguideId>
+          <gpoId>8072</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>D.</middleName>
+        <fullName>Rep. Clarke, Yvette D. [D-NY-9]</fullName>
+        <district>9</district>
+      </item>
+      <item>
+        <lastName>Farenthold</lastName>
+        <bioguideId>F000460</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Blake</firstName>
+        <state>TX</state>
+        <identifiers>
+          <gpoId>8183</gpoId>
+          <lisID>2067</lisID>
+          <bioguideId>F000460</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Farenthold, Blake [R-TX-27]</fullName>
+        <district>27</district>
+      </item>
+      <item>
+        <lastName>CAPUANO</lastName>
+        <bioguideId>C001037</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>MICHAEL</firstName>
+        <state>MA</state>
+        <identifiers>
+          <lisID>1564</lisID>
+          <bioguideId>C001037</bioguideId>
+          <gpoId>7973</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>Sires</lastName>
+        <bioguideId>S001165</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Albio</firstName>
+        <state>NJ</state>
+        <identifiers>
+          <lisID>1818</lisID>
+          <bioguideId>S001165</bioguideId>
+          <gpoId>8055</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <district>8</district>
+      </item>
+      <item>
+        <lastName>MCGOVERN</lastName>
+        <bioguideId>M000312</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JAMES</firstName>
+        <state>MA</state>
+        <identifiers>
+          <lisID>1504</lisID>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>MEEKS</lastName>
+        <bioguideId>M001137</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>GREGORY</firstName>
+        <state>NY</state>
+        <identifiers>
+          <gpoId>8067</gpoId>
+          <lisID>1506</lisID>
+          <bioguideId>M001137</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>W.</middleName>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Quigley</lastName>
+        <bioguideId>Q000023</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mike</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>1967</lisID>
+          <gpoId>7925</gpoId>
+          <bioguideId>Q000023</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>NADLER</lastName>
+        <bioguideId>N000002</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JERROLD</firstName>
+        <state>NY</state>
+        <identifiers>
+          <lisID>850</lisID>
+          <gpoId>8069</gpoId>
+          <bioguideId>N000002</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Nadler, Jerrold [D-NY-10]</fullName>
+        <district>10</district>
+      </item>
+      <item>
+        <lastName>BROWN</lastName>
+        <bioguideId>B000911</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>CORRINE</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>132</lisID>
+          <bioguideId>B000911</bioguideId>
+          <gpoId>7875</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Davis</lastName>
+        <bioguideId>D000619</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Rodney</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>2126</lisID>
+          <gpoId />
+          <bioguideId>D000619</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Davis, Rodney [R-IL-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>Castor</lastName>
+        <bioguideId>C001066</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Kathy</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>C001066</bioguideId>
+          <gpoId>7883</gpoId>
+          <lisID>1839</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Castor, Kathy [D-FL-14]</fullName>
+        <district>14</district>
+      </item>
+      <item>
+        <lastName>Wilson</lastName>
+        <bioguideId>W000808</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Frederica</firstName>
+        <state>FL</state>
+        <identifiers>
+          <gpoId>7889</gpoId>
+          <lisID>2004</lisID>
+          <bioguideId>W000808</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <district>24</district>
+      </item>
+      <item>
+        <lastName>Lowenthal</lastName>
+        <bioguideId>L000579</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Alan</firstName>
+        <state>CA</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2111</lisID>
+          <bioguideId>L000579</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <district>47</district>
+      </item>
+      <item>
+        <lastName>Frankel</lastName>
+        <bioguideId>F000462</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Lois</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2119</lisID>
+          <bioguideId>F000462</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Frankel, Lois [D-FL-22]</fullName>
+        <district>22</district>
+      </item>
+      <item>
+        <lastName>LOFGREN</lastName>
+        <bioguideId>L000397</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>ZOE</firstName>
+        <state>CA</state>
+        <identifiers>
+          <gpoId>7821</gpoId>
+          <lisID>701</lisID>
+          <bioguideId>L000397</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <district>19</district>
+      </item>
+      <item>
+        <lastName>PALLONE</lastName>
+        <bioguideId>P000034</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>FRANK</firstName>
+        <state>NJ</state>
+        <identifiers>
+          <bioguideId>P000034</bioguideId>
+          <gpoId>8048</gpoId>
+          <lisID>887</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <district>6</district>
+      </item>
+      <item>
+        <lastName>DUNCAN</lastName>
+        <bioguideId>D000533</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JOHN</firstName>
+        <state>TN</state>
+        <identifiers>
+          <lisID>322</lisID>
+          <gpoId>8149</gpoId>
+          <bioguideId>D000533</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Loebsack</lastName>
+        <bioguideId>L000565</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>David</firstName>
+        <state>IA</state>
+        <identifiers>
+          <lisID>1846</lisID>
+          <bioguideId>L000565</bioguideId>
+          <gpoId>7915</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Connolly</lastName>
+        <bioguideId>C001078</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-01-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Gerald</firstName>
+        <state>VA</state>
+        <identifiers>
+          <lisID>1959</lisID>
+          <bioguideId>C001078</bioguideId>
+          <gpoId>8202</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <district>11</district>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To authorize appropriations for the university transportation centers program for fiscal years 2016 through 2021, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To authorize appropriations for the university transportation centers program for fiscal years 2016 through 2021, and for other purposes.</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

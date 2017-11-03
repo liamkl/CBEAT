@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-07-09</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>Chris</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1729</lisID>
+          <gpoId>7983</gpoId>
+          <bioguideId>V000128</bioguideId>
+        </identifiers>
+        <bioguideId>V000128</bioguideId>
+        <party>D</party>
+        <district>8</district>
+        <state>MD</state>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <lastName>Van Hollen</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>Gerald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1959</lisID>
+          <gpoId>8202</gpoId>
+          <bioguideId>C001078</bioguideId>
+        </identifiers>
+        <bioguideId>C001078</bioguideId>
+        <party>D</party>
+        <district>11</district>
+        <state>VA</state>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <lastName>Connolly</lastName>
+        <middleName>E.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>GREGORY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001137</bioguideId>
+          <gpoId>8067</gpoId>
+          <lisID>1506</lisID>
+        </identifiers>
+        <bioguideId>M001137</bioguideId>
+        <party>D</party>
+        <district>5</district>
+        <state>NY</state>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <lastName>MEEKS</lastName>
+        <middleName>W.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2227</lisID>
+          <bioguideId>D000623</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>D000623</bioguideId>
+        <party>D</party>
+        <district>11</district>
+        <state>CA</state>
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <lastName>DeSaulnier</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>Kathleen</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2262</lisID>
+          <bioguideId>R000602</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>R000602</bioguideId>
+        <party>D</party>
+        <district>4</district>
+        <state>NY</state>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <lastName>Rice</lastName>
+        <middleName>M.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+        </identifiers>
+        <bioguideId>N000147</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>DC</state>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <firstName>EARL</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <bioguideId>B000574</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>OR</state>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <lastName>BLUMENAUER</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <firstName>Henry</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1843</lisID>
+          <gpoId>7901</gpoId>
+          <bioguideId>J000288</bioguideId>
+        </identifiers>
+        <bioguideId>J000288</bioguideId>
+        <party>D</party>
+        <district>4</district>
+        <state>GA</state>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <lastName>Johnson</lastName>
+        <middleName>C. "Hank"</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <firstName>SAM</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>F000030</bioguideId>
+          <gpoId>7822</gpoId>
+          <lisID>368</lisID>
+        </identifiers>
+        <bioguideId>F000030</bioguideId>
+        <party>D</party>
+        <district>20</district>
+        <state>CA</state>
+        <fullName>Rep. Farr, Sam [D-CA-20]</fullName>
+        <lastName>FARR</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <firstName>LOUISE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1069</lisID>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+        </identifiers>
+        <bioguideId>S000480</bioguideId>
+        <party>D</party>
+        <district>25</district>
+        <state>NY</state>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <lastName>SLAUGHTER</lastName>
+        <middleName>M.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <firstName>ALCEE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>H000324</bioguideId>
+          <gpoId>7895</gpoId>
+          <lisID>511</lisID>
+        </identifiers>
+        <bioguideId>H000324</bioguideId>
+        <party>D</party>
+        <district>20</district>
+        <state>FL</state>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <lastName>HASTINGS</lastName>
+        <middleName>L.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <bioguideId>M000312</bioguideId>
+        <party>D</party>
+        <district>2</district>
+        <state>MA</state>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <lastName>MCGOVERN</lastName>
+        <middleName>P.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>944</lisID>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+        </identifiers>
+        <bioguideId>R000053</bioguideId>
+        <party>D</party>
+        <district>13</district>
+        <state>NY</state>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <lastName>RANGEL</lastName>
+        <middleName>B.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <firstName>Yvette</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1864</lisID>
+          <bioguideId>C001067</bioguideId>
+          <gpoId>8072</gpoId>
+        </identifiers>
+        <bioguideId>C001067</bioguideId>
+        <party>D</party>
+        <district>9</district>
+        <state>NY</state>
+        <fullName>Rep. Clarke, Yvette D. [D-NY-9]</fullName>
+        <lastName>Clarke</lastName>
+        <middleName>D.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <firstName>William</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2025</lisID>
+          <bioguideId>K000375</bioguideId>
+          <gpoId>7975</gpoId>
+        </identifiers>
+        <bioguideId>K000375</bioguideId>
+        <party>D</party>
+        <district>9</district>
+        <state>MA</state>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <lastName>Keating</lastName>
+        <middleName>R.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-03</sponsorshipDate>
+        <firstName>Niki</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1884</lisID>
+          <gpoId>7970</gpoId>
+          <bioguideId>T000465</bioguideId>
+        </identifiers>
+        <bioguideId>T000465</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>MA</state>
+        <fullName>Rep. Tsongas, Niki [D-MA-3]</fullName>
+        <lastName>Tsongas</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-10</sponsorshipDate>
+        <firstName>Jackie</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1890</lisID>
+          <gpoId>7817</gpoId>
+          <bioguideId>S001175</bioguideId>
+        </identifiers>
+        <bioguideId>S001175</bioguideId>
+        <party>D</party>
+        <district>14</district>
+        <state>CA</state>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <lastName>Speier</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <firstName>ELIOT</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8078</gpoId>
+          <lisID>344</lisID>
+          <bioguideId>E000179</bioguideId>
+        </identifiers>
+        <bioguideId>E000179</bioguideId>
+        <party>D</party>
+        <district>16</district>
+        <state>NY</state>
+        <fullName>Rep. Engel, Eliot L. [D-NY-16]</fullName>
+        <lastName>ENGEL</lastName>
+        <middleName>L.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <firstName>Juan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>V000130</bioguideId>
+        <party>D</party>
+        <district>51</district>
+        <state>CA</state>
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <lastName>Vargas</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <introducedDate>2015-06-24</introducedDate>
+    <latestAction>
+      <actionDate>2015-07-09</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <billNumber>2871</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Keeping Guns From Criminals Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To provide an incentive for firearm owners to sell their firearms safely and responsibly.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Keeping Guns From Criminals Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BEYER:H.R. 2871.Congress has the power to enact this legislation pursuantto the following:Clause 3 of Section 8 or Article I fo the U.S.Constitution[Page H4651]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Keeping Guns From Criminals Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Keeping Guns From Criminals Act</b></p> <p>This bill amends the federal criminal code to modify the criminal liability standard for certain firearm sales or transfers. </p> <p>Current law makes it a crime for any person to knowingly sell or transfer a firearm to a prohibited person (i.e., a person who is prohibited from possessing or receiving a firearm). This legislation eliminates the "knowingly" standard to impose criminal liability on any person who sells or transfers a firearm to a prohibited person, regardless of whether such seller or transferor knows that the buyer is a prohibited person. <br /></p> <p>A defendant seller or transferor may assert as an affirmative defense against prosecution evidence to prove that the buyer or recipient passed a background check or possessed a valid concealed carry permit in the state of transfer. </p> <p>The affirmative defense does not apply if defendant knew or had reasonable cause to believe the buyer or recipient was a prohibited person. <br /></p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-06-24T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-01-12T15:28:20Z</lastSummaryUpdateDate>
+          <actionDate>2015-06-24</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-24T14:01:20Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-07-09T20:52:33Z</date>
+                </item>
+              </activities>
+              <systemCode>hsju08</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:29Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Firearms and explosives</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-06-25T09:28:00Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <state>VA</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Beyer</lastName>
+        <firstName>Donald</firstName>
+        <bioguideId>B001292</bioguideId>
+        <middleName>S.</middleName>
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>8</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

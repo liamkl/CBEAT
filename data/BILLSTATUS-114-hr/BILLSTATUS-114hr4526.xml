@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-02-11T05:13:18Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-10T15:02:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsif17</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-12T14:34:52Z</date>
+                </item>
+              </activities>
+              <name>Commerce, Manufacturing, and Trade Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2016-02-10</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2016-02-12</actionDate>
+        <committee>
+          <systemCode>hsif17</systemCode>
+          <name>Commerce, Manufacturing, and Trade Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Manufacturing, and Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-10</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-10</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-10</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Stop Online Booking Scams Act of 2016</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Restore Online Shoppers' Confidence Act to protect consumers from deceptive practices with respect to online booking of hotel reservations and to direct the Federal Trade Commission to conduct a study with respect to online shopping for hotel reservations, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Stop Online Booking Scams Act of 2016</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Consumer credit</name>
+          </item>
+          <item>
+            <name>Federal Trade Commission (FTC)</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Travel and tourism</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>ROS-LEHTINEN</lastName>
+        <bioguideId>R000435</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>ILEANA</firstName>
+        <state>FL</state>
+        <identifiers>
+          <gpoId>7890</gpoId>
+          <lisID>985</lisID>
+          <bioguideId>R000435</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-27]</fullName>
+        <district>27</district>
+      </item>
+      <item>
+        <lastName>Shuster</lastName>
+        <bioguideId>S001154</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Bill</firstName>
+        <state>PA</state>
+        <identifiers>
+          <gpoId>8127</gpoId>
+          <lisID>1681</lisID>
+          <bioguideId>S001154</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Shuster, Bill [R-PA-9]</fullName>
+        <district>9</district>
+      </item>
+      <item>
+        <lastName>Deutch</lastName>
+        <bioguideId>D000610</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Theodore</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <district>21</district>
+      </item>
+      <item>
+        <lastName>Walters</lastName>
+        <bioguideId>W000820</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Mimi</firstName>
+        <state>CA</state>
+        <identifiers>
+          <bioguideId>W000820</bioguideId>
+          <gpoId />
+          <lisID>2232</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Walters, Mimi [R-CA-45]</fullName>
+        <district>45</district>
+      </item>
+      <item>
+        <lastName>Murphy</lastName>
+        <bioguideId>M001191</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Patrick</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2117</lisID>
+          <gpoId />
+          <bioguideId>M001191</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <district>18</district>
+      </item>
+      <item>
+        <lastName>Castor</lastName>
+        <bioguideId>C001066</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Kathy</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>C001066</bioguideId>
+          <gpoId>7883</gpoId>
+          <lisID>1839</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Castor, Kathy [D-FL-14]</fullName>
+        <district>14</district>
+      </item>
+      <item>
+        <lastName>Heck</lastName>
+        <bioguideId>H001055</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Joseph</firstName>
+        <state>NV</state>
+        <identifiers>
+          <bioguideId>H001055</bioguideId>
+          <gpoId>8061</gpoId>
+          <lisID>2040</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Heck, Joseph J. [R-NV-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>HASTINGS</lastName>
+        <bioguideId>H000324</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>ALCEE</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>H000324</bioguideId>
+          <gpoId>7895</gpoId>
+          <lisID>511</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <district>20</district>
+      </item>
+      <item>
+        <lastName>Miller</lastName>
+        <bioguideId>M001144</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Jeff</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>M001144</bioguideId>
+          <gpoId>7873</gpoId>
+          <lisID>1685</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Miller, Jeff [R-FL-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>Poliquin</lastName>
+        <bioguideId>P000611</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Bruce</firstName>
+        <state>ME</state>
+        <identifiers>
+          <lisID>2247</lisID>
+          <bioguideId>P000611</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Poliquin, Bruce [R-ME-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Quigley</lastName>
+        <bioguideId>Q000023</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Mike</firstName>
+        <state>IL</state>
+        <identifiers>
+          <bioguideId>Q000023</bioguideId>
+          <gpoId>7925</gpoId>
+          <lisID>1967</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Takano</lastName>
+        <bioguideId>T000472</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Mark</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>2110</lisID>
+          <bioguideId>T000472</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <district>41</district>
+      </item>
+      <item>
+        <lastName>Johnson</lastName>
+        <bioguideId>J000288</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Henry</firstName>
+        <state>GA</state>
+        <identifiers>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+          <lisID>1843</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>C. "Hank"</middleName>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Wilson</lastName>
+        <bioguideId>W000808</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Frederica</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2004</lisID>
+          <bioguideId>W000808</bioguideId>
+          <gpoId>7889</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <district>24</district>
+      </item>
+      <item>
+        <lastName>Cole</lastName>
+        <bioguideId>C001053</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Tom</firstName>
+        <state>OK</state>
+        <identifiers>
+          <lisID>1742</lisID>
+          <gpoId>8112</gpoId>
+          <bioguideId>C001053</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Diaz-Balart</lastName>
+        <bioguideId>D000600</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mario</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>1717</lisID>
+          <bioguideId>D000600</bioguideId>
+          <gpoId>7893</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Diaz-Balart, Mario [R-FL-25]</fullName>
+        <district>25</district>
+      </item>
+      <item>
+        <lastName>Harris</lastName>
+        <bioguideId>H001052</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-05-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Andy</firstName>
+        <state>MD</state>
+        <identifiers>
+          <bioguideId>H001052</bioguideId>
+          <gpoId>7976</gpoId>
+          <lisID>2026</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>Welch</lastName>
+        <bioguideId>W000800</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Peter</firstName>
+        <state>VT</state>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Ruppersberger</lastName>
+        <bioguideId>R000576</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>C. A.</firstName>
+        <state>MD</state>
+        <identifiers>
+          <lisID>1728</lisID>
+          <bioguideId>R000576</bioguideId>
+          <gpoId>7977</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>Dutch</middleName>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>PRICE</lastName>
+        <bioguideId>P000523</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-07-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>DAVID</firstName>
+        <state>NC</state>
+        <identifiers>
+          <bioguideId>P000523</bioguideId>
+          <gpoId>8027</gpoId>
+          <lisID>930</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Cohen</lastName>
+        <bioguideId>C001068</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Steve</firstName>
+        <state>TN</state>
+        <identifiers>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+      </item>
+      <item>
+        <lastName>Sinema</lastName>
+        <bioguideId>S001191</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Kyrsten</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <lisID>2099</lisID>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <district>9</district>
+      </item>
+      <item>
+        <lastName>Gosar</lastName>
+        <bioguideId>G000565</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Paul</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Jeffries</lastName>
+        <bioguideId>J000294</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-09-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Hakeem</firstName>
+        <state>NY</state>
+        <identifiers>
+          <lisID>2149</lisID>
+          <gpoId />
+          <bioguideId>J000294</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <fullName>Rep. Jeffries, Hakeem S. [D-NY-8]</fullName>
+        <district>8</district>
+      </item>
+      <item>
+        <lastName>Tonko</lastName>
+        <bioguideId>T000469</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-09-27</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Paul</firstName>
+        <state>NY</state>
+        <identifiers>
+          <gpoId>8082</gpoId>
+          <lisID>1942</lisID>
+          <bioguideId>T000469</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <district>20</district>
+      </item>
+      <item>
+        <lastName>Byrne</lastName>
+        <bioguideId>B001289</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Bradley</firstName>
+        <state>AL</state>
+        <identifiers>
+          <bioguideId>B001289</bioguideId>
+          <gpoId />
+          <lisID>2197</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Byrne, Bradley [R-AL-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>Carter</lastName>
+        <bioguideId>C001103</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Earl</firstName>
+        <state>GA</state>
+        <identifiers>
+          <bioguideId>C001103</bioguideId>
+          <gpoId />
+          <lisID>2236</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>L. "Buddy"</middleName>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <district>1</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4526</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Stop Online Booking Scams Act of 2016</b></p> <p>This bill amends the Restore Online Shoppers' Confidence Act (ROSCA) to prohibit a third party online hotel reservation seller (an online seller that is not affiliated with the person who owns the hotel or provides the hotel services or accommodations) from charging a consumer's credit card, debit card, bank account, or other financial account for any good or service sold in an Internet transaction, unless the seller discloses all material terms of the transaction.</p> <p>Before the conclusion of the transaction, the seller must describe, and disclose the cost of, the offered good or service.</p> <p>The seller must also disclose, in a manner that is continuously visible to the consumer throughout the transaction process, the fact that it is not affiliated with the person who: (1) owns the hotel, or (2) provides the hotel services or accommodations.</p> <p>States may bring actions in federal courts to obtain damages, restitution, compensation, or other relief for ROSCA violations. (Currently, states may bring such actions for only injunctive relief.)</p> <p>The Federal Trade Commission (FTC) must publish on its website an assessment of: (1) consumers' capacity to understand which company they are transacting with during online hotel reservation shopping, (2) consumer harm from such uncertainty, and (3) whether any practice by a third party online hotel reservation seller violates ROSCA.</p> <p>The bill expresses the sense of Congress that the FTC should revise its website to make it easier for consumers and businesses to report complaints of deceptive practices with online booking of hotel reservations.</p>]]></text>
+          <lastSummaryUpdateDate>2016-03-16T18:46:16Z</lastSummaryUpdateDate>
+          <updateDate>2016-02-10T05:00:00Z</updateDate>
+          <actionDate>2016-02-10</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. FRANKEL of Florida:H.R. 4526.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clauses 3 and 18 of the U.S.Constitution, respectively giving Congress the authority toregulate interstate commerce and to make all laws neccessaryand proper for carrying into execution the powers ofCongress.[Page H710]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Stop Online Booking Scams Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-02-12</actionDate>
+      <text>Referred to the Subcommittee on Commerce, Manufacturing, and Trade.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:20Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Frankel, Lois [D-FL-22]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>F000462</bioguideId>
+        <district>22</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Lois</firstName>
+        <lastName>Frankel</lastName>
+        <identifiers>
+          <lisID>2119</lisID>
+          <bioguideId>F000462</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

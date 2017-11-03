@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>2</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-07-29</actionDate>
+        <committee>
+          <systemCode>hsju01</systemCode>
+          <name>Immigration and Border Security Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to House Oversight and Government Reform</text>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-09</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Judiciary</text>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-09</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <links />
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-09</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-09</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-09</actionDate>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:02:39Z</updateDate>
+    <introducedDate>2015-07-09</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-10T09:26:19Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Lou</firstName>
+        <lastName>Barletta</lastName>
+        <state>PA</state>
+        <bioguideId>B001269</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2054</lisID>
+          <bioguideId>B001269</bioguideId>
+          <gpoId>8129</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Barletta, Lou [R-PA-11]</fullName>
+        <district>11</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Mobilizing Against Sanctuary Cities Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To prohibit the receipt of Federal financial assistance by sanctuary cities, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Mobilizing Against Sanctuary Cities Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <state>PA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Marino</lastName>
+        <middleName />
+        <district>10</district>
+        <fullName>Rep. Marino, Tom [R-PA-10]</fullName>
+        <identifiers>
+          <bioguideId>M001179</bioguideId>
+          <gpoId>8128</gpoId>
+          <lisID>2053</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001179</bioguideId>
+        <firstName>Tom</firstName>
+      </item>
+      <item>
+        <state>AL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Brooks</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <identifiers>
+          <bioguideId>B001274</bioguideId>
+          <gpoId>7790</gpoId>
+          <lisID>1987</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001274</bioguideId>
+        <firstName>Mo</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Babin</lastName>
+        <middleName />
+        <district>36</district>
+        <fullName>Rep. Babin, Brian [R-TX-36]</fullName>
+        <identifiers>
+          <lisID>2270</lisID>
+          <bioguideId>B001291</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001291</bioguideId>
+        <firstName>Brian</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Brat</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Brat, Dave [R-VA-7]</fullName>
+        <identifiers>
+          <lisID>2203</lisID>
+          <bioguideId>B001290</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001290</bioguideId>
+        <firstName>Dave</firstName>
+      </item>
+      <item>
+        <state>OK</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bridenstine</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <identifiers>
+          <lisID>2155</lisID>
+          <gpoId />
+          <bioguideId>B001283</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001283</bioguideId>
+        <firstName>Jim</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Duncan</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <identifiers>
+          <lisID>2057</lisID>
+          <gpoId>8143</gpoId>
+          <bioguideId>D000615</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000615</bioguideId>
+        <firstName>Jeff</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Yoho</lastName>
+        <middleName>S.</middleName>
+        <district>3</district>
+        <fullName>Rep. Yoho, Ted S. [R-FL-3]</fullName>
+        <identifiers>
+          <lisID>2115</lisID>
+          <bioguideId>Y000065</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000065</bioguideId>
+        <firstName>Ted</firstName>
+      </item>
+      <item>
+        <state>AL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ADERHOLT</lastName>
+        <middleName>B.</middleName>
+        <district>4</district>
+        <fullName>Rep. Aderholt, Robert B. [R-AL-4]</fullName>
+        <identifiers>
+          <bioguideId>A000055</bioguideId>
+          <gpoId>7789</gpoId>
+          <lisID>1460</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000055</bioguideId>
+        <firstName>ROBERT</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Carter</lastName>
+        <middleName>L. "Buddy"</middleName>
+        <district>1</district>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <identifiers>
+          <lisID>2236</lisID>
+          <gpoId />
+          <bioguideId>C001103</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001103</bioguideId>
+        <firstName>Earl</firstName>
+      </item>
+      <item>
+        <state>AZ</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gosar</lastName>
+        <middleName>A.</middleName>
+        <district>4</district>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000565</bioguideId>
+        <firstName>Paul</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Olson</lastName>
+        <middleName />
+        <district>22</district>
+        <fullName>Rep. Olson, Pete [R-TX-22]</fullName>
+        <identifiers>
+          <lisID>1955</lisID>
+          <bioguideId>O000168</bioguideId>
+          <gpoId>8178</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>O000168</bioguideId>
+        <firstName>Pete</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Joyce</lastName>
+        <middleName>P.</middleName>
+        <district>14</district>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <identifiers>
+          <bioguideId>J000295</bioguideId>
+          <gpoId />
+          <lisID>2154</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000295</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Renacci</lastName>
+        <middleName>B.</middleName>
+        <district>16</district>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <identifiers>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+          <lisID>2048</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000586</bioguideId>
+        <firstName>James</firstName>
+      </item>
+      <item>
+        <state>LA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Abraham</lastName>
+        <middleName>Lee</middleName>
+        <district>5</district>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <identifiers>
+          <lisID>2244</lisID>
+          <gpoId />
+          <bioguideId>A000374</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000374</bioguideId>
+        <firstName>Ralph</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Neugebauer</lastName>
+        <middleName />
+        <district>19</district>
+        <fullName>Rep. Neugebauer, Randy [R-TX-19]</fullName>
+        <identifiers>
+          <bioguideId>N000182</bioguideId>
+          <gpoId>8175</gpoId>
+          <lisID>1758</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000182</bioguideId>
+        <firstName>Randy</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MICA</lastName>
+        <middleName>L.</middleName>
+        <district>7</district>
+        <fullName>Rep. Mica, John L. [R-FL-7]</fullName>
+        <identifiers>
+          <lisID>800</lisID>
+          <bioguideId>M000689</bioguideId>
+          <gpoId>7879</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M000689</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Sanford</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Sanford, Mark [R-SC-1]</fullName>
+        <identifiers>
+          <lisID>1012</lisID>
+          <bioguideId>S000051</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000051</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SESSIONS</lastName>
+        <middleName />
+        <district>32</district>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <identifiers>
+          <lisID>1525</lisID>
+          <bioguideId>S000250</bioguideId>
+          <gpoId>8188</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000250</bioguideId>
+        <firstName>PETE</firstName>
+      </item>
+      <item>
+        <state>ND</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cramer</lastName>
+        <middleName />
+        <district>0</district>
+        <fullName>Rep. Cramer, Kevin [R-ND-At Large]</fullName>
+        <identifiers>
+          <lisID>2144</lisID>
+          <bioguideId>C001096</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001096</bioguideId>
+        <firstName>Kevin</firstName>
+      </item>
+      <item>
+        <state>AZ</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Schweikert</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <identifiers>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+          <lisID>1994</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001183</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>LA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Fleming</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Fleming, John [R-LA-4]</fullName>
+        <identifiers>
+          <gpoId>7962</gpoId>
+          <lisID>1924</lisID>
+          <bioguideId>F000456</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>F000456</bioguideId>
+        <firstName>John</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CHABOT</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Chabot, Steve [R-OH-1]</fullName>
+        <identifiers>
+          <bioguideId>C000266</bioguideId>
+          <gpoId>8091</gpoId>
+          <lisID>186</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000266</bioguideId>
+        <firstName>STEVE</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CULBERSON</lastName>
+        <middleName>ABNEY</middleName>
+        <district>7</district>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <identifiers>
+          <lisID>1670</lisID>
+          <bioguideId>C001048</bioguideId>
+          <gpoId>8163</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-12-09</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001048</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Scott</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Scott, Austin [R-GA-8]</fullName>
+        <identifiers>
+          <bioguideId>S001189</bioguideId>
+          <gpoId>7905</gpoId>
+          <lisID>2009</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001189</bioguideId>
+        <firstName>Austin</firstName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BARLETTA:H.R. 3002.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 4 of the U.S. Constitution[Page H5030]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Intergovernmental relations</name>
+          </item>
+          <item>
+            <name>State and local finance</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <activities>
+                <item>
+                  <date>2015-07-29T18:48:37Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-07-09T14:02:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-07-09T14:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-29</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3073</number>
+        <type>HR</type>
+        <latestTitle>SAFE Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-29</actionDate>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Mobilizing Against Sanctuary Cities Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Mobilizing Against Sanctuary Cities Act </strong></p> <p>Prohibits a state or local government from receiving federal financial assistance for a minimum of one year if it restricts or prohibits a government entity or official from: (1) sending to or receiving from the responsible federal immigration agency information regarding an individual's citizenship or immigration status, or (2) maintaining or exchanging information about an individual's status.</p> <p>Restores assistance eligibility upon a Department of Justice (DOJ) determination that the jurisdiction no longer restricts or prohibits such actions.</p> <p>Directs DOJ to report each year to Congress regarding state or local jurisdictions that restrict or prohibit such actions.</p>]]></text>
+          <lastSummaryUpdateDate>2015-07-15T15:05:09Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-09T04:00:00Z</updateDate>
+          <actionDate>2015-07-09</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3002</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-07-14</actionDate>
+        <committee>
+          <systemCode>ssfr00</systemCode>
+          <name>Foreign Relations Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:11:47Z</updateDate>
+    <introducedDate>2016-07-14</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-15T07:14:53Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <state>CT</state>
+        <bioguideId>B001277</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2076</lisID>
+          <gpoId>8332</gpoId>
+          <bioguideId>B001277</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Remedies for Refusal of Repatriation Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to provide penalties for countries that systematically and unreasonably refuse or delay repatriation of certain nationals and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Remedies for Refusal of Repatriation Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <firstName>John</firstName>
+        <lastName>Cornyn</lastName>
+        <state>TX</state>
+        <bioguideId>C001056</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>C001056</bioguideId>
+          <gpoId>8295</gpoId>
+          <lisID>1692</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+      </item>
+      <item>
+        <firstName>Christopher</firstName>
+        <lastName>Murphy</lastName>
+        <state>CT</state>
+        <bioguideId>M001169</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1837</lisID>
+          <bioguideId>M001169</bioguideId>
+          <gpoId>7870</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Murphy, Christopher [D-CT]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Citizenship and naturalization</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Diplomacy, foreign officials, Americans abroad</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>International Affairs</name>
+          </item>
+          <item>
+            <name>Terrorism</name>
+          </item>
+          <item>
+            <name>Violent crime</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>ssfr00</systemCode>
+          <name>Foreign Relations Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2016-07-14T22:03:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-14</actionDate>
+      <text>Read twice and referred to the Committee on Foreign Relations.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2016-09-26</actionDate>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        </latestAction>
+        <number>5988</number>
+        <type>HR</type>
+        <latestTitle>Remedies for Refusal of Repatriation Act</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Remedies for Refusal of Repatriation Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-11-08T22:58:27Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Remedies for Refusal of Repatriation Act</strong></p> <p>This bill requires the Department of Homeland Security (DHS) to establish procedures for determining whether a foreign government systematically and unreasonably refuses or delays the repatriation of its nationals who: (1) have been ordered deported by the United States; and (2) have been convicted of a felony or a crime of violence or are a threat to national security or public safety.</p> <p>Upon determining that a country does refuse or delay repatriation of its citizens, DHS shall notify the Department of State and the two departments shall meet with the country's representatives and notify them that the United States may deny visas to their nationals. </p> <p>If the country continues to refuse or delay the repatriation of its nationals, the State Department shall discontinue the issuance of visas, unless DHS determines that such discontinuance is not in U.S. interests. </p> <p>DHS and the State Department shall list such countries on their websites.</p>]]></text>
+          <updateDate>2016-07-14T04:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-07-14</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3277</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-12</actionDate>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <committee>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:06:30Z</updateDate>
+    <introducedDate>2016-12-12</introducedDate>
+    <recordedVotes />
+    <createDate>2016-12-13T04:51:20Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Tom</firstName>
+        <lastName>Emmer</lastName>
+        <state>MN</state>
+        <bioguideId>E000294</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2253</lisID>
+          <bioguideId>E000294</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To eliminate the discretion of the Secretary of Homeland Security regarding the definition of the term "official purpose" as it applies to drivers' licenses and personal identification cards, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To eliminate the discretion of the Secretary of Homeland Security regarding the definition of the term "official purpose" as it applies to drivers' licenses and personal identification cards, and for other purposes.</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. EMMER of Minnesota:H.R. 6526.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18[Page H7577]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Department of Homeland Security</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Motor vehicles</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+          <activities>
+            <item>
+              <date>2016-12-12T20:00:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-12-12</actionDate>
+      <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To eliminate the discretion of the Secretary of Homeland Security regarding the definition of the term "official purpose" as it applies to drivers' licenses and personal identification cards, and for other purposes.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-12-12</actionDate>
+          <lastSummaryUpdateDate>2017-01-24T21:11:39Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-12-12T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the Emergency Supplemental Appropriations Act for Defense, the Global War on Terror, and Tsunami Relief, 2005 to eliminate the discretionary authority of the Department of Homeland Security to determine what is considered an &quot;official purpose&quot; for purposes of federal agency acceptance of state-issued drivers' licenses and personal identification cards.</p> <UL> </UL>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>6526</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

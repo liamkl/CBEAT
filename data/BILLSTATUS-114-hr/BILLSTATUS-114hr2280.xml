@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-13</actionDate>
+        <committee>
+          <systemCode>hspw13</systemCode>
+          <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Griffith, H. Morgan [R-VA-9]</fullName>
+        <district>9</district>
+        <middleName>Morgan</middleName>
+        <state>VA</state>
+        <firstName>H.</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000568</bioguideId>
+          <gpoId>8200</gpoId>
+          <lisID>2070</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>G000568</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Griffith</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <district>3</district>
+        <middleName>M.</middleName>
+        <state>AZ</state>
+        <firstName>Raul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grijalva</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <district>20</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Paul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1942</lisID>
+          <bioguideId>T000469</bioguideId>
+          <gpoId>8082</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>T000469</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Tonko</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <district>11</district>
+        <middleName>E.</middleName>
+        <state>VA</state>
+        <firstName>Gerald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001078</bioguideId>
+          <gpoId>8202</gpoId>
+          <lisID>1959</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>C001078</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Connolly</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>TN</state>
+        <firstName>Steve</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cohen</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <district>13</district>
+        <middleName>B.</middleName>
+        <state>NY</state>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>944</lisID>
+          <gpoId>8076</gpoId>
+          <bioguideId>R000053</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>R000053</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>RANGEL</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CONYERS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>WI</state>
+        <firstName>RON</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8216</gpoId>
+          <lisID>1498</lisID>
+          <bioguideId>K000188</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <bioguideId>K000188</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>KIND</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <district>17</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Matt</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2159</lisID>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <bioguideId>C001090</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cartwright</lastName>
+      </item>
+      <item>
+        <fullName>Rep. McNerney, Jerry [D-CA-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>Jerry</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001166</bioguideId>
+          <gpoId>7816</gpoId>
+          <lisID>1832</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-18</sponsorshipDate>
+        <bioguideId>M001166</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>McNerney</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <district>19</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>ZOE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7821</gpoId>
+          <lisID>701</lisID>
+          <bioguideId>L000397</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <bioguideId>L000397</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>LOFGREN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-8]</fullName>
+        <district>8</district>
+        <middleName>F.</middleName>
+        <state>MA</state>
+        <firstName>Stephen</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1686</lisID>
+          <bioguideId>L000562</bioguideId>
+          <gpoId>7974</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-06-09</sponsorshipDate>
+        <bioguideId>L000562</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lynch</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <district>1</district>
+        <middleName>N.</middleName>
+        <state>RI</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8139</gpoId>
+          <lisID>2055</lisID>
+          <bioguideId>C001084</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <bioguideId>C001084</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cicilline</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <district>8</district>
+        <middleName>S.</middleName>
+        <state>VA</state>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <bioguideId>B001292</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Beyer</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <district>4</district>
+        <middleName>E.</middleName>
+        <state>NC</state>
+        <firstName>DAVID</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000523</bioguideId>
+          <gpoId>8027</gpoId>
+          <lisID>930</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <bioguideId>P000523</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>PRICE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Beatty, Joyce [D-OH-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>OH</state>
+        <firstName>Joyce</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2153</lisID>
+          <bioguideId>B001281</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <bioguideId>B001281</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Beatty</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <district>9</district>
+        <middleName>D.</middleName>
+        <state>IL</state>
+        <firstName>JANICE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7929</gpoId>
+          <lisID>1588</lisID>
+          <bioguideId>S001145</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <bioguideId>S001145</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>SCHAKOWSKY</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <district>40</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>LUCILLE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000486</bioguideId>
+          <gpoId>7839</gpoId>
+          <lisID>997</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>R000486</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ROYBAL-ALLARD</lastName>
+      </item>
+      <item>
+        <fullName>Rep. DelBene, Suzan K. [D-WA-1]</fullName>
+        <district>1</district>
+        <middleName>K.</middleName>
+        <state>WA</state>
+        <firstName>Suzan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>D000617</bioguideId>
+          <gpoId>8374</gpoId>
+          <lisID>2096</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <bioguideId>D000617</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>DelBene</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Schiff, Adam B. [D-CA-28]</fullName>
+        <district>28</district>
+        <middleName>B.</middleName>
+        <state>CA</state>
+        <firstName>ADAM</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S001150</bioguideId>
+          <gpoId>7834</gpoId>
+          <lisID>1635</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-09-17</sponsorshipDate>
+        <bioguideId>S001150</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>SCHIFF</lastName>
+      </item>
+      <item>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <district>2</district>
+        <middleName>P.</middleName>
+        <state>MA</state>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-09-24</sponsorshipDate>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>MCGOVERN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <district>18</district>
+        <middleName>G.</middleName>
+        <state>CA</state>
+        <firstName>ANNA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>355</lisID>
+          <bioguideId>E000215</bioguideId>
+          <gpoId>7819</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>E000215</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ESHOO</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <district>0</district>
+        <middleName>HOLMES</middleName>
+        <state>DC</state>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>NORTON</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7814</gpoId>
+          <lisID>1501</lisID>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>LEE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <district>5</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>Keith</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>E000288</bioguideId>
+          <gpoId>8005</gpoId>
+          <lisID>1857</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-09-14</sponsorshipDate>
+        <bioguideId>E000288</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ellison</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Zeldin, Lee M. [R-NY-1]</fullName>
+        <district>1</district>
+        <middleName>M.</middleName>
+        <state>NY</state>
+        <firstName>Lee</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2261</lisID>
+          <bioguideId>Z000017</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-27</sponsorshipDate>
+        <bioguideId>Z000017</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Zeldin</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>WA</state>
+        <firstName>ADAM</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8213</gpoId>
+          <lisID>1528</lisID>
+          <bioguideId>S000510</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <bioguideId>S000510</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>SMITH</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-05-12</introducedDate>
+    <latestAction>
+      <actionDate>2015-05-13</actionDate>
+      <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+      <links />
+    </latestAction>
+    <billNumber>2280</billNumber>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Federal Bird-Safe Buildings Act of 2015</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend title 40, United States Code, to direct the Administrator of General Services to incorporate bird-safe building materials and design features into public buildings, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Federal Bird-Safe Buildings Act of 2015</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. QUIGLEY:H.R. 2280.Congress has the power to enact this legislation pursuantto the following:Section 8 of Article I of the Constituion[Page H2878]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Federal Bird-Safe Buildings Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-05-12</actionDate>
+          <lastSummaryUpdateDate>2015-07-22T17:50:31Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-05-12T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Federal Bird-Safe Buildings Act of 2015</strong></p> <p>Requires each public building constructed, substantially altered, or acquired by the General Services Administration (GSA) to meet the following standards:</p> <ul> <li>at least 90% of the exposed facade material from ground level to 40 feet shall not be composed of glass or shall be composed of glass employing elements that preclude bird collisions without completely obscuring vision, ultraviolet (UV) patterned glass that contains UV-reflective or contrasting patterns that are visible to birds, patterns on glass designed in accordance with a rule that restricts horizontal spaces to less than 2 inches high and vertical spaces to less than 4 inches wide, opaque, etched, stained, frosted, or translucent glass, orany combination of these methods (modified glass);</li> <li>at least 60% of the exposed facade material above 40 feet shall meet such glass standard;</li> <li>there shall not be any transparent passageways or corners;</li> <li>all glass adjacent to atria or courtyards containing water features, plants, and other materials attractive to birds shall meet the modified glass standard; and</li> <li>outside lighting shall be appropriately shielded and minimized.</li> </ul> <p>Directs GSA to: (1) ensure that actual bird mortality is monitored at each public building; and (2) reduce exterior building and site lighting for each public building, where practicable.</p> <p>Exempts historic buildings of national significance, the White House and its grounds, the Supreme Court building and its grounds, or the U.S. Capitol and its related buildings and grounds.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Transportation and Infrastructure Committee</name>
+          <subcommittees>
+            <item>
+              <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2015-05-13T20:57:04Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hspw13</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-05-12T16:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:36Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Animal protection and human-animal relationships</name>
+          </item>
+          <item>
+            <name>Birds</name>
+          </item>
+          <item>
+            <name>Building construction</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Lighting and heating</name>
+          </item>
+          <item>
+            <name>Wildlife conservation and habitat protection</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-05-13T08:46:06Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <state>IL</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Quigley</lastName>
+        <firstName>Mike</firstName>
+        <bioguideId>Q000023</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1967</lisID>
+          <bioguideId>Q000023</bioguideId>
+          <gpoId>7925</gpoId>
+        </identifiers>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

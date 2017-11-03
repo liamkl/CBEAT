@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-09-30</actionDate>
+        <committee>
+          <systemCode>hssy20</systemCode>
+          <name>Energy Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to House Science, Space, and Technology</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-15</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Ways and Means</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-15</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-15</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-15</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-15</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:28Z</updateDate>
+    <introducedDate>2016-06-15</introducedDate>
+    <recordedVotes />
+    <createDate>2016-06-16T04:46:10Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>RON</firstName>
+        <lastName>KIND</lastName>
+        <state>WI</state>
+        <bioguideId>K000188</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>K000188</bioguideId>
+          <gpoId>8216</gpoId>
+          <lisID>1498</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Agriculture Environmental Stewardship Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to make qualified biogas property and qualified manure resource recovery property eligible for the energy credit and to permit new clean renewable energy bonds to finance qualified biogas property, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Agriculture Environmental Stewardship Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>R000585</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Tom</firstName>
+        <identifiers>
+          <bioguideId>R000585</bioguideId>
+          <gpoId>8090</gpoId>
+          <lisID>1982</lisID>
+        </identifiers>
+        <fullName>Rep. Reed, Tom [R-NY-23]</fullName>
+        <district>23</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Reed</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>W000799</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>MN</state>
+        <firstName>Timothy</firstName>
+        <identifiers>
+          <lisID>1856</lisID>
+          <bioguideId>W000799</bioguideId>
+          <gpoId>8001</gpoId>
+        </identifiers>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Walz</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000587</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <firstName>Reid</firstName>
+        <identifiers>
+          <lisID>2073</lisID>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+        </identifiers>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <district>8</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Ribble</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>W000800</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>VT</state>
+        <firstName>Peter</firstName>
+        <identifiers>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <district>0</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Welch</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000607</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <firstName>Mark</firstName>
+        <identifiers>
+          <lisID>2171</lisID>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Pocan</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S001148</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>ID</state>
+        <firstName>MICHAEL</firstName>
+        <identifiers>
+          <lisID>1590</lisID>
+          <gpoId>7920</gpoId>
+          <bioguideId>S001148</bioguideId>
+        </identifiers>
+        <fullName>Rep. Simpson, Michael K. [R-ID-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>SIMPSON</lastName>
+        <middleName>K.</middleName>
+      </item>
+      <item>
+        <bioguideId>S001196</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Elise</firstName>
+        <identifiers>
+          <gpoId />
+          <lisID>2263</lisID>
+          <bioguideId>S001196</bioguideId>
+        </identifiers>
+        <fullName>Rep. Stefanik, Elise M. [R-NY-21]</fullName>
+        <district>21</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Stefanik</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>V000129</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>David</firstName>
+        <identifiers>
+          <bioguideId>V000129</bioguideId>
+          <gpoId />
+          <lisID>2105</lisID>
+        </identifiers>
+        <fullName>Rep. Valadao, David G. [R-CA-21]</fullName>
+        <district>21</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Valadao</lastName>
+        <middleName>G.</middleName>
+      </item>
+      <item>
+        <bioguideId>M001194</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>John</firstName>
+        <identifiers>
+          <gpoId />
+          <lisID>2248</lisID>
+          <bioguideId>M001194</bioguideId>
+        </identifiers>
+        <fullName>Rep. Moolenaar, John R. [R-MI-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Moolenaar</lastName>
+        <middleName>R.</middleName>
+      </item>
+      <item>
+        <bioguideId>D000617</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>WA</state>
+        <firstName>Suzan</firstName>
+        <identifiers>
+          <lisID>2096</lisID>
+          <gpoId>8374</gpoId>
+          <bioguideId>D000617</bioguideId>
+        </identifiers>
+        <fullName>Rep. DelBene, Suzan K. [D-WA-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>DelBene</lastName>
+        <middleName>K.</middleName>
+      </item>
+      <item>
+        <bioguideId>C001069</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CT</state>
+        <firstName>Joe</firstName>
+        <identifiers>
+          <lisID>1836</lisID>
+          <bioguideId>C001069</bioguideId>
+          <gpoId>7867</gpoId>
+        </identifiers>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Courtney</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>G000563</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>Bob</firstName>
+        <identifiers>
+          <lisID>2049</lisID>
+          <bioguideId>G000563</bioguideId>
+          <gpoId>8108</gpoId>
+        </identifiers>
+        <fullName>Rep. Gibbs, Bob [R-OH-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Gibbs</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>N000189</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>WA</state>
+        <firstName>Dan</firstName>
+        <identifiers>
+          <lisID>2275</lisID>
+          <bioguideId>N000189</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Newhouse, Dan [R-WA-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <lastName>Newhouse</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>K000386</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>John</firstName>
+        <identifiers>
+          <lisID>2264</lisID>
+          <bioguideId>K000386</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Katko, John [R-NY-24]</fullName>
+        <district>24</district>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <lastName>Katko</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S001180</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>OR</state>
+        <firstName>Kurt</firstName>
+        <identifiers>
+          <bioguideId>S001180</bioguideId>
+          <gpoId>8118</gpoId>
+          <lisID>1950</lisID>
+        </identifiers>
+        <fullName>Rep. Schrader, Kurt [D-OR-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <lastName>Schrader</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001092</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Chris</firstName>
+        <identifiers>
+          <bioguideId>C001092</bioguideId>
+          <gpoId />
+          <lisID>2151</lisID>
+        </identifiers>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <district>27</district>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <lastName>Collins</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>E000293</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>CT</state>
+        <firstName>Elizabeth</firstName>
+        <identifiers>
+          <bioguideId>E000293</bioguideId>
+          <gpoId />
+          <lisID>2114</lisID>
+        </identifiers>
+        <fullName>Rep. Esty, Elizabeth H. [D-CT-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <lastName>Esty</lastName>
+        <middleName>H.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Thomas</firstName>
+        <identifiers>
+          <lisID>1916</lisID>
+          <bioguideId>R000583</bioguideId>
+          <gpoId>7888</gpoId>
+        </identifiers>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <lastName>Rooney</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>P000258</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>MN</state>
+        <firstName>COLLIN</firstName>
+        <identifiers>
+          <gpoId>8007</gpoId>
+          <lisID>910</lisID>
+          <bioguideId>P000258</bioguideId>
+        </identifiers>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <lastName>PETERSON</lastName>
+        <middleName>C.</middleName>
+      </item>
+      <item>
+        <bioguideId>W000813</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IN</state>
+        <firstName>Jackie</firstName>
+        <identifiers>
+          <lisID>2128</lisID>
+          <gpoId />
+          <bioguideId>W000813</bioguideId>
+        </identifiers>
+        <fullName>Rep. Walorski, Jackie [R-IN-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <lastName>Walorski</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001294</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IA</state>
+        <firstName>Rod</firstName>
+        <identifiers>
+          <bioguideId>B001294</bioguideId>
+          <gpoId />
+          <lisID>2241</lisID>
+        </identifiers>
+        <fullName>Rep. Blum, Rod [R-IA-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <lastName>Blum</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>H001051</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Richard</firstName>
+        <identifiers>
+          <lisID>2044</lisID>
+          <bioguideId>H001051</bioguideId>
+          <gpoId>8085</gpoId>
+        </identifiers>
+        <fullName>Rep. Hanna, Richard L. [R-NY-22]</fullName>
+        <district>22</district>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <lastName>Hanna</lastName>
+        <middleName>L.</middleName>
+      </item>
+      <item>
+        <bioguideId>E000294</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MN</state>
+        <firstName>Tom</firstName>
+        <identifiers>
+          <lisID>2253</lisID>
+          <gpoId />
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <lastName>Emmer</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>T000467</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>PA</state>
+        <firstName>Glenn</firstName>
+        <identifiers>
+          <lisID>1952</lisID>
+          <gpoId>8123</gpoId>
+          <bioguideId>T000467</bioguideId>
+        </identifiers>
+        <fullName>Rep. Thompson, Glenn [R-PA-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <lastName>Thompson</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000603</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <firstName>David</firstName>
+        <identifiers>
+          <lisID>2256</lisID>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <lastName>Rouzer</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000592</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IN</state>
+        <firstName>Todd</firstName>
+        <identifiers>
+          <bioguideId>R000592</bioguideId>
+          <gpoId>7943</gpoId>
+          <lisID>2017</lisID>
+        </identifiers>
+        <fullName>Rep. Rokita, Todd [R-IN-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <lastName>Rokita</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S001154</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>PA</state>
+        <firstName>Bill</firstName>
+        <identifiers>
+          <bioguideId>S001154</bioguideId>
+          <gpoId>8127</gpoId>
+          <lisID>1681</lisID>
+        </identifiers>
+        <fullName>Rep. Shuster, Bill [R-PA-9]</fullName>
+        <district>9</district>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <lastName>Shuster</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S001187</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>Steve</firstName>
+        <identifiers>
+          <lisID>2047</lisID>
+          <gpoId>8105</gpoId>
+          <bioguideId>S001187</bioguideId>
+        </identifiers>
+        <fullName>Rep. Stivers, Steve [R-OH-15]</fullName>
+        <district>15</district>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <lastName>Stivers</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>K000382</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NH</state>
+        <firstName>Ann</firstName>
+        <identifiers>
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <lastName>Kuster</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>D000614</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <firstName>Sean</firstName>
+        <identifiers>
+          <lisID>2072</lisID>
+          <gpoId>8220</gpoId>
+          <bioguideId>D000614</bioguideId>
+        </identifiers>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <lastName>Duffy</lastName>
+        <middleName>P.</middleName>
+      </item>
+      <item>
+        <bioguideId>T000238</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>WILLIAM</firstName>
+        <identifiers>
+          <lisID>1155</lisID>
+          <bioguideId>T000238</bioguideId>
+          <gpoId>8755</gpoId>
+        </identifiers>
+        <fullName>Rep. Thornberry, Mac [R-TX-13]</fullName>
+        <district>13</district>
+        <sponsorshipDate>2016-11-29</sponsorshipDate>
+        <lastName>THORNBERRY</lastName>
+        <middleName>M.</middleName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. KIND:H.R. 5489.Congress has the power to enact this legislation pursuantto the following:Article I, Section 7, Clause 1``All Bills for raising Revenue shall orginate in the Houseof Representatives''[Page H3914]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Agricultural conservation and pollution</name>
+          </item>
+          <item>
+            <name>Agricultural equipment and machinery</name>
+          </item>
+          <item>
+            <name>Alternative and renewable resources</name>
+          </item>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Energy efficiency and conservation</name>
+          </item>
+          <item>
+            <name>Energy research</name>
+          </item>
+          <item>
+            <name>Energy storage, supplies, demand</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Livestock</name>
+          </item>
+          <item>
+            <name>Oil and gas</name>
+          </item>
+          <item>
+            <name>Pipelines</name>
+          </item>
+          <item>
+            <name>Securities</name>
+          </item>
+          <item>
+            <name>Solid waste and recycling</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Science, Space, and Technology Committee</name>
+          <subcommittees>
+            <item>
+              <name>Energy Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2016-09-30T15:25:43Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hssy20</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-06-15T14:01:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hssy00</systemCode>
+        </item>
+        <item>
+          <name>Ways and Means Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-06-15T14:01:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-30</actionDate>
+      <text>Referred to the Subcommittee on Energy.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2016-07-14</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <number>3248</number>
+        <type>S</type>
+        <latestTitle>Agriculture Environmental Stewardship Act of 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Agriculture Environmental Stewardship Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-10-12T19:03:59Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-06-15</actionDate>
+          <text><![CDATA[<p><b>Agriculture Environmental Stewardship Act of 2016 </b></p> <p>This bill amends the Internal Revenue Code to allow energy tax credits through 2020 for investments in: (1) qualified biogas property, or (2) qualified manure resource recovery property. The bill also permits new clean renewable energy bonds to be used for such properties.</p> <p>&quot;Qualified biogas property&quot; comprises a system that: (1) uses anaerobic digesters or other specified processes to convert biomass into a gas which is at least 52% methane; and (2) captures the gas for use as a fuel. The term includes property that cleans and conditions the gas for use as a fuel. </p> <p>&quot;Qualified manure resource recovery property&quot; comprises a system that uses specified processes to recover the nutrients nitrogen and phosphorus from a non-treated digestate or animal manure by reducing or separating at least 50% of the nutrients, excluding any reductions during the incineration, storage, composting, or field application of the non-treated digestate or animal manure. The term also includes certain processing equipment. </p> <p>The Department of the Treasury must enter into an agreement with the National Renewable Energy Laboratory for a study of biogas and report to Congress on the study. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-06-15T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5489</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

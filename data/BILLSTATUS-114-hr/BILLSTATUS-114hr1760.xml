@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-13</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-13</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-13</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:00:53Z</updateDate>
+    <introducedDate>2015-04-13</introducedDate>
+    <recordedVotes />
+    <createDate>2015-04-14T09:15:04Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Tom</firstName>
+        <lastName>Reed</lastName>
+        <state>NY</state>
+        <bioguideId>R000585</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1982</lisID>
+          <bioguideId>R000585</bioguideId>
+          <gpoId>8090</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Reed, Tom [R-NY-23]</fullName>
+        <district>23</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Buy Smarter and Save Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To promote strategic sourcing principles within the Federal Government.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Buy Smarter and Save Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Patrick</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2117</lisID>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>M001191</bioguideId>
+        <party>D</party>
+        <district>18</district>
+        <state>FL</state>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <lastName>Murphy</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Ami</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2102</lisID>
+          <bioguideId>B001287</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>B001287</bioguideId>
+        <party>D</party>
+        <district>7</district>
+        <state>CA</state>
+        <fullName>Rep. Bera, Ami [D-CA-7]</fullName>
+        <lastName>Bera</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1912</lisID>
+          <gpoId>7864</gpoId>
+          <bioguideId>C001077</bioguideId>
+        </identifiers>
+        <bioguideId>C001077</bioguideId>
+        <party>R</party>
+        <district>6</district>
+        <state>CO</state>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <lastName>Coffman</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Kurt</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S001180</bioguideId>
+          <gpoId>8118</gpoId>
+          <lisID>1950</lisID>
+        </identifiers>
+        <bioguideId>S001180</bioguideId>
+        <party>D</party>
+        <district>5</district>
+        <state>OR</state>
+        <fullName>Rep. Schrader, Kurt [D-OR-5]</fullName>
+        <lastName>Schrader</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Rodney</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2126</lisID>
+          <gpoId />
+          <bioguideId>D000619</bioguideId>
+        </identifiers>
+        <bioguideId>D000619</bioguideId>
+        <party>R</party>
+        <district>13</district>
+        <state>IL</state>
+        <fullName>Rep. Davis, Rodney [R-IL-13]</fullName>
+        <lastName>Davis</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2113</lisID>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>P000608</bioguideId>
+        <party>D</party>
+        <district>52</district>
+        <state>CA</state>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <lastName>Peters</lastName>
+        <middleName>H.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>231</lisID>
+          <bioguideId>C000754</bioguideId>
+          <gpoId>8152</gpoId>
+        </identifiers>
+        <bioguideId>C000754</bioguideId>
+        <party>D</party>
+        <district>5</district>
+        <state>TN</state>
+        <fullName>Rep. Cooper, Jim [D-TN-5]</fullName>
+        <lastName>COOPER</lastName>
+        <middleName>H.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Cheri</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2127</lisID>
+          <bioguideId>B001286</bioguideId>
+        </identifiers>
+        <bioguideId>B001286</bioguideId>
+        <party>D</party>
+        <district>17</district>
+        <state>IL</state>
+        <fullName>Rep. Bustos, Cheri [D-IL-17]</fullName>
+        <lastName>Bustos</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Reid</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+          <lisID>2073</lisID>
+        </identifiers>
+        <bioguideId>R000587</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>WI</state>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <lastName>Ribble</lastName>
+        <middleName>J.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Lynn</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>J000290</bioguideId>
+          <gpoId>7950</gpoId>
+          <lisID>1921</lisID>
+        </identifiers>
+        <bioguideId>J000290</bioguideId>
+        <party>R</party>
+        <district>2</district>
+        <state>KS</state>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <lastName>Jenkins</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>J000295</bioguideId>
+          <gpoId />
+          <lisID>2154</lisID>
+        </identifiers>
+        <bioguideId>J000295</bioguideId>
+        <party>R</party>
+        <district>14</district>
+        <state>OH</state>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <lastName>Joyce</lastName>
+        <middleName>P.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-20</sponsorshipDate>
+        <firstName>Kyrsten</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2099</lisID>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>S001191</bioguideId>
+        <party>D</party>
+        <district>9</district>
+        <state>AZ</state>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <lastName>Sinema</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-09</sponsorshipDate>
+        <firstName>Peter</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <bioguideId>W000800</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>VT</state>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <lastName>Welch</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-09</sponsorshipDate>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>V000129</bioguideId>
+          <gpoId />
+          <lisID>2105</lisID>
+        </identifiers>
+        <bioguideId>V000129</bioguideId>
+        <party>R</party>
+        <district>21</district>
+        <state>CA</state>
+        <fullName>Rep. Valadao, David G. [R-CA-21]</fullName>
+        <lastName>Valadao</lastName>
+        <middleName>G.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-09</sponsorshipDate>
+        <firstName>Derek</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2169</lisID>
+          <bioguideId>K000381</bioguideId>
+        </identifiers>
+        <bioguideId>K000381</bioguideId>
+        <party>D</party>
+        <district>6</district>
+        <state>WA</state>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <lastName>Kilmer</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-09</sponsorshipDate>
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2046</lisID>
+          <bioguideId>J000292</bioguideId>
+          <gpoId>8096</gpoId>
+        </identifiers>
+        <bioguideId>J000292</bioguideId>
+        <party>R</party>
+        <district>6</district>
+        <state>OH</state>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <lastName>Johnson</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-12</sponsorshipDate>
+        <firstName>Carlos</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2235</lisID>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>C001107</bioguideId>
+        <party>R</party>
+        <district>26</district>
+        <state>FL</state>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <lastName>Curbelo</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <firstName>Michael</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>F000451</bioguideId>
+          <gpoId>8126</gpoId>
+          <lisID>1797</lisID>
+        </identifiers>
+        <bioguideId>F000451</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>PA</state>
+        <fullName>Rep. Fitzpatrick, Michael G. [R-PA-8]</fullName>
+        <lastName>Fitzpatrick</lastName>
+        <middleName>G.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. REED:H.R. 1760.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H2154]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Accounting and auditing</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Department of Defense</name>
+          </item>
+          <item>
+            <name>Department of Energy</name>
+          </item>
+          <item>
+            <name>Department of Health and Human Services</name>
+          </item>
+          <item>
+            <name>Department of Homeland Security</name>
+          </item>
+          <item>
+            <name>Department of Veterans Affairs</name>
+          </item>
+          <item>
+            <name>General Services Administration</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Manufacturing</name>
+          </item>
+          <item>
+            <name>Military procurement, research, weapons development</name>
+          </item>
+          <item>
+            <name>National Aeronautics and Space Administration</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Small Business Administration</name>
+          </item>
+          <item>
+            <name>Small business</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-13T18:03:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-04-13</actionDate>
+      <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Buy Smarter and Save Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-04-13</actionDate>
+          <lastSummaryUpdateDate>2015-04-22T22:11:11Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Buy Smarter and Save Act of 2015</strong></p> <p>Directs the President to establish: (1) an annual government-wide goal to procure goods and services using strategic sourcing, and (2) an annual government-wide goal for savings from the use of strategic sourcing. Defines &quot;strategic sourcing&quot; as a structured and collaborative process of critically analyzing an organization's spending patterns to better leverage its purchasing power, reduce costs, and improve overall value and performance. </p> <p>Requires the Office of Management and Budget to: (1) issue guidance to executive agencies for implementing the strategic sourcing goals established by this Act, and (2) report on spending for goods and services that was strategically sourced and the extent of the savings realized. </p> <p>Directs the Departments of Defense, Homeland Security, Energy, Veterans Affairs, and Health and Human Services, the National Aeronautics and Space Administration (NASA), the General Services Administration, and the Small Business Administration to take certain actions to support strategic sourcing, including establishing department wide-goals and savings targets for strategic sourcing efforts and a strategic sourcing accountability official.</p> <p>Directs the Comptroller General to: (1) conduct studies on contract utilization fees and on establishing strategic sourcing initiative contract vehicles, and (2) assess and report on the performance of executive agencies in implementing the strategic sourcing goals required by this Act and the amounts saved through the use of strategic sourcing.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>1760</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-02-29</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-05</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Judiciary</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Energy and Commerce</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Sponsor introductory remarks on measure. (CR E122)</text>
+        <links>
+          <link>
+            <name>E122</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/extensions-of-remarks-section/page/E122</url>
+          </link>
+        </links>
+        <type>IntroReferral</type>
+        <actionCode>B00100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-04</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForB>1</placeholderTextForB>
+        <placeholderTextForH>2</placeholderTextForH>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:04:16Z</updateDate>
+    <introducedDate>2016-02-04</introducedDate>
+    <recordedVotes />
+    <createDate>2016-02-05T05:14:19Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <state>OR</state>
+        <bioguideId>B000574</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>MAILS Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Marijuana Advertising in Legal States Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend the Controlled Substances Act to allow for advertising relating to certain activities in compliance with State law.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>MAILS Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <lastName>ROHRABACHER</lastName>
+        <bioguideId>R000409</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>DANA</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>979</lisID>
+          <bioguideId>R000409</bioguideId>
+          <gpoId>7851</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Rohrabacher, Dana [R-CA-48]</fullName>
+        <district>48</district>
+      </item>
+      <item>
+        <lastName>Huffman</lastName>
+        <bioguideId>H001068</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Jared</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>2101</lisID>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Bonamici</lastName>
+        <bioguideId>B001278</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-04</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Suzanne</firstName>
+        <state>OR</state>
+        <identifiers>
+          <lisID>2092</lisID>
+          <bioguideId>B001278</bioguideId>
+          <gpoId>8367</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Bonamici, Suzanne [D-OR-1]</fullName>
+        <district>1</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BLUMENAUER:H.R. 4467.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause I[Page H591]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Marketing and advertising</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-04T15:04:20Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-29T15:53:51Z</date>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-04T15:04:15Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-05T15:58:14Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-02-29</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <type>S</type>
+        <latestTitle>MAILS Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-04</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S671-672; text of measure as introduced: CR S672)</text>
+        </latestAction>
+        <number>2504</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>MAILS Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Marijuana Advertising in Legal States Act of 2016 or the MAILS Act</b></p> <p>This bill amends the Controlled Substances Act to modify the application of a provision that limits advertisements with respect to certain controlled substances. </p> <p>Currently, it is a crime to knowingly place a written advertisement in a newspaper, magazine, handout, or other publication for the purpose of receiving, buying, or distributing a schedule 1 controlled substance (e.g., marijuana). This legislation declares that the prohibition does not apply with respect to an advertisement for a marijuana-related activity that complies with state law. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-02-04T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-07-01T18:02:41Z</lastSummaryUpdateDate>
+          <actionDate>2016-02-04</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4467</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

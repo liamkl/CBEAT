@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <actionStageOverride>2</actionStageOverride>
+        <considerationByHouse>1</considerationByHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <placeholderTextForH>1</placeholderTextForH>
+        <generalDebate>1</generalDebate>
+        <reportedToHouse>1</reportedToHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>15</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-07-06</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H38310</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>20:11:39</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H37300</actionCode>
+        <links>
+          <link>
+            <name>H4249</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4249</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>20:11:36</actionTime>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4249)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>8000</actionCode>
+        <links>
+          <link>
+            <name>H4249</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4249</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>20:11:36</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.(text: CR H4249)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H8D000</actionCode>
+        <links>
+          <link>
+            <name>H.R. 4538</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4538</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>19:57:16</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4538.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H30000</actionCode>
+        <links>
+          <link>
+            <name>H4248-4251</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4248-4251</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>19:57:13</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H4248-4251)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H30300</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>19:57:10</actionTime>
+        <text>Mr. Garrett moved to suspend the rules and pass the bill, as amended.</text>
+      </item>
+      <item>
+        <type>Calendars</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H12410</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <text>Placed on the Union Calendar, Calendar No. 510.</text>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>H12200</actionCode>
+        <links>
+          <link>
+            <name>H. Rept. 114-659</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/659</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 114-659.</text>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionCode>5000</actionCode>
+        <links>
+          <link>
+            <name>H. Rept. 114-659</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/659</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 114-659.</text>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 59 - 0.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-15</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-11</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Financial Services.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-11</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-11</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 4538, Senior$afe Act of 2016</title>
+        <pubDate>2016-07-01T16:42:00Z</pubDate>
+        <url>https://www.cbo.gov/publication/51761</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <state>ME</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Poliquin</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Poliquin, Bruce [R-ME-2]</fullName>
+        <identifiers>
+          <lisID>2247</lisID>
+          <bioguideId>P000611</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000611</bioguideId>
+        <firstName>Bruce</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Mulvaney</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <identifiers>
+          <gpoId>8145</gpoId>
+          <lisID>2059</lisID>
+          <bioguideId>M001182</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001182</bioguideId>
+        <firstName>Mick</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <middleName />
+        <district>18</district>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <identifiers>
+          <lisID>2117</lisID>
+          <gpoId />
+          <bioguideId>M001191</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001191</bioguideId>
+        <firstName>Patrick</firstName>
+      </item>
+      <item>
+        <state>AZ</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>McSally</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. McSally, Martha [R-AZ-2]</fullName>
+        <identifiers>
+          <lisID>2225</lisID>
+          <bioguideId>M001197</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-03-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001197</bioguideId>
+        <firstName>Martha</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>KING</lastName>
+        <middleName>T.</middleName>
+        <district>2</district>
+        <fullName>Rep. King, Peter T. [R-NY-2]</fullName>
+        <identifiers>
+          <bioguideId>K000210</bioguideId>
+          <gpoId>8064</gpoId>
+          <lisID>635</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000210</bioguideId>
+        <firstName>PETER</firstName>
+      </item>
+      <item>
+        <state>ME</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Pingree</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <identifiers>
+          <lisID>1927</lisID>
+          <gpoId>7984</gpoId>
+          <bioguideId>P000597</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000597</bioguideId>
+        <firstName>Chellie</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Hultgren</lastName>
+        <middleName />
+        <district>14</district>
+        <fullName>Rep. Hultgren, Randy [R-IL-14]</fullName>
+        <identifiers>
+          <lisID>2015</lisID>
+          <bioguideId>H001059</bioguideId>
+          <gpoId>7934</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001059</bioguideId>
+        <firstName>Randy</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Beyer</lastName>
+        <middleName>S.</middleName>
+        <district>8</district>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001292</bioguideId>
+        <firstName>Donald</firstName>
+      </item>
+      <item>
+        <state>NM</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Pearce</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <identifiers>
+          <gpoId>8057</gpoId>
+          <lisID>1738</lisID>
+          <bioguideId>P000588</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-06-07</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000588</bioguideId>
+        <firstName>Stevan</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Curbelo</lastName>
+        <middleName />
+        <district>26</district>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <identifiers>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+          <lisID>2235</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-06-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001107</bioguideId>
+        <firstName>Carlos</firstName>
+      </item>
+      <item>
+        <state>MO</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Wagner</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Wagner, Ann [R-MO-2]</fullName>
+        <identifiers>
+          <lisID>2137</lisID>
+          <gpoId />
+          <bioguideId>W000812</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-06-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000812</bioguideId>
+        <firstName>Ann</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Posey</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Posey, Bill [R-FL-8]</fullName>
+        <identifiers>
+          <lisID>1915</lisID>
+          <bioguideId>P000599</bioguideId>
+          <gpoId>7887</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000599</bioguideId>
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <state>IA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Young</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <identifiers>
+          <lisID>2242</lisID>
+          <bioguideId>Y000066</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-06-28</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000066</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Renacci</lastName>
+        <middleName>B.</middleName>
+        <district>16</district>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <identifiers>
+          <lisID>2048</lisID>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-06-28</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000586</bioguideId>
+        <firstName>James</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Wasserman Schultz</lastName>
+        <middleName />
+        <district>23</district>
+        <fullName>Rep. Wasserman Schultz, Debbie [D-FL-23]</fullName>
+        <identifiers>
+          <lisID>1777</lisID>
+          <bioguideId>W000797</bioguideId>
+          <gpoId>7892</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000797</bioguideId>
+        <firstName>Debbie</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-02-11</introducedDate>
+    <latestAction>
+      <actionDate>2016-07-06</actionDate>
+      <text>Received in the Senate.</text>
+      <links />
+    </latestAction>
+    <billNumber>4538</billNumber>
+    <titles>
+      <item>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <titleType>Short Titles as Passed House</titleType>
+        <title>Senior Safe Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <titleType>Short Titles as Reported to House</titleType>
+        <title>Senior$afe Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Senior$afe Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide immunity from suit for certain individuals who disclose potential examples of financial exploitation of senior citizens, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Senior Safe Act of 2016</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. SINEMA:H.R. 4538.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3; Article I, Section 8,Clause 18[Page H775]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers>
+      <item>
+        <number />
+        <calendar>U00510</calendar>
+      </item>
+    </calendarNumbers>
+    <title>Senior Safe Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Senior$afe Act of 2016</strong></p> <p>This bill provides that: (1) a supervisor, compliance officer, or legal advisor for a covered financial institution who has received training regarding the identification and reporting of the suspected exploitation of a senior citizen (at least 65 years old) shall not be liable for disclosing such exploitation to a covered agency if such individual made the disclosure in good faith and with reasonable care; and (2) a covered financial institution shall not be liable for such a disclosure by such an individual if such individual was employed by the institution at the time of the disclosure and the institution had provided such training.</p> <p>A &quot;covered financial institution&quot; means a bank, a credit union, an investment adviser, or a broker-dealer. A &quot;covered agency&quot; means each of the federal financial institutions regulatory agencies or a state financial regulatory agency, law enforcement agency, or adult protective services agency.</p> <p>A covered financial institution may provide such training to each of its supervisors, compliance officers, or legal advisors who: (1) may come into contact with a senior citizen as a regular part of such employee's duties; or (2) may review or approve the financial documents, records, or transactions of a senior citizen in connection with providing him or her financial services.</p>]]></text>
+          <lastSummaryUpdateDate>2016-03-29T17:23:16Z</lastSummaryUpdateDate>
+          <updateDate>2016-02-11T05:00:00Z</updateDate>
+          <actionDate>2016-02-11</actionDate>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <versionCode>36</versionCode>
+          <actionDesc>Passed House amended</actionDesc>
+          <text><![CDATA[<p><strong>Senior Safe Act of 2016</strong></p> <p>This bill provides immunity from liability of: (1) a supervisor, compliance officer (including a Bank Secrecy Act Officer), or registered representative for a covered financial institution who has received training in the identification and reporting of suspected exploitation of a senior citizen (at least 65 years old) and the protection of customer privacy that is appropriate to job responsibilities for disclosing such exploitation to a covered agency if the individual made the disclosure with reasonable care, including reasonable efforts to avoid disclosure other than to a covered agency; and (2) the financial institution for such a disclosure if the individual was employed by or, in the case of a registered representative, affiliated or associated with, the institution at the time of the disclosure and the institution had provided such training.</p> <p>A &quot;covered financial institution&quot; is a credit union, depository institution, investment advisor, broker-dealer, insurance company, or state attorney general. A "covered agency" is a state financial regulatory agency, each of the federal financial institutions regulatory agencies, the Securities and Exchange Commission, a law enforcement agency, a state or local agency responsible for administering adult protective service laws, or a state attorney general.</p> <p>A covered financial institution may provide such training to each of its supervisors, compliance officers (including a Bank Secrecy Act Officer), or registered representatives who: (1) may come into contact with a senior citizen as a regular part of duties; or (2) may review or approve the financial documents, records, or transactions of a senior citizen in connection with providing financial services.</p>]]></text>
+          <lastSummaryUpdateDate>2016-10-11T17:05:59Z</lastSummaryUpdateDate>
+          <updateDate>2016-07-05T14:46:41Z</updateDate>
+          <actionDate>2016-07-05</actionDate>
+          <name>Passed House amended</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>Senior$afe Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-10-28</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S7595-7596)</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>2216</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestTitle>Financial CHOICE Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-12-20</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 693.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>5983</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Financial Services Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-05T21:18:15Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2016-06-16T18:25:17Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2016-02-11T15:02:10Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsba00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-659</citation>
+      </committeeReport>
+    </committeeReports>
+    <updateDate>2017-10-27T18:04:21Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Aging</name>
+          </item>
+          <item>
+            <name>Banking and financial institutions regulation</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Employment discrimination and employee rights</name>
+          </item>
+          <item>
+            <name>Financial services and investments</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-02-12T05:11:17Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <state>AZ</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Sinema</lastName>
+        <firstName>Kyrsten</firstName>
+        <bioguideId>S001191</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2099</lisID>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-07-22</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-22</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:10:00Z</updateDate>
+    <introducedDate>2015-07-22</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-23T09:09:18Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <state>CT</state>
+        <bioguideId>B001277</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>B001277</bioguideId>
+          <gpoId>8332</gpoId>
+          <lisID>2076</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Lori Jackson Domestic Violence Survivor Protection Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend title 18, United States Code, to protect more victims of domestic violence by preventing their abusers from possessing or receiving firearms, and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Lori Jackson Domestic Violence Survivor Protection Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Murphy, Christopher [D-CT]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>M001169</bioguideId>
+        <middleName />
+        <state>CT</state>
+        <lastName>Murphy</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Christopher</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1837</lisID>
+          <bioguideId>M001169</bioguideId>
+          <gpoId>7870</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>B000711</bioguideId>
+        <middleName />
+        <state>CA</state>
+        <lastName>BOXER</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>116</lisID>
+          <bioguideId>B000711</bioguideId>
+          <gpoId>8306</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>D000563</bioguideId>
+        <middleName>J.</middleName>
+        <state>IL</state>
+        <lastName>DURBIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>RICHARD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>326</lisID>
+          <bioguideId>D000563</bioguideId>
+          <gpoId>8326</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>M000133</bioguideId>
+        <middleName>J.</middleName>
+        <state>MA</state>
+        <lastName>MARKEY</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>EDWARD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7972</gpoId>
+          <lisID>735</lisID>
+          <bioguideId>M000133</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Warren, Elizabeth [D-MA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>W000817</bioguideId>
+        <middleName>A.</middleName>
+        <state>MA</state>
+        <lastName>Warren</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Elizabeth</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2182</lisID>
+          <bioguideId>W000817</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>G000555</bioguideId>
+        <middleName>E.</middleName>
+        <state>NY</state>
+        <lastName>Gillibrand</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Kirsten</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1866</lisID>
+          <bioguideId>G000555</bioguideId>
+          <gpoId>8336</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Mikulski, Barbara A. [D-MD]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>M000702</bioguideId>
+        <middleName>ANN</middleName>
+        <state>MD</state>
+        <lastName>MIKULSKI</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>802</lisID>
+          <bioguideId>M000702</bioguideId>
+          <gpoId>8240</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>K000384</bioguideId>
+        <middleName />
+        <state>VA</state>
+        <lastName>Kaine</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Timothy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2176</lisID>
+          <bioguideId>K000384</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Murray, Patty [D-WA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>M001111</bioguideId>
+        <middleName />
+        <state>WA</state>
+        <lastName>MURRAY</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>PATTY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001111</bioguideId>
+          <gpoId>8237</gpoId>
+          <lisID>1409</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>H001042</bioguideId>
+        <middleName>K.</middleName>
+        <state>HI</state>
+        <lastName>Hirono</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Mazie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>H001042</bioguideId>
+          <gpoId>7913</gpoId>
+          <lisID>1844</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <bioguideId>B001230</bioguideId>
+        <middleName />
+        <state>WI</state>
+        <lastName>BALDWIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>TAMMY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8215</gpoId>
+          <lisID>1558</lisID>
+          <bioguideId>B001230</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Reed, Jack [D-RI]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>R000122</bioguideId>
+        <middleName>F.</middleName>
+        <state>RI</state>
+        <lastName>REED</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000122</bioguideId>
+          <gpoId>8272</gpoId>
+          <lisID>949</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-11-04</sponsorshipDate>
+        <bioguideId>S001181</bioguideId>
+        <middleName />
+        <state>NH</state>
+        <lastName>Shaheen</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Jeanne</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1901</lisID>
+          <bioguideId>S001181</bioguideId>
+          <gpoId>8276</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Assault and harassment offenses</name>
+          </item>
+          <item>
+            <name>Domestic violence and child abuse</name>
+          </item>
+          <item>
+            <name>Evidence and witnesses</name>
+          </item>
+          <item>
+            <name>Firearms and explosives</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+          <activities>
+            <item>
+              <date>2015-07-22T19:28:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-22</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>2216</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+          <actionDate>2015-06-01</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Protecting Domestic Violence and Stalking Victims Act</latestTitle>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Lori Jackson Domestic Violence Survivor Protection Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Lori Jackson Domestic Violence Survivor Protection Act</strong></p> <p> This bill amends federal firearms provisions to expand the definition of: (1) &quot;intimate partner&quot; to include a dating partner or former dating partner; and (2) &quot;misdemeanor crime of domestic violence&quot; to include a misdemeanor offense that has, as an element, the use or attempted use of force, or the threatened use of a deadly weapon, by a dating partner or former dating partner against the victim.</p> <p>The bill prohibits the sale or other disposition of a firearm or ammunition to, or the possession or receipt of a firearm by, a person subject to a court order, or an ex parte order, that restrains such person from: (1) harassing, stalking, threatening, or engaging in other conduct that would put an individual in reasonable fear of bodily injury, including an order issued at the request of an employer on behalf of its employee or at the request of an institution of higher education on behalf of its student; or (2) intimidating or dissuading a witness from testifying in court.</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-07-22T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-10-28T19:22:56Z</lastSummaryUpdateDate>
+          <actionDate>2015-07-22</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1834</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

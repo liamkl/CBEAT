@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-02-05</actionDate>
+        <committee>
+          <systemCode>hswm02</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-05</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to House Ways and Means</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-03</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Energy and Commerce</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-03</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-03</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-03</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-03</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <party>D</party>
+        <firstName>Peter</firstName>
+        <district>0</district>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Welch</lastName>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <bioguideId>W000800</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>VT</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <party>R</party>
+        <firstName>Gregg</firstName>
+        <district>3</district>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Harper</lastName>
+        <identifiers>
+          <lisID>1933</lisID>
+          <gpoId>8021</gpoId>
+          <bioguideId>H001045</bioguideId>
+        </identifiers>
+        <bioguideId>H001045</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MS</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <party>D</party>
+        <firstName>MIKE</firstName>
+        <district>5</district>
+        <fullName>Rep. Thompson, Mike [D-CA-5]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>THOMPSON</lastName>
+        <identifiers>
+          <bioguideId>T000460</bioguideId>
+          <gpoId>7806</gpoId>
+          <lisID>1593</lisID>
+        </identifiers>
+        <bioguideId>T000460</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <party>D</party>
+        <firstName>EARL</firstName>
+        <district>3</district>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BLUMENAUER</lastName>
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <bioguideId>B000574</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>OR</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <party>D</party>
+        <firstName>Doris</firstName>
+        <district>6</district>
+        <fullName>Rep. Matsui, Doris O. [D-CA-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Matsui</lastName>
+        <identifiers>
+          <lisID>1814</lisID>
+          <bioguideId>M001163</bioguideId>
+          <gpoId>7810</gpoId>
+        </identifiers>
+        <bioguideId>M001163</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>O.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <party>D</party>
+        <firstName>Tulsi</firstName>
+        <district>2</district>
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gabbard</lastName>
+        <identifiers>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+          <lisID>2122</lisID>
+        </identifiers>
+        <bioguideId>G000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>HI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <party>R</party>
+        <firstName>Bill</firstName>
+        <district>6</district>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Johnson</lastName>
+        <identifiers>
+          <lisID>2046</lisID>
+          <gpoId>8096</gpoId>
+          <bioguideId>J000292</bioguideId>
+        </identifiers>
+        <bioguideId>J000292</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>OH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <party>D</party>
+        <firstName>RUBEN</firstName>
+        <district>15</district>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>HINOJOSA</lastName>
+        <identifiers>
+          <lisID>1490</lisID>
+          <gpoId>8171</gpoId>
+          <bioguideId>H000636</bioguideId>
+        </identifiers>
+        <bioguideId>H000636</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <party>D</party>
+        <firstName>Jared</firstName>
+        <district>2</district>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Polis</lastName>
+        <identifiers>
+          <bioguideId>P000598</bioguideId>
+          <gpoId>7860</gpoId>
+          <lisID>1910</lisID>
+        </identifiers>
+        <bioguideId>P000598</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-24</sponsorshipDate>
+        <party>R</party>
+        <firstName>Earl</firstName>
+        <district>1</district>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Carter</lastName>
+        <identifiers>
+          <bioguideId>C001103</bioguideId>
+          <gpoId />
+          <lisID>2236</lisID>
+        </identifiers>
+        <bioguideId>C001103</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L. "Buddy"</middleName>
+        <state>GA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-25</sponsorshipDate>
+        <party>D</party>
+        <firstName>Donald</firstName>
+        <district>10</district>
+        <fullName>Rep. Payne, Donald M., Jr. [D-NJ-10]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Payne</lastName>
+        <identifiers>
+          <lisID>2097</lisID>
+          <bioguideId>P000604</bioguideId>
+          <gpoId>8373</gpoId>
+        </identifiers>
+        <bioguideId>P000604</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>NJ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <party>D</party>
+        <firstName>Brad</firstName>
+        <district>2</district>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ashford</lastName>
+        <identifiers>
+          <lisID>2257</lisID>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>A000373</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NE</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-15</sponsorshipDate>
+        <party>D</party>
+        <firstName>Joyce</firstName>
+        <district>3</district>
+        <fullName>Rep. Beatty, Joyce [D-OH-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Beatty</lastName>
+        <identifiers>
+          <lisID>2153</lisID>
+          <bioguideId>B001281</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>B001281</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>OH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>Brian</firstName>
+        <district>26</district>
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Higgins</lastName>
+        <identifiers>
+          <lisID>1794</lisID>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+        </identifiers>
+        <bioguideId>H001038</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-22</sponsorshipDate>
+        <party>D</party>
+        <firstName>Madeleine</firstName>
+        <district>0</district>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bordallo</lastName>
+        <identifiers>
+          <lisID>1723</lisID>
+          <bioguideId>B001245</bioguideId>
+          <gpoId>7911</gpoId>
+        </identifiers>
+        <bioguideId>B001245</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>Z.</middleName>
+        <state>GU</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Eric</firstName>
+        <district>15</district>
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Swalwell</lastName>
+        <identifiers>
+          <lisID>2104</lisID>
+          <bioguideId>S001193</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>S001193</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-14</sponsorshipDate>
+        <party>R</party>
+        <firstName>Ryan</firstName>
+        <district>6</district>
+        <fullName>Rep. Costello, Ryan A. [R-PA-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Costello</lastName>
+        <identifiers>
+          <lisID>2266</lisID>
+          <bioguideId>C001106</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>C001106</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-14</sponsorshipDate>
+        <party>R</party>
+        <firstName>Todd</firstName>
+        <district>4</district>
+        <fullName>Rep. Rokita, Todd [R-IN-4]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Rokita</lastName>
+        <identifiers>
+          <bioguideId>R000592</bioguideId>
+          <gpoId>7943</gpoId>
+          <lisID>2017</lisID>
+        </identifiers>
+        <bioguideId>R000592</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>IN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Dina</firstName>
+        <district>1</district>
+        <fullName>Rep. Titus, Dina [D-NV-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Titus</lastName>
+        <identifiers>
+          <gpoId>7493</gpoId>
+          <lisID>1940</lisID>
+          <bioguideId>T000468</bioguideId>
+        </identifiers>
+        <bioguideId>T000468</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NV</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-19</sponsorshipDate>
+        <party>D</party>
+        <firstName>John</firstName>
+        <district>3</district>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Garamendi</lastName>
+        <identifiers>
+          <lisID>1973</lisID>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+        </identifiers>
+        <bioguideId>G000559</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-19</sponsorshipDate>
+        <party>R</party>
+        <firstName>Evan</firstName>
+        <district>3</district>
+        <fullName>Rep. Jenkins, Evan H. [R-WV-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Jenkins</lastName>
+        <identifiers>
+          <bioguideId>J000297</bioguideId>
+          <gpoId />
+          <lisID>2278</lisID>
+        </identifiers>
+        <bioguideId>J000297</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>H.</middleName>
+        <state>WV</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <party>R</party>
+        <firstName>H.</firstName>
+        <district>9</district>
+        <fullName>Rep. Griffith, H. Morgan [R-VA-9]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Griffith</lastName>
+        <identifiers>
+          <lisID>2070</lisID>
+          <bioguideId>G000568</bioguideId>
+          <gpoId>8200</gpoId>
+        </identifiers>
+        <bioguideId>G000568</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>Morgan</middleName>
+        <state>VA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <party>R</party>
+        <firstName>Patrick</firstName>
+        <district>7</district>
+        <fullName>Rep. Meehan, Patrick [R-PA-7]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Meehan</lastName>
+        <identifiers>
+          <lisID>2052</lisID>
+          <bioguideId>M001181</bioguideId>
+          <gpoId>8125</gpoId>
+        </identifiers>
+        <bioguideId>M001181</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <party>D</party>
+        <firstName>David</firstName>
+        <district>2</district>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Loebsack</lastName>
+        <identifiers>
+          <bioguideId>L000565</bioguideId>
+          <gpoId>7915</gpoId>
+          <lisID>1846</lisID>
+        </identifiers>
+        <bioguideId>L000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>IA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <party>D</party>
+        <firstName>Jared</firstName>
+        <district>2</district>
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Huffman</lastName>
+        <identifiers>
+          <lisID>2101</lisID>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>H001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <party>D</party>
+        <firstName>ROBERT</firstName>
+        <district>1</district>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BRADY</lastName>
+        <identifiers>
+          <bioguideId>B001227</bioguideId>
+          <gpoId>8119</gpoId>
+          <lisID>1469</lisID>
+        </identifiers>
+        <bioguideId>B001227</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <district>1</district>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kirkpatrick</lastName>
+        <identifiers>
+          <lisID>1907</lisID>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+        </identifiers>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-25</sponsorshipDate>
+        <party>R</party>
+        <firstName>Jeff</firstName>
+        <district>1</district>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Fortenberry</lastName>
+        <identifiers>
+          <gpoId>8038</gpoId>
+          <lisID>1793</lisID>
+          <bioguideId>F000449</bioguideId>
+        </identifiers>
+        <bioguideId>F000449</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NE</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <district>2</district>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Amodei</lastName>
+        <identifiers>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+        </identifiers>
+        <bioguideId>A000369</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>NV</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>Scott</firstName>
+        <district>52</district>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Peters</lastName>
+        <identifiers>
+          <lisID>2113</lisID>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>P000608</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>H.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>David</firstName>
+        <district>13</district>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Scott</lastName>
+        <identifiers>
+          <bioguideId>S001157</bioguideId>
+          <gpoId>7910</gpoId>
+          <lisID>1722</lisID>
+        </identifiers>
+        <bioguideId>S001157</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>GA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Robert</firstName>
+        <district>1</district>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Wittman</lastName>
+        <identifiers>
+          <bioguideId>W000804</bioguideId>
+          <gpoId>8192</gpoId>
+          <lisID>1886</lisID>
+        </identifiers>
+        <bioguideId>W000804</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <state>VA</state>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-02-03</introducedDate>
+    <latestAction>
+      <actionDate>2016-02-05</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <billNumber>4442</billNumber>
+    <titles>
+      <item>
+        <title>CONNECT for Health Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Creating Opportunities Now for Necessary and Effective Care Technologies (CONNECT) for Health Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend titles XVIII and XI of the Social Security Act to promote cost savings and quality care under the Medicare program through the use of telehealth and remote patient monitoring services, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>CONNECT for Health Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. BLACK:H.R. 4442.Congress has the power to enact this legislation pursuantto the following:United States Constitution Article I Section 8[Page H567]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>CONNECT for Health Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2016-02-03</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-02-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Creating Opportunities Now for Necessary and Effective Care Technologies (CONNECT) for Health Act or the CONNECT for Health Act</strong></p> <p>This bill amends titles XI (General Provisions) and&nbsp;XVIII (Medicare) of the Social Security Act to expand and modify the use of telehealth and remote patient monitoring services under Medicare.</p> <p>The bill establishes a telehealth and remote patient monitoring services "bridge" demonstration waiver program, through which the Centers for Medicare &amp; Medicaid Services (CMS) shall waive certain limitations as a condition of Medicare payment to eligible providers of&nbsp;telehealth services.</p> <p>CMS&nbsp;shall also waive such limitations as a condition of Medicare payment&nbsp;for telehealth services with respect to&nbsp;providers participating in qualifying alternative payment models.&nbsp;</p> <p>With regard to individuals with certain chronic conditions, telehealth services shall be covered under Medicare as medical and other health services, rural health clinic services, or federally qualified health center (FQHC) services, as the case may be.</p> <p>A&nbsp;Medicare beneficiary determined to have end stage renal disease (ESRD) and receiving home dialysis may elect to receive certain required monthly ESRD-related visits via telehealth if the beneficiary receives an in-person examination at least once every three months.</p> <p>For purposes of Medicare payment for telehealth services: (1) a rural health clinic or FQHC may&nbsp;serve as&nbsp;a distant site whose clinician furnishes&nbsp;such services, and (2) certain requirements for originating sites shall not apply with respect to specified stroke-related services or to specified Native American health service facilities.</p> <p>A Medicare Advantage (MA) plan may use telehealth services to provide benefits under the original Medicare fee-for-service program option. Specified limitations are waived with regard to such services furnished under an MA plan.</p>]]></text>
+          <lastSummaryUpdateDate>2016-10-25T19:43:23Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>CONNECT for Health Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-02</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>2484</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hswm00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-05T20:35:33Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-03T15:00:34Z</date>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <name>Energy and Commerce Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsif00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-05T15:50:15Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-03T15:00:29Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:15Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Cardiovascular and respiratory health</name>
+          </item>
+          <item>
+            <name>Digestive and metabolic diseases</name>
+          </item>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health care quality</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Health technology, devices, supplies</name>
+          </item>
+          <item>
+            <name>Indian social and development programs</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Minority health</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-02-04T05:04:18Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Black, Diane [R-TN-6]</fullName>
+        <state>TN</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Black</lastName>
+        <firstName>Diane</firstName>
+        <bioguideId>B001273</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2063</lisID>
+          <gpoId>8153</gpoId>
+          <bioguideId>B001273</bioguideId>
+        </identifiers>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

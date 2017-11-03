@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <becamePublicLaw>2</becamePublicLaw>
+        <amendingTheTitleOfAnActWithoutObjection>1</amendingTheTitleOfAnActWithoutObjection>
+        <billReferrals>1</billReferrals>
+        <committeeDischarged>1</committeeDischarged>
+        <reportedToHouse>1</reportedToHouse>
+        <houseCalendarAssignment>1</houseCalendarAssignment>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <referredToCommittee>1</referredToCommittee>
+        <generalDebate>1</generalDebate>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <passedAgreedToInSenate>1</passedAgreedToInSenate>
+        <considerationByHouse>1</considerationByHouse>
+        <placeholderTextForH>3</placeholderTextForH>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <passedSenate>1</passedSenate>
+        <presentedToPresident>1</presentedToPresident>
+        <introducedInHouse>1</introducedInHouse>
+        <sentToHouse>1</sentToHouse>
+        <senateCommitteeDischarged>1</senateCommitteeDischarged>
+        <placeholderTextForE>3</placeholderTextForE>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <actionStageOverride>1</actionStageOverride>
+      </actionTypeCounts>
+      <item>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>Public Law No: 114-234</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/3937/text/pl</url>
+          </link>
+        </links>
+        <type>President</type>
+        <actionDate>2016-10-07</actionDate>
+        <text>Became Public Law No: 114-234.</text>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>Public Law No: 114-234</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/3937/text/pl</url>
+          </link>
+        </links>
+        <type>BecameLaw</type>
+        <actionDate>2016-10-07</actionDate>
+        <text>Became Public Law No: 114-234.</text>
+      </item>
+      <item>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>President</type>
+        <actionDate>2016-10-07</actionDate>
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>BecameLaw</type>
+        <actionDate>2016-10-07</actionDate>
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-10-03</actionDate>
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>President</type>
+        <actionDate>2016-10-03</actionDate>
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <actionDate>2016-09-29</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-09-29</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-09-29</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.</text>
+      </item>
+      <item>
+        <actionDate>2016-09-29</actionDate>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Senate Committee on Environment and Public Works discharged by Unanimous Consent.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <actionCode>14500</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links />
+        <type>Committee</type>
+        <actionDate>2016-09-29</actionDate>
+        <text>Senate Committee on Environment and Public Works discharged by Unanimous Consent.</text>
+      </item>
+      <item>
+        <actionDate>2016-09-21</actionDate>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>S6255</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S6255</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Environment and Public Works. (consideration: CR S6255)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionTime>20:00:50</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H38800</actionCode>
+        <text>The title of the measure was amended. Agreed to without objection.</text>
+      </item>
+      <item>
+        <actionTime>20:00:48</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H38310</actionCode>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      </item>
+      <item>
+        <actionTime>20:00:46</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H5702</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5702</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H37300</actionCode>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5702)</text>
+      </item>
+      <item>
+        <actionTime>20:00:46</actionTime>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>8000</actionCode>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote.</text>
+      </item>
+      <item>
+        <actionTime>19:49:42</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H.R. 3937</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/3937</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H8D000</actionCode>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 3937.</text>
+      </item>
+      <item>
+        <actionTime>19:49:41</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H5702-5703</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5702-5703</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H30000</actionCode>
+        <text>Considered under suspension of the rules. (consideration: CR H5702-5703)</text>
+      </item>
+      <item>
+        <actionTime>19:49:31</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2016-09-20</actionDate>
+        <actionCode>H30300</actionCode>
+        <text>Mr. Barletta moved to suspend the rules and pass the bill, as amended.</text>
+      </item>
+      <item>
+        <actionCode>H12420</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Calendars</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Placed on the House Calendar, Calendar No. 100.</text>
+      </item>
+      <item>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 114-464</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/464</url>
+          </link>
+        </links>
+        <type>Committee</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 114-464.</text>
+      </item>
+      <item>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 114-464</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/464</url>
+          </link>
+        </links>
+        <type>Committee</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Reported (Amended) by the Committee on Transportation and Infrastructure. H. Rept. 114-464.</text>
+      </item>
+      <item>
+        <actionDate>2016-03-02</actionDate>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-03-02</actionDate>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-03-02</actionDate>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Subcommittee on Economic Development, Public Buildings and Emergency Management Discharged.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-06</actionDate>
+        <committee>
+          <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+          <systemCode>hspw13</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-05</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-05</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-05</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <senate>6</senate>
+        <houseOfRepresentatives>17</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 3937, a bill to designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the “Randy D. Doub United States Courthouse”</title>
+        <pubDate>2016-03-18T21:39:22Z</pubDate>
+        <url>https://www.cbo.gov/publication/51396</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ellmers</lastName>
+        <identifiers>
+          <bioguideId>E000291</bioguideId>
+          <gpoId>8025</gpoId>
+          <lisID>2036</lisID>
+        </identifiers>
+        <firstName>Renee</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>E000291</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>JONES</lastName>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <firstName>WALTER</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>J000255</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>PRICE</lastName>
+        <identifiers>
+          <lisID>930</lisID>
+          <bioguideId>P000523</bioguideId>
+          <gpoId>8027</gpoId>
+        </identifiers>
+        <firstName>DAVID</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>P000523</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Foxx, Virginia [R-NC-5]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Foxx</lastName>
+        <identifiers>
+          <bioguideId>F000450</bioguideId>
+          <gpoId>8028</gpoId>
+          <lisID>1791</lisID>
+        </identifiers>
+        <firstName>Virginia</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>F000450</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Walker, Mark [R-NC-6]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Walker</lastName>
+        <identifiers>
+          <lisID>2255</lisID>
+          <gpoId />
+          <bioguideId>W000819</bioguideId>
+        </identifiers>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>W000819</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Rouzer</lastName>
+        <identifiers>
+          <lisID>2256</lisID>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>R000603</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Hudson, Richard [R-NC-8]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Hudson</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2140</lisID>
+          <bioguideId>H001067</bioguideId>
+        </identifiers>
+        <firstName>Richard</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>8</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>H001067</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pittenger</lastName>
+        <identifiers>
+          <lisID>2141</lisID>
+          <gpoId />
+          <bioguideId>P000606</bioguideId>
+        </identifiers>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>P000606</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>McHenry</lastName>
+        <identifiers>
+          <lisID>1792</lisID>
+          <bioguideId>M001156</bioguideId>
+          <gpoId>8033</gpoId>
+        </identifiers>
+        <firstName>Patrick</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>10</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>M001156</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Meadows</lastName>
+        <identifiers>
+          <lisID>2142</lisID>
+          <gpoId />
+          <bioguideId>M001187</bioguideId>
+        </identifiers>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>11</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>M001187</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Adams, Alma S. [D-NC-12]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Adams</lastName>
+        <identifiers>
+          <lisID>2201</lisID>
+          <gpoId />
+          <bioguideId>A000370</bioguideId>
+        </identifiers>
+        <firstName>Alma</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>12</district>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>A000370</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Holding, George [R-NC-13]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Holding</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2143</lisID>
+          <bioguideId>H001065</bioguideId>
+        </identifiers>
+        <firstName>George</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>13</district>
+        <middleName />
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <bioguideId>H001065</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-11-05</introducedDate>
+    <latestAction>
+      <actionDate>2016-10-07</actionDate>
+      <text>Became Public Law No: 114-234.</text>
+      <links>
+        <link>
+          <name>Public Law No: 114-234</name>
+          <url>https://www.congress.gov/bill/114th-congress/house-bill/3937/text/pl</url>
+        </link>
+      </links>
+    </latestAction>
+    <billNumber>3937</billNumber>
+    <titles>
+      <item>
+        <parentTitleType>Official Titles House of Representatives</parentTitleType>
+        <title>To designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse".</title>
+        <chamberCode>H</chamberCode>
+        <titleType>Official Titles as Amended by House</titleType>
+        <chamberName>House</chamberName>
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Judge Randy D. Doub United States Courthouse".</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse".</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>114-234</number>
+      </item>
+    </laws>
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BUTTERFIELD:H.R. 3937.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article I, Section 8, Clauses 1 and 18 of theUnited States Constitution.[Page H8153]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers>
+      <item>
+        <number />
+        <calendar>H00100</calendar>
+      </item>
+    </calendarNumbers>
+    <title>To designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse".</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill designates the&nbsp;building utilized as a U.S. courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Judge Randy D. Doub United States Courthouse" during the period in which the building is so utilized.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-11-05T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-11-25T20:15:36Z</lastSummaryUpdateDate>
+          <actionDate>2015-11-05</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <text><![CDATA[<p>This bill designates the&nbsp;building utilized as a U.S. courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse" during the period in which the building is so utilized.</p>]]></text>
+          <actionDesc>Reported to House with amendment(s)</actionDesc>
+          <updateDate>2016-03-23T13:22:20Z</updateDate>
+          <lastSummaryUpdateDate>2016-04-28T11:55:57Z</lastSummaryUpdateDate>
+          <actionDate>2016-03-23</actionDate>
+          <versionCode>17</versionCode>
+          <name>Reported to House with amendment(s)</name>
+        </item>
+        <item>
+          <text><![CDATA[<p>(This measure has not been amended since it was reported to the House on March 23, 2016. The summary of that version is repeated here.)</p> <p>This bill designates the&nbsp;building utilized as a U.S. courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse" during the period in which the building is so utilized.</p>]]></text>
+          <actionDesc>Passed House amended</actionDesc>
+          <updateDate>2016-09-20T14:06:48Z</updateDate>
+          <lastSummaryUpdateDate>2016-10-25T19:23:20Z</lastSummaryUpdateDate>
+          <actionDate>2016-09-20</actionDate>
+          <versionCode>36</versionCode>
+          <name>Passed House amended</name>
+        </item>
+        <item>
+          <text><![CDATA[<p>(This measure has not been amended since it was reported to the House on March 23, 2016. The summary of that version is repeated here.)</p> <p>This bill designates the&nbsp;building utilized as a U.S. courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse" during the period in which the building is so utilized.</p>]]></text>
+          <actionDesc>Passed Senate without amendment</actionDesc>
+          <updateDate>2016-09-29T11:42:57Z</updateDate>
+          <lastSummaryUpdateDate>2016-10-25T19:26:30Z</lastSummaryUpdateDate>
+          <actionDate>2016-09-29</actionDate>
+          <versionCode>82</versionCode>
+          <name>Passed Senate without amendment</name>
+        </item>
+        <item>
+          <text><![CDATA[<p>(This measure has not been amended since it was reported to the House on March 23, 2016. The summary of that version is repeated here.)</p> <p>This bill designates the&nbsp;building utilized as a U.S. courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse" during the period in which the building is so utilized.</p>]]></text>
+          <actionDesc>Public Law</actionDesc>
+          <updateDate>2016-10-08T03:59:58Z</updateDate>
+          <lastSummaryUpdateDate>2016-10-25T19:26:38Z</lastSummaryUpdateDate>
+          <actionDate>2016-10-07</actionDate>
+          <versionCode>49</versionCode>
+          <name>Public Law</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>1642</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Placed on the House Calendar, Calendar No. 30.</text>
+          <actionDate>2015-05-08</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>To designate the building utilized as a United States courthouse located at 150 Reade Circle in Greenville, North Carolina, as the "Randy D. Doub United States Courthouse".</latestTitle>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Environment and Public Works Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Discharged from</name>
+              <date>2016-09-29T15:49:43Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2016-09-21T17:34:41Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>ssev00</systemCode>
+        </item>
+        <item>
+          <name>Transportation and Infrastructure Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2016-03-23T15:13:06Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2016-03-02T16:56:15Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2015-11-05T14:03:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Discharged from</name>
+                  <date>2016-03-02T16:56:05Z</date>
+                </item>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-11-06T19:04:56Z</date>
+                </item>
+              </activities>
+              <systemCode>hspw13</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-464</citation>
+      </committeeReport>
+    </committeeReports>
+    <updateDate>2017-10-27T18:03:44Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Judges</name>
+          </item>
+          <item>
+            <name>North Carolina</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-11-06T10:19:25Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <state>NC</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Butterfield</lastName>
+        <firstName>G. K.</firstName>
+        <bioguideId>B001251</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1761</lisID>
+          <bioguideId>B001251</bioguideId>
+          <gpoId>8024</gpoId>
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

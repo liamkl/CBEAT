@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <name>Higher Education and Workforce Training Subcommittee</name>
+          <systemCode>hsed13</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Higher Education and Workforce Training.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-10</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-06-10</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-06-10</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:18Z</updateDate>
+    <introducedDate>2015-06-10</introducedDate>
+    <recordedVotes />
+    <createDate>2015-06-11T14:06:31Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <state>MI</state>
+        <bioguideId>C000714</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Employ Young Americans Now Act</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To provide for youth jobs, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Employ Young Americans Now Act</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>K000009</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>MARCY</firstName>
+        <identifiers>
+          <lisID>616</lisID>
+          <bioguideId>K000009</bioguideId>
+          <gpoId>8099</gpoId>
+        </identifiers>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <district>9</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>KAPTUR</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>W000808</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Frederica</firstName>
+        <identifiers>
+          <lisID>2004</lisID>
+          <bioguideId>W000808</bioguideId>
+          <gpoId>7889</gpoId>
+        </identifiers>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <district>24</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>Wilson</lastName>
+        <middleName>S.</middleName>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>DC</state>
+        <firstName>ELEANOR</firstName>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <district>0</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+      </item>
+      <item>
+        <bioguideId>C000984</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>MD</state>
+        <firstName>ELIJAH</firstName>
+        <identifiers>
+          <lisID>256</lisID>
+          <bioguideId>C000984</bioguideId>
+          <gpoId>7982</gpoId>
+        </identifiers>
+        <fullName>Rep. Cummings, Elijah E. [D-MD-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>CUMMINGS</lastName>
+        <middleName>E.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000053</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>CHARLES</firstName>
+        <identifiers>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+        </identifiers>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <district>13</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>RANGEL</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>L000581</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>Brenda</firstName>
+        <identifiers>
+          <bioguideId>L000581</bioguideId>
+          <gpoId />
+          <lisID>2252</lisID>
+        </identifiers>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <district>14</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>Lawrence</lastName>
+        <middleName>L.</middleName>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>SHEILA</firstName>
+        <identifiers>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+          <lisID>588</lisID>
+        </identifiers>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <district>18</district>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <lastName>JACKSON LEE</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <firstName>Raul</firstName>
+        <identifiers>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+          <lisID>1708</lisID>
+        </identifiers>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <district>3</district>
+        <sponsorshipDate>2015-06-16</sponsorshipDate>
+        <lastName>Grijalva</lastName>
+        <middleName>M.</middleName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CONYERS:H.R. 2714.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8.[Page H4137]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Employee hiring</name>
+          </item>
+          <item>
+            <name>Employment and training programs</name>
+          </item>
+          <item>
+            <name>Government trust funds</name>
+          </item>
+          <item>
+            <name>Unemployment</name>
+          </item>
+          <item>
+            <name>Youth employment and child labor</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Labor and Employment</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Education and the Workforce Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-10T14:00:50Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Higher Education and Workforce Training Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-11-16T20:41:43Z</date>
+                </item>
+              </activities>
+              <systemCode>hsed13</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsed00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Higher Education and Workforce Training.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1506</number>
+        <type>S</type>
+        <latestTitle>Employ Young Americans Now Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-06-04</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3555</number>
+        <type>HR</type>
+        <latestTitle>Jobs! Jobs! Jobs! Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2016-03-23</actionDate>
+          <text>Referred to the Subcommittee on Workforce Protections.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Employ Young Americans Now Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-06-10</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-06-10T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Employ Young Americans Now Act</b></p> <p> Establishes in the Treasury the Employ Young Americans Fund, with an initial appropriation of $5.5 billion for FY2016.</p> <p>Requires the Department of Labor to make certain Fund allocations to each state with an approved workforce investment system plan modification, other specified requests for funds, and Native American program grantees to provide summer and year-round employment opportunities to low-income youth.</p> <p>Requires the Department to award allocations and competitive grants to local entities for work-based training and other work-related and educational strategies and activities of demonstrated effectiveness to provide unemployed, low-income young adults and low-income youths with skills that will lead to employment.</p> <p>Subjects activities funded under this Act to federal labor standards and nondiscrimination protections.</p>]]></text>
+          <lastSummaryUpdateDate>2015-06-16T20:07:01Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2714</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

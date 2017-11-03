@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-01-07T09:38:04Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>House Administration Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-01-06T17:18:35Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>hsha00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-01-06</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-01-06</actionDate>
+        <text>Referred to the House Committee on House Administration.</text>
+        <committee>
+          <systemCode>hsha00</systemCode>
+          <name>House Administration Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-01-06</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-01-06</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Students Voicing Opinions in Today's Elections (VOTE) Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To direct the Election Assistance Commission to carry out a pilot program under which the Commission shall provide funds to local educational agencies for initiatives to provide voter registration information to secondary school students in the 12th grade.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Students Voicing Opinions in Today's Elections (VOTE) Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elections, voting, political campaign regulation</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <state>PA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>BRADY</lastName>
+        <middleName>A.</middleName>
+        <district>1</district>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <identifiers>
+          <lisID>1469</lisID>
+          <bioguideId>B001227</bioguideId>
+          <gpoId>8119</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001227</bioguideId>
+        <firstName>ROBERT</firstName>
+      </item>
+      <item>
+        <state>PA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <middleName />
+        <district>17</district>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+          <lisID>2159</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001090</bioguideId>
+        <firstName>Matt</firstName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>126</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-01-06</actionDate>
+          <lastSummaryUpdateDate>2015-01-16T15:01:14Z</lastSummaryUpdateDate>
+          <updateDate>2015-01-06T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Students Voicing Opinions in Today's Elections (VOTE) Act</strong></p> <p>Directs the Election Assistance Commission to carry out a pilot program providing funds, during FY2015, to local educational agencies (LEAs) for initiatives that provide 12th graders with voter registration information.</p> <p>Requires LEAs to consult with their state and local election officials in developing those initiatives.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. AL GREEN of Texas:H.R. 126.Congress has the power to enact this legislation pursuantto the following:Commerce Clause (Art. 1 sec. 8 cl. 3)Necessary and Proper Clause (Art. 1 sec. 8 cl. 18)[Page H47]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Students Voicing Opinions in Today's Elections (VOTE) Act</title>
+    <latestAction>
+      <actionDate>2015-01-06</actionDate>
+      <text>Referred to the House Committee on House Administration.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T17:58:36Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>G000553</bioguideId>
+        <district>9</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>Al</firstName>
+        <lastName>Green</lastName>
+        <identifiers>
+          <gpoId>8165</gpoId>
+          <lisID>1803</lisID>
+          <bioguideId>G000553</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

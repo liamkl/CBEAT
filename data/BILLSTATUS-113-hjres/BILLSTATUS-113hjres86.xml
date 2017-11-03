@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <text>Referred to the House Committee on Appropriations.</text>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Appropriations Committee</name>
+          <systemCode>hsap00</systemCode>
+        </committee>
+        <links />
+        <actionDate>2013-10-03</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <actionDate>2013-10-03</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <actionDate>2013-10-03</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <byRequestType />
+        <district>2</district>
+        <fullName>Rep. Terry, Lee [R-NE-2]</fullName>
+        <lastName>TERRY</lastName>
+        <middleName />
+        <state>NE</state>
+        <party>R</party>
+        <identifiers>
+          <lisID>1566</lisID>
+          <bioguideId>T000459</bioguideId>
+          <gpoId>8039</gpoId>
+        </identifiers>
+        <firstName>LEE</firstName>
+        <bioguideId>T000459</bioguideId>
+      </item>
+    </sponsors>
+    <congress>113</congress>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. TERRY:H.J. Res. 86.Congress has the power to enact this legislation pursuantto the following:clause 3 of section 8 of article I of the Constitution.[Page H6225]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>86</billNumber>
+    <cboCostEstimates />
+    <updateDate>2016-10-25T15:56:27Z</updateDate>
+    <laws />
+    <createDate>2013-10-04T09:13:09Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsap00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-10-03T14:00:54Z</date>
+            </item>
+          </activities>
+          <name>Appropriations Committee</name>
+          <subcommittees />
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes />
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Consumer Product Safety Commission Continuing Appropriations Resolution, 2014 - Makes appropriations, out of any money in the Treasury not otherwise appropriated, and out of applicable corporate or other revenues, receipts, and funds, for the Consumer Product Safety Commission (CPSC) for FY2014, and for other purposes, such amounts as may be necessary, at a rate for operations as provided in the Military Construction and Veterans Affairs, and Related Agencies Appropriations Act, 2012 (division C of P.L. 112-74), for continuing projects or activities of the Office of Compliance and Field Operations (including the costs of direct loans and loan guarantees) that are not specifically provided for in this joint resolution, that were conducted in FY2013, and for which appropriations, funds, or other authority were made available by such Act under the heading &quot;Consumer Product Safety Commission--Salaries and Expenses.&quot;</p> <p>Requires the rate of operations for each such account to be calculated to reflect the full amount of any reduction required in FY2013 pursuant to: (1) the Consolidated and Further Continuing Appropriations Act, 2013 (P.L. 113-6), and (2) the presidential sequestration order dated March 1, 2013, except as attributable to budget authority made available by the Disaster Relief Appropriations Act, 2013 (P.L. 113-2).</p> <p>Makes appropriations and funds made available and authority granted under this joint resolution available until whichever of the following first occurs: (1) enactment into law of an appropriation for any project or activity provided for in this joint resolution, (2) enactment into law of the applicable appropriations Act for FY2014 without any provision for such project or activity, or (3) December 15, 2013. </p> <p>Requires implementation of this joint resolution so that only the most limited funding action be taken in order to provide for continuation of projects and activities. <p>Authorizes amounts made available for civilian personnel compensation and benefits to be apportioned up to the rate for operations necessary to avoid furloughs, consistent with the applicable appropriations Act for FY2013, except that such authority shall not be used until after the agency has taken all necessary actions to reduce or defer non-personnel-related administrative expenses. <p>]]></text>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <lastSummaryUpdateDate>2013-10-04T21:45:16Z</lastSummaryUpdateDate>
+          <actionDate>2013-10-03</actionDate>
+          <updateDate>2013-10-03T04:00:00Z</updateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <cosponsors />
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Consumer Product Safety Commission</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Product safety and quality</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <title>Consumer Product Safety Commission Continuing Appropriations Resolution, 2014</title>
+        <chamberCode />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <title>Making continuing appropriations for the Consumer Product Safety Commission for continuing projects or activities of the Office of Compliance and Field Operations.</title>
+        <chamberCode />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <title>Consumer Product Safety Commission Continuing Appropriations Resolution, 2014</title>
+        <chamberCode />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes />
+    <calendarNumbers />
+    <title>Consumer Product Safety Commission Continuing Appropriations Resolution, 2014</title>
+    <billType>HJRES</billType>
+    <introducedDate>2013-10-03</introducedDate>
+    <amendments />
+    <latestAction>
+      <actionDate>2013-10-03</actionDate>
+      <text>Referred to the House Committee on Appropriations.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

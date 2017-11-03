@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-01-22T04:46:23Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsed02</systemCode>
+              <activities>
+                <item>
+                  <date>2015-04-29T14:41:18Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health, Employment, Labor, and Pensions Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+          <activities>
+            <item>
+              <date>2015-01-21T15:04:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-01-21</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <systemCode>hsed02</systemCode>
+          <name>Health, Employment, Labor, and Pensions Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health, Employment, Labor, and Pensions.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-21</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-21</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-21</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Employee Retirement Income Security Act of 1974 to permit multiemployer plans in critical status to modify plan rules relating to withdrawal liability, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To amend the Employee Retirement Income Security Act of 1974 to permit multiemployer plans in critical status to modify plan rules relating to withdrawal liability, and for other purposes.</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Corporate finance and management</name>
+          </item>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Labor and Employment</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>PASCRELL</lastName>
+        <bioguideId>P000096</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-01-21</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>WILLIAM</firstName>
+        <state>NJ</state>
+        <identifiers>
+          <lisID>1510</lisID>
+          <gpoId>8050</gpoId>
+          <bioguideId>P000096</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <district>9</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>458</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-01-29T21:58:32Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-21</actionDate>
+          <text><![CDATA[<p>Amends the Employee Retirement Income Security Act (ERISA) to revise requirements permitting multiemployer plans to adopt alternative rules for computing the payment of an employer's withdrawal liability to include a plan in critical status whose plan sponsor determines it cannot be expected to emerge from that status by the end of the rehabilitation period.</p> <p>Requires any such rule to become effective 90 days after adoption unless the corporation disapproves it before the end of the 90-day period (subject to tolling while a request by the corporation for additional information is pending).</p> <p>Authorizes a corporation to disapprove a rule only if it creates an unreasonable risk of loss to plan participants and beneficiaries or to the corporation.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-21T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SESSIONS:H.R. 458.Congress has the power to enact this legislation pursuantto the following:Article 1, section 8, clause 3 of the United StatesConstitution (relating to Congress' power to regulatecommerce . . . among the several states . . .). The UnitedStates Congress initially enacted ERISA under the CommerceClause in order to stabilize employee pension plans thatemployees carry with them across state lines. This billmodifies ERISA and is thus a regulation of commerce--specifically pension plans--among more than one state.[Page H482]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To amend the Employee Retirement Income Security Act of 1974 to permit multiemployer plans in critical status to modify plan rules relating to withdrawal liability, and for other purposes.</title>
+    <latestAction>
+      <actionDate>2015-04-29</actionDate>
+      <text>Referred to the Subcommittee on Health, Employment, Labor, and Pensions.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T17:58:58Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>S000250</bioguideId>
+        <district>32</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <identifiers>
+          <lisID>1525</lisID>
+          <bioguideId>S000250</bioguideId>
+          <gpoId>8188</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

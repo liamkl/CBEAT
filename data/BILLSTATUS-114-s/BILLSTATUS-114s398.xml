@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+        <hearingsHeld>1</hearingsHeld>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-06-03</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Hearings held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-05</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-02-05</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:08:09Z</updateDate>
+    <introducedDate>2015-02-05</introducedDate>
+    <recordedVotes />
+    <createDate>2015-02-06T04:59:53Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>JERRY</firstName>
+        <lastName>MORAN</lastName>
+        <state>KS</state>
+        <bioguideId>M000934</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>M000934</bioguideId>
+          <gpoId>8307</gpoId>
+          <lisID>1507</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Chiropractic Care Available to All Veterans Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>A bill to amend the Department of Veterans Affairs Health Care Programs Enhancement Act of 2001 and title 38, United States Code, to require the provision of chiropractic care and services to veterans at all Department of Veterans Affairs medical centers and to expand access to such care and services, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Chiropractic Care Available to All Veterans Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>CT</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Blumenthal</lastName>
+        <firstName>Richard</firstName>
+        <bioguideId>B001277</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>2076</lisID>
+          <bioguideId>B001277</bioguideId>
+          <gpoId>8332</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>IA</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>GRASSLEY</lastName>
+        <firstName>CHARLES</firstName>
+        <bioguideId>G000386</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>ERNEST</middleName>
+        <identifiers>
+          <lisID>457</lisID>
+          <bioguideId>G000386</bioguideId>
+          <gpoId>8316</gpoId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. King, Angus S., Jr. [I-ME]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>ME</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>King</lastName>
+        <firstName>Angus</firstName>
+        <bioguideId>K000383</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <gpoId />
+          <lisID>2185</lisID>
+          <bioguideId>K000383</bioguideId>
+        </identifiers>
+        <party>I</party>
+      </item>
+      <item>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>MT</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Tester</lastName>
+        <firstName>Jon</firstName>
+        <bioguideId>T000464</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1829</lisID>
+          <gpoId>8258</gpoId>
+          <bioguideId>T000464</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>RI</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Whitehouse</lastName>
+        <firstName>Sheldon</firstName>
+        <bioguideId>W000802</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <bioguideId>W000802</bioguideId>
+          <gpoId>8264</gpoId>
+          <lisID>1823</lisID>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Brown, Sherrod [D-OH]</fullName>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <state>OH</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>BROWN</lastName>
+        <firstName>SHERROD</firstName>
+        <bioguideId>B000944</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>136</lisID>
+          <gpoId>8309</gpoId>
+          <bioguideId>B000944</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <sponsorshipDate>2015-03-23</sponsorshipDate>
+        <state>LA</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Vitter</lastName>
+        <firstName>David</firstName>
+        <bioguideId>V000127</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1609</lisID>
+          <gpoId>8267</gpoId>
+          <bioguideId>V000127</bioguideId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <sponsorshipDate>2015-04-21</sponsorshipDate>
+        <state>IL</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DURBIN</lastName>
+        <firstName>RICHARD</firstName>
+        <bioguideId>D000563</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>326</lisID>
+          <gpoId>8326</gpoId>
+          <bioguideId>D000563</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <sponsorshipDate>2015-04-23</sponsorshipDate>
+        <state>WI</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BALDWIN</lastName>
+        <firstName>TAMMY</firstName>
+        <bioguideId>B001230</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1558</lisID>
+          <bioguideId>B001230</bioguideId>
+          <gpoId>8215</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Sanders, Bernard [I-VT]</fullName>
+        <sponsorshipDate>2015-04-23</sponsorshipDate>
+        <state>VT</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SANDERS</lastName>
+        <firstName>BERNARD</firstName>
+        <bioguideId>S000033</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1010</lisID>
+          <bioguideId>S000033</bioguideId>
+          <gpoId>8270</gpoId>
+        </identifiers>
+        <party>I</party>
+      </item>
+      <item>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <state>ME</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>COLLINS</lastName>
+        <firstName>SUSAN</firstName>
+        <bioguideId>C001035</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>MARGARET</middleName>
+        <identifiers>
+          <lisID>1541</lisID>
+          <bioguideId>C001035</bioguideId>
+          <gpoId>8291</gpoId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <state>NY</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SCHUMER</lastName>
+        <firstName>CHARLES</firstName>
+        <bioguideId>S000148</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1036</lisID>
+          <bioguideId>S000148</bioguideId>
+          <gpoId>8279</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+        <sponsorshipDate>2015-10-28</sponsorshipDate>
+        <state>AK</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murkowski</lastName>
+        <firstName>Lisa</firstName>
+        <bioguideId>M001153</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1694</lisID>
+          <bioguideId>M001153</bioguideId>
+          <gpoId>8234</gpoId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Kirk, Mark Steven [R-IL]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <state>IL</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>KIRK</lastName>
+        <firstName>MARK</firstName>
+        <bioguideId>K000360</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>STEVEN</middleName>
+        <identifiers>
+          <lisID>1647</lisID>
+          <bioguideId>K000360</bioguideId>
+          <gpoId>8285</gpoId>
+        </identifiers>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Alternative treatments</name>
+          </item>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Health promotion and preventive care</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+          <item>
+            <name>Musculoskeletal and skin diseases</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2015-06-03T18:30:00Z</date>
+              <name>Hearings by</name>
+            </item>
+            <item>
+              <date>2015-02-05T20:08:18Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-03</actionDate>
+      <text>Committee on Veterans' Affairs. Hearings held.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>Chiropractic Care Available to All Veterans Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-03-13</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <number>1170</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Chiropractic Care Available to All Veterans Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Chiropractic Care Available to All Veterans Act of 2015</strong></p> <p>Amends the Department of Veterans Affairs Health Care Programs Enhancement Act of 2001 to require a program under which the Secretary of Veterans Affairs provides chiropractic care and services to veterans through Department of Veterans Affairs (VA) medical centers and clinics to be carried out at: (1) no fewer than 75 medical centers by December 31, 2016, and (2) all medical centers by December 31, 2018.</p> <p>Includes chiropractic examinations and services within required VA medical, rehabilitative, and preventive health care services.</p>]]></text>
+          <lastSummaryUpdateDate>2015-02-28T14:40:33Z</lastSummaryUpdateDate>
+          <updateDate>2015-02-05T05:00:00Z</updateDate>
+          <actionDate>2015-02-05</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>398</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

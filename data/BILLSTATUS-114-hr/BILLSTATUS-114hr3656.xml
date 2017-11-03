@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Child health</name>
+          </item>
+          <item>
+            <name>Drug, alcohol, tobacco use</name>
+          </item>
+          <item>
+            <name>Retail and wholesale trades</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2015-09-30</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>DIANA</firstName>
+        <party>D</party>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <state>CO</state>
+        <byRequestType />
+        <bioguideId>D000197</bioguideId>
+        <lastName>DEGETTE</lastName>
+        <middleName />
+        <district>1</district>
+        <identifiers>
+          <bioguideId>D000197</bioguideId>
+          <gpoId>7859</gpoId>
+          <lisID>1479</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2100</number>
+        <congress>114</congress>
+        <latestTitle>Tobacco to 21 Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-09-29</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:03:22Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <subcommittees>
+            <item>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2015-10-02T21:27:04Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsif14</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-09-30T14:01:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2015-10-01T09:16:35Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2015-10-02</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-10-02</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionDate>2015-09-30</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-09-30</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-09-30</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Tobacco to 21 Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Tobacco to 21 Act</b></p> <p>This bill prohibits the sale or distribution of tobacco products to individuals under the age of 21.</p> The Department of Health and Human Services must enforce this prohibition by taking necessary actions including, as appropriate, conducting undercover compliance checks, performing retailer inspections, initiating enforcement actions for noncompliance, and establishing requirements that retailers check identification.]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-09-30T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-10-23T17:51:34Z</lastSummaryUpdateDate>
+          <actionDate>2015-09-30</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>3656</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. DeGETTE:H.R. 3656.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 3[Page H6749]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-09-30</sponsorshipDate>
+        <bioguideId>T000473</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>HI</state>
+        <middleName />
+        <identifiers>
+          <lisID>2240</lisID>
+          <bioguideId>T000473</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <lastName>Takai</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-09</sponsorshipDate>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <party>D</party>
+        <firstName>Raul</firstName>
+        <lastName>Grijalva</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-22</sponsorshipDate>
+        <bioguideId>G000559</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>1973</lisID>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+        </identifiers>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <party>D</party>
+        <firstName>John</firstName>
+        <lastName>Garamendi</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-14</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TN</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>9</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-25</sponsorshipDate>
+        <bioguideId>D000399</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName />
+        <identifiers>
+          <lisID>303</lisID>
+          <bioguideId>D000399</bioguideId>
+          <gpoId>8181</gpoId>
+        </identifiers>
+        <fullName>Rep. Doggett, Lloyd [D-TX-35]</fullName>
+        <party>D</party>
+        <firstName>LLOYD</firstName>
+        <lastName>DOGGETT</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>35</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>R000486</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>997</lisID>
+          <gpoId>7839</gpoId>
+          <bioguideId>R000486</bioguideId>
+        </identifiers>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <party>D</party>
+        <firstName>LUCILLE</firstName>
+        <lastName>ROYBAL-ALLARD</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>40</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>B001278</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OR</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>B001278</bioguideId>
+          <gpoId>8367</gpoId>
+          <lisID>2092</lisID>
+        </identifiers>
+        <fullName>Rep. Bonamici, Suzanne [D-OR-1]</fullName>
+        <party>D</party>
+        <firstName>Suzanne</firstName>
+        <lastName>Bonamici</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>B000574</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OR</state>
+        <middleName />
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <party>D</party>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <bioguideId>G000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>HI</state>
+        <middleName />
+        <identifiers>
+          <lisID>2122</lisID>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <party>D</party>
+        <firstName>Tulsi</firstName>
+        <lastName>Gabbard</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <bioguideId>E000179</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <middleName>L.</middleName>
+        <identifiers>
+          <lisID>344</lisID>
+          <gpoId>8078</gpoId>
+          <bioguideId>E000179</bioguideId>
+        </identifiers>
+        <fullName>Rep. Engel, Eliot L. [D-NY-16]</fullName>
+        <party>D</party>
+        <firstName>ELIOT</firstName>
+        <lastName>ENGEL</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>16</district>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Tobacco to 21 Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit the sale or distribution of tobacco products to individuals under the age of 21.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Tobacco to 21 Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

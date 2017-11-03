@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:48Z</updateDate>
+    <introducedDate>2015-07-21</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-22T09:34:26Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Jody</firstName>
+        <lastName>Hice</lastName>
+        <state>GA</state>
+        <bioguideId>H001071</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2237</lisID>
+          <bioguideId>H001071</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName>B.</middleName>
+        <fullName>Rep. Hice, Jody B. [R-GA-10]</fullName>
+        <district>10</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Military Recruiter Right to Carry Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To recognize the right of members of the Armed Forces assigned to duty at Armed Forces recruitment offices to carry a personal or service-issue firearm at the office.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Military Recruiter Right to Carry Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <district>6</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <firstName>JOE</firstName>
+        <middleName>L.</middleName>
+        <lastName>BARTON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B000213</bioguideId>
+          <gpoId>8162</gpoId>
+          <lisID>62</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B000213</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-08</sponsorshipDate>
+        <district>14</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Weber, Randy K., Sr. [R-TX-14]</fullName>
+        <firstName>Randy</firstName>
+        <middleName>K.</middleName>
+        <lastName>Weber</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2161</lisID>
+          <bioguideId>W000814</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>W000814</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-08</sponsorshipDate>
+        <district>1</district>
+        <state>MD</state>
+        <party>R</party>
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <firstName>Andy</firstName>
+        <middleName />
+        <lastName>Harris</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7976</gpoId>
+          <lisID>2026</lisID>
+          <bioguideId>H001052</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>H001052</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-08</sponsorshipDate>
+        <district>11</district>
+        <state>GA</state>
+        <party>R</party>
+        <fullName>Rep. Loudermilk, Barry [R-GA-11]</fullName>
+        <firstName>Barry</firstName>
+        <middleName />
+        <lastName>Loudermilk</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2238</lisID>
+          <bioguideId>L000583</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000583</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. JODY B. HICE of Georgia:H.R. 3138.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 12 of the United StatesConstitution which states that Congress shall have the power``To raise and support Armies, but no Appropriation of Moneyto that Use shall be for a longer Term than two Years.''Article I, Section 8, Clause 13 of the United StatesConstitution which states that Congress shall have the power``To provide and maintain a Navy.''The Second Amendment to the United States Constitutionwhich states that ``A well regulated Militia, being necessaryto the security of a free State, the right of the people tokeep and bear Arms, shall not be infringed.''[Page H5331]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Federal preemption</name>
+          </item>
+          <item>
+            <name>Firearms and explosives</name>
+          </item>
+          <item>
+            <name>Military facilities and property</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-07-21T16:02:15Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-21</actionDate>
+      <text>Referred to the House Committee on Armed Services.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Military Recruiter Right to Carry Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-07-21</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-07-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Military Recruiter Right to Carry Act of 2015</strong></p> <p>This bill states that, notwithstanding any Department of Defense policy or federal, state, or local law to the contrary, a member of the Armed Forces assigned to duty at an Armed Forces recruitment office has the right to carry a personal or service-issue firearm at the office.</p>]]></text>
+          <lastSummaryUpdateDate>2015-09-03T16:25:39Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3138</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2016-04-20</actionDate>
+        <text>Referred to the House Committee on Agriculture.</text>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2016-04-20</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2016-04-20</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Benishek, Dan [R-MI-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Dan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001271</bioguideId>
+          <gpoId>7986</gpoId>
+          <lisID>2027</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>B001271</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Benishek</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2249</lisID>
+          <bioguideId>B001293</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>B001293</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bishop</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Huizenga, Bill [R-MI-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2028</lisID>
+          <bioguideId>H001058</bioguideId>
+          <gpoId>7987</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>H001058</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Huizenga</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Trott, David A. [R-MI-11]</fullName>
+        <district>11</district>
+        <middleName>A.</middleName>
+        <state>MI</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2250</lisID>
+          <bioguideId>T000475</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>T000475</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Trott</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <district>6</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>FRED</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7991</gpoId>
+          <lisID>1177</lisID>
+          <bioguideId>U000031</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>U000031</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>UPTON</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Walberg, Tim [R-MI-7]</fullName>
+        <district>7</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Tim</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1855</lisID>
+          <bioguideId>W000798</bioguideId>
+          <gpoId>7992</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-20</sponsorshipDate>
+        <bioguideId>W000798</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Walberg</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <district>10</district>
+        <middleName>S.</middleName>
+        <state>MI</state>
+        <firstName>Candice</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1731</lisID>
+          <gpoId>8589</gpoId>
+          <bioguideId>M001150</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-21</sponsorshipDate>
+        <bioguideId>M001150</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Miller</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-04-20</introducedDate>
+    <latestAction>
+      <actionDate>2016-04-20</actionDate>
+      <text>Referred to the House Committee on Agriculture.</text>
+      <links />
+    </latestAction>
+    <billNumber>5013</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Safe Water and Nutrition Access Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To provide assistance to communities for the emergency improvement of water systems, and other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Safe Water and Nutrition Access Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. MOOLENAAR:H.R. 5013.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1 of the United StatesConstitution[Page H1897]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Safe Water and Nutrition Access Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Safe Water and Nutrition Access Act</strong></p> <p>This bill requires the Department of Agriculture (USDA) to take the following actions regarding eligible states (states in which there is a community with respect to which the President has declared an emergency under the Robert T. Stafford Disaster Relief and Emergency Assistance Act relating to public health threats associated with the presence of lead or other contaminants in a public drinking water supply):</p> <ul> <li> guarantee loans to entities to process, distribute, aggregate, store, and market locally or regionally produced food under the Consolidated Farm and Rural Development Act (CFRDA) for projects in underserved communities in an eligible state, using specified Commodity Credit Corporation (CCC) funds for FY2016;</li> <li> provide grants under the CFRDA's emergency and imminent community water assistance grant program to nonprofit entities in an eligible state, notwithstanding maximum population and income requirements or maximum grant limitations under such Act, using specified CCC funds for FY2016;</li> <li> use specified CCC funds for water and waste disposal technical assistance and training grants, and for the rural water and wastewater circuit rider program, in FY2016-FY2017; and </li> <li> use specified CCC funds for eligible projects or partnerships under USDA's healthy food financing initiative, with priority given to eligible projects and partnerships to be carried out in an eligible state.</li> </ul> <p>The bill allows such amounts to be obligated during the five-year period beginning with the date the amount is first made available, after which the provision under which such amount is provided shall expire. No funds may be used to carry out a provision of this bill unless completely offset by a corresponding reduction in mandatory funds available for another program.</p>]]></text>
+          <lastSummaryUpdateDate>2016-07-26T20:28:48Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-04-20</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-04-20T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-04-20T14:03:40Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:52Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Disaster relief and insurance</name>
+          </item>
+          <item>
+            <name>Food assistance and relief</name>
+          </item>
+          <item>
+            <name>Government lending and loan guarantees</name>
+          </item>
+          <item>
+            <name>Hazardous wastes and toxic substances</name>
+          </item>
+          <item>
+            <name>Nutrition and diet</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+          <item>
+            <name>Solid waste and recycling</name>
+          </item>
+          <item>
+            <name>Water resources funding</name>
+          </item>
+          <item>
+            <name>Water use and supply</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Agriculture and Food</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-04-21T05:26:35Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Moolenaar, John R. [R-MI-4]</fullName>
+        <state>MI</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Moolenaar</lastName>
+        <firstName>John</firstName>
+        <bioguideId>M001194</bioguideId>
+        <middleName>R.</middleName>
+        <identifiers>
+          <lisID>2248</lisID>
+          <bioguideId>M001194</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>4</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

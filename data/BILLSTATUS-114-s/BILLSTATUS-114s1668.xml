@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <actionDate>2015-06-24</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:09:49Z</updateDate>
+    <introducedDate>2015-06-24</introducedDate>
+    <recordedVotes />
+    <createDate>2015-06-25T09:28:04Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>LINDSEY</firstName>
+        <lastName>GRAHAM</lastName>
+        <state>SC</state>
+        <bioguideId>G000359</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>452</lisID>
+          <gpoId>8335</gpoId>
+          <bioguideId>G000359</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>O.</middleName>
+        <fullName>Sen. Graham, Lindsey [R-SC]</fullName>
+      </item>
+    </sponsors>
+    <policyArea />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Restoration of America's Wire Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to restore long-standing United States policy that the Wire Act prohibits all forms of Internet gambling, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Restoration of America's Wire Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <middleName />
+        <bioguideId>F000062</bioguideId>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>1332</lisID>
+          <bioguideId>F000062</bioguideId>
+          <gpoId>8338</gpoId>
+        </identifiers>
+        <state>CA</state>
+        <firstName>DIANNE</firstName>
+        <lastName>FEINSTEIN</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>L000577</bioguideId>
+        <fullName>Sen. Lee, Mike [R-UT]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>2080</lisID>
+          <bioguideId>L000577</bioguideId>
+          <gpoId>8303</gpoId>
+        </identifiers>
+        <state>UT</state>
+        <firstName>Mike</firstName>
+        <lastName>Lee</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>A000368</bioguideId>
+        <fullName>Sen. Ayotte, Kelly [R-NH]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>2075</lisID>
+          <bioguideId>A000368</bioguideId>
+          <gpoId>8315</gpoId>
+        </identifiers>
+        <state>NH</state>
+        <firstName>Kelly</firstName>
+        <lastName>Ayotte</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>R000595</bioguideId>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>2084</lisID>
+          <gpoId>8242</gpoId>
+          <bioguideId>R000595</bioguideId>
+        </identifiers>
+        <state>FL</state>
+        <firstName>Marco</firstName>
+        <lastName>Rubio</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName>RAY</middleName>
+        <bioguideId>C000542</bioguideId>
+        <fullName>Sen. Coats, Daniel [R-IN]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>209</lisID>
+          <bioguideId>C000542</bioguideId>
+          <gpoId>8299</gpoId>
+        </identifiers>
+        <state>IN</state>
+        <firstName>DANIEL</firstName>
+        <lastName>COATS</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName>Roland</middleName>
+        <bioguideId>T000476</bioguideId>
+        <fullName>Sen. Tillis, Thom [R-NC]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>2291</lisID>
+          <bioguideId>T000476</bioguideId>
+          <gpoId />
+        </identifiers>
+        <state>NC</state>
+        <firstName>Thomas</firstName>
+        <lastName>Tillis</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>C001095</bioguideId>
+        <fullName>Sen. Cotton, Tom [R-AR]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <identifiers>
+          <lisID>2098</lisID>
+          <bioguideId>C001095</bioguideId>
+          <gpoId />
+        </identifiers>
+        <state>AR</state>
+        <firstName>Tom</firstName>
+        <lastName>Cotton</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>G000562</bioguideId>
+        <fullName>Sen. Gardner, Cory [R-CO]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>G000562</bioguideId>
+          <gpoId>7862</gpoId>
+          <lisID>1998</lisID>
+        </identifiers>
+        <state>CO</state>
+        <firstName>Cory</firstName>
+        <lastName>Gardner</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Crime and Law Enforcement</name>
+          </item>
+          <item>
+            <name>Gambling</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-24T22:54:19Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees />
+          <systemCode>ssju00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-24</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>707</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Subcommittee Hearings Held.</text>
+          <actionDate>2015-03-25</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Restoration of America's Wire Act</latestTitle>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Restoration of America's Wire Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-10-07T21:59:42Z</lastSummaryUpdateDate>
+          <actionDate>2015-06-24</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-06-24T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Restoration of America's Wire Act</strong></p> <p>Amends provisions of the federal criminal code, commonly known as the Wire Act, to provide that the prohibition against using a wire communication facility for the transmission of bets or wagers, wagering information, or wagering proceeds shall: (1) apply to any bet or wager (currently, to bets or wagers on any sporting event or contest); and (2) include any transmission over the Internet carried interstate or in foreign commerce. </p> <p>States that nothing in this Act shall be construed to preempt any state law prohibiting gambling or to alter, limit, or extend: (1) the relationship between the Interstate Horseracing Act of 1978 and other federal laws currently in effect, (2) the ability of a state licensed lottery or state licensed retailer to make on-premises retail lottery sales or to transmit information ancillary to such sales, (3) the ability of a state licensed gaming establishment or a tribal gaming establishment to transmit information assisting in the placing of a bet or water on the physical premises of the establishment, or (4) the relationship between federal laws and state charitable gaming laws. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1668</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

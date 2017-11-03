@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>5</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <text>Referred to House Financial Services</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-26</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Ways and Means</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-26</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-26</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-26</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-26</actionDate>
+      </item>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>229</lisID>
+          <gpoId>7999</gpoId>
+          <bioguideId>C000714</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CONYERS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Edwards, Donna F. [D-MD-4]</fullName>
+        <district>4</district>
+        <middleName>F.</middleName>
+        <state>MD</state>
+        <firstName>Donna</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1894</lisID>
+          <gpoId>7979</gpoId>
+          <bioguideId>E000290</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <bioguideId>E000290</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Edwards</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1501</lisID>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>LEE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <district>1</district>
+        <middleName>L.</middleName>
+        <state>IL</state>
+        <firstName>BOBBY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1003</lisID>
+          <bioguideId>R000515</bioguideId>
+          <gpoId>7921</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <bioguideId>R000515</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>RUSH</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+        <district>3</district>
+        <middleName>C. "Bobby"</middleName>
+        <state>VA</state>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S000185</bioguideId>
+          <gpoId>8194</gpoId>
+          <lisID>1037</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-26</sponsorshipDate>
+        <bioguideId>S000185</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Scott</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <district>24</district>
+        <middleName>S.</middleName>
+        <state>FL</state>
+        <firstName>Frederica</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>W000808</bioguideId>
+          <gpoId>7889</gpoId>
+          <lisID>2004</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <bioguideId>W000808</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Wilson</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-03-26</introducedDate>
+    <latestAction>
+      <actionDate>2015-03-26</actionDate>
+      <text>Referred to House Financial Services</text>
+      <links />
+    </latestAction>
+    <billNumber>1662</billNumber>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Common Sense Housing Investment Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Internal Revenue Code of 1986 to replace the mortgage interest deduction with a nonrefundable credit for indebtedness secured by a residence, to provide affordable housing to extremely low-income families, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Common Sense Housing Investment Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ELLISON:H.R. 1662.Congress has the power to enact this legislation pursuantto the following:Article I, Section 7, Clause 1 and Section 8, Clause 1.[Page H2112]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Common Sense Housing Investment Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-03-26T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-03-26</actionDate>
+          <text><![CDATA[<p><strong>Common Sense Housing Investment Act of 2015</strong></p> <p>Amends the Internal Revenue Code, with respect to the tax deduction for mortgage interest, to: (1) allow, in lieu of such deduction, a tax credit for 15% of mortgage interest paid in a taxable year for the taxpayer's principal residence and one other residence; (2) provide for a phaseout of the tax deduction for mortgage interest between 2016 and 2020; (3) allow a deduction for interest and taxes relating to land for dwelling purposes owned or leased by cooperative housing corporations; and (4) increase the state housing credit ceiling for the low-income housing tax credit. </p> <p>Directs the Department of the Treasury to apply the savings from the enactment of this Act to the Housing Trust Fund, for assistance under the Section 8 low-income housing program, and for the Public Housing Capital Fund. </p>]]></text>
+          <lastSummaryUpdateDate>2015-04-09T20:33:06Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2015-11-16</actionDate>
+          <text>Referred to the Subcommittee on Higher Education and Workforce Training.</text>
+        </latestAction>
+        <number>2721</number>
+        <type>HR</type>
+        <latestTitle>Pathways Out of Poverty Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-26T13:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </item>
+        <item>
+          <subcommittees />
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-26T13:02:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:38Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Cooperative and condominium housing</name>
+          </item>
+          <item>
+            <name>Government trust funds</name>
+          </item>
+          <item>
+            <name>Housing finance and home ownership</name>
+          </item>
+          <item>
+            <name>Housing supply and affordability</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Income tax deductions</name>
+          </item>
+          <item>
+            <name>Inflation and prices</name>
+          </item>
+          <item>
+            <name>Interest, dividends, interest rates</name>
+          </item>
+          <item>
+            <name>Low- and moderate-income housing</name>
+          </item>
+          <item>
+            <name>Public housing</name>
+          </item>
+          <item>
+            <name>State and local taxation</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-03-27T08:45:58Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <state>MN</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Ellison</lastName>
+        <firstName>Keith</firstName>
+        <bioguideId>E000288</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1857</lisID>
+          <bioguideId>E000288</bioguideId>
+          <gpoId>8005</gpoId>
+        </identifiers>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

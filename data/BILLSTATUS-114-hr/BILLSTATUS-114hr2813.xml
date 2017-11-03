@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-06-18T09:13:24Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-07-02T15:13:01Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Economic Opportunity Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-06-17T14:02:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+        <item>
+          <subcommittees />
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-06-17T14:02:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-06-17</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-07-02</actionDate>
+        <committee>
+          <systemCode>hsvr10</systemCode>
+          <name>Economic Opportunity Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Veterans' Affairs</text>
+        <actionDate>2015-06-17</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Financial Services</text>
+        <actionDate>2015-06-17</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <text>Referred to the Committee on Financial Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionDate>2015-06-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-06-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-06-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>2</billReferrals>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Shelter Our Servicemembers Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To direct the Secretary of Veterans Affairs and the Secretary of Housing and Urban Development to establish a grant pilot program to provide housing to elderly homeless veterans.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Shelter Our Servicemembers Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Homelessness and emergency shelter</name>
+          </item>
+          <item>
+            <name>Housing and community development funding</name>
+          </item>
+          <item>
+            <name>Housing for the elderly and disabled</name>
+          </item>
+          <item>
+            <name>Veterans' loans, housing, homeless programs</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>CHARLES</firstName>
+        <district>13</district>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>RANGEL</lastName>
+        <identifiers>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+        </identifiers>
+        <bioguideId>R000053</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>Juan</firstName>
+        <district>51</district>
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Vargas</lastName>
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>V000130</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>Alan</firstName>
+        <district>47</district>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lowenthal</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2111</lisID>
+          <bioguideId>L000579</bioguideId>
+        </identifiers>
+        <bioguideId>L000579</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <district>17</district>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>HONDA</lastName>
+        <identifiers>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+          <gpoId>7820</gpoId>
+        </identifiers>
+        <bioguideId>H001034</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>Madeleine</firstName>
+        <district>0</district>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bordallo</lastName>
+        <identifiers>
+          <lisID>1723</lisID>
+          <gpoId>7911</gpoId>
+          <bioguideId>B001245</bioguideId>
+        </identifiers>
+        <bioguideId>B001245</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>Z.</middleName>
+        <state>GU</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Derek</firstName>
+        <district>6</district>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kilmer</lastName>
+        <identifiers>
+          <lisID>2169</lisID>
+          <bioguideId>K000381</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>K000381</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>WA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Al</firstName>
+        <district>9</district>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Green</lastName>
+        <identifiers>
+          <lisID>1803</lisID>
+          <bioguideId>G000553</bioguideId>
+          <gpoId>8165</gpoId>
+        </identifiers>
+        <bioguideId>G000553</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-27</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOHN</firstName>
+        <district>13</district>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CONYERS</lastName>
+        <identifiers>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+        </identifiers>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-27</sponsorshipDate>
+        <party>D</party>
+        <firstName>Theodore</firstName>
+        <district>21</district>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Deutch</lastName>
+        <identifiers>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+          <lisID>1976</lisID>
+        </identifiers>
+        <bioguideId>D000610</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>GRACE</firstName>
+        <district>32</district>
+        <fullName>Rep. Napolitano, Grace F. [D-CA-32]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NAPOLITANO</lastName>
+        <identifiers>
+          <bioguideId>N000179</bioguideId>
+          <gpoId>7843</gpoId>
+          <lisID>1602</lisID>
+        </identifiers>
+        <bioguideId>N000179</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>F.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <district>1</district>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Takai</lastName>
+        <identifiers>
+          <lisID>2240</lisID>
+          <bioguideId>T000473</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>T000473</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>HI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>DANNY</firstName>
+        <district>7</district>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DAVIS</lastName>
+        <identifiers>
+          <bioguideId>D000096</bioguideId>
+          <gpoId>7927</gpoId>
+          <lisID>1477</lisID>
+        </identifiers>
+        <bioguideId>D000096</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>K.</middleName>
+        <state>IL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Kyrsten</firstName>
+        <district>9</district>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Sinema</lastName>
+        <identifiers>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+          <lisID>2099</lisID>
+        </identifiers>
+        <bioguideId>S001191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Beto</firstName>
+        <district>16</district>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>O'Rourke</lastName>
+        <identifiers>
+          <lisID>2162</lisID>
+          <bioguideId>O000170</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>O000170</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-17</sponsorshipDate>
+        <party>D</party>
+        <firstName>LINDA</firstName>
+        <district>38</district>
+        <fullName>Rep. Sanchez, Linda T. [D-CA-38]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SANCHEZ</lastName>
+        <identifiers>
+          <gpoId>7844</gpoId>
+          <lisID>1757</lisID>
+          <bioguideId>S001156</bioguideId>
+        </identifiers>
+        <bioguideId>S001156</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>T.</middleName>
+        <state>CA</state>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2813</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-06-17T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-06-17</actionDate>
+          <text><![CDATA[<p><strong>Shelter Our Servicemembers Act</strong></p> <p> Requires the Department of Veterans Affairs (VA) and the Department of Housing and Urban Development to jointly establish a two-year pilot program of grants to nonprofit organizations to provide elderly homeless veterans with non-transitional housing. </p> <p>Allows recipients to use such grant to: (1) purchase real property to provide up to 200 homeless veterans with non-transitional housing, and (2) refurbish or renovate such property.</p> <p>Makes eligible for such housing veterans of at least 55 years of age who: (1) have been continuously homeless for a year or more or, during the last three years, had at least four separate periods of living on the streets, in an emergency shelter, or a combination thereof; and (2) have a condition that limits their ability to work or perform activities of daily living. </p> <p> Requires VA to provide case management for elderly veterans receiving such assistance.</p>]]></text>
+          <lastSummaryUpdateDate>2015-06-24T13:55:46Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PETERS:H.R. 2813.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H4492]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Shelter Our Servicemembers Act</title>
+    <latestAction>
+      <actionDate>2015-07-02</actionDate>
+      <text>Referred to the Subcommittee on Economic Opportunity.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:02:25Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>P000608</bioguideId>
+        <district>52</district>
+        <middleName>H.</middleName>
+        <state>CA</state>
+        <firstName>Scott</firstName>
+        <lastName>Peters</lastName>
+        <identifiers>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+          <lisID>2113</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

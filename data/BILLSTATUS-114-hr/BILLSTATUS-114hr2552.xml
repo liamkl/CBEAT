@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-06-04</actionDate>
+        <committee>
+          <systemCode>hshm09</systemCode>
+          <name>Oversight and Management Efficiency Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Oversight and Management Efficiency.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee>
+          <systemCode>hshm00</systemCode>
+          <name>Homeland Security Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Homeland Security.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:53Z</updateDate>
+    <introducedDate>2015-05-21</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-22T13:34:45Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Beto</firstName>
+        <lastName>O'Rourke</lastName>
+        <state>TX</state>
+        <bioguideId>O000170</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <gpoId />
+          <lisID>2162</lisID>
+          <bioguideId>O000170</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <district>16</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Berry Amendment Extension Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To prohibit the Department of Homeland Security from procuring certain items directly related to the national security unless the items are grown, reprocessed, reused, or produced in the United States, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Berry Amendment Extension Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <party>R</party>
+        <firstName>Renee</firstName>
+        <district>2</district>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ellmers</lastName>
+        <identifiers>
+          <lisID>2036</lisID>
+          <gpoId>8025</gpoId>
+          <bioguideId>E000291</bioguideId>
+        </identifiers>
+        <bioguideId>E000291</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <state>NC</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <party>D</party>
+        <firstName>Albio</firstName>
+        <district>8</district>
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Sires</lastName>
+        <identifiers>
+          <bioguideId>S001165</bioguideId>
+          <gpoId>8055</gpoId>
+          <lisID>1818</lisID>
+        </identifiers>
+        <bioguideId>S001165</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NJ</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. O'ROURKE:H.R. 2552.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18The Congress shall have Power * * * To make all Laws whichshall be necessary and proper for carrying into Execution theforegoing Powers, and all other Powers vested by theConstitution in the Government of the United States, or inany Department or Officer thereof.[Page H3564]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Buy American requirements</name>
+          </item>
+          <item>
+            <name>Homeland security</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Emergency Management</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-05-21T14:05:15Z</date>
+            </item>
+          </activities>
+          <name>Homeland Security Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-06-04T16:06:10Z</date>
+                </item>
+              </activities>
+              <name>Oversight and Management Efficiency Subcommittee</name>
+              <systemCode>hshm09</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hshm00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-04</actionDate>
+      <text>Referred to the Subcommittee on Oversight and Management Efficiency.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Berry Amendment Extension Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Berry Amendment Extension Act</strong></p> <p> Amends the Homeland Security Act of 2002 to prohibit the Department of Homeland Security (DHS) from procuring specified covered items directly related to national security interests (including clothing, tents, or natural fiber products) that are not grown, reprocessed, reused, or produced in the United States, except to the extent satisfactory quality and sufficient quantity of any such product cannot be procured as and when needed.</p> <p>Makes additional exceptions for: (1) procurements by vessels in foreign waters, (2) emergency procurements, and (3) purchases for amounts not greater than the simplified acquisition threshold described in military procurement provisions. Requires DHS to post a notification that an exception has been applied not later than seven days after the award of the contract. <p>Directs DHS to ensure that: (1) each member of DHS's acquisition workforce who regularly participates in textile acquisition receives training on this Act's requirements, and (2) any such training includes comprehensive information on such requirements. <p>Requires this Act to be applied in a manner consistent with U.S. obligations under international agreements.]]></text>
+          <lastSummaryUpdateDate>2015-06-10T15:46:31Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-05-21</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-05-21T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2552</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

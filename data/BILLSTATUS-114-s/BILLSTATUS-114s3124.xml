@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-06-30T05:52:46Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-06-29T23:48:39Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>Sarah's Law</latestTitle>
+        <latestAction>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+          <actionDate>2016-07-15</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>5646</number>
+      </item>
+      <item>
+        <latestTitle>Sarah's Law</latestTitle>
+        <latestAction>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+          <actionDate>2016-07-20</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>5619</number>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-06-29</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-06-29</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee />
+        <links />
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-29</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Sarah's Law</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to require U.S. Immigration and Customs Enforcement to take into custody certain aliens who have been charged in the United States with a crime that resulted in the death or serious bodily injury of another person, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Sarah's Law</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Crime victims</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Detention of persons</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <gpoId>8316</gpoId>
+          <lisID>457</lisID>
+          <bioguideId>G000386</bioguideId>
+        </identifiers>
+        <state>IA</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <firstName>CHARLES</firstName>
+        <lastName>GRASSLEY</lastName>
+        <middleName>ERNEST</middleName>
+        <bioguideId>G000386</bioguideId>
+        <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>2289</lisID>
+          <bioguideId>S001197</bioguideId>
+          <gpoId />
+        </identifiers>
+        <state>NE</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <firstName>Ben</firstName>
+        <lastName>Sasse</lastName>
+        <middleName />
+        <bioguideId>S001197</bioguideId>
+        <fullName>Sen. Sasse, Ben  [R-NE]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>F000463</bioguideId>
+          <gpoId />
+          <lisID>2179</lisID>
+        </identifiers>
+        <state>NE</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <firstName>Deb</firstName>
+        <lastName>Fischer</lastName>
+        <middleName />
+        <bioguideId>F000463</bioguideId>
+        <fullName>Sen. Fischer, Deb [R-NE]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1647</lisID>
+          <bioguideId>K000360</bioguideId>
+          <gpoId>8285</gpoId>
+        </identifiers>
+        <state>IL</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <firstName>MARK</firstName>
+        <lastName>KIRK</lastName>
+        <middleName>STEVEN</middleName>
+        <bioguideId>K000360</bioguideId>
+        <fullName>Sen. Kirk, Mark Steven [R-IL]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1609</lisID>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+        </identifiers>
+        <state>LA</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <middleName />
+        <bioguideId>V000127</bioguideId>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <gpoId>8257</gpoId>
+          <lisID>1534</lisID>
+          <bioguideId>T000250</bioguideId>
+        </identifiers>
+        <state>SD</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <firstName>JOHN</firstName>
+        <lastName>THUNE</lastName>
+        <middleName>R.</middleName>
+        <bioguideId>T000250</bioguideId>
+        <fullName>Sen. Thune, John [R-SD]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1507</lisID>
+          <bioguideId>M000934</bioguideId>
+          <gpoId>8307</gpoId>
+        </identifiers>
+        <state>KS</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-09-15</sponsorshipDate>
+        <firstName>JERRY</firstName>
+        <lastName>MORAN</lastName>
+        <middleName />
+        <bioguideId>M000934</bioguideId>
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1925</lisID>
+          <bioguideId>C001075</bioguideId>
+          <gpoId>7964</gpoId>
+        </identifiers>
+        <state>LA</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-11-15</sponsorshipDate>
+        <firstName>Bill</firstName>
+        <lastName>Cassidy</lastName>
+        <middleName />
+        <bioguideId>C001075</bioguideId>
+        <fullName>Sen. Cassidy, Bill [R-LA]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>R000307</bioguideId>
+          <gpoId>8275</gpoId>
+          <lisID>968</lisID>
+        </identifiers>
+        <state>KS</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2016-12-09</sponsorshipDate>
+        <firstName>PAT</firstName>
+        <lastName>ROBERTS</lastName>
+        <middleName />
+        <bioguideId>R000307</bioguideId>
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3124</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2016-06-29</actionDate>
+          <lastSummaryUpdateDate>2016-10-07T18:52:44Z</lastSummaryUpdateDate>
+          <updateDate>2016-06-29T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Sarah's Law</strong></p> <p>This bill amends the Immigration and Nationality Act to require the detention of an alien: (1) who was not inspected and admitted into the United States, who held a revoked nonimmigrant visa (or other nonimmigrant admission document), or who is deportable for failing to maintain nonimmigrant status; and (2) who has been charged in the United States with a crime that resulted in the death or serious bodily injury of another person.</p> <p> U.S. Immigration and Customs Enforcement shall make reasonable efforts to: </p> <ul> <li>obtain information about the identity of any victims of the crimes for which such alien was charged or convicted; and </li> <li> provide the victim, or a parent, guardian, spouse, or closest living relative of a deceased victim, with information about such alien, including name, date of birth, nationality, immigration status, criminal history, and a description of any related removal efforts.</li> </ul>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Sarah's Law</title>
+    <latestAction>
+      <actionDate>2016-06-29</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:11:38Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Ernst, Joni  [R-IA]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>E000295</bioguideId>
+        <middleName />
+        <state>IA</state>
+        <firstName>Joni</firstName>
+        <lastName>Ernst</lastName>
+        <identifiers>
+          <lisID>2283</lisID>
+          <bioguideId>E000295</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

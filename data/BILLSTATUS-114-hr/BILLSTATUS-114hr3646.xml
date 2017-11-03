@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-03</actionDate>
+        <committee>
+          <name>Immigration and Border Security Subcommittee</name>
+          <systemCode>hsju01</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-09-29</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-09-29</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-09-29</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:20Z</updateDate>
+    <introducedDate>2015-09-29</introducedDate>
+    <recordedVotes />
+    <createDate>2015-09-30T08:46:42Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <state>TX</state>
+        <bioguideId>M001157</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1804</lisID>
+          <bioguideId>M001157</bioguideId>
+          <gpoId>8166</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>T.</middleName>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <district>10</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>IRGC Terrorist Designation Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To direct the Secretary of State to submit to Congress a report on the designation of Iran's Islamic Revolutionary Guard Corps as a foreign terrorist organization, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>IRGC Terrorist Designation Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>COLLIN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>910</lisID>
+          <bioguideId>P000258</bioguideId>
+          <gpoId>8007</gpoId>
+        </identifiers>
+        <bioguideId>P000258</bioguideId>
+        <party>D</party>
+        <district>7</district>
+        <state>MN</state>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <lastName>PETERSON</lastName>
+        <middleName>C.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Peter</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1848</lisID>
+          <gpoId>7926</gpoId>
+          <bioguideId>R000580</bioguideId>
+        </identifiers>
+        <bioguideId>R000580</bioguideId>
+        <party>R</party>
+        <district>6</district>
+        <state>IL</state>
+        <fullName>Rep. Roskam, Peter J. [R-IL-6]</fullName>
+        <lastName>Roskam</lastName>
+        <middleName>J.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+        </identifiers>
+        <bioguideId>C001077</bioguideId>
+        <party>R</party>
+        <district>6</district>
+        <state>CO</state>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <lastName>Coffman</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Lynn</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1779</lisID>
+          <gpoId>7900</gpoId>
+          <bioguideId>W000796</bioguideId>
+        </identifiers>
+        <bioguideId>W000796</bioguideId>
+        <party>R</party>
+        <district>3</district>
+        <state>GA</state>
+        <fullName>Rep. Westmoreland, Lynn A. [R-GA-3]</fullName>
+        <lastName>Westmoreland</lastName>
+        <middleName>A.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Ted</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000592</bioguideId>
+          <gpoId>8158</gpoId>
+          <lisID>1802</lisID>
+        </identifiers>
+        <bioguideId>P000592</bioguideId>
+        <party>R</party>
+        <district>2</district>
+        <state>TX</state>
+        <fullName>Rep. Poe, Ted [R-TX-2]</fullName>
+        <lastName>Poe</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Candice</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1731</lisID>
+          <bioguideId>M001150</bioguideId>
+          <gpoId>8589</gpoId>
+        </identifiers>
+        <bioguideId>M001150</bioguideId>
+        <party>R</party>
+        <district>10</district>
+        <state>MI</state>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <lastName>Miller</lastName>
+        <middleName>S.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1752</lisID>
+          <bioguideId>C001051</bioguideId>
+          <gpoId>8187</gpoId>
+        </identifiers>
+        <bioguideId>C001051</bioguideId>
+        <party>R</party>
+        <district>31</district>
+        <state>TX</state>
+        <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+        <lastName>Carter</lastName>
+        <middleName>R.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000566</bioguideId>
+          <gpoId>8095</gpoId>
+          <lisID>1885</lisID>
+        </identifiers>
+        <bioguideId>L000566</bioguideId>
+        <party>R</party>
+        <district>5</district>
+        <state>OH</state>
+        <fullName>Rep. Latta, Robert E. [R-OH-5]</fullName>
+        <lastName>Latta</lastName>
+        <middleName>E.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Randy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2161</lisID>
+          <gpoId />
+          <bioguideId>W000814</bioguideId>
+        </identifiers>
+        <bioguideId>W000814</bioguideId>
+        <party>R</party>
+        <district>14</district>
+        <state>TX</state>
+        <fullName>Rep. Weber, Randy K., Sr. [R-TX-14]</fullName>
+        <lastName>Weber</lastName>
+        <middleName>K.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Pete</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1955</lisID>
+          <bioguideId>O000168</bioguideId>
+          <gpoId>8178</gpoId>
+        </identifiers>
+        <bioguideId>O000168</bioguideId>
+        <party>R</party>
+        <district>22</district>
+        <state>TX</state>
+        <fullName>Rep. Olson, Pete [R-TX-22]</fullName>
+        <lastName>Olson</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Tom</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1908</lisID>
+          <bioguideId>M001177</bioguideId>
+          <gpoId>7809</gpoId>
+        </identifiers>
+        <bioguideId>M001177</bioguideId>
+        <party>R</party>
+        <district>4</district>
+        <state>CA</state>
+        <fullName>Rep. McClintock, Tom [R-CA-4]</fullName>
+        <lastName>McClintock</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>DANA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000409</bioguideId>
+          <gpoId>7851</gpoId>
+          <lisID>979</lisID>
+        </identifiers>
+        <bioguideId>R000409</bioguideId>
+        <party>R</party>
+        <district>48</district>
+        <state>CA</state>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-48]</fullName>
+        <lastName>ROHRABACHER</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <firstName>Jeff</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+          <gpoId>8143</gpoId>
+        </identifiers>
+        <bioguideId>D000615</bioguideId>
+        <party>R</party>
+        <district>3</district>
+        <state>SC</state>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <lastName>Duncan</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-01</sponsorshipDate>
+        <firstName>Filemon</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2167</lisID>
+          <bioguideId>V000132</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>V000132</bioguideId>
+        <party>D</party>
+        <district>34</district>
+        <state>TX</state>
+        <fullName>Rep. Vela, Filemon [D-TX-34]</fullName>
+        <lastName>Vela</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2249</lisID>
+          <gpoId />
+          <bioguideId>B001293</bioguideId>
+        </identifiers>
+        <bioguideId>B001293</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>MI</state>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <lastName>Bishop</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-23</sponsorshipDate>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1733</lisID>
+          <bioguideId>K000363</bioguideId>
+          <gpoId>8002</gpoId>
+        </identifiers>
+        <bioguideId>K000363</bioguideId>
+        <party>R</party>
+        <district>2</district>
+        <state>MN</state>
+        <fullName>Rep. Kline, John [R-MN-2]</fullName>
+        <lastName>Kline</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-23</sponsorshipDate>
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2046</lisID>
+          <bioguideId>J000292</bioguideId>
+          <gpoId>8096</gpoId>
+        </identifiers>
+        <bioguideId>J000292</bioguideId>
+        <party>R</party>
+        <district>6</district>
+        <state>OH</state>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <lastName>Johnson</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <firstName>Austin</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7905</gpoId>
+          <lisID>2009</lisID>
+          <bioguideId>S001189</bioguideId>
+        </identifiers>
+        <bioguideId>S001189</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>GA</state>
+        <fullName>Rep. Scott, Austin [R-GA-8]</fullName>
+        <lastName>Scott</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2022</lisID>
+          <bioguideId>P000602</bioguideId>
+          <gpoId>7952</gpoId>
+        </identifiers>
+        <bioguideId>P000602</bioguideId>
+        <party>R</party>
+        <district>4</district>
+        <state>KS</state>
+        <fullName>Rep. Pompeo, Mike [R-KS-4]</fullName>
+        <lastName>Pompeo</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <firstName>Todd</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2019</lisID>
+          <bioguideId>Y000064</bioguideId>
+          <gpoId>7948</gpoId>
+        </identifiers>
+        <bioguideId>Y000064</bioguideId>
+        <party>R</party>
+        <district>9</district>
+        <state>IN</state>
+        <fullName>Rep. Young, Todd C. [R-IN-9]</fullName>
+        <lastName>Young</lastName>
+        <middleName>C.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. McCAUL:H.R. 3646.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1: ``Congress shall have PowerTo . . . provide for the common Defence and general Welfareof the United States.''[Page H6705]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Iran</name>
+          </item>
+          <item>
+            <name>Middle East</name>
+          </item>
+          <item>
+            <name>Terrorism</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>International Affairs</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-03T18:34:32Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-09-29T14:02:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-03</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>2094</number>
+        <latestAction>
+          <actionDate>2015-09-29</actionDate>
+          <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <latestTitle>IRGC Terrorist Designation Act</latestTitle>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>IRGC Terrorist Designation Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>IRGC Terrorist Designation Act</strong></p> <p>This bill expresses the sense of Congress that Iran's Islamic Revolutionary Guard Corps (IRGC) meets the criteria for designation as a foreign terrorist organization and should be so designated by the Secretary of State. </p> <p>The Secretary shall report to Congress on whether the IRGC meets such criteria and, if not, a detailed justification as to which criteria have not been met.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-09-29T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-10-02T14:58:00Z</lastSummaryUpdateDate>
+          <actionDate>2015-09-29</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3646</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

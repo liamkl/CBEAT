@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-04-29T08:46:09Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Families</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hswm03</systemCode>
+              <activities>
+                <item>
+                  <date>2015-05-14T13:27:08Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Human Resources Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <date>2015-04-28T16:03:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-05-01T15:20:07Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2015-04-28T16:03:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <activities>
+            <item>
+              <date>2015-04-28T16:03:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <number>369</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Finance.</text>
+          <actionDate>2015-02-04</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Supporting Adoptive Families Act</latestTitle>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-04-28</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>2</placeholderTextForH>
+        <placeholderTextForB>1</placeholderTextForB>
+        <billReferrals>3</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-05-14</actionDate>
+        <committee>
+          <name>Human Resources Subcommittee</name>
+          <systemCode>hswm03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Human Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-01</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Referred to House Judiciary</text>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Referred to House Ways and Means</text>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committees on Energy and Commerce, and the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H2491</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H2491</url>
+          </link>
+        </links>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR H2491)</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>8</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>To ensure the safety and well-being of adopted children.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To ensure the safety and well-being of adopted children.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Adoption and foster care</name>
+          </item>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Child health</name>
+          </item>
+          <item>
+            <name>Department of Health and Human Services</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Mental health</name>
+          </item>
+          <item>
+            <name>Poverty and welfare assistance</name>
+          </item>
+          <item>
+            <name>Social work, volunteer service, charitable organizations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Families</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>W000804</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <middleName>J.</middleName>
+        <identifiers>
+          <gpoId>8192</gpoId>
+          <lisID>1886</lisID>
+          <bioguideId>W000804</bioguideId>
+        </identifiers>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <party>R</party>
+        <firstName>Robert</firstName>
+        <lastName>Wittman</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>J000126</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName>BERNICE</middleName>
+        <identifiers>
+          <lisID>599</lisID>
+          <bioguideId>J000126</bioguideId>
+          <gpoId>8186</gpoId>
+        </identifiers>
+        <fullName>Rep. Johnson, Eddie Bernice [D-TX-30]</fullName>
+        <party>D</party>
+        <firstName>EDDIE</firstName>
+        <lastName>JOHNSON</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>30</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>DC</state>
+        <middleName>HOLMES</middleName>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <party>D</party>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>C001097</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>2107</lisID>
+          <bioguideId>C001097</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Cardenas, Tony [D-CA-29]</fullName>
+        <party>D</party>
+        <firstName>Tony</firstName>
+        <lastName>Cardenas</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>29</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>M001160</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>M001160</bioguideId>
+          <gpoId>8217</gpoId>
+          <lisID>1811</lisID>
+        </identifiers>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <party>D</party>
+        <firstName>Gwen</firstName>
+        <lastName>Moore</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>C001084</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>RI</state>
+        <middleName>N.</middleName>
+        <identifiers>
+          <gpoId>8139</gpoId>
+          <lisID>2055</lisID>
+          <bioguideId>C001084</bioguideId>
+        </identifiers>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <party>D</party>
+        <firstName>David</firstName>
+        <lastName>Cicilline</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <bioguideId>B001270</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>1996</lisID>
+          <bioguideId>B001270</bioguideId>
+          <gpoId>7838</gpoId>
+        </identifiers>
+        <fullName>Rep. Bass, Karen [D-CA-37]</fullName>
+        <party>D</party>
+        <firstName>Karen</firstName>
+        <lastName>Bass</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>37</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>D000191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OR</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>279</lisID>
+          <gpoId>8117</gpoId>
+          <bioguideId>D000191</bioguideId>
+        </identifiers>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <party>D</party>
+        <firstName>PETER</firstName>
+        <lastName>DEFAZIO</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-10</sponsorshipDate>
+        <bioguideId>J000288</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <middleName>C. "Hank"</middleName>
+        <identifiers>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+          <lisID>1843</lisID>
+        </identifiers>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <party>D</party>
+        <firstName>Henry</firstName>
+        <lastName>Johnson</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-21</sponsorshipDate>
+        <bioguideId>S001175</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <gpoId>7817</gpoId>
+          <lisID>1890</lisID>
+          <bioguideId>S001175</bioguideId>
+        </identifiers>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <party>D</party>
+        <firstName>Jackie</firstName>
+        <lastName>Speier</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>14</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2068</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Amends part B (Child and Family Services) of title IV of the Social Security Act (SSAct) to make it a purpose of the Stephanie Tubbs Jones Child Welfare Services Program to promote efforts to prevent children from entering the foster care system through the provision of pre- and post-adoptive support services.</p> <p>Extends adoption promotion and support services to those designed to support adoptions from other countries as well as domestic adoptions. Specifies related pre- and post-adoptive support services. </p> <p>Amends the Public Health Service Act to direct the Secretary of Health and Human Services, acting through the Administrator of the Substance Abuse and Mental Health Services Administration, to award grants or cooperative agreements to eligible entities to develop and implement state-sponsored statewide or tribal post-adoption mental health service programs for all adopted children. </p> <p>Amends SSAct title IV part D (Child Support and Establishment of Paternity) to direct the Secretary, as part of the child support and paternity data collection system, to promulgate final regulations requiring the states to collect and report information regarding children adopted within the United States or from other countries who enter into state custody as a result of the disruption of a placement for adoption or the dissolution of an adoption. </p> <p>Amends the PROTECT Our Children Act of 2008 to expand the definition of child exploitation to include the offer to engage or engaging in the transfer of permanent custody or control of a minor in contravention of a required legal procedure.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-28T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-05-19T19:19:09Z</lastSummaryUpdateDate>
+          <actionDate>2015-04-28</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LANGEVIN:H.R. 2068.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1.[Page H2499]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To ensure the safety and well-being of adopted children.</title>
+    <latestAction>
+      <actionDate>2015-05-14</actionDate>
+      <text>Referred to the Subcommittee on Human Resources.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:01:21Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>L000559</bioguideId>
+        <district>2</district>
+        <middleName>R.</middleName>
+        <state>RI</state>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <identifiers>
+          <bioguideId>L000559</bioguideId>
+          <gpoId>8140</gpoId>
+          <lisID>1668</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

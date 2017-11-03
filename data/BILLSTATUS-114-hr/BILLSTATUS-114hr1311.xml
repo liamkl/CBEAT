@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-03-05T05:59:25Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsju00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-03-31T21:05:57Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-03-04T15:12:05Z</date>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hswm00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-03-04T15:12:00Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-03-04</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForB>1</placeholderTextForB>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>2</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-03-31</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to House Judiciary</text>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Ways and Means</text>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <links />
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+      <item>
+        <text>Sponsor introductory remarks on measure. (CR E309)</text>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/extensions-of-remarks-section/page/E309</url>
+            <name>E309</name>
+          </link>
+        </links>
+        <actionCode>B00100</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-04</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Human Trafficking Fraud Enforcement Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide for the establishment of an office within the Internal Revenue Service to focus on violations of the internal revenue laws by persons who are under investigation for conduct relating to the promotion of commercial sex acts and trafficking in persons crimes, and to increase the criminal monetary penalty limitations for the underpayment or overpayment of tax due to fraud.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Human Trafficking Fraud Enforcement Act of 2015</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Crime victims</name>
+          </item>
+          <item>
+            <name>Crimes against children</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Department of the Treasury</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Human trafficking</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>Sex offenses</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Poe, Ted [R-TX-2]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Poe</lastName>
+        <identifiers>
+          <bioguideId>P000592</bioguideId>
+          <gpoId>8158</gpoId>
+          <lisID>1802</lisID>
+        </identifiers>
+        <firstName>Ted</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName />
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <bioguideId>P000592</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Velazquez, Nydia M. [D-NY-7]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>VELAZQUEZ</lastName>
+        <identifiers>
+          <bioguideId>V000081</bioguideId>
+          <gpoId>8073</gpoId>
+          <lisID>1184</lisID>
+        </identifiers>
+        <firstName>NYDIA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-06-21</sponsorshipDate>
+        <bioguideId>V000081</bioguideId>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1311</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Human Trafficking Fraud Enforcement Act of 2015</strong> </p> <p> Directs the Department of the Treasury to establish within the Internal Revenue Service an office to investigate and prosecute violations of internal revenue laws by persons that appear to be engaged in violations of specified federal laws prohibiting forced labor, trafficking of individuals, and transportation of minors or aliens for immoral purposes and of state or territorial laws prohibiting the promotion of&nbsp;prostitution or of any commercial sex act. Directs such office to cooperate with the Child Exploitation and Obscenity Section of the Department of Justice and the Innocence Lost National Initiative of the Federal Bureau of Investigation. </p> <p>Allows victims of human trafficking crimes to claim awards allowed for whistleblowing. </p> <p>Amends the Internal Revenue Code to increase civil and criminal penalties for tax evasion attributable to income derived from human trafficking and commercial sex acts. Makes it a felony to fail to file a tax return including income derived from human trafficking or commercial sex acts. Appropriates to the Crime Victims Fund additional funds equal to the increase in receipts from increased civil and criminal penalties provided by this Act. </p>]]></text>
+          <lastSummaryUpdateDate>2015-04-01T19:41:35Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-03-04</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-03-04T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. CAROLYN B. MALONEY of New York:H.R. 1311.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the United States Constitutionwhich provides Congress with the power to lay and collecttaxes and regulate commerce among the several states.[Page H1617]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Human Trafficking Fraud Enforcement Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-03-31</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:00:12Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-12]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>M000087</bioguideId>
+        <district>12</district>
+        <middleName>B.</middleName>
+        <state>NY</state>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <identifiers>
+          <bioguideId>M000087</bioguideId>
+          <gpoId>8075</gpoId>
+          <lisID>729</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-02-13</actionDate>
+        <committee>
+          <systemCode>hspw12</systemCode>
+          <name>Highways and Transit Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Highways and Transit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-12</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-12</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-12</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-02-27</sponsorshipDate>
+        <firstName>Albio</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8055</gpoId>
+          <lisID>1818</lisID>
+          <bioguideId>S001165</bioguideId>
+        </identifiers>
+        <bioguideId>S001165</bioguideId>
+        <party>D</party>
+        <district>8</district>
+        <state>NJ</state>
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <lastName>Sires</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <introducedDate>2015-02-12</introducedDate>
+    <latestAction>
+      <actionDate>2015-02-13</actionDate>
+      <text>Referred to the Subcommittee on Highways and Transit.</text>
+      <links />
+    </latestAction>
+    <billNumber>950</billNumber>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Prohibiting Automated Traffic Enforcement Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend title 23, United States Code, to prohibit automated traffic enforcement, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Prohibiting Automated Traffic Enforcement Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PERLMUTTER:H.R. 950.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H1037]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Prohibiting Automated Traffic Enforcement Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Prohibiting Automated Traffic Enforcement Act of 2015</b></p> <p>This bill prohibits a state or local government authority from using an automated traffic enforcement system for law enforcement purposes, except in a school zone or construction zone.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-02-12T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-02-24T21:02:18Z</lastSummaryUpdateDate>
+          <actionDate>2015-02-12</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-02-13T15:43:52Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Highways and Transit Subcommittee</name>
+              <systemCode>hspw12</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-02-12T15:06:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T17:59:46Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Photography and imaging</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-02-13T06:14:13Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Perlmutter, Ed [D-CO-7]</fullName>
+        <state>CO</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Perlmutter</lastName>
+        <firstName>Ed</firstName>
+        <bioguideId>P000593</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1835</lisID>
+          <gpoId>7865</gpoId>
+          <bioguideId>P000593</bioguideId>
+        </identifiers>
+        <district>7</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

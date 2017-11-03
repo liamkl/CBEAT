@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-02-24</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Foreign Affairs.</text>
+        <committee>
+          <name>Foreign Affairs Committee</name>
+          <systemCode>hsfa00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-02-24</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-02-24</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>SESSIONS</lastName>
+        <middleName />
+        <district>32</district>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <identifiers>
+          <lisID>1525</lisID>
+          <gpoId>8188</gpoId>
+          <bioguideId>S000250</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-02-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000250</bioguideId>
+        <firstName>PETE</firstName>
+      </item>
+      <item>
+        <state>NC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>JONES</lastName>
+        <middleName>B.</middleName>
+        <district>3</district>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <identifiers>
+          <lisID>612</lisID>
+          <gpoId>8026</gpoId>
+          <bioguideId>J000255</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-02-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000255</bioguideId>
+        <firstName>WALTER</firstName>
+      </item>
+      <item>
+        <state>WI</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ribble</lastName>
+        <middleName>J.</middleName>
+        <district>8</district>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <identifiers>
+          <lisID>2073</lisID>
+          <gpoId>8221</gpoId>
+          <bioguideId>R000587</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-02-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000587</bioguideId>
+        <firstName>Reid</firstName>
+      </item>
+      <item>
+        <state>MT</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Zinke</lastName>
+        <middleName>K.</middleName>
+        <district>0</district>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <identifiers>
+          <lisID>2254</lisID>
+          <gpoId />
+          <bioguideId>Z000018</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-02-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Z000018</bioguideId>
+        <firstName>Ryan</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gohmert</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <identifiers>
+          <lisID>1801</lisID>
+          <gpoId>8157</gpoId>
+          <bioguideId>G000552</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-03-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000552</bioguideId>
+        <firstName>Louie</firstName>
+      </item>
+      <item>
+        <state>MO</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Luetkemeyer</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Luetkemeyer, Blaine [R-MO-3]</fullName>
+        <identifiers>
+          <lisID>1931</lisID>
+          <gpoId>8017</gpoId>
+          <bioguideId>L000569</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-03-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000569</bioguideId>
+        <firstName>Blaine</firstName>
+      </item>
+      <item>
+        <state>PA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Perry</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Perry, Scott [R-PA-4]</fullName>
+        <identifiers>
+          <bioguideId>P000605</bioguideId>
+          <gpoId />
+          <lisID>2157</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000605</bioguideId>
+        <firstName>Scott</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Forbes</lastName>
+        <middleName>Randy</middleName>
+        <district>4</district>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <identifiers>
+          <lisID>1683</lisID>
+          <bioguideId>F000445</bioguideId>
+          <gpoId>8786</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>F000445</bioguideId>
+        <firstName>J.</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Miller</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Miller, Jeff [R-FL-1]</fullName>
+        <identifiers>
+          <lisID>1685</lisID>
+          <bioguideId>M001144</bioguideId>
+          <gpoId>7873</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001144</bioguideId>
+        <firstName>Jeff</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-02-24</introducedDate>
+    <latestAction>
+      <actionDate>2015-02-24</actionDate>
+      <text>Referred to the House Committee on Foreign Affairs.</text>
+      <links />
+    </latestAction>
+    <billNumber>1034</billNumber>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To provide for an accounting of total United States contributions to the United Nations.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>To provide for an accounting of total United States contributions to the United Nations.</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BROOKS of Alabama:H.R. 1034.Congress has the power to enact this legislation pursuantto the following:Congress has the power to enact this legislation pursuantto the following: Article I, Section 8, Clause 3: TheCongress shall have power to regulate commerce with foreignnations, and among the several states, and with the Indiantribes; and Article I, Section 8, Clause 18: The Congressshall have power to make all Laws which shall be necessaryand proper for carrying into Execution the foregoing Powers,and all other Powers vested by this Constitution in theGovernment of the United States, or in any Department orOfficer thereof.[Page H1115]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To provide for an accounting of total United States contributions to the United Nations.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-02-24</actionDate>
+          <lastSummaryUpdateDate>2015-03-04T17:33:50Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-02-24T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>Requires the Director of the Office of Management and Budget (OMB) to report annually to Congress regarding all assessed and voluntary U.S. contributions to the United Nations (U.N.) and its affiliated agencies and related bodies during the previous fiscal year. </p> <p>Requires the report to include the following: (1) the total amount of all assessed and voluntary U.S. contributions to the U.N. and its affiliated agencies and related bodies; (2) the approximate percentage of U.S. contributions to each such agency or body in a fiscal year when compared with all such contributions in that fiscal year; and (3) the amount, description, and purpose of each contribution, the identity of the donating U.S. department or agency, and the identity of the recipient U.N. agency or body.</p> <p>Requires the first report to include information for the previous three fiscal years.</p> <p>Requires OMB to post a version of such report on a publicly available Internet website.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1238</number>
+        <type>S</type>
+        <latestTitle>Annual Report on United States Contributions to the United Nations Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-05-07</actionDate>
+          <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3667</number>
+        <type>HR</type>
+        <latestTitle>United Nations Transparency, Accountability, and Reform Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-10-01</actionDate>
+          <text>Referred to the House Committee on Foreign Affairs.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Foreign Affairs Committee</name>
+          <systemCode>hsfa00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-02-24T17:00:42Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T17:59:52Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Foreign aid and international relief</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>United Nations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>International Affairs</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-02-25T04:46:16Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <state>AL</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Brooks</lastName>
+        <firstName>Mo</firstName>
+        <bioguideId>B001274</bioguideId>
+        <middleName />
+        <identifiers>
+          <gpoId>7790</gpoId>
+          <lisID>1987</lisID>
+          <bioguideId>B001274</bioguideId>
+        </identifiers>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:12:01Z</updateDate>
+    <introducedDate>2016-12-09</introducedDate>
+    <recordedVotes />
+    <createDate>2016-12-12T07:48:21Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Dan</firstName>
+        <lastName>Sullivan</lastName>
+        <state>AK</state>
+        <bioguideId>S001198</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>S001198</bioguideId>
+          <gpoId />
+          <lisID>2290</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Sullivan, Dan  [R-AK]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Protect Our Heroes Act of 2016</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>A bill to protect Federal, State, and local public safety officers.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Protect Our Heroes Act of 2016</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-12-09T22:54:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-12-09</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Protect Our Heroes Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Protect Our Heroes Act of 2016</b></p> <p>This bill amends the federal criminal code to make it a crime: (1) to kill, or attempt or conspire to kill, a federal judge, a federal law enforcement officer, or a federally funded public safety officer who is on duty; or (2) to kill a former federal judge, federal law enforcement officer, or federally funded public safety officer on account of their past performance of duties. An offender is subject to criminal penalties&#8212;a fine and a mandatory minimum prison term.</p> <p>This bill also makes it a crime: (1) to assault, or attempt to assault, a federally funded public safety officer who is on duty; or (2) to assault a former federally funded public safety officer on account of their past performance of official duties or because of their perceived status as a federally funded public safety officer. An offender is subject to criminal penalties&#8212;a fine and a mandatory minimum prison term. </p>]]></text>
+          <lastSummaryUpdateDate>2017-05-23T14:11:00Z</lastSummaryUpdateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-12-09</actionDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2016-12-09T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3545</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

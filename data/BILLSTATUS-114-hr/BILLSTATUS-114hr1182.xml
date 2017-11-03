@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-02-27</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-02-27</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-02-27</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors />
+    <introducedDate>2015-02-27</introducedDate>
+    <latestAction>
+      <actionDate>2015-02-27</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <billNumber>1182</billNumber>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Internal Revenue Code of 1986 to prevent retroactive claims of the earned income tax credit by individuals receiving work authorizations pursuant to certain deferred action programs.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Internal Revenue Code of 1986 to prevent retroactive claims of the earned income tax credit by individuals receiving work authorizations pursuant to certain deferred action programs.</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SCHWEIKERT:H.R. 1182.Congress has the power to enact this legislation pursuantto the following:Article 1. Section 8.[Page H1501]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To amend the Internal Revenue Code of 1986 to prevent retroactive claims of the earned income tax credit by individuals receiving work authorizations pursuant to certain deferred action programs.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-02-27</actionDate>
+          <lastSummaryUpdateDate>2015-05-11T15:25:48Z</lastSummaryUpdateDate>
+          <updateDate>2015-02-27T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the Internal Revenue Code to deny the earned income tax credit to aliens who have been granted employment authorization under a program of temporary deportation relief that has not been specifically established by law.&nbsp; </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>Denying Amnesty Bonuses Act</latestTitle>
+        <latestAction>
+          <text>Referred to the House Committee on Ways and Means.</text>
+          <actionDate>2015-03-04</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1328</number>
+      </item>
+      <item>
+        <latestTitle>No Free Rides Act</latestTitle>
+        <latestAction>
+          <text>Referred to the House Committee on Ways and Means.</text>
+          <actionDate>2015-03-04</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1249</number>
+      </item>
+      <item>
+        <latestTitle>A bill to amend the Internal Revenue Code of 1986 to provide a limitation on certain aliens from claiming the earned income tax credit.</latestTitle>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S1386-1387)</text>
+          <actionDate>2015-03-10</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>686</number>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-02-27T14:03:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:02Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Foreign labor</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Poverty and welfare assistance</name>
+          </item>
+          <item>
+            <name>Wages and earnings</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-02-28T04:46:16Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <state>AZ</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Schweikert</lastName>
+        <firstName>David</firstName>
+        <bioguideId>S001183</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

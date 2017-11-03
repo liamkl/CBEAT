@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Royce, Edward R. [R-CA-39]</fullName>
+        <district>39</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>ED</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>998</lisID>
+          <bioguideId>R000487</bioguideId>
+          <gpoId>7845</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-02-02</sponsorshipDate>
+        <bioguideId>R000487</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ROYCE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>NC</state>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2141</lisID>
+          <bioguideId>P000606</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-02-02</sponsorshipDate>
+        <bioguideId>P000606</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pittenger</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <district>5</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>CORRINE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>132</lisID>
+          <bioguideId>B000911</bioguideId>
+          <gpoId>7875</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-04</sponsorshipDate>
+        <bioguideId>B000911</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BROWN</lastName>
+      </item>
+    </cosponsors>
+    <notes />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Cyber Intelligence Sharing and Protection Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To provide for the sharing of certain cyber threat intelligence and cyber threat information between the intelligence community and cybersecurity entities, and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Cyber Intelligence Sharing and Protection Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>4</billReferrals>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-02-02</actionDate>
+        <committee>
+          <systemCode>hsju10</systemCode>
+          <name>Constitution and Civil Justice Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-02</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hshm00</systemCode>
+          <name>Homeland Security Committee</name>
+        </committee>
+        <text>Referred to House Homeland Security</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <text>Referred to House Armed Services</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <text>Referred to House Judiciary</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>H11100-A</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Intelligence (Permanent Select), and in addition to the Committees on the Judiciary, Armed Services, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hlig00</systemCode>
+          <name>Intelligence (Permanent) Committee</name>
+        </committee>
+        <text>Referred to House Intelligence (Permanent)</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <committeeReports />
+    <updateDate>2017-10-27T17:58:43Z</updateDate>
+    <billNumber>234</billNumber>
+    <latestAction>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <actionDate>2015-02-02</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2015-01-08</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1728</lisID>
+          <bioguideId>R000576</bioguideId>
+          <gpoId>7977</gpoId>
+        </identifiers>
+        <byRequestType />
+        <party>D</party>
+        <bioguideId>R000576</bioguideId>
+        <state>MD</state>
+        <firstName>C. A.</firstName>
+        <lastName>Ruppersberger</lastName>
+        <middleName>Dutch</middleName>
+        <district>2</district>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+      </item>
+    </sponsors>
+    <billType>HR</billType>
+    <createDate>2015-01-09T04:46:23Z</createDate>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Business records</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Computer security and identity theft</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Crimes against children</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Department of Defense</name>
+          </item>
+          <item>
+            <name>Department of Homeland Security</name>
+          </item>
+          <item>
+            <name>Department of Justice</name>
+          </item>
+          <item>
+            <name>Director of National Intelligence</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Federal preemption</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government liability</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Homeland security</name>
+          </item>
+          <item>
+            <name>Human trafficking</name>
+          </item>
+          <item>
+            <name>Intelligence activities, surveillance, classified information</name>
+          </item>
+          <item>
+            <name>International organizations and cooperation</name>
+          </item>
+          <item>
+            <name>Pornography</name>
+          </item>
+          <item>
+            <name>Public-private cooperation</name>
+          </item>
+          <item>
+            <name>Right of privacy</name>
+          </item>
+          <item>
+            <name>Sex offenses</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. RUPPERSBERGER:H.R. 234.Congress has the power to enact this legislation pursuantto the following:Commerce clause.____________________[Page H157]</pre>]]></constitutionalAuthorityStatementText>
+    <title>Cyber Intelligence Sharing and Protection Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Cyber Intelligence Sharing and Protection Act</b></p> <p>Directs the federal government to provide for the real-time sharing of actionable, situational cyber threat information between all designated federal cyber operations centers to enable integrated actions to protect, prevent, mitigate, respond to, and recover from cyber incidents. </p> <p>Directs the President, with respect to information shared by a cybersecurity provider (a non-federal entity that provides goods or services intended to be used for cybersecurity purposes) or self-protected entity (an entity that provides goods or services for cybersecurity purposes to itself), to designate: (1) an entity within the Department of Homeland Security (DHS) as the civilian federal entity to receive cyber threat information, and (2) an entity within the Department of Justice (DOJ) as the civilian federal entity to receive cybersecurity crime information. </p> <p>Amends the National Security Act of 1947 to require the Director of National Intelligence (DNI) to allow the intelligence community to share cyber threat intelligence with private-sector entities and utilities possessing appropriate certifications or security clearances. Authorizes a cybersecurity provider, with the consent of an entity that contracts with the provider, to: (1) use cybersecurity systems to obtain threat information to protect the rights and property of the contracting entity; and (2) share threat information with any other entity designated by the contracting entity, including DHS and DOJ.</p> <p>Requires federal agencies receiving shared cyber threat information to establish procedures to: (1) ensure that real-time information is shared with appropriate national security agencies and distributed to other federal agencies; and (2) facilitate collaboration among federal, state, local, tribal, and territorial governments, cybersecurity providers, and self-protected entities. </p> <p>Directs DHS, the Attorney General, the DNI, and the Department of Defense to establish procedures governing the receipt, retention, use, and disclosure of non-publicly available cyber threat information shared with the federal government. </p> <p>Sets forth requirements for the use and protection of shared information, including: (1) anonymization or minimization procedures, (2) prohibitions on gaining a competitive advantage, (3) exemptions from public disclosure requirements if information is shared with the government, and (4) prohibitions on the use of such information for regulatory purposes. States that shared information may only be used by a non-federal recipient for a cybersecurity purpose. </p> <p>Provides civil and criminal liability protections to cybersecurity providers, contracting entities, and self-protected entities acting in good faith to obtain or share threat information or to safeguard systems from threats. </p> <p>Allows the federal government to use shared cyber threat information for: (1) cybersecurity purposes to ensure the integrity, confidentiality, availability, or safeguarding of a system or network; (2) cybersecurity crime investigations; or (3) protection of individuals from the danger of death or serious bodily harm and the prosecution of crimes involving such danger, including child pornography, sexual exploitation, kidnapping, and trafficking. Prohibits the federal government from affirmatively searching such information for any other purpose. </p> <p>Repeals amendments made by this Act five years after enactment of this Act. </p> <p>Expresses the sense of Congress that international cooperation with regard to cybersecurity should be encouraged.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-08T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-01-21T14:59:13Z</lastSummaryUpdateDate>
+          <actionDate>2015-01-08</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-02-02T17:19:10Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Constitution and Civil Justice Subcommittee</name>
+            </item>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2015-02-02T14:37:21Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <activities>
+            <item>
+              <date>2015-01-08T15:03:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Homeland Security Committee</name>
+          <systemCode>hshm00</systemCode>
+          <activities>
+            <item>
+              <date>2015-01-08T15:03:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+          <activities>
+            <item>
+              <date>2015-01-08T15:03:10Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Select</type>
+          <chamber>House</chamber>
+          <name>Intelligence (Permanent) Committee</name>
+          <systemCode>hlig00</systemCode>
+          <activities>
+            <item>
+              <date>2015-01-08T15:03:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

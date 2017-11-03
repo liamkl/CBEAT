@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2013-02-27</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Ways and Means.</text>
+      </item>
+      <item>
+        <actionDate>2013-02-27</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionDate>2013-02-27</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <byRequestType />
+        <district>10</district>
+        <fullName>Rep. Turner, Michael R. [R-OH-10]</fullName>
+        <lastName>Turner</lastName>
+        <middleName>R.</middleName>
+        <state>OH</state>
+        <party>R</party>
+        <identifiers>
+          <lisID>1741</lisID>
+          <bioguideId>T000463</bioguideId>
+          <gpoId>8093</gpoId>
+        </identifiers>
+        <firstName>Michael</firstName>
+        <bioguideId>T000463</bioguideId>
+      </item>
+    </sponsors>
+    <congress>113</congress>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. TURNER:H.R. 877.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1 of the Constitution: TheCongress shall have Power to lay and collect Taxes, Duties,Imposts and Excises, to pay the Debts and provide for thecommon Defence and general Welfare of the United States; butall Duties, Imposts and Excises shall be uniform throughoutthe United States[Page H703]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>877</billNumber>
+    <cboCostEstimates />
+    <updateDate>2016-10-25T15:59:47Z</updateDate>
+    <laws />
+    <createDate>2013-02-28T07:00:51Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-02-27T15:04:00Z</date>
+            </item>
+          </activities>
+          <name>Ways and Means Committee</name>
+          <subcommittees />
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes />
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Historic Homeownership Revitalization Act of 2013 - Amends the Internal Revenue Code to: (1) allow a new tax credit for 20% of rehabilitation expenditures for a historic home used as a principal residence, up to $60,000; and (2) increase the rehabilitation tax credit for residential rental property located in economically distressed areas with high construction costs. </p>]]></text>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <lastSummaryUpdateDate>2013-03-23T15:01:02Z</lastSummaryUpdateDate>
+          <actionDate>2013-02-27</actionDate>
+          <updateDate>2013-02-27T05:00:00Z</updateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Holt, Rush [D-NJ-12]</fullName>
+        <identifiers>
+          <lisID>1580</lisID>
+          <gpoId>8054</gpoId>
+          <bioguideId>H001032</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>H001032</bioguideId>
+        <firstName>RUSH</firstName>
+        <middleName>D.</middleName>
+        <state>NJ</state>
+        <lastName>HOLT</lastName>
+        <district>12</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <identifiers>
+          <lisID>2055</lisID>
+          <bioguideId>C001084</bioguideId>
+          <gpoId>8139</gpoId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>C001084</bioguideId>
+        <firstName>David</firstName>
+        <middleName>N.</middleName>
+        <state>RI</state>
+        <lastName>Cicilline</lastName>
+        <district>1</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <identifiers>
+          <gpoId>8140</gpoId>
+          <lisID>1668</lisID>
+          <bioguideId>L000559</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>L000559</bioguideId>
+        <firstName>JAMES</firstName>
+        <middleName>R.</middleName>
+        <state>RI</state>
+        <lastName>LANGEVIN</lastName>
+        <district>2</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <identifiers>
+          <lisID>1794</lisID>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>H001038</bioguideId>
+        <firstName>Brian</firstName>
+        <middleName />
+        <state>NY</state>
+        <lastName>Higgins</lastName>
+        <district>26</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <identifiers>
+          <lisID>2025</lisID>
+          <bioguideId>K000375</bioguideId>
+          <gpoId>7975</gpoId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>K000375</bioguideId>
+        <firstName>William</firstName>
+        <middleName>R.</middleName>
+        <state>MA</state>
+        <lastName>Keating</lastName>
+        <district>9</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>B000574</bioguideId>
+        <firstName>EARL</firstName>
+        <middleName />
+        <state>OR</state>
+        <lastName>BLUMENAUER</lastName>
+        <district>3</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Stivers, Steve [R-OH-15]</fullName>
+        <identifiers>
+          <gpoId>8105</gpoId>
+          <bioguideId>S001187</bioguideId>
+          <lisID>2047</lisID>
+        </identifiers>
+        <sponsorshipDate>2013-02-27</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <bioguideId>S001187</bioguideId>
+        <firstName>Steve</firstName>
+        <middleName />
+        <state>OH</state>
+        <lastName>Stivers</lastName>
+        <district>15</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <identifiers>
+          <bioguideId>P000523</bioguideId>
+          <lisID>930</lisID>
+          <gpoId>8027</gpoId>
+        </identifiers>
+        <sponsorshipDate>2013-03-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>P000523</bioguideId>
+        <firstName>DAVID</firstName>
+        <middleName>E.</middleName>
+        <state>NC</state>
+        <lastName>PRICE</lastName>
+        <district>4</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Gibson, Christopher P. [R-NY-19]</fullName>
+        <identifiers>
+          <bioguideId>G000564</bioguideId>
+          <lisID>2043</lisID>
+          <gpoId>8081</gpoId>
+        </identifiers>
+        <sponsorshipDate>2013-05-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <bioguideId>G000564</bioguideId>
+        <firstName>Christopher</firstName>
+        <middleName>P.</middleName>
+        <state>NY</state>
+        <lastName>Gibson</lastName>
+        <district>19</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <sponsorshipDate>2014-09-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <bioguideId>W000800</bioguideId>
+        <firstName>Peter</firstName>
+        <middleName />
+        <state>VT</state>
+        <lastName>Welch</lastName>
+        <district>0</district>
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <relatedBills>
+      <item>
+        <number>2042</number>
+        <type>HR</type>
+        <congress>113</congress>
+        <latestTitle>Preserving America's Downtowns and Heritage Act of 2013</latestTitle>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <latestAction>
+          <actionDate>2013-05-17</actionDate>
+          <text>Referred to the House Committee on Ways and Means.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Historical and cultural resources</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Residential rehabilitation and home repair</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Historic Homeownership Revitalization Act of 2013</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend the Internal Revenue Code of 1986 to expand the incentives for the rehabilitation of older buildings, including owner-occupied residences.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Historic Homeownership Revitalization Act of 2013</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes />
+    <calendarNumbers />
+    <title>Historic Homeownership Revitalization Act of 2013</title>
+    <billType>HR</billType>
+    <introducedDate>2013-02-27</introducedDate>
+    <amendments />
+    <latestAction>
+      <actionDate>2013-02-27</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

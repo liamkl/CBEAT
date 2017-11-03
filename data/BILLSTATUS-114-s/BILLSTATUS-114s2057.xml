@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-09-17</actionDate>
+        <committee>
+          <systemCode>ssra00</systemCode>
+          <name>Rules and Administration Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Rules and Administration.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <actionDate>2015-09-17</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:10:16Z</updateDate>
+    <introducedDate>2015-09-17</introducedDate>
+    <recordedVotes />
+    <createDate>2015-09-18T09:22:53Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>John</firstName>
+        <lastName>Boozman</lastName>
+        <state>AR</state>
+        <bioguideId>B001236</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>B001236</bioguideId>
+          <gpoId>8247</gpoId>
+          <lisID>1687</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Boozman, John [R-AR]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Arts, Culture, Religion</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>A bill providing for additional space for the protection and preservation of national collections held by the Smithsonian Institution.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>A bill providing for additional space for the protection and preservation of national collections held by the Smithsonian Institution.</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <firstName>PATRICK</firstName>
+        <lastName>LEAHY</lastName>
+        <state>VT</state>
+        <bioguideId>L000174</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1383</lisID>
+          <bioguideId>L000174</bioguideId>
+          <gpoId>8244</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-09-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName>JOSEPH</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+      </item>
+      <item>
+        <firstName>David</firstName>
+        <lastName>Perdue</lastName>
+        <state>GA</state>
+        <bioguideId>P000612</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2286</lisID>
+          <gpoId />
+          <bioguideId>P000612</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-09-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName>Alfred</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Aviation and airports</name>
+          </item>
+          <item>
+            <name>Maryland</name>
+          </item>
+          <item>
+            <name>Museums, exhibitions, cultural centers</name>
+          </item>
+          <item>
+            <name>Smithsonian Institution</name>
+          </item>
+          <item>
+            <name>Virginia</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Arts, Culture, Religion</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Rules and Administration Committee</name>
+          <systemCode>ssra00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-09-17T21:05:23Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-09-17</actionDate>
+      <text>Read twice and referred to the Committee on Rules and Administration.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3702</number>
+        <type>HR</type>
+        <latestTitle>Smithsonian Collections Space Authorization Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-10-08</actionDate>
+          <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>A bill providing for additional space for the protection and preservation of national collections held by the Smithsonian Institution.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2015-09-17</actionDate>
+          <lastSummaryUpdateDate>2015-10-14T21:16:07Z</lastSummaryUpdateDate>
+          <updateDate>2015-09-17T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill authorizes the Smithsonian Institution to plan, design, and construct additional storage facilities for collections storage modules and hangar additions to the National Air and Space Museum Udvar-Hazy Center in Chantilly, Virginia, and additional storage and laboratory space at the Museum Support Center at the Suitland Collections Center in Suitland, Maryland, to accommodate the care, preservation, conservation, deposit, and study of national collections held in trust. </p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>2057</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

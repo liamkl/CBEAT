@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-12-17</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-12-17</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:10:40Z</updateDate>
+    <introducedDate>2015-12-17</introducedDate>
+    <recordedVotes />
+    <createDate>2015-12-18T10:08:11Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Martin</firstName>
+        <lastName>Heinrich</lastName>
+        <state>NM</state>
+        <bioguideId>H001046</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1937</lisID>
+          <gpoId>8056</gpoId>
+          <bioguideId>H001046</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>21st Century Visa Vetting Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to permit the Secretary of Homeland Security to search open source information to determine if an alien is inadmissible to the United States and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>21st Century Visa Vetting Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <firstName>JEFF</firstName>
+        <lastName>FLAKE</lastName>
+        <state>AZ</state>
+        <bioguideId>F000444</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>F000444</bioguideId>
+          <gpoId>7803</gpoId>
+          <lisID>1633</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-12-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Flake, Jeff [R-AZ]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-12-17T18:16:11Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>Senate</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-12-17</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2016-01-15</actionDate>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        </latestAction>
+        <number>4301</number>
+        <type>HR</type>
+        <latestTitle>To require the Secretary of Homeland Security to search all public records to determine if an alien is inadmissible to the United States.</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-12-15</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary.</text>
+        </latestAction>
+        <number>2402</number>
+        <type>S</type>
+        <latestTitle>A bill to require the Secretary of Homeland Security to search all public records to determine if an alien is inadmissible to the United States.</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>21st Century Visa Vetting Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>21st Century Visa Vetting Act</strong></p> <p>This bill authorizes the Department of Homeland Security to search open source information, including Internet sites and social media postings, of an alien who applies for a visa to enter the United States to determine if the alien is inadmissible under the Immigration and Nationality Act.</p>]]></text>
+          <lastSummaryUpdateDate>2016-02-19T22:05:58Z</lastSummaryUpdateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-12-17</actionDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-12-17T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>2411</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

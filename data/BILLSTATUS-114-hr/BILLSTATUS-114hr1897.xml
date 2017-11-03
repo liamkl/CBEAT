@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-07</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-05</actionDate>
+        <committee>
+          <systemCode>hsag15</systemCode>
+          <name>Conservation and Forestry Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Conservation and Forestry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to House Agriculture</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <item>
+        <text>Referred to House Natural Resources</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <item>
+        <text>Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:03Z</updateDate>
+    <introducedDate>2015-04-21</introducedDate>
+    <recordedVotes />
+    <createDate>2015-04-22T08:46:09Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Jody</firstName>
+        <lastName>Hice</lastName>
+        <state>GA</state>
+        <bioguideId>H001071</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>H001071</bioguideId>
+          <gpoId />
+          <lisID>2237</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>B.</middleName>
+        <fullName>Rep. Hice, Jody B. [R-GA-10]</fullName>
+        <district>10</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Federal Land Policy and Management Act of 1976 to make technical corrections to law governing grazing permits and leases on National Forest System lands.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Federal Land Policy and Management Act of 1976 to make technical corrections to law governing grazing permits and leases on National Forest System lands.</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>L000573</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>ID</state>
+        <firstName>Raul</firstName>
+        <identifiers>
+          <lisID>2011</lisID>
+          <gpoId>7919</gpoId>
+          <bioguideId>L000573</bioguideId>
+        </identifiers>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-04-21</sponsorshipDate>
+        <lastName>Labrador</lastName>
+        <middleName>R.</middleName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. JODY B. HICE of Georgia:H.R. 1897.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, Clause 2 of the Constitution states,``The Congress shall have Power to dispose of and make allneedful Rules and Regulations respecting the Territory orother Property belonging to the United States . . .''[Page H2355]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Forests, forestry, trees</name>
+          </item>
+          <item>
+            <name>Land use and conservation</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Livestock</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-05-07T17:22:44Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Federal Lands Subcommittee</name>
+              <systemCode>hsii10</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-21T16:02:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-05-05T14:25:31Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Conservation and Forestry Subcommittee</name>
+              <systemCode>hsag15</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-21T16:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Agriculture Committee</name>
+          <systemCode>hsag00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-05-07</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To amend the Federal Land Policy and Management Act of 1976 to make technical corrections to law governing grazing permits and leases on National Forest System lands.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-04-21</actionDate>
+          <lastSummaryUpdateDate>2015-06-24T19:47:21Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>Amends the Federal Land Policy and Management Act of 1976 to apply certain requirements for permits and leases for domestic livestock grazing on National Forest System lands issued by the Department of Agriculture (USDA) regardless of where located. </p> <p>Requires the terms and conditions in a grazing permit or lease that has been waived to be continued under a new permit or lease until the Department of the Interior (respecting public lands) or USDA completes any environmental analysis and documentation for an allotment management plan required under the National Environmental Policy Act of 1969 (NEPA) and other applicable laws. </p> <p>Allows the categorical exclusion of an allotment management plan by Interior or USDA from the requirement to prepare an Environmental Assessment or an Environmental Impact Statement under NEPA if: (1) the issued allotment management plan continues the current grazing management of the allotment, and (2) the Department concerned has assessed and evaluated the grazing allotment associated with such management plan. </p> <p>(A &quot;categorical exclusion&quot; under NEPA is a category of actions which do not individually or cumulatively have a significant effect on the human environment and which have been found to have no such effect in procedures adopted by a federal agency in implementing environmental regulations and for which, therefore, neither an Environmental Assessment nor an Environmental Impact Statement is required.) </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>1897</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

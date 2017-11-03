@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <hearingsHeld>1</hearingsHeld>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <name>Securities, Insurance, and Investment Subcommittee</name>
+          <systemCode>ssbk04</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Banking, Housing, and Urban Affairs Subcommittee on Securities, Insurance, and Investment. Hearings held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-03-19</actionDate>
+        <committee>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+          <systemCode>ssbk00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-03-19</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:08:43Z</updateDate>
+    <introducedDate>2015-03-19</introducedDate>
+    <recordedVotes />
+    <createDate>2015-03-23T13:30:36Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <state>LA</state>
+        <bioguideId>V000127</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+          <lisID>1609</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Policyholder Protection Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide for notice to, and input by, State insurance commissioners when requiring an insurance company to serve as a source of financial strength or when the Federal Deposit Insurance Corporation places a lien against an insurance company's assets, and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Policyholder Protection Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>1829</lisID>
+          <gpoId>8258</gpoId>
+          <bioguideId>T000464</bioguideId>
+        </identifiers>
+        <state>MT</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2015-03-19</sponsorshipDate>
+        <firstName>Jon</firstName>
+        <lastName>Tester</lastName>
+        <middleName />
+        <bioguideId>T000464</bioguideId>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1863</lisID>
+          <bioguideId>H001041</bioguideId>
+          <gpoId>8060</gpoId>
+        </identifiers>
+        <state>NV</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-04-20</sponsorshipDate>
+        <firstName>Dean</firstName>
+        <lastName>Heller</lastName>
+        <middleName />
+        <bioguideId>H001041</bioguideId>
+        <fullName>Sen. Heller, Dean [R-NV]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1541</lisID>
+          <bioguideId>C001035</bioguideId>
+          <gpoId>8291</gpoId>
+        </identifiers>
+        <state>ME</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <firstName>SUSAN</firstName>
+        <lastName>COLLINS</lastName>
+        <middleName>MARGARET</middleName>
+        <bioguideId>C001035</bioguideId>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>R000605</bioguideId>
+          <gpoId />
+          <lisID>2288</lisID>
+        </identifiers>
+        <state>SD</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <lastName>Rounds</lastName>
+        <middleName />
+        <bioguideId>R000605</bioguideId>
+        <fullName>Sen. Rounds, Mike  [R-SD]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>2138</lisID>
+          <gpoId />
+          <bioguideId>D000618</bioguideId>
+        </identifiers>
+        <state>MT</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <firstName>Steve</firstName>
+        <lastName>Daines</lastName>
+        <middleName />
+        <bioguideId>D000618</bioguideId>
+        <fullName>Sen. Daines, Steve [R-MT]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1548</lisID>
+          <gpoId>8281</gpoId>
+          <bioguideId>S001141</bioguideId>
+        </identifiers>
+        <state>AL</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <firstName>Jeff</firstName>
+        <lastName>Sessions</lastName>
+        <middleName />
+        <bioguideId>S001141</bioguideId>
+        <fullName>Sen. Sessions, Jeff [R-AL]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>924</lisID>
+          <bioguideId>P000449</bioguideId>
+          <gpoId>8266</gpoId>
+        </identifiers>
+        <state>OH</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipDate>2015-07-28</sponsorshipDate>
+        <firstName>ROB</firstName>
+        <lastName>PORTMAN</lastName>
+        <middleName />
+        <bioguideId>P000449</bioguideId>
+        <fullName>Sen. Portman, Rob [R-OH]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Bank accounts, deposits, capital</name>
+          </item>
+          <item>
+            <name>Banking and financial institutions regulation</name>
+          </item>
+          <item>
+            <name>Bankruptcy</name>
+          </item>
+          <item>
+            <name>Federal Reserve System</name>
+          </item>
+          <item>
+            <name>Financial crises and stabilization</name>
+          </item>
+          <item>
+            <name>Insurance industry and regulation</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssbk00</systemCode>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-03-19T16:14:52Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>ssbk04</systemCode>
+              <activities>
+                <item>
+                  <name>Hearings by</name>
+                  <date>2015-04-30T16:49:37Z</date>
+                </item>
+              </activities>
+              <name>Securities, Insurance, and Investment Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>Senate</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-04-30</actionDate>
+      <text>Committee on Banking, Housing, and Urban Affairs Subcommittee on Securities, Insurance, and Investment. Hearings held.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2015-11-17</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <number>1478</number>
+        <type>HR</type>
+        <latestTitle>Policyholder Protection Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-12-18</actionDate>
+          <text>Became Public Law No: 114-113.</text>
+        </latestAction>
+        <number>2029</number>
+        <type>HR</type>
+        <latestTitle>Consolidated Appropriations Act, 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Policyholder Protection Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Policyholder Protection Act of 2015</b></p> <p> Amends the Federal Deposit Insurance Act to declare that any regulation, order, or other action of the Board of Governors of the Federal Reserve System that requires a bank holding company to provide funds or other assets to a subsidiary depository institution shall not be effective nor enforceable with respect to an entity that is a savings and loan holding company that is also an insurance company, an affiliate of an insured depository institution that is an insurance company, or any other company that is an insurance company and that directly or indirectly controls an insured depository institution if: (1) such funds or assets are to be provided by the entity, and (2) the state insurance authority for the insurance company determines that such an action would have a materially adverse effect on the entity's financial condition.<br /><br />Declares that requiring a bank holding company that is an insurance company or such an entity to serve as a source of financial strength shall be deemed the kind of action of the Board to which this Act applies. </p> <p>Amends the Dodd-Frank Wall Street Reform and Consumer Protection Act, with respect to systemic risk determination and the treatment of insurance companies and their subsidiaries, to authorize the Federal Deposit Insurance Corporation (FDIC) to stand in the place of the appropriate regulatory agency and file a judicial action to place such companies into orderly rehabilitation under state law if the appropriate regulatory agency has not done so.</p> <p>Requires the FDIC, when funding the orderly liquidation of an insurance company or its subsidiary, to notify the relevant state insurance authority promptly of its intention to take a lien on the company's assets.</p> <p>Prohibits the FDIC from taking such a lien if the state insurance authority informs it that doing so would have a materially adverse effect upon the insurance company's policyholders.]]></text>
+          <lastSummaryUpdateDate>2015-05-06T21:51:20Z</lastSummaryUpdateDate>
+          <updateDate>2015-03-19T04:00:00Z</updateDate>
+          <actionDate>2015-03-19</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>798</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

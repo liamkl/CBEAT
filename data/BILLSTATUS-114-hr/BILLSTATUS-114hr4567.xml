@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-02-13T04:46:35Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <subcommittees>
+            <item>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2016-02-19T14:39:19Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsif14</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-02-12T14:02:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>Expand Excellence in Mental Health Act</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2525</number>
+        <latestAction>
+          <actionDate>2016-02-09</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-02-12</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2016-02-19</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-12</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-12</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-12</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Expand Excellence in Mental Health Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To increase the number of States that may conduct Medicaid demonstration programs to improve access to community mental health services.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Expand Excellence in Mental Health Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Medicaid</name>
+          </item>
+          <item>
+            <name>Mental health</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-02-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>Doris</firstName>
+        <district>6</district>
+        <fullName>Rep. Matsui, Doris O. [D-CA-6]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Matsui</lastName>
+        <identifiers>
+          <bioguideId>M001163</bioguideId>
+          <gpoId>7810</gpoId>
+          <lisID>1814</lisID>
+        </identifiers>
+        <bioguideId>M001163</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>O.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Derek</firstName>
+        <district>6</district>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kilmer</lastName>
+        <identifiers>
+          <lisID>2169</lisID>
+          <bioguideId>K000381</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>K000381</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>WA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-21</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <district>6</district>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Coffman</lastName>
+        <identifiers>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+        </identifiers>
+        <bioguideId>C001077</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-22</sponsorshipDate>
+        <party>R</party>
+        <firstName>WILLIAM</firstName>
+        <district>13</district>
+        <fullName>Rep. Thornberry, Mac [R-TX-13]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>THORNBERRY</lastName>
+        <identifiers>
+          <lisID>1155</lisID>
+          <gpoId>8755</gpoId>
+          <bioguideId>T000238</bioguideId>
+        </identifiers>
+        <bioguideId>T000238</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>ANNA</firstName>
+        <district>18</district>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ESHOO</lastName>
+        <identifiers>
+          <gpoId>7819</gpoId>
+          <lisID>355</lisID>
+          <bioguideId>E000215</bioguideId>
+        </identifiers>
+        <bioguideId>E000215</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>G.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>Erik</firstName>
+        <district>3</district>
+        <fullName>Rep. Paulsen, Erik [R-MN-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Paulsen</lastName>
+        <identifiers>
+          <bioguideId>P000594</bioguideId>
+          <gpoId>8003</gpoId>
+          <lisID>1930</lisID>
+        </identifiers>
+        <bioguideId>P000594</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>Ann</firstName>
+        <district>2</district>
+        <fullName>Rep. Wagner, Ann [R-MO-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Wagner</lastName>
+        <identifiers>
+          <lisID>2137</lisID>
+          <gpoId />
+          <bioguideId>W000812</bioguideId>
+        </identifiers>
+        <bioguideId>W000812</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-13</sponsorshipDate>
+        <party>D</party>
+        <firstName>GRACE</firstName>
+        <district>32</district>
+        <fullName>Rep. Napolitano, Grace F. [D-CA-32]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NAPOLITANO</lastName>
+        <identifiers>
+          <lisID>1602</lisID>
+          <gpoId>7843</gpoId>
+          <bioguideId>N000179</bioguideId>
+        </identifiers>
+        <bioguideId>N000179</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>F.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-15</sponsorshipDate>
+        <party>D</party>
+        <firstName>PETER</firstName>
+        <district>1</district>
+        <fullName>Rep. Visclosky, Peter J. [D-IN-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>VISCLOSKY</lastName>
+        <identifiers>
+          <bioguideId>V000108</bioguideId>
+          <gpoId>7940</gpoId>
+          <lisID>1188</lisID>
+        </identifiers>
+        <bioguideId>V000108</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <state>IN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <party>R</party>
+        <firstName>Michael</firstName>
+        <district>8</district>
+        <fullName>Rep. Fitzpatrick, Michael G. [R-PA-8]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Fitzpatrick</lastName>
+        <identifiers>
+          <bioguideId>F000451</bioguideId>
+          <gpoId>8126</gpoId>
+          <lisID>1797</lisID>
+        </identifiers>
+        <bioguideId>F000451</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>G.</middleName>
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <party>R</party>
+        <firstName>Christopher</firstName>
+        <district>19</district>
+        <fullName>Rep. Gibson, Christopher P. [R-NY-19]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gibson</lastName>
+        <identifiers>
+          <lisID>2043</lisID>
+          <bioguideId>G000564</bioguideId>
+          <gpoId>8081</gpoId>
+        </identifiers>
+        <bioguideId>G000564</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <party>R</party>
+        <firstName>Patrick</firstName>
+        <district>7</district>
+        <fullName>Rep. Meehan, Patrick [R-PA-7]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Meehan</lastName>
+        <identifiers>
+          <lisID>2052</lisID>
+          <bioguideId>M001181</bioguideId>
+          <gpoId>8125</gpoId>
+        </identifiers>
+        <bioguideId>M001181</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <party>D</party>
+        <firstName>ELIOT</firstName>
+        <district>16</district>
+        <fullName>Rep. Engel, Eliot L. [D-NY-16]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ENGEL</lastName>
+        <identifiers>
+          <bioguideId>E000179</bioguideId>
+          <gpoId>8078</gpoId>
+          <lisID>344</lisID>
+        </identifiers>
+        <bioguideId>E000179</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-13</sponsorshipDate>
+        <party>D</party>
+        <firstName>Alan</firstName>
+        <district>47</district>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lowenthal</lastName>
+        <identifiers>
+          <bioguideId>L000579</bioguideId>
+          <gpoId />
+          <lisID>2111</lisID>
+        </identifiers>
+        <bioguideId>L000579</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>S.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-13</sponsorshipDate>
+        <party>D</party>
+        <firstName>COLLIN</firstName>
+        <district>7</district>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>PETERSON</lastName>
+        <identifiers>
+          <bioguideId>P000258</bioguideId>
+          <gpoId>8007</gpoId>
+          <lisID>910</lisID>
+        </identifiers>
+        <bioguideId>P000258</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>C.</middleName>
+        <state>MN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ben</firstName>
+        <district>3</district>
+        <fullName>Rep. Lujan, Ben Ray [D-NM-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lujan</lastName>
+        <identifiers>
+          <lisID>1939</lisID>
+          <bioguideId>L000570</bioguideId>
+          <gpoId>8058</gpoId>
+        </identifiers>
+        <bioguideId>L000570</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>Ray</middleName>
+        <state>NM</state>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4567</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-07-11T17:21:36Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Expand Excellence in Mental Health Act of 2016</strong></p> <p>This bill amends the Promoting Access to Medicare Act of 2014 to increase, from 8 to 24, the number of states that may be selected to participate in Medicaid demonstration programs to improve community mental health services.</p>]]></text>
+          <updateDate>2016-02-12T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-02-12</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LANCE:H.R. 4567.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1, of the United StatesConstitutionThis states that ``Congress shall have the power to . . .lay and collect taxes, duties, imposts and excises, to paythe debts and provide for the common defense and generalwelfare of the United States.''[Page H818]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Expand Excellence in Mental Health Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-02-19</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:23Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>L000567</bioguideId>
+        <district>7</district>
+        <middleName />
+        <state>NJ</state>
+        <firstName>Leonard</firstName>
+        <lastName>Lance</lastName>
+        <identifiers>
+          <bioguideId>L000567</bioguideId>
+          <gpoId>8049</gpoId>
+          <lisID>1936</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

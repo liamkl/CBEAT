@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <systemCode>hsed10</systemCode>
+          <name>Workforce Protections Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Workforce Protections.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-16</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-16</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-16</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:01:00Z</updateDate>
+    <introducedDate>2015-04-16</introducedDate>
+    <recordedVotes />
+    <createDate>2015-04-17T09:01:58Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>David</firstName>
+        <lastName>Cicilline</lastName>
+        <state>RI</state>
+        <bioguideId>C001084</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2055</lisID>
+          <bioguideId>C001084</bioguideId>
+          <gpoId>8139</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>N.</middleName>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Fair Labor Standards Act of 1938 to prohibit employment of children in tobacco-related agriculture by deeming such employment as oppressive child labor.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To amend the Fair Labor Standards Act of 1938 to prohibit employment of children in tobacco-related agriculture by deeming such employment as oppressive child labor.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>51</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <firstName>Juan</firstName>
+        <middleName />
+        <lastName>Vargas</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>V000130</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>13</district>
+        <state>NY</state>
+        <party>D</party>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <firstName>CHARLES</firstName>
+        <middleName>B.</middleName>
+        <lastName>RANGEL</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>R000053</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>17</district>
+        <state>PA</state>
+        <party>D</party>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <firstName>Matt</firstName>
+        <middleName />
+        <lastName>Cartwright</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2159</lisID>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001090</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>20</district>
+        <state>FL</state>
+        <party>D</party>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <firstName>ALCEE</firstName>
+        <middleName>L.</middleName>
+        <lastName>HASTINGS</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>H000324</bioguideId>
+          <gpoId>7895</gpoId>
+          <lisID>511</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>H000324</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>28</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Schiff, Adam B. [D-CA-28]</fullName>
+        <firstName>ADAM</firstName>
+        <middleName>B.</middleName>
+        <lastName>SCHIFF</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7834</gpoId>
+          <lisID>1635</lisID>
+          <bioguideId>S001150</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>S001150</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <district>3</district>
+        <state>AZ</state>
+        <party>D</party>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <firstName>Raul</firstName>
+        <middleName>M.</middleName>
+        <lastName>Grijalva</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1708</lisID>
+          <gpoId>7804</gpoId>
+          <bioguideId>G000551</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>G000551</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <district>0</district>
+        <state>DC</state>
+        <party>D</party>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <middleName>HOLMES</middleName>
+        <lastName>NORTON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>N000147</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <district>2</district>
+        <state>MA</state>
+        <party>D</party>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <firstName>JAMES</firstName>
+        <middleName>P.</middleName>
+        <lastName>MCGOVERN</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1504</lisID>
+          <gpoId>7968</gpoId>
+          <bioguideId>M000312</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>M000312</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <district>4</district>
+        <state>IL</state>
+        <party>D</party>
+        <fullName>Rep. Gutierrez, Luis V. [D-IL-4]</fullName>
+        <firstName>LUIS</firstName>
+        <middleName>V.</middleName>
+        <lastName>GUTIERREZ</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7924</gpoId>
+          <lisID>478</lisID>
+          <bioguideId>G000535</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>G000535</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-03</sponsorshipDate>
+        <district>27</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Chu, Judy [D-CA-27]</fullName>
+        <firstName>Judy</firstName>
+        <middleName />
+        <lastName>Chu</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1970</lisID>
+          <bioguideId>C001080</bioguideId>
+          <gpoId>7837</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>C001080</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-17</sponsorshipDate>
+        <district>2</district>
+        <state>WI</state>
+        <party>D</party>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <firstName>Mark</firstName>
+        <middleName />
+        <lastName>Pocan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2171</lisID>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>P000607</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <district>8</district>
+        <state>VA</state>
+        <party>D</party>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <firstName>Donald</firstName>
+        <middleName>S.</middleName>
+        <lastName>Beyer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001292</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <district>3</district>
+        <state>OR</state>
+        <party>D</party>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <firstName>EARL</firstName>
+        <middleName />
+        <lastName>BLUMENAUER</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B000574</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <district>7</district>
+        <state>MA</state>
+        <party>D</party>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <firstName>MICHAEL</firstName>
+        <middleName>E.</middleName>
+        <lastName>CAPUANO</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1564</lisID>
+          <gpoId>7973</gpoId>
+          <bioguideId>C001037</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>C001037</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <district>5</district>
+        <state>MA</state>
+        <party>D</party>
+        <fullName>Rep. Clark, Katherine M. [D-MA-5]</fullName>
+        <firstName>Katherine</firstName>
+        <middleName>M.</middleName>
+        <lastName>Clark</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>C001101</bioguideId>
+          <gpoId />
+          <lisID>2196</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>C001101</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <district>41</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <firstName>Mark</firstName>
+        <middleName />
+        <lastName>Takano</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2110</lisID>
+          <gpoId />
+          <bioguideId>T000472</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000472</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>3</district>
+        <state>MA</state>
+        <party>D</party>
+        <fullName>Rep. Tsongas, Niki [D-MA-3]</fullName>
+        <firstName>Niki</firstName>
+        <middleName />
+        <lastName>Tsongas</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1884</lisID>
+          <bioguideId>T000465</bioguideId>
+          <gpoId>7970</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000465</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>40</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <firstName>LUCILLE</firstName>
+        <middleName />
+        <lastName>ROYBAL-ALLARD</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>997</lisID>
+          <bioguideId>R000486</bioguideId>
+          <gpoId>7839</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000486</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>9</district>
+        <state>MA</state>
+        <party>D</party>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <firstName>William</firstName>
+        <middleName>R.</middleName>
+        <lastName>Keating</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>K000375</bioguideId>
+          <gpoId>7975</gpoId>
+          <lisID>2025</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>K000375</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <district>8</district>
+        <state>MD</state>
+        <party>D</party>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <firstName>Chris</firstName>
+        <middleName />
+        <lastName>Van Hollen</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>V000128</bioguideId>
+          <gpoId>7983</gpoId>
+          <lisID>1729</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>V000128</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-14</sponsorshipDate>
+        <district>5</district>
+        <state>MN</state>
+        <party>D</party>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <middleName />
+        <lastName>Ellison</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1857</lisID>
+          <gpoId>8005</gpoId>
+          <bioguideId>E000288</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>E000288</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>17</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <firstName>MICHAEL</firstName>
+        <middleName>M.</middleName>
+        <lastName>HONDA</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7820</gpoId>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>H001034</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CICILLINE:H.R. 1848.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8.[Page H2309]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Labor and Employment</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Labor standards</name>
+          </item>
+          <item>
+            <name>Migrant, seasonal, agricultural labor</name>
+          </item>
+          <item>
+            <name>Worker safety and health</name>
+          </item>
+          <item>
+            <name>Youth employment and child labor</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-11-16T21:16:03Z</date>
+                </item>
+              </activities>
+              <name>Workforce Protections Subcommittee</name>
+              <systemCode>hsed10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsed00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-16T13:06:30Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Workforce Protections.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>974</number>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (Sponsor introductory remarks on measure: CR S2246-2247; text of measure as introduced: CR S2247-2249)</text>
+          <actionDate>2015-04-16</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>A bill to amend the Fair Labor Standards Act of 1938 to prohibit employment of children in tobacco-related agriculture by deeming such employment as oppressive child labor.</latestTitle>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To amend the Fair Labor Standards Act of 1938 to prohibit employment of children in tobacco-related agriculture by deeming such employment as oppressive child labor.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill amends the Fair Labor Standards Act of 1938 to redefine &quot;oppressive child labor,&quot; for purposes of child labor prohibitions, to include the employment of any employee under age 18 who has direct contact with tobacco plants or dried tobacco leaves.</p>]]></text>
+          <lastSummaryUpdateDate>2015-04-30T21:20:40Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-16</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-16T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>1848</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

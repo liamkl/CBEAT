@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-08-28</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 201.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2015-08-28</actionDate>
+        <committee>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <systemCode>sscm00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>report No. 114-121</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/121</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Reported by Senator Thune under authority of the order of the Senate of 08/05/2015 without amendment. With written report No. 114-121.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links>
+          <link>
+            <name>report No. 114-121</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/121</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>14000</actionCode>
+        <type>Committee</type>
+        <actionDate>2015-08-28</actionDate>
+        <text>Committee on Commerce, Science, and Transportation. Reported by Senator Thune under authority of the order of the Senate of 08/05/2015 without amendment. With written report No. 114-121.</text>
+        <committee>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <systemCode>sscm00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <actionDate>2015-05-20</actionDate>
+        <committee>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <systemCode>sscm00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-13</actionDate>
+        <committee>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <systemCode>sscm00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-13</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <orderedReported>1</orderedReported>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <reportedToSenate>2</reportedToSenate>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:09:20Z</updateDate>
+    <introducedDate>2015-05-13</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-14T09:16:43Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>MICHAEL</firstName>
+        <lastName>ENZI</lastName>
+        <state>WY</state>
+        <bioguideId>E000285</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1542</lisID>
+          <bioguideId>E000285</bioguideId>
+          <gpoId>8328</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>B.</middleName>
+        <fullName>Sen. Enzi, Michael B. [R-WY]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <title>Knife Owners' Protection Act of 2015</title>
+        <chamberCode>S</chamberCode>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <chamberName>Senate</chamberName>
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Knife Owners' Protection Act of 2015</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>A bill to protect the right of law-abiding citizens to transport knives interstate, notwithstanding a patchwork of local and State prohibitions.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Knife Owners' Protection Act of 2015</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <middleName />
+        <bioguideId>W000779</bioguideId>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <identifiers>
+          <lisID>1247</lisID>
+          <bioguideId>W000779</bioguideId>
+          <gpoId>8265</gpoId>
+        </identifiers>
+        <state>OR</state>
+        <firstName>RON</firstName>
+        <lastName>WYDEN</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>M001183</bioguideId>
+        <fullName>Sen. Manchin, Joe, III [D-WV]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <identifiers>
+          <lisID>1983</lisID>
+          <bioguideId>M001183</bioguideId>
+          <gpoId>8256</gpoId>
+        </identifiers>
+        <state>WV</state>
+        <firstName>Joe</firstName>
+        <lastName>Manchin</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>H001046</bioguideId>
+        <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <identifiers>
+          <lisID>1937</lisID>
+          <bioguideId>H001046</bioguideId>
+          <gpoId>8056</gpoId>
+        </identifiers>
+        <state>NM</state>
+        <firstName>Martin</firstName>
+        <lastName>Heinrich</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>L000577</bioguideId>
+        <fullName>Sen. Lee, Mike [R-UT]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <identifiers>
+          <lisID>2080</lisID>
+          <bioguideId>L000577</bioguideId>
+          <gpoId>8303</gpoId>
+        </identifiers>
+        <state>UT</state>
+        <firstName>Mike</firstName>
+        <lastName>Lee</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName>R.</middleName>
+        <bioguideId>T000250</bioguideId>
+        <fullName>Sen. Thune, John [R-SD]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <identifiers>
+          <bioguideId>T000250</bioguideId>
+          <gpoId>8257</gpoId>
+          <lisID>1534</lisID>
+        </identifiers>
+        <state>SD</state>
+        <firstName>JOHN</firstName>
+        <lastName>THUNE</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>M000934</bioguideId>
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <identifiers>
+          <lisID>1507</lisID>
+          <gpoId>8307</gpoId>
+          <bioguideId>M000934</bioguideId>
+        </identifiers>
+        <state>KS</state>
+        <firstName>JERRY</firstName>
+        <lastName>MORAN</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>T000464</bioguideId>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <identifiers>
+          <lisID>1829</lisID>
+          <bioguideId>T000464</bioguideId>
+          <gpoId>8258</gpoId>
+        </identifiers>
+        <state>MT</state>
+        <firstName>Jon</firstName>
+        <lastName>Tester</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>D000618</bioguideId>
+        <fullName>Sen. Daines, Steve [R-MT]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>D000618</bioguideId>
+          <gpoId />
+          <lisID>2138</lisID>
+        </identifiers>
+        <state>MT</state>
+        <firstName>Steve</firstName>
+        <lastName>Daines</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>U000039</bioguideId>
+        <fullName>Sen. Udall, Tom [D-NM]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1567</lisID>
+          <bioguideId>U000039</bioguideId>
+          <gpoId>8260</gpoId>
+        </identifiers>
+        <state>NM</state>
+        <firstName>TOM</firstName>
+        <lastName>UDALL</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName>D.</middleName>
+        <bioguideId>C000880</bioguideId>
+        <fullName>Sen. Crapo, Mike [R-ID]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-01-11</sponsorshipDate>
+        <identifiers>
+          <bioguideId>C000880</bioguideId>
+          <gpoId>8289</gpoId>
+          <lisID>250</lisID>
+        </identifiers>
+        <state>ID</state>
+        <firstName>MICHAEL</firstName>
+        <lastName>CRAPO</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>C000127</bioguideId>
+        <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-01-11</sponsorshipDate>
+        <identifiers>
+          <lisID>172</lisID>
+          <gpoId>8288</gpoId>
+          <bioguideId>C000127</bioguideId>
+        </identifiers>
+        <state>WA</state>
+        <firstName>MARIA</firstName>
+        <lastName>CANTWELL</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName />
+        <bioguideId>M001176</bioguideId>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-02-02</sponsorshipDate>
+        <identifiers>
+          <gpoId>8238</gpoId>
+          <lisID>1900</lisID>
+          <bioguideId>M001176</bioguideId>
+        </identifiers>
+        <state>OR</state>
+        <firstName>Jeff</firstName>
+        <lastName>Merkley</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName>E.</middleName>
+        <bioguideId>R000584</bioguideId>
+        <fullName>Sen. Risch, James E. [R-ID]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-02-02</sponsorshipDate>
+        <identifiers>
+          <bioguideId>R000584</bioguideId>
+          <gpoId>8274</gpoId>
+          <lisID>1896</lisID>
+        </identifiers>
+        <state>ID</state>
+        <firstName>James</firstName>
+        <lastName>Risch</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0201</number>
+      </item>
+    </calendarNumbers>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 114-121</citation>
+      </committeeReport>
+    </committeeReports>
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Criminal procedure and sentencing</name>
+          </item>
+          <item>
+            <name>Detention of persons</name>
+          </item>
+          <item>
+            <name>Federal preemption</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>sscm00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2015-08-28T17:37:27Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2015-05-20T14:30:00Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2015-05-13T14:54:50Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-08-28</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 201.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Knife Owners' Protection Act of 2015</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>419</number>
+        <latestAction>
+          <actionDate>2015-02-05</actionDate>
+          <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>Knife Owners' Protection Act of 2015</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>567</number>
+        <latestAction>
+          <actionDate>2015-02-25</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates>
+      <item>
+        <title>S. 1315, Knife Ownersâ Protection Act of 2015</title>
+        <pubDate>2015-06-16T18:42:25Z</pubDate>
+        <url>https://www.cbo.gov/publication/50314</url>
+      </item>
+      <item>
+        <title>S. 1315, Knife Owners’ Protection Act of 2015</title>
+        <pubDate>2015-06-16T18:42:25Z</pubDate>
+        <url>https://www.cbo.gov/publication/50314</url>
+      </item>
+    </cboCostEstimates>
+    <title>Knife Owners' Protection Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Knife Owners' Protection Act of 2015</strong></p> <p> Allows any individual who is not otherwise prohibited by federal law from possessing, transporting, shipping, or receiving a knife to transport a knife from any state or place where such individual may lawfully possess, carry, or transport such a knife to any other state or place where such individual may lawfully do so: (1) by motor vehicle if the knife is not directly accessible from the passenger compartment or is in a closed container, glove compartment, or console; or (2) by other means over land or through water or the air if the knife is in a closed container. Excludes the transport of a knife with the intent to commit an offense punishable by imprisonment for a term exceeding one year involving the use or threatened use of force against another person or with knowledge, or reasonable cause to believe, that such an offense is to be committed in the course of, or arising from, the journey.</p> <p>Allows an individual to carry a knife or tool that is designed for enabling escape in an emergency and that incorporates a blunt tipped safety blade or a guarded blade or both for cutting safety belts in the passenger compartment of a motor vehicle without being secured in a closed container, glove compartment, or console, except in the passenger cabin of aircraft whose passengers are subject to airport screening procedures of the Transportation Security Administration.</p>]]></text>
+          <lastSummaryUpdateDate>2015-07-29T18:28:02Z</lastSummaryUpdateDate>
+          <updateDate>2015-05-13T04:00:00Z</updateDate>
+          <actionDate>2015-05-13</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+        <item>
+          <versionCode>80</versionCode>
+          <actionDesc>Reported to Senate without amendment</actionDesc>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong></strong><b>Knife Owners' Protection Act of 2015</b> </p> <p>(Sec. 2) This bill permits an individual to transport a knife between two states where knife possession, carry, or transport is legal. A knife must be securely stored during transport. </p> <p>Specifically, a knife transported by motor vehicle must be inaccessible from the vehicle's passenger compartment or secured in a closed container, glove compartment, or console in a vehicle with no separate passenger compartment. A knife transported by other means (e.g., air) must be secured in a closed container. </p> <p>An emergency knife designed to cut seat belts is exempt from the requirement to be securely stored during interstate transport. </p> <p>This bill prohibits the arrest or detention of an individual for a knife violation unless there is probable cause to believe the individual failed to securely store the knife during transport. An individual may assert compliance with this Act as a claim or defense in any civil or criminal action or proceeding. </p>]]></text>
+          <lastSummaryUpdateDate>2016-09-07T19:39:24Z</lastSummaryUpdateDate>
+          <updateDate>2015-08-28T17:03:52Z</updateDate>
+          <actionDate>2015-08-28</actionDate>
+          <name>Reported to Senate without amendment</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1315</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

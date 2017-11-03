@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-13</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-13</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-13</actionDate>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <state>NC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>JONES</lastName>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <firstName>WALTER</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>J000255</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Clyburn, James E. [D-SC-6]</fullName>
+        <state>SC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>CLYBURN</lastName>
+        <identifiers>
+          <lisID>208</lisID>
+          <gpoId>8146</gpoId>
+          <bioguideId>C000537</bioguideId>
+        </identifiers>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>C000537</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Green</lastName>
+        <identifiers>
+          <lisID>1803</lisID>
+          <gpoId>8165</gpoId>
+          <bioguideId>G000553</bioguideId>
+        </identifiers>
+        <firstName>Al</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>G000553</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Cleaver, Emanuel [D-MO-5]</fullName>
+        <state>MO</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cleaver</lastName>
+        <identifiers>
+          <bioguideId>C001061</bioguideId>
+          <gpoId>8013</gpoId>
+          <lisID>1790</lisID>
+        </identifiers>
+        <firstName>Emanuel</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>C001061</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Waters, Maxine [D-CA-43]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>WATERS</lastName>
+        <identifiers>
+          <lisID>1205</lisID>
+          <gpoId>7840</gpoId>
+          <bioguideId>W000187</bioguideId>
+        </identifiers>
+        <firstName>MAXINE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>43</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>W000187</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+        <state>VA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Scott</lastName>
+        <identifiers>
+          <lisID>1037</lisID>
+          <bioguideId>S000185</bioguideId>
+          <gpoId>8194</gpoId>
+        </identifiers>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName>C. "Bobby"</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>S000185</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Lewis, John [D-GA-5]</fullName>
+        <state>GA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>LEWIS</lastName>
+        <identifiers>
+          <lisID>688</lisID>
+          <gpoId>7902</gpoId>
+          <bioguideId>L000287</bioguideId>
+        </identifiers>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>L000287</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <state>IL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>DAVIS</lastName>
+        <identifiers>
+          <lisID>1477</lisID>
+          <gpoId>7927</gpoId>
+          <bioguideId>D000096</bioguideId>
+        </identifiers>
+        <firstName>DANNY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+        <middleName>K.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>D000096</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Plaskett, Stacey E. [D-VI-At Large]</fullName>
+        <state>VI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Plaskett</lastName>
+        <identifiers>
+          <lisID>2274</lisID>
+          <bioguideId>P000610</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Stacey</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>P000610</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Wilson</lastName>
+        <identifiers>
+          <lisID>2004</lisID>
+          <gpoId>7889</gpoId>
+          <bioguideId>W000808</bioguideId>
+        </identifiers>
+        <firstName>Frederica</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>24</district>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>W000808</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Johnson, Eddie Bernice [D-TX-30]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>JOHNSON</lastName>
+        <identifiers>
+          <lisID>599</lisID>
+          <gpoId>8186</gpoId>
+          <bioguideId>J000126</bioguideId>
+        </identifiers>
+        <firstName>EDDIE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>30</district>
+        <middleName>BERNICE</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>J000126</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>HASTINGS</lastName>
+        <identifiers>
+          <lisID>511</lisID>
+          <gpoId>7895</gpoId>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <firstName>ALCEE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>20</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>H000324</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>ESHOO</lastName>
+        <identifiers>
+          <bioguideId>E000215</bioguideId>
+          <gpoId>7819</gpoId>
+          <lisID>355</lisID>
+        </identifiers>
+        <firstName>ANNA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>18</district>
+        <middleName>G.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>E000215</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>LEE</lastName>
+        <identifiers>
+          <lisID>1501</lisID>
+          <gpoId>7814</gpoId>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>13</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>L000551</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>BROWN</lastName>
+        <identifiers>
+          <lisID>132</lisID>
+          <gpoId>7875</gpoId>
+          <bioguideId>B000911</bioguideId>
+        </identifiers>
+        <firstName>CORRINE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>B000911</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Richmond, Cedric L. [D-LA-2]</fullName>
+        <state>LA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Richmond</lastName>
+        <identifiers>
+          <gpoId>7960</gpoId>
+          <lisID>2023</lisID>
+          <bioguideId>R000588</bioguideId>
+        </identifiers>
+        <firstName>Cedric</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>R000588</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <state>PA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>FATTAH</lastName>
+        <identifiers>
+          <lisID>371</lisID>
+          <gpoId>8120</gpoId>
+          <bioguideId>F000043</bioguideId>
+        </identifiers>
+        <firstName>CHAKA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>F000043</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>RANGEL</lastName>
+        <identifiers>
+          <lisID>944</lisID>
+          <gpoId>8076</gpoId>
+          <bioguideId>R000053</bioguideId>
+        </identifiers>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>13</district>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>R000053</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Bass, Karen [D-CA-37]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bass</lastName>
+        <identifiers>
+          <lisID>1996</lisID>
+          <bioguideId>B001270</bioguideId>
+          <gpoId>7838</gpoId>
+        </identifiers>
+        <firstName>Karen</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>37</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>B001270</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <state>DC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>NORTON</lastName>
+        <identifiers>
+          <lisID>868</lisID>
+          <gpoId>7871</gpoId>
+          <bioguideId>N000147</bioguideId>
+        </identifiers>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+        <middleName>HOLMES</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>N000147</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Cardenas, Tony [D-CA-29]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cardenas</lastName>
+        <identifiers>
+          <lisID>2107</lisID>
+          <bioguideId>C001097</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Tony</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>29</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>C001097</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>GREEN</lastName>
+        <identifiers>
+          <lisID>462</lisID>
+          <bioguideId>G000410</bioguideId>
+          <gpoId>8185</gpoId>
+        </identifiers>
+        <firstName>GENE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>29</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>G000410</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Payne, Donald M., Jr. [D-NJ-10]</fullName>
+        <state>NJ</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Payne</lastName>
+        <identifiers>
+          <bioguideId>P000604</bioguideId>
+          <gpoId>8373</gpoId>
+          <lisID>2097</lisID>
+        </identifiers>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>10</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>P000604</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <state>MO</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>CLAY</lastName>
+        <identifiers>
+          <bioguideId>C001049</bioguideId>
+          <gpoId>8009</gpoId>
+          <lisID>1654</lisID>
+        </identifiers>
+        <firstName>WM.</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <middleName>LACY</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>C001049</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Jeffries, Hakeem S. [D-NY-8]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Jeffries</lastName>
+        <identifiers>
+          <bioguideId>J000294</bioguideId>
+          <gpoId />
+          <lisID>2149</lisID>
+        </identifiers>
+        <firstName>Hakeem</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>8</district>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>J000294</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Beatty, Joyce [D-OH-3]</fullName>
+        <state>OH</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Beatty</lastName>
+        <identifiers>
+          <bioguideId>B001281</bioguideId>
+          <gpoId />
+          <lisID>2153</lisID>
+        </identifiers>
+        <firstName>Joyce</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>B001281</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Veasey, Marc A. [D-TX-33]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Veasey</lastName>
+        <identifiers>
+          <lisID>2166</lisID>
+          <bioguideId>V000131</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Marc</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>33</district>
+        <middleName>A.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>V000131</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <state>MS</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>THOMPSON</lastName>
+        <identifiers>
+          <lisID>1151</lisID>
+          <bioguideId>T000193</bioguideId>
+          <gpoId>8020</gpoId>
+        </identifiers>
+        <firstName>BENNIE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName />
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>T000193</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Sewell, Terri A. [D-AL-7]</fullName>
+        <state>AL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Sewell</lastName>
+        <identifiers>
+          <gpoId>7792</gpoId>
+          <lisID>1988</lisID>
+          <bioguideId>S001185</bioguideId>
+        </identifiers>
+        <firstName>Terri</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+        <middleName>A.</middleName>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <bioguideId>S001185</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <state>MI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lawrence</lastName>
+        <identifiers>
+          <lisID>2252</lisID>
+          <gpoId />
+          <bioguideId>L000581</bioguideId>
+        </identifiers>
+        <firstName>Brenda</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>14</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <bioguideId>L000581</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SLAUGHTER</lastName>
+        <identifiers>
+          <lisID>1069</lisID>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+        </identifiers>
+        <firstName>LOUISE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>25</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <bioguideId>S000480</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-07-13</introducedDate>
+    <latestAction>
+      <actionDate>2015-07-13</actionDate>
+      <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      <links />
+    </latestAction>
+    <billNumber>3034</billNumber>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To provide for the issuance of a commemorative postage stamp in honor of George Henry White.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>To provide for the issuance of a commemorative postage stamp in honor of George Henry White.</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BUTTERFIELD:H.R. 3034.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article I, Section 8, Clauses 1 and 18 of theUnited States Constitution.[Page H5117]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To provide for the issuance of a commemorative postage stamp in honor of George Henry White.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>The Postmaster General must issue a commemorative postage stamp in honor of George Henry White.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-07-13T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-09-14T16:40:37Z</lastSummaryUpdateDate>
+          <actionDate>2015-07-13</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-07-13T16:00:38Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:41Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>House of Representatives</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+          <item>
+            <name>North Carolina</name>
+          </item>
+          <item>
+            <name>Postal service</name>
+          </item>
+          <item>
+            <name>Racial and ethnic relations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-07-14T09:26:45Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <state>NC</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Butterfield</lastName>
+        <firstName>G. K.</firstName>
+        <bioguideId>B001251</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1761</lisID>
+          <gpoId>8024</gpoId>
+          <bioguideId>B001251</bioguideId>
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

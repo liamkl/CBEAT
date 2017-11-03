@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Assault and harassment offenses</name>
+          </item>
+          <item>
+            <name>Crime victims</name>
+          </item>
+          <item>
+            <name>Crimes against women</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Evidence and witnesses</name>
+          </item>
+          <item>
+            <name>Genetics</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+          <item>
+            <name>Sex offenses</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-06-22</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Debbie</firstName>
+        <party>D</party>
+        <fullName>Rep. Wasserman Schultz, Debbie [D-FL-23]</fullName>
+        <state>FL</state>
+        <byRequestType />
+        <bioguideId>W000797</bioguideId>
+        <lastName>Wasserman Schultz</lastName>
+        <middleName />
+        <district>23</district>
+        <identifiers>
+          <lisID>1777</lisID>
+          <bioguideId>W000797</bioguideId>
+          <gpoId>7892</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <latestTitle>Survivors' Bill of Rights Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-10-07</actionDate>
+          <text>Became Public Law No: 114-236.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>5578</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestTitle>Sexual Assault Survivors' Rights Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-23</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>2566</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:05:34Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2016-06-30T16:57:27Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-06-22T14:02:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-06-22T14:02:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-06-23T05:20:37Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-06-30</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <actions>
+      <item>
+        <actionDate>2016-06-30</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-22</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-22</actionDate>
+        <text>Referred to House Judiciary</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-22</actionDate>
+        <text>Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-22</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-22</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Sexual Assault Survivors' Rights Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-06-22</actionDate>
+          <lastSummaryUpdateDate>2017-01-26T15:39:28Z</lastSummaryUpdateDate>
+          <updateDate>2016-06-22T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Sexual Assault Survivors' Rights Act</b></p> <p>This bill amends the federal criminal code to establish statutory rights for sexual assault survivors, including the right to: (1) receive a forensic medical examination at no cost; (2) have a sexual assault evidence collection kit (i.e., rape kit) preserved for the maximum applicable statute of limitations; (3) receive written notification prior to destruction or disposal of a rape kit; and (4) be informed of the rights and policies under this section.</p> <p>Additionally, it makes statutory crime victims' rights applicable to sexual assault survivors.</p> <p>The bill amends the Victims' Rights and Restitution Act of 1990 to include information about sexual assault services, programs, and providers in the description of services provided to victims.</p> <p>The bill amends the Victims of Crime Act of 1984 to authorize the Department of Justice's (DOJ's) Office of Justice Programs to make grants to states to develop sexual assault survivors' rights and policies and to disseminate written notice of such rights and policies to medical centers, hospitals, forensic examiners, sexual assault service providers, law enforcement agencies, and other state entities.</p> <p>DOJ and the Department of Health and Human Services must establish a joint working group to develop, coordinate, and disseminate best practices regarding the care and treatment of sexual assault survivors and the preservation of forensic evidence.</p> <p>For purposes of this bill, the term &quot;sexual assault survivor&quot; includes a legal representative acting on behalf of a deceased victim of sexual assault.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>5571</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. WASSERMAN SCHULTZ:H.R. 5571.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the U.S. Constitution, GeneralWelfare Clause.____________________[Page H4171]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SMITH</lastName>
+        <identifiers>
+          <lisID>1075</lisID>
+          <gpoId>8177</gpoId>
+          <bioguideId>S000583</bioguideId>
+        </identifiers>
+        <firstName>LAMAR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>21</district>
+        <middleName />
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <bioguideId>S000583</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Watson Coleman, Bonnie [D-NJ-12]</fullName>
+        <state>NJ</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Watson Coleman</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2259</lisID>
+          <bioguideId>W000822</bioguideId>
+        </identifiers>
+        <firstName>Bonnie</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>12</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>W000822</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <state>VA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Beyer</lastName>
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>8</district>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>B001292</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Grayson, Alan [D-FL-9]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grayson</lastName>
+        <identifiers>
+          <lisID>1914</lisID>
+          <bioguideId>G000556</bioguideId>
+          <gpoId>7302</gpoId>
+        </identifiers>
+        <firstName>Alan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>9</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>G000556</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <state>OR</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>BLUMENAUER</lastName>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <firstName>EARL</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>B000574</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <state>MI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lawrence</lastName>
+        <identifiers>
+          <lisID>2252</lisID>
+          <bioguideId>L000581</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Brenda</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>14</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>L000581</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <state>DC</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>NORTON</lastName>
+        <identifiers>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+        </identifiers>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>0</district>
+        <middleName>HOLMES</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>N000147</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Napolitano, Grace F. [D-CA-32]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>NAPOLITANO</lastName>
+        <identifiers>
+          <lisID>1602</lisID>
+          <bioguideId>N000179</bioguideId>
+          <gpoId>7843</gpoId>
+        </identifiers>
+        <firstName>GRACE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>32</district>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>N000179</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Clark, Katherine M. [D-MA-5]</fullName>
+        <state>MA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Clark</lastName>
+        <identifiers>
+          <lisID>2196</lisID>
+          <bioguideId>C001101</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Katherine</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>5</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>C001101</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>HASTINGS</lastName>
+        <identifiers>
+          <lisID>511</lisID>
+          <gpoId>7895</gpoId>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <firstName>ALCEE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>20</district>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>H000324</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Edwards, Donna F. [D-MD-4]</fullName>
+        <state>MD</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Edwards</lastName>
+        <identifiers>
+          <bioguideId>E000290</bioguideId>
+          <gpoId>7979</gpoId>
+          <lisID>1894</lisID>
+        </identifiers>
+        <firstName>Donna</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>E000290</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Moore</lastName>
+        <identifiers>
+          <lisID>1811</lisID>
+          <bioguideId>M001160</bioguideId>
+          <gpoId>8217</gpoId>
+        </identifiers>
+        <firstName>Gwen</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>M001160</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Swalwell</lastName>
+        <identifiers>
+          <lisID>2104</lisID>
+          <bioguideId>S001193</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Eric</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>15</district>
+        <middleName />
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>S001193</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SLAUGHTER</lastName>
+        <identifiers>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+          <lisID>1069</lisID>
+        </identifiers>
+        <firstName>LOUISE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>25</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>S000480</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <state>RI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cicilline</lastName>
+        <identifiers>
+          <lisID>2055</lisID>
+          <gpoId>8139</gpoId>
+          <bioguideId>C001084</bioguideId>
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <middleName>N.</middleName>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>C001084</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Bonamici, Suzanne [D-OR-1]</fullName>
+        <state>OR</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bonamici</lastName>
+        <identifiers>
+          <lisID>2092</lisID>
+          <gpoId>8367</gpoId>
+          <bioguideId>B001278</bioguideId>
+        </identifiers>
+        <firstName>Suzanne</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <middleName />
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>B001278</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Chu, Judy [D-CA-27]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Chu</lastName>
+        <identifiers>
+          <lisID>1970</lisID>
+          <bioguideId>C001080</bioguideId>
+          <gpoId>7837</gpoId>
+        </identifiers>
+        <firstName>Judy</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>27</district>
+        <middleName />
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>C001080</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <state>MA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>MCGOVERN</lastName>
+        <identifiers>
+          <lisID>1504</lisID>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+        </identifiers>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+        <middleName>P.</middleName>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <bioguideId>M000312</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Aguilar, Pete [D-CA-31]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Aguilar</lastName>
+        <identifiers>
+          <lisID>2229</lisID>
+          <gpoId />
+          <bioguideId>A000371</bioguideId>
+        </identifiers>
+        <firstName>Pete</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>31</district>
+        <middleName />
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <bioguideId>A000371</bioguideId>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Sexual Assault Survivors' Rights Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend title 18, United States Code, to provide sexual assault survivors with certain rights, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Sexual Assault Survivors' Rights Act</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

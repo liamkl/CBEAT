@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <reportedToHouse>1</reportedToHouse>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <actionStageOverride>2</actionStageOverride>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-12-01</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <text>Placed on the Union Calendar, Calendar No. 273.</text>
+        <actionCode>H12410</actionCode>
+        <type>Calendars</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-12-01</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <text>Reported by the Committee on Veterans' Affairs. H. Rept. 114-356.</text>
+        <actionCode>H12200</actionCode>
+        <type>Committee</type>
+        <links>
+          <link>
+            <name>H. Rept. 114-356</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/356</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionDate>2015-12-01</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <text>Reported by the Committee on Veterans' Affairs. H. Rept. 114-356.</text>
+        <actionCode>5000</actionCode>
+        <type>Committee</type>
+        <links>
+          <link>
+            <name>H. Rept. 114-356</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/356</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionDate>2015-02-12</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-12</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-01-27</actionDate>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-01-07</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-01-07</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-01-07</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T17:58:39Z</updateDate>
+    <introducedDate>2015-01-07</introducedDate>
+    <recordedVotes />
+    <createDate>2015-01-08T04:46:30Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Alan</firstName>
+        <lastName>Grayson</lastName>
+        <state>FL</state>
+        <bioguideId>G000556</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1914</lisID>
+          <bioguideId>G000556</bioguideId>
+          <gpoId>7302</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Grayson, Alan [D-FL-9]</fullName>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <titleType>Short Titles as Reported to House</titleType>
+        <title>Servicemember Foreclosure Protections Extension Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Servicemember Foreclosure Protections Extension Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To extend foreclosure and eviction protections for servicemembers, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Servicemember Foreclosure Protections Extension Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <district>5</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>CORRINE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B000911</bioguideId>
+          <gpoId>7875</gpoId>
+          <lisID>132</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-01-08</sponsorshipDate>
+        <bioguideId>B000911</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BROWN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <district>2</district>
+        <middleName>M.</middleName>
+        <state>NH</state>
+        <firstName>Ann</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>K000382</bioguideId>
+          <gpoId />
+          <lisID>2145</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-13</sponsorshipDate>
+        <bioguideId>K000382</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kuster</lastName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GRAYSON:H.R. 189.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the Constitution of the UnitedStates.[Page H104]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-356</citation>
+      </committeeReport>
+    </committeeReports>
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Housing finance and home ownership</name>
+          </item>
+          <item>
+            <name>Veterans' loans, housing, homeless programs</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Veterans' Affairs Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-12-01T20:02:46Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2015-02-12T16:34:46Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-01-27T16:23:59Z</date>
+              <name>Hearings by</name>
+            </item>
+            <item>
+              <date>2015-01-07T15:01:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsvr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-12-01</actionDate>
+      <text>Placed on the Union Calendar, Calendar No. 273.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2015-02-06</actionDate>
+          <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        </latestAction>
+        <number>190</number>
+        <type>HR</type>
+        <latestTitle>Making Servicemember Foreclosure Protections Permanent Act</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-06-05</actionDate>
+          <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        </latestAction>
+        <number>2475</number>
+        <type>HR</type>
+        <latestTitle>Stability for Service Members Act</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-04-30</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <number>1152</number>
+        <type>S</type>
+        <latestTitle>Foreclosure Relief and Extension for Servicemembers Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-12-03</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <number>2347</number>
+        <type>S</type>
+        <latestTitle>Foreclosure Relief and Extension for Servicemembers Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-12-03</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <number>2357</number>
+        <type>S</type>
+        <latestTitle>Foreclosure Relief and Extension for Servicemembers Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2015-12-16</actionDate>
+          <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        </latestAction>
+        <number>4252</number>
+        <type>HR</type>
+        <latestTitle>Foreclosure Relief and Extension for Servicemembers Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2016-03-31</actionDate>
+          <text>Became Public Law No: 114-142.</text>
+        </latestAction>
+        <number>2393</number>
+        <type>S</type>
+        <latestTitle>Foreclosure Relief and Extension for Servicemembers Act of 2015</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 189, Servicemember Foreclosure Protections Extension Act of 2015</title>
+        <pubDate>2015-02-25T18:55:00Z</pubDate>
+        <url>https://www.cbo.gov/publication/49967</url>
+      </item>
+    </cboCostEstimates>
+    <title>Servicemember Foreclosure Protections Extension Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-01-20T21:59:16Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-07</actionDate>
+          <text><![CDATA[<p><strong>Servicemember Foreclosure Protections Extension Act of 2015</strong></p> <p>Amends the Honoring America's Veterans and Caring for Camp Lejeune Families Act of 2012 to extend through calendar year 2016 the one-year period after a service member's military service during which: (1) a court may stay proceedings to enforce an obligation on real or personal property owned by the service member before such military service; and (2) any sale, foreclosure, or seizure of such property shall be invalid without a court order or waiver agreement signed by the service member. (Currently, the extended one-year period is scheduled to expire on December 31, 2015, and return to a nine-month period under the Servicemembers Civil Relief Act.)</a></p> <p>Revives, effective January 1, 2017 (currently, January 1, 2016), the old nine-month period in place of the one-year period granted by such Act.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-07T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-12-04T20:34:50Z</lastSummaryUpdateDate>
+          <versionCode>79</versionCode>
+          <actionDate>2015-12-01</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong>Servicemember Foreclosure Protections Extension Act of 2015</strong></p> <p>(Sec. 2) This bill amends the Honoring America's Veterans and Caring for Camp Lejeune Families Act of 2012 to extend through 2016 the one-year period after a service member's military service during which: (1) a court may stay proceedings to enforce an obligation on real or personal property owned by the service member before such military service; and (2) any sale, foreclosure, or seizure of such property shall be invalid without a court order or waiver agreement signed by the service member. (Currently, the extended one-year period is scheduled to expire on December 31, 2015, and return to a nine-month period under the Servicemembers Civil Relief Act.)</a></p> <p> Effective January 1, 2017 (currently, January 1, 2016), the old nine-month period in place of the one-year period granted by such Act is restored.</p>]]></text>
+          <actionDesc>Reported to House without amendment</actionDesc>
+          <updateDate>2015-12-01T12:33:26Z</updateDate>
+          <name>Reported to House without amendment</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers>
+      <item>
+        <calendar>U00273</calendar>
+        <number />
+      </item>
+    </calendarNumbers>
+    <billNumber>189</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

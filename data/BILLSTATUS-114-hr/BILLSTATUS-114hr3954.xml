@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-11-06T10:19:26Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-11-05T14:06:45Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr09</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-12-03T20:49:39Z</date>
+                </item>
+              </activities>
+              <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-11-05</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-12-03</actionDate>
+        <committee>
+          <systemCode>hsvr09</systemCode>
+          <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionDate>2015-11-05</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-11-05</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-11-05</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Camp Lejeune Reservist Parity Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to provide for access to hospital care and medical services furnished by the Department of Veterans Affairs for certain members of the reserve components who received training at Camp Lejeune, North Carolina, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Camp Lejeune Reservist Parity Act of 2015</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Hospital care</name>
+          </item>
+          <item>
+            <name>National Guard and reserves</name>
+          </item>
+          <item>
+            <name>North Carolina</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <firstName>WALTER</firstName>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+        <sponsorshipDate>2016-01-05</sponsorshipDate>
+        <lastName>JONES</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>K000378</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>Adam</firstName>
+        <identifiers>
+          <bioguideId>K000378</bioguideId>
+          <gpoId>7931</gpoId>
+          <lisID>2014</lisID>
+        </identifiers>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <district>16</district>
+        <sponsorshipDate>2016-02-12</sponsorshipDate>
+        <lastName>Kinzinger</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3954</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-11-05</actionDate>
+          <lastSummaryUpdateDate>2015-11-10T21:11:33Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-11-05T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Camp Lejeune Reservist Parity Act of 2015</strong></p> <p>This bill makes certain members or former members of an Armed Forces reserve component who received training at Camp Lejeune, North Carolina, eligible for Department of Veterans Affairs hospital care and medical services. </p> <p>The Government Accountability Office shall study the access to hospital care and medical services of veterans and family members stationed at Camp Lejeune, North Carolina.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BILIRAKIS:H.R. 3954.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to Article I, Section 8,Clause 1 of the Constitution of the United States and ArticleI, Section 8, Clause 7 of the Constitution of the UnitedStates.Article I, section 8 of the United State Constitution,which grants Congress the power to raise and support an Army;to provide and maintain a Navy; to make rules for thegovernment and regulation of the land and naval forces; andprovide for organizing, arming, and disciplining the militia.[Page H8153]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Camp Lejeune Reservist Parity Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-12-03</actionDate>
+      <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:03:45Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Bilirakis, Gus M. [R-FL-12]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>B001257</bioguideId>
+        <district>12</district>
+        <middleName>M.</middleName>
+        <state>FL</state>
+        <firstName>Gus</firstName>
+        <lastName>Bilirakis</lastName>
+        <identifiers>
+          <lisID>1838</lisID>
+          <gpoId>7881</gpoId>
+          <bioguideId>B001257</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

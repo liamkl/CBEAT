@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <bioguideId>C001070</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <firstName>Bob</firstName>
+        <middleName />
+        <lastName>Casey</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-12-01</sponsorshipDate>
+        <identifiers>
+          <lisID>1828</lisID>
+          <bioguideId>C001070</bioguideId>
+          <gpoId>8282</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>PA</state>
+      </item>
+      <item>
+        <bioguideId>W000779</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <firstName>RON</firstName>
+        <middleName />
+        <lastName>WYDEN</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-12-01</sponsorshipDate>
+        <identifiers>
+          <bioguideId>W000779</bioguideId>
+          <gpoId>8265</gpoId>
+          <lisID>1247</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>OR</state>
+      </item>
+      <item>
+        <bioguideId>G000359</bioguideId>
+        <party>R</party>
+        <fullName>Sen. Graham, Lindsey [R-SC]</fullName>
+        <firstName>LINDSEY</firstName>
+        <middleName>O.</middleName>
+        <lastName>GRAHAM</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-12-01</sponsorshipDate>
+        <identifiers>
+          <lisID>452</lisID>
+          <gpoId>8335</gpoId>
+          <bioguideId>G000359</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>SC</state>
+      </item>
+      <item>
+        <bioguideId>B001267</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+        <firstName>Michael</firstName>
+        <middleName>F.</middleName>
+        <lastName>Bennet</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-12-01</sponsorshipDate>
+        <identifiers>
+          <lisID>1965</lisID>
+          <bioguideId>B001267</bioguideId>
+          <gpoId>8302</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>CO</state>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <titles>
+      <item>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <title>Anti-Semitism Awareness Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide for the consideration of a definition of anti-Semitism for the enforcement of Federal antidiscrimination laws concerning education programs or activities.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Anti-Semitism Awareness Act of 2016</title>
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>Senate</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <passedOrAgreedToInSenateDayOf>1</passedOrAgreedToInSenateDayOf>
+        <billReferrals>1</billReferrals>
+        <receivedInTheHouse>1</receivedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <passedAgreedToInSenate>1</passedAgreedToInSenate>
+        <introducedInSenate>1</introducedInSenate>
+        <sentToHouse>1</sentToHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>4</senate>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-12-22</actionDate>
+        <committee>
+          <systemCode>hsju10</systemCode>
+          <name>Constitution and Civil Justice Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-02</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-12-02</actionDate>
+        <actionCode>H14000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>11:39:43</actionTime>
+        <text>Received in the House.</text>
+      </item>
+      <item>
+        <actionDate>2016-12-02</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-12-01</actionDate>
+        <committee />
+        <links>
+          <link>
+            <name>S6649-6650</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S6649-6650</url>
+          </link>
+          <link>
+            <name>S6650</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S6650</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent. (consideration: CR S6649-6650; text as passed Senate: CR S6650)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-12-01</actionDate>
+        <actionCode>17000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Passed/agreed to in Senate: Introduced in the Senate, read twice, considered, read the third time, and passed without amendment by Unanimous Consent.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-01</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <notes />
+    <committeeReports />
+    <updateDate>2017-10-27T18:07:43Z</updateDate>
+    <billNumber>10</billNumber>
+    <latestAction>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <actionDate>2016-12-22</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2016-12-01</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>2056</lisID>
+          <bioguideId>S001184</bioguideId>
+          <gpoId>8141</gpoId>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>S001184</bioguideId>
+        <state>SC</state>
+        <firstName>Tim</firstName>
+        <lastName>Scott</lastName>
+        <middleName />
+        <fullName>Sen. Scott, Tim [R-SC]</fullName>
+      </item>
+    </sponsors>
+    <billType>S</billType>
+    <createDate>2016-12-02T05:03:42Z</createDate>
+    <relatedBills>
+      <item>
+        <number>6421</number>
+        <congress>114</congress>
+        <type>HR</type>
+        <latestTitle>Anti-Semitism Awareness Act of 2016</latestTitle>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <latestAction>
+          <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+          <actionDate>2016-12-22</actionDate>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Human rights</name>
+          </item>
+          <item>
+            <name>Racial and ethnic relations</name>
+          </item>
+          <item>
+            <name>Religion</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <title>Anti-Semitism Awareness Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-12-12T14:47:09Z</lastSummaryUpdateDate>
+          <actionDate>2016-12-01</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-12-01T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Anti-Semitism Awareness Act of 2016</b></p> <p>This bill requires the Department of Education, when reviewing whether there has been a violation of title VI of the Civil Rights Act of 1964 (prohibits discrimination on the basis of race, color, or national origin in programs and activities receiving federal financial assistance) based on an individual's actual or perceived shared Jewish ancestry or Jewish ethnic characteristics, to consider the definition of "anti-Semitism" as part of its assessment of whether the alleged practice was motivated by anti-Semitic intent.</p> <p>For purposes of this bill, the definition of "anti-Semitism" is the definition set forth by the Special Envoy to Monitor and Combat Anti-Semitism of the Department of State in the Fact Sheet issued on June 8, 2010, as adapted from the Working Definition of Anti-Semitism of the European Monitoring Center on Racism and Xenophobia (now known as the European Union Agency for Fundamental Rights).</p>]]></text>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2016-12-12T14:47:43Z</lastSummaryUpdateDate>
+          <actionDate>2016-12-01</actionDate>
+          <name>Passed Senate without amendment</name>
+          <updateDate>2016-12-01T16:14:59Z</updateDate>
+          <versionCode>82</versionCode>
+          <actionDesc>Passed Senate without amendment</actionDesc>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><b>Anti-Semitism Awareness Act of 2016</b></p> <p>(Sec. 4) This bill requires the Department of Education, when reviewing whether there has been a violation of title VI of the Civil Rights Act of 1964 (prohibits discrimination on the basis of race, color, or national origin in programs and activities receiving federal financial assistance) based on an individual's actual or perceived shared Jewish ancestry or Jewish ethnic characteristics, to consider the definition of "anti-Semitism" as part of its assessment of whether the alleged practice was motivated by anti-Semitic intent.</p> <p>For purposes of this bill, the definition of "anti-Semitism" is the definition set forth by the Special Envoy to Monitor and Combat Anti-Semitism of the Department of State in the Fact Sheet issued on June 8, 2010, as adapted from the Working Definition of Anti-Semitism of the European Monitoring Center on Racism and Xenophobia (now known as the European Union Agency for Fundamental Rights).</p> <p>(Sec. 5) Nothing in this bill shall be construed to diminish or infringe upon any right protected under the First Amendment to the Constitution.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <policyArea>
+      <name>Civil Rights and Liberties, Minority Issues</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-12-02T18:34:38Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-12-22T17:58:40Z</date>
+                </item>
+              </activities>
+              <systemCode>hsju10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-03</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsap00</systemCode>
+          <name>Appropriations Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Appropriations.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-03</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-03</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <district>2</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <firstName>Jared</firstName>
+        <middleName />
+        <lastName>Huffman</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+          <lisID>2101</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>H001068</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <district>20</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Farr, Sam [D-CA-20]</fullName>
+        <firstName>SAM</firstName>
+        <middleName />
+        <lastName>FARR</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>368</lisID>
+          <bioguideId>F000030</bioguideId>
+          <gpoId>7822</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000030</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <district>18</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <firstName>ANNA</firstName>
+        <middleName>G.</middleName>
+        <lastName>ESHOO</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>E000215</bioguideId>
+          <gpoId>7819</gpoId>
+          <lisID>355</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>E000215</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <district>24</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Capps, Lois [D-CA-24]</fullName>
+        <firstName>LOIS</firstName>
+        <middleName />
+        <lastName>CAPPS</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7828</gpoId>
+          <lisID>1471</lisID>
+          <bioguideId>C001036</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001036</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-03</sponsorshipDate>
+        <district>5</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Thompson, Mike [D-CA-5]</fullName>
+        <firstName>MIKE</firstName>
+        <middleName />
+        <lastName>THOMPSON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>T000460</bioguideId>
+          <gpoId>7806</gpoId>
+          <lisID>1593</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>T000460</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-03-03</introducedDate>
+    <latestAction>
+      <actionDate>2016-03-03</actionDate>
+      <text>Referred to the House Committee on Appropriations.</text>
+      <links />
+    </latestAction>
+    <billNumber>4711</billNumber>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Crab Emergency Disaster Assistance Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To make funds available for Dungeness crab and rock crab emergency disaster assistance, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Crab Emergency Disaster Assistance Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. SPEIER:H.R. 4711.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article 1, Section 8 of the United StatesConstitution.[Page H1145]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Crab Emergency Disaster Assistance Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2016-03-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2016-03-03</actionDate>
+          <text><![CDATA[<p><b>Crab Emergency Disaster Assistance Act of 2016</b></p> <p>This bill appropriates funds to the National Oceanic and Atmospheric Administration (NOAA) to provide disaster relief funds to the Pacific States Marine Fisheries Commission. These funds will assist fisherman and small businesses, including restaurants, which have suffered economic hardship due to the shutdown of the commercial Dungeness and rock crab season on the U.S. West Coast. These funds become available when the Department of Commerce makes a determination declaring a commercial fishery failure or fishery disaster for either the Dungeness crab fishery or the rock crab fishery.</p> <p>Dungeness and rock crab fisheries on the West Coast may contain dangerous levels of domoic acid, a neurotoxin produced by harmful algal blooms that can cause shellfish poisoning. The bill appropriates funds to NOAA for the sampling and monitoring of domoic acid found in the fisheries. In addition, NOAA must distribute grants for research on harmful algal blooms and domoic acid toxicity.</p>]]></text>
+          <lastSummaryUpdateDate>2016-04-19T20:08:15Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2654</number>
+        <congress>114</congress>
+        <latestTitle>Crab Emergency Disaster Assistance Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-03-08</actionDate>
+          <text>Read twice and referred to the Committee on Appropriations.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Appropriations Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-03-03T14:03:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsap00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:32Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Aquatic ecology</name>
+          </item>
+          <item>
+            <name>California</name>
+          </item>
+          <item>
+            <name>Disaster relief and insurance</name>
+          </item>
+          <item>
+            <name>Environmental assessment, monitoring, research</name>
+          </item>
+          <item>
+            <name>Marine and coastal resources, fisheries</name>
+          </item>
+          <item>
+            <name>Marine pollution</name>
+          </item>
+          <item>
+            <name>Oregon</name>
+          </item>
+          <item>
+            <name>Seafood</name>
+          </item>
+          <item>
+            <name>Washington State</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-03-04T05:08:59Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <state>CA</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Speier</lastName>
+        <firstName>Jackie</firstName>
+        <bioguideId>S001175</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>S001175</bioguideId>
+          <gpoId>7817</gpoId>
+          <lisID>1890</lisID>
+        </identifiers>
+        <district>14</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

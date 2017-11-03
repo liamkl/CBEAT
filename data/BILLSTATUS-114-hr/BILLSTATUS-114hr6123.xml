@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-09-23T05:25:50Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Arts, Culture, Religion</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsas03</systemCode>
+              <activities>
+                <item>
+                  <date>2016-10-19T15:32:58Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Readiness Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-09-22T14:03:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2016-09-22</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-10-19</actionDate>
+        <committee>
+          <systemCode>hsas03</systemCode>
+          <name>Readiness Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Readiness.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-22</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-22</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-22</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>To congressionally designate the museum to preserve the stories, knowledge, and history of the Medal of Honor to be constructed in Mount Pleasant, South Carolina, as the National Medal of Honor Museum.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To congressionally designate the museum to preserve the stories, knowledge, and history of the Medal of Honor to be constructed in Mount Pleasant, South Carolina, as the National Medal of Honor Museum.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Arts, Culture, Religion</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <state>LA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Scalise</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Scalise, Steve [R-LA-1]</fullName>
+        <identifiers>
+          <lisID>1892</lisID>
+          <gpoId>7959</gpoId>
+          <bioguideId>S001176</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001176</bioguideId>
+        <firstName>Steve</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Duncan</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <identifiers>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+          <gpoId>8143</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000615</bioguideId>
+        <firstName>Jeff</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Mulvaney</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <identifiers>
+          <gpoId>8145</gpoId>
+          <lisID>2059</lisID>
+          <bioguideId>M001182</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001182</bioguideId>
+        <firstName>Mick</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Gowdy</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Gowdy, Trey [R-SC-4]</fullName>
+        <identifiers>
+          <lisID>2058</lisID>
+          <bioguideId>G000566</bioguideId>
+          <gpoId>8144</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000566</bioguideId>
+        <firstName>Trey</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Sanford</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Sanford, Mark [R-SC-1]</fullName>
+        <identifiers>
+          <lisID>1012</lisID>
+          <gpoId />
+          <bioguideId>S000051</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000051</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+      <item>
+        <state>CO</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Coffman</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <identifiers>
+          <gpoId>7864</gpoId>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001077</bioguideId>
+        <firstName>Mike</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Cook</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Cook, Paul [R-CA-8]</fullName>
+        <identifiers>
+          <bioguideId>C001094</bioguideId>
+          <gpoId />
+          <lisID>2103</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001094</bioguideId>
+        <firstName>Paul</firstName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>6123</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill designates the Medal of Honor Museum, which is to be built in Mount Pleasant, South Carolina, as the &quot;National Medal of Honor Museum.&quot;</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-22T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-10-27T18:41:31Z</lastSummaryUpdateDate>
+          <actionDate>2016-09-22</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. WILSON of South Carolina:H.R. 6123.Congress has the power to enact this legislation pursuantto the following:Article I, section 8 of the United States Constitution.[Page H5865]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To congressionally designate the museum to preserve the stories, knowledge, and history of the Medal of Honor to be constructed in Mount Pleasant, South Carolina, as the National Medal of Honor Museum.</title>
+    <latestAction>
+      <actionDate>2016-10-19</actionDate>
+      <text>Referred to the Subcommittee on Readiness.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:06:09Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>W000795</bioguideId>
+        <district>2</district>
+        <middleName />
+        <state>SC</state>
+        <firstName>Joe</firstName>
+        <lastName>Wilson</lastName>
+        <identifiers>
+          <lisID>1688</lisID>
+          <gpoId>8142</gpoId>
+          <bioguideId>W000795</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

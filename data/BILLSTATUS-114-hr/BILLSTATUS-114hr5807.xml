@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Financial Services.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <district>25</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Williams, Roger [R-TX-25]</fullName>
+        <firstName>Roger</firstName>
+        <middleName />
+        <lastName>Williams</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2165</lisID>
+          <bioguideId>W000816</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>W000816</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <district>5</district>
+        <state>NY</state>
+        <party>D</party>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <firstName>GREGORY</firstName>
+        <middleName>W.</middleName>
+        <lastName>MEEKS</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>8067</gpoId>
+          <lisID>1506</lisID>
+          <bioguideId>M001137</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>M001137</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>5</district>
+        <state>MN</state>
+        <party>D</party>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <firstName>Keith</firstName>
+        <middleName />
+        <lastName>Ellison</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>E000288</bioguideId>
+          <gpoId>8005</gpoId>
+          <lisID>1857</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>E000288</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>6</district>
+        <state>KY</state>
+        <party>R</party>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <firstName>Andy</firstName>
+        <middleName />
+        <lastName>Barr</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2131</lisID>
+          <bioguideId>B001282</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001282</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>4</district>
+        <state>UT</state>
+        <party>R</party>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <firstName>Mia</firstName>
+        <middleName>B.</middleName>
+        <lastName>Love</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2271</lisID>
+          <gpoId />
+          <bioguideId>L000584</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000584</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>32</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <firstName>PETE</firstName>
+        <middleName />
+        <lastName>SESSIONS</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1525</lisID>
+          <bioguideId>S000250</bioguideId>
+          <gpoId>8188</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S000250</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <district>5</district>
+        <state>SC</state>
+        <party>R</party>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <firstName>Mick</firstName>
+        <middleName />
+        <lastName>Mulvaney</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>M001182</bioguideId>
+          <gpoId>8145</gpoId>
+          <lisID>2059</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>M001182</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-07-14</introducedDate>
+    <latestAction>
+      <actionDate>2016-07-14</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+      <links />
+    </latestAction>
+    <billNumber>5807</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Bank Service Company Examination Coordination Act of 2016</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Bank Service Company Act to permit the appropriate Federal banking agencies to coordinate examinations of bank service companies with State banking agencies, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Bank Service Company Examination Coordination Act of 2016</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DUFFY:H.R. 5807.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H5012]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Bank Service Company Examination Coordination Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-10-13T22:22:19Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-07-14</actionDate>
+          <text><![CDATA[<p><b>Bank Service Company Examination Coordination Act of 2016</b></p> <p>This bill amends the Bank Service Company Act to allow the appropriate federal banking agency with respect to the principal shareholder or principal member of a bank service company to authorize a state banking agency (in addition to any other federal banking agency, as under current law) that supervises any other shareholder or member to make an examination of the bank service company.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-07-14T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Financial Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-14T13:13:25Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>hsba00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:05:49Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Banking and financial institutions regulation</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-07-15T07:14:33Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <state>WI</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Duffy</lastName>
+        <firstName>Sean</firstName>
+        <bioguideId>D000614</bioguideId>
+        <middleName>P.</middleName>
+        <identifiers>
+          <gpoId>8220</gpoId>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+        </identifiers>
+        <district>7</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

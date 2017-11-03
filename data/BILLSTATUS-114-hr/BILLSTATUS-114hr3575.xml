@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionDate>2015-09-18</actionDate>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-09-18</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-09-18</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:14Z</updateDate>
+    <introducedDate>2015-09-18</introducedDate>
+    <recordedVotes />
+    <createDate>2015-09-19T08:48:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Kristi</firstName>
+        <lastName>Noem</lastName>
+        <state>SD</state>
+        <bioguideId>N000184</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2060</lisID>
+          <gpoId>8147</gpoId>
+          <bioguideId>N000184</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>L.</middleName>
+        <fullName>Rep. Noem, Kristi L. [R-SD-At Large]</fullName>
+        <district>0</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>End Tax Exemptions for Fetal Tissue Profits Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Internal Revenue Code of 1986 to deny tax exemption to organizations which violate the Federal prohibitions regarding human fetal tissue.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>End Tax Exemptions for Fetal Tissue Profits Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>R000586</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>James</firstName>
+        <identifiers>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+          <lisID>2048</lisID>
+        </identifiers>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <district>16</district>
+        <sponsorshipDate>2015-09-18</sponsorshipDate>
+        <lastName>Renacci</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>R000583</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Thomas</firstName>
+        <identifiers>
+          <lisID>1916</lisID>
+          <bioguideId>R000583</bioguideId>
+          <gpoId>7888</gpoId>
+        </identifiers>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-01-12</sponsorshipDate>
+        <lastName>Rooney</lastName>
+        <middleName>J.</middleName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. NOEM:H.R. 3575.Congress has the power to enact this legislation pursuantto the following:Clause 1, Section 8 of Article 1 of the U.S. Constitutionand amendment 16 of the U.S. Constitution.[Page H6179]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Organ and tissue donation and transplantation</name>
+          </item>
+          <item>
+            <name>Tax-exempt organizations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-09-18T13:04:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-09-18</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>End Tax Exemptions for Fetal Tissue Profits Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-09-18T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-09-18</actionDate>
+          <text><![CDATA[<p><strong>End Tax Exemptions for Fetal Tissue Profits Act </strong></p> <p>This bill amends the Internal Revenue Code to deny or revoke the tax-exempt status of 501(c) organizations that are fined for violating the prohibitions against purchasing, soliciting, or accepting human fetal tissue. </p>]]></text>
+          <lastSummaryUpdateDate>2016-02-08T19:02:01Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3575</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

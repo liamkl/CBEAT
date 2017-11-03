@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-04-17T09:01:58Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-16T13:07:25Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-04-29T21:45:31Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-16T13:07:20Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-04-17T15:03:03Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-04-16</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>2</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>2</placeholderTextForH>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hswm02</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-17</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <text>Referred to House Ways and Means</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <text>Referred to House Energy and Commerce</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Hereditary Hemorrhagic Telangiectasia Diagnosis and Treatment Act of 2015</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Public Health Service Act to improve the diagnosis and treatment of hereditary hemorrhagic telangiectasia, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Hereditary Hemorrhagic Telangiectasia Diagnosis and Treatment Act of 2015</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Cardiovascular and respiratory health</name>
+          </item>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Hereditary and development disorders</name>
+          </item>
+          <item>
+            <name>Medical research</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Research administration and funding</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <firstName>James</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>H001047</bioguideId>
+          <gpoId>7869</gpoId>
+          <lisID>1913</lisID>
+        </identifiers>
+        <bioguideId>H001047</bioguideId>
+        <party>D</party>
+        <district>4</district>
+        <state>CT</state>
+        <fullName>Rep. Himes, James A. [D-CT-4]</fullName>
+        <lastName>Himes</lastName>
+        <middleName>A.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-15</sponsorshipDate>
+        <firstName>ROSA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>D000216</bioguideId>
+          <gpoId>7868</gpoId>
+          <lisID>281</lisID>
+        </identifiers>
+        <bioguideId>D000216</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>CT</state>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <lastName>DELAURO</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <firstName>ZOE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>701</lisID>
+          <bioguideId>L000397</bioguideId>
+          <gpoId>7821</gpoId>
+        </identifiers>
+        <bioguideId>L000397</bioguideId>
+        <party>D</party>
+        <district>19</district>
+        <state>CA</state>
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <lastName>LOFGREN</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <bioguideId>N000147</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>DC</state>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1846</lisID>
+          <bioguideId>L000565</bioguideId>
+          <gpoId>7915</gpoId>
+        </identifiers>
+        <bioguideId>L000565</bioguideId>
+        <party>D</party>
+        <district>2</district>
+        <state>IA</state>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <lastName>Loebsack</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1849</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-08-28T19:41:04Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Hereditary Hemorrhagic Telangiectasia Diagnosis and Treatment Act of 2015</b></p> <p>Amends the Public Health Service Act to require the Department of Health and Human Services (HHS) to establish and implement a hereditary hemorrhagic telangiectasia (HHT, a genetic vascular bleeding disorder that causes abnormalities of the blood vessels) initiative to improve early detection, screening, and treatment of people who suffer from HHT, focusing on advancing HHT research and increasing physician and public awareness of HHT. </p> <p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" class="MsoNormal">Directs HHS to establish the HHT Coordinating Committee to develop and coordinate implementation of a plan to advance research and understanding of HHT, including by conducting or supporting research at the National Institutes of Health (NIH) and making recommendations regarding NIH research grants relating to HHT. </p> <p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" class="MsoNormal">Requires the Centers for Disease Control and Prevention to carry out activities with respect to HHT, including conducting surveillance and establishing an HHT resource center to provide comprehensive education on and disseminate information about HHT to health professionals, patients, industry, and the public. </p> <p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 10pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto" class="MsoNormal">Requires the Centers for Medicare &amp; Medicaid Services to award grants for HHT research, including an analysis of health care expenditures associated with untreated HHT and costs associated with preventable medical events among Medicare beneficiaries with HHT. </p>]]></text>
+          <updateDate>2015-04-16T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-16</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ROYCE:H.R. 1849.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1 of the United StatesConstitution.[Page H2309]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Hereditary Hemorrhagic Telangiectasia Diagnosis and Treatment Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-04-29</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:01:00Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Royce, Edward R. [R-CA-39]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>R000487</bioguideId>
+        <district>39</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>ED</firstName>
+        <lastName>ROYCE</lastName>
+        <identifiers>
+          <lisID>998</lisID>
+          <gpoId>7845</gpoId>
+          <bioguideId>R000487</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <item>
+        <actionDate>2015-01-09</actionDate>
+        <committee>
+          <systemCode>hsap00</systemCode>
+          <name>Appropriations Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Appropriations.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-01-09</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-01-09</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-17]</fullName>
+        <district>17</district>
+        <middleName>J.</middleName>
+        <state>FL</state>
+        <firstName>Thomas</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000583</bioguideId>
+          <gpoId>7888</gpoId>
+          <lisID>1916</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-01-09</sponsorshipDate>
+        <bioguideId>R000583</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Rooney</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lummis, Cynthia M. [R-WY-At Large]</fullName>
+        <district>0</district>
+        <middleName>M.</middleName>
+        <state>WY</state>
+        <firstName>Cynthia</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1960</lisID>
+          <bioguideId>L000571</bioguideId>
+          <gpoId>8225</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-03-16</sponsorshipDate>
+        <bioguideId>L000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lummis</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <district>2</district>
+        <middleName>D.</middleName>
+        <state>GA</state>
+        <firstName>SANFORD</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B000490</bioguideId>
+          <gpoId>7899</gpoId>
+          <lisID>91</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-16</sponsorshipDate>
+        <bioguideId>B000490</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BISHOP</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Israel, Steve [D-NY-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>STEVE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1663</lisID>
+          <bioguideId>I000057</bioguideId>
+          <gpoId>8063</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-16</sponsorshipDate>
+        <bioguideId>I000057</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ISRAEL</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>RICHARD</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>867</lisID>
+          <bioguideId>N000127</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>N000127</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>NOLAN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>HI</state>
+        <firstName>Tulsi</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2122</lisID>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <bioguideId>G000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Gabbard</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <district>1</district>
+        <middleName>A.</middleName>
+        <state>PA</state>
+        <firstName>ROBERT</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001227</bioguideId>
+          <gpoId>8119</gpoId>
+          <lisID>1469</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>B001227</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BRADY</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <district>0</district>
+        <middleName>Z.</middleName>
+        <state>GU</state>
+        <firstName>Madeleine</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001245</bioguideId>
+          <gpoId>7911</gpoId>
+          <lisID>1723</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>B001245</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bordallo</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <district>6</district>
+        <middleName />
+        <state>MA</state>
+        <firstName>Seth</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001196</bioguideId>
+          <gpoId />
+          <lisID>2246</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-12-08</sponsorshipDate>
+        <bioguideId>M001196</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Moulton</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>IA</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1846</lisID>
+          <gpoId>7915</gpoId>
+          <bioguideId>L000565</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-12-17</sponsorshipDate>
+        <bioguideId>L000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Loebsack</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pompeo, Mike [R-KS-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>KS</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2022</lisID>
+          <bioguideId>P000602</bioguideId>
+          <gpoId>7952</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <bioguideId>P000602</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pompeo</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <district>6</district>
+        <middleName />
+        <state>CO</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7864</gpoId>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <bioguideId>C001077</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Coffman</lastName>
+      </item>
+      <item>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <district>16</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>Beto</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2162</lisID>
+          <bioguideId>O000170</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <bioguideId>O000170</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>O'Rourke</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+        <middleName>B.</middleName>
+        <state>NC</state>
+        <firstName>WALTER</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <bioguideId>J000255</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>JONES</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>NE</state>
+        <firstName>Brad</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2257</lisID>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-04</sponsorshipDate>
+        <bioguideId>A000373</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ashford</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>AZ</state>
+        <firstName>Trent</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7799</gpoId>
+          <lisID>1707</lisID>
+          <bioguideId>F000448</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-02-12</sponsorshipDate>
+        <bioguideId>F000448</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Franks</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <district>52</district>
+        <middleName>H.</middleName>
+        <state>CA</state>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2113</lisID>
+          <gpoId />
+          <bioguideId>P000608</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-12</sponsorshipDate>
+        <bioguideId>P000608</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Peters</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>IA</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2242</lisID>
+          <bioguideId>Y000066</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-28</sponsorshipDate>
+        <bioguideId>Y000066</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Young</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>KS</state>
+        <firstName>Lynn</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1921</lisID>
+          <gpoId>7950</gpoId>
+          <bioguideId>J000290</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-28</sponsorshipDate>
+        <bioguideId>J000290</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Jenkins</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>KY</state>
+        <firstName>Thomas</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+          <lisID>2094</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-29</sponsorshipDate>
+        <bioguideId>M001184</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Massie</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <district>1</district>
+        <middleName>LACY</middleName>
+        <state>MO</state>
+        <firstName>WM.</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001049</bioguideId>
+          <gpoId>8009</gpoId>
+          <lisID>1654</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-04-29</sponsorshipDate>
+        <bioguideId>C001049</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CLAY</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Westmoreland, Lynn A. [R-GA-3]</fullName>
+        <district>3</district>
+        <middleName>A.</middleName>
+        <state>GA</state>
+        <firstName>Lynn</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1779</lisID>
+          <gpoId>7900</gpoId>
+          <bioguideId>W000796</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <bioguideId>W000796</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Westmoreland</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Boustany, Charles W., Jr. [R-LA-3]</fullName>
+        <district>3</district>
+        <middleName>W.</middleName>
+        <state>LA</state>
+        <firstName>Charles</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001255</bioguideId>
+          <gpoId>7965</gpoId>
+          <lisID>1787</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <bioguideId>B001255</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Boustany</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>AZ</state>
+        <firstName>Ann</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1907</lisID>
+          <gpoId>7220</gpoId>
+          <bioguideId>K000368</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kirkpatrick</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Blum, Rod [R-IA-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>IA</state>
+        <firstName>Rod</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001294</bioguideId>
+          <gpoId />
+          <lisID>2241</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-06-08</sponsorshipDate>
+        <bioguideId>B001294</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Blum</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Jenkins, Evan H. [R-WV-3]</fullName>
+        <district>3</district>
+        <middleName>H.</middleName>
+        <state>WV</state>
+        <firstName>Evan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>J000297</bioguideId>
+          <gpoId />
+          <lisID>2278</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <bioguideId>J000297</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Jenkins</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Reed, Tom [R-NY-23]</fullName>
+        <district>23</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Tom</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1982</lisID>
+          <gpoId>8090</gpoId>
+          <bioguideId>R000585</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <bioguideId>R000585</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Reed</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-01-09</introducedDate>
+    <latestAction>
+      <actionDate>2015-01-09</actionDate>
+      <text>Referred to the House Committee on Appropriations.</text>
+      <links />
+    </latestAction>
+    <billNumber>250</billNumber>
+    <titles>
+      <item>
+        <title>Families of Fallen Servicemembers First Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To provide a permanent appropriation of funds for the payment of death gratuities and related benefits for survivors of deceased members of the uniformed services in event of any period of lapsed appropriations.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Families of Fallen Servicemembers First Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CONNOLLY:H.R. 250.Congress has the power to enact this legislation pursuantto the following:Section 1 and Section 8 of Article 1 of the United StatesConstitution.[Page H189]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Families of Fallen Servicemembers First Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-01-09T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-01-09</actionDate>
+          <text><![CDATA[<p><b>Families of Fallen Servicemembers First Act </b></p> <p>This bill provides a permanent appropriation for the payment of death gratuities and related benefits to survivors of deceased members of the uniformed services during a period of lapsed appropriations. </p> <p>The bill provides the appropriations at the rate and under the conditions provided for the most recent fiscal year for which an Act making appropriations for the uniformed services has been enacted. </p> <p>The appropriations are provided during a period of lapsed appropriations, in which appropriations are unavailable due to the absence of the timely enactment of an Act or joint resolution providing appropriations or continuing appropriations for the death gratuity and related benefits. </p>]]></text>
+          <lastSummaryUpdateDate>2015-03-26T18:24:11Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsap00</systemCode>
+          <name>Appropriations Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-01-09T14:01:10Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T17:58:45Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Cemeteries and funerals</name>
+          </item>
+          <item>
+            <name>Defense spending</name>
+          </item>
+          <item>
+            <name>Department of Defense</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Housing finance and home ownership</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Veterans' pensions and compensation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-01-10T04:46:22Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <state>VA</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Connolly</lastName>
+        <firstName>Gerald</firstName>
+        <bioguideId>C001078</bioguideId>
+        <middleName>E.</middleName>
+        <identifiers>
+          <bioguideId>C001078</bioguideId>
+          <gpoId>8202</gpoId>
+          <lisID>1959</lisID>
+        </identifiers>
+        <district>11</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

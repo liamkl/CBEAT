@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Budget deficits and national debt</name>
+          </item>
+          <item>
+            <name>Budget process</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Economics and Public Finance</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-02-09</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>ADAM</firstName>
+        <party>D</party>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <state>WA</state>
+        <byRequestType />
+        <bioguideId>S000510</bioguideId>
+        <lastName>SMITH</lastName>
+        <middleName />
+        <district>9</district>
+        <identifiers>
+          <lisID>1528</lisID>
+          <bioguideId>S000510</bioguideId>
+          <gpoId>8213</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills />
+    <updateDate>2017-10-27T18:04:19Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Budget Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-02-09T17:00:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsbu00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-02-10T05:12:59Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-02-09</actionDate>
+      <text>Referred to the House Committee on the Budget.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Economics and Public Finance</name>
+    </policyArea>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-02-09</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Budget Committee</name>
+          <systemCode>hsbu00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on the Budget.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-02-09</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-02-09</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <amendments />
+    <title>Relief From Sequestration Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-02-09</actionDate>
+          <lastSummaryUpdateDate>2016-04-08T12:49:51Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-02-09T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Relief From Sequestration Act of 2016 </b></p> <p>This bill amends the Balanced Budget and Emergency Deficit Control Act of 1985 to eliminate the sequestration, or automatic spending cuts, scheduled to occur because the Joint Select Committee on Deficit Reduction failed to recommend legislation to reduce the deficit by $1.2 trillion over 10 years, as required by the Budget Control Act of 2011. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>4512</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SMITH of Washington:H.R. 4512.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1, 2, 14, 18[Page H651]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Relief From Sequestration Act of 2016</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend the Balanced Budget and Emergency Deficit Control Act of 1985 to eliminate the section 251A sequestrations.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Relief From Sequestration Act of 2016</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionDate>2015-06-25</actionDate>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-06-25</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-06-25</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:32Z</updateDate>
+    <introducedDate>2015-06-25</introducedDate>
+    <recordedVotes />
+    <createDate>2015-06-26T09:12:10Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Paul</firstName>
+        <lastName>Gosar</lastName>
+        <state>AZ</state>
+        <bioguideId>G000565</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>A.</middleName>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <district>4</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Mexican Wolf Transparency and Accountability Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To ensure the United States Fish and Wildlife Service's Mexican wolf nonessential experimental population 10(j) rule has no force or effect, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Mexican Wolf Transparency and Accountability Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>2</district>
+        <state>NV</state>
+        <party>R</party>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <firstName>Mark</firstName>
+        <middleName>E.</middleName>
+        <lastName>Amodei</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>A000369</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>8</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <firstName>Trent</firstName>
+        <middleName />
+        <lastName>Franks</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1707</lisID>
+          <gpoId>7799</gpoId>
+          <bioguideId>F000448</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000448</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>2</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. McSally, Martha [R-AZ-2]</fullName>
+        <firstName>Martha</firstName>
+        <middleName />
+        <lastName>McSally</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2225</lisID>
+          <bioguideId>M001197</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>M001197</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>2</district>
+        <state>NM</state>
+        <party>R</party>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <firstName>Stevan</firstName>
+        <middleName />
+        <lastName>Pearce</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1738</lisID>
+          <bioguideId>P000588</bioguideId>
+          <gpoId>8057</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>P000588</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>7</district>
+        <state>MN</state>
+        <party>D</party>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <firstName>COLLIN</firstName>
+        <middleName>C.</middleName>
+        <lastName>PETERSON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>P000258</bioguideId>
+          <gpoId>8007</gpoId>
+          <lisID>910</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>P000258</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>5</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <firstName>MATT</firstName>
+        <middleName />
+        <lastName>SALMON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1009</lisID>
+          <bioguideId>S000018</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>S000018</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>6</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <firstName>David</firstName>
+        <middleName />
+        <lastName>Schweikert</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>S001183</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>0</district>
+        <state>MT</state>
+        <party>R</party>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <firstName>Ryan</firstName>
+        <middleName>K.</middleName>
+        <lastName>Zinke</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2254</lisID>
+          <bioguideId>Z000018</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>Z000018</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <district>6</district>
+        <state>WI</state>
+        <party>R</party>
+        <fullName>Rep. Grothman, Glenn [R-WI-6]</fullName>
+        <firstName>Glenn</firstName>
+        <middleName />
+        <lastName>Grothman</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId />
+          <lisID>2276</lisID>
+          <bioguideId>G000576</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>G000576</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-09</sponsorshipDate>
+        <district>1</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <firstName>Louie</firstName>
+        <middleName />
+        <lastName>Gohmert</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>G000552</bioguideId>
+          <gpoId>8157</gpoId>
+          <lisID>1801</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>G000552</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GOSAR:H.R. 2910.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, Clause 2 (the Property Clause) whichgive Congress the power to make all needful rules andregulations respecting the territory or other propertybelonging to the United States. In Kleppe v. New Mexico, 426U.S.592 (1976), the Congress was found to have sufficientpower to regulate the activity of animals on public lands;andArticle 1, Section 8, Clause 3 (the Commerce Clause) whichgives Congres the power to regulate commerce among thestates. If the matter in question is not purely a localmatter (intra-state) or if it has an impact on interstatecommerce, it falls within the Congressional power to regulateinterstate commerce. National Federation of IndependentBusiness v. Sebelius, 567 U.S._(2012).[Page H4772]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Arizona</name>
+          </item>
+          <item>
+            <name>Department of the Interior</name>
+          </item>
+          <item>
+            <name>Endangered and threatened species</name>
+          </item>
+          <item>
+            <name>Environmental regulatory procedures</name>
+          </item>
+          <item>
+            <name>Mammals</name>
+          </item>
+          <item>
+            <name>New Mexico</name>
+          </item>
+          <item>
+            <name>Texas</name>
+          </item>
+          <item>
+            <name>Wildlife conservation and habitat protection</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Environmental Protection</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>hsii00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Natural Resources Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-25T13:08:05Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-25</actionDate>
+      <text>Referred to the House Committee on Natural Resources.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Mexican Wolf Transparency and Accountability Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-07-19T17:55:32Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-06-25</actionDate>
+          <text><![CDATA[<p><b>Mexican Wolf Transparency and Accountability Act</b></p> <p>This bill nullifies: (1) the U.S. Fish and Wildlife Service's determination to list the Mexican wolf (<i>Canis lupus baileyi</i>) as an endangered subspecies under the Endangered Species Act of 1973; and (2) the rule entitled, &quot;Endangered and Threatened Wildlife and Plants; Revision to the Regulations for the Nonessential Experimental Population of the Mexican Wolf.&quot; </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-06-25T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2910</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <district>2</district>
+        <middleName>E.</middleName>
+        <state>NV</state>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <bioguideId>A000369</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Amodei</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Hardy, Cresent [R-NV-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>NV</state>
+        <firstName>Cresent</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2260</lisID>
+          <bioguideId>H001070</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <bioguideId>H001070</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Hardy</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-06-23</introducedDate>
+    <latestAction>
+      <actionDate>2015-06-23</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <billNumber>2854</billNumber>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to repeal the occupational tax on gambling with respect to wagers authorized under State law.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to repeal the occupational tax on gambling with respect to wagers authorized under State law.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HECK of Nevada:H.R. 2854.Congress has the power to enact this legislation pursuantto the following:Clause 1 of section 8 of article I of the Constitution.[Page H4592]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To amend the Internal Revenue Code of 1986 to repeal the occupational tax on gambling with respect to wagers authorized under State law.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-06-23</actionDate>
+          <lastSummaryUpdateDate>2015-08-18T21:54:34Z</lastSummaryUpdateDate>
+          <updateDate>2015-06-23T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>Amends the Internal Revenue Code to repeal the excise tax on gambling wagers authorized under state law. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-23T16:02:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:28Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Gambling</name>
+          </item>
+          <item>
+            <name>Sales and excise taxes</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-06-24T09:23:12Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Heck, Joseph J. [R-NV-3]</fullName>
+        <state>NV</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Heck</lastName>
+        <firstName>Joseph</firstName>
+        <bioguideId>H001055</bioguideId>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>2040</lisID>
+          <bioguideId>H001055</bioguideId>
+          <gpoId>8061</gpoId>
+        </identifiers>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

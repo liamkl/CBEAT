@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-02-04T05:04:18Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-03T15:00:44Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-05T15:50:43Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+        <item>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-03T15:00:54Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+        <item>
+          <systemCode>hsfa00</systemCode>
+          <name>Foreign Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-03T15:00:49Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>Zika Response and Safety Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-09</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>2518</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-02-03</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-02-05</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Armed Services</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Foreign Affairs</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee>
+          <systemCode>hsfa00</systemCode>
+          <name>Foreign Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Energy and Commerce</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Foreign Affairs, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>B00100</actionCode>
+        <text>Sponsor introductory remarks on measure. (CR H507)</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H507</url>
+            <name>H507</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-02-03</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>3</billReferrals>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForB>1</placeholderTextForB>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Zika Response and Safety Act of 2016</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To authorize the use of Ebola funds for Zika response and preparedness.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Zika Response and Safety Act of 2016</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Health promotion and preventive care</name>
+          </item>
+          <item>
+            <name>Infectious and parasitic diseases</name>
+          </item>
+          <item>
+            <name>World health</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>Bishop</lastName>
+        <bioguideId>B001250</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Rob</firstName>
+        <state>UT</state>
+        <identifiers>
+          <gpoId>8189</gpoId>
+          <lisID>1753</lisID>
+          <bioguideId>B001250</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>ROS-LEHTINEN</lastName>
+        <bioguideId>R000435</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>ILEANA</firstName>
+        <state>FL</state>
+        <identifiers>
+          <gpoId>7890</gpoId>
+          <lisID>985</lisID>
+          <bioguideId>R000435</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-27]</fullName>
+        <district>27</district>
+      </item>
+      <item>
+        <lastName>Quigley</lastName>
+        <bioguideId>Q000023</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mike</firstName>
+        <state>IL</state>
+        <identifiers>
+          <bioguideId>Q000023</bioguideId>
+          <gpoId>7925</gpoId>
+          <lisID>1967</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Murphy</lastName>
+        <bioguideId>M001191</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Patrick</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+          <lisID>2117</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <district>18</district>
+      </item>
+      <item>
+        <lastName>Costello</lastName>
+        <bioguideId>C001106</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ryan</firstName>
+        <state>PA</state>
+        <identifiers>
+          <lisID>2266</lisID>
+          <bioguideId>C001106</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Costello, Ryan A. [R-PA-6]</fullName>
+        <district>6</district>
+      </item>
+      <item>
+        <lastName>Pierluisi</lastName>
+        <bioguideId>P000596</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Pedro</firstName>
+        <state>PR</state>
+        <identifiers>
+          <bioguideId>P000596</bioguideId>
+          <gpoId>8138</gpoId>
+          <lisID>1953</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>R.</middleName>
+        <fullName>Rep. Pierluisi, Pedro R. [D-PR-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Buchanan</lastName>
+        <bioguideId>B001260</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Vern</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>1840</lisID>
+          <gpoId>7885</gpoId>
+          <bioguideId>B001260</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Buchanan, Vern [R-FL-16]</fullName>
+        <district>16</district>
+      </item>
+      <item>
+        <lastName>Williams</lastName>
+        <bioguideId>W000816</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Roger</firstName>
+        <state>TX</state>
+        <identifiers>
+          <lisID>2165</lisID>
+          <bioguideId>W000816</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Williams, Roger [R-TX-25]</fullName>
+        <district>25</district>
+      </item>
+      <item>
+        <lastName>Allen</lastName>
+        <bioguideId>A000372</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Rick</firstName>
+        <state>GA</state>
+        <identifiers>
+          <lisID>2239</lisID>
+          <gpoId />
+          <bioguideId>A000372</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>W.</middleName>
+        <fullName>Rep. Allen, Rick W. [R-GA-12]</fullName>
+        <district>12</district>
+      </item>
+      <item>
+        <lastName>SHERMAN</lastName>
+        <bioguideId>S000344</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-04-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>BRAD</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>1526</lisID>
+          <gpoId>7832</gpoId>
+          <bioguideId>S000344</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Sherman, Brad [D-CA-30]</fullName>
+        <district>30</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4446</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2016-02-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2016-02-03</actionDate>
+          <text><![CDATA[<p><b>Zika Response and Safety Act of 2016</b></p> <p>This bill authorizes funds made available in prior appropriation Acts to any federal agency for Ebola response and preparedness to be used for Zika virus response and preparedness.</p>]]></text>
+          <lastSummaryUpdateDate>2016-02-18T21:49:37Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. STEWART:H.R. 4446.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3[Page H567]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Zika Response and Safety Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-02-05</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:15Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Stewart, Chris [R-UT-2]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>S001192</bioguideId>
+        <district>2</district>
+        <middleName />
+        <state>UT</state>
+        <firstName>Chris</firstName>
+        <lastName>Stewart</lastName>
+        <identifiers>
+          <lisID>2168</lisID>
+          <bioguideId>S001192</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

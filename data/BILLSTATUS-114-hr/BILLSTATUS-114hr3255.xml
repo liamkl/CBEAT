@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:55Z</updateDate>
+    <introducedDate>2015-07-28</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-29T09:31:46Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Michael</firstName>
+        <lastName>McCaul</lastName>
+        <state>TX</state>
+        <bioguideId>M001157</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>M001157</bioguideId>
+          <gpoId>8166</gpoId>
+          <lisID>1804</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>T.</middleName>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <district>10</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Student Agriculture Protection Act of 2015</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend the Internal Revenue Code of 1986 to exclude from gross income certain amounts realized on the disposition of property raised or produced by a student farmer, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Student Agriculture Protection Act of 2015</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <lastName>Cuellar</lastName>
+        <bioguideId>C001063</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Henry</firstName>
+        <state>TX</state>
+        <identifiers>
+          <bioguideId>C001063</bioguideId>
+          <gpoId>8184</gpoId>
+          <lisID>1807</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cuellar, Henry [D-TX-28]</fullName>
+        <district>28</district>
+      </item>
+      <item>
+        <lastName>Conaway</lastName>
+        <bioguideId>C001062</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-07-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>K.</firstName>
+        <state>TX</state>
+        <identifiers>
+          <gpoId>8167</gpoId>
+          <lisID>1805</lisID>
+          <bioguideId>C001062</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>Michael</middleName>
+        <fullName>Rep. Conaway, K. Michael [R-TX-11]</fullName>
+        <district>11</district>
+      </item>
+      <item>
+        <lastName>Rouzer</lastName>
+        <bioguideId>R000603</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>David</firstName>
+        <state>NC</state>
+        <identifiers>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+          <lisID>2256</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>Abraham</lastName>
+        <bioguideId>A000374</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ralph</firstName>
+        <state>LA</state>
+        <identifiers>
+          <lisID>2244</lisID>
+          <gpoId />
+          <bioguideId>A000374</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>Lee</middleName>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Carney</lastName>
+        <bioguideId>C001083</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>John</firstName>
+        <state>DE</state>
+        <identifiers>
+          <lisID>1999</lisID>
+          <gpoId>7872</gpoId>
+          <bioguideId>C001083</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>C.</middleName>
+        <fullName>Rep. Carney, John C., Jr. [D-DE-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Westerman</lastName>
+        <bioguideId>W000821</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Bruce</firstName>
+        <state>AR</state>
+        <identifiers>
+          <lisID>2224</lisID>
+          <bioguideId>W000821</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Westerman, Bruce [R-AR-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Emmer</lastName>
+        <bioguideId>E000294</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Tom</firstName>
+        <state>MN</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2253</lisID>
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <district>6</district>
+      </item>
+      <item>
+        <lastName>Bost</lastName>
+        <bioguideId>B001295</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mike</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>2243</lisID>
+          <bioguideId>B001295</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Bost, Mike [R-IL-12]</fullName>
+        <district>12</district>
+      </item>
+      <item>
+        <lastName>Hurd</lastName>
+        <bioguideId>H001073</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Will</firstName>
+        <state>TX</state>
+        <identifiers>
+          <lisID>2269</lisID>
+          <bioguideId>H001073</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Hurd, Will [R-TX-23]</fullName>
+        <district>23</district>
+      </item>
+      <item>
+        <lastName>Ellmers</lastName>
+        <bioguideId>E000291</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Renee</firstName>
+        <state>NC</state>
+        <identifiers>
+          <lisID>2036</lisID>
+          <bioguideId>E000291</bioguideId>
+          <gpoId>8025</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Scott</lastName>
+        <bioguideId>S001189</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Austin</firstName>
+        <state>GA</state>
+        <identifiers>
+          <bioguideId>S001189</bioguideId>
+          <gpoId>7905</gpoId>
+          <lisID>2009</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Scott, Austin [R-GA-8]</fullName>
+        <district>8</district>
+      </item>
+      <item>
+        <lastName>Olson</lastName>
+        <bioguideId>O000168</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Pete</firstName>
+        <state>TX</state>
+        <identifiers>
+          <lisID>1955</lisID>
+          <bioguideId>O000168</bioguideId>
+          <gpoId>8178</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Olson, Pete [R-TX-22]</fullName>
+        <district>22</district>
+      </item>
+      <item>
+        <lastName>Duffy</lastName>
+        <bioguideId>D000614</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Sean</firstName>
+        <state>WI</state>
+        <identifiers>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+          <gpoId>8220</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>Ross</lastName>
+        <bioguideId>R000593</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Dennis</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>R000593</bioguideId>
+          <gpoId>7884</gpoId>
+          <lisID>2003</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Ross, Dennis A. [R-FL-15]</fullName>
+        <district>15</district>
+      </item>
+      <item>
+        <lastName>Kline</lastName>
+        <bioguideId>K000363</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>John</firstName>
+        <state>MN</state>
+        <identifiers>
+          <lisID>1733</lisID>
+          <gpoId>8002</gpoId>
+          <bioguideId>K000363</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Kline, John [R-MN-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Young</lastName>
+        <bioguideId>Y000066</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>David</firstName>
+        <state>IA</state>
+        <identifiers>
+          <lisID>2242</lisID>
+          <bioguideId>Y000066</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <district>3</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. McCAUL:H.R. 3255.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1[Page H5591]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Agricultural education</name>
+          </item>
+          <item>
+            <name>Income tax exclusion</name>
+          </item>
+          <item>
+            <name>Livestock</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-28T14:06:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-28</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Agriculture Students Encourage, Acknowledge, Reward, Nurture Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-04-11</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>2774</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Student Agriculture Protection Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-07-28</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-07-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Student Agriculture Protection Act of 2015</strong></p> <p>This bill amends the Internal Revenue Code to exclude from the gross income of a student farmer&nbsp;gain from the sale or exchange of personal property,&nbsp;including livestock, &nbsp;produced by&nbsp;such student farmer. The bill defines "student farmer" as an individual who has not attained age 18 and who is enrolled in a program established by Future Farmers of America or in a 4-H club. </p>]]></text>
+          <lastSummaryUpdateDate>2015-10-07T22:07:56Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3255</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

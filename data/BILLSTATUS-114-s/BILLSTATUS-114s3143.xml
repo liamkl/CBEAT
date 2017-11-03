@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-07-07</actionDate>
+        <committee>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+          <systemCode>ssbk00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-07-07</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:11:39Z</updateDate>
+    <introducedDate>2016-07-07</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-08T05:34:44Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Jeff</firstName>
+        <lastName>Merkley</lastName>
+        <state>OR</state>
+        <bioguideId>M001176</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1900</lisID>
+          <bioguideId>M001176</bioguideId>
+          <gpoId>8238</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>WAGE Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Wage and Garnishment Equity Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to amend the Consumer Credit Protection Act to strengthen debt collection exemptions to protect debtors and their families from poverty or bankruptcy, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>WAGE Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Bank accounts, deposits, capital</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Consumer credit</name>
+          </item>
+          <item>
+            <name>Debt collection</name>
+          </item>
+          <item>
+            <name>Employment discrimination and employee rights</name>
+          </item>
+          <item>
+            <name>Small business</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+          <item>
+            <name>Wages and earnings</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+          <systemCode>ssbk00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-07T21:01:38Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-07</actionDate>
+      <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>WAGE Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-07-07</actionDate>
+          <text>Referred to the House Committee on Financial Services.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>5664</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>WAGE Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-07-07T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2016-07-07</actionDate>
+          <text><![CDATA[<p><b>Wage and Garnishment Equity Act of 2016 or the WAGE Act</b></p> <p>This bill amends the Consumer Credit Protection Act to define &quot;assignment&quot; (of wages and earnings) to exclude payroll deductions or preauthorized payment plans and any assignment applicable only to earnings already earned.</p> <p> The bill adjusts the maximum part of a person's aggregate disposable earnings for any workweek that is subject to garnishment or assignment. Such amount shall not exceed the lesser of: (1) 10% of earnings for an individual earning $1200 or less weekly (15% for an individual earning more than $1200), or (2) the amount by which the earnings exceed 80 (currently, 30) times the federal minimum hourly wage in effect.</p> <p>No employer may take any adverse employment action against an employee because the employee's earnings have been subject to garnishment or assignment.</p> <p>The Department of Labor may provide the same exemption from maximum allowable garnishment requirements for state-regulated assignments as it does for state-regulated garnishments.</p> <p>The bill requires specified delays of garnishment pursuant to an order directed at an employer with fewer than 50 employees.</p> <p>Of the aggregate amount of an individual's funds in deposit accounts, $10,000 (as adjusted for inflation every three years) shall be exempt and immune from attachment or seizure for any judgment related to a debt.</p>]]></text>
+          <lastSummaryUpdateDate>2017-04-24T21:36:05Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3143</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-07-23</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-07-23</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-07-23</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:52Z</updateDate>
+    <introducedDate>2015-07-23</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-28T14:38:34Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Brian</firstName>
+        <lastName>Higgins</lastName>
+        <state>NY</state>
+        <bioguideId>H001038</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1794</lisID>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <district>26</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Housing and Community Development</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Vacant Homes Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To require prompt responses by mortgage owners of homes in foreclosure to short sale offers to purchase such homes, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Vacant Homes Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HIGGINS:H.R. 3203.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18[Page H5468]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Housing and Community Development</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Housing finance and home ownership</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Financial Services Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsba00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-07-23T14:00:41Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-23</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Vacant Homes Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-01-06T21:22:46Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-07-23</actionDate>
+          <text><![CDATA[<p><b>Vacant Homes Act of 2015</b></p> <p>This bill provides the mortgage owner of a home in foreclosure who receives notice from the homeowner (or from the homeowner's designee) of a qualified offer to buy the home in a short sale 90 days after receiving the notice to respond to the homeowner and the person who made the offer. The same response time requirement shall apply to the owner of a foreclosed home (or a servicer acting on the owner's behalf) who receives a qualified offer to buy it.</p> <p>A response rejecting an offer shall be sufficient only if, among other things, it makes a counteroffer meeting specified criteria.</p> <p>Aggrieved homeowners or offerors may bring private civil actions for failure to receive a timely and adequate mandatory response.</p> <p>The Consumer Financial Protection Bureau may apply to the U.S. district court for the district in which a home in foreclosure or a foreclosed home is located for an order requiring either the mortgage owner of the home in foreclosure or the owner of the foreclosed home (or a servicer acting on the owner's behalf) to comply with the timely and adequate response requirements of this Act.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-07-23T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3203</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

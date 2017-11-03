@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-20</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:53Z</updateDate>
+    <introducedDate>2015-11-18</introducedDate>
+    <recordedVotes />
+    <createDate>2015-11-19T09:46:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>PETE</firstName>
+        <lastName>SESSIONS</lastName>
+        <state>TX</state>
+        <bioguideId>S000250</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>S000250</bioguideId>
+          <gpoId>8188</gpoId>
+          <lisID>1525</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <district>32</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Cosmetic Modernization Amendments of 2015</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend the Federal Food, Drug, and Cosmetic Act to establish new procedures and requirements for the registration of cosmetic manufacturing establishments, the submission of cosmetic and ingredient statements, and the reporting of serious cosmetic adverse events, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Cosmetic Modernization Amendments of 2015</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Flores, Bill [R-TX-17]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Flores</lastName>
+        <identifiers>
+          <lisID>2065</lisID>
+          <bioguideId>F000461</bioguideId>
+          <gpoId>8173</gpoId>
+        </identifiers>
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>17</district>
+        <middleName />
+        <sponsorshipDate>2015-12-02</sponsorshipDate>
+        <bioguideId>F000461</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Johnson, Eddie Bernice [D-TX-30]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>JOHNSON</lastName>
+        <identifiers>
+          <lisID>599</lisID>
+          <bioguideId>J000126</bioguideId>
+          <gpoId>8186</gpoId>
+        </identifiers>
+        <firstName>EDDIE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>30</district>
+        <middleName>BERNICE</middleName>
+        <sponsorshipDate>2016-03-14</sponsorshipDate>
+        <bioguideId>J000126</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SESSIONS:H.R. 4075.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3[Page H8361]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Department of Health and Human Services</name>
+          </item>
+          <item>
+            <name>Drug safety, medical device, and laboratory regulation</name>
+          </item>
+          <item>
+            <name>Federal preemption</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Manufacturing</name>
+          </item>
+          <item>
+            <name>Product safety and quality</name>
+          </item>
+          <item>
+            <name>Trade restrictions</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-11-18T15:02:45Z</date>
+            </item>
+          </activities>
+          <name>Energy and Commerce Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-11-20T14:08:24Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+              <systemCode>hsif14</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsif00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-20</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Cosmetic Modernization Amendments of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-11-18</actionDate>
+          <lastSummaryUpdateDate>2016-07-18T20:46:34Z</lastSummaryUpdateDate>
+          <updateDate>2015-11-18T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Cosmetic Modernization Amendments of 2015</b></p> <p>This bill amends the Federal Food, Drug, and Cosmetic Act to set forth provisions governing the Food and Drug Administration's (FDA's) regulation of cosmetics, including requiring the registration of manufacturing establishments and the submission of a cosmetic and ingredient statement for each cosmetic. The FDA must publish a list of registered establishments and a list of cosmetics and their ingredients.</p> <p>Cosmetic manufacturers, packers, and distributors must report to the FDA any serious and unexpected adverse events likely caused by a cosmetic. Cosmetic labels must include contact information to report a serious adverse event.</p> <p>The FDA may establish principles and standards for good manufacturing practices for cosmetics. A cosmetic may not be sold if it presents a significant risk of serious adverse health consequences because it was not manufactured in accordance with good manufacturing practices.</p> <p>Certain ingredients are deemed safe for use in cosmetics unless restricted by the FDA. The FDA must establish a program to evaluate the safety of cosmetics and cosmetic ingredients.</p> <p>The FDA must establish and maintain a National Cosmetic Regulatory Databank that contains submitted information on cosmetics. Confidential business and trade secret information may be disclosed only to state agencies that request this information for good cause.</p> <p>The FDA may establish exemptions to requirements so that implementation and compliance is cost-effective.</p>  <p>Color additives that the FDA has not listed as suitable and safe but that are generally recognized as safe may be used in cosmetics.</p> <p>States and local governments may not establish or continue in effect specified requirements relating to cosmetics.</p> Cosmetics may only be imported from registered establishments that have submitted a cosmetic and ingredient statement.]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4075</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

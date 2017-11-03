@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-05-01</actionDate>
+        <committee>
+          <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+          <systemCode>hsvr09</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-04-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 1875, Filipino Veterans Recognition Act</title>
+        <pubDate>2015-07-17T22:13:35Z</pubDate>
+        <url>https://www.cbo.gov/publication/50405</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <lastName>Lawrence</lastName>
+        <bioguideId>L000581</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Brenda</firstName>
+        <state>MI</state>
+        <identifiers>
+          <lisID>2252</lisID>
+          <bioguideId>L000581</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <district>14</district>
+      </item>
+      <item>
+        <lastName>Bordallo</lastName>
+        <bioguideId>B001245</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Madeleine</firstName>
+        <state>GU</state>
+        <identifiers>
+          <lisID>1723</lisID>
+          <gpoId>7911</gpoId>
+          <bioguideId>B001245</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>Z.</middleName>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Vargas</lastName>
+        <bioguideId>V000130</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Juan</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <district>51</district>
+      </item>
+      <item>
+        <lastName>FARR</lastName>
+        <bioguideId>F000030</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>SAM</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>368</lisID>
+          <gpoId>7822</gpoId>
+          <bioguideId>F000030</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Farr, Sam [D-CA-20]</fullName>
+        <district>20</district>
+      </item>
+      <item>
+        <lastName>Amodei</lastName>
+        <bioguideId>A000369</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mark</firstName>
+        <state>NV</state>
+        <identifiers>
+          <lisID>2090</lisID>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Swalwell</lastName>
+        <bioguideId>S001193</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Eric</firstName>
+        <state>CA</state>
+        <identifiers>
+          <bioguideId>S001193</bioguideId>
+          <gpoId />
+          <lisID>2104</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <district>15</district>
+      </item>
+      <item>
+        <lastName>MCDERMOTT</lastName>
+        <bioguideId>M000404</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JIM</firstName>
+        <state>WA</state>
+        <identifiers>
+          <gpoId>8211</gpoId>
+          <lisID>766</lisID>
+          <bioguideId>M000404</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>Gabbard</lastName>
+        <bioguideId>G000571</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Tulsi</firstName>
+        <state>HI</state>
+        <identifiers>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+          <lisID>2122</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <district>2</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-04-16</introducedDate>
+    <latestAction>
+      <actionDate>2015-05-01</actionDate>
+      <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+      <links />
+    </latestAction>
+    <billNumber>1875</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Filipino Veterans Recognition Act</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To extend the Filipino Veterans Equity Compensation Fund and to direct the Secretary of Veterans Affairs to accept certain documents as proof of service in determining the eligibility of a person to receive amounts from such Fund.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Filipino Veterans Recognition Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HECK of Nevada:H.R. 1875.Congress has the power to enact this legislation pursuantto the following:The power granted to Congress under Article I, Section 8,Clause 18 of the United States Constitution, to make all lawswhich shall be necessary and proper for carrying intoexecution the foregoing Powers, and all other powers vestedby the Constitution in the Government of the United States,or in any Department or officer thereof.[Page H2309]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Filipino Veterans Recognition Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-04-29T18:37:42Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-16</actionDate>
+          <text><![CDATA[<p><strong>Filipino Veterans Recognition Act</strong></p> <p>This bill amends the American Recovery and Reinvestment Act of 2009 to authorize the Secretary of Veterans Affairs to make a payment from the Filipino Veterans Equity Compensation Fund to an eligible person who, during the one-year period beginning on the date of the enactment of this paragraph, submits to the Secretary: </p> <ul> <li>a benefits claim; or </li> <li>with respect to a person who filed a benefits claim during such one-year period, a new claim or an appeal to such previously filed claim. </li> </ul> <p> In determining an individual's eligibility to receive Compensation Fund benefits the Secretary shall accept as proof of service an affidavit from the government of the Philippines certifying an eligible individual's service (AGO Form 23).</p> <p> Such an affidavit shall serve as proof of service regardless of whether the eligible individual: </p> <ul> <li>submits any other qualifying document, or </li> <li>is included in the Approved Revised Reconstructed Guerilla Roster of 1948, (Missouri List). </li> </ul> <p> The Secretary may not accept such an affidavit as proof of service for any VA benefit other than the Compensation Fund.</p> <p>Nothing in this Act shall be construed as authorizing additional amounts to be appropriated to the Compensation Fund.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-16T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr09</systemCode>
+              <activities>
+                <item>
+                  <date>2015-05-01T20:34:28Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-04-16T13:02:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:01Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Asia</name>
+          </item>
+          <item>
+            <name>Military history</name>
+          </item>
+          <item>
+            <name>Philippines</name>
+          </item>
+          <item>
+            <name>Veterans' pensions and compensation</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-04-17T09:01:59Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Heck, Joseph J. [R-NV-3]</fullName>
+        <state>NV</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Heck</lastName>
+        <firstName>Joseph</firstName>
+        <bioguideId>H001055</bioguideId>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>2040</lisID>
+          <bioguideId>H001055</bioguideId>
+          <gpoId>8061</gpoId>
+        </identifiers>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

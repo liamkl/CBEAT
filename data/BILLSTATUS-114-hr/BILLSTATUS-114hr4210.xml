@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-12-10</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-12-10</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-12-10</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Williams</lastName>
+        <middleName />
+        <district>25</district>
+        <fullName>Rep. Williams, Roger [R-TX-25]</fullName>
+        <identifiers>
+          <lisID>2165</lisID>
+          <bioguideId>W000816</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-01-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000816</bioguideId>
+        <firstName>Roger</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ross</lastName>
+        <middleName>A.</middleName>
+        <district>15</district>
+        <fullName>Rep. Ross, Dennis A. [R-FL-15]</fullName>
+        <identifiers>
+          <lisID>2003</lisID>
+          <bioguideId>R000593</bioguideId>
+          <gpoId>7884</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-01-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000593</bioguideId>
+        <firstName>Dennis</firstName>
+      </item>
+      <item>
+        <state>MN</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Emmer</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <identifiers>
+          <lisID>2253</lisID>
+          <gpoId />
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-01-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000294</bioguideId>
+        <firstName>Tom</firstName>
+      </item>
+      <item>
+        <state>KY</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Barr</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <identifiers>
+          <lisID>2131</lisID>
+          <bioguideId>B001282</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001282</bioguideId>
+        <firstName>Andy</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Posey</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Posey, Bill [R-FL-8]</fullName>
+        <identifiers>
+          <bioguideId>P000599</bioguideId>
+          <gpoId>7887</gpoId>
+          <lisID>1915</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000599</bioguideId>
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ROYCE</lastName>
+        <middleName />
+        <district>39</district>
+        <fullName>Rep. Royce, Edward R. [R-CA-39]</fullName>
+        <identifiers>
+          <bioguideId>R000487</bioguideId>
+          <gpoId>7845</gpoId>
+          <lisID>998</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000487</bioguideId>
+        <firstName>ED</firstName>
+      </item>
+      <item>
+        <state>WI</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Duffy</lastName>
+        <middleName>P.</middleName>
+        <district>7</district>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <identifiers>
+          <gpoId>8220</gpoId>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000614</bioguideId>
+        <firstName>Sean</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-12-10</introducedDate>
+    <latestAction>
+      <actionDate>2015-12-10</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+      <links />
+    </latestAction>
+    <billNumber>4210</billNumber>
+    <titles>
+      <item>
+        <title>To amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to require voting members of the Financial Stability Oversight Council to testify before Congress at least twice each year when requested to do so or to otherwise permit certain Members of Congress to attend meetings of the Council whether or not such meetings are open to the public.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to require voting members of the Financial Stability Oversight Council to testify before Congress at least twice each year when requested to do so or to otherwise permit certain Members of Congress to attend meetings of the Council whether or not such meetings are open to the public.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PITTENGER:H.R. 4210.Congress has the power to enact this legislation pursuantto the following:Article I Section 1: All legislative Powers herein grantedshall be vested in a Congress of the United States[Page H9270]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To amend the Dodd-Frank Wall Street Reform and Consumer Protection Act to require voting members of the Financial Stability Oversight Council to testify before Congress at least twice each year when requested to do so or to otherwise permit certain Members of Congress to attend meetings of the Council whether or not such meetings are open to the public.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-12-10</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-12-10T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the Dodd-Frank Wall Street Reform and Consumer Protection Act to: (1) require each voting member of the Financial Stability Oversight Council to testify at least twice each year before the House Financial Services Committee and the Senate Banking, Housing, and Urban Affairs Committee if invited to do so; and (2) permit Members of Congress who serve on such committees to attend council meetings, regardless of whether such meetings are open to the public, if in any year a council member fails to testify at least twice before each such committee after being invited to do so.</p>]]></text>
+          <lastSummaryUpdateDate>2016-02-18T20:42:06Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-12-10T15:00:46Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:00Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Financial Stability Oversight Council</name>
+          </item>
+          <item>
+            <name>Financial crises and stabilization</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-12-11T15:43:48Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <state>NC</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Pittenger</lastName>
+        <firstName>Robert</firstName>
+        <bioguideId>P000606</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>P000606</bioguideId>
+          <gpoId />
+          <lisID>2141</lisID>
+        </identifiers>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

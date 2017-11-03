@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-05-20T08:46:22Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-04T14:40:26Z</date>
+                  <name>Reported by</name>
+                </item>
+                <item>
+                  <date>2015-11-04T14:39:51Z</date>
+                  <name>Markup by</name>
+                </item>
+                <item>
+                  <date>2015-05-22T15:12:18Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-11-04T14:18:43Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-05-19T14:04:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-05-19</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <designationOfSpeakerProTempore>2</designationOfSpeakerProTempore>
+        <placeholderTextForH>2</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-04</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote .</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-04</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-03</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-22</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-05-19</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-05-19</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-05-19</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>To amend title XIX of the Social Security Act to require the use of electronic visit verification for personal care services furnished under the Medicaid program, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend title XIX of the Social Security Act to require the use of electronic visit verification for personal care services furnished under the Medicaid program, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Allied health services</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Medicaid</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Israel, Steve [D-NY-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>STEVE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1663</lisID>
+          <gpoId>8063</gpoId>
+          <bioguideId>I000057</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-09-28</sponsorshipDate>
+        <bioguideId>I000057</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ISRAEL</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <district>27</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Chris</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001092</bioguideId>
+          <gpoId />
+          <lisID>2151</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-06-14</sponsorshipDate>
+        <bioguideId>C001092</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Collins</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Mullin, Markwayne [R-OK-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>OK</state>
+        <firstName>Markwayne</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001190</bioguideId>
+          <gpoId />
+          <lisID>2156</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <bioguideId>M001190</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Mullin</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <district>14</district>
+        <middleName>L.</middleName>
+        <state>MI</state>
+        <firstName>Brenda</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2252</lisID>
+          <bioguideId>L000581</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-07-05</sponsorshipDate>
+        <bioguideId>L000581</bioguideId>
+        <sponsorshipWithdrawnDate>2016-07-14</sponsorshipWithdrawnDate>
+        <lastName>Lawrence</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Boyle, Brendan F. [D-PA-13]</fullName>
+        <district>13</district>
+        <middleName>F.</middleName>
+        <state>PA</state>
+        <firstName>Brendan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2267</lisID>
+          <gpoId />
+          <bioguideId>B001296</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <bioguideId>B001296</bioguideId>
+        <sponsorshipWithdrawnDate>2016-07-14</sponsorshipWithdrawnDate>
+        <lastName>Boyle</lastName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2446</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-05-19T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-05-19</actionDate>
+          <text><![CDATA[<p>Amends title XIX (Medicaid) of the Social Security Act to require states to have in place a system for the electronic verification of visits conducted as part of personal care services or else have their federal medical assistance percentage reduced by specified amounts.</p>]]></text>
+          <lastSummaryUpdateDate>2015-06-17T20:50:22Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GUTHRIE:H.R. 2446.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8The Congress shall have Power To lay and collect Taxes,Duties, Imposts and Excises, to pay the Debts and provide forthe common Defense and general Welfare of the United States;but all Duties, Imposts and Excises shall be uniformthroughout the United States;. . .To regulate Commerce with foreign Nations, and among theseveral States, and with the Indian Tribes;. . .To make all Laws which shall be necessary and proper forcarrying into Execution the foregoing Powers, and all otherPowers vested by this Constitution in the Government of theUnited States, or in any Department or Officer thereof.[Page H3390]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To amend title XIX of the Social Security Act to require the use of electronic visit verification for personal care services furnished under the Medicaid program, and for other purposes.</title>
+    <latestAction>
+      <actionDate>2015-11-04</actionDate>
+      <text>Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote .</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:01:47Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Guthrie, Brett [R-KY-2]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>G000558</bioguideId>
+        <district>2</district>
+        <middleName />
+        <state>KY</state>
+        <firstName>Brett</firstName>
+        <lastName>Guthrie</lastName>
+        <identifiers>
+          <bioguideId>G000558</bioguideId>
+          <gpoId>7954</gpoId>
+          <lisID>1922</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

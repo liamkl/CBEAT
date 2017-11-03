@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-03-26T08:47:41Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr03</systemCode>
+              <activities>
+                <item>
+                  <date>2015-04-07T18:06:22Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-25T14:02:10Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-03-25</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-07</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-03-25</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-03-25</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-03-25</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Veterans Pain Management Improvement Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 38, United States Code, to establish in each Veterans Integrated Service Network a pain management board.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Veterans Pain Management Improvement Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Department of Veterans Affairs</name>
+          </item>
+          <item>
+            <name>Drug therapy</name>
+          </item>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Prescription drugs</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <firstName>Lee</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2261</lisID>
+          <bioguideId>Z000017</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>Z000017</bioguideId>
+        <party>R</party>
+        <district>1</district>
+        <state>NY</state>
+        <fullName>Rep. Zeldin, Lee M. [R-NY-1]</fullName>
+        <lastName>Zeldin</lastName>
+        <middleName>M.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <firstName>Reid</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2073</lisID>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+        </identifiers>
+        <bioguideId>R000587</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>WI</state>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <lastName>Ribble</lastName>
+        <middleName>J.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-04-13</sponsorshipDate>
+        <firstName>Kathleen</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2262</lisID>
+          <bioguideId>R000602</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>R000602</bioguideId>
+        <party>D</party>
+        <district>4</district>
+        <state>NY</state>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <lastName>Rice</lastName>
+        <middleName>M.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <firstName>Debbie</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>D000624</bioguideId>
+          <gpoId />
+          <lisID>2251</lisID>
+        </identifiers>
+        <bioguideId>D000624</bioguideId>
+        <party>D</party>
+        <district>12</district>
+        <state>MI</state>
+        <fullName>Rep. Dingell, Debbie [D-MI-12]</fullName>
+        <lastName>Dingell</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <firstName>William</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>K000375</bioguideId>
+          <gpoId>7975</gpoId>
+          <lisID>2025</lisID>
+        </identifiers>
+        <bioguideId>K000375</bioguideId>
+        <party>D</party>
+        <district>9</district>
+        <state>MA</state>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <lastName>Keating</lastName>
+        <middleName>R.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-27</sponsorshipDate>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+          <lisID>2171</lisID>
+        </identifiers>
+        <bioguideId>P000607</bioguideId>
+        <party>D</party>
+        <district>2</district>
+        <state>WI</state>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <lastName>Pocan</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-27</sponsorshipDate>
+        <firstName>WALTER</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <bioguideId>J000255</bioguideId>
+        <party>R</party>
+        <district>3</district>
+        <state>NC</state>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <lastName>JONES</lastName>
+        <middleName>B.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-14</sponsorshipDate>
+        <firstName>Raul</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <bioguideId>G000551</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>AZ</state>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <lastName>Grijalva</lastName>
+        <middleName>M.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1628</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-06-22T13:55:25Z</lastSummaryUpdateDate>
+          <actionDate>2015-03-25</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-03-25T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Veterans Pain Management Improvement Act</strong></p> <p>Directs the Department of Veterans Affairs (VA) to establish a Pain Management Board in each Veterans Integrated Service Network.</p> <p>Requires each Board to provide: (1) recommendations for treatment, on an in-patient or out-patient basis, for patients with complex clinical pain for whom a request has been made by the patient, the patient's physician, spouse, family member, or an individual designated by the patient to make health care decisions or receive health care information for the patient, or an employee of the covered VA facility; and (2) recommendations on best practices regarding pain management in complex clinical pain cases to VA health care professionals located in the Network covered by the Board.</p> <p>Requires each Board to annually submit to the VA a report on pain management practices carried out in the covered Network.</p> <p>Directs the VA, by December 1, 2015, to submit to specified congressional committees the approved clinical guideline, handbook, directive, policy, or other guidance established to govern the step-down methodologies employed by clinicians in VA medical facilities to manage the use of opioid therapies and associated prescribing practices.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. KIND:H.R. 1628.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8To make all laws which shall be necessary and proper forcarrying into execution the foregoing powers, and all otherpowers vested by this Constitution in the government of theUnited States, or in any department or officer thereof.[Page H2035]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Veterans Pain Management Improvement Act</title>
+    <latestAction>
+      <actionDate>2015-04-07</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:00:35Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>K000188</bioguideId>
+        <district>3</district>
+        <middleName />
+        <state>WI</state>
+        <firstName>RON</firstName>
+        <lastName>KIND</lastName>
+        <identifiers>
+          <lisID>1498</lisID>
+          <bioguideId>K000188</bioguideId>
+          <gpoId>8216</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

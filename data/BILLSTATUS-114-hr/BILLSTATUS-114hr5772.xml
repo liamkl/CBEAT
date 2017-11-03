@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>2</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-08-01</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hswm02</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <text>Referred to House Energy and Commerce</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <text>Referred to House Ways and Means</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:47Z</updateDate>
+    <introducedDate>2016-07-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-14T06:10:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Raul</firstName>
+        <lastName>Ruiz</lastName>
+        <state>CA</state>
+        <bioguideId>R000599</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2109</lisID>
+          <bioguideId>R000599</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Ruiz, Raul [D-CA-36]</fullName>
+        <district>36</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>BENES Act of 2016</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Beneficiary Enrollment Notification and Eligibility Simplification Act of 2016</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend title XVIII of the Social Security Act to establish a system to educate individuals approaching Medicare eligibility, to simplify and modernize the eligibility enrollment process, and to provide for additional assistance for complaints and requests of Medicare beneficiaries that relate to their enrollment in the Medicare program, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>BENES Act of 2016</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <district>7</district>
+        <state>PA</state>
+        <party>R</party>
+        <fullName>Rep. Meehan, Patrick [R-PA-7]</fullName>
+        <firstName>Patrick</firstName>
+        <middleName />
+        <lastName>Meehan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>M001181</bioguideId>
+          <gpoId>8125</gpoId>
+          <lisID>2052</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>M001181</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>3</district>
+        <state>PA</state>
+        <party>R</party>
+        <fullName>Rep. Kelly, Mike [R-PA-3]</fullName>
+        <firstName>Mike</firstName>
+        <middleName />
+        <lastName>Kelly</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>8708</gpoId>
+          <lisID>2051</lisID>
+          <bioguideId>K000376</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>K000376</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>9</district>
+        <state>NJ</state>
+        <party>D</party>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <firstName>WILLIAM</firstName>
+        <middleName>J.</middleName>
+        <lastName>PASCRELL</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>P000096</bioguideId>
+          <gpoId>8050</gpoId>
+          <lisID>1510</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>P000096</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>19</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <firstName>ZOE</firstName>
+        <middleName />
+        <lastName>LOFGREN</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>L000397</bioguideId>
+          <gpoId>7821</gpoId>
+          <lisID>701</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000397</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>9</district>
+        <state>IN</state>
+        <party>R</party>
+        <fullName>Rep. Young, Todd C. [R-IN-9]</fullName>
+        <firstName>Todd</firstName>
+        <middleName>C.</middleName>
+        <lastName>Young</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>Y000064</bioguideId>
+          <gpoId>7948</gpoId>
+          <lisID>2019</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>Y000064</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. RUIZ:H.R. 5772.Congress has the power to enact this legislation pursuantto the following:clause 18 of section 8 of article I of the Constitution[Page H4927]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Department of Health and Human Services</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hswm00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-08-01T13:59:30Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-13T14:05:15Z</date>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <name>Energy and Commerce Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsif00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-13T14:05:20Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-08-01</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2016-07-14</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <number>3236</number>
+        <type>S</type>
+        <latestTitle>BENES Act of 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>BENES Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2016-07-13</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-07-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Beneficiary Enrollment Notification and Eligibility Simplification Act of 2016 or the BENES Act of 2016</strong></p> <p>This bill amends title XVIII (Medicare) of the Social Security Act and the Internal Revenue Code to:</p> <ul> <li>establish requirements for the Centers for Medicare &amp; Medicaid Services (CMS) to notify individuals of their potential eligibility for Medicare;</li> <li>require the Internal Revenue Service to disclose to CMS specified taxpayer information for the purpose of establishing individuals' potential Medicare eligibility;</li> <li>restructure Medicare enrollment periods; and </li> <li>expand Medicare beneficiaries' rights to appeal certain enrollment errors.</li></ul>]]></text>
+          <lastSummaryUpdateDate>2017-03-22T13:58:57Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5772</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

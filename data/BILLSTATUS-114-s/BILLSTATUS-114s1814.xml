@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-07-22T09:34:29Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2015-07-21T20:26:42Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-07-21</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-07-21</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Stop Sanctuary Cities Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to withhold certain Federal funding from sanctuary cities.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Stop Sanctuary Cities Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Border security and unlawful immigration</name>
+          </item>
+          <item>
+            <name>Citizenship and naturalization</name>
+          </item>
+          <item>
+            <name>Detention of persons</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Intergovernmental relations</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>State and local finance</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Flake, Jeff [R-AZ]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <bioguideId>F000444</bioguideId>
+        <middleName />
+        <state>AZ</state>
+        <lastName>FLAKE</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>JEFF</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7803</gpoId>
+          <lisID>1633</lisID>
+          <bioguideId>F000444</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-07-21</sponsorshipDate>
+        <bioguideId>M000303</bioguideId>
+        <middleName>SIDNEY</middleName>
+        <state>AZ</state>
+        <lastName>MCCAIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>754</lisID>
+          <bioguideId>M000303</bioguideId>
+          <gpoId>8253</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Cassidy, Bill [R-LA]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <bioguideId>C001075</bioguideId>
+        <middleName />
+        <state>LA</state>
+        <lastName>Cassidy</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1925</lisID>
+          <bioguideId>C001075</bioguideId>
+          <gpoId>7964</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Toomey, Pat [R-PA]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-09-09</sponsorshipDate>
+        <bioguideId>T000461</bioguideId>
+        <middleName />
+        <state>PA</state>
+        <lastName>Toomey</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Pat</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1594</lisID>
+          <gpoId />
+          <bioguideId>T000461</bioguideId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1814</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Stop Sanctuary Cities Act</strong></p> <p>This bill makes it unlawful for any state or political subdivision to: </p> <ul> <li>restrict or prohibit a government entity or official from sending to or receiving from the responsible federal immigration agency information regarding an individual's citizenship or immigration status, or from maintaining or exchanging information about an individual's status; or </li> <li>fail to comply with a immigration-related detainer that has been lawfully issued by the Department of Homeland Security (DHS). </li> </ul> <p>Any state or subdivision that: </p> <ul> <li>violates such prohibition shall be ineligible for State Criminal Alien Assistance Program funds; and </li> <li>does not come into compliance with such requirements within 180 days of receiving noncompliance notification from DHS shall be ineligible for assistance under the Byrne Memorial Justice Assistance Grant Program.</li> </ul> <p>Funding may not be withheld until DHS has: (1) notified a state or subdivision of its noncompliance, and (2) determined that voluntary compliance cannot be secured. </p> <p>No liability shall lie with a state or subdivision that is acting in compliance with a lawfully issued DHS detainer solely because the state or subdivision is holding an alien in compliance with such detainer. </p> <p>Nothing in this Act may be construed to require law enforcement officials of a state or a subdivision to provide DHS with information related to a victim or a witness to a criminal offense.</p>]]></text>
+          <lastSummaryUpdateDate>2015-09-03T16:34:40Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-21T04:00:00Z</updateDate>
+          <actionDate>2015-07-21</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Stop Sanctuary Cities Act</title>
+    <latestAction>
+      <actionDate>2015-07-21</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:09:59Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>V000127</bioguideId>
+        <middleName />
+        <state>LA</state>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <identifiers>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+          <lisID>1609</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

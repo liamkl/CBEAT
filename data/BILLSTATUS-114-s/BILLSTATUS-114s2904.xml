@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-05-10T05:26:03Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Social Welfare</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-05-09T22:36:07Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>5183</number>
+        <congress>114</congress>
+        <latestTitle>ALS Disability Insurance Access Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-05-20</actionDate>
+          <text>Referred to the Subcommittee on Social Security.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-05-09</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-05-09</actionDate>
+        <committee>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2016-05-09</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <title>ALS Disability Insurance Access Act of 2016</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>A bill to amend title II of the Social Security Act to eliminate the five month waiting period for disability insurance benefits under such title for individuals with amyotrophic lateral sclerosis.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>ALS Disability Insurance Access Act of 2016</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Social Welfare</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Disability assistance</name>
+          </item>
+          <item>
+            <name>Neurological disorders</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Cotton, Tom [R-AR]</fullName>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <state>AR</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cotton</lastName>
+        <firstName>Tom</firstName>
+        <bioguideId>C001095</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <bioguideId>C001095</bioguideId>
+          <gpoId />
+          <lisID>2098</lisID>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <state>NY</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SCHUMER</lastName>
+        <firstName>CHARLES</firstName>
+        <bioguideId>S000148</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1036</lisID>
+          <bioguideId>S000148</bioguideId>
+          <gpoId>8279</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Burr, Richard [R-NC]</fullName>
+        <sponsorshipDate>2016-05-16</sponsorshipDate>
+        <state>NC</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BURR</lastName>
+        <firstName>RICHARD</firstName>
+        <bioguideId>B001135</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <bioguideId>B001135</bioguideId>
+          <gpoId>8286</gpoId>
+          <lisID>153</lisID>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <state>DE</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Coons</lastName>
+        <firstName>Christopher</firstName>
+        <bioguideId>C001088</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>1984</lisID>
+          <bioguideId>C001088</bioguideId>
+          <gpoId>8297</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <state>CO</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bennet</lastName>
+        <firstName>Michael</firstName>
+        <bioguideId>B001267</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>F.</middleName>
+        <identifiers>
+          <bioguideId>B001267</bioguideId>
+          <gpoId>8302</gpoId>
+          <lisID>1965</lisID>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Stabenow, Debbie [D-MI]</fullName>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <state>MI</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>STABENOW</lastName>
+        <firstName>DEBORAH</firstName>
+        <bioguideId>S000770</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>ANN</middleName>
+        <identifiers>
+          <lisID>1531</lisID>
+          <gpoId>8261</gpoId>
+          <bioguideId>S000770</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <sponsorshipDate>2016-05-24</sponsorshipDate>
+        <state>OR</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Merkley</lastName>
+        <firstName>Jeff</firstName>
+        <bioguideId>M001176</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1900</lisID>
+          <bioguideId>M001176</bioguideId>
+          <gpoId>8238</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <sponsorshipDate>2016-06-06</sponsorshipDate>
+        <state>MN</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Klobuchar</lastName>
+        <firstName>Amy</firstName>
+        <bioguideId>K000367</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1826</lisID>
+          <bioguideId>K000367</bioguideId>
+          <gpoId>8249</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <sponsorshipDate>2016-06-09</sponsorshipDate>
+        <state>NJ</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MENENDEZ</lastName>
+        <firstName>ROBERT</firstName>
+        <bioguideId>M000639</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <gpoId>8239</gpoId>
+          <lisID>791</lisID>
+          <bioguideId>M000639</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Ayotte, Kelly [R-NH]</fullName>
+        <sponsorshipDate>2016-06-10</sponsorshipDate>
+        <state>NH</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ayotte</lastName>
+        <firstName>Kelly</firstName>
+        <bioguideId>A000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>2075</lisID>
+          <gpoId>8315</gpoId>
+          <bioguideId>A000368</bioguideId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+        <sponsorshipDate>2016-06-14</sponsorshipDate>
+        <state>MT</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Tester</lastName>
+        <firstName>Jon</firstName>
+        <bioguideId>T000464</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1829</lisID>
+          <bioguideId>T000464</bioguideId>
+          <gpoId>8258</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <sponsorshipDate>2016-06-20</sponsorshipDate>
+        <state>NY</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gillibrand</lastName>
+        <firstName>Kirsten</firstName>
+        <bioguideId>G000555</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1866</lisID>
+          <bioguideId>G000555</bioguideId>
+          <gpoId>8336</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <state>CA</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BOXER</lastName>
+        <firstName>BARBARA</firstName>
+        <bioguideId>B000711</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>116</lisID>
+          <gpoId>8306</gpoId>
+          <bioguideId>B000711</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Nelson, Bill [D-FL]</fullName>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <state>FL</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NELSON</lastName>
+        <firstName>CLARENCE</firstName>
+        <bioguideId>N000032</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>WILLIAM</middleName>
+        <identifiers>
+          <gpoId>8236</gpoId>
+          <lisID>859</lisID>
+          <bioguideId>N000032</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <sponsorshipDate>2016-06-29</sponsorshipDate>
+        <state>CT</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Blumenthal</lastName>
+        <firstName>Richard</firstName>
+        <bioguideId>B001277</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>2076</lisID>
+          <gpoId>8332</gpoId>
+          <bioguideId>B001277</bioguideId>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <state>CA</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>FEINSTEIN</lastName>
+        <firstName>DIANNE</firstName>
+        <bioguideId>F000062</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <bioguideId>F000062</bioguideId>
+          <gpoId>8338</gpoId>
+          <lisID>1332</lisID>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <state>AK</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murkowski</lastName>
+        <firstName>Lisa</firstName>
+        <bioguideId>M001153</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <lisID>1694</lisID>
+          <bioguideId>M001153</bioguideId>
+          <gpoId>8234</gpoId>
+        </identifiers>
+        <party>R</party>
+      </item>
+      <item>
+        <fullName>Sen. King, Angus S., Jr. [I-ME]</fullName>
+        <sponsorshipDate>2016-07-12</sponsorshipDate>
+        <state>ME</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>King</lastName>
+        <firstName>Angus</firstName>
+        <bioguideId>K000383</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <identifiers>
+          <bioguideId>K000383</bioguideId>
+          <gpoId />
+          <lisID>2185</lisID>
+        </identifiers>
+        <party>I</party>
+      </item>
+      <item>
+        <fullName>Sen. Warren, Elizabeth [D-MA]</fullName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <state>MA</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Warren</lastName>
+        <firstName>Elizabeth</firstName>
+        <bioguideId>W000817</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <identifiers>
+          <bioguideId>W000817</bioguideId>
+          <gpoId />
+          <lisID>2182</lisID>
+        </identifiers>
+        <party>D</party>
+      </item>
+      <item>
+        <fullName>Sen. Reed, Jack [D-RI]</fullName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <state>RI</state>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>REED</lastName>
+        <firstName>JOHN</firstName>
+        <bioguideId>R000122</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>F.</middleName>
+        <identifiers>
+          <lisID>949</lisID>
+          <bioguideId>R000122</bioguideId>
+          <gpoId>8272</gpoId>
+        </identifiers>
+        <party>D</party>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2904</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-06-02T15:04:13Z</lastSummaryUpdateDate>
+          <actionDate>2016-05-09</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-05-09T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>ALS Disability Insurance Access Act of 2016</b></p> <p>This bill amends title II (Old Age, Survivors and Disability Insurance) of the Social Security Act to eliminate the five-month waiting period for disability insurance benefits for individuals with amyotrophic lateral sclerosis and require their payment starting the first month during all of which the individual is under a disability and in which the individual becomes entitled to the benefits. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>ALS Disability Insurance Access Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-05-09</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:11:12Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>W000802</bioguideId>
+        <middleName />
+        <state>RI</state>
+        <firstName>Sheldon</firstName>
+        <lastName>Whitehouse</lastName>
+        <identifiers>
+          <bioguideId>W000802</bioguideId>
+          <gpoId>8264</gpoId>
+          <lisID>1823</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

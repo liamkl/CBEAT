@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2013-02-15</introducedDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <name>Armed Services Committee</name>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Military Personnel Subcommittee</name>
+              <systemCode>hsas02</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2013-03-06T15:57:52Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-02-15T14:09:20Z</date>
+            </item>
+          </activities>
+          <systemCode>hsas00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills />
+    <calendarNumbers />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. RANGEL:H.R. 747.Congress has the power to enact this legislation pursuantto the following:Congress is given the power under the Constitution ``Toraise and support Armies,'' ``To provide and maintain aNavy,'' and ``To make Rules for the Government and Regulationof the land and naval Forces.'' Art. I, Sec. 8, cls. 12-14.See also: ROSTKER V. GOLDBERG, 453 U. S. 57 (1981)[Page H597]</pre>]]></constitutionalAuthorityStatementText>
+    <sponsors>
+      <item>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <identifiers>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+          <bioguideId>R000053</bioguideId>
+        </identifiers>
+        <bioguideId>R000053</bioguideId>
+        <party>D</party>
+        <byRequestType />
+        <middleName>B.</middleName>
+        <state>NY</state>
+        <lastName>RANGEL</lastName>
+        <district>13</district>
+        <firstName>CHARLES</firstName>
+      </item>
+    </sponsors>
+    <recordedVotes />
+    <billType>HR</billType>
+    <committeeReports />
+    <congress>113</congress>
+    <notes />
+    <titles>
+      <item>
+        <chamberName />
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Military Selective Service Act to require the registration of women with the Selective Service System in light of the Department of Defense elimination of the rule excluding women from direct ground combat assignments in the Armed Forces.</title>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberName />
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Military Selective Service Act to require the registration of women with the Selective Service System in light of the Department of Defense elimination of the rule excluding women from direct ground combat assignments in the Armed Forces.</title>
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <createDate>2013-02-16T07:00:52Z</createDate>
+    <originChamber>House</originChamber>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <middleName>P.</middleName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2013-02-15</sponsorshipDate>
+        <district>8</district>
+        <state>VA</state>
+        <firstName>JAMES</firstName>
+        <lastName>MORAN</lastName>
+        <fullName>Rep. Moran, James P. [D-VA-8]</fullName>
+        <bioguideId>M000933</bioguideId>
+        <identifiers>
+          <bioguideId>M000933</bioguideId>
+          <lisID>832</lisID>
+          <gpoId>8199</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2013-02-15</actionDate>
+          <name>Introduced in House</name>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p>Amends the Military Selective Service Act to include females (under current law, only males) between the ages of 18 and 26 within military service registration requirements.</p> <p>Makes such amendment effective 60 days after the enactment of this Act.</p>]]></text>
+          <versionCode>00</versionCode>
+          <updateDate>2013-02-15T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2013-03-12T16:47:18Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <actions>
+      <item>
+        <actionDate>2013-03-06</actionDate>
+        <committee>
+          <systemCode>hsas02</systemCode>
+          <name>Military Personnel Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-02-15</actionDate>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+        <text>Referred to the House Committee on Armed Services.</text>
+      </item>
+      <item>
+        <actionDate>2013-02-15</actionDate>
+        <committee />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionDate>2013-02-15</actionDate>
+        <committee />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+    </actions>
+    <cboCostEstimates />
+    <amendments />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Executive Office of the President</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+          <item>
+            <name>Mental health</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Military readiness</name>
+          </item>
+          <item>
+            <name>National and community service</name>
+          </item>
+          <item>
+            <name>Physical fitness and lifestyle</name>
+          </item>
+          <item>
+            <name>Sex, gender, sexual orientation discrimination</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <laws />
+    <title>To amend the Military Selective Service Act to require the registration of women with the Selective Service System in light of the Department of Defense elimination of the rule excluding women from direct ground combat assignments in the Armed Forces.</title>
+    <updateDate>2016-10-25T15:59:21Z</updateDate>
+    <billNumber>747</billNumber>
+    <latestAction>
+      <actionDate>2013-03-06</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-05-22T13:34:44Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr03</systemCode>
+              <activities>
+                <item>
+                  <date>2015-06-05T20:56:02Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+            <item>
+              <systemCode>hsvr10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-06-05T20:34:27Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Economic Opportunity Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+          <activities>
+            <item>
+              <date>2015-05-21T14:08:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>ACES Act of 2016</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2661</number>
+        <latestAction>
+          <actionDate>2016-03-10</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>Veterans First Act</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2921</number>
+        <latestAction>
+          <actionDate>2016-05-16</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 467.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>Veterans Employment, Education, and Healthcare Improvement Act</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3016</number>
+        <latestAction>
+          <actionDate>2016-02-10</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>SERVICE Act</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>6062</number>
+        <latestAction>
+          <actionDate>2016-10-19</actionDate>
+          <text>Referred to the Subcommittee on Military Personnel.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-05-21</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2015-06-05</actionDate>
+        <committee>
+          <systemCode>hsvr10</systemCode>
+          <name>Economic Opportunity Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-05-21</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>ACES Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Military Spouses Achieving College Education for Survivors Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend section 701 of the Veterans Access, Choice, and Accountability Act of 2014 to clarify the period of eligibility during which certain spouses are entitled to assistance under the Marine Gunnery Sergeant John David Fry Scholarship.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>ACES Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Student aid and college costs</name>
+          </item>
+          <item>
+            <name>Veterans' education, employment, rehabilitation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>E.</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2068</lisID>
+          <bioguideId>R000589</bioguideId>
+          <gpoId>8193</gpoId>
+        </identifiers>
+        <bioguideId>R000589</bioguideId>
+        <party>R</party>
+        <district>2</district>
+        <state>VA</state>
+        <fullName>Rep. Rigell, E. Scott [R-VA-2]</fullName>
+        <lastName>Rigell</lastName>
+        <middleName>Scott</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Dina</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1940</lisID>
+          <bioguideId>T000468</bioguideId>
+          <gpoId>7493</gpoId>
+        </identifiers>
+        <bioguideId>T000468</bioguideId>
+        <party>D</party>
+        <district>1</district>
+        <state>NV</state>
+        <fullName>Rep. Titus, Dina [D-NV-1]</fullName>
+        <lastName>Titus</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Madeleine</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1723</lisID>
+          <gpoId>7911</gpoId>
+          <bioguideId>B001245</bioguideId>
+        </identifiers>
+        <bioguideId>B001245</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>GU</state>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <lastName>Bordallo</lastName>
+        <middleName>Z.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Daniel</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000563</bioguideId>
+          <gpoId>7923</gpoId>
+          <lisID>1781</lisID>
+        </identifiers>
+        <bioguideId>L000563</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>IL</state>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <lastName>Lipinski</lastName>
+        <middleName>William</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>BOBBY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000515</bioguideId>
+          <gpoId>7921</gpoId>
+          <lisID>1003</lisID>
+        </identifiers>
+        <bioguideId>R000515</bioguideId>
+        <party>D</party>
+        <district>1</district>
+        <state>IL</state>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <lastName>RUSH</lastName>
+        <middleName>L.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Rob</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1753</lisID>
+          <bioguideId>B001250</bioguideId>
+          <gpoId>8189</gpoId>
+        </identifiers>
+        <bioguideId>B001250</bioguideId>
+        <party>R</party>
+        <district>1</district>
+        <state>UT</state>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <lastName>Bishop</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Brad</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2257</lisID>
+          <bioguideId>A000373</bioguideId>
+        </identifiers>
+        <bioguideId>A000373</bioguideId>
+        <party>D</party>
+        <district>2</district>
+        <state>NE</state>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <lastName>Ashford</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Ruben</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000574</bioguideId>
+          <gpoId />
+          <lisID>2226</lisID>
+        </identifiers>
+        <bioguideId>G000574</bioguideId>
+        <party>D</party>
+        <district>7</district>
+        <state>AZ</state>
+        <fullName>Rep. Gallego, Ruben [D-AZ-7]</fullName>
+        <lastName>Gallego</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Paul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001094</bioguideId>
+          <gpoId />
+          <lisID>2103</lisID>
+        </identifiers>
+        <bioguideId>C001094</bioguideId>
+        <party>R</party>
+        <district>8</district>
+        <state>CA</state>
+        <fullName>Rep. Cook, Paul [R-CA-8]</fullName>
+        <lastName>Cook</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2240</lisID>
+          <gpoId />
+          <bioguideId>T000473</bioguideId>
+        </identifiers>
+        <bioguideId>T000473</bioguideId>
+        <party>D</party>
+        <district>1</district>
+        <state>HI</state>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <lastName>Takai</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Ryan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>Z000018</bioguideId>
+          <gpoId />
+          <lisID>2254</lisID>
+        </identifiers>
+        <bioguideId>Z000018</bioguideId>
+        <party>R</party>
+        <district>0</district>
+        <state>MT</state>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <lastName>Zinke</lastName>
+        <middleName>K.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>DANNY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1477</lisID>
+          <gpoId>7927</gpoId>
+          <bioguideId>D000096</bioguideId>
+        </identifiers>
+        <bioguideId>D000096</bioguideId>
+        <party>D</party>
+        <district>7</district>
+        <state>IL</state>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <lastName>DAVIS</lastName>
+        <middleName>K.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Jim</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1774</lisID>
+          <bioguideId>C001059</bioguideId>
+          <gpoId>7825</gpoId>
+        </identifiers>
+        <bioguideId>C001059</bioguideId>
+        <party>D</party>
+        <district>16</district>
+        <state>CA</state>
+        <fullName>Rep. Costa, Jim [D-CA-16]</fullName>
+        <lastName>Costa</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Timothy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1856</lisID>
+          <bioguideId>W000799</bioguideId>
+          <gpoId>8001</gpoId>
+        </identifiers>
+        <bioguideId>W000799</bioguideId>
+        <party>D</party>
+        <district>1</district>
+        <state>MN</state>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <lastName>Walz</lastName>
+        <middleName>J.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+          <lisID>1973</lisID>
+        </identifiers>
+        <bioguideId>G000559</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>CA</state>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <lastName>Garamendi</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1668</lisID>
+          <gpoId>8140</gpoId>
+          <bioguideId>L000559</bioguideId>
+        </identifiers>
+        <bioguideId>L000559</bioguideId>
+        <party>D</party>
+        <district>2</district>
+        <state>RI</state>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <lastName>LANGEVIN</lastName>
+        <middleName>R.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>RON</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8216</gpoId>
+          <lisID>1498</lisID>
+          <bioguideId>K000188</bioguideId>
+        </identifiers>
+        <bioguideId>K000188</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>WI</state>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <lastName>KIND</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Louie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000552</bioguideId>
+          <gpoId>8157</gpoId>
+          <lisID>1801</lisID>
+        </identifiers>
+        <bioguideId>G000552</bioguideId>
+        <party>R</party>
+        <district>1</district>
+        <state>TX</state>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <lastName>Gohmert</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>Bruce</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2224</lisID>
+          <gpoId />
+          <bioguideId>W000821</bioguideId>
+        </identifiers>
+        <bioguideId>W000821</bioguideId>
+        <party>R</party>
+        <district>4</district>
+        <state>AR</state>
+        <fullName>Rep. Westerman, Bruce [R-AR-4]</fullName>
+        <lastName>Westerman</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-21</sponsorshipDate>
+        <firstName>ZOE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000397</bioguideId>
+          <gpoId>7821</gpoId>
+          <lisID>701</lisID>
+        </identifiers>
+        <bioguideId>L000397</bioguideId>
+        <party>D</party>
+        <district>19</district>
+        <state>CA</state>
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <lastName>LOFGREN</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-22</sponsorshipDate>
+        <firstName>Julia</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001285</bioguideId>
+          <gpoId />
+          <lisID>2106</lisID>
+        </identifiers>
+        <bioguideId>B001285</bioguideId>
+        <party>D</party>
+        <district>26</district>
+        <state>CA</state>
+        <fullName>Rep. Brownley, Julia [D-CA-26]</fullName>
+        <lastName>Brownley</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-22</sponsorshipDate>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1999</lisID>
+          <bioguideId>C001083</bioguideId>
+          <gpoId>7872</gpoId>
+        </identifiers>
+        <bioguideId>C001083</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>DE</state>
+        <fullName>Rep. Carney, John C., Jr. [D-DE-At Large]</fullName>
+        <lastName>Carney</lastName>
+        <middleName>C.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-03</sponsorshipDate>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2110</lisID>
+          <gpoId />
+          <bioguideId>T000472</bioguideId>
+        </identifiers>
+        <bioguideId>T000472</bioguideId>
+        <party>D</party>
+        <district>41</district>
+        <state>CA</state>
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <lastName>Takano</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-16</sponsorshipDate>
+        <firstName>Robert</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1886</lisID>
+          <gpoId>8192</gpoId>
+          <bioguideId>W000804</bioguideId>
+        </identifiers>
+        <bioguideId>W000804</bioguideId>
+        <party>R</party>
+        <district>1</district>
+        <state>VA</state>
+        <fullName>Rep. Wittman, Robert J. [R-VA-1]</fullName>
+        <lastName>Wittman</lastName>
+        <middleName>J.</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2243</lisID>
+          <bioguideId>B001295</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>B001295</bioguideId>
+        <party>R</party>
+        <district>12</district>
+        <state>IL</state>
+        <fullName>Rep. Bost, Mike [R-IL-12]</fullName>
+        <lastName>Bost</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2531</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-05-21</actionDate>
+          <lastSummaryUpdateDate>2015-06-09T17:36:46Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-05-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Military Spouses Achieving College Education for Survivors Act of 2015 or ACES Act of 2015</strong></p> <p>This bill amends the Veterans Access, Choice, and Accountability Act of 2014 to deem any member of the Armed Forces who died between September 11, 2001, and December 31, 2005, to have died on January 1, 2006, in order to make that member's surviving spouse eligible for the Marine Gunnery Sergeant John David Fry scholarship. (Surviving spouses of service members who die in the line of duty after September 11, 2001, are eligible for such assistance until the earlier of the date they remarry or the date that is 15 years after the military spouse's death.) </p> <p> A surviving spouse of a member of the Armed Forces who died between September 11, 2001, and December 31, 2005, who elected before enactment of this Act to receive educational benefits under the Survivors and Dependents Educational Assistance program or the Marine Gunnery Sergeant John David Frye program may revoke such choice. (Such an election is currently irrevocable.)</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. DUCKWORTH:H.R. 2531.Congress has the power to enact this legislation pursuantto the following:The Constitutional authority to enact this legislation canbe found in:Necessary and Proper Clause (Art. 1 sec. 8 cl. 18)[Page H3563]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>ACES Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-06-05</actionDate>
+      <text>Referred to the Subcommittee on Economic Opportunity.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:01:52Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Duckworth, Tammy [D-IL-8]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>D000622</bioguideId>
+        <district>8</district>
+        <middleName />
+        <state>IL</state>
+        <firstName>Tammy</firstName>
+        <lastName>Duckworth</lastName>
+        <identifiers>
+          <lisID>2123</lisID>
+          <gpoId />
+          <bioguideId>D000622</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

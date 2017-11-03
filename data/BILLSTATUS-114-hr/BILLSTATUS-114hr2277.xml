@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-06-01</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-12</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-05-12</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-05-12</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:36Z</updateDate>
+    <introducedDate>2015-05-12</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-13T08:46:05Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Ed</firstName>
+        <lastName>Perlmutter</lastName>
+        <state>CO</state>
+        <bioguideId>P000593</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1835</lisID>
+          <gpoId>7865</gpoId>
+          <bioguideId>P000593</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Perlmutter, Ed [D-CO-7]</fullName>
+        <district>7</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Password Protection Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit employers from compelling or coercing any person to authorize access to a protected computer, and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Password Protection Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>Peter</firstName>
+        <district>0</district>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Welch</lastName>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <bioguideId>W000800</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>VT</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>BOBBY</firstName>
+        <district>1</district>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>RUSH</lastName>
+        <identifiers>
+          <lisID>1003</lisID>
+          <bioguideId>R000515</bioguideId>
+          <gpoId>7921</gpoId>
+        </identifiers>
+        <bioguideId>R000515</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <state>IL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>Raul</firstName>
+        <district>3</district>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Grijalva</lastName>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>CHARLES</firstName>
+        <district>13</district>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>RANGEL</lastName>
+        <identifiers>
+          <lisID>944</lisID>
+          <gpoId>8076</gpoId>
+          <bioguideId>R000053</bioguideId>
+        </identifiers>
+        <bioguideId>R000053</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>Paul</firstName>
+        <district>20</district>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Tonko</lastName>
+        <identifiers>
+          <bioguideId>T000469</bioguideId>
+          <gpoId>8082</gpoId>
+          <lisID>1942</lisID>
+        </identifiers>
+        <bioguideId>T000469</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>LOIS</firstName>
+        <district>24</district>
+        <fullName>Rep. Capps, Lois [D-CA-24]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CAPPS</lastName>
+        <identifiers>
+          <lisID>1471</lisID>
+          <bioguideId>C001036</bioguideId>
+          <gpoId>7828</gpoId>
+        </identifiers>
+        <bioguideId>C001036</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <party>R</party>
+        <firstName>David</firstName>
+        <district>6</district>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Schweikert</lastName>
+        <identifiers>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+          <lisID>1994</lisID>
+        </identifiers>
+        <bioguideId>S001183</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Jackie</firstName>
+        <district>14</district>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Speier</lastName>
+        <identifiers>
+          <lisID>1890</lisID>
+          <gpoId>7817</gpoId>
+          <bioguideId>S001175</bioguideId>
+        </identifiers>
+        <bioguideId>S001175</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <district>9</district>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cohen</lastName>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>John</firstName>
+        <district>3</district>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Garamendi</lastName>
+        <identifiers>
+          <lisID>1973</lisID>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+        </identifiers>
+        <bioguideId>G000559</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Jared</firstName>
+        <district>2</district>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Polis</lastName>
+        <identifiers>
+          <bioguideId>P000598</bioguideId>
+          <gpoId>7860</gpoId>
+          <lisID>1910</lisID>
+        </identifiers>
+        <bioguideId>P000598</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <party>D</party>
+        <firstName>DIANA</firstName>
+        <district>1</district>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DEGETTE</lastName>
+        <identifiers>
+          <bioguideId>D000197</bioguideId>
+          <gpoId>7859</gpoId>
+          <lisID>1479</lisID>
+        </identifiers>
+        <bioguideId>D000197</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-19</sponsorshipDate>
+        <party>D</party>
+        <firstName>JAMES</firstName>
+        <district>5</district>
+        <fullName>Rep. Cooper, Jim [D-TN-5]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>COOPER</lastName>
+        <identifiers>
+          <lisID>231</lisID>
+          <gpoId>8152</gpoId>
+          <bioguideId>C000754</bioguideId>
+        </identifiers>
+        <bioguideId>C000754</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>H.</middleName>
+        <state>TN</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PERLMUTTER:H.R. 2277.Congress has the power to enact this legislation pursuantto the following:Amendment IV[Page H2878]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Computer security and identity theft</name>
+          </item>
+          <item>
+            <name>Employment discrimination and employee rights</name>
+          </item>
+          <item>
+            <name>Right of privacy</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-06-01T13:08:59Z</date>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+              <systemCode>hsju08</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-05-12T16:03:05Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-01</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Password Protection Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-05-12</actionDate>
+          <lastSummaryUpdateDate>2015-05-18T20:04:50Z</lastSummaryUpdateDate>
+          <updateDate>2015-05-12T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Password Protection Act of 2015</b> </p> <p>Amends the federal criminal code to subject to a fine any employer who knowingly and intentionally: </p> <ul> <li>compels or coerces any person to provide the employer with a password or similar information to access a protected computer not owned by such employer; or </li> <li> discharges, disciplines, discriminates, or threatens to take such actions, against any person who fails to authorize access to such computer, has filed a complaint or instituted a proceeding regarding such action, or testified or is about to testify in any such proceeding. </li> </ul> <p>Declares that nothing in this Act shall be construed to limit the authority of a court of competent jurisdiction to grant equitable relief in a civil action, if the court believes that the information sought to be obtained is relevant to protecting the intellectual property, a trade secret, or confidential business information of the party seeking relief.</p> <p>Exempts an employer's actions from such prohibition if: </p> <ul> <li> the employer discharges or disciplines an individual for good cause; </li> <li> the employer complies with federal or state laws or regulations governing brokers, dealers, and investment advisers; </li> <li> a state enacts a law that specifically waives such prohibition with respect to a particular class of state or agency employees and the employer's action relates to an employee in such class; or </li> <li> an executive agency, military department, or other executive branch entity specifically waives the prohibition with respect to a particular class of employees who may have access to classified information.</li> </ul>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2277</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

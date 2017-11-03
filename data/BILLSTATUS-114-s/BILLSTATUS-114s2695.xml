@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Competition and antitrust</name>
+          </item>
+          <item>
+            <name>Contracts and agency</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-03-16</introducedDate>
+    <cboCostEstimates />
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Rand</firstName>
+        <party>R</party>
+        <fullName>Sen. Paul, Rand [R-KY]</fullName>
+        <state>KY</state>
+        <byRequestType />
+        <bioguideId>P000603</bioguideId>
+        <lastName>Paul</lastName>
+        <middleName />
+        <identifiers>
+          <lisID>2082</lisID>
+          <bioguideId>P000603</bioguideId>
+          <gpoId>8308</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills />
+    <updateDate>2017-10-27T18:10:56Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>ssju00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-03-16T19:24:49Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-03-17T05:08:21Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-03-16</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-03-16</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <actionDate>2016-03-16</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Anti-Trust Freedom Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2016-03-16</actionDate>
+          <lastSummaryUpdateDate>2016-03-21T21:30:10Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2016-03-16T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Anti-Trust Freedom Act of 2016</b></p> <p>This bill prohibits the Sherman Act, the Clayton Act, and section 5 of the Federal Trade Commission Act from being construed as prohibiting, banning, or otherwise extending to any voluntary economic coordination, cooperation, agreement, or other association, compact, contract, or covenant entered into by or between any individual or group of individuals.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <laws />
+    <billNumber>2695</billNumber>
+    <cosponsors />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Anti-Trust Freedom Act of 2016</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to permit voluntary economic activity.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Anti-Trust Freedom Act of 2016</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

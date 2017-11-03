@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers>
+      <item>
+        <number>0719</number>
+        <calendar>Senate Calendar of Business</calendar>
+      </item>
+    </calendarNumbers>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Budget deficits and national debt</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2015-01-22</introducedDate>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2016-03-04T22:40:54Z</pubDate>
+        <title>S. 236, Duplication Elimination Act of 2016</title>
+        <url>https://www.cbo.gov/publication/51356</url>
+      </item>
+    </cboCostEstimates>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Joe</firstName>
+        <party>D</party>
+        <fullName>Sen. Manchin, Joe, III [D-WV]</fullName>
+        <state>WV</state>
+        <byRequestType />
+        <bioguideId>M001183</bioguideId>
+        <lastName>Manchin</lastName>
+        <middleName />
+        <identifiers>
+          <lisID>1983</lisID>
+          <bioguideId>M001183</bioguideId>
+          <gpoId>8256</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <number>484</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Referred to House Rules</text>
+          <actionDate>2015-01-22</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Duplication Elimination Act of 2015</latestTitle>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:07:58Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-12-09T20:51:48Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2016-02-10T15:08:34Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-01-22T19:31:31Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssga00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2015-01-23T07:01:23Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-12-09</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 719.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <actions>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 719.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment in the nature of a substitute. Without written report.</text>
+        <links />
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-02-10</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-01-22</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-01-22</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+        <reportedToSenate>2</reportedToSenate>
+        <orderedReported>1</orderedReported>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+    </actions>
+    <amendments />
+    <title>Duplication Elimination Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-01-22T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2015-01-22</actionDate>
+          <text><![CDATA[<p><b>Duplication Elimination Act of 2015</b></p> <p>This bill requires the President to send Congress a proposed joint resolution and a special message within 90 days of publication of the annual Government Accountability Office (GAO) report on duplicative government programs.</p> <p>The joint resolution: (1) makes legislative changes needed to carry out the recommendations contained in the GAO report and included by the President, and (2) requires savings from the legislative changes to be transferred to the Treasury for deficit reduction. </p> <p>The bill requires the special message to specify:</p> <ul> <li>the GAO recommendations that are excluded from the proposed joint resolution,</li> <li>why the recommendations were excluded, and</li> <li>the GAO recommendations included in the joint resolution.</li> </ul> <p>The bill sets forth expedited procedures for congressional consideration of the joint resolution.</p>]]></text>
+          <lastSummaryUpdateDate>2015-04-10T20:51:03Z</lastSummaryUpdateDate>
+        </item>
+        <item>
+          <name>Reported to Senate with amendment(s)</name>
+          <updateDate>2016-12-09T17:25:05Z</updateDate>
+          <versionCode>01</versionCode>
+          <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+          <actionDate>2016-12-09</actionDate>
+          <text><![CDATA[<p><b>Duplication Elimination Act of</b> <b>2016</b></p> <p>(Sec. 2) This bill requires the President to send Congress a proposed joint resolution and a special message within 180 days of publication of the annual Government Accountability Office (GAO) report on duplicative government programs.</p> <p>The joint resolution must: (1) address the recommendations contained in the GAO report and included by the President, (2) eliminate or consolidate programs identified in the GAO report as duplicative or fragmented, and (3) require savings from legislative changes to be transferred to the Treasury for deficit reduction. </p> <p>Before the proposed joint resolution is transmitted to Congress, the President must consult with: (1) Congress to provide an opportunity for feedback, alternative recommendations, and input regarding which GAO report recommendations should not be addressed by the proposed joint resolution; and (2) the GAO.</p> <p>The bill requires the special message to specify:</p> <ul> <li>the GAO recommendations that are excluded from the proposed joint resolution, </li> <li>why the recommendations were excluded, </li> <li>the GAO recommendations included in the joint resolution, and </li> <li>programs included in the GAO report that should be eliminated or consolidated. </li></ul> <p>The bill sets forth procedures and time periods for congressional introduction, expedited consideration, amendments, and points of order for the joint resolution.</p> <p>The sponsor of the joint resolution must exclude, and it shall be out of order for the Senate or the House of Representatives to consider, provisions that: (1) are unnecessary to eliminate or consolidate programs in GAO-identified actions or areas of duplication, (2) are not germane to the GAO report, or (3) affect direct spending. </p> <p>In the Senate, the joint resolution shall be agreed to only upon an affirmative three-fifths vote.</p> <p>The bill provides procedures for the coordination of consideration between chambers and the consideration of presidential vetoes of such joint resolutions.</p>]]></text>
+          <lastSummaryUpdateDate>2017-02-10T22:50:27Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <laws />
+    <billNumber>236</billNumber>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <firstName>Kelly</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2075</lisID>
+          <gpoId>8315</gpoId>
+          <bioguideId>A000368</bioguideId>
+        </identifiers>
+        <fullName>Sen. Ayotte, Kelly [R-NH]</fullName>
+        <bioguideId>A000368</bioguideId>
+        <lastName>Ayotte</lastName>
+        <party>R</party>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+        <state>NH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-03-09</sponsorshipDate>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2286</lisID>
+          <bioguideId>P000612</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+        <bioguideId>P000612</bioguideId>
+        <lastName>Perdue</lastName>
+        <party>R</party>
+        <middleName>Alfred</middleName>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <firstName>Joni</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2283</lisID>
+          <bioguideId>E000295</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Sen. Ernst, Joni  [R-IA]</fullName>
+        <bioguideId>E000295</bioguideId>
+        <lastName>Ernst</lastName>
+        <party>R</party>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+        <state>IA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <firstName>MARK</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8285</gpoId>
+          <lisID>1647</lisID>
+          <bioguideId>K000360</bioguideId>
+        </identifiers>
+        <fullName>Sen. Kirk, Mark Steven [R-IL]</fullName>
+        <bioguideId>K000360</bioguideId>
+        <lastName>KIRK</lastName>
+        <party>R</party>
+        <middleName>STEVEN</middleName>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Duplication Elimination Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Duplication Elimination Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Pay-As-You-Go Act of 2010 to create an expedited procedure to enact recommendations of the Government Accountability Office for consolidation and elimination to reduce duplication.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Duplication Elimination Act of 2016</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

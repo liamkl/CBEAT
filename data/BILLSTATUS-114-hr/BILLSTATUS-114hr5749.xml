@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-07-27</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionDate>2016-07-13</actionDate>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-07-13</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-07-13</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:46Z</updateDate>
+    <introducedDate>2016-07-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-14T06:10:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Katherine</firstName>
+        <lastName>Clark</lastName>
+        <state>MA</state>
+        <bioguideId>C001101</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2196</lisID>
+          <bioguideId>C001101</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName>M.</middleName>
+        <fullName>Rep. Clark, Katherine M. [D-MA-5]</fullName>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Interstate Sextortion Prevention Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend title 18, United States Code, to create offenses for the interstate coercion of sexual acts, sexual contact, or sexually explicit visual depictions, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Interstate Sextortion Prevention Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Brooks, Susan W. [R-IN-5]</fullName>
+        <district>5</district>
+        <middleName>W.</middleName>
+        <state>IN</state>
+        <firstName>Susan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2129</lisID>
+          <bioguideId>B001284</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <bioguideId>B001284</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Brooks</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Costello, Ryan A. [R-PA-6]</fullName>
+        <district>6</district>
+        <middleName>A.</middleName>
+        <state>PA</state>
+        <firstName>Ryan</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2266</lisID>
+          <bioguideId>C001106</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>C001106</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Costello</lastName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. CLARK of Massachusetts:H.R. 5749.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H4926]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Assault and harassment offenses</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Crime victims</name>
+          </item>
+          <item>
+            <name>Crimes against children</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Criminal procedure and sentencing</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Pornography</name>
+          </item>
+          <item>
+            <name>Sex offenses</name>
+          </item>
+          <item>
+            <name>U.S. Sentencing Commission</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-07-27T20:45:56Z</date>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+              <systemCode>hsju08</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-13T14:02:15Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-27</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Interstate Sextortion Prevention Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-07-13</actionDate>
+          <lastSummaryUpdateDate>2017-02-16T16:21:32Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-07-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Interstate Sextortion Prevention Act</strong></p> <p>This bill amends the federal criminal code to establish separate criminal offenses with respect to: (1) interstate coercion of sexual acts, of sexual contact, or of the production of sexually explicit visual depictions; and (2) interstate coercion or extortion&nbsp;involving threats to publish&nbsp;sexually explicit visual depictions.</p> <p>The bill establishes increased penalties for such offenses that: (1) involve minors, (2) are committed by repeat offenders, or (2) result in death or serious bodily injury.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5749</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

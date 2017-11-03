@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-06-19T09:13:36Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-06-18T13:00:51Z</date>
+            </item>
+          </activities>
+          <name>Education and the Workforce Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-11-16T21:20:42Z</date>
+                </item>
+              </activities>
+              <name>Workforce Protections Subcommittee</name>
+              <systemCode>hsed10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsed00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-06-18</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <name>Workforce Protections Subcommittee</name>
+          <systemCode>hsed10</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Workforce Protections.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-18</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-18</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-18</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Fair Access for Moms Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Fair Labor Standards Act of 1938 to expand the number of employers required to provide a reasonable time and place for employees to express milk at the workplace.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Fair Access for Moms Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Labor standards</name>
+          </item>
+          <item>
+            <name>Women's employment</name>
+          </item>
+          <item>
+            <name>Women's health</name>
+          </item>
+          <item>
+            <name>Worker safety and health</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Labor and Employment</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOHN</firstName>
+        <district>13</district>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CONYERS</lastName>
+        <identifiers>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+        </identifiers>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>BETTY</firstName>
+        <district>4</district>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>MCCOLLUM</lastName>
+        <identifiers>
+          <gpoId>8004</gpoId>
+          <lisID>1653</lisID>
+          <bioguideId>M001143</bioguideId>
+        </identifiers>
+        <bioguideId>M001143</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>JAMES</firstName>
+        <district>2</district>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>MCGOVERN</lastName>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <state>MA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Lois</firstName>
+        <district>22</district>
+        <fullName>Rep. Frankel, Lois [D-FL-22]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Frankel</lastName>
+        <identifiers>
+          <bioguideId>F000462</bioguideId>
+          <gpoId />
+          <lisID>2119</lisID>
+        </identifiers>
+        <bioguideId>F000462</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Eric</firstName>
+        <district>15</district>
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Swalwell</lastName>
+        <identifiers>
+          <lisID>2104</lisID>
+          <gpoId />
+          <bioguideId>S001193</bioguideId>
+        </identifiers>
+        <bioguideId>S001193</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>BARBARA</firstName>
+        <district>13</district>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LEE</lastName>
+        <identifiers>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+          <lisID>1501</lisID>
+        </identifiers>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>LUCILLE</firstName>
+        <district>40</district>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>ROYBAL-ALLARD</lastName>
+        <identifiers>
+          <lisID>997</lisID>
+          <bioguideId>R000486</bioguideId>
+          <gpoId>7839</gpoId>
+        </identifiers>
+        <bioguideId>R000486</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Beto</firstName>
+        <district>16</district>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>O'Rourke</lastName>
+        <identifiers>
+          <lisID>2162</lisID>
+          <bioguideId>O000170</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>O000170</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TX</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOSEPH</firstName>
+        <district>14</district>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CROWLEY</lastName>
+        <identifiers>
+          <lisID>1604</lisID>
+          <gpoId>8068</gpoId>
+          <bioguideId>C001038</bioguideId>
+        </identifiers>
+        <bioguideId>C001038</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Matt</firstName>
+        <district>17</district>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+          <lisID>2159</lisID>
+        </identifiers>
+        <bioguideId>C001090</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>GRACE</firstName>
+        <district>32</district>
+        <fullName>Rep. Napolitano, Grace F. [D-CA-32]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NAPOLITANO</lastName>
+        <identifiers>
+          <lisID>1602</lisID>
+          <bioguideId>N000179</bioguideId>
+          <gpoId>7843</gpoId>
+        </identifiers>
+        <bioguideId>N000179</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>F.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>ELEANOR</firstName>
+        <district>0</district>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NORTON</lastName>
+        <identifiers>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+        </identifiers>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>HOLMES</middleName>
+        <state>DC</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <district>2</district>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Kuster</lastName>
+        <identifiers>
+          <lisID>2145</lisID>
+          <gpoId />
+          <bioguideId>K000382</bioguideId>
+        </identifiers>
+        <bioguideId>K000382</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>NH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>ALCEE</firstName>
+        <district>20</district>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>HASTINGS</lastName>
+        <identifiers>
+          <bioguideId>H000324</bioguideId>
+          <gpoId>7895</gpoId>
+          <lisID>511</lisID>
+        </identifiers>
+        <bioguideId>H000324</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <district>1</district>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Kirkpatrick</lastName>
+        <identifiers>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+          <lisID>1907</lisID>
+        </identifiers>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Katherine</firstName>
+        <district>5</district>
+        <fullName>Rep. Clark, Katherine M. [D-MA-5]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Clark</lastName>
+        <identifiers>
+          <bioguideId>C001101</bioguideId>
+          <gpoId />
+          <lisID>2196</lisID>
+        </identifiers>
+        <bioguideId>C001101</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>MA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>Norma</firstName>
+        <district>35</district>
+        <fullName>Rep. Torres, Norma J. [D-CA-35]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Torres</lastName>
+        <identifiers>
+          <lisID>2231</lisID>
+          <bioguideId>T000474</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>T000474</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <party>D</party>
+        <firstName>LINDA</firstName>
+        <district>38</district>
+        <fullName>Rep. Sanchez, Linda T. [D-CA-38]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SANCHEZ</lastName>
+        <identifiers>
+          <gpoId>7844</gpoId>
+          <lisID>1757</lisID>
+          <bioguideId>S001156</bioguideId>
+        </identifiers>
+        <bioguideId>S001156</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>T.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <party>D</party>
+        <firstName>Raul</firstName>
+        <district>3</district>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Grijalva</lastName>
+        <identifiers>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+          <lisID>1708</lisID>
+        </identifiers>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <party>D</party>
+        <firstName>Michelle</firstName>
+        <district>1</district>
+        <fullName>Rep. Lujan Grisham, Michelle [D-NM-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lujan Grisham</lastName>
+        <identifiers>
+          <lisID>2146</lisID>
+          <bioguideId>L000580</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>L000580</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NM</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-13</sponsorshipDate>
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <district>17</district>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>HONDA</lastName>
+        <identifiers>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+          <gpoId>7820</gpoId>
+        </identifiers>
+        <bioguideId>H001034</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <party>D</party>
+        <firstName>Suzanne</firstName>
+        <district>1</district>
+        <fullName>Rep. Bonamici, Suzanne [D-OR-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bonamici</lastName>
+        <identifiers>
+          <bioguideId>B001278</bioguideId>
+          <gpoId>8367</gpoId>
+          <lisID>2092</lisID>
+        </identifiers>
+        <bioguideId>B001278</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>OR</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-07</sponsorshipDate>
+        <party>D</party>
+        <firstName>EARL</firstName>
+        <district>3</district>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BLUMENAUER</lastName>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <bioguideId>B000574</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>OR</state>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2836</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Fair Access for Moms Act</b></p> <p>This bill amends the Fair Labor Standards Act of 1938 to revise maximum hours requirements to subject employers with less than 15 employees (currently, less than 50) to the requirement that they provide a reasonable break time and place for their employees to express breast milk for a nursing child at the work place. (Effectively expands the number of employers subject to the requirement.)</p>]]></text>
+          <lastSummaryUpdateDate>2015-10-14T20:46:25Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-06-18</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-06-18T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. MENG:H.R. 2836.Congress has the power to enact this legislation pursuantto the following:Clause 3, Section 8, Article 1 of the U.S. Constitution.[Page H4543]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Fair Access for Moms Act</title>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Workforce Protections.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:02:27Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Meng, Grace [D-NY-6]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>M001188</bioguideId>
+        <district>6</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Grace</firstName>
+        <lastName>Meng</lastName>
+        <identifiers>
+          <lisID>2148</lisID>
+          <bioguideId>M001188</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

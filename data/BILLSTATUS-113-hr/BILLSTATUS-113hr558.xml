@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2013-02-06</actionDate>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on House Administration.</text>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee>
+          <name>House Administration Committee</name>
+          <systemCode>hsha00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2013-02-06</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2013-02-06</actionDate>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <byRequestType />
+        <district>2</district>
+        <fullName>Rep. King, Peter T. [R-NY-2]</fullName>
+        <lastName>KING</lastName>
+        <middleName>T.</middleName>
+        <state>NY</state>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>K000210</bioguideId>
+          <gpoId>8064</gpoId>
+          <lisID>635</lisID>
+        </identifiers>
+        <firstName>PETER</firstName>
+        <bioguideId>K000210</bioguideId>
+      </item>
+    </sponsors>
+    <congress>113</congress>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. KING of New York:H.R. 558.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1The Congress shall have Power to lay and collect Taxes,Duties, Imposts and Excises, to pay the Debts and provide forthe common Defence and general Welfare of the United States;but all Duties, Imposts and Excises shall be uniformthroughout the United States.[Page H415]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>558</billNumber>
+    <cboCostEstimates />
+    <updateDate>2016-10-25T15:58:41Z</updateDate>
+    <laws />
+    <createDate>2013-02-07T07:00:55Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>House Administration Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-02-06T14:03:25Z</date>
+            </item>
+          </activities>
+          <systemCode>hsha00</systemCode>
+          <type>Standing</type>
+          <subcommittees />
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes />
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>Fallen Heroes Flag Act of 2013 - Allows the Representative of the immediate family of a deceased fire fighter, law enforcement officer, emergency technician, or other rescue worker who died in the line of duty to provide the family, at their request, with a Capitol-flown flag, together with a certificate, signed by the Speaker of the House of Representatives and the Representative providing the flag, which contains an expression of sympathy for the family. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <lastSummaryUpdateDate>2013-02-16T17:32:02Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <actionDate>2013-02-06</actionDate>
+          <updateDate>2013-02-06T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>YOUNG</lastName>
+        <state>AK</state>
+        <party>R</party>
+        <district>0</district>
+        <fullName>Rep. Young, Don [R-AK-At Large]</fullName>
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1256</lisID>
+          <bioguideId>Y000033</bioguideId>
+          <gpoId>7785</gpoId>
+        </identifiers>
+        <bioguideId>Y000033</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>DON</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Reichert</lastName>
+        <state>WA</state>
+        <party>R</party>
+        <district>8</district>
+        <fullName>Rep. Reichert, David G. [R-WA-8]</fullName>
+        <middleName>G.</middleName>
+        <identifiers>
+          <lisID>1810</lisID>
+          <gpoId>8212</gpoId>
+          <bioguideId>R000578</bioguideId>
+        </identifiers>
+        <bioguideId>R000578</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Grimm</lastName>
+        <state>NY</state>
+        <party>R</party>
+        <district>11</district>
+        <fullName>Rep. Grimm, Michael G. [R-NY-11]</fullName>
+        <middleName>G.</middleName>
+        <identifiers>
+          <bioguideId>G000569</bioguideId>
+          <lisID>2041</lisID>
+          <gpoId>8074</gpoId>
+        </identifiers>
+        <bioguideId>G000569</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Michael</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bordallo</lastName>
+        <state>GU</state>
+        <party>D</party>
+        <district>0</district>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <middleName>Z.</middleName>
+        <identifiers>
+          <gpoId>7911</gpoId>
+          <lisID>1723</lisID>
+          <bioguideId>B001245</bioguideId>
+        </identifiers>
+        <bioguideId>B001245</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Madeleine</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LARSON</lastName>
+        <state>CT</state>
+        <party>D</party>
+        <district>1</district>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <middleName>B.</middleName>
+        <identifiers>
+          <lisID>1583</lisID>
+          <bioguideId>L000557</bioguideId>
+          <gpoId>7866</gpoId>
+        </identifiers>
+        <bioguideId>L000557</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Runyan</lastName>
+        <state>NJ</state>
+        <party>R</party>
+        <district>3</district>
+        <fullName>Rep. Runyan, Jon [R-NJ-3]</fullName>
+        <middleName />
+        <identifiers>
+          <bioguideId>R000594</bioguideId>
+          <lisID>2039</lisID>
+          <gpoId>8045</gpoId>
+        </identifiers>
+        <bioguideId>R000594</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Jon</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ruppersberger</lastName>
+        <state>MD</state>
+        <party>D</party>
+        <district>2</district>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <middleName>Dutch</middleName>
+        <identifiers>
+          <bioguideId>R000576</bioguideId>
+          <gpoId>7977</gpoId>
+          <lisID>1728</lisID>
+        </identifiers>
+        <bioguideId>R000576</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>C. A.</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>PASCRELL</lastName>
+        <state>NJ</state>
+        <party>D</party>
+        <district>9</district>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>1510</lisID>
+          <bioguideId>P000096</bioguideId>
+          <gpoId>8050</gpoId>
+        </identifiers>
+        <bioguideId>P000096</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>WILLIAM</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>COBLE</lastName>
+        <state>NC</state>
+        <party>R</party>
+        <district>6</district>
+        <fullName>Rep. Coble, Howard [R-NC-6]</fullName>
+        <middleName />
+        <identifiers>
+          <lisID>211</lisID>
+          <gpoId>8029</gpoId>
+          <bioguideId>C000556</bioguideId>
+        </identifiers>
+        <bioguideId>C000556</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>HOWARD</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-06</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>JONES</lastName>
+        <state>NC</state>
+        <party>R</party>
+        <district>3</district>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <middleName>B.</middleName>
+        <identifiers>
+          <bioguideId>J000255</bioguideId>
+          <lisID>612</lisID>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <bioguideId>J000255</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>WALTER</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ANDREWS</lastName>
+        <state>NJ</state>
+        <party>D</party>
+        <district>1</district>
+        <fullName>Rep. Andrews, Robert E. [D-NJ-1]</fullName>
+        <middleName>E.</middleName>
+        <identifiers>
+          <bioguideId>A000210</bioguideId>
+          <lisID>21</lisID>
+          <gpoId>8043</gpoId>
+        </identifiers>
+        <bioguideId>A000210</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>ROBERT</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>PETRI</lastName>
+        <state>WI</state>
+        <party>R</party>
+        <district>6</district>
+        <fullName>Rep. Petri, Thomas E. [R-WI-6]</fullName>
+        <middleName />
+        <identifiers>
+          <lisID>912</lisID>
+          <bioguideId>P000265</bioguideId>
+          <gpoId>8219</gpoId>
+        </identifiers>
+        <bioguideId>P000265</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>TOM</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <state>PA</state>
+        <party>D</party>
+        <district>17</district>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <middleName />
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+          <lisID>2159</lisID>
+        </identifiers>
+        <bioguideId>C001090</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Matt</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Miller</lastName>
+        <state>MI</state>
+        <party>R</party>
+        <district>10</district>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <middleName>S.</middleName>
+        <identifiers>
+          <gpoId>8589</gpoId>
+          <lisID>1731</lisID>
+          <bioguideId>M001150</bioguideId>
+        </identifiers>
+        <bioguideId>M001150</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Candice</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Johnson</lastName>
+        <state>OH</state>
+        <party>R</party>
+        <district>6</district>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <middleName />
+        <identifiers>
+          <gpoId>8096</gpoId>
+          <lisID>2046</lisID>
+          <bioguideId>J000292</bioguideId>
+        </identifiers>
+        <bioguideId>J000292</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Collins</lastName>
+        <state>NY</state>
+        <party>R</party>
+        <district>27</district>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <middleName />
+        <identifiers>
+          <gpoId />
+          <lisID>2151</lisID>
+          <bioguideId>C001092</bioguideId>
+        </identifiers>
+        <bioguideId>C001092</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Chris</firstName>
+      </item>
+      <item>
+        <sponsorshipDate>2013-02-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MCINTYRE</lastName>
+        <state>NC</state>
+        <party>D</party>
+        <district>7</district>
+        <fullName>Rep. McIntyre, Mike [D-NC-7]</fullName>
+        <middleName />
+        <identifiers>
+          <bioguideId>M000485</bioguideId>
+          <lisID>1505</lisID>
+          <gpoId>8030</gpoId>
+        </identifiers>
+        <bioguideId>M000485</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>MIKE</firstName>
+      </item>
+    </cosponsors>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>First responders and emergency personnel</name>
+          </item>
+          <item>
+            <name>Law enforcement officers</name>
+          </item>
+          <item>
+            <name>National symbols</name>
+          </item>
+          <item>
+            <name>U.S. Capitol</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Fallen Heroes Flag Act of 2013</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To provide Capitol-flown flags to the immediate family of fire fighters, law enforcement officers, emergency medical technicians, and other rescue workers who are killed in the line of duty.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Fallen Heroes Flag Act of 2013</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes />
+    <calendarNumbers />
+    <title>Fallen Heroes Flag Act of 2013</title>
+    <billType>HR</billType>
+    <introducedDate>2013-02-06</introducedDate>
+    <amendments />
+    <latestAction>
+      <actionDate>2013-02-06</actionDate>
+      <text>Referred to the House Committee on House Administration.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

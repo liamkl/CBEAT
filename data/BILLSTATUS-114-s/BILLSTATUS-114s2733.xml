@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-03-18T05:09:39Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-03-17T20:03:20Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees />
+          <systemCode>ssju00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>Innovation Act</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>9</number>
+        <latestAction>
+          <actionDate>2016-02-25</actionDate>
+          <text>Committee on Small Business and Entrepreneurship. Hearings held. Hearings printed: S.Hrg. 114-603.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-03-17</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2016-03-17</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-17</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <title>Venue Equity and Non-Uniformity Elimination Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to ensure that venue in patents cases is fair and proper, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Venue Equity and Non-Uniformity Elimination Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Intellectual property</name>
+          </item>
+          <item>
+            <name>Jurisdiction and venue</name>
+          </item>
+          <item>
+            <name>Manufacturing</name>
+          </item>
+          <item>
+            <name>Research and development</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <firstName>Cory</firstName>
+        <lastName>Gardner</lastName>
+        <state>CO</state>
+        <bioguideId>G000562</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1998</lisID>
+          <bioguideId>G000562</bioguideId>
+          <gpoId>7862</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Gardner, Cory [R-CO]</fullName>
+      </item>
+      <item>
+        <firstName>Mike</firstName>
+        <lastName>Lee</lastName>
+        <state>UT</state>
+        <bioguideId>L000577</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2080</lisID>
+          <gpoId>8303</gpoId>
+          <bioguideId>L000577</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Lee, Mike [R-UT]</fullName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2733</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-03-17T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2016-03-17</actionDate>
+          <text><![CDATA[<p><b>Venue Equity and Non-Uniformity Elimination Act of 2016</b></p> <p>This bill amends the federal judicial code to allow patent actions to be brought only in judicial districts where:</p> <ul> <li>the defendant has its principal place of business or is incorporated; </li> <li>the defendant has committed an act of infringement of a patent in suit and has a regular and established physical facility that gives rise to the act of infringement; </li> <li>the defendant has agreed or consented to be sued; </li> <li>an inventor named on the patent conducted research or development that led to the application for the patent in suit; or</li> <li>a party has a regular and established physical facility and has managed significant research and development for the invention claimed in the patent, has manufactured a tangible product alleged to embody that invention, or has implemented a manufacturing process for a tangible good in which the process is alleged to embody the invention. </li> </ul> <p> If a foreign defendant does not have a principal place of business, incorporation, or a physical facility in the United States, that foreign defendant may be sued in any judicial district, and joinder of such a defendant shall be disregarded in determining where the action may be brought with respect to other defendants.</p> <p>These provisions replace current patent action venue laws that allow patent actions to be brought in the judicial district where the defendant resides or where the defendant has committed acts of infringement and has a regular and established place of business.</p> <p>A teleworking employee's dwelling or residence shall not constitute a regular or established physical facility of a defendant. </p>]]></text>
+          <lastSummaryUpdateDate>2016-04-15T21:58:26Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Venue Equity and Non-Uniformity Elimination Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-03-17</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:10:58Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Flake, Jeff [R-AZ]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>F000444</bioguideId>
+        <middleName />
+        <state>AZ</state>
+        <firstName>JEFF</firstName>
+        <lastName>FLAKE</lastName>
+        <identifiers>
+          <gpoId>7803</gpoId>
+          <lisID>1633</lisID>
+          <bioguideId>F000444</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

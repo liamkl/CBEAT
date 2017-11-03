@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-24</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-24</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-06-24</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:34Z</updateDate>
+    <introducedDate>2016-06-24</introducedDate>
+    <recordedVotes />
+    <createDate>2016-06-25T04:53:53Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Louie</firstName>
+        <lastName>Gohmert</lastName>
+        <state>TX</state>
+        <bioguideId>G000552</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>G000552</bioguideId>
+          <gpoId>8157</gpoId>
+          <lisID>1801</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>CLINTON Act of 2016</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Contributions Legally Interdicted from Noncitizens To Our Nonprofits Act of 2016</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend the Internal Revenue Code of 1986 to prohibit certain charitable organizations from accepting contributions from persons connected to foreign governments.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>CLINTON Act of 2016</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-06-24</sponsorshipDate>
+        <district>22</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Olson, Pete [R-TX-22]</fullName>
+        <firstName>Pete</firstName>
+        <middleName />
+        <lastName>Olson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1955</lisID>
+          <bioguideId>O000168</bioguideId>
+          <gpoId>8178</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>O000168</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Pages H4180-H4181]From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GOHMERT:H.R. 5581.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the powers conferred bythe United States Constitution upon Congress by Article I,Section 8, Clause[[Page H4181]]1 which provides that ``The Congress shall have the Power tolay and collect Taxes, Duties, Imposts and Excises, to paythe Debt and provide for the common Defense and generalWelfare of the United States; but all Duties, Imposts andExcises shall be uniform throughout the United States.''</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Charitable contributions</name>
+          </item>
+          <item>
+            <name>Diplomacy, foreign officials, Americans abroad</name>
+          </item>
+          <item>
+            <name>Federal officials</name>
+          </item>
+          <item>
+            <name>Government ethics and transparency, public corruption</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+          <item>
+            <name>Presidents and presidential powers, Vice Presidents</name>
+          </item>
+          <item>
+            <name>Social work, volunteer service, charitable organizations</name>
+          </item>
+          <item>
+            <name>Tax-exempt organizations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-06-24T13:00:50Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-06-24</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>CLINTON Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Contributions Legally Interdicted from Noncitizens To Our Nonprofits Act of 2016 or the CLINTON Act of 2016 </b></p> <p>This bill amends the Internal Revenue Code to prohibit a federal official organization from being treated as a tax-exempt organization under section 501(c)(3) for any period after the date on which the organization knowingly or willingly accepts or solicits any contribution from any person connected to a foreign government. </p> <p>A tax-exempt organization is a &quot;federal official organization&quot; if one or more current or former specified federal officials established, control, or actively participate in the management of the organization. </p> <p>If the organization accepts a contribution from any person and learns that that the person is connected to a foreign government after the acceptance, it will not be treated as knowingly or willingly accepting the contribution if the contribution is returned within 30 days of learning of the status of the person. </p> <p>The bill imposes a tax on any federal official organization that knowingly or willingly accepts any contribution from any person connected to any foreign government in an amount equal to the amount of the contribution. </p>]]></text>
+          <lastSummaryUpdateDate>2016-11-04T14:07:22Z</lastSummaryUpdateDate>
+          <updateDate>2016-06-24T04:00:00Z</updateDate>
+          <actionDate>2016-06-24</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5581</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-07-25</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2016-07-13</actionDate>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:05:47Z</updateDate>
+    <introducedDate>2016-07-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-14T06:10:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Ryan</firstName>
+        <lastName>Zinke</lastName>
+        <state>MT</state>
+        <bioguideId>Z000018</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>Z000018</bioguideId>
+          <gpoId />
+          <lisID>2254</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>K.</middleName>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <district>0</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Alex Diekmann Peak Designation Act of 2016</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To designate Alex Diekmann Peak in Montana.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Alex Diekmann Peak Designation Act of 2016</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ZINKE:H.R. 5778.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article 1, Section 8, Clause 1 of the UnitedStates Constitution.____________________[Page H4927]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Montana</name>
+          </item>
+          <item>
+            <name>Wilderness and natural areas, wildlife refuges, wild rivers, habitats</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-07-25T16:06:27Z</date>
+                </item>
+              </activities>
+              <name>Federal Lands Subcommittee</name>
+              <systemCode>hsii10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsii00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Natural Resources Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-13T14:04:00Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-25</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Alex Diekmann Peak Designation Act of 2016</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3192</number>
+        <latestAction>
+          <actionDate>2016-09-22</actionDate>
+          <text>Committee on Energy and Natural Resources. Hearings held.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Alex Diekmann Peak Designation Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Alex Diekmann Peak Designation Act of 2016</b></p> <p>This bill designates as the Alex Diekmann Peak the 9,765-foot peak located 2.2 miles west-northwest of Finger Mountain on the western boundary of the Lee Metcalf Wilderness in Montana. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-07-13T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-07-27T20:33:30Z</lastSummaryUpdateDate>
+          <actionDate>2016-07-13</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5778</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

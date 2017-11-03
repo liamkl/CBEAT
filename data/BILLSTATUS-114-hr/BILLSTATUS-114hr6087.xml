@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Emergency Management</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-09-20</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Martha</firstName>
+        <party>R</party>
+        <fullName>Rep. McSally, Martha [R-AZ-2]</fullName>
+        <state>AZ</state>
+        <byRequestType />
+        <bioguideId>M001197</bioguideId>
+        <lastName>McSally</lastName>
+        <middleName />
+        <district>2</district>
+        <identifiers>
+          <bioguideId>M001197</bioguideId>
+          <gpoId />
+          <lisID>2225</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills />
+    <updateDate>2017-10-27T18:06:07Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <activities>
+                <item>
+                  <date>2016-09-30T16:49:53Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-09-20T16:03:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hshm08</systemCode>
+              <activities>
+                <item>
+                  <date>2016-09-28T16:25:53Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Cybersecurity, Infrastructure Protection, and Security Technologies Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hshm00</systemCode>
+          <name>Homeland Security Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-09-20T16:03:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-09-21T05:27:56Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-09-30</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <actions>
+      <item>
+        <actionDate>2016-09-30</actionDate>
+        <committee>
+          <systemCode>hsju01</systemCode>
+          <name>Immigration and Border Security Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-09-28</actionDate>
+        <committee>
+          <systemCode>hshm08</systemCode>
+          <name>Cybersecurity, Infrastructure Protection, and Security Technologies Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Cybersecurity, Infrastructure Protection, and Security Technologies.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Judiciary</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <committee>
+          <systemCode>hshm00</systemCode>
+          <name>Homeland Security Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Homeland Security</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Homeland Security, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <amendments />
+    <title>IDENT Fingerprint Digitization Completion Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>IDENT Fingerprint Digitization Completion Act of 2016</strong></p> <p>This bill requires U.S. Immigration and Customs Enforcement, within 90 days after this bill's enactment, to complete the digitization of all remaining paper-based fingerprint records for inclusion in the Automated Biometric Identification System (IDENT) of the Department of Homeland Security.</p>]]></text>
+          <lastSummaryUpdateDate>2016-11-18T15:49:32Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-09-20</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-20T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>6087</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. McSALLY:H.R. 6087.Congress has the power to enact this legislation pursuantto the following:Article 1, Section. 8, Clause 1--The Congress shall havePower To lay and collect Taxes, Duties, Imposts and Excises,to pay the Debts and provide for the common Defence andgeneral Welfare of the United States; but all Duties, Impostsand Excises shall be uniform throughout the United States;Article 1, Section, Clause 18--To make all Laws which shallbe necessary and proper for carrying into Execution theforegoing Powers, and all other Powers vested by thisConstitution in the Government of the United States, or inany Department or Officer thereof.[Page H5712]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>10</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <firstName>Michael</firstName>
+        <middleName>T.</middleName>
+        <lastName>McCaul</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1804</lisID>
+          <gpoId>8166</gpoId>
+          <bioguideId>M001157</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>M001157</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>7</district>
+        <state>NC</state>
+        <party>R</party>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <firstName>David</firstName>
+        <middleName />
+        <lastName>Rouzer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2256</lisID>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>R000603</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>1</district>
+        <state>CA</state>
+        <party>R</party>
+        <fullName>Rep. LaMalfa, Doug [R-CA-1]</fullName>
+        <firstName>Doug</firstName>
+        <middleName />
+        <lastName>LaMalfa</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId />
+          <lisID>2100</lisID>
+          <bioguideId>L000578</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>L000578</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>0</district>
+        <state>MT</state>
+        <party>R</party>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <firstName>Ryan</firstName>
+        <middleName>K.</middleName>
+        <lastName>Zinke</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>Z000018</bioguideId>
+          <gpoId />
+          <lisID>2254</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>Z000018</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>5</district>
+        <state>CO</state>
+        <party>R</party>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <firstName>Doug</firstName>
+        <middleName />
+        <lastName>Lamborn</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1834</lisID>
+          <bioguideId>L000564</bioguideId>
+          <gpoId>7863</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>L000564</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>8</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <firstName>Trent</firstName>
+        <middleName />
+        <lastName>Franks</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>F000448</bioguideId>
+          <gpoId>7799</gpoId>
+          <lisID>1707</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000448</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>3</district>
+        <state>AL</state>
+        <party>R</party>
+        <fullName>Rep. Rogers, Mike D. [R-AL-3]</fullName>
+        <firstName>Mike</firstName>
+        <middleName />
+        <lastName>Rogers</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7788</gpoId>
+          <lisID>1704</lisID>
+          <bioguideId>R000575</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>R000575</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>11</district>
+        <state>NY</state>
+        <party>R</party>
+        <fullName>Rep. Donovan, Daniel M., Jr. [R-NY-11]</fullName>
+        <firstName>Daniel</firstName>
+        <middleName>M.</middleName>
+        <lastName>Donovan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2293</lisID>
+          <bioguideId>D000625</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>D000625</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>2</district>
+        <state>NY</state>
+        <party>R</party>
+        <fullName>Rep. King, Peter T. [R-NY-2]</fullName>
+        <firstName>PETER</firstName>
+        <middleName>T.</middleName>
+        <lastName>KING</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>635</lisID>
+          <bioguideId>K000210</bioguideId>
+          <gpoId>8064</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>K000210</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>19</district>
+        <state>NY</state>
+        <party>R</party>
+        <fullName>Rep. Gibson, Christopher P. [R-NY-19]</fullName>
+        <firstName>Christopher</firstName>
+        <middleName>P.</middleName>
+        <lastName>Gibson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>8081</gpoId>
+          <lisID>2043</lisID>
+          <bioguideId>G000564</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>G000564</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>4</district>
+        <state>AR</state>
+        <party>R</party>
+        <fullName>Rep. Westerman, Bruce [R-AR-4]</fullName>
+        <firstName>Bruce</firstName>
+        <middleName />
+        <lastName>Westerman</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>W000821</bioguideId>
+          <gpoId />
+          <lisID>2224</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>W000821</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>7</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <firstName>JOHN</firstName>
+        <middleName>ABNEY</middleName>
+        <lastName>CULBERSON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1670</lisID>
+          <gpoId>8163</gpoId>
+          <bioguideId>C001048</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001048</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>3</district>
+        <state>IA</state>
+        <party>R</party>
+        <fullName>Rep. Young, David [R-IA-3]</fullName>
+        <firstName>David</firstName>
+        <middleName />
+        <lastName>Young</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>Y000066</bioguideId>
+          <gpoId />
+          <lisID>2242</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>Y000066</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <district>8</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Brady, Kevin [R-TX-8]</fullName>
+        <firstName>KEVIN</firstName>
+        <middleName />
+        <lastName>BRADY</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B000755</bioguideId>
+          <gpoId>8164</gpoId>
+          <lisID>1468</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>B000755</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <district>5</district>
+        <state>PA</state>
+        <party>R</party>
+        <fullName>Rep. Thompson, Glenn [R-PA-5]</fullName>
+        <firstName>Glenn</firstName>
+        <middleName />
+        <lastName>Thompson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1952</lisID>
+          <gpoId>8123</gpoId>
+          <bioguideId>T000467</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000467</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <district>3</district>
+        <state>NC</state>
+        <party>R</party>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <firstName>WALTER</firstName>
+        <middleName>B.</middleName>
+        <lastName>JONES</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>612</lisID>
+          <gpoId>8026</gpoId>
+          <bioguideId>J000255</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>J000255</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <district>3</district>
+        <state>SC</state>
+        <party>R</party>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <firstName>Jeff</firstName>
+        <middleName />
+        <lastName>Duncan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+          <gpoId>8143</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000615</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <district>1</district>
+        <state>MN</state>
+        <party>D</party>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <firstName>Timothy</firstName>
+        <middleName>J.</middleName>
+        <lastName>Walz</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1856</lisID>
+          <gpoId>8001</gpoId>
+          <bioguideId>W000799</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>W000799</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <district>26</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <firstName>Michael</firstName>
+        <middleName>C.</middleName>
+        <lastName>Burgess</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1751</lisID>
+          <bioguideId>B001248</bioguideId>
+          <gpoId>8182</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001248</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>2</district>
+        <state>NE</state>
+        <party>D</party>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <firstName>Brad</firstName>
+        <middleName />
+        <lastName>Ashford</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2257</lisID>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>A000373</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>5</district>
+        <state>OH</state>
+        <party>R</party>
+        <fullName>Rep. Latta, Robert E. [R-OH-5]</fullName>
+        <firstName>Robert</firstName>
+        <middleName>E.</middleName>
+        <lastName>Latta</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1885</lisID>
+          <bioguideId>L000566</bioguideId>
+          <gpoId>8095</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000566</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>16</district>
+        <state>FL</state>
+        <party>R</party>
+        <fullName>Rep. Buchanan, Vern [R-FL-16]</fullName>
+        <firstName>Vern</firstName>
+        <middleName />
+        <lastName>Buchanan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B001260</bioguideId>
+          <gpoId>7885</gpoId>
+          <lisID>1840</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001260</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <district>7</district>
+        <state>NJ</state>
+        <party>R</party>
+        <fullName>Rep. Lance, Leonard [R-NJ-7]</fullName>
+        <firstName>Leonard</firstName>
+        <middleName />
+        <lastName>Lance</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1936</lisID>
+          <bioguideId>L000567</bioguideId>
+          <gpoId>8049</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000567</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <district>6</district>
+        <state>FL</state>
+        <party>R</party>
+        <fullName>Rep. DeSantis, Ron [R-FL-6]</fullName>
+        <firstName>Ron</firstName>
+        <middleName />
+        <lastName>DeSantis</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2116</lisID>
+          <gpoId />
+          <bioguideId>D000621</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000621</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <district>2</district>
+        <state>OH</state>
+        <party>R</party>
+        <fullName>Rep. Wenstrup, Brad R. [R-OH-2]</fullName>
+        <firstName>Brad</firstName>
+        <middleName>R.</middleName>
+        <lastName>Wenstrup</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>W000815</bioguideId>
+          <gpoId />
+          <lisID>2152</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>W000815</bioguideId>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>IDENT Fingerprint Digitization Completion Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require the completion of the digitization of all remaining paper-based fingerprint records for inclusion in the Automated Biometric Identification System (IDENT) of the Department of Homeland Security.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>IDENT Fingerprint Digitization Completion Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

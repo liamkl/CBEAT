@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <titles>
+      <item>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2016</title>
+        <chamberName>Senate</chamberName>
+        <chamberCode>S</chamberCode>
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2015</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend and reauthorize the controlled substance monitoring program under section 399O of the Public Health Service Act.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <actions>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+        <reportedToSenate>2</reportedToSenate>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <orderedReported>1</orderedReported>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-04-27</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 440.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-04-27</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Alexander with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>14000</actionCode>
+        <actionDate>2016-04-27</actionDate>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Alexander with an amendment in the nature of a substitute. Without written report.</text>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>Committee</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-03-16</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-12</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <actionDate>2015-02-12</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Sen. Toomey, Pat [R-PA]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>T000461</bioguideId>
+        <middleName />
+        <state>PA</state>
+        <lastName>Toomey</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Pat</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1594</lisID>
+          <bioguideId>T000461</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>D000563</bioguideId>
+        <middleName>J.</middleName>
+        <state>IL</state>
+        <lastName>DURBIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>RICHARD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>326</lisID>
+          <bioguideId>D000563</bioguideId>
+          <gpoId>8326</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Sessions, Jeff [R-AL]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>S001141</bioguideId>
+        <middleName />
+        <state>AL</state>
+        <lastName>Sessions</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Jeff</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1548</lisID>
+          <gpoId>8281</gpoId>
+          <bioguideId>S001141</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Brown, Sherrod [D-OH]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>B000944</bioguideId>
+        <middleName />
+        <state>OH</state>
+        <lastName>BROWN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>SHERROD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B000944</bioguideId>
+          <gpoId>8309</gpoId>
+          <lisID>136</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>F000062</bioguideId>
+        <middleName />
+        <state>CA</state>
+        <lastName>FEINSTEIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>DIANNE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1332</lisID>
+          <bioguideId>F000062</bioguideId>
+          <gpoId>8338</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>G000555</bioguideId>
+        <middleName>E.</middleName>
+        <state>NY</state>
+        <lastName>Gillibrand</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Kirsten</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1866</lisID>
+          <gpoId>8336</gpoId>
+          <bioguideId>G000555</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Manchin, Joe, III [D-WV]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>M001183</bioguideId>
+        <middleName />
+        <state>WV</state>
+        <lastName>Manchin</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Joe</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001183</bioguideId>
+          <gpoId>8256</gpoId>
+          <lisID>1983</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>M000133</bioguideId>
+        <middleName>J.</middleName>
+        <state>MA</state>
+        <lastName>MARKEY</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>EDWARD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7972</gpoId>
+          <lisID>735</lisID>
+          <bioguideId>M000133</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>S000148</bioguideId>
+        <middleName>E.</middleName>
+        <state>NY</state>
+        <lastName>SCHUMER</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S000148</bioguideId>
+          <gpoId>8279</gpoId>
+          <lisID>1036</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Warren, Elizabeth [D-MA]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <bioguideId>W000817</bioguideId>
+        <middleName>A.</middleName>
+        <state>MA</state>
+        <lastName>Warren</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Elizabeth</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2182</lisID>
+          <bioguideId>W000817</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <bioguideId>B001277</bioguideId>
+        <middleName />
+        <state>CT</state>
+        <lastName>Blumenthal</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Richard</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2076</lisID>
+          <gpoId>8332</gpoId>
+          <bioguideId>B001277</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2016-03-15</sponsorshipDate>
+        <bioguideId>C001035</bioguideId>
+        <middleName>MARGARET</middleName>
+        <state>ME</state>
+        <lastName>COLLINS</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>SUSAN</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1541</lisID>
+          <bioguideId>C001035</bioguideId>
+          <gpoId>8291</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-02-12</introducedDate>
+    <latestAction>
+      <actionDate>2016-04-27</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 440.</text>
+      <links />
+    </latestAction>
+    <billNumber>480</billNumber>
+    <amendments />
+    <laws />
+    <createDate>2015-02-13T06:14:13Z</createDate>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers>
+      <item>
+        <number>0440</number>
+        <calendar>Senate Calendar of Business</calendar>
+      </item>
+    </calendarNumbers>
+    <title>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2015</b></p> <p>Amends the National All Schedules Prescription Electronic Reporting Act of 2005 to include as a purpose of state-administered controlled substance monitoring systems ensuring access to prescription history information for the investigative purposes of appropriate law enforcement, regulatory, and state professional licensing authorities. </p> <p> Amends the Public Health Service Act to revise and reauthorize through FY2020 the controlled substance monitoring program, including to:</p> <ul> <li>allow grants to be used to maintain and operate existing state controlled substance monitoring programs, </li> <li>require the Department of Health and Human Services (HHS) to redistribute any funds that are returned among the remaining grantees,</li> <li>require a state to provide HHS with aggregate data and other information to enable HHS to evaluate the success of the state's program, and</li> <li>expand the program to include any commonwealth or territory of the United States.</li> </ul> <p>Allows the Drug Enforcement Administration, HHS, a state Medicaid program, a state health department, or a state substance abuse agency receiving nonidentifiable information from a controlled substance monitoring database for research purposes to make that information available to other entities for research purposes.</p> <p>Requires a state receiving a grant to: (1) facilitate prescriber and dispenser use of the state's controlled substance monitoring system, and (2) educate prescribers and dispensers on the benefits of the system both to them and society.</p> <p> <p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-02-12T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-09-08T20:41:56Z</lastSummaryUpdateDate>
+          <actionDate>2015-02-12</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in Senate</name>
+        </item>
+        <item>
+          <text><![CDATA[<p><b>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2016</b></p> <p> (Sec. 3) This bill amends the Public Health Service Act to revise and extend through FY2021 the controlled substance monitoring program, including to:</p> <ul> <li>allow grants to be used to maintain existing state controlled substance monitoring programs;</li> <li>require the Department of Health and Human Services (HHS) to redistribute any funds that are returned among the remaining grantees;</li> <li>require states to report on the interoperability of their programs with federal programs and health information technology systems and whether their programs provide automatic, up-to-date, or daily information about a patient upon request;</li> <li>require states to provide HHS with aggregate data and other information to enable HHS to evaluate the success of state programs; and</li> <li>expand the program to include any commonwealth or territory of the United States.</li> </ul> <p> The Drug Enforcement Administration, HHS, a state Medicaid program, a state health department, or a state substance abuse agency receiving nonidentifiable information from a controlled substance monitoring database for research purposes may make that information available to other entities for research purposes.</p> <p>HHS is no longer required to give preference for grants related to drug abuse to states with controlled substance monitoring programs.</p> <p> A state receiving a grant for a controlled substance monitoring program must: (1) facilitate prescriber and dispenser use of the controlled substance monitoring system, and (2) educate prescribers and dispensers on the benefits of the system.</p> <p> <p>]]></text>
+          <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+          <updateDate>2016-04-27T14:00:54Z</updateDate>
+          <lastSummaryUpdateDate>2016-07-08T15:36:43Z</lastSummaryUpdateDate>
+          <actionDate>2016-04-27</actionDate>
+          <versionCode>01</versionCode>
+          <name>Reported to Senate with amendment(s)</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>636</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+          <actionDate>2015-03-03</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Increasing the Safety of Prescription Drug Use Act of 2015</latestTitle>
+      </item>
+      <item>
+        <number>1725</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Received in the Senate and Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+          <actionDate>2015-09-09</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>National All Schedules Prescription Electronic Reporting Reauthorization Act of 2015</latestTitle>
+      </item>
+    </relatedBills>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2016-04-27T18:31:47Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2016-03-16T14:08:34Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-02-12T17:58:03Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:08:16Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Drug, alcohol, tobacco use</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Health technology, devices, supplies</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Medical research</name>
+          </item>
+          <item>
+            <name>Prescription drugs</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Shaheen</lastName>
+        <firstName>Jeanne</firstName>
+        <bioguideId>S001181</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>S001181</bioguideId>
+          <gpoId>8276</gpoId>
+          <lisID>1901</lisID>
+        </identifiers>
+        <state>NH</state>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

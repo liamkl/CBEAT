@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Child care and development</name>
+          </item>
+          <item>
+            <name>Child health</name>
+          </item>
+          <item>
+            <name>Child safety and welfare</name>
+          </item>
+          <item>
+            <name>Community life and organization</name>
+          </item>
+          <item>
+            <name>Education of the disadvantaged</name>
+          </item>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Family relationships</name>
+          </item>
+          <item>
+            <name>Public-private cooperation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2015-01-22</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Judy</firstName>
+        <party>D</party>
+        <fullName>Rep. Chu, Judy [D-CA-27]</fullName>
+        <state>CA</state>
+        <byRequestType />
+        <bioguideId>C001080</bioguideId>
+        <lastName>Chu</lastName>
+        <middleName />
+        <district>27</district>
+        <identifiers>
+          <bioguideId>C001080</bioguideId>
+          <gpoId>7837</gpoId>
+          <lisID>1970</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills />
+    <updateDate>2017-10-27T17:59:02Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Education and the Workforce Committee</name>
+          <subcommittees>
+            <item>
+              <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2015-04-29T13:41:45Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsed14</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-01-22T14:02:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsed00</systemCode>
+        </item>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <subcommittees>
+            <item>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2015-01-23T18:19:30Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsif14</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-01-22T14:02:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2015-01-23T04:46:27Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2015-04-29</actionDate>
+      <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+          <systemCode>hsed14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-01-23</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+        <text>Referred to House Education and the Workforce</text>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+        <text>Referred to the Committee on Education and the Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <amendments />
+    <title>DIPLOMA Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-02-09T23:15:40Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-22</actionDate>
+          <text><![CDATA[<p><strong>Developing Innovative Partnerships and Learning Opportunities that Motivate Achievement Act or the DIPLOMA Act</strong></p> <p>Authorizes the Secretary of Education to award renewable five-year grants to states and, through them, subgrants to local consortia that include a local educational agency and other community partners to: (1) ensure the academic, physical, social, emotional, and civic development of disadvantaged youth; and (2) strengthen their families and communities.</p> <p>Requires each state grantee to develop and implement a state child and youth strategy that assesses children's needs and the assets within the state that can be mobilized, coordinated, and integrated to achieve quantifiable progress toward goals that include ensuring that:</p> <ul> <li>children are ready for school;</li> <li>students are engaged and achieving in school;</li> <li>students are physically, mentally, socially, and emotionally healthy;</li> <li>schools and neighborhoods are safe and provide a positive climate for learning;</li> <li>families and communities are supportive and engaged in their children's education as equal partners;</li> <li>students are ready for postsecondary education and 21st Century careers;</li> <li>students are contributing to their communities; and</li> <li>students are not chronically absent.</li> </ul> <p>Directs the consortia to develop and implement a local child and youth strategy that integrates multiple private and public services into a comprehensive, coordinated continuum of services directed toward achieving quantifiable progress toward such goals. </p> <p>Requires the Secretary to award competitive grants directly to local consortia if appropriated funds fall below a specified amount.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-22T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>495</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. JUDY CHU of California:H.R. 495.Congress has the power to enact this legislation pursuantto the following:Pursuant to Article I, Section 8, Clause 1 of theConstitution.[Page H533]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <state>DC</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <identifiers>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000147</bioguideId>
+        <firstName>ELEANOR</firstName>
+      </item>
+      <item>
+        <state>IA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Loebsack</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <identifiers>
+          <gpoId>7915</gpoId>
+          <lisID>1846</lisID>
+          <bioguideId>L000565</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000565</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Meng</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Meng, Grace [D-NY-6]</fullName>
+        <identifiers>
+          <lisID>2148</lisID>
+          <bioguideId>M001188</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001188</bioguideId>
+        <firstName>Grace</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LEE</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <identifiers>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+          <lisID>1501</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000551</bioguideId>
+        <firstName>BARBARA</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>HONDA</lastName>
+        <middleName>M.</middleName>
+        <district>17</district>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <identifiers>
+          <lisID>1634</lisID>
+          <gpoId>7820</gpoId>
+          <bioguideId>H001034</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001034</bioguideId>
+        <firstName>MICHAEL</firstName>
+      </item>
+      <item>
+        <state>MA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Tsongas</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Tsongas, Niki [D-MA-3]</fullName>
+        <identifiers>
+          <bioguideId>T000465</bioguideId>
+          <gpoId>7970</gpoId>
+          <lisID>1884</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000465</bioguideId>
+        <firstName>Niki</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>HINOJOSA</lastName>
+        <middleName />
+        <district>15</district>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <identifiers>
+          <bioguideId>H000636</bioguideId>
+          <gpoId>8171</gpoId>
+          <lisID>1490</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H000636</bioguideId>
+        <firstName>RUBEN</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Vargas</lastName>
+        <middleName />
+        <district>51</district>
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>V000130</bioguideId>
+        <firstName>Juan</firstName>
+      </item>
+      <item>
+        <state>MN</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ellison</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <identifiers>
+          <lisID>1857</lisID>
+          <gpoId>8005</gpoId>
+          <bioguideId>E000288</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000288</bioguideId>
+        <firstName>Keith</firstName>
+      </item>
+      <item>
+        <state>PA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <middleName />
+        <district>17</district>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+          <lisID>2159</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001090</bioguideId>
+        <firstName>Matt</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ROYBAL-ALLARD</lastName>
+        <middleName />
+        <district>40</district>
+        <fullName>Rep. Roybal-Allard, Lucille [D-CA-40]</fullName>
+        <identifiers>
+          <lisID>997</lisID>
+          <gpoId>7839</gpoId>
+          <bioguideId>R000486</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-02-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000486</bioguideId>
+        <firstName>LUCILLE</firstName>
+      </item>
+      <item>
+        <state>AZ</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Grijalva</lastName>
+        <middleName>M.</middleName>
+        <district>3</district>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <identifiers>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+          <lisID>1708</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-02-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000551</bioguideId>
+        <firstName>Raul</firstName>
+      </item>
+      <item>
+        <state>CO</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Polis</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <identifiers>
+          <bioguideId>P000598</bioguideId>
+          <gpoId>7860</gpoId>
+          <lisID>1910</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-02-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000598</bioguideId>
+        <firstName>Jared</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lieu</lastName>
+        <middleName />
+        <district>33</district>
+        <fullName>Rep. Lieu, Ted [D-CA-33]</fullName>
+        <identifiers>
+          <bioguideId>L000582</bioguideId>
+          <gpoId />
+          <lisID>2230</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-02-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000582</bioguideId>
+        <firstName>Ted</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DeSaulnier</lastName>
+        <middleName />
+        <district>11</district>
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <identifiers>
+          <bioguideId>D000623</bioguideId>
+          <gpoId />
+          <lisID>2227</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-03-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000623</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Huffman</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <identifiers>
+          <lisID>2101</lisID>
+          <gpoId />
+          <bioguideId>H001068</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-04-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001068</bioguideId>
+        <firstName>Jared</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Van Hollen</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <identifiers>
+          <bioguideId>V000128</bioguideId>
+          <gpoId>7983</gpoId>
+          <lisID>1729</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-10-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>V000128</bioguideId>
+        <firstName>Chris</firstName>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <title>DIPLOMA Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Developing Innovative Partnerships and Learning Opportunities that Motivate Achievement Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To strengthen student achievement and graduation rates and prepare young people for college, careers, and citizenship through innovative partnerships that meet the comprehensive needs of children and youth.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>DIPLOMA Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

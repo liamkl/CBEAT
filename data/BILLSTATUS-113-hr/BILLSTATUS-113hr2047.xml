@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2013-05-17</introducedDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hswm01</systemCode>
+              <name>Social Security Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2013-06-03T15:16:05Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-05-17T13:02:40Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills />
+    <calendarNumbers />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. ISRAEL:H.R. 2047.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1 of the United StatesConstitution[Page H2774]</pre>]]></constitutionalAuthorityStatementText>
+    <sponsors>
+      <item>
+        <fullName>Rep. Israel, Steve [D-NY-3]</fullName>
+        <identifiers>
+          <bioguideId>I000057</bioguideId>
+          <lisID>1663</lisID>
+          <gpoId>8063</gpoId>
+        </identifiers>
+        <bioguideId>I000057</bioguideId>
+        <party>D</party>
+        <byRequestType />
+        <middleName />
+        <state>NY</state>
+        <lastName>ISRAEL</lastName>
+        <district>3</district>
+        <firstName>STEVE</firstName>
+      </item>
+    </sponsors>
+    <recordedVotes />
+    <billType>HR</billType>
+    <committeeReports />
+    <congress>113</congress>
+    <notes />
+    <titles>
+      <item>
+        <chamberName />
+        <chamberCode />
+        <parentTitleType />
+        <title>Social Security Disability Insurance for the Terminally Ill Act of 2013</title>
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberName />
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend title II of the Social Security Act to eliminate the five-month waiting period in the disability insurance program, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberName />
+        <chamberCode />
+        <parentTitleType />
+        <title>Social Security Disability Insurance for the Terminally Ill Act of 2013</title>
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <policyArea>
+      <name>Social Welfare</name>
+    </policyArea>
+    <createDate>2013-05-18T07:02:05Z</createDate>
+    <originChamber>House</originChamber>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2013-05-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <state>PA</state>
+        <party>D</party>
+        <district>17</district>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <middleName />
+        <identifiers>
+          <lisID>2159</lisID>
+          <gpoId />
+          <bioguideId>C001090</bioguideId>
+        </identifiers>
+        <bioguideId>C001090</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <firstName>Matt</firstName>
+      </item>
+    </cosponsors>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2013-05-17</actionDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <lastSummaryUpdateDate>2013-06-04T16:06:16Z</lastSummaryUpdateDate>
+          <text><![CDATA[<p>Social Security Disability Insurance for the Terminally Ill Act of 2013 - Amends title II (Old Age, Survivors and Disability Insurance) (OASDI) of the Social Security Act to eliminate the waiting period for disability insurance benefits for terminally ill individuals with a life expectancy of 12 months or less.</p>]]></text>
+          <name>Introduced in House</name>
+          <updateDate>2013-05-17T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <actions>
+      <item>
+        <actionDate>2013-06-03</actionDate>
+        <committee>
+          <name>Social Security Subcommittee</name>
+          <systemCode>hswm01</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Social Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <links />
+        <actionDate>2013-05-17</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <actionDate>2013-05-17</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <actionDate>2013-05-17</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+    </actions>
+    <cboCostEstimates />
+    <amendments />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Social Welfare</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Disability assistance</name>
+          </item>
+          <item>
+            <name>Long-term, rehabilitative, and terminal care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <laws />
+    <title>Social Security Disability Insurance for the Terminally Ill Act of 2013</title>
+    <updateDate>2016-10-25T16:03:41Z</updateDate>
+    <billNumber>2047</billNumber>
+    <latestAction>
+      <actionDate>2013-06-03</actionDate>
+      <text>Referred to the Subcommittee on Social Security.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

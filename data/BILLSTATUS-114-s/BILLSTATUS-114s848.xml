@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-03-24</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee />
+        <links />
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-03-24</actionDate>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:08:47Z</updateDate>
+    <introducedDate>2015-03-24</introducedDate>
+    <recordedVotes />
+    <createDate>2015-03-25T08:45:43Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Claire</firstName>
+        <lastName>McCaskill</lastName>
+        <state>MO</state>
+        <bioguideId>M001170</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1820</lisID>
+          <bioguideId>M001170</bioguideId>
+          <gpoId>8252</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Resolving Environmental and Grid Reliability Conflicts Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>A bill to clarify that compliance with an emergency order under the Federal Power Act may not be considered a violation of any Federal, State, or local environmental law or regulation, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Resolving Environmental and Grid Reliability Conflicts Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-03-24</sponsorshipDate>
+        <firstName>Roy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1464</lisID>
+          <bioguideId>B000575</bioguideId>
+          <gpoId>8313</gpoId>
+        </identifiers>
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+        <bioguideId>B000575</bioguideId>
+        <lastName>Blunt</lastName>
+        <party>R</party>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+        <state>MO</state>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Electric power generation and transmission</name>
+          </item>
+          <item>
+            <name>Emergency planning and evacuation</name>
+          </item>
+          <item>
+            <name>Energy storage, supplies, demand</name>
+          </item>
+          <item>
+            <name>Environmental assessment, monitoring, research</name>
+          </item>
+          <item>
+            <name>Environmental regulatory procedures</name>
+          </item>
+          <item>
+            <name>Federal Energy Regulatory Commission (FERC)</name>
+          </item>
+          <item>
+            <name>Pollution liability</name>
+          </item>
+          <item>
+            <name>Public utilities and utility rates</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-03-24T16:16:21Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-03-24</actionDate>
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>Resolving Environmental and Grid Reliability Conflicts Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-03-27</actionDate>
+          <text>Referred to the Subcommittee on Energy and Power.</text>
+        </latestAction>
+        <number>1558</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Resolving Environmental and Grid Reliability Conflicts Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Resolving Environmental and Grid Reliability Conflicts Act of 2015</b></p> <p>This bill amends the Federal Power Act with respect to orders by the Federal Energy Regulatory Commission (FERC) to generate, transmit, or sell electricity to prevent an emergency in energy reliability, where the order may result in a conflict with environmental law. FERC must ensure that the order: (1) requires generation, delivery, interchange, or transmission of electricity only during hours necessary to meet the emergency and serve the public interest; and (2) be consistent with applicable environmental law and minimize any adverse environmental impacts to the maximum extent practicable.</p> <p>Compliance with such an order shall not be considered a violation of conflicting federal, state, or local environmental laws.</p>  <p>Orders that may result in a conflict with environmental law must expire within 90 days and may be renewed or reissued for subsequent periods as necessary to meet the emergency and serve the public interest. </p> <p>During an emergency, a municipality engaged in the transmission or sale of electricity and not otherwise subject to FERC's jurisdiction may make temporary connections with public utilities subject to FERC's jurisdiction and construct temporary facilities for the transmission of electricity in interstate commerce as may be necessary or appropriate to meet the emergency.</p>]]></text>
+          <lastSummaryUpdateDate>2016-04-22T22:35:32Z</lastSummaryUpdateDate>
+          <updateDate>2015-03-24T04:00:00Z</updateDate>
+          <actionDate>2015-03-24</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>848</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

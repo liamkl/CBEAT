@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-02-25T04:51:17Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsii00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsii10</systemCode>
+              <name>Federal Lands Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-26T22:31:24Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-24T15:02:05Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2016-02-24</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-02-26</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-24</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-24</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-24</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>To transfer the reversionary interest of the United States between certain land in Flagstaff, Arizona, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To transfer the reversionary interest of the United States between certain land in Flagstaff, Arizona, and for other purposes.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Arizona</name>
+          </item>
+          <item>
+            <name>Land transfers</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>Kirkpatrick</lastName>
+        <bioguideId>K000368</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-24</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Ann</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+          <lisID>1907</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>Grijalva</lastName>
+        <bioguideId>G000551</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-02-26</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Raul</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <gpoId>7804</gpoId>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <district>3</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4601</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill transfers, upon the request of the city of Flagstaff, Arizona, and the Burlington Northern and Santa Fe Railway Company, to a specified parcel of land conveyed to the company any reversionary interest of the United States in and to a specified parcel of land conveyed to the city. </p>]]></text>
+          <lastSummaryUpdateDate>2016-06-08T16:03:46Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-02-24</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-02-24T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GOSAR:H.R. 4601.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, Clause 2 (the Property Clause).Under this clause, Congress has the power to dispose of andmake all needful rules and regulations respecting theterritory or other property belonging to the United States.By virtue of this enumerated power, Congress has governingauthority over the lands, territories, or other property ofthe United States- and with this authority Congress is vestedwith the power to all owners in fee, the ability to sell,lease, dispose, exchange, convey, or simply preserve land.The Supreme Court has described this enumerated grant as one``without limitation'' Kleppe v New Mexico, 426 U.S. 529,542-543 (1976) (``And while the furthest reaches of the powergranted by the Property Clause have not been definitelyresolved, we have repeatedly observed that the power over thepublic land thus entrusted to Congress is withoutlimitation.'')Historically, the federal government transferred ownershipof federal property to either private ownership or the statesin order to pay off large Revolutionary War debts and toassist with the development of infrastructure. The transferof reversionary interest by this legislation is thusconstitutional and necessary to ensure private propertyowners are able to utilize and control their privateproperty.[Page H892]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To transfer the reversionary interest of the United States between certain land in Flagstaff, Arizona, and for other purposes.</title>
+    <latestAction>
+      <actionDate>2016-02-26</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:25Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>G000565</bioguideId>
+        <district>4</district>
+        <middleName>A.</middleName>
+        <state>AZ</state>
+        <firstName>Paul</firstName>
+        <lastName>Gosar</lastName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

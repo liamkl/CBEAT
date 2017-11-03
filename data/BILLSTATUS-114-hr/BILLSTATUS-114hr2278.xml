@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-06-01</actionDate>
+        <committee>
+          <name>Immigration and Border Security Subcommittee</name>
+          <systemCode>hsju01</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:36Z</updateDate>
+    <introducedDate>2015-05-12</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-13T08:46:06Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Bill</firstName>
+        <lastName>Posey</lastName>
+        <state>FL</state>
+        <bioguideId>P000599</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1915</lisID>
+          <bioguideId>P000599</bioguideId>
+          <gpoId>7887</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Posey, Bill [R-FL-8]</fullName>
+        <district>8</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>SAFE for America Act</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Security and Fairness Enhancement for America Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Immigration and Nationality Act to eliminate the diversity immigrant program.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>SAFE for America Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>G000289</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>ROBERT</firstName>
+        <identifiers>
+          <bioguideId>G000289</bioguideId>
+          <gpoId>8197</gpoId>
+          <lisID>446</lisID>
+        </identifiers>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <lastName>GOODLATTE</lastName>
+        <middleName>W.</middleName>
+      </item>
+      <item>
+        <bioguideId>B001274</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>AL</state>
+        <firstName>Mo</firstName>
+        <identifiers>
+          <lisID>1987</lisID>
+          <bioguideId>B001274</bioguideId>
+          <gpoId>7790</gpoId>
+        </identifiers>
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2015-06-01</sponsorshipDate>
+        <lastName>Brooks</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001291</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Brian</firstName>
+        <identifiers>
+          <lisID>2270</lisID>
+          <gpoId />
+          <bioguideId>B001291</bioguideId>
+        </identifiers>
+        <fullName>Rep. Babin, Brian [R-TX-36]</fullName>
+        <district>36</district>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <lastName>Babin</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S000583</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>LAMAR</firstName>
+        <identifiers>
+          <lisID>1075</lisID>
+          <bioguideId>S000583</bioguideId>
+          <gpoId>8177</gpoId>
+        </identifiers>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <district>21</district>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <lastName>SMITH</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>G000565</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <firstName>Paul</firstName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <lastName>Gosar</lastName>
+        <middleName>A.</middleName>
+      </item>
+      <item>
+        <bioguideId>F000460</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Blake</firstName>
+        <identifiers>
+          <lisID>2067</lisID>
+          <bioguideId>F000460</bioguideId>
+          <gpoId>8183</gpoId>
+        </identifiers>
+        <fullName>Rep. Farenthold, Blake [R-TX-27]</fullName>
+        <district>27</district>
+        <sponsorshipDate>2015-09-16</sponsorshipDate>
+        <lastName>Farenthold</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001103</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <firstName>Earl</firstName>
+        <identifiers>
+          <lisID>2236</lisID>
+          <bioguideId>C001103</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-09-24</sponsorshipDate>
+        <lastName>Carter</lastName>
+        <middleName>L. "Buddy"</middleName>
+      </item>
+      <item>
+        <bioguideId>C001048</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>JOHN</firstName>
+        <identifiers>
+          <lisID>1670</lisID>
+          <bioguideId>C001048</bioguideId>
+          <gpoId>8163</gpoId>
+        </identifiers>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2015-11-04</sponsorshipDate>
+        <lastName>CULBERSON</lastName>
+        <middleName>ABNEY</middleName>
+      </item>
+      <item>
+        <bioguideId>P000602</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>KS</state>
+        <firstName>Mike</firstName>
+        <identifiers>
+          <gpoId>7952</gpoId>
+          <lisID>2022</lisID>
+          <bioguideId>P000602</bioguideId>
+        </identifiers>
+        <fullName>Rep. Pompeo, Mike [R-KS-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <lastName>Pompeo</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <firstName>WALTER</firstName>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <lastName>JONES</lastName>
+        <middleName>B.</middleName>
+      </item>
+      <item>
+        <bioguideId>D000533</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TN</state>
+        <firstName>JOHN</firstName>
+        <identifiers>
+          <bioguideId>D000533</bioguideId>
+          <gpoId>8149</gpoId>
+          <lisID>322</lisID>
+        </identifiers>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <lastName>DUNCAN</lastName>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <bioguideId>Z000017</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Lee</firstName>
+        <identifiers>
+          <gpoId />
+          <lisID>2261</lisID>
+          <bioguideId>Z000017</bioguideId>
+        </identifiers>
+        <fullName>Rep. Zeldin, Lee M. [R-NY-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2016-01-13</sponsorshipDate>
+        <lastName>Zeldin</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>J.</firstName>
+        <identifiers>
+          <bioguideId>F000445</bioguideId>
+          <gpoId>8786</gpoId>
+          <lisID>1683</lisID>
+        </identifiers>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-01-13</sponsorshipDate>
+        <lastName>Forbes</lastName>
+        <middleName>Randy</middleName>
+      </item>
+      <item>
+        <bioguideId>B001290</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>Dave</firstName>
+        <identifiers>
+          <lisID>2203</lisID>
+          <bioguideId>B001290</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Brat, Dave [R-VA-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2016-01-28</sponsorshipDate>
+        <lastName>Brat</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>F000461</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Bill</firstName>
+        <identifiers>
+          <lisID>2065</lisID>
+          <gpoId>8173</gpoId>
+          <bioguideId>F000461</bioguideId>
+        </identifiers>
+        <fullName>Rep. Flores, Bill [R-TX-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <lastName>Flores</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>K000362</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IA</state>
+        <firstName>Steve</firstName>
+        <identifiers>
+          <gpoId>7918</gpoId>
+          <lisID>1724</lisID>
+          <bioguideId>K000362</bioguideId>
+        </identifiers>
+        <fullName>Rep. King, Steve [R-IA-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <lastName>King</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>E000291</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <firstName>Renee</firstName>
+        <identifiers>
+          <lisID>2036</lisID>
+          <gpoId>8025</gpoId>
+          <bioguideId>E000291</bioguideId>
+        </identifiers>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-02-23</sponsorshipDate>
+        <lastName>Ellmers</lastName>
+        <middleName>L.</middleName>
+      </item>
+      <item>
+        <bioguideId>G000560</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <firstName>Tom</firstName>
+        <identifiers>
+          <lisID>1979</lisID>
+          <bioguideId>G000560</bioguideId>
+          <gpoId>7906</gpoId>
+        </identifiers>
+        <fullName>Rep. Graves, Tom [R-GA-14]</fullName>
+        <district>14</district>
+        <sponsorshipDate>2016-05-19</sponsorshipDate>
+        <lastName>Graves</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>G000576</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <firstName>Glenn</firstName>
+        <identifiers>
+          <lisID>2276</lisID>
+          <bioguideId>G000576</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Grothman, Glenn [R-WI-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2016-05-19</sponsorshipDate>
+        <lastName>Grothman</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001297</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <firstName>Ken</firstName>
+        <identifiers>
+          <lisID>2233</lisID>
+          <bioguideId>B001297</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Buck, Ken [R-CO-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <lastName>Buck</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>M001158</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Kenny</firstName>
+        <identifiers>
+          <gpoId>8766</gpoId>
+          <lisID>1806</lisID>
+          <bioguideId>M001158</bioguideId>
+        </identifiers>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <district>24</district>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <lastName>Marchant</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>H001036</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Jeb</firstName>
+        <identifiers>
+          <bioguideId>H001036</bioguideId>
+          <gpoId>8161</gpoId>
+          <lisID>1749</lisID>
+        </identifiers>
+        <fullName>Rep. Hensarling, Jeb [R-TX-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <lastName>Hensarling</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. POSEY:H.R. 2278.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 4, which states that Congresshas the power to establish a uniform Rule of Naturalization.[Page H2878]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Department of State</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-05-12T16:02:10Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-06-01T13:09:11Z</date>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-01</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>SAFE for America Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-05-28T15:14:33Z</lastSummaryUpdateDate>
+          <actionDate>2015-05-12</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-05-12T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Security and Fairness Enhancement for America Act of 2015 or the SAFE for America Act</strong></p> <p>Amends the Immigration and Nationality Act to eliminate the diversity immigrant program.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2278</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-03-17</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:08:39Z</updateDate>
+    <introducedDate>2015-03-17</introducedDate>
+    <recordedVotes />
+    <createDate>2015-03-18T04:46:17Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>ROGER</firstName>
+        <lastName>WICKER</lastName>
+        <state>MS</state>
+        <bioguideId>W000437</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1226</lisID>
+          <gpoId>8263</gpoId>
+          <bioguideId>W000437</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>F.</middleName>
+        <fullName>Sen. Wicker, Roger F. [R-MS]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Innovation in Surface Transportation Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to amend title 23, United States Code, to direct the Secretary of Transportation to establish an innovation in surface transportation program, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Innovation in Surface Transportation Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>B001288</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+        <firstName>Cory</firstName>
+        <middleName>A.</middleName>
+        <lastName>Booker</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <identifiers>
+          <lisID>2194</lisID>
+          <bioguideId>B001288</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>NJ</state>
+      </item>
+      <item>
+        <bioguideId>C001070</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <firstName>Bob</firstName>
+        <middleName />
+        <lastName>Casey</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <identifiers>
+          <bioguideId>C001070</bioguideId>
+          <gpoId>8282</gpoId>
+          <lisID>1828</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>PA</state>
+      </item>
+      <item>
+        <bioguideId>M001153</bioguideId>
+        <party>R</party>
+        <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+        <firstName>Lisa</firstName>
+        <middleName />
+        <lastName>Murkowski</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <identifiers>
+          <lisID>1694</lisID>
+          <gpoId>8234</gpoId>
+          <bioguideId>M001153</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>AK</state>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Air quality</name>
+          </item>
+          <item>
+            <name>Economic development</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Pedestrians and bicycling</name>
+          </item>
+          <item>
+            <name>Public transit</name>
+          </item>
+          <item>
+            <name>Railroads</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Environment and Public Works Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-03-17T21:00:11Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>ssev00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-03-17</actionDate>
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>1393</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Referred to the Subcommittee on Highways and Transit.</text>
+          <actionDate>2015-03-18</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Innovation in Surface Transportation Act of 2015</latestTitle>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Innovation in Surface Transportation Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Innovation in Surface Transportation Act of 2015</b></p> <p> Directs the Secretary of Transportation, in coordination with state transportation departments, to establish an innovation in surface transportation program.</p> <p>Requires states to make competitive grants for innovative surface transportation projects to eligible entities, including local governments, metropolitan planning organizations, regional transportation authorities, transit agencies, tribal governments, private providers of public transportation, nonprofit transportation organizations, port authorities, joint power authorities, freight rail providers, and local rail authorities.</p> <p>Requires each state (including the governor and state department of transportation) to establish an innovation in surface transportation selection panel to formulate criteria for selecting projects.</p> <p>Requires a state to reserve certain percentages of federal funds apportioned for the national highway performance, the highway safety improvement, the congestion mitigation and air quality improvement, surface transportation, and transportation alternatives programs in order to fund related projects under state innovative surface transportation grants.</p> <p>Authorizes states to reserve a certain percentage of such funds for a fiscal year to meet specific requests for project application support from eligible rural local governments. </p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-03-17T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-03-25T13:51:16Z</lastSummaryUpdateDate>
+          <actionDate>2015-03-17</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>762</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

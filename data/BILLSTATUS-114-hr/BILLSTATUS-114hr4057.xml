@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-12-04</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-18</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:52Z</updateDate>
+    <introducedDate>2015-11-18</introducedDate>
+    <recordedVotes />
+    <createDate>2015-11-19T09:46:12Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Katherine</firstName>
+        <lastName>Clark</lastName>
+        <state>MA</state>
+        <bioguideId>C001101</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2196</lisID>
+          <gpoId />
+          <bioguideId>C001101</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>M.</middleName>
+        <fullName>Rep. Clark, Katherine M. [D-MA-5]</fullName>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Interstate Swatting Hoax Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend title 18, United States Code, to establish a criminal violation for using false communications with the intent to create an emergency response, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Interstate Swatting Hoax Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <district>7</district>
+        <state>PA</state>
+        <party>R</party>
+        <fullName>Rep. Meehan, Patrick [R-PA-7]</fullName>
+        <firstName>Patrick</firstName>
+        <middleName />
+        <lastName>Meehan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2052</lisID>
+          <bioguideId>M001181</bioguideId>
+          <gpoId>8125</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>M001181</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-10</sponsorshipDate>
+        <district>5</district>
+        <state>IN</state>
+        <party>R</party>
+        <fullName>Rep. Brooks, Susan W. [R-IN-5]</fullName>
+        <firstName>Susan</firstName>
+        <middleName>W.</middleName>
+        <lastName>Brooks</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2129</lisID>
+          <gpoId />
+          <bioguideId>B001284</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001284</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-11</sponsorshipDate>
+        <district>19</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Lofgren, Zoe [D-CA-19]</fullName>
+        <firstName>ZOE</firstName>
+        <middleName />
+        <lastName>LOFGREN</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>701</lisID>
+          <gpoId>7821</gpoId>
+          <bioguideId>L000397</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000397</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <district>5</district>
+        <state>CO</state>
+        <party>R</party>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <firstName>Doug</firstName>
+        <middleName />
+        <lastName>Lamborn</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1834</lisID>
+          <gpoId>7863</gpoId>
+          <bioguideId>L000564</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000564</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-01</sponsorshipDate>
+        <district>16</district>
+        <state>IL</state>
+        <party>R</party>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <firstName>Adam</firstName>
+        <middleName />
+        <lastName>Kinzinger</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>K000378</bioguideId>
+          <gpoId>7931</gpoId>
+          <lisID>2014</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>K000378</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-22</sponsorshipDate>
+        <district>52</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <firstName>Scott</firstName>
+        <middleName>H.</middleName>
+        <lastName>Peters</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+          <lisID>2113</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>P000608</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <district>4</district>
+        <state>GA</state>
+        <party>D</party>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <firstName>Henry</firstName>
+        <middleName>C. "Hank"</middleName>
+        <lastName>Johnson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+          <lisID>1843</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>J000288</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <district>8</district>
+        <state>VA</state>
+        <party>D</party>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <firstName>Donald</firstName>
+        <middleName>S.</middleName>
+        <lastName>Beyer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2272</lisID>
+          <gpoId />
+          <bioguideId>B001292</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001292</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. CLARK of Massachusetts:H.R. 4057.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8[Page H8360]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Emergency planning and evacuation</name>
+          </item>
+          <item>
+            <name>First responders and emergency personnel</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>Postal service</name>
+          </item>
+          <item>
+            <name>Telephone and wireless communication</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-12-04T17:22:02Z</date>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+              <systemCode>hsju08</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-11-18T15:01:05Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-12-04</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Interstate Swatting Hoax Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-12-08T20:35:44Z</lastSummaryUpdateDate>
+          <actionDate>2015-11-18</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-11-18T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Interstate Swatting Hoax Act</b></p> <p>This bill amends the federal criminal code to make it a crime to use a telecommunications system, the mails, or another facility of interstate or foreign commerce to knowingly report false or misleading information with the intent to cause an emergency law enforcement response.</p> <p>A violator is subject to criminal and civil penalties.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4057</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

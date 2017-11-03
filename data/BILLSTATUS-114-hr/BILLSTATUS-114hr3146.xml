@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-09-08</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Referred to House Judiciary</text>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Referred to House Armed Services</text>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Referred to the Committee on Armed Services, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-21</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:49Z</updateDate>
+    <introducedDate>2015-07-21</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-22T09:34:26Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Scott</firstName>
+        <lastName>Perry</lastName>
+        <state>PA</state>
+        <bioguideId>P000605</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>P000605</bioguideId>
+          <gpoId />
+          <lisID>2157</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Perry, Scott [R-PA-4]</fullName>
+        <district>4</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Military Base Self-Defense Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To safeguard military and civilian personnel on military bases by repealing bans on military personnel carrying firearms, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Military Base Self-Defense Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-09-11</sponsorshipDate>
+        <district>36</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Babin, Brian [R-TX-36]</fullName>
+        <firstName>Brian</firstName>
+        <middleName />
+        <lastName>Babin</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2270</lisID>
+          <bioguideId>B001291</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001291</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PERRY:H.R. 3146.Congress has the power to enact this legislation pursuantto the following:The Second Amendment: A well regulated Militia, beingnecessary to the security of a free State, the right of thepeople to keep and bear Arms, shall not be infringed.[Page H5331]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Department of Defense</name>
+          </item>
+          <item>
+            <name>Firearms and explosives</name>
+          </item>
+          <item>
+            <name>Military facilities and property</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2015-09-08T19:48:36Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-21T16:02:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+        <item>
+          <subcommittees />
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-21T16:02:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-09-08</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>A bill to safeguard military personnel on Armed Forces military installations by repealing bans on military personnel carrying firearms, and for other purposes.</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1823</number>
+        <latestAction>
+          <actionDate>2015-07-21</actionDate>
+          <text>Read twice and referred to the Committee on Armed Services.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Military Base Self-Defense Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Military Base Self-Defense Act</strong></p> <p>Repeals: (1) Army Regulation 190-14, entitled "Carrying of Firearms and Use of Force for Law Enforcement and Security Duties"; and (2) Department of Defense Directive Number 5210.56, entitled "Use of Deadly Force and the Carrying of Firearms by DOD Personnel Engaged in Law Enforcement and Security Duties." </p> <p>Nullifies any provision in any other law, rule, regulation, or executive order that prohibits military personnel trained in firearms from carrying officially issued or personally owned firearms on military bases.</p> <p>Prohibits: (1) the Department of Defense (DOD) and the Secretaries of the military departments from reinstating the firearm bans repealed in this Act or enacting similar restrictions; and (2) the President from taking any executive action, promulgating any rule, or issuing any executive order or regulation to prohibit military personnel from carrying firearms.</p>]]></text>
+          <lastSummaryUpdateDate>2015-09-03T16:31:27Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-21T04:00:00Z</updateDate>
+          <actionDate>2015-07-21</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3146</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

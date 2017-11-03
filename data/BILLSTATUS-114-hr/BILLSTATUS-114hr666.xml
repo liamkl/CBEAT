@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-02-04T04:46:19Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <subcommittees>
+            <item>
+              <name>Energy and Power Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2015-02-06T18:45:24Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsif03</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-02-03T15:04:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+        <item>
+          <name>Foreign Affairs Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-02-03T15:04:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsfa00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>To adapt to changing crude oil market conditions.</latestTitle>
+        <latestAction>
+          <actionDate>2015-10-19</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>702</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-02-03</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>2</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-02-06</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Power.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-02-03</actionDate>
+        <text>Referred to House Foreign Affairs</text>
+        <committee>
+          <systemCode>hsfa00</systemCode>
+          <name>Foreign Affairs Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-02-03</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <actionDate>2015-02-03</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-02-03</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-02-03</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>To adapt to changing crude oil market conditions.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To adapt to changing crude oil market conditions.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Coal</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Energy storage, supplies, demand</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Oil and gas</name>
+          </item>
+          <item>
+            <name>Strategic materials and reserves</name>
+          </item>
+          <item>
+            <name>Trade restrictions</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>11</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Conaway, K. Michael [R-TX-11]</fullName>
+        <firstName>K.</firstName>
+        <middleName>Michael</middleName>
+        <lastName>Conaway</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1805</lisID>
+          <gpoId>8167</gpoId>
+          <bioguideId>C001062</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001062</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>2</district>
+        <state>SC</state>
+        <party>R</party>
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <firstName>Joe</firstName>
+        <middleName />
+        <lastName>Wilson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1688</lisID>
+          <bioguideId>W000795</bioguideId>
+          <gpoId>8142</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>W000795</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>1</district>
+        <state>OH</state>
+        <party>R</party>
+        <fullName>Rep. Chabot, Steve [R-OH-1]</fullName>
+        <firstName>STEVE</firstName>
+        <middleName />
+        <lastName>CHABOT</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>8091</gpoId>
+          <lisID>186</lisID>
+          <bioguideId>C000266</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C000266</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>1</district>
+        <state>OK</state>
+        <party>R</party>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <firstName>Jim</firstName>
+        <middleName />
+        <lastName>Bridenstine</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B001283</bioguideId>
+          <gpoId />
+          <lisID>2155</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>B001283</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>8</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <firstName>Trent</firstName>
+        <middleName />
+        <lastName>Franks</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1707</lisID>
+          <bioguideId>F000448</bioguideId>
+          <gpoId>7799</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000448</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>7</district>
+        <state>TN</state>
+        <party>R</party>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <firstName>Marsha</firstName>
+        <middleName />
+        <lastName>Blackburn</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>B001243</bioguideId>
+          <gpoId>8154</gpoId>
+          <lisID>1748</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>B001243</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>5</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <firstName>MATT</firstName>
+        <middleName />
+        <lastName>SALMON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1009</lisID>
+          <bioguideId>S000018</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>S000018</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>9</district>
+        <state>NC</state>
+        <party>R</party>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <firstName>Robert</firstName>
+        <middleName />
+        <lastName>Pittenger</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2141</lisID>
+          <bioguideId>P000606</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>P000606</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>17</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Flores, Bill [R-TX-17]</fullName>
+        <firstName>Bill</firstName>
+        <middleName />
+        <lastName>Flores</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>F000461</bioguideId>
+          <gpoId>8173</gpoId>
+          <lisID>2065</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000461</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>19</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Neugebauer, Randy [R-TX-19]</fullName>
+        <firstName>Randy</firstName>
+        <middleName />
+        <lastName>Neugebauer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1758</lisID>
+          <gpoId>8175</gpoId>
+          <bioguideId>N000182</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>N000182</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>31</district>
+        <state>TX</state>
+        <party>R</party>
+        <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+        <firstName>John</firstName>
+        <middleName>R.</middleName>
+        <lastName>Carter</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1752</lisID>
+          <gpoId>8187</gpoId>
+          <bioguideId>C001051</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001051</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-02-03</sponsorshipDate>
+        <district>0</district>
+        <state>ND</state>
+        <party>R</party>
+        <fullName>Rep. Cramer, Kevin [R-ND-At Large]</fullName>
+        <firstName>Kevin</firstName>
+        <middleName />
+        <lastName>Cramer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2144</lisID>
+          <bioguideId>C001096</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>C001096</bioguideId>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>666</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-02-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-02-03</actionDate>
+          <text><![CDATA[<p>Amends the Energy Policy and Conservation Act to repeal authority to restrict the export of: (1) coal, petroleum products, natural gas, or petrochemical feedstocks; and (2) supplies of materials or equipment necessary to maintain or further exploration, production, refining, or transportation of energy supplies, or for the construction or maintenance of energy facilities within the United States.</p> <p>Prohibits any federal official from imposing or enforcing any restriction on the export of crude oil. </p> <p>Requires the Secretary of Energy to study and make recommendations on the appropriate size, composition, and purpose of the Strategic Petroleum Reserve. </p>]]></text>
+          <lastSummaryUpdateDate>2015-02-10T20:44:39Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BARTON:H.R. 666.Congress has the power to enact this legislation pursuantto the following:Article I Section 8``The Congress shall have Power . . . To regulate Commercewith foreign nations . . .''[Page H756]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>To adapt to changing crude oil market conditions.</title>
+    <latestAction>
+      <actionDate>2015-02-06</actionDate>
+      <text>Referred to the Subcommittee on Energy and Power.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T17:59:18Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>B000213</bioguideId>
+        <district>6</district>
+        <middleName>L.</middleName>
+        <state>TX</state>
+        <firstName>JOE</firstName>
+        <lastName>BARTON</lastName>
+        <identifiers>
+          <lisID>62</lisID>
+          <bioguideId>B000213</bioguideId>
+          <gpoId>8162</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

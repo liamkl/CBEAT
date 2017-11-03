@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers>
+      <item>
+        <number />
+        <calendar>U00512</calendar>
+      </item>
+    </calendarNumbers>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Financial services and investments</name>
+          </item>
+          <item>
+            <name>Securities</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-03-23</introducedDate>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2016-07-01T16:42:00Z</pubDate>
+        <title>H.R. 4855, Fix Crowdfunding Act</title>
+        <url>https://www.cbo.gov/publication/51763</url>
+      </item>
+    </cboCostEstimates>
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Patrick</firstName>
+        <party>R</party>
+        <fullName>Rep. McHenry, Patrick T. [R-NC-10]</fullName>
+        <state>NC</state>
+        <byRequestType />
+        <bioguideId>M001156</bioguideId>
+        <lastName>McHenry</lastName>
+        <middleName />
+        <district>10</district>
+        <identifiers>
+          <bioguideId>M001156</bioguideId>
+          <gpoId>8033</gpoId>
+          <lisID>1792</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <number>6427</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Received in the Senate.</text>
+          <actionDate>2016-12-06</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Creating Financial Prosperity for Businesses and Investors Act</latestTitle>
+      </item>
+      <item>
+        <number>3453</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (Sponsor introductory remarks on measure: CR S6238; text of measure as introduced: CR S6238)</text>
+          <actionDate>2016-09-28</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Crowdfunding Enhancement Act</latestTitle>
+      </item>
+      <item>
+        <number>5983</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Placed on the Union Calendar, Calendar No. 693.</text>
+          <actionDate>2016-12-20</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Financial CHOICE Act of 2016</latestTitle>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:04:40Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-04-14T19:38:57Z</date>
+                  <name>Hearings by</name>
+                </item>
+              </activities>
+              <name>Capital Markets and Government Sponsored Enterprises Subcommittee</name>
+              <systemCode>hsba16</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-07-05T21:19:17Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2016-06-16T19:10:22Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2016-03-23T13:05:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-03-24T04:53:00Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-07-06</actionDate>
+      <text>Received in the Senate.</text>
+    </latestAction>
+    <recordedVotes>
+      <recordedVote>
+        <sessionNumber>2</sessionNumber>
+        <congress>114</congress>
+        <date>2016-07-05T23:41:55Z</date>
+        <rollNumber>350</rollNumber>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+        <chamber>House</chamber>
+        <url>http://clerk.house.gov/evs/2016/roll350.xml</url>
+      </recordedVote>
+    </recordedVotes>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>18</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-07-06</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>19:41:59</actionTime>
+      </item>
+      <item>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 4 (Roll no. 350). (text: CR H4237)</text>
+        <actionCode>H37300</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4237</url>
+            <name>H4237</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2016/roll350.xml</url>
+            <name>Roll no. 350</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>19:41:55</actionTime>
+      </item>
+      <item>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 394 - 4 (Roll no. 350).(text: CR H4237)</text>
+        <actionCode>8000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4237</url>
+            <name>H4237</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2016/roll350.xml</url>
+            <name>Roll no. 350</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>19:41:55</actionTime>
+      </item>
+      <item>
+        <text>Considered as unfinished business. (consideration: CR H4244-4245)</text>
+        <actionCode>H30000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4244-4245</url>
+            <name>H4244-4245</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>19:34:18</actionTime>
+      </item>
+      <item>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <actionCode>H37220</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>18:32:52</actionTime>
+      </item>
+      <item>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4855.</text>
+        <actionCode>H8D000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4855</url>
+            <name>H.R. 4855</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>18:07:17</actionTime>
+      </item>
+      <item>
+        <text>Considered under suspension of the rules. (consideration: CR H4236-4240)</text>
+        <actionCode>H30000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H4236-4240</url>
+            <name>H4236-4240</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>18:07:16</actionTime>
+      </item>
+      <item>
+        <text>Mr. Garrett moved to suspend the rules and pass the bill, as amended.</text>
+        <actionCode>H30300</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-07-05</actionDate>
+        <actionTime>18:07:14</actionTime>
+      </item>
+      <item>
+        <text>Placed on the Union Calendar, Calendar No. 512.</text>
+        <actionCode>H12410</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Calendars</type>
+        <actionDate>2016-07-05</actionDate>
+      </item>
+      <item>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 114-661.</text>
+        <actionCode>H12200</actionCode>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/661</url>
+            <name>H. Rept. 114-661</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Committee</type>
+        <actionDate>2016-07-05</actionDate>
+      </item>
+      <item>
+        <text>Reported (Amended) by the Committee on Financial Services. H. Rept. 114-661.</text>
+        <actionCode>5000</actionCode>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/661</url>
+            <name>H. Rept. 114-661</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Committee</type>
+        <actionDate>2016-07-05</actionDate>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by the Yeas and Nays: 57 - 2.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-16</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-06-15</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-04-14</actionDate>
+        <committee>
+          <systemCode>hsba16</systemCode>
+          <name>Capital Markets and Government Sponsored Enterprises Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Hearings Held by the Subcommittee on Capital Markets and Government Sponsored Enterprises Prior to Referral.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+      <actionTypeCounts>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <considerationByHouse>2</considerationByHouse>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <introducedInSenate>1</introducedInSenate>
+        <generalDebate>1</generalDebate>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <actionStageOverride>2</actionStageOverride>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <reportedToHouse>1</reportedToHouse>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <placeholderTextForH>3</placeholderTextForH>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Fix Crowdfunding Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Fix Crowdfunding Act</b></p> <p>This bill amends the Securities Act of 1933 (Act) to increase from $1 million to $5 million the aggregate amount of securities sold to all investors by an issuer that qualify for the crowdfunding exemption from certain prohibitions relating to interstate commerce and the mails.</p> <p>(Crowdfunding is a method of capital formation where groups of people pool money, typically composed of small individual contributions, and often via Internet platforms, either to invest in a company or to support an effort by others to accomplish a specific goal.)</p>  <p>The bill amends the Jumpstart Our Business Startups Act (JOBS Act) to declare that a crowdfunding portal shall have a reasonable basis for disqualifying issuers from offering securities through the portal if through a background check it has found that an issuer has made an untrue statement of a material fact, omitted to state a material fact necessary to avoid making misleading statements, or engaged in fraud or deceit. No intermediary (crowdfunding portal) shall be liable for an issuer's material misstatements and omissions unless, in connection with the offer or sale of a security, it knowingly made or omitted such statements or engaged in fraud or deceit.</p> <p>The bill amends the Securities Exchange Act of 1934 to exempt crowdfunding securities transactions from its registration requirements. </p> <p>The Investment Company Act of 1940 is amended to exempt from the definition of investment company, and so exclude from coverage by that Act, any issuer that, for the purpose of making a crowdfunding offering, holds the securities of not more than one issuer eligible to offer securities (a single-purpose fund). </p> <p>The bill allows single-purpose funds to sell and offer for sale securities according to crowdfunding requirements, and considers them venture capital funds.</p> <p>The Act is further amended to permit an issuer, before commencing a crowdfunding offering, to solicit non-binding indications of interest from potential investors in the prospective offering if:</p> <ul> <li>no investor funds are accepted by the issuer, and</li> <li>any material change in the information furnished during the actual offering from the information furnished during the solicitation of interest is highlighted to potential investors in the information filed with the Securities and Exchange Commission. </li> </ul> <p>No enforcement action may be brought before May 16, 2021, against crowdfunding portals established under the JOBS Act. </p>]]></text>
+          <lastSummaryUpdateDate>2016-06-08T19:59:53Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-03-23</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-03-23T04:00:00Z</updateDate>
+        </item>
+        <item>
+          <text><![CDATA[<p><b>Fix Crowdfunding Act</b></p> <p>(Sec. 2) This bill amends the Securities Act of 1933 to allow a crowdfunding issuer to sell shares through a crowdfunding vehicle.</p> <p>(Crowdfunding is a method of capital formation in which groups of people pool money, typically composed of small individual contributions, and often via Internet platforms, either to invest in a company or to support an effort by others to accomplish a specific goal.)</p>  <p>A &quot;crowdfunding vehicle&quot; is a company that:</p> <ul> <li> has purposes limited to acquiring, holding, and disposing securities issued by a single company in one or more transactions and made pursuant to crowdfunding exemption transaction requirements;</li> <li>issues only one class of securities;</li> <li>receives no compensation for such acquisition, holding, or disposition of securities;</li> <li>is a co-issuer with the company whose securities it holds; and</li> <li>meets specified requirements related to disclosure obligations and the use of investment advisers.</li> </ul> <p>(Sec. 3) The bill amends the Securities Exchange Act of 1934 to revise the conditions upon which the Securities and Exchange Commission (SEC) shall exempt securities issued in crowdfunding transactions from SEC registration requirements.</p> <p> Under current law, holders of crowdfunded shares do not count toward the shareholder threshold beyond which an issuer is required to register its securities with the SEC, provided that the issuer: (1) is current in its annual reporting obligations, (2) retains the services of a registered transfer agent, and (3) has less than $25 million in assets. The bill maintains this exemption but removes and replaces the conditions upon which it applies. Specifically, holders of crowdfunded shares shall not count toward the shareholder threshold if the issuer has: (1) a public float of less than $75 million, and (2) annual revenues of less than $50 million.</p>]]></text>
+          <lastSummaryUpdateDate>2016-11-23T21:49:11Z</lastSummaryUpdateDate>
+          <name>Passed House amended</name>
+          <versionCode>36</versionCode>
+          <actionDate>2016-07-05</actionDate>
+          <actionDesc>Passed House amended</actionDesc>
+          <updateDate>2016-07-05T14:43:31Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>4855</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. McHENRY:H.R. 4855.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8: The Congress shall have Power To layand collect Taxes, Duties, Imposts and Excises, to pay theDebts and provide for the common Defence and general Welfareof the United States; but all Duties, Imposts and Excisesshall be uniform throughout the United States;[Page H1584]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-06-08</sponsorshipDate>
+        <district>6</district>
+        <state>AZ</state>
+        <party>R</party>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <firstName>David</firstName>
+        <middleName />
+        <lastName>Schweikert</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S001183</bioguideId>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <titleType>Short Titles as Passed House</titleType>
+        <title>Fix Crowdfunding Act</title>
+      </item>
+      <item>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <titleType>Short Titles as Reported to House</titleType>
+        <title>Fix Crowdfunding Act</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Fix Crowdfunding Act</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend provisions in the securities laws relating to regulation crowdfunding to raise the dollar amount limit and to clarify certain requirements and exclusions for funding portals established by such Act.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Fix Crowdfunding Act</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-661</citation>
+      </committeeReport>
+    </committeeReports>
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-09-21</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-09-21</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-09-21</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:06:08Z</updateDate>
+    <introducedDate>2016-09-21</introducedDate>
+    <recordedVotes />
+    <createDate>2016-09-22T05:32:37Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Mark</firstName>
+        <lastName>Sanford</lastName>
+        <state>SC</state>
+        <bioguideId>S000051</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <gpoId />
+          <lisID>1012</lisID>
+          <bioguideId>S000051</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Sanford, Mark [R-SC-1]</fullName>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>TRUTH in Government Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Transparent Recognition of Unjustified Tax Hoarding in Government Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend the Internal Revenue Code of 1986 to repeal the withholding of income and social security taxes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>TRUTH in Government Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <state>ND</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Cramer</lastName>
+        <middleName />
+        <district>0</district>
+        <fullName>Rep. Cramer, Kevin [R-ND-At Large]</fullName>
+        <identifiers>
+          <bioguideId>C001096</bioguideId>
+          <gpoId />
+          <lisID>2144</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001096</bioguideId>
+        <firstName>Kevin</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Brat</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Brat, Dave [R-VA-7]</fullName>
+        <identifiers>
+          <bioguideId>B001290</bioguideId>
+          <gpoId />
+          <lisID>2203</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001290</bioguideId>
+        <firstName>Dave</firstName>
+      </item>
+      <item>
+        <state>NC</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Meadows</lastName>
+        <middleName />
+        <district>11</district>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <identifiers>
+          <lisID>2142</lisID>
+          <gpoId />
+          <bioguideId>M001187</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001187</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SANFORD:H.R. 6098.Congress has the power to enact this legislation pursuantto the following:the Sixteenth Amendment of the U.S. Constitution[Page H5800]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects />
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>hswm00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-09-21T14:02:20Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-21</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>TRUTH in Government Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-09-21</actionDate>
+          <lastSummaryUpdateDate>2016-10-12T18:42:48Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Transparent Recognition of Unjustified Tax Hoarding in Government Act of 2016 or the TRUTH in Government Act of 2016 </b></p> <p>This bill repeals provisions of the Internal Revenue Code requiring the withholding of income, Social Security, and railroad retirement taxes from wages. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>6098</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

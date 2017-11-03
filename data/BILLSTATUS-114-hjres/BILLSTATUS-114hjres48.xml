@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-04-29T08:46:04Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Civil Rights and Liberties, Minority Issues</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-28T16:02:20Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-05-15T17:36:39Z</date>
+                </item>
+              </activities>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <systemCode>hsju10</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-04-28</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-15</actionDate>
+        <committee>
+          <systemCode>hsju10</systemCode>
+          <name>Constitution and Civil Justice Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>Proposing an amendment to the Constitution of the United States providing that the rights extended by the Constitution are the rights of natural persons only.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Proposing an amendment to the Constitution of the United States providing that the rights extended by the Constitution are the rights of natural persons only.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Civil Rights and Liberties, Minority Issues</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Constitution and constitutional amendments</name>
+          </item>
+          <item>
+            <name>Corporate finance and management</name>
+          </item>
+          <item>
+            <name>Elections, voting, political campaign regulation</name>
+          </item>
+          <item>
+            <name>First Amendment rights</name>
+          </item>
+          <item>
+            <name>Political advertising</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>Pocan</lastName>
+        <bioguideId>P000607</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Mark</firstName>
+        <state>WI</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2171</lisID>
+          <bioguideId>P000607</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Cartwright</lastName>
+        <bioguideId>C001090</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Matt</firstName>
+        <state>PA</state>
+        <identifiers>
+          <lisID>2159</lisID>
+          <gpoId />
+          <bioguideId>C001090</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <district>17</district>
+      </item>
+      <item>
+        <lastName>Huffman</lastName>
+        <bioguideId>H001068</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Jared</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>2101</lisID>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Ellison</lastName>
+        <bioguideId>E000288</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Keith</firstName>
+        <state>MN</state>
+        <identifiers>
+          <bioguideId>E000288</bioguideId>
+          <gpoId>8005</gpoId>
+          <lisID>1857</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Grijalva</lastName>
+        <bioguideId>G000551</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Raul</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <lisID>1708</lisID>
+          <gpoId>7804</gpoId>
+          <bioguideId>G000551</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>BLUMENAUER</lastName>
+        <bioguideId>B000574</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>EARL</firstName>
+        <state>OR</state>
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>DEFAZIO</lastName>
+        <bioguideId>D000191</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>PETER</firstName>
+        <state>OR</state>
+        <identifiers>
+          <lisID>279</lisID>
+          <bioguideId>D000191</bioguideId>
+          <gpoId>8117</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>SLAUGHTER</lastName>
+        <bioguideId>S000480</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>LOUISE</firstName>
+        <state>NY</state>
+        <identifiers>
+          <lisID>1069</lisID>
+          <gpoId>8089</gpoId>
+          <bioguideId>S000480</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <district>25</district>
+      </item>
+      <item>
+        <lastName>MCCOLLUM</lastName>
+        <bioguideId>M001143</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-09-18</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>BETTY</firstName>
+        <state>MN</state>
+        <identifiers>
+          <lisID>1653</lisID>
+          <gpoId>8004</gpoId>
+          <bioguideId>M001143</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Takano</lastName>
+        <bioguideId>T000472</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mark</firstName>
+        <state>CA</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2110</lisID>
+          <bioguideId>T000472</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <district>41</district>
+      </item>
+      <item>
+        <lastName>DAVIS</lastName>
+        <bioguideId>D000096</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>DANNY</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>1477</lisID>
+          <bioguideId>D000096</bioguideId>
+          <gpoId>7927</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>K.</middleName>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>LEE</lastName>
+        <bioguideId>L000551</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-22</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>BARBARA</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>1501</lisID>
+          <gpoId>7814</gpoId>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>CAPUANO</lastName>
+        <bioguideId>C001037</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-10-28</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>MICHAEL</firstName>
+        <state>MA</state>
+        <identifiers>
+          <lisID>1564</lisID>
+          <gpoId>7973</gpoId>
+          <bioguideId>C001037</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>JONES</lastName>
+        <bioguideId>J000255</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-11-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>WALTER</firstName>
+        <state>NC</state>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>Perlmutter</lastName>
+        <bioguideId>P000593</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ed</firstName>
+        <state>CO</state>
+        <identifiers>
+          <lisID>1835</lisID>
+          <bioguideId>P000593</bioguideId>
+          <gpoId>7865</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Perlmutter, Ed [D-CO-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>KAPTUR</lastName>
+        <bioguideId>K000009</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>MARCY</firstName>
+        <state>OH</state>
+        <identifiers>
+          <lisID>616</lisID>
+          <gpoId>8099</gpoId>
+          <bioguideId>K000009</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <district>9</district>
+      </item>
+      <item>
+        <lastName>MCDERMOTT</lastName>
+        <bioguideId>M000404</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-05-12</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JIM</firstName>
+        <state>WA</state>
+        <identifiers>
+          <bioguideId>M000404</bioguideId>
+          <gpoId>8211</gpoId>
+          <lisID>766</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>CONYERS</lastName>
+        <bioguideId>C000714</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-06-08</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JOHN</firstName>
+        <state>MI</state>
+        <identifiers>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>O'Rourke</lastName>
+        <bioguideId>O000170</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-06-09</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Beto</firstName>
+        <state>TX</state>
+        <identifiers>
+          <lisID>2162</lisID>
+          <gpoId />
+          <bioguideId>O000170</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <district>16</district>
+      </item>
+      <item>
+        <lastName>DeSaulnier</lastName>
+        <bioguideId>D000623</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-06-10</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mark</firstName>
+        <state>CA</state>
+        <identifiers>
+          <bioguideId>D000623</bioguideId>
+          <gpoId />
+          <lisID>2227</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <district>11</district>
+      </item>
+      <item>
+        <lastName>Lieu</lastName>
+        <bioguideId>L000582</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ted</firstName>
+        <state>CA</state>
+        <identifiers>
+          <bioguideId>L000582</bioguideId>
+          <gpoId />
+          <lisID>2230</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Lieu, Ted [D-CA-33]</fullName>
+        <district>33</district>
+      </item>
+      <item>
+        <lastName>Chu</lastName>
+        <bioguideId>C001080</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-09-07</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Judy</firstName>
+        <state>CA</state>
+        <identifiers>
+          <gpoId>7837</gpoId>
+          <lisID>1970</lisID>
+          <bioguideId>C001080</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Chu, Judy [D-CA-27]</fullName>
+        <district>27</district>
+      </item>
+      <item>
+        <lastName>Gabbard</lastName>
+        <bioguideId>G000571</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2016-12-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Tulsi</firstName>
+        <state>HI</state>
+        <identifiers>
+          <lisID>2122</lisID>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <district>2</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>48</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-04-28</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-04-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Constitutional Amendment</b></p> <p>Declares that: (1) the rights protected by the Constitution are the rights of natural persons only; (2) artificial entities (such as corporations, limited liability companies, and other entities established by the laws of any state, the United States, or any foreign state) shall have no rights under the Constitution and are subject to regulation by the people, through federal, state, or local law; and (3) the privileges of such artificial entities shall not be construed to be inherent or inalienable.</p> <p>Directs federal, state, and local government to: (1) regulate, limit, or prohibit contributions and expenditures, including a candidate's own contributions and expenditures, to ensure that all citizens, regardless of their economic status, have access to the political process and that no person gains, as a result of that person's money, substantially more access or ability to influence the election of any candidate for public office or any ballot measure; and (2) require that any permissible contributions and expenditures be publicly disclosed. Prohibits the judiciary from construing the spending of money to influence elections to be speech under the First Amendment.</p>]]></text>
+          <lastSummaryUpdateDate>2015-05-04T18:42:13Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. NOLAN:H.J. Res. 48.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 4 of the U.S. Constitution____________________[Page H2499]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Proposing an amendment to the Constitution of the United States providing that the rights extended by the Constitution are the rights of natural persons only.</title>
+    <latestAction>
+      <actionDate>2015-05-15</actionDate>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T17:58:14Z</updateDate>
+    <billType>HJRES</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>N000127</bioguideId>
+        <district>8</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>RICHARD</firstName>
+        <lastName>NOLAN</lastName>
+        <identifiers>
+          <lisID>867</lisID>
+          <gpoId />
+          <bioguideId>N000127</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

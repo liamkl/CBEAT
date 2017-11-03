@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-01-07</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-07</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:07:48Z</updateDate>
+    <introducedDate>2015-01-07</introducedDate>
+    <recordedVotes />
+    <createDate>2015-01-08T02:24:27Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Dean</firstName>
+        <lastName>Heller</lastName>
+        <state>NV</state>
+        <bioguideId>H001041</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1863</lisID>
+          <bioguideId>H001041</bioguideId>
+          <gpoId>8060</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Heller, Dean [R-NV]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Telephone Excise Tax Elimination Act of 2015</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>A bill to amend the Internal Revenue Code of 1986 to repeal the excise tax on telephone and other communications services.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Telephone Excise Tax Elimination Act of 2015</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Sales and excise taxes</name>
+          </item>
+          <item>
+            <name>Telephone and wireless communication</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Finance Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>ssfi00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-01-07T22:47:38Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-01-07</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Telephone Excise Tax Elimination Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-02-03T16:35:12Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Telephone Excise Tax Elimination Act of 2015</strong></p> <p>Amends the Internal Revenue Code to repeal the excise tax on communication services (i.e., local telephone service, toll telephone service, and teletypewriter exchange service). </p>]]></text>
+          <updateDate>2015-01-07T05:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-07</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>116</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-02</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-02</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-02</actionDate>
+      </item>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <lastName>Cole</lastName>
+        <bioguideId>C001053</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Tom</firstName>
+        <state>OK</state>
+        <identifiers>
+          <gpoId>8112</gpoId>
+          <lisID>1742</lisID>
+          <bioguideId>C001053</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Welch</lastName>
+        <bioguideId>W000800</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Peter</firstName>
+        <state>VT</state>
+        <identifiers>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Duckworth</lastName>
+        <bioguideId>D000622</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Tammy</firstName>
+        <state>IL</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2123</lisID>
+          <bioguideId>D000622</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Duckworth, Tammy [D-IL-8]</fullName>
+        <district>8</district>
+      </item>
+      <item>
+        <lastName>LEE</lastName>
+        <bioguideId>L000551</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>BARBARA</firstName>
+        <state>CA</state>
+        <identifiers>
+          <lisID>1501</lisID>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>Lipinski</lastName>
+        <bioguideId>L000563</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Daniel</firstName>
+        <state>IL</state>
+        <identifiers>
+          <bioguideId>L000563</bioguideId>
+          <gpoId>7923</gpoId>
+          <lisID>1781</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>William</middleName>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>RYAN</lastName>
+        <bioguideId>R000577</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>TIM</firstName>
+        <state>OH</state>
+        <identifiers>
+          <lisID>1756</lisID>
+          <bioguideId>R000577</bioguideId>
+          <gpoId>8107</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>Esty</lastName>
+        <bioguideId>E000293</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Elizabeth</firstName>
+        <state>CT</state>
+        <identifiers>
+          <lisID>2114</lisID>
+          <bioguideId>E000293</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>H.</middleName>
+        <fullName>Rep. Esty, Elizabeth H. [D-CT-5]</fullName>
+        <district>5</district>
+      </item>
+      <item>
+        <lastName>Kuster</lastName>
+        <bioguideId>K000382</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-06-02</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Ann</firstName>
+        <state>NH</state>
+        <identifiers>
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <district>2</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-06-02</introducedDate>
+    <latestAction>
+      <actionDate>2015-06-02</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <billNumber>2608</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Manufacturing Reinvestment Account Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to allow manufacturing businesses to establish tax-free manufacturing reinvestment accounts to assist them in providing for new equipment and facilities and workforce training.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Manufacturing Reinvestment Account Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. DeLAURO:H.R. 2608.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the United States Constitution.[Page H3758]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Manufacturing Reinvestment Account Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Manufacturing Reinvestment Account Act of 2015 </strong></p> <p>Amends the Internal Revenue Code to establish tax-exempt manufacturing reinvestment accounts (MRAs) for taxpayers engaged in a manufacturing business. Allows such manufacturers to make tax deductible cash payments into an MRA of the lesser of their domestic manufacturing gross receipts for the taxable year or $500,000. Permits expenditures from an MRA for expenses for property to be used in the manufacturing business and expenses for employee job training and workforce development. Imposes a 10% tax on amounts in an MRA that are not distributed within 7 years. Terminates the tax deduction for payments to an MRA 10 years after the enactment of this Act.</p>]]></text>
+          <lastSummaryUpdateDate>2015-06-09T21:24:55Z</lastSummaryUpdateDate>
+          <updateDate>2015-06-02T04:00:00Z</updateDate>
+          <actionDate>2015-06-02</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-06-02T14:01:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:09Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Income tax deductions</name>
+          </item>
+          <item>
+            <name>Income tax exclusion</name>
+          </item>
+          <item>
+            <name>Manufacturing</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-06-03T08:47:48Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <state>CT</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>DELAURO</lastName>
+        <firstName>ROSA</firstName>
+        <bioguideId>D000216</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>281</lisID>
+          <bioguideId>D000216</bioguideId>
+          <gpoId>7868</gpoId>
+        </identifiers>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

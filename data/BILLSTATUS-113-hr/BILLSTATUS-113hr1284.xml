@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2013-05-21</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Subcommittee Hearings Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-04-02</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsvr03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-03-20</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <links />
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-03-20</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <committee />
+        <actionCode>Intro-H</actionCode>
+        <links />
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-03-20</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <committee />
+        <actionCode>1000</actionCode>
+        <links />
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <prayer>1</prayer>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>5</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <byRequestType />
+        <district>26</district>
+        <fullName>Rep. Brownley, Julia [D-CA-26]</fullName>
+        <lastName>Brownley</lastName>
+        <middleName />
+        <state>CA</state>
+        <party>D</party>
+        <identifiers>
+          <lisID>2106</lisID>
+          <bioguideId>B001285</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Julia</firstName>
+        <bioguideId>B001285</bioguideId>
+      </item>
+    </sponsors>
+    <congress>113</congress>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Ms. BROWNLEY of California:H.R. 1284.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8.[Page H1719]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>1284</billNumber>
+    <cboCostEstimates />
+    <updateDate>2016-10-25T16:01:19Z</updateDate>
+    <laws />
+    <createDate>2013-03-21T07:01:11Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr03</systemCode>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Hearings by</name>
+                  <date>2013-05-21T18:39:14Z</date>
+                </item>
+                <item>
+                  <name>Referred to</name>
+                  <date>2013-04-02T19:47:33Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-03-20T14:02:30Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes />
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Authorizes payment under the Department of Veterans Affairs (VA) beneficiary travel program of travel expenses in connection with medical examination, treatment, or care of a veteran with vision impairment, a spinal cord injury or disorder, or double or multiple amputations whose travel is in connection with care provided through a VA special disabilities rehabilitation program, if such care is provided: (1) on an inpatient basis, or (2) while a veteran is provided temporary lodging at a VA facility in order to make such care more accessible.</p> <p>Requires a report from the Secretary to the congressional veterans committees on the travel program.</p>]]></text>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <lastSummaryUpdateDate>2013-04-16T16:41:58Z</lastSummaryUpdateDate>
+          <actionDate>2013-03-20</actionDate>
+          <updateDate>2013-03-20T04:00:00Z</updateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <cosponsors>
+      <item>
+        <firstName>Michael</firstName>
+        <fullName>Rep. Michaud, Michael H. [D-ME-2]</fullName>
+        <sponsorshipDate>2013-03-20</sponsorshipDate>
+        <middleName>H.</middleName>
+        <bioguideId>M001149</bioguideId>
+        <state>ME</state>
+        <identifiers>
+          <lisID>1730</lisID>
+          <bioguideId>M001149</bioguideId>
+          <gpoId>7985</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Michaud</lastName>
+        <district>2</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Beto</firstName>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <sponsorshipDate>2013-03-21</sponsorshipDate>
+        <middleName />
+        <bioguideId>O000170</bioguideId>
+        <state>TX</state>
+        <identifiers>
+          <lisID>2162</lisID>
+          <bioguideId>O000170</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>O'Rourke</lastName>
+        <district>16</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Kyrsten</firstName>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <sponsorshipDate>2013-06-03</sponsorshipDate>
+        <middleName />
+        <bioguideId>S001191</bioguideId>
+        <state>AZ</state>
+        <identifiers>
+          <bioguideId>S001191</bioguideId>
+          <lisID>2099</lisID>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Sinema</lastName>
+        <district>9</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>JOHN</firstName>
+        <fullName>Rep. Tierney, John F. [D-MA-6]</fullName>
+        <sponsorshipDate>2013-06-05</sponsorshipDate>
+        <middleName>F.</middleName>
+        <bioguideId>T000266</bioguideId>
+        <state>MA</state>
+        <identifiers>
+          <bioguideId>T000266</bioguideId>
+          <lisID>1535</lisID>
+          <gpoId>7971</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>TIERNEY</lastName>
+        <district>6</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Ron</firstName>
+        <fullName>Rep. Barber, Ron [D-AZ-2]</fullName>
+        <sponsorshipDate>2013-07-16</sponsorshipDate>
+        <middleName />
+        <bioguideId>B001279</bioguideId>
+        <state>AZ</state>
+        <identifiers>
+          <gpoId>8368</gpoId>
+          <lisID>2093</lisID>
+          <bioguideId>B001279</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Barber</lastName>
+        <district>2</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Ann</firstName>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <sponsorshipDate>2013-08-02</sponsorshipDate>
+        <middleName>M.</middleName>
+        <bioguideId>K000382</bioguideId>
+        <state>NH</state>
+        <identifiers>
+          <gpoId />
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kuster</lastName>
+        <district>2</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Matt</firstName>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <sponsorshipDate>2013-09-17</sponsorshipDate>
+        <middleName />
+        <bioguideId>C001090</bioguideId>
+        <state>PA</state>
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <lisID>2159</lisID>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cartwright</lastName>
+        <district>17</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>CORRINE</firstName>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <sponsorshipDate>2014-04-28</sponsorshipDate>
+        <middleName />
+        <bioguideId>B000911</bioguideId>
+        <state>FL</state>
+        <identifiers>
+          <gpoId>7875</gpoId>
+          <bioguideId>B000911</bioguideId>
+          <lisID>132</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BROWN</lastName>
+        <district>5</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Ann</firstName>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <sponsorshipDate>2014-05-29</sponsorshipDate>
+        <middleName />
+        <bioguideId>K000368</bioguideId>
+        <state>AZ</state>
+        <identifiers>
+          <lisID>1907</lisID>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kirkpatrick</lastName>
+        <district>1</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>CHAKA</firstName>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <sponsorshipDate>2014-06-17</sponsorshipDate>
+        <middleName />
+        <bioguideId>F000043</bioguideId>
+        <state>PA</state>
+        <identifiers>
+          <lisID>371</lisID>
+          <bioguideId>F000043</bioguideId>
+          <gpoId>8120</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>FATTAH</lastName>
+        <district>2</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>COLLIN</firstName>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <sponsorshipDate>2014-07-10</sponsorshipDate>
+        <middleName>C.</middleName>
+        <bioguideId>P000258</bioguideId>
+        <state>MN</state>
+        <identifiers>
+          <bioguideId>P000258</bioguideId>
+          <lisID>910</lisID>
+          <gpoId>8007</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>PETERSON</lastName>
+        <district>7</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Pete</firstName>
+        <fullName>Rep. Gallego, Pete P. [D-TX-23]</fullName>
+        <sponsorshipDate>2014-07-30</sponsorshipDate>
+        <middleName>P.</middleName>
+        <bioguideId>G000572</bioguideId>
+        <state>TX</state>
+        <identifiers>
+          <gpoId />
+          <bioguideId>G000572</bioguideId>
+          <lisID>2164</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Gallego</lastName>
+        <district>23</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Timothy</firstName>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <sponsorshipDate>2014-07-31</sponsorshipDate>
+        <middleName>J.</middleName>
+        <bioguideId>W000799</bioguideId>
+        <state>MN</state>
+        <identifiers>
+          <bioguideId>W000799</bioguideId>
+          <lisID>1856</lisID>
+          <gpoId>8001</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Walz</lastName>
+        <district>1</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Mark</firstName>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <sponsorshipDate>2014-09-18</sponsorshipDate>
+        <middleName>E.</middleName>
+        <bioguideId>A000369</bioguideId>
+        <state>NV</state>
+        <identifiers>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Amodei</lastName>
+        <district>2</district>
+        <party>R</party>
+      </item>
+      <item>
+        <firstName>GRACE</firstName>
+        <fullName>Rep. Napolitano, Grace F. [D-CA-32]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName>F.</middleName>
+        <bioguideId>N000179</bioguideId>
+        <state>CA</state>
+        <identifiers>
+          <lisID>1602</lisID>
+          <bioguideId>N000179</bioguideId>
+          <gpoId>7843</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NAPOLITANO</lastName>
+        <district>32</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Steven</firstName>
+        <fullName>Rep. Horsford, Steven A. [D-NV-4]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName>A.</middleName>
+        <bioguideId>H001066</bioguideId>
+        <state>NV</state>
+        <identifiers>
+          <lisID>2147</lisID>
+          <bioguideId>H001066</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Horsford</lastName>
+        <district>4</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>SHEILA</firstName>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName />
+        <bioguideId>J000032</bioguideId>
+        <state>TX</state>
+        <identifiers>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+          <lisID>588</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>JACKSON LEE</lastName>
+        <district>18</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>ELEANOR</firstName>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName>HOLMES</middleName>
+        <bioguideId>N000147</bioguideId>
+        <state>DC</state>
+        <identifiers>
+          <gpoId>7871</gpoId>
+          <bioguideId>N000147</bioguideId>
+          <lisID>868</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NORTON</lastName>
+        <district>0</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>Patrick</firstName>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName />
+        <bioguideId>M001191</bioguideId>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2117</lisID>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <district>18</district>
+        <party>D</party>
+      </item>
+      <item>
+        <firstName>WALTER</firstName>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <sponsorshipDate>2014-11-12</sponsorshipDate>
+        <middleName>B.</middleName>
+        <bioguideId>J000255</bioguideId>
+        <state>NC</state>
+        <identifiers>
+          <bioguideId>J000255</bioguideId>
+          <lisID>612</lisID>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>JONES</lastName>
+        <district>3</district>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <relatedBills>
+      <item>
+        <congress>113</congress>
+        <latestAction>
+          <actionDate>2013-05-09</actionDate>
+          <text>Committee on Veterans' Affairs. Hearings held. Hearings printed: S.Hrg. 113-203.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>633</number>
+        <type>S</type>
+        <latestTitle>A bill to amend title 38, United States Code, to provide for coverage under the beneficiary travel program of the Department of Veterans Affairs of certain disabled veterans for travel in connection with certain special disabilities rehabilitation, and for other purposes.</latestTitle>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Disability and paralysis</name>
+          </item>
+          <item>
+            <name>Hearing, speech, and vision care</name>
+          </item>
+          <item>
+            <name>Neurological disorders</name>
+          </item>
+          <item>
+            <name>Transportation costs</name>
+          </item>
+          <item>
+            <name>Veterans' education, employment, rehabilitation</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <chamberCode />
+        <title>To amend title 38, United States Code, to provide for coverage under the beneficiary travel program of the Department of Veterans Affairs of certain disabled veterans for travel for certain special disabilities rehabilitation, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+      </item>
+      <item>
+        <chamberCode />
+        <title>To amend title 38, United States Code, to provide for coverage under the beneficiary travel program of the Department of Veterans Affairs of certain disabled veterans for travel for certain special disabilities rehabilitation, and for other purposes.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes />
+    <calendarNumbers />
+    <title>To amend title 38, United States Code, to provide for coverage under the beneficiary travel program of the Department of Veterans Affairs of certain disabled veterans for travel for certain special disabilities rehabilitation, and for other purposes.</title>
+    <billType>HR</billType>
+    <introducedDate>2013-03-20</introducedDate>
+    <amendments />
+    <latestAction>
+      <actionDate>2013-05-21</actionDate>
+      <text>Subcommittee Hearings Held.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

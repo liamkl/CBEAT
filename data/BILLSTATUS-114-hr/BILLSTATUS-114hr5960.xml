@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-08</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-08</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-08</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:59Z</updateDate>
+    <introducedDate>2016-09-08</introducedDate>
+    <recordedVotes />
+    <createDate>2016-09-09T05:03:08Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Renee</firstName>
+        <lastName>Ellmers</lastName>
+        <state>NC</state>
+        <bioguideId>E000291</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2036</lisID>
+          <gpoId>8025</gpoId>
+          <bioguideId>E000291</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>L.</middleName>
+        <fullName>Rep. Ellmers, Renee L. [R-NC-2]</fullName>
+        <district>2</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Consumer Healthcare Insurance Transparency Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend title XXVII of the Public Health Service Act to make publicly available, through 2021, the amount of premium rate increases of health insurance plans in advance of such increases taking effect, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Consumer Healthcare Insurance Transparency Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. ELLMERS of North Carolina:H.R. 5960.Congress has the power to enact this legislation pursuantto the following:The Commerce Clause--Article 1, Section 8, Clause 3: ``Toregulate Commerce with foreign nations, and among the severalstates, and with the Indian tribes;''[Page H5224]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects />
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Energy and Commerce Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsif00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-09-08T14:02:45Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-08</actionDate>
+      <text>Referred to the House Committee on Energy and Commerce.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Consumer Healthcare Insurance Transparency Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-09-29T11:34:05Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-09-08</actionDate>
+          <text><![CDATA[<p><b>The Consumer Healthcare Insurance Transparency Act of 2016</b></p> This bill amends the Public Health Service Act to require the Department of Health and Human Services to publish information on changes in group health plan and health insurance premiums for the next year for small employers and individuals. The information must be published by November 1 of each year.]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-08T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5960</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-12-08</actionDate>
+        <committee>
+          <systemCode>ssva00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-12-08</actionDate>
+      </item>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:12:01Z</updateDate>
+    <introducedDate>2016-12-08</introducedDate>
+    <recordedVotes />
+    <createDate>2016-12-09T05:17:03Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>JEFF</firstName>
+        <lastName>FLAKE</lastName>
+        <state>AZ</state>
+        <bioguideId>F000444</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1633</lisID>
+          <bioguideId>F000444</bioguideId>
+          <gpoId>7803</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Flake, Jeff [R-AZ]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Clean Up the Department of Veterans Affairs Act of 2016</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>A bill to amend title 38, United States Code, to prohibit the Secretary of Veterans Affairs from employing any individual who has been convicted of a felony and medical personnel who have had their medical licenses or credentials revoked or suspended, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Clean Up the Department of Veterans Affairs Act of 2016</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects />
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Veterans' Affairs Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-12-08T23:26:48Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>ssva00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-12-08</actionDate>
+      <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Clean Up the Department of Veterans Affairs Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2017-03-20T20:06:23Z</lastSummaryUpdateDate>
+          <actionDate>2016-12-08</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2016-12-08T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Clean Up the Department of Veterans Affairs Act of 2016</strong></p> <p>This bill prohibits the Department of Veterans Affairs (VA) from employing any individual who has been convicted of any of the following state or federal criminal offenses for which the minimum term of imprisonment is more than one year:</p> <ul> <li>a sex offense,</li> <li>an offense involving the sale or distribution of a controlled substance,</li> <li>fraud,</li> <li>theft,</li> <li>assault, </li> <li>battery, </li> <li>a crime of violence, </li> <li>an offense involving the use of a firearm or other deadly weapon, </li> <li>bank robbery, or </li> <li>kidnapping.</li> </ul>  <p>The VA may not employ any individual in a health care position who has had a license or credential relating to such position revoked or suspended. </p> <p>The VA shall: (1) conduct background checks before hiring, and (2) terminate any individual employed by the VA in violation of this bill in a manner consistent with merit system principles.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3535</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <bioguideId>R000580</bioguideId>
+        <middleName>J.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Roskam, Peter J. [R-IL-6]</fullName>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <identifiers>
+          <lisID>1848</lisID>
+          <bioguideId>R000580</bioguideId>
+          <gpoId>7926</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Peter</firstName>
+        <lastName>Roskam</lastName>
+        <state>IL</state>
+        <district>6</district>
+      </item>
+      <item>
+        <bioguideId>T000460</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Thompson, Mike [D-CA-5]</fullName>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <identifiers>
+          <lisID>1593</lisID>
+          <bioguideId>T000460</bioguideId>
+          <gpoId>7806</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>MIKE</firstName>
+        <lastName>THOMPSON</lastName>
+        <state>CA</state>
+        <district>5</district>
+      </item>
+      <item>
+        <bioguideId>S000522</bioguideId>
+        <middleName>H.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Smith, Christopher H. [R-NJ-4]</fullName>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <identifiers>
+          <lisID>1071</lisID>
+          <gpoId>8046</gpoId>
+          <bioguideId>S000522</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>CHRISTOPHER</firstName>
+        <lastName>SMITH</lastName>
+        <state>NJ</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>F000445</bioguideId>
+        <middleName>Randy</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <identifiers>
+          <bioguideId>F000445</bioguideId>
+          <gpoId>8786</gpoId>
+          <lisID>1683</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>J.</firstName>
+        <lastName>Forbes</lastName>
+        <state>VA</state>
+        <district>4</district>
+      </item>
+    </cosponsors>
+    <notes />
+    <titles>
+      <item>
+        <title>Medicare Independence at Home Medical Practice Demonstration Improvement Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend title XVIII of the Social Security Act to provide for an increase in the limit on the length of an agreement under the Medicare independence at home medical practice demonstration program.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Medicare Independence at Home Medical Practice Demonstration Improvement Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-18</actionDate>
+        <committee>
+          <systemCode>hswm02</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-08</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-01</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <text>Referred to House Energy and Commerce</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-01</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <text>Referred to House Ways and Means</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-01</actionDate>
+        <actionCode>H11100-A</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-01</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-05-01</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:29Z</updateDate>
+    <billNumber>2196</billNumber>
+    <latestAction>
+      <text>Referred to the Subcommittee on Health.</text>
+      <actionDate>2015-05-18</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2015-05-01</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <bioguideId>B001248</bioguideId>
+          <gpoId>8182</gpoId>
+          <lisID>1751</lisID>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>B001248</bioguideId>
+        <state>TX</state>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <middleName>C.</middleName>
+        <district>26</district>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+      </item>
+    </sponsors>
+    <billType>HR</billType>
+    <createDate>2015-05-02T08:57:31Z</createDate>
+    <relatedBills>
+      <item>
+        <number>971</number>
+        <latestAction>
+          <actionDate>2015-07-30</actionDate>
+          <text>Became Public Law No: 114-39.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <latestTitle>Medicare Independence at Home Medical Practice Demonstration Improvement Act of 2015</latestTitle>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Home and outpatient care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BURGESS:H.R. 2196.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1 of the United StatesConstitution[Page H2793]</pre>]]></constitutionalAuthorityStatementText>
+    <title>Medicare Independence at Home Medical Practice Demonstration Improvement Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Medicare Independence at Home Medical Practice Demonstration Improvement Act of 2015 </b></p> <p> Amends title XVIII (Medicare) of the Social Security Act to increase from a three-year to a five-year period the length of an agreement with an independence at home medical practice under the Medicare Independence at Home Medical Practice Demonstration Program.</p>]]></text>
+          <lastSummaryUpdateDate>2015-05-12T20:54:04Z</lastSummaryUpdateDate>
+          <updateDate>2015-05-01T04:00:00Z</updateDate>
+          <actionDate>2015-05-01</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <date>2015-05-18T13:28:24Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <date>2015-05-01T13:00:16Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-05-08T15:28:49Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2015-05-01T13:00:21Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

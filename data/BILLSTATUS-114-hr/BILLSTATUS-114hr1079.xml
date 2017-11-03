@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-02-26T06:14:49Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsed14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-04-29T14:02:08Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-02-25T15:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-02-25</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <systemCode>hsed14</systemCode>
+          <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-02-25</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-02-25</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-02-25</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Counseling for Career Choice Act</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Elementary and Secondary Education Act of 1965 to provide grants to States to establish a comprehensive school counseling program.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Counseling for Career Choice Act</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Educational guidance</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Employment and training programs</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Teaching, teachers, curricula</name>
+          </item>
+          <item>
+            <name>Vocational and technical education</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Thompson, Glenn [R-PA-5]</fullName>
+        <district>5</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Glenn</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>T000467</bioguideId>
+          <gpoId>8123</gpoId>
+          <lisID>1952</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>T000467</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Thompson</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Brown, Corrine [D-FL-5]</fullName>
+        <district>5</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>CORRINE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>132</lisID>
+          <gpoId>7875</gpoId>
+          <bioguideId>B000911</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>B000911</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BROWN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <district>41</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2110</lisID>
+          <bioguideId>T000472</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>T000472</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Takano</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>OH</state>
+        <firstName>TIM</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000577</bioguideId>
+          <gpoId>8107</gpoId>
+          <lisID>1756</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>R000577</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>RYAN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Larsen, Rick [D-WA-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>WA</state>
+        <firstName>RICK</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1675</lisID>
+          <bioguideId>L000560</bioguideId>
+          <gpoId>8206</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>L000560</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>LARSEN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>TN</state>
+        <firstName>Steve</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cohen</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <district>9</district>
+        <middleName>R.</middleName>
+        <state>MA</state>
+        <firstName>William</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7975</gpoId>
+          <lisID>2025</lisID>
+          <bioguideId>K000375</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>K000375</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Keating</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <district>1</district>
+        <middleName>N.</middleName>
+        <state>RI</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001084</bioguideId>
+          <gpoId>8139</gpoId>
+          <lisID>2055</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>C001084</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cicilline</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bustos, Cheri [D-IL-17]</fullName>
+        <district>17</district>
+        <middleName />
+        <state>IL</state>
+        <firstName>Cheri</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2127</lisID>
+          <bioguideId>B001286</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>B001286</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bustos</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Payne, Donald M., Jr. [D-NJ-10]</fullName>
+        <district>10</district>
+        <middleName>M.</middleName>
+        <state>NJ</state>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8373</gpoId>
+          <lisID>2097</lisID>
+          <bioguideId>P000604</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>P000604</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Payne</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kennedy, Joseph P., III [D-MA-4]</fullName>
+        <district>4</district>
+        <middleName>P.</middleName>
+        <state>MA</state>
+        <firstName>Joseph</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2172</lisID>
+          <gpoId />
+          <bioguideId>K000379</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>K000379</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kennedy</lastName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1079</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-03-19T14:55:04Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Counseling for Career Choice Act</strong></p> <p>Amends the Elementary and Secondary Education Act of 1965 to direct the Secretary of Education to award competitive establishment grants to states to develop and implement comprehensive school career counseling programs that provide students with effective postsecondary education planning and career guidance services. </p> <p>Requires each program to be aligned with a statewide counseling framework that: (1) encompasses grades 6 through 12 and postsecondary education; and (2) is developed in consultation with, or exists with the support of, at least five stakeholders that include at least one business or industry and at least one local educational agency (LEA) or secondary school.</p> <p>Requires establishment grant funds to be used to:</p> <ul> <li>train and hire school counselors;</li> <li>identify regional workforce trends and postsecondary options available in the state;</li> <li>establish, improve, or coordinate postsecondary opportunities;</li> <li>recommend curricular improvements to better align curricula with workforce trends and available postsecondary opportunities;</li> <li>establish partnerships with American Job Centers; and</li> <li>leverage the resources and emerging technologies being developed by stakeholders to support the counseling framework.</li> </ul> <p>Allows states to carry out program activities directly or through competitive subgrants to LEAs, or consortia consisting of an LEA, and one or more LEAs, educational service agencies, tribal organizations, postsecondary institutions, or nonprofit organizations with expertise in counseling or career and technical education.</p> <p>Directs the Secretary to reserve at least 10%, but no more than 20%, of the amount appropriated for this Act's counseling program to award competitive capacity-building grants to states that do not receive an establishment grant.</p>]]></text>
+          <updateDate>2015-02-25T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-02-25</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LANGEVIN:H.R. 1079.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1.[Page H1165]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Counseling for Career Choice Act</title>
+    <latestAction>
+      <actionDate>2015-04-29</actionDate>
+      <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T17:59:55Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>L000559</bioguideId>
+        <district>2</district>
+        <middleName>R.</middleName>
+        <state>RI</state>
+        <firstName>JAMES</firstName>
+        <lastName>LANGEVIN</lastName>
+        <identifiers>
+          <gpoId>8140</gpoId>
+          <lisID>1668</lisID>
+          <bioguideId>L000559</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

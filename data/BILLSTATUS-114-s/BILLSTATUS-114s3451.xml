@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Young Child Tax Credit Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to amend the Internal Revenue Code of 1986 to provide a refundable and advanceable tax credit for individuals with young children.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Young Child Tax Credit Act</title>
+      </item>
+    </titles>
+    <actions>
+      <item>
+        <actionDate>2016-09-28</actionDate>
+        <committee>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-09-28</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <lastName>Warren</lastName>
+        <bioguideId>W000817</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2016-12-09</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>MA</state>
+        <firstName>Elizabeth</firstName>
+        <fullName>Sen. Warren, Elizabeth [D-MA]</fullName>
+        <identifiers>
+          <bioguideId>W000817</bioguideId>
+          <gpoId />
+          <lisID>2182</lisID>
+        </identifiers>
+        <middleName>A.</middleName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-09-28</introducedDate>
+    <latestAction>
+      <actionDate>2016-09-28</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links />
+    </latestAction>
+    <billNumber>3451</billNumber>
+    <amendments />
+    <laws />
+    <createDate>2016-09-29T05:34:48Z</createDate>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers />
+    <title>Young Child Tax Credit Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2016-09-28</actionDate>
+          <lastSummaryUpdateDate>2016-10-07T14:59:39Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2016-09-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Young Child Tax Credit Act</strong></p> <p>This bill amends the Internal Revenue Code to allow individual taxpayers a new refundable tax credit based on the number of their qualifying children under the age of three and the taxpayer's adjusted gross income. Advance payments of credit amounts shall be made to taxpayers each month. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>4693</number>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Referred to the House Committee on Ways and Means.</text>
+          <actionDate>2016-03-03</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Young Child Tax Credit Act</latestTitle>
+      </item>
+    </relatedBills>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2016-09-28T22:30:56Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:11:56Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Tax treatment of families</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Brown, Sherrod [D-OH]</fullName>
+        <byRequestType />
+        <party>D</party>
+        <lastName>BROWN</lastName>
+        <firstName>SHERROD</firstName>
+        <bioguideId>B000944</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>136</lisID>
+          <bioguideId>B000944</bioguideId>
+          <gpoId>8309</gpoId>
+        </identifiers>
+        <state>OH</state>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <placeholderTextForB>1</placeholderTextForB>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-02-09</actionDate>
+        <committee>
+          <name>Aviation Subcommittee</name>
+          <systemCode>hspw05</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Aviation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-08</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-02-08</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Sponsor introductory remarks on measure. (CR E131)</text>
+        <actionCode>B00100</actionCode>
+        <type>IntroReferral</type>
+        <links>
+          <link>
+            <name>E131</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/extensions-of-remarks-section/page/E131</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionDate>2016-02-08</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2016-02-08</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:04:18Z</updateDate>
+    <introducedDate>2016-02-08</introducedDate>
+    <recordedVotes />
+    <createDate>2016-02-09T09:26:12Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <state>TN</state>
+        <bioguideId>C001068</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>SEAT Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Safe Egress in Air Travel Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To direct the Secretary of Transportation to issue regulations that establish minimum dimensions for passenger seats on aircraft operated by any air carrier in the provision of interstate air transportation or intrastate air transportation, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>SEAT Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <district>44</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Hahn, Janice [D-CA-44]</fullName>
+        <firstName>Janice</firstName>
+        <middleName />
+        <lastName>Hahn</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>8360</gpoId>
+          <lisID>2089</lisID>
+          <bioguideId>H001063</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>H001063</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-09</sponsorshipDate>
+        <district>18</district>
+        <state>TX</state>
+        <party>D</party>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <firstName>SHEILA</firstName>
+        <middleName />
+        <lastName>JACKSON LEE</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>588</lisID>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>J000032</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <district>13</district>
+        <state>NY</state>
+        <party>D</party>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <firstName>CHARLES</firstName>
+        <middleName>B.</middleName>
+        <lastName>RANGEL</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>944</lisID>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>R000053</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-24</sponsorshipDate>
+        <district>16</district>
+        <state>IL</state>
+        <party>R</party>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <firstName>Adam</firstName>
+        <middleName />
+        <lastName>Kinzinger</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2014</lisID>
+          <gpoId>7931</gpoId>
+          <bioguideId>K000378</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>K000378</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-25</sponsorshipDate>
+        <district>0</district>
+        <state>DC</state>
+        <party>D</party>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <middleName>HOLMES</middleName>
+        <lastName>NORTON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>N000147</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-01</sponsorshipDate>
+        <district>8</district>
+        <state>MN</state>
+        <party>D</party>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <firstName>RICHARD</firstName>
+        <middleName />
+        <lastName>NOLAN</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>867</lisID>
+          <gpoId />
+          <bioguideId>N000127</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>N000127</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-15</sponsorshipDate>
+        <district>8</district>
+        <state>VA</state>
+        <party>D</party>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <firstName>Donald</firstName>
+        <middleName>S.</middleName>
+        <lastName>Beyer</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2272</lisID>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>B001292</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-14</sponsorshipDate>
+        <district>1</district>
+        <state>HI</state>
+        <party>D</party>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <firstName>Mark</firstName>
+        <middleName />
+        <lastName>Takai</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>T000473</bioguideId>
+          <gpoId />
+          <lisID>2240</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000473</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-07</sponsorshipDate>
+        <district>5</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Thompson, Mike [D-CA-5]</fullName>
+        <firstName>MIKE</firstName>
+        <middleName />
+        <lastName>THOMPSON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>T000460</bioguideId>
+          <gpoId>7806</gpoId>
+          <lisID>1593</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000460</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. COHEN:H.R. 4490.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 3 of the U.S. Constitution[Page H595]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Aviation and airports</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Department of Transportation</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-02-09T21:52:02Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Aviation Subcommittee</name>
+              <systemCode>hspw05</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-02-08T19:00:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-02-09</actionDate>
+      <text>Referred to the Subcommittee on Aviation.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>SEAT Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-02-08</actionDate>
+          <lastSummaryUpdateDate>2016-03-23T19:33:22Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-02-08T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Safe Egress in Air Travel Act of 2016 or the SEAT Act of 2016</strong></p> <p>This bill directs the Department of Transportation to issue regulations: (1) to establish minimum dimensions (including width, length, and seat pitch) for passenger seats on aircraft operated by any air carrier providing interstate or intrastate air transportation; and (2) for the safety and health of passengers.</p> <ul> </ul>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4490</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

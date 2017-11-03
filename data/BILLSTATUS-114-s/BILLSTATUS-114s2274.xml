@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <lastName>CANTWELL</lastName>
+        <bioguideId>C000127</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-11-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>WA</state>
+        <firstName>MARIA</firstName>
+        <fullName>Sen. Cantwell, Maria [D-WA]</fullName>
+        <identifiers>
+          <bioguideId>C000127</bioguideId>
+          <gpoId>8288</gpoId>
+          <lisID>172</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>UDALL</lastName>
+        <bioguideId>U000039</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-11-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>NM</state>
+        <firstName>TOM</firstName>
+        <fullName>Sen. Udall, Tom [D-NM]</fullName>
+        <identifiers>
+          <bioguideId>U000039</bioguideId>
+          <gpoId>8260</gpoId>
+          <lisID>1567</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Franken</lastName>
+        <bioguideId>F000457</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-11-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>MN</state>
+        <firstName>Al</firstName>
+        <fullName>Sen. Franken, Al [D-MN]</fullName>
+        <identifiers>
+          <lisID>1969</lisID>
+          <bioguideId>F000457</bioguideId>
+          <gpoId>8339</gpoId>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Daines</lastName>
+        <bioguideId>D000618</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-11-10</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>MT</state>
+        <firstName>Steve</firstName>
+        <fullName>Sen. Daines, Steve [R-MT]</fullName>
+        <identifiers>
+          <lisID>2138</lisID>
+          <gpoId />
+          <bioguideId>D000618</bioguideId>
+        </identifiers>
+        <middleName />
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide for rental assistance for homeless or at-risk Indian veterans.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A bill to provide for rental assistance for homeless or at-risk Indian veterans.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>Senate</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-10</actionDate>
+        <committee>
+          <name>Indian Affairs Committee</name>
+          <systemCode>slia00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-11-10</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <notes />
+    <committeeReports />
+    <updateDate>2017-10-27T18:10:30Z</updateDate>
+    <billNumber>2274</billNumber>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Indian Affairs.</text>
+      <actionDate>2015-11-10</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2015-11-10</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1829</lisID>
+          <gpoId>8258</gpoId>
+          <bioguideId>T000464</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <party>D</party>
+        <bioguideId>T000464</bioguideId>
+        <state>MT</state>
+        <firstName>Jon</firstName>
+        <lastName>Tester</lastName>
+        <middleName />
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+      </item>
+    </sponsors>
+    <billType>S</billType>
+    <createDate>2015-11-11T13:04:31Z</createDate>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Homelessness and emergency shelter</name>
+          </item>
+          <item>
+            <name>Housing and community development funding</name>
+          </item>
+          <item>
+            <name>Indian social and development programs</name>
+          </item>
+          <item>
+            <name>Veterans' loans, housing, homeless programs</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Housing and Community Development</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <title>A bill to provide for rental assistance for homeless or at-risk Indian veterans.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2015-11-10</actionDate>
+          <lastSummaryUpdateDate>2015-11-18T20:35:24Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-11-10T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the United States Housing Act of 1937 to authorize the Department of Housing and Urban Development (HUD) to carry out a rental assistance and supportive housing program, in conjunction with the Department of Veterans Affairs (VA), for the benefit of Indian veterans who are homeless or at-risk of homelessness and who are residing on or near Indian areas.</p> <p> Rental assistance shall be: (1) made available to recipients eligible for housing assistance block grants under the Native American Housing Assistance and Self-Determination Act of 1996; and (2) awarded based on need, administrative capacity, and any other HUD funding criteria.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <policyArea>
+      <name>Housing and Community Development</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Other</type>
+          <chamber>Senate</chamber>
+          <name>Indian Affairs Committee</name>
+          <systemCode>slia00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-11-10T21:15:57Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

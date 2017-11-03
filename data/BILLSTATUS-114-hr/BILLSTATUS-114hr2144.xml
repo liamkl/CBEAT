@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:26Z</updateDate>
+    <introducedDate>2015-04-30</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-01T14:01:10Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Todd</firstName>
+        <lastName>Young</lastName>
+        <state>IN</state>
+        <bioguideId>Y000064</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2019</lisID>
+          <bioguideId>Y000064</bioguideId>
+          <gpoId>7948</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>C.</middleName>
+        <fullName>Rep. Young, Todd C. [R-IN-9]</fullName>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Program Management Improvement and Accountability Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 31, United States Code, to establish entities tasked with improving program and project management in Federal agencies, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Program Management Improvement and Accountability Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>C001078</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>Gerald</firstName>
+        <identifiers>
+          <lisID>1959</lisID>
+          <bioguideId>C001078</bioguideId>
+          <gpoId>8202</gpoId>
+        </identifiers>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <district>11</district>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <lastName>Connolly</lastName>
+        <middleName>E.</middleName>
+      </item>
+      <item>
+        <bioguideId>C000266</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>STEVE</firstName>
+        <identifiers>
+          <bioguideId>C000266</bioguideId>
+          <gpoId>8091</gpoId>
+          <lisID>186</lisID>
+        </identifiers>
+        <fullName>Rep. Chabot, Steve [R-OH-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-06-25</sponsorshipDate>
+        <lastName>CHABOT</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001284</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IN</state>
+        <firstName>Susan</firstName>
+        <identifiers>
+          <lisID>2129</lisID>
+          <bioguideId>B001284</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Brooks, Susan W. [R-IN-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2015-11-03</sponsorshipDate>
+        <lastName>Brooks</lastName>
+        <middleName>W.</middleName>
+      </item>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MO</state>
+        <firstName>SAM</firstName>
+        <identifiers>
+          <lisID>1656</lisID>
+          <gpoId>8014</gpoId>
+          <bioguideId>G000546</bioguideId>
+        </identifiers>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <lastName>GRAVES</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>W000813</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IN</state>
+        <firstName>Jackie</firstName>
+        <identifiers>
+          <gpoId />
+          <lisID>2128</lisID>
+          <bioguideId>W000813</bioguideId>
+        </identifiers>
+        <fullName>Rep. Walorski, Jackie [R-IN-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2015-12-07</sponsorshipDate>
+        <lastName>Walorski</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001105</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>Barbara</firstName>
+        <identifiers>
+          <bioguideId>C001105</bioguideId>
+          <gpoId />
+          <lisID>2273</lisID>
+        </identifiers>
+        <fullName>Rep. Comstock, Barbara [R-VA-10]</fullName>
+        <district>10</district>
+        <sponsorshipDate>2015-12-11</sponsorshipDate>
+        <lastName>Comstock</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>K000378</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>Adam</firstName>
+        <identifiers>
+          <lisID>2014</lisID>
+          <gpoId>7931</gpoId>
+          <bioguideId>K000378</bioguideId>
+        </identifiers>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <district>16</district>
+        <sponsorshipDate>2016-02-02</sponsorshipDate>
+        <lastName>Kinzinger</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001293</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>Mike</firstName>
+        <identifiers>
+          <lisID>2249</lisID>
+          <bioguideId>B001293</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <district>8</district>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <lastName>Bishop</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000588</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NM</state>
+        <firstName>Stevan</firstName>
+        <identifiers>
+          <lisID>1738</lisID>
+          <bioguideId>P000588</bioguideId>
+          <gpoId>8057</gpoId>
+        </identifiers>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <district>2</district>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <lastName>Pearce</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>H001051</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+        <firstName>Richard</firstName>
+        <identifiers>
+          <lisID>2044</lisID>
+          <gpoId>8085</gpoId>
+          <bioguideId>H001051</bioguideId>
+        </identifiers>
+        <fullName>Rep. Hanna, Richard L. [R-NY-22]</fullName>
+        <district>22</district>
+        <sponsorshipDate>2016-02-25</sponsorshipDate>
+        <lastName>Hanna</lastName>
+        <middleName>L.</middleName>
+      </item>
+      <item>
+        <bioguideId>C001090</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>PA</state>
+        <firstName>Matt</firstName>
+        <identifiers>
+          <lisID>2159</lisID>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <district>17</district>
+        <sponsorshipDate>2016-03-01</sponsorshipDate>
+        <lastName>Cartwright</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>D000616</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TN</state>
+        <firstName>Scott</firstName>
+        <identifiers>
+          <lisID>2062</lisID>
+          <bioguideId>D000616</bioguideId>
+          <gpoId>8151</gpoId>
+        </identifiers>
+        <fullName>Rep. DesJarlais, Scott [R-TN-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-03-10</sponsorshipDate>
+        <lastName>DesJarlais</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000601</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MS</state>
+        <firstName>Steven</firstName>
+        <identifiers>
+          <gpoId>8022</gpoId>
+          <lisID>2035</lisID>
+          <bioguideId>P000601</bioguideId>
+        </identifiers>
+        <fullName>Rep. Palazzo, Steven M. [R-MS-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2016-04-11</sponsorshipDate>
+        <lastName>Palazzo</lastName>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <bioguideId>D000622</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>Tammy</firstName>
+        <identifiers>
+          <lisID>2123</lisID>
+          <bioguideId>D000622</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Duckworth, Tammy [D-IL-8]</fullName>
+        <district>8</district>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <lastName>Duckworth</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>S000250</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>PETE</firstName>
+        <identifiers>
+          <bioguideId>S000250</bioguideId>
+          <gpoId>8188</gpoId>
+          <lisID>1525</lisID>
+        </identifiers>
+        <fullName>Rep. Sessions, Pete [R-TX-32]</fullName>
+        <district>32</district>
+        <sponsorshipDate>2016-05-16</sponsorshipDate>
+        <lastName>SESSIONS</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000395</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>KY</state>
+        <firstName>HAROLD</firstName>
+        <identifiers>
+          <bioguideId>R000395</bioguideId>
+          <gpoId>7957</gpoId>
+          <lisID>977</lisID>
+        </identifiers>
+        <fullName>Rep. Rogers, Harold [R-KY-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-05-24</sponsorshipDate>
+        <lastName>ROGERS</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. YOUNG of Indiana:H.R. 2144.Congress has the power to enact this legislation pursuantto the following:The authority to enact this bill is derived from, but maynot be limited to, Article I, Section 8, Clause 3 of theUnited States Constitution, and Article I, Section 8, Clause18 of the United States Constitution.[Page H2771]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Federal officials</name>
+          </item>
+          <item>
+            <name>Government employee pay, benefits, personnel management</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Office of Management and Budget (OMB)</name>
+          </item>
+          <item>
+            <name>Office of Personnel Management (OPM)</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Oversight and Government Reform Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-30T14:07:00Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>hsgo00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-04-30</actionDate>
+      <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Program Management Improvement Accountability Act</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1550</number>
+        <latestAction>
+          <actionDate>2016-12-14</actionDate>
+          <text>Became Public Law No: 114-264.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Program Management Improvement and Accountability Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-07-20T18:44:05Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-30</actionDate>
+          <text><![CDATA[<p><strong>Program Management Improvement and Accountability Act of 2015</strong></p> <p>Establishes as additional functions of the Deputy Director for Management of the Office of Management and Budget (OMB) requirements to:</p> <ul> <li>adopt and oversee government-wide standards, policies, and guidelines for program and project management for executive agencies; </li> <li> chair the Program Management Policy Council (established by this Act);</li> <li> issue regulations and establish standards and policies for executive agencies in accordance with nationally accredited standards for program and project management planning and delivery issues; </li> <li> engage with the private sector; </li> <li> conduct portfolio reviews to address programs identified as high risk by the Government Accountability Office;</li> <li> conduct portfolio reviews of agency programs at least annually; and </li> <li> establish a five-year strategic plan for program and project management.</li> </ul> <p> Requires the head of each federal agency that is required to have a Chief Financial Officer to designate a Program Management Improvement Officer to implement agency program management policies and develop a written strategy for enhancing the role of program managers within the agency. </p> <p>Establishes the Program Management Policy Council within OMB to act as the principal interagency forum for improving agency practices related to program and project management.</p> <p>Requires the Office of Personnel Management to issue regulations that: (1) identify key skills and competencies needed for an agency program and project manager, (2) establish a new job series for program and project management within an agency, and (3) establish a new career path for program and project managers. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-30T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2144</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

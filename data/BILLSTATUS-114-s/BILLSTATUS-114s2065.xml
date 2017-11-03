@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2015-09-22</introducedDate>
+    <calendarNumbers />
+    <updateDate>2017-10-27T18:10:17Z</updateDate>
+    <cosponsors>
+      <item>
+        <firstName>Bob</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <state>PA</state>
+        <bioguideId>C001070</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Casey</lastName>
+        <middleName />
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <identifiers>
+          <bioguideId>C001070</bioguideId>
+          <gpoId>8282</gpoId>
+          <lisID>1828</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Reed, Jack [D-RI]</fullName>
+        <state>RI</state>
+        <bioguideId>R000122</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>REED</lastName>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <identifiers>
+          <bioguideId>R000122</bioguideId>
+          <gpoId>8272</gpoId>
+          <lisID>949</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>SHERROD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Brown, Sherrod [D-OH]</fullName>
+        <state>OH</state>
+        <bioguideId>B000944</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BROWN</lastName>
+        <middleName />
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <identifiers>
+          <lisID>136</lisID>
+          <bioguideId>B000944</bioguideId>
+          <gpoId>8309</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <notes />
+    <laws />
+    <latestAction>
+      <actionDate>2015-09-22</actionDate>
+      <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+      <links />
+    </latestAction>
+    <title>Working Student Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-09-22T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2015-09-22</actionDate>
+          <text><![CDATA[<p><b>Working Student Act of 2015 </b></p> <p>This bill amends title IV (Student Assistance) of the Higher Education Act of 1965 to modify the income protection allowance levels used to calculate a student's expected family contribution and need for financial assistance. (An income protection allowance is an amount for basic living expenses that is protected from being considered income available for postsecondary educational expenses.)</p> <p> Specifically, the bill increases, in academic year 2016-2017, income protection allowance levels for students who are dependent, independent without non-spouse dependents (e.g., children), and independent with non-spouse dependents to reduce such students' income available (and increase need for financial assistance) to cover postsecondary educational expenses.</p> <p> The Department of Education must, in subsequent years, adjust the income protection allowance levels for inflation.</p>]]></text>
+          <lastSummaryUpdateDate>2016-09-07T15:04:29Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>Working Student Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2016-03-23</actionDate>
+          <text>Referred to the Subcommittee on Higher Education and Workforce Training.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>4433</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <congress>114</congress>
+    <version>1.0.0</version>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>sshr00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-09-22T15:46:18Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <committeeReports />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Student aid and college costs</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <item>
+        <actionDate>2015-09-22</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-09-22</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <firstName>TAMMY</firstName>
+        <bioguideId>B001230</bioguideId>
+        <byRequestType />
+        <identifiers>
+          <lisID>1558</lisID>
+          <gpoId>8215</gpoId>
+          <bioguideId>B001230</bioguideId>
+        </identifiers>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <lastName>BALDWIN</lastName>
+        <party>D</party>
+        <middleName />
+        <state>WI</state>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <billNumber>2065</billNumber>
+    <recordedVotes />
+    <cboCostEstimates />
+    <billType>S</billType>
+    <titles>
+      <item>
+        <title>Working Student Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>A bill to amend the Higher Education Act of 1965 to increase the income protection allowances.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Working Student Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <createDate>2015-09-23T08:46:11Z</createDate>
+    <amendments />
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-04-22</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Foreign Affairs</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee>
+          <systemCode>hsfa00</systemCode>
+          <name>Foreign Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Armed Services</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee>
+          <systemCode>hsas00</systemCode>
+          <name>Armed Services Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to House Energy and Commerce</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Armed Services, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-04-21</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>3</billReferrals>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-04-27</sponsorshipDate>
+        <bioguideId>M001187</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>M001187</bioguideId>
+          <gpoId />
+          <lisID>2142</lisID>
+        </identifiers>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Meadows</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>11</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-05-10</sponsorshipDate>
+        <bioguideId>D000621</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>D000621</bioguideId>
+          <gpoId />
+          <lisID>2116</lisID>
+        </identifiers>
+        <fullName>Rep. DeSantis, Ron [R-FL-6]</fullName>
+        <party>R</party>
+        <firstName>Ron</firstName>
+        <lastName>DeSantis</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-04-21</introducedDate>
+    <latestAction>
+      <actionDate>2016-04-22</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <billNumber>5031</billNumber>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Zika Eradication and Good Government Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To enhance Federal response and preparedness with respect to Zika virus.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Zika Eradication and Good Government Act of 2016</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Pages H1923-H1924]From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CURBELO of Florida:H.R. 5031.Congress has the power to enact this legislation pursuantto the following:[[Page H1924]]Article 1, Section 8, Clause 3, The Commerce Clause</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Zika Eradication and Good Government Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Zika Eradication and Good Government Act of 2016</strong></p> <p>This bill authorizes amounts made available to any department or agency for Ebola response and preparedness under the Consolidated and Further Continuing Appropriations Act, 2015 to be used for Zika virus response and preparedness. No additional funds are authorized to be appropriated or otherwise made available for Zika virus response and preparedness until such amounts have been fully obligated.</p> <p>The President shall: (1) require all federal officials and employees responsible for insect-bourne infectious disease response and preparedness, including efforts to eradicate such disease, to cooperate by sharing best practices; and (2) report to Congress at specified intervals on the programs and activities of the federal government for Zika virus response and preparedness.</p>]]></text>
+          <lastSummaryUpdateDate>2016-08-01T17:05:05Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-04-21</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-04-21T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2016-04-22T18:36:08Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2016-04-21T13:03:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Foreign Affairs Committee</name>
+          <systemCode>hsfa00</systemCode>
+          <activities>
+            <item>
+              <date>2016-04-21T13:03:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+          <activities>
+            <item>
+              <date>2016-04-21T13:03:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:53Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Emergency planning and evacuation</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Health promotion and preventive care</name>
+          </item>
+          <item>
+            <name>Infectious and parasitic diseases</name>
+          </item>
+          <item>
+            <name>Insects</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-04-22T05:10:03Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <state>FL</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Curbelo</lastName>
+        <firstName>Carlos</firstName>
+        <bioguideId>C001107</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2235</lisID>
+          <gpoId />
+          <bioguideId>C001107</bioguideId>
+        </identifiers>
+        <district>26</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

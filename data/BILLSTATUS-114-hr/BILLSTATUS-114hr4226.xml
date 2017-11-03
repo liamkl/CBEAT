@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-01-05</actionDate>
+        <committee>
+          <systemCode>hsag16</systemCode>
+          <name>General Farm Commodities and Risk Management Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on General Farm Commodities and Risk Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-10</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Agriculture.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-10</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-10</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:04:01Z</updateDate>
+    <introducedDate>2015-12-10</introducedDate>
+    <recordedVotes />
+    <createDate>2015-12-11T15:43:49Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Carlos</firstName>
+        <lastName>Curbelo</lastName>
+        <state>FL</state>
+        <bioguideId>C001107</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2235</lisID>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <district>26</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Agricultural Act of 2014 to provide relief for agricultural producers adversely impacted by the Oriental fruit fly.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To amend the Agricultural Act of 2014 to provide relief for agricultural producers adversely impacted by the Oriental fruit fly.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Graham, Gwen [D-FL-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Gwen</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2234</lisID>
+          <bioguideId>G000575</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-12-10</sponsorshipDate>
+        <bioguideId>G000575</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Graham</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <district>18</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Patrick</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2117</lisID>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <bioguideId>M001191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Murphy</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Diaz-Balart, Mario [R-FL-25]</fullName>
+        <district>25</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Mario</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7893</gpoId>
+          <lisID>1717</lisID>
+          <bioguideId>D000600</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-18</sponsorshipDate>
+        <bioguideId>D000600</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Diaz-Balart</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-27]</fullName>
+        <district>27</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>ILEANA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>985</lisID>
+          <bioguideId>R000435</bioguideId>
+          <gpoId>7890</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-18</sponsorshipDate>
+        <bioguideId>R000435</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ROS-LEHTINEN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Jolly, David W. [R-FL-13]</fullName>
+        <district>13</district>
+        <middleName>W.</middleName>
+        <state>FL</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2199</lisID>
+          <bioguideId>J000296</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-01-13</sponsorshipDate>
+        <bioguideId>J000296</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Jolly</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Rooney, Thomas J. [R-FL-17]</fullName>
+        <district>17</district>
+        <middleName>J.</middleName>
+        <state>FL</state>
+        <firstName>Thomas</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1916</lisID>
+          <gpoId>7888</gpoId>
+          <bioguideId>R000583</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-01-28</sponsorshipDate>
+        <bioguideId>R000583</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Rooney</lastName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CURBELO of Florida:H.R. 4226.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3The Congress shall have Power * * * To regulate Commercewith foreign Nations, and among the several States, and withthe Indian Tribes.[Page H9271]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Agricultural insurance</name>
+          </item>
+          <item>
+            <name>Agricultural prices, subsidies, credit</name>
+          </item>
+          <item>
+            <name>Disaster relief and insurance</name>
+          </item>
+          <item>
+            <name>Fruit and vegetables</name>
+          </item>
+          <item>
+            <name>Insects</name>
+          </item>
+          <item>
+            <name>Pest management</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Agriculture and Food</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Agriculture Committee</name>
+          <subcommittees>
+            <item>
+              <name>General Farm Commodities and Risk Management Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2016-01-05T14:16:32Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsag16</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-12-10T15:03:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsag00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-01-05</actionDate>
+      <text>Referred to the Subcommittee on General Farm Commodities and Risk Management.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To amend the Agricultural Act of 2014 to provide relief for agricultural producers adversely impacted by the Oriental fruit fly.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill amends the Agricultural Act of 2014 to require the Department of Agriculture (USDA) to reimburse producers on farms for losses that are due to the inability to plant, grow, or ship a crop to market due to a federal or state government quarantine to control the Oriental fruit fly. </p> <p>The payments are limited to 70% of the market value of the affected crop and end as soon as possible once the producer is able to resume marketing a crop after the quarantine is lifted. </p> <p>In implementing this bill, USDA must not discriminate against or penalize a producer that obtained, or did not obtain, crop insurance, noninsured crop disaster assistance, or similar risk protection for the same type of crop, except that assistance provided by this bill must be reduced by the amount of assistance provided for the same losses under any other federal law. </p> <p>Producers receiving assistance under this bill must agree to obtain crop insurance, noninsured crop disaster assistance, or similar risk protection for the same type of crop for at least the next two crop years, if the insurance, assistance, or protection is available.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-12-10T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-01-07T19:10:44Z</lastSummaryUpdateDate>
+          <actionDate>2015-12-10</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4226</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

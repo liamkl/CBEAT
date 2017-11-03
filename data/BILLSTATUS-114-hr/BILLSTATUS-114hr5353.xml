@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Historic sites and heritage areas</name>
+          </item>
+          <item>
+            <name>Lakes and rivers</name>
+          </item>
+          <item>
+            <name>New York State</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-05-26</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Tom</firstName>
+        <party>R</party>
+        <fullName>Rep. Reed, Tom [R-NY-23]</fullName>
+        <state>NY</state>
+        <byRequestType />
+        <bioguideId>R000585</bioguideId>
+        <lastName>Reed</lastName>
+        <middleName />
+        <district>23</district>
+        <identifiers>
+          <lisID>1982</lisID>
+          <bioguideId>R000585</bioguideId>
+          <gpoId>8090</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <latestTitle>Finger Lakes National Heritage Area Study Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2016-06-15</actionDate>
+          <text>Committee on Energy and Natural Resources Senate Subcommittee on National Parks. Hearings held.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>1824</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:05:18Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsii00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsii10</systemCode>
+              <name>Federal Lands Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-06-02T14:34:02Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-05-26T13:03:10Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-05-27T05:26:26Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-06-02</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-06-02</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionDate>2016-05-26</actionDate>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-05-26</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-05-26</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Finger Lakes National Heritage Area Study Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-06-03T21:18:34Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Finger Lakes National Heritage Area Study Act</b></p> <p>This bill directs the Department of the Interior to assess the suitability and feasibility of designating specified counties and other areas in the state of New York as the Finger Lakes National Heritage Area. </p>]]></text>
+          <updateDate>2016-05-26T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-05-26</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>5353</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. REED:H.R. 5353.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18: ``To make all laws whichshall be necessary and proper for carrying into execution theforegoing powers, and all other powers vested by thisConstitution in the government of the United States, or inany department or officer thereof.''[Page H3296]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <bioguideId>K000386</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Katko, John [R-NY-24]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <bioguideId>K000386</bioguideId>
+          <gpoId />
+          <lisID>2264</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>John</firstName>
+        <lastName>Katko</lastName>
+        <state>NY</state>
+        <district>24</district>
+      </item>
+      <item>
+        <bioguideId>S000480</bioguideId>
+        <middleName>M.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <lisID>1069</lisID>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>LOUISE</firstName>
+        <lastName>SLAUGHTER</lastName>
+        <state>NY</state>
+        <district>25</district>
+      </item>
+      <item>
+        <bioguideId>S000248</bioguideId>
+        <middleName>E.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Serrano, Jose E. [D-NY-15]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <bioguideId>S000248</bioguideId>
+          <gpoId>8077</gpoId>
+          <lisID>1042</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>JOSE</firstName>
+        <lastName>SERRANO</lastName>
+        <state>NY</state>
+        <district>15</district>
+      </item>
+      <item>
+        <bioguideId>T000469</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <bioguideId>T000469</bioguideId>
+          <gpoId>8082</gpoId>
+          <lisID>1942</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Paul</firstName>
+        <lastName>Tonko</lastName>
+        <state>NY</state>
+        <district>20</district>
+      </item>
+      <item>
+        <bioguideId>C001038</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <lisID>1604</lisID>
+          <gpoId>8068</gpoId>
+          <bioguideId>C001038</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>JOSEPH</firstName>
+        <lastName>CROWLEY</lastName>
+        <state>NY</state>
+        <district>14</district>
+      </item>
+      <item>
+        <bioguideId>G000564</bioguideId>
+        <middleName>P.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Gibson, Christopher P. [R-NY-19]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <lisID>2043</lisID>
+          <bioguideId>G000564</bioguideId>
+          <gpoId>8081</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Christopher</firstName>
+        <lastName>Gibson</lastName>
+        <state>NY</state>
+        <district>19</district>
+      </item>
+      <item>
+        <bioguideId>C001067</bioguideId>
+        <middleName>D.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Clarke, Yvette D. [D-NY-9]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <lisID>1864</lisID>
+          <gpoId>8072</gpoId>
+          <bioguideId>C001067</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Yvette</firstName>
+        <lastName>Clarke</lastName>
+        <state>NY</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>H001038</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+          <lisID>1794</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Brian</firstName>
+        <lastName>Higgins</lastName>
+        <state>NY</state>
+        <district>26</district>
+      </item>
+      <item>
+        <bioguideId>C001092</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <sponsorshipDate>2016-05-26</sponsorshipDate>
+        <identifiers>
+          <lisID>2151</lisID>
+          <bioguideId>C001092</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Chris</firstName>
+        <lastName>Collins</lastName>
+        <state>NY</state>
+        <district>27</district>
+      </item>
+      <item>
+        <bioguideId>S001196</bioguideId>
+        <middleName>M.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Stefanik, Elise M. [R-NY-21]</fullName>
+        <sponsorshipDate>2016-05-27</sponsorshipDate>
+        <identifiers>
+          <gpoId />
+          <lisID>2263</lisID>
+          <bioguideId>S001196</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Elise</firstName>
+        <lastName>Stefanik</lastName>
+        <state>NY</state>
+        <district>21</district>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Finger Lakes National Heritage Area Study Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To authorize the Secretary of the Interior to conduct a study to assess the suitability and feasibility of designating certain land as the Finger Lakes National Heritage Area, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Finger Lakes National Heritage Area Study Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

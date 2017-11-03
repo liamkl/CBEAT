@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-05-06</actionDate>
+        <committee>
+          <systemCode>hsii06</systemCode>
+          <name>Energy and Mineral Resources Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionDate>2016-04-27</actionDate>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-04-27</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-04-27</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:04:58Z</updateDate>
+    <introducedDate>2016-04-27</introducedDate>
+    <recordedVotes />
+    <createDate>2016-04-28T05:20:23Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>DON</firstName>
+        <lastName>YOUNG</lastName>
+        <state>AK</state>
+        <bioguideId>Y000033</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>Y000033</bioguideId>
+          <gpoId>7785</gpoId>
+          <lisID>1256</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>E.</middleName>
+        <fullName>Rep. Young, Don [R-AK-At Large]</fullName>
+        <district>0</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To more accurately identify and transfer subsurface gravel sources originally intended to be made available to the Ukpeagvik Inupiat Corporation in exchange for its relinquishment of related property rights.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To more accurately identify and transfer subsurface gravel sources originally intended to be made available to the Ukpeagvik Inupiat Corporation in exchange for its relinquishment of related property rights.</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. YOUNG of Alaska:H.R. 5086.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, Clause 2 of the United StatesConstitution.[Page H2067]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Alaska</name>
+          </item>
+          <item>
+            <name>Alaska Natives and Hawaiians</name>
+          </item>
+          <item>
+            <name>Indian lands and resources rights</name>
+          </item>
+          <item>
+            <name>Land transfers</name>
+          </item>
+          <item>
+            <name>Oil and gas</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-04-27T14:01:35Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsii06</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-05-06T21:47:55Z</date>
+                </item>
+              </activities>
+              <name>Energy and Mineral Resources Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-05-06</actionDate>
+      <text>Referred to the Subcommittee on Energy and Mineral Resources.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To more accurately identify and transfer subsurface gravel sources originally intended to be made available to the Ukpeagvik Inupiat Corporation in exchange for its relinquishment of related property rights.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2016-04-27</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-04-27T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the Barrow Gas Field Transfer Act of 1984 with respect to the conveyance to the Ukpeagvik Inupiat Corporation (UIC) of all right, title, and interest held by the United States to sand and gravel underlying the surface estate owned by UIC in the Barrow gas fields and Walakpa gas discovery site.</p> <p>This conveyance shall include all U.S. right, title, and interest to specified sand and gravel deposits underlying the surface estate owned by UIC that are contiguous to the Barrow gas fields. </p>]]></text>
+          <lastSummaryUpdateDate>2016-05-06T19:57:24Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5086</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-07-15</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-07-15</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-07-15</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Chabot, Steve [R-OH-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>OH</state>
+        <firstName>STEVE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>186</lisID>
+          <bioguideId>C000266</bioguideId>
+          <gpoId>8091</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-09-11</sponsorshipDate>
+        <bioguideId>C000266</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CHABOT</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-07-15</introducedDate>
+    <latestAction>
+      <actionDate>2015-07-15</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <billNumber>3083</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Bring Jobs Back to America Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to make permanent the dividends received deduction for repatriated foreign earnings, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Bring Jobs Back to America Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. WILLIAMS:H.R. 3083.Congress has the power to enact this legislation pursuantto the following:The Congress shall have Power to lay and collect Taxes,Duties, Imposts and Excises, to pay the Debts and provide forthe common Defence and general Welfare of the United States;but all Duties, Imposts and Excises shall be uniformthroughout the United States.____________________[Page H5238]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Bring Jobs Back to America Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Bring Jobs Back to America Act of 2015</strong></p> <p>Amends the Internal Revenue Code to reduce the tax rate on current and accumulated foreign earnings of U.S. corporations reinvested in the United States from 35% to 5% and make such lower rate permanent.</p>]]></text>
+          <lastSummaryUpdateDate>2015-08-21T13:38:44Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-15T04:00:00Z</updateDate>
+          <actionDate>2015-07-15</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>5158</number>
+        <congress>114</congress>
+        <type>HR</type>
+        <latestTitle>Make America Competitive Act of 2016</latestTitle>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <latestAction>
+          <text>Referred to the House Committee on Ways and Means.</text>
+          <actionDate>2016-04-29</actionDate>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-15T14:03:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:45Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Corporate finance and management</name>
+          </item>
+          <item>
+            <name>Income tax rates</name>
+          </item>
+          <item>
+            <name>Taxation of foreign income</name>
+          </item>
+          <item>
+            <name>U.S. and foreign investments</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-07-16T09:11:25Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Williams, Roger [R-TX-25]</fullName>
+        <state>TX</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Williams</lastName>
+        <firstName>Roger</firstName>
+        <bioguideId>W000816</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>W000816</bioguideId>
+          <gpoId />
+          <lisID>2165</lisID>
+        </identifiers>
+        <district>25</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

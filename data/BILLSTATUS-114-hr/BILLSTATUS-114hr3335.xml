@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-07-30T08:30:33Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Veterans' Affairs Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-07-29T14:04:20Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-08-06T20:19:15Z</date>
+                </item>
+              </activities>
+              <systemCode>hsvr09</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsvr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-07-29</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2015-08-06</actionDate>
+        <committee>
+          <systemCode>hsvr09</systemCode>
+          <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-07-29</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-07-29</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-07-29</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>Access to Veterans Benefits Improvement Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend title 38, United States Code, to provide certain employees of Members of Congress and certain employees of State or local governmental agencies with access to case-tracking information of the Department of Veterans Affairs.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Access to Veterans Benefits Improvement Act</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Right of privacy</name>
+          </item>
+          <item>
+            <name>Veterans' education, employment, rehabilitation</name>
+          </item>
+          <item>
+            <name>Veterans' loans, housing, homeless programs</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+          <item>
+            <name>Veterans' pensions and compensation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>Bost</lastName>
+        <bioguideId>B001295</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Mike</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>2243</lisID>
+          <gpoId />
+          <bioguideId>B001295</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Bost, Mike [R-IL-12]</fullName>
+        <district>12</district>
+      </item>
+      <item>
+        <lastName>Walz</lastName>
+        <bioguideId>W000799</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Timothy</firstName>
+        <state>MN</state>
+        <identifiers>
+          <lisID>1856</lisID>
+          <bioguideId>W000799</bioguideId>
+          <gpoId>8001</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <district>1</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3335</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-09-04T16:49:50Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Access to Veterans Benefits Improvement Act </strong></p> <p>Directs the Department of Veterans Affairs (VA) to provide veterans' case-tracking information access to employees of a Member of Congress or of a state or local governmental agency assisting veterans with benefit claims. </p> <p>Directs the VA to ensure that such access does not: (1) allow the employee to modify the data in the case-tracking system, and (2) include access to medical records. Requires such employees to complete a certification course on privacy issues before receiving such access.</p>]]></text>
+          <updateDate>2015-07-29T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-07-29</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. RODNEY DAVIS of Illinois:H.R. 3335.Congress has the power to enact this legislation pursuantto the following:Title I, Section 8[Page H5772]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Access to Veterans Benefits Improvement Act</title>
+    <latestAction>
+      <actionDate>2015-08-06</actionDate>
+      <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:03:00Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Davis, Rodney [R-IL-13]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>D000619</bioguideId>
+        <district>13</district>
+        <middleName />
+        <state>IL</state>
+        <firstName>Rodney</firstName>
+        <lastName>Davis</lastName>
+        <identifiers>
+          <bioguideId>D000619</bioguideId>
+          <gpoId />
+          <lisID>2126</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

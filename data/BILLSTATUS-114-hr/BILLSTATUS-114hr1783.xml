@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-14</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-14</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-14</actionDate>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors />
+    <introducedDate>2015-04-14</introducedDate>
+    <latestAction>
+      <actionDate>2015-04-30</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+      <links />
+    </latestAction>
+    <billNumber>1783</billNumber>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Buffalo Bayou National Heritage Area Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To establish the Buffalo Bayou National Heritage Area in the State of Texas, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Buffalo Bayou National Heritage Area Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. GENE GREEN of Texas:H.R. 1783.Congress has the power to enact this legislation pursuantto the following:Clause 2 of Section 3 of Article IV of the Constitution:The Congress shall have Power to dispose of and make allneedful Rules and Regulations respecting the Territory orother Property belonging to the United States; and nothing inthis Constitution shall be so construed as to Prejudice anyClaims of the United States, or of any particular State.[Page H2211]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Buffalo Bayou National Heritage Area Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Buffalo Bayou National Heritage Area Act</b></p> <p> Establishes the Buffalo Bayou National Heritage Area in Texas. Designates the Buffalo Bayou National Heritage Area Corporation as the management entity for the Heritage Area. Requires the Corporation to submit a management plan for the Heritage Area. Sets forth requirements for the approval or disapproval of such plan. </p> <p>Specifies this Act's effect on private property protections and water rights with regard to the Heritage Area. Bars anything in this Act from being meant as modifying the Rio Grande Natural Area Act. </p>]]></text>
+          <lastSummaryUpdateDate>2015-07-10T18:19:16Z</lastSummaryUpdateDate>
+          <updateDate>2015-04-14T04:00:00Z</updateDate>
+          <actionDate>2015-04-14</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsii10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-04-30T21:48:10Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Federal Lands Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-14T14:03:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:55Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Historic sites and heritage areas</name>
+          </item>
+          <item>
+            <name>Texas</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-04-15T08:46:10Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <state>TX</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>GREEN</lastName>
+        <firstName>GENE</firstName>
+        <bioguideId>G000410</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>G000410</bioguideId>
+          <gpoId>8185</gpoId>
+          <lisID>462</lisID>
+        </identifiers>
+        <district>29</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

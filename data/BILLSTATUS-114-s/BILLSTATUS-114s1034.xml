@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-04</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 66.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2015-05-04</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Environment and Public Works. Reported by Senator Inhofe without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Committee on Environment and Public Works. Reported by Senator Inhofe without amendment. Without written report.</text>
+        <actionCode>14000</actionCode>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Committee</type>
+        <actionDate>2015-05-04</actionDate>
+      </item>
+      <item>
+        <actionDate>2015-04-29</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Environment and Public Works. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-21</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-21</actionDate>
+      </item>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <reportedToSenate>2</reportedToSenate>
+        <orderedReported>1</orderedReported>
+        <referredToCommittee>1</referredToCommittee>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:08:58Z</updateDate>
+    <introducedDate>2015-04-21</introducedDate>
+    <recordedVotes />
+    <createDate>2015-04-22T08:46:12Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>ROGER</firstName>
+        <lastName>WICKER</lastName>
+        <state>MS</state>
+        <bioguideId>W000437</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>W000437</bioguideId>
+          <gpoId>8263</gpoId>
+          <lisID>1226</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>F.</middleName>
+        <fullName>Sen. Wicker, Roger F. [R-MS]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to designate the United States courthouse located at 501 East Court Street in Jackson, Mississippi, as the "Charles Clark United States Courthouse".</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>A bill to designate the United States courthouse located at 501 East Court Street in Jackson, Mississippi, as the "Charles Clark United States Courthouse".</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0066</number>
+      </item>
+    </calendarNumbers>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Mississippi</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2015-05-04T22:44:55Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2015-04-29T21:30:00Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-04-21T22:25:55Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-05-04</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 66.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>A bill to designate the United States courthouse located at 501 East Court Street in Jackson, Mississippi, as the "Charles Clark United States Courthouse".</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Designates the U.S. courthouse located at 501 East Court Street in Jackson, Mississippi, as the &quot;Charles Clark United States Courthouse.&quot;</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-04-21T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-05-05T10:38:40Z</lastSummaryUpdateDate>
+          <actionDate>2015-04-21</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in Senate</name>
+        </item>
+        <item>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</p> <p>Designates the U.S. courthouse located at 501 East Court Street in Jackson, Mississippi, as the "Charles Clark United States Courthouse."</p>]]></text>
+          <actionDesc>Reported to Senate without amendment</actionDesc>
+          <updateDate>2015-05-04T11:06:23Z</updateDate>
+          <lastSummaryUpdateDate>2015-05-28T12:25:09Z</lastSummaryUpdateDate>
+          <actionDate>2015-05-04</actionDate>
+          <versionCode>80</versionCode>
+          <name>Reported to Senate without amendment</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1034</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

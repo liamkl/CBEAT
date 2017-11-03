@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>Proposing an amendment to the Constitution of the United States to repeal the sixteenth article of amendment.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Proposing an amendment to the Constitution of the United States to repeal the sixteenth article of amendment.</title>
+      </item>
+    </titles>
+    <updateDate>2017-10-27T17:58:13Z</updateDate>
+    <title>Proposing an amendment to the Constitution of the United States to repeal the sixteenth article of amendment.</title>
+    <billType>HJRES</billType>
+    <relatedBills />
+    <calendarNumbers />
+    <laws />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-01-22T22:27:40Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Constitution and Civil Justice Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-01-12T17:00:47Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <introducedDate>2015-01-12</introducedDate>
+    <originChamber>House</originChamber>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Constitution and constitutional amendments</name>
+          </item>
+          <item>
+            <name>General taxation matters</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <item>
+        <actionDate>2015-01-22</actionDate>
+        <committee>
+          <name>Constitution and Civil Justice Subcommittee</name>
+          <systemCode>hsju10</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-12</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-12</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <committeeReports />
+    <billNumber>16</billNumber>
+    <recordedVotes />
+    <congress>114</congress>
+    <cosponsors>
+      <item>
+        <lastName>Woodall</lastName>
+        <bioguideId>W000810</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-01-12</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Rob</firstName>
+        <state>GA</state>
+        <identifiers>
+          <lisID>2008</lisID>
+          <bioguideId>W000810</bioguideId>
+          <gpoId>7904</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Woodall, Rob [R-GA-7]</fullName>
+        <district>7</district>
+      </item>
+    </cosponsors>
+    <sponsors>
+      <item>
+        <bioguideId>K000362</bioguideId>
+        <party>R</party>
+        <fullName>Rep. King, Steve [R-IA-4]</fullName>
+        <firstName>Steve</firstName>
+        <byRequestType />
+        <lastName>King</lastName>
+        <middleName />
+        <district>4</district>
+        <identifiers>
+          <bioguideId>K000362</bioguideId>
+          <gpoId>7918</gpoId>
+          <lisID>1724</lisID>
+        </identifiers>
+        <state>IA</state>
+      </item>
+    </sponsors>
+    <notes />
+    <createDate>2015-01-13T04:55:51Z</createDate>
+    <latestAction>
+      <actionDate>2015-01-22</actionDate>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <links />
+    </latestAction>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <amendments />
+    <version>1.0.0</version>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. KING of Iowa:H.J. Res. 16.Congress has the power to enact this legislation pursuantto the following:This joint resolution is enacted pursuant to the powergranted to Congress to propose amendments to the Constitutionunder Article V of the United States Constitution.[Page H225]</pre>]]></constitutionalAuthorityStatementText>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-01-28T15:22:41Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-12</actionDate>
+          <text><![CDATA[<p><b>Constitutional Amendment</b> </p> <p> Repeals the Sixteenth Amendment to the Constitution (authorizing taxation of income).</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-12T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

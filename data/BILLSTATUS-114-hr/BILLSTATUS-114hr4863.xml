@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Roddie Edmonds Congressional Gold Medal Act</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the President to award the Medal of Honor to Master Sergeant Roddie Edmonds of the United States Army for acts of valor during World War II.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Roddie Edmonds Congressional Gold Medal Act</title>
+      </item>
+    </titles>
+    <updateDate>2017-10-27T18:04:41Z</updateDate>
+    <title>Roddie Edmonds Congressional Gold Medal Act</title>
+    <billType>HR</billType>
+    <relatedBills />
+    <calendarNumbers />
+    <laws />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsas02</systemCode>
+              <activities>
+                <item>
+                  <date>2016-04-05T14:52:57Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Military Personnel Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+          <activities>
+            <item>
+              <date>2016-03-23T13:06:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <introducedDate>2016-03-23</introducedDate>
+    <originChamber>House</originChamber>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Conflicts and wars</name>
+          </item>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Europe</name>
+          </item>
+          <item>
+            <name>Germany</name>
+          </item>
+          <item>
+            <name>Military history</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Religion</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <item>
+        <actionDate>2016-04-05</actionDate>
+        <committee>
+          <name>Military Personnel Subcommittee</name>
+          <systemCode>hsas02</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Military Personnel.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Referred to the House Committee on Armed Services.</text>
+        <committee>
+          <name>Armed Services Committee</name>
+          <systemCode>hsas00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <committeeReports />
+    <billNumber>4863</billNumber>
+    <recordedVotes />
+    <congress>114</congress>
+    <cosponsors>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <state>TN</state>
+        <firstName>Steve</firstName>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <lastName>Cohen</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001284</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IN</state>
+        <firstName>Susan</firstName>
+        <identifiers>
+          <bioguideId>B001284</bioguideId>
+          <gpoId />
+          <lisID>2129</lisID>
+        </identifiers>
+        <fullName>Rep. Brooks, Susan W. [R-IN-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2016-09-20</sponsorshipDate>
+        <lastName>Brooks</lastName>
+        <middleName>W.</middleName>
+      </item>
+    </cosponsors>
+    <sponsors>
+      <item>
+        <bioguideId>D000533</bioguideId>
+        <party>R</party>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <firstName>JOHN</firstName>
+        <byRequestType />
+        <lastName>DUNCAN</lastName>
+        <middleName>J.</middleName>
+        <district>2</district>
+        <identifiers>
+          <lisID>322</lisID>
+          <gpoId>8149</gpoId>
+          <bioguideId>D000533</bioguideId>
+        </identifiers>
+        <state>TN</state>
+      </item>
+    </sponsors>
+    <notes />
+    <createDate>2016-03-24T04:53:00Z</createDate>
+    <latestAction>
+      <actionDate>2016-04-05</actionDate>
+      <text>Referred to the Subcommittee on Military Personnel.</text>
+      <links />
+    </latestAction>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <cboCostEstimates />
+    <amendments />
+    <version>1.0.0</version>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DUNCAN of Tennessee:H.R. 4863.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 5.To coin Money, regulate the Value thereof, and of foreignCoin, and fix the Standard of Weights and Measures;[Page H1585]</pre>]]></constitutionalAuthorityStatementText>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-03-23</actionDate>
+          <lastSummaryUpdateDate>2016-03-31T19:38:57Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-03-23T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Roddie Edmonds Congressional Gold Medal Act</strong></p> <p>This bill authorizes the President to award the Medal of Honor to Master Sergeant Roddie Edmonds for acts of valor in World War II to save the lives of more than 200 Jewish members of the Armed Forces. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

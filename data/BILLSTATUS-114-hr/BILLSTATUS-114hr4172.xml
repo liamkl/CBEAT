@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-09-27</actionDate>
+        <committee>
+          <name>Financial Institutions and Consumer Credit Subcommittee</name>
+          <systemCode>hsba15</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Hearings Held by the Subcommittee on Financial Institutions and Consumer Credit Prior to Referral.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-03</actionDate>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <committee>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-03</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-12-03</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:58Z</updateDate>
+    <introducedDate>2015-12-03</introducedDate>
+    <recordedVotes />
+    <createDate>2015-12-04T10:14:18Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Keith</firstName>
+        <lastName>Ellison</lastName>
+        <state>MN</state>
+        <bioguideId>E000288</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1857</lisID>
+          <gpoId>8005</gpoId>
+          <bioguideId>E000288</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Credit Access and Inclusion Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend the Fair Credit Reporting Act to clarify Federal law with respect to reporting certain positive consumer credit information to consumer reporting agencies, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>Credit Access and Inclusion Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>F000451</bioguideId>
+        <middleName>G.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Fitzpatrick, Michael G. [R-PA-8]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>F000451</bioguideId>
+          <gpoId>8126</gpoId>
+          <lisID>1797</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Michael</firstName>
+        <lastName>Fitzpatrick</lastName>
+        <state>PA</state>
+        <district>8</district>
+      </item>
+      <item>
+        <bioguideId>G000553</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Green, Al [D-TX-9]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>G000553</bioguideId>
+          <gpoId>8165</gpoId>
+          <lisID>1803</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Al</firstName>
+        <lastName>Green</lastName>
+        <state>TX</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>R000586</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+          <lisID>2048</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>James</firstName>
+        <lastName>Renacci</lastName>
+        <state>OH</state>
+        <district>16</district>
+      </item>
+      <item>
+        <bioguideId>M001160</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1811</lisID>
+          <bioguideId>M001160</bioguideId>
+          <gpoId>8217</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Gwen</firstName>
+        <lastName>Moore</lastName>
+        <state>WI</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>D000614</bioguideId>
+        <middleName>P.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <gpoId>8220</gpoId>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Sean</firstName>
+        <lastName>Duffy</lastName>
+        <state>WI</state>
+        <district>7</district>
+      </item>
+      <item>
+        <bioguideId>H001047</bioguideId>
+        <middleName>A.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Himes, James A. [D-CT-4]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>H001047</bioguideId>
+          <gpoId>7869</gpoId>
+          <lisID>1913</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>James</firstName>
+        <lastName>Himes</lastName>
+        <state>CT</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>M001182</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>2059</lisID>
+          <bioguideId>M001182</bioguideId>
+          <gpoId>8145</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Mick</firstName>
+        <lastName>Mulvaney</lastName>
+        <state>SC</state>
+        <district>5</district>
+      </item>
+      <item>
+        <bioguideId>C001083</bioguideId>
+        <middleName>C.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Carney, John C., Jr. [D-DE-At Large]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1999</lisID>
+          <bioguideId>C001083</bioguideId>
+          <gpoId>7872</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>John</firstName>
+        <lastName>Carney</lastName>
+        <state>DE</state>
+        <district>0</district>
+      </item>
+      <item>
+        <bioguideId>P000606</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>P000606</bioguideId>
+          <gpoId />
+          <lisID>2141</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Robert</firstName>
+        <lastName>Pittenger</lastName>
+        <state>NC</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>H000636</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Hinojosa, Ruben [D-TX-15]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1490</lisID>
+          <bioguideId>H000636</bioguideId>
+          <gpoId>8171</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>RUBEN</firstName>
+        <lastName>HINOJOSA</lastName>
+        <state>TX</state>
+        <district>15</district>
+      </item>
+      <item>
+        <bioguideId>J000255</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+          <lisID>612</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <state>NC</state>
+        <district>3</district>
+      </item>
+      <item>
+        <bioguideId>G000551</bioguideId>
+        <middleName>M.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1708</lisID>
+          <gpoId>7804</gpoId>
+          <bioguideId>G000551</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Raul</firstName>
+        <lastName>Grijalva</lastName>
+        <state>AZ</state>
+        <district>3</district>
+      </item>
+      <item>
+        <bioguideId>S001183</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>David</firstName>
+        <lastName>Schweikert</lastName>
+        <state>AZ</state>
+        <district>6</district>
+      </item>
+      <item>
+        <bioguideId>R000515</bioguideId>
+        <middleName>L.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Rush, Bobby L. [D-IL-1]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1003</lisID>
+          <bioguideId>R000515</bioguideId>
+          <gpoId>7921</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>BOBBY</firstName>
+        <lastName>RUSH</lastName>
+        <state>IL</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>L000584</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>2271</lisID>
+          <bioguideId>L000584</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Mia</firstName>
+        <lastName>Love</lastName>
+        <state>UT</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>M001166</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. McNerney, Jerry [D-CA-9]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1832</lisID>
+          <bioguideId>M001166</bioguideId>
+          <gpoId>7816</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Jerry</firstName>
+        <lastName>McNerney</lastName>
+        <state>CA</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>S001187</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Stivers, Steve [R-OH-15]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>2047</lisID>
+          <bioguideId>S001187</bioguideId>
+          <gpoId>8105</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Steve</firstName>
+        <lastName>Stivers</lastName>
+        <state>OH</state>
+        <district>15</district>
+      </item>
+      <item>
+        <bioguideId>B000574</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <sponsorshipDate>2015-12-03</sponsorshipDate>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>EARL</firstName>
+        <lastName>BLUMENAUER</lastName>
+        <state>OR</state>
+        <district>3</district>
+      </item>
+      <item>
+        <bioguideId>D000613</bioguideId>
+        <middleName>J.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Dold, Robert J. [R-IL-10]</fullName>
+        <sponsorshipDate>2015-12-11</sponsorshipDate>
+        <identifiers>
+          <lisID>2013</lisID>
+          <gpoId>7930</gpoId>
+          <bioguideId>D000613</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Robert</firstName>
+        <lastName>Dold</lastName>
+        <state>IL</state>
+        <district>10</district>
+      </item>
+      <item>
+        <bioguideId>C000714</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <sponsorshipDate>2016-01-07</sponsorshipDate>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>JOHN</firstName>
+        <lastName>CONYERS</lastName>
+        <state>MI</state>
+        <district>13</district>
+      </item>
+      <item>
+        <bioguideId>C001037</bioguideId>
+        <middleName>E.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <sponsorshipDate>2016-02-08</sponsorshipDate>
+        <identifiers>
+          <lisID>1564</lisID>
+          <gpoId>7973</gpoId>
+          <bioguideId>C001037</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <lastName>CAPUANO</lastName>
+        <state>MA</state>
+        <district>7</district>
+      </item>
+      <item>
+        <bioguideId>M001137</bioguideId>
+        <middleName>W.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Meeks, Gregory W. [D-NY-5]</fullName>
+        <sponsorshipDate>2016-02-23</sponsorshipDate>
+        <identifiers>
+          <lisID>1506</lisID>
+          <bioguideId>M001137</bioguideId>
+          <gpoId>8067</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>GREGORY</firstName>
+        <lastName>MEEKS</lastName>
+        <state>NY</state>
+        <district>5</district>
+      </item>
+      <item>
+        <bioguideId>N000147</bioguideId>
+        <middleName>HOLMES</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <sponsorshipDate>2016-03-14</sponsorshipDate>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>ELEANOR</firstName>
+        <lastName>NORTON</lastName>
+        <state>DC</state>
+        <district>0</district>
+      </item>
+      <item>
+        <bioguideId>K000368</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <sponsorshipDate>2016-04-26</sponsorshipDate>
+        <identifiers>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+          <lisID>1907</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <lastName>Kirkpatrick</lastName>
+        <state>AZ</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>J000032</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <sponsorshipDate>2016-04-28</sponsorshipDate>
+        <identifiers>
+          <lisID>588</lisID>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>SHEILA</firstName>
+        <lastName>JACKSON LEE</lastName>
+        <state>TX</state>
+        <district>18</district>
+      </item>
+      <item>
+        <bioguideId>S001165</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <sponsorshipDate>2016-05-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1818</lisID>
+          <bioguideId>S001165</bioguideId>
+          <gpoId>8055</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Albio</firstName>
+        <lastName>Sires</lastName>
+        <state>NJ</state>
+        <district>8</district>
+      </item>
+      <item>
+        <bioguideId>N000188</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Norcross, Donald [D-NJ-1]</fullName>
+        <sponsorshipDate>2016-05-10</sponsorshipDate>
+        <identifiers>
+          <bioguideId>N000188</bioguideId>
+          <gpoId />
+          <lisID>2202</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Donald</firstName>
+        <lastName>Norcross</lastName>
+        <state>NJ</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>S001145</bioguideId>
+        <middleName>D.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <sponsorshipDate>2016-05-16</sponsorshipDate>
+        <identifiers>
+          <bioguideId>S001145</bioguideId>
+          <gpoId>7929</gpoId>
+          <lisID>1588</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>JANICE</firstName>
+        <lastName>SCHAKOWSKY</lastName>
+        <state>IL</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>D000623</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <sponsorshipDate>2016-05-23</sponsorshipDate>
+        <identifiers>
+          <lisID>2227</lisID>
+          <bioguideId>D000623</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <lastName>DeSaulnier</lastName>
+        <state>CA</state>
+        <district>11</district>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <sponsorshipDate>2016-05-25</sponsorshipDate>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <state>TN</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>B001287</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Bera, Ami [D-CA-7]</fullName>
+        <sponsorshipDate>2016-06-21</sponsorshipDate>
+        <identifiers>
+          <lisID>2102</lisID>
+          <bioguideId>B001287</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Ami</firstName>
+        <lastName>Bera</lastName>
+        <state>CA</state>
+        <district>7</district>
+      </item>
+      <item>
+        <bioguideId>B001282</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <sponsorshipDate>2016-07-07</sponsorshipDate>
+        <identifiers>
+          <lisID>2131</lisID>
+          <bioguideId>B001282</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Andy</firstName>
+        <lastName>Barr</lastName>
+        <state>KY</state>
+        <district>6</district>
+      </item>
+      <item>
+        <bioguideId>H000324</bioguideId>
+        <middleName>L.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <identifiers>
+          <lisID>511</lisID>
+          <gpoId>7895</gpoId>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>ALCEE</firstName>
+        <lastName>HASTINGS</lastName>
+        <state>FL</state>
+        <district>20</district>
+      </item>
+      <item>
+        <bioguideId>M000087</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Maloney, Carolyn B. [D-NY-12]</fullName>
+        <sponsorshipDate>2016-09-28</sponsorshipDate>
+        <identifiers>
+          <lisID>729</lisID>
+          <gpoId>8075</gpoId>
+          <bioguideId>M000087</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>CAROLYN</firstName>
+        <lastName>MALONEY</lastName>
+        <state>NY</state>
+        <district>12</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ELLISON:H.R. 4172.Congress has the power to enact this legislation pursuantto the following:Congress has the power to enact this legislation pursuantto Article I, Section 8, Clause 1.[Page H9012]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Consumer credit</name>
+          </item>
+          <item>
+            <name>Debt collection</name>
+          </item>
+          <item>
+            <name>Low- and moderate-income housing</name>
+          </item>
+          <item>
+            <name>Public utilities and utility rates</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Financial Services Committee</name>
+          <subcommittees>
+            <item>
+              <name>Financial Institutions and Consumer Credit Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2016-09-27T19:55:53Z</date>
+                  <name>Hearings by</name>
+                </item>
+              </activities>
+              <systemCode>hsba15</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-12-03T14:02:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsba00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-27</actionDate>
+      <text>Hearings Held by the Subcommittee on Financial Institutions and Consumer Credit Prior to Referral.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2355</number>
+        <congress>114</congress>
+        <latestTitle>Credit Access and Inclusion Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-12-03</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>3035</number>
+        <congress>114</congress>
+        <latestTitle>Credit Access and Inclusion Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-13</actionDate>
+          <text>Referred to the House Committee on Financial Services.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Credit Access and Inclusion Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-12-03</actionDate>
+          <lastSummaryUpdateDate>2016-02-17T16:13:59Z</lastSummaryUpdateDate>
+          <updateDate>2015-12-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Credit Access and Inclusion Act of 2015</strong></p> <p>This bill amends the Fair Credit Reporting Act to authorize a person or the Department of Housing and Urban Development (HUD) to furnish to a consumer reporting agency information relating to the performance of a consumer in making payments: (1) under a lease agreement for a dwelling, including a lease in which HUD provides subsidized payments; or (2) pursuant to a contract for a utility or telecommunications service.</p> <p>Information about a consumer's usage of any utility or telecommunications services may be furnished to a consumer reporting agency only to the extent that such information relates to payment by the consumer for such services or other terms of the provision of such services, including any deposit, discount, or conditions for interruption or termination of service.</p> <p>An energy utility firm may not report payment information to a consumer reporting agency with respect to an outstanding balance of a consumer as late if the firm and the consumer have entered into a payment plan and the consumer is meeting the obligations of such plan.</p> <p>The bill amends the Consumer Credit Protection Act to make provisions regarding civil liability to consumers of persons for willful or negligent noncompliance with requirements imposed by such Act on credit reporting agencies inapplicable to any violation of this Act.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4172</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

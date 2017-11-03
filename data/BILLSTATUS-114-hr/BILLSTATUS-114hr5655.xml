@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-07-20</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hswm02</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-07-20</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Referred to House Education and the Workforce</text>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Referred to House Ways and Means</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Referred to House Judiciary</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Referred to House Energy and Commerce</text>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>H11100-A</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on the Judiciary, Ways and Means, and Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-07</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>4</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:39Z</updateDate>
+    <introducedDate>2016-07-07</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-08T05:34:37Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Matt</firstName>
+        <lastName>Cartwright</lastName>
+        <state>PA</state>
+        <bioguideId>C001090</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2159</lisID>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <district>17</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Addiction Prevention and Responsible Opioid Practices Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To establish programs related to prevention of prescription opioid misuse, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Addiction Prevention and Responsible Opioid Practices Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-07-07</sponsorshipDate>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+        </identifiers>
+        <bioguideId>N000147</bioguideId>
+        <party>D</party>
+        <district>0</district>
+        <state>DC</state>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CARTWRIGHT:H.R. 5655.Congress has the power to enact this legislation pursuantto the following:Article I; Section 8; Clause 1 of the Constitution statesThe Congress shall have Power To lay and collect Taxes,Duties, Imposts and Excises, to pay the Debts and provide forthe common Defence and general Welfare of the United States .. .[Page H4549]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Alternative treatments</name>
+          </item>
+          <item>
+            <name>Child health</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Department of Health and Human Services</name>
+          </item>
+          <item>
+            <name>Drug safety, medical device, and laboratory regulation</name>
+          </item>
+          <item>
+            <name>Drug therapy</name>
+          </item>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Drug, alcohol, tobacco use</name>
+          </item>
+          <item>
+            <name>Food and Drug Administration (FDA)</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Health personnel</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Health promotion and preventive care</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Manufacturing</name>
+          </item>
+          <item>
+            <name>Medical education</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Military medicine</name>
+          </item>
+          <item>
+            <name>Sales and excise taxes</name>
+          </item>
+          <item>
+            <name>Solid waste and recycling</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <date>2016-07-20T13:58:06Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-07-07T14:02:45Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2016-07-20T13:14:35Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-07-07T14:02:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-07T14:02:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2016-07-07T14:02:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-20</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>3075</number>
+        <congress>114</congress>
+        <latestTitle>Addiction Prevention and Responsible Opioid Practices Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-06-16</actionDate>
+          <text>Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S4301-4303)</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Addiction Prevention and Responsible Opioid Practices Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2016-07-07T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2016-07-07</actionDate>
+          <text><![CDATA[<p><b>Addiction Prevention and Responsible Opioid Practices Act</b></p> <p>This bill addresses prescription opioid misuse. </p> <p> The Food and Drug Administration (FDA) must: (1) seek recommendations concerning opioid drugs from an FDA advisory committee relating to the approval of a new drug that is an opioid, and the labeling of opioid drugs for pediatric prescriptions; (2) develop recommendations for education programs for prescribers of opioids; and (3) issue guidance for labeling that deters opioid abuse. </p>  <p>The bill amends the Federal Food, Drug, and Cosmetic Act by requiring manufacturers of opioid drugs to ensure that certain information about the risk factors associated with opioid drugs are included on the drug labels.</p> <p>The bill amends the Controlled Substances Act by: (1) addressing annual narcotic manufacturing quotas with respect to fentanyl, oxycodone, hydrocodone, oxymorphone, and hydromorphone; and (2) directing the Department of Justice (DOJ) to require medical practitioners to complete a training program on prescribing opioids for chronic pain before they are certified to prescribe controlled substances in schedule II, III, or IV.</p> <p>The bill establishes requirements for prescription drug monitoring systems to prevent over-prescribing controlled substances.</p> <p>The Department of Health and Human Services must: (1) submit a plan of action for addressing outliers in opioid prescribing practices and ensuring an adequate response to protect the public health, and (2) study the expansion of Medicare coverage for alternatives to opioid treatments.</p> <p>The bill amends the Internal Revenue Code to impose an excise tax on manufacturers or producers of opioid pain relievers. A portion of the amount generated from the tax must be used for substance abuse treatment programs.</p> <p>DOJ must establish a take-back program for the safe and environmentally responsible disposal of controlled substances.</p>]]></text>
+          <lastSummaryUpdateDate>2017-04-11T20:28:02Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5655</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

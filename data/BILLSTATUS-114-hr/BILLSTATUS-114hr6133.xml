@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-10-11</actionDate>
+        <committee>
+          <systemCode>hsju08</systemCode>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:06:09Z</updateDate>
+    <introducedDate>2016-09-22</introducedDate>
+    <recordedVotes />
+    <createDate>2016-09-23T05:25:50Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>F.</firstName>
+        <lastName>SENSENBRENNER</lastName>
+        <state>WI</state>
+        <bioguideId>S000244</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1041</lisID>
+          <bioguideId>S000244</bioguideId>
+          <gpoId>8218</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>JAMES</middleName>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Adam Walsh Reauthorization Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To reauthorize certain programs established by the Adam Walsh Child Protection and Safety Act of 2006, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Adam Walsh Reauthorization Act of 2016</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001293</bioguideId>
+          <gpoId />
+          <lisID>2249</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>B001293</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bishop</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Poe, Ted [R-TX-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>Ted</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8158</gpoId>
+          <lisID>1802</lisID>
+          <bioguideId>P000592</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>P000592</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Poe</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>AZ</state>
+        <firstName>Trent</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>F000448</bioguideId>
+          <gpoId>7799</gpoId>
+          <lisID>1707</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>F000448</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Franks</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <district>14</district>
+        <middleName>L.</middleName>
+        <state>MI</state>
+        <firstName>Brenda</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2252</lisID>
+          <bioguideId>L000581</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>L000581</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lawrence</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Grayson, Alan [D-FL-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Alan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1914</lisID>
+          <bioguideId>G000556</bioguideId>
+          <gpoId>7302</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>G000556</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grayson</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bost, Mike [R-IL-12]</fullName>
+        <district>12</district>
+        <middleName />
+        <state>IL</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001295</bioguideId>
+          <gpoId />
+          <lisID>2243</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>B001295</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bost</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <district>6</district>
+        <middleName>W.</middleName>
+        <state>VA</state>
+        <firstName>ROBERT</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000289</bioguideId>
+          <gpoId>8197</gpoId>
+          <lisID>446</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-22</sponsorshipDate>
+        <bioguideId>G000289</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>GOODLATTE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. DeSantis, Ron [R-FL-6]</fullName>
+        <district>6</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Ron</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2116</lisID>
+          <bioguideId>D000621</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <bioguideId>D000621</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>DeSantis</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Calvert, Ken [R-CA-42]</fullName>
+        <district>42</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>KEN</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>165</lisID>
+          <gpoId>7849</gpoId>
+          <bioguideId>C000059</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <bioguideId>C000059</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CALVERT</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <district>25</district>
+        <middleName>M.</middleName>
+        <state>NY</state>
+        <firstName>LOUISE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+          <lisID>1069</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-09-27</sponsorshipDate>
+        <bioguideId>S000480</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>SLAUGHTER</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Diaz-Balart, Mario [R-FL-25]</fullName>
+        <district>25</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Mario</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>D000600</bioguideId>
+          <gpoId>7893</gpoId>
+          <lisID>1717</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <bioguideId>D000600</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Diaz-Balart</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Tipton, Scott  R. [R-CO-3]</fullName>
+        <district>3</district>
+        <middleName>R.</middleName>
+        <state>CO</state>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1997</lisID>
+          <gpoId>7861</gpoId>
+          <bioguideId>T000470</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <bioguideId>T000470</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Tipton</lastName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SENSENBRENNER:H.R. 6133.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1[Page H5866]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Correctional facilities and imprisonment</name>
+          </item>
+          <item>
+            <name>Crime victims</name>
+          </item>
+          <item>
+            <name>Crimes against children</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Domestic violence and child abuse</name>
+          </item>
+          <item>
+            <name>Human trafficking</name>
+          </item>
+          <item>
+            <name>Indian social and development programs</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Juvenile crime and gang violence</name>
+          </item>
+          <item>
+            <name>Law enforcement administration and funding</name>
+          </item>
+          <item>
+            <name>Law enforcement officers</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Mental health</name>
+          </item>
+          <item>
+            <name>Pornography</name>
+          </item>
+          <item>
+            <name>Sex offenses</name>
+          </item>
+          <item>
+            <name>Youth employment and child labor</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2016-10-11T14:05:06Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-09-22T14:04:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-10-11</actionDate>
+      <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Adam Walsh Reauthorization Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2017-05-01T14:28:12Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Adam Walsh Reauthorization Act of 2016</b></p> <p>This bill amends the Sex Offender Registration and Notification Act to: </p> <ul> <li>reauthorize through FY2021 the Sex Offender Management Assistance program, </li> <li>reauthorize through FY2021 the activities of the U.S. Marshals Service to locate and apprehend sex offenders who violate sex offender registration requirements, </li> <li>reduce from 25 years to 15 years the required registration period for certain juvenile delinquent sex offenders who maintain a clean record, </li> <li>allow a state, Indian tribe, or territory to exempt from disclosure on a public website information about juvenile delinquent sex offenders, </li> <li>specify how to calculate the allocation of Byrne Memorial Justice Assistance Grant (JAG) program funds for local governments after a state's JAG funds are reduced for failure to comply with sex offender registration and notification standards, and </li> <li>establish an alternative method for complying with the in-person verification requirement. </li> </ul> <p>It amends the Adam Walsh Child Protection and Safety Act of 2006 to require the Department of Justice to include additional data in its annual report on the enforcement of sex offender registration requirements.</p> <p>The bill amends the federal criminal code to: </p> <ul> <li>modify the duties of probation and pretrial services officers to include, when directed by a court, supervision of a sex offender conditionally released from civil commitment subject to court-ordered compliance with a prescribed regimen of medical, psychiatric, or psychological treatment; and </li> <li>extend the statute of limitations for a minor victim of a federal sex offense to file a civil action to 10 years (currently 3 years) from the date such individual reaches age 18. </li> </ul>]]></text>
+          <updateDate>2016-09-22T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-09-22</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>6133</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

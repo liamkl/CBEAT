@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <placeholderTextForB>1</placeholderTextForB>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-02-03</actionDate>
+        <committee>
+          <name>Constitution and Civil Justice Subcommittee</name>
+          <systemCode>hsju10</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-10-27</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Sponsor introductory remarks on measure. (CR H7193-7194)</text>
+        <actionCode>B00100</actionCode>
+        <type>IntroReferral</type>
+        <links>
+          <link>
+            <name>H7193-7194</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H7193-7194</url>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionDate>2015-10-07</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-10-07</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-10-07</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:27Z</updateDate>
+    <introducedDate>2015-10-07</introducedDate>
+    <recordedVotes />
+    <createDate>2015-10-08T09:12:59Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Lynn</firstName>
+        <lastName>Westmoreland</lastName>
+        <state>GA</state>
+        <bioguideId>W000796</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1779</lisID>
+          <gpoId>7900</gpoId>
+          <bioguideId>W000796</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName>A.</middleName>
+        <fullName>Rep. Westmoreland, Lynn A. [R-GA-3]</fullName>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Judgement Fund Taxpayer Accountability Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title 31, United States Code, to require an annual report from the Financial Management Service within the Department of the Treasury regarding amounts paid or payable by Federal agencies to the judgement fund, and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Judgement Fund Taxpayer Accountability Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-10-07</sponsorshipDate>
+        <bioguideId>B001274</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AL</state>
+        <middleName />
+        <identifiers>
+          <lisID>1987</lisID>
+          <gpoId>7790</gpoId>
+          <bioguideId>B001274</bioguideId>
+        </identifiers>
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <party>R</party>
+        <firstName>Mo</firstName>
+        <lastName>Brooks</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-07</sponsorshipDate>
+        <bioguideId>S001195</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>MO</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>S001195</bioguideId>
+          <gpoId />
+          <lisID>2191</lisID>
+        </identifiers>
+        <fullName>Rep. Smith, Jason [R-MO-8]</fullName>
+        <party>R</party>
+        <firstName>Jason</firstName>
+        <lastName>Smith</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>8</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <bioguideId>C001103</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <middleName>L. "Buddy"</middleName>
+        <identifiers>
+          <lisID>2236</lisID>
+          <bioguideId>C001103</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Carter, Earl L. "Buddy" [R-GA-1]</fullName>
+        <party>R</party>
+        <firstName>Earl</firstName>
+        <lastName>Carter</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-21</sponsorshipDate>
+        <bioguideId>L000491</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OK</state>
+        <middleName>D.</middleName>
+        <identifiers>
+          <bioguideId>L000491</bioguideId>
+          <gpoId>8111</gpoId>
+          <lisID>711</lisID>
+        </identifiers>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <party>R</party>
+        <firstName>FRANK</firstName>
+        <lastName>LUCAS</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. WESTMORELAND:H.R. 3699.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, of the United States Constitution.[Page H6893]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government liability</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-02-03T20:35:22Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <systemCode>hsju10</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-10-07T14:01:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-02-03</actionDate>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Judgement Fund Taxpayer Accountability Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-10-07</actionDate>
+          <lastSummaryUpdateDate>2015-11-16T20:15:33Z</lastSummaryUpdateDate>
+          <updateDate>2015-10-07T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Judgment Fund Taxpayer Accountability Act </strong></p> <p>This bill requires the Financial Management Service, by January 1 of each year, to report the following information to Congress with respect to payments by federal agencies for judgments, awards, and compromise settlements against the United States: (1) the total amount paid in reimbursement by the agency for such payments during the preceding fiscal year, (2) the total amount still due from the agency in reimbursement, and (3) the name of the plaintiff or claimant to whom a payment was made from agency funds. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3699</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

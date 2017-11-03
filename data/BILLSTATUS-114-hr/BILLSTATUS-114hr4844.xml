@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <title>REST Act of 2016</title>
+    <updateDate>2017-10-27T18:04:39Z</updateDate>
+    <originChamber>House</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-03-24</actionDate>
+        <committee>
+          <systemCode>hspw12</systemCode>
+          <name>Highways and Transit Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Highways and Transit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <committee>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-03-23</actionDate>
+      </item>
+    </actions>
+    <recordedVotes />
+    <relatedBills />
+    <cboCostEstimates />
+    <createDate>2016-03-24T04:52:59Z</createDate>
+    <sponsors>
+      <item>
+        <bioguideId>C001090</bioguideId>
+        <fullName>Rep. Cartwright, Matt [D-PA-17]</fullName>
+        <middleName />
+        <identifiers>
+          <bioguideId>C001090</bioguideId>
+          <gpoId />
+          <lisID>2159</lisID>
+        </identifiers>
+        <state>PA</state>
+        <firstName>Matt</firstName>
+        <lastName>Cartwright</lastName>
+        <byRequestType />
+        <party>D</party>
+        <district>17</district>
+      </item>
+    </sponsors>
+    <congress>114</congress>
+    <notes />
+    <amendments />
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Department of Transportation</name>
+          </item>
+          <item>
+            <name>Labor standards</name>
+          </item>
+          <item>
+            <name>Motor carriers</name>
+          </item>
+          <item>
+            <name>Oil and gas</name>
+          </item>
+          <item>
+            <name>Transportation employees</name>
+          </item>
+          <item>
+            <name>Worker safety and health</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Requiring Equal Sleep for Truckers Act of 2016 or the REST Act of 2016</strong></p> <p>This bill directs the Department of Transportation to revise federal regulations regarding hours of service of drivers to require that: (1) in the case of specially trained drivers of commercial motor vehicles that are specially constructed to service oil wells, on-duty time shall include waiting time at a natural gas or oil well site; and (2) the requirements relating to rest breaks and maximum driving time for commercial motor vehicles are applied, without exception, to such drivers and to drivers of commercial motor vehicles used exclusively in the transportation of oil field equipment. </p>]]></text>
+          <lastSummaryUpdateDate>2016-05-12T22:10:21Z</lastSummaryUpdateDate>
+          <updateDate>2016-03-23T04:00:00Z</updateDate>
+          <actionDate>2016-03-23</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <version>1.0.0</version>
+    <latestAction>
+      <text>Referred to the Subcommittee on Highways and Transit.</text>
+      <links />
+      <actionDate>2016-03-24</actionDate>
+    </latestAction>
+    <introducedDate>2016-03-23</introducedDate>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CARTWRIGHT:H.R. 4844.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3[Page H1584]</pre>]]></constitutionalAuthorityStatementText>
+    <titles>
+      <item>
+        <title>REST Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Requiring Equal Sleep for Truckers Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To direct the Secretary of Transportation to revise the regulations relating to certain drivers of commercial motor vehicles involved in oilfield operations, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>REST Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2016-03-24T17:11:23Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Highways and Transit Subcommittee</name>
+              <systemCode>hspw12</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2016-03-23T13:03:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>HR</billType>
+    <billNumber>4844</billNumber>
+    <laws />
+    <cosponsors>
+      <item>
+        <state>RI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LANGEVIN</lastName>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <identifiers>
+          <bioguideId>L000559</bioguideId>
+          <gpoId>8140</gpoId>
+          <lisID>1668</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000559</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <state>WA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>MCDERMOTT</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <identifiers>
+          <bioguideId>M000404</bioguideId>
+          <gpoId>8211</gpoId>
+          <lisID>766</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M000404</bioguideId>
+        <firstName>JIM</firstName>
+      </item>
+      <item>
+        <state>CO</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Polis</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <identifiers>
+          <bioguideId>P000598</bioguideId>
+          <gpoId>7860</gpoId>
+          <lisID>1910</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000598</bioguideId>
+        <firstName>Jared</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Brownley</lastName>
+        <middleName />
+        <district>26</district>
+        <fullName>Rep. Brownley, Julia [D-CA-26]</fullName>
+        <identifiers>
+          <lisID>2106</lisID>
+          <gpoId />
+          <bioguideId>B001285</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001285</bioguideId>
+        <firstName>Julia</firstName>
+      </item>
+      <item>
+        <state>NJ</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Watson Coleman</lastName>
+        <middleName />
+        <district>12</district>
+        <fullName>Rep. Watson Coleman, Bonnie [D-NJ-12]</fullName>
+        <identifiers>
+          <lisID>2259</lisID>
+          <bioguideId>W000822</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000822</bioguideId>
+        <firstName>Bonnie</firstName>
+      </item>
+      <item>
+        <state>PA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>FATTAH</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Fattah, Chaka [D-PA-2]</fullName>
+        <identifiers>
+          <bioguideId>F000043</bioguideId>
+          <gpoId>8120</gpoId>
+          <lisID>371</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>F000043</bioguideId>
+        <firstName>CHAKA</firstName>
+      </item>
+      <item>
+        <state>CT</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LARSON</lastName>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <identifiers>
+          <lisID>1583</lisID>
+          <gpoId>7866</gpoId>
+          <bioguideId>L000557</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000557</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lieu</lastName>
+        <middleName />
+        <district>33</district>
+        <fullName>Rep. Lieu, Ted [D-CA-33]</fullName>
+        <identifiers>
+          <lisID>2230</lisID>
+          <bioguideId>L000582</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000582</bioguideId>
+        <firstName>Ted</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Jeffries</lastName>
+        <middleName>S.</middleName>
+        <district>8</district>
+        <fullName>Rep. Jeffries, Hakeem S. [D-NY-8]</fullName>
+        <identifiers>
+          <lisID>2149</lisID>
+          <bioguideId>J000294</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000294</bioguideId>
+        <firstName>Hakeem</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>KAPTUR</lastName>
+        <middleName />
+        <district>9</district>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <identifiers>
+          <bioguideId>K000009</bioguideId>
+          <gpoId>8099</gpoId>
+          <lisID>616</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-04-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000009</bioguideId>
+        <firstName>MARCY</firstName>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

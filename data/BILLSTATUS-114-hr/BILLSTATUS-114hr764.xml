@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-02-27</actionDate>
+        <committee>
+          <name>Trade Subcommittee</name>
+          <systemCode>hswm04</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-05</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-02-05</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-02-05</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Foreign Trade and International Finance</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <district>3</district>
+        <middleName>B.</middleName>
+        <state>NC</state>
+        <firstName>WALTER</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>J000255</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>JONES</lastName>
+      </item>
+      <item>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>CT</state>
+        <firstName>ROSA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>281</lisID>
+          <gpoId>7868</gpoId>
+          <bioguideId>D000216</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>D000216</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>DELAURO</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Nadler, Jerrold [D-NY-10]</fullName>
+        <district>10</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>JERROLD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>850</lisID>
+          <gpoId>8069</gpoId>
+          <bioguideId>N000002</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>N000002</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>NADLER</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <district>3</district>
+        <middleName>William</middleName>
+        <state>IL</state>
+        <firstName>Daniel</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1781</lisID>
+          <bioguideId>L000563</bioguideId>
+          <gpoId>7923</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>L000563</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lipinski</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <district>20</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Paul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1942</lisID>
+          <bioguideId>T000469</bioguideId>
+          <gpoId>8082</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>T000469</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Tonko</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pingree, Chellie [D-ME-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>ME</state>
+        <firstName>Chellie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1927</lisID>
+          <bioguideId>P000597</bioguideId>
+          <gpoId>7984</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>P000597</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pingree</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>OH</state>
+        <firstName>MARCY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>616</lisID>
+          <gpoId>8099</gpoId>
+          <bioguideId>K000009</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>K000009</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>KAPTUR</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Brownley, Julia [D-CA-26]</fullName>
+        <district>26</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>Julia</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2106</lisID>
+          <gpoId />
+          <bioguideId>B001285</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>B001285</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Brownley</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <district>26</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Brian</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+          <lisID>1794</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>H001038</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Higgins</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>RICHARD</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>867</lisID>
+          <gpoId />
+          <bioguideId>N000127</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>N000127</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>NOLAN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Gallego, Ruben [D-AZ-7]</fullName>
+        <district>7</district>
+        <middleName />
+        <state>AZ</state>
+        <firstName>Ruben</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2226</lisID>
+          <bioguideId>G000574</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>G000574</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Gallego</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Dingell, Debbie [D-MI-12]</fullName>
+        <district>12</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Debbie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2251</lisID>
+          <bioguideId>D000624</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>D000624</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Dingell</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>BARBARA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000551</bioguideId>
+          <gpoId>7814</gpoId>
+          <lisID>1501</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>LEE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. DeFazio, Peter A. [D-OR-4]</fullName>
+        <district>4</district>
+        <middleName>A.</middleName>
+        <state>OR</state>
+        <firstName>PETER</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>279</lisID>
+          <bioguideId>D000191</bioguideId>
+          <gpoId>8117</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>D000191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>DEFAZIO</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CONYERS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Green, Gene [D-TX-29]</fullName>
+        <district>29</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>GENE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8185</gpoId>
+          <lisID>462</lisID>
+          <bioguideId>G000410</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>G000410</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>GREEN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>BETTY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1653</lisID>
+          <bioguideId>M001143</bioguideId>
+          <gpoId>8004</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>M001143</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>MCCOLLUM</lastName>
+      </item>
+      <item>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <district>2</district>
+        <middleName>P.</middleName>
+        <state>MA</state>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>MCGOVERN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <district>20</district>
+        <middleName>L.</middleName>
+        <state>FL</state>
+        <firstName>ALCEE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>511</lisID>
+          <bioguideId>H000324</bioguideId>
+          <gpoId>7895</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>H000324</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>HASTINGS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>TN</state>
+        <firstName>Steve</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cohen</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kildee, Daniel T. [D-MI-5]</fullName>
+        <district>5</district>
+        <middleName>T.</middleName>
+        <state>MI</state>
+        <firstName>Daniel</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2134</lisID>
+          <bioguideId>K000380</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>K000380</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kildee</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Lieu, Ted [D-CA-33]</fullName>
+        <district>33</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>Ted</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000582</bioguideId>
+          <gpoId />
+          <lisID>2230</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>L000582</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lieu</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>OH</state>
+        <firstName>TIM</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1756</lisID>
+          <bioguideId>R000577</bioguideId>
+          <gpoId>8107</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>R000577</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>RYAN</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>WI</state>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+          <lisID>2171</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>P000607</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pocan</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <district>4</district>
+        <middleName>C. "Hank"</middleName>
+        <state>GA</state>
+        <firstName>Henry</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1843</lisID>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-02-05</sponsorshipDate>
+        <bioguideId>J000288</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Johnson</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Peterson, Collin C. [D-MN-7]</fullName>
+        <district>7</district>
+        <middleName>C.</middleName>
+        <state>MN</state>
+        <firstName>COLLIN</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000258</bioguideId>
+          <gpoId>8007</gpoId>
+          <lisID>910</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <bioguideId>P000258</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>PETERSON</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Brady, Robert A. [D-PA-1]</fullName>
+        <district>1</district>
+        <middleName>A.</middleName>
+        <state>PA</state>
+        <firstName>ROBERT</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8119</gpoId>
+          <lisID>1469</lisID>
+          <bioguideId>B001227</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-23</sponsorshipDate>
+        <bioguideId>B001227</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>BRADY</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <district>9</district>
+        <middleName>D.</middleName>
+        <state>IL</state>
+        <firstName>JANICE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S001145</bioguideId>
+          <gpoId>7929</gpoId>
+          <lisID>1588</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-06-16</sponsorshipDate>
+        <bioguideId>S001145</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>SCHAKOWSKY</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-02-05</introducedDate>
+    <latestAction>
+      <actionDate>2015-02-27</actionDate>
+      <text>Referred to the Subcommittee on Trade.</text>
+      <links />
+    </latestAction>
+    <billNumber>764</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Reciprocal Market Access Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To enhance reciprocal market access for United States domestic producers in the negotiating process of bilateral, regional, and multilateral trade agreements.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Reciprocal Market Access Act of 2015</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. SLAUGHTER:H.R. 764.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clauses 1 and 3 of the Constitutionof the United States[Page H856]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Reciprocal Market Access Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-02-05</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-02-05T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Reciprocal Market Access Act of 2015 </b></p> <p> Prohibits the President from agreeing to the reduction or elimination of the existing rate of duty on any product in order to carry out a trade agreement with a foreign country until the President certifies to Congress that: (1) the United States has obtained that country's reduction or elimination of tariff and nontariff barriers and policies and practices with respect to U.S. exports of any product that has the same physical characteristics and uses as the product for which the President seeks to modify its rate of duty, and (2) any violation of the trade agreement is immediately enforceable by withdrawal of the duty modification until the President certifies to Congress that the United States has obtained the country's reduction or elimination of the tariff or nontariff barrier or policy or practice.</p> <p>Requires the withdrawal of such a modification in specified circumstances determined by the Interagency Trade Enforcement Center until the President makes such a certification to Congress.</p> <p>Requires the U.S. International Trade Commission , with respect to any proposed trade agreement that seeks a modification that would reduce or eliminate an existing duty on any product in order to carry out a trade agreement with a foreign country, to investigate the possible market access opportunities for similar U.S. exports to that country if such barriers and policies are modified or eliminated.</p>]]></text>
+          <lastSummaryUpdateDate>2015-02-13T19:38:07Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-02-05T14:01:20Z</date>
+            </item>
+          </activities>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-02-27T22:00:28Z</date>
+                </item>
+              </activities>
+              <name>Trade Subcommittee</name>
+              <systemCode>hswm04</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hswm00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T17:59:31Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Free trade and trade barriers</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Presidents and presidential powers, Vice Presidents</name>
+          </item>
+          <item>
+            <name>Tariffs</name>
+          </item>
+          <item>
+            <name>Trade agreements and negotiations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Foreign Trade and International Finance</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-02-06T04:59:52Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <state>NY</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>SLAUGHTER</lastName>
+        <firstName>LOUISE</firstName>
+        <bioguideId>S000480</bioguideId>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>1069</lisID>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+        </identifiers>
+        <district>25</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

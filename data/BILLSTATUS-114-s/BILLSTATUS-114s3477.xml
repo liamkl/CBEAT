@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-11-17</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-11-17</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:11:57Z</updateDate>
+    <introducedDate>2016-11-17</introducedDate>
+    <recordedVotes />
+    <createDate>2016-11-18T05:08:26Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Mazie</firstName>
+        <lastName>Hirono</lastName>
+        <state>HI</state>
+        <bioguideId>H001042</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1844</lisID>
+          <bioguideId>H001042</bioguideId>
+          <gpoId>7913</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName>K.</middleName>
+        <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Protecting Seniors Through Immunization Act of 2016</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>A bill to amend title XVIII of the Social Security Act to provide information regarding vaccines for seniors as part of the Medicare &amp; You handbook and to ensure that the treatment of cost sharing for vaccines under Medicare part D is consistent with the treatment of vaccines under Medicare part B, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Protecting Seniors Through Immunization Act of 2016</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>1676</lisID>
+          <bioguideId>C001047</bioguideId>
+          <gpoId>8223</gpoId>
+        </identifiers>
+        <state>WV</state>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2016-11-17</sponsorshipDate>
+        <firstName>SHELLEY</firstName>
+        <lastName>CAPITO</lastName>
+        <middleName>MOORE</middleName>
+        <bioguideId>C001047</bioguideId>
+        <fullName>Sen. Capito, Shelley Moore [R-WV]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects />
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Finance Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-11-17T18:54:14Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>ssfi00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-11-17</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Protecting Seniors Through Immunization Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2017-05-18T17:32:50Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-11-17</actionDate>
+          <text><![CDATA[<p><strong>Protecting Seniors Through Immunization Act of 2016</strong></p> <p>This bill amends title XVIII (Medicare) of the Social Security Act to specify that certain deductible, coinsurance, initial coverage limit, and cost-sharing requirements that apply under the Medicare prescription drug benefit shall not apply with respect to the shingles vaccine. </p> <p>The Centers for Medicare &amp; Medicaid Services must provide to Medicare beneficiaries specified information regarding: (1) coverage of vaccines for seniors, and (2) access to the shingles vaccine without cost-sharing.</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2016-11-17T05:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>3477</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

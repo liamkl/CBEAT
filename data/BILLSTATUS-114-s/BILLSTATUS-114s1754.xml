@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-07-15T09:20:00Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-10-06T18:34:08Z</date>
+              <name>Hearings by</name>
+            </item>
+            <item>
+              <date>2015-07-14T14:30:42Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-07-14</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <hearingsHeld>1</hearingsHeld>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-10-06</actionDate>
+        <committee>
+          <systemCode>ssva00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Veterans' Affairs. Hearings held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-07-14</actionDate>
+        <committee>
+          <systemCode>ssva00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee />
+        <links />
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-14</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <title>Veterans Court of Appeals Support Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to amend title 38, United States Code, to make permanent the temporary increase in number of judges presiding over the United States Court of Appeals for Veterans Claims, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Veterans Court of Appeals Support Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Federal appellate courts</name>
+          </item>
+          <item>
+            <name>Judges</name>
+          </item>
+          <item>
+            <name>Specialized courts</name>
+          </item>
+          <item>
+            <name>Veterans' pensions and compensation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <firstName>Richard</firstName>
+        <lastName>Blumenthal</lastName>
+        <state>CT</state>
+        <bioguideId>B001277</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>B001277</bioguideId>
+          <gpoId>8332</gpoId>
+          <lisID>2076</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-10-08</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1754</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2015-07-14</actionDate>
+          <lastSummaryUpdateDate>2015-09-03T14:42:40Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-14T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Veterans Court of Appeals Support Act of 2015</strong></p> <p>This bills makes permanent the maximum number of judges presiding over the Court of Appeals for Veterans Claims to nine judges.</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Veterans Court of Appeals Support Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-10-06</actionDate>
+      <text>Committee on Veterans' Affairs. Hearings held.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:09:55Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>S001181</bioguideId>
+        <middleName />
+        <state>NH</state>
+        <firstName>Jeanne</firstName>
+        <lastName>Shaheen</lastName>
+        <identifiers>
+          <lisID>1901</lisID>
+          <bioguideId>S001181</bioguideId>
+          <gpoId>8276</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

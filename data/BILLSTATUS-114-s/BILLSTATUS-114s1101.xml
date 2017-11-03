@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <title>MEDTECH Act</title>
+    <updateDate>2017-10-27T18:09:02Z</updateDate>
+    <originChamber>Senate</originChamber>
+    <actions>
+      <item>
+        <actionDate>2016-04-04</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 409.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-04-04</actionDate>
+        <committee>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Alexander with an amendment in the nature of a substitute and an amendment to the title. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>14000</actionCode>
+        <type>Committee</type>
+        <actionDate>2016-04-04</actionDate>
+        <text>Committee on Health, Education, Labor, and Pensions. Reported by Senator Alexander with an amendment in the nature of a substitute and an amendment to the title. Without written report.</text>
+        <committee>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <actionDate>2016-03-09</actionDate>
+        <committee>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Health, Education, Labor, and Pensions. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-27</actionDate>
+        <committee>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <systemCode>sshr00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-27</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <orderedReported>1</orderedReported>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <reportedToSenate>2</reportedToSenate>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <committeeReports />
+    <relatedBills />
+    <cboCostEstimates>
+      <item>
+        <title>S. 1101, Medical Electronic Data Technology Enhancement for Consumers’ Health Act</title>
+        <pubDate>2016-07-12T18:21:59Z</pubDate>
+        <url>https://www.cbo.gov/publication/51796</url>
+      </item>
+    </cboCostEstimates>
+    <createDate>2015-04-28T09:16:15Z</createDate>
+    <sponsors>
+      <item>
+        <bioguideId>B001267</bioguideId>
+        <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+        <middleName>F.</middleName>
+        <identifiers>
+          <bioguideId>B001267</bioguideId>
+          <gpoId>8302</gpoId>
+          <lisID>1965</lisID>
+        </identifiers>
+        <state>CO</state>
+        <firstName>Michael</firstName>
+        <lastName>Bennet</lastName>
+        <byRequestType />
+        <party>D</party>
+      </item>
+    </sponsors>
+    <congress>114</congress>
+    <notes />
+    <amendments />
+    <calendarNumbers>
+      <item>
+        <number>0409</number>
+        <calendar>Senate Calendar of Business</calendar>
+      </item>
+    </calendarNumbers>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Computers and information technology</name>
+          </item>
+          <item>
+            <name>Drug safety, medical device, and laboratory regulation</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Health technology, devices, supplies</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-04-27</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-04-27T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Medical Electronic Data Technology Enhancement for Consumers&rsquo; Health Act or the MEDTECH Act</b></p> <p>This bill amends the Federal Food, Drug, and Cosmetic Act to exclude from regulation by the Food and Drug Administration (FDA) as a medical device:</p> <ul> <li>administrative, operational, or financial records software used in health care settings;</li> <li> software for maintaining or encouraging a healthy lifestyle unrelated to medical treatment;</li> <li>electronic patient records, excluding software for interpreting or analyzing medical image data;</li> <li>software for clinical laboratory testing, excluding software for interpreting or analyzing test data; and</li> <li> software that provides medical recommendations and the basis for those recommendations to health care professionals, excluding software for acquiring, processing, or analyzing medical images or signals. </li> </ul> <p>The FDA may assess a software function excluded from regulation above when determining the safety and effectiveness of a medical device with multiple functions.</p> <p>The FDA must classify a medical device accessory based on its intended function, not based on the classification of the medical device with which it is used.</p>]]></text>
+          <lastSummaryUpdateDate>2015-10-28T15:31:44Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+        <item>
+          <actionDate>2016-04-04</actionDate>
+          <name>Reported to Senate with amendment(s)</name>
+          <updateDate>2016-04-04T13:43:54Z</updateDate>
+          <versionCode>01</versionCode>
+          <text><![CDATA[<p><b>Medical Electronic Data Technology Enhancement for Consumers&rsquo; Health Act or the MEDTECH Act</b></p> <p>(Sec. 2) This bill amends the Federal Food, Drug, and Cosmetic Act to exempt certain software from requirements for medical devices. The exemption applies to:</p> <ul> <li>administrative software used in health care facilities;</li> <li>software for maintaining or encouraging a healthy lifestyle unrelated to medical care;</li> <li>electronic patient records that are part of certified health information technology;</li> <li>software for transferring, storing, converting, or displaying medical information; and</li> <li>software that provides medical recommendations and the basis for those recommendations to health care professionals.</li> </ul> <p> Software remains subject to regulation as a medical device if: (1) the software acquires, processes, analyzes, or interprets medical information; or (2) the Food and Drug Administration (FDA) identifies use of the software as reasonably likely to have serious adverse health consequences.</p> <p>When assessing a medical device that includes a software function exempted from medical device requirements, the FDA may assess the impact of the software on the functioning of the device.</p> <p>The Department of Health and Human Services must report on the health risks and benefits associated with exempted software.</p> <p>The FDA must classify a medical device accessory based on its intended function, not based on the classification of the medical device with which it is used.</p>]]></text>
+          <lastSummaryUpdateDate>2017-01-04T15:33:02Z</lastSummaryUpdateDate>
+          <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <recordedVotes />
+    <version>1.0.0</version>
+    <latestAction>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 409.</text>
+      <links />
+      <actionDate>2016-04-04</actionDate>
+    </latestAction>
+    <introducedDate>2015-04-27</introducedDate>
+    <titles>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <chamberName>Senate</chamberName>
+        <chamberCode>S</chamberCode>
+        <title>MEDTECH Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <chamberName>Senate</chamberName>
+        <chamberCode>S</chamberCode>
+        <title>Medical Electronic Data Technology Enhancement for Consumers' Health Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>MEDTECH Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Medical Electronic Data Technology Enhancement for Consumers' Health Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to amend the Federal Food, Drug, and Cosmetic Act to provide for the regulation of patient records and certain decision support software.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>MEDTECH Act</title>
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2016-04-04T21:03:24Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2016-03-09T15:00:00Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-27T22:30:25Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>sshr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>S</billType>
+    <billNumber>1101</billNumber>
+    <laws />
+    <cosponsors>
+      <item>
+        <middleName>GRANT</middleName>
+        <bioguideId>H000338</bioguideId>
+        <fullName>Sen. Hatch, Orrin G. [R-UT]</fullName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <identifiers>
+          <bioguideId>H000338</bioguideId>
+          <gpoId>8314</gpoId>
+          <lisID>1351</lisID>
+        </identifiers>
+        <state>UT</state>
+        <firstName>ORRIN</firstName>
+        <lastName>HATCH</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

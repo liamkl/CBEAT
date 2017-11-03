@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-06-13T08:59:51Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-06-19T15:01:14Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-06-12T13:00:37Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <date>2015-06-18T18:04:09Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-06-12T13:00:42Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-06-12T13:00:47Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <type>S</type>
+        <latestTitle>Patient Freedom Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-06-09</actionDate>
+          <text>Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S3928-3930)</text>
+        </latestAction>
+        <number>1531</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-06-12</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2015-06-19</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-18</actionDate>
+        <committee>
+          <systemCode>hswm02</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Education and the Workforce</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Ways and Means</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and the Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Energy and Commerce</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-06-12</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>3</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>8</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Patient Freedom Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To reform the provision of health insurance coverage by promoting health savings accounts, State-based alternatives to coverage under the Affordable Care Act, and price transparency, in order to promote a more market-based health care system, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Patient Freedom Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Emergency medical services and trauma care</name>
+          </item>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Intergovernmental relations</name>
+          </item>
+          <item>
+            <name>Medicaid</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors />
+    <version>1.0.0</version>
+    <billNumber>2756</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-06-12</actionDate>
+          <lastSummaryUpdateDate>2015-06-19T19:53:50Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-06-12T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Patient Freedom Act of 2015</b></p> <p>This bill provides states with three options regarding title I (provisions on health insurance reform, exchanges, and subsidies) of the Patient Protection and Affordable Care Act (PPACA): (1) continue implementing PPACA, (2) do not apply title I of PPACA except to prohibit lifetime or annual limits on health insurance benefits and require coverage of dependents up to 26 years old, or (3) the second option plus implementation of a health savings account (HSA) deposit system.</p> <p>In states implementing an HSA deposit system, residents who are enrolled in health insurance coverage that meets state standards receive monthly deposits in their HSAs either from states administering federal funds or as a tax credit paid in advance. States that administer deposits are entitled to payments from the Department of Health and Human Services for population health initiatives.</p> <p>States with an HSA deposit system must offer a health insurance plan that is continually available for enrollment and penalize residents who have a break in coverage.</p> <p>This bill amends title XIX (Medicaid) of the Social Security Act (SSAct) to disregard assets in an HSA for purposes of determining Medicaid eligibility and benefits except for long-term care services.</p> <p>This bill amends SSAct title XVIII (Medicare) to require participating hospitals to limit costs to individuals for uncovered emergency medical care.</p> <p>This bill amends the Internal Revenue Code to eliminate the requirement that an individual have a high deductible health plan to be eligible for the tax benefits of an HSA.</p> <p>HSAs can be used to pay premiums for health insurance that meets specified requirements.</p> HSA tax benefits only apply to payments for health care for which the provider publishes the price.]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ABRAHAM:H.R. 2756.Congress has the power to enact this legislation pursuantto the following:The authority to enact this legislation is found withinClause 3 of Section 8, Article 1 of the U.S. Constitution.[Page H4344]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Patient Freedom Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-06-19</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:02:21Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>A000374</bioguideId>
+        <district>5</district>
+        <middleName>Lee</middleName>
+        <state>LA</state>
+        <firstName>Ralph</firstName>
+        <lastName>Abraham</lastName>
+        <identifiers>
+          <bioguideId>A000374</bioguideId>
+          <gpoId />
+          <lisID>2244</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

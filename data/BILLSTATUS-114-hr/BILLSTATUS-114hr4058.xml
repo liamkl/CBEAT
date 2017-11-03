@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-11-19T09:46:12Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-20T22:41:05Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2015-11-18T15:00:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-11-18</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-20</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-18</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-11-18</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-11-18</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Obamacare Full Disclosure Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To require that in cases of health insurance coverage cancelled pursuant to requirements under the Patient Protection and Affordable Care Act cancellation notices provided to enrollees include a statement such cancellation is because of such Act.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Obamacare Full Disclosure Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Social work, volunteer service, charitable organizations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>WALTER</firstName>
+        <district>3</district>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>JONES</lastName>
+        <identifiers>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+          <gpoId>8026</gpoId>
+        </identifiers>
+        <bioguideId>J000255</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <state>NC</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>SAM</firstName>
+        <district>6</district>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>GRAVES</lastName>
+        <identifiers>
+          <lisID>1656</lisID>
+          <bioguideId>G000546</bioguideId>
+          <gpoId>8014</gpoId>
+        </identifiers>
+        <bioguideId>G000546</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MO</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>Thomas</firstName>
+        <district>4</district>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Massie</lastName>
+        <identifiers>
+          <lisID>2094</lisID>
+          <gpoId>8371</gpoId>
+          <bioguideId>M001184</bioguideId>
+        </identifiers>
+        <bioguideId>M001184</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>KY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>JOHN</firstName>
+        <district>2</district>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>DUNCAN</lastName>
+        <identifiers>
+          <lisID>322</lisID>
+          <bioguideId>D000533</bioguideId>
+          <gpoId>8149</gpoId>
+        </identifiers>
+        <bioguideId>D000533</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <state>TN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <district>3</district>
+        <fullName>Rep. Kelly, Mike [R-PA-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Kelly</lastName>
+        <identifiers>
+          <lisID>2051</lisID>
+          <gpoId>8708</gpoId>
+          <bioguideId>K000376</bioguideId>
+        </identifiers>
+        <bioguideId>K000376</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>Ralph</firstName>
+        <district>5</district>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Abraham</lastName>
+        <identifiers>
+          <bioguideId>A000374</bioguideId>
+          <gpoId />
+          <lisID>2244</lisID>
+        </identifiers>
+        <bioguideId>A000374</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>Lee</middleName>
+        <state>LA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <party>R</party>
+        <firstName>Steve</firstName>
+        <district>4</district>
+        <fullName>Rep. King, Steve [R-IA-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>King</lastName>
+        <identifiers>
+          <lisID>1724</lisID>
+          <bioguideId>K000362</bioguideId>
+          <gpoId>7918</gpoId>
+        </identifiers>
+        <bioguideId>K000362</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>IA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-19</sponsorshipDate>
+        <party>R</party>
+        <firstName>Rod</firstName>
+        <district>1</district>
+        <fullName>Rep. Blum, Rod [R-IA-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Blum</lastName>
+        <identifiers>
+          <lisID>2241</lisID>
+          <bioguideId>B001294</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>B001294</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>IA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-02</sponsorshipDate>
+        <party>R</party>
+        <firstName>Rob</firstName>
+        <district>1</district>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bishop</lastName>
+        <identifiers>
+          <lisID>1753</lisID>
+          <bioguideId>B001250</bioguideId>
+          <gpoId>8189</gpoId>
+        </identifiers>
+        <bioguideId>B001250</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>UT</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-02</sponsorshipDate>
+        <party>R</party>
+        <firstName>Thomas</firstName>
+        <district>3</district>
+        <fullName>Rep. MacArthur, Thomas [R-NJ-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MacArthur</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2258</lisID>
+          <bioguideId>M001193</bioguideId>
+        </identifiers>
+        <bioguideId>M001193</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NJ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Elise</firstName>
+        <district>21</district>
+        <fullName>Rep. Stefanik, Elise M. [R-NY-21]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Stefanik</lastName>
+        <identifiers>
+          <lisID>2263</lisID>
+          <bioguideId>S001196</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>S001196</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <party>R</party>
+        <firstName>Michael</firstName>
+        <district>10</district>
+        <fullName>Rep. Turner, Michael R. [R-OH-10]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Turner</lastName>
+        <identifiers>
+          <gpoId>8093</gpoId>
+          <lisID>1741</lisID>
+          <bioguideId>T000463</bioguideId>
+        </identifiers>
+        <bioguideId>T000463</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>R.</middleName>
+        <state>OH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <party>R</party>
+        <firstName>Jody</firstName>
+        <district>10</district>
+        <fullName>Rep. Hice, Jody B. [R-GA-10]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Hice</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2237</lisID>
+          <bioguideId>H001071</bioguideId>
+        </identifiers>
+        <bioguideId>H001071</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <state>GA</state>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4058</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Obamacare Full Disclosure Act</b></p> This bill requires a form provided by the Center for Medicare and Medicaid Services to group health plans and health insurers as a template for a cancellation notice to include specified information under specified circumstances. The form must include a statement that an enrollee's plan or coverage was cancelled because of the Patient Protection and Affordable Care Act (PPACA) if the plan or coverage was cancelled because it did not meet PPACA requirements or because of financial losses incurred due to PPACA requirements.]]></text>
+          <lastSummaryUpdateDate>2016-07-06T19:56:21Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-11-18</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-11-18T05:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SHUSTER:H.R. 4058.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8: The Congress shall have Power. . . tomake all Laws which shall be necessary and proper forcarrying into Execution the foregoing Powers, and all otherPowers vested by this Constitution into the Government of theUnited States, or in any Department or Officer thereof.[Page H8360]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Obamacare Full Disclosure Act</title>
+    <latestAction>
+      <actionDate>2015-11-20</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:03:52Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Shuster, Bill [R-PA-9]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>S001154</bioguideId>
+        <district>9</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Bill</firstName>
+        <lastName>Shuster</lastName>
+        <identifiers>
+          <bioguideId>S001154</bioguideId>
+          <gpoId>8127</gpoId>
+          <lisID>1681</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

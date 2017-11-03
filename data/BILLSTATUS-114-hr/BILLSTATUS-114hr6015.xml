@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-09-14T05:20:48Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-09-13T14:02:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-09-19T14:01:25Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>Health Savings Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-24</actionDate>
+          <text>Sponsor introductory remarks on measure. (CR H865)</text>
+        </latestAction>
+        <number>4469</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>S</type>
+        <latestTitle>Primary Care Enhancement Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-08-05</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <number>1989</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>S</type>
+        <latestTitle>Health Savings Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-02-04</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <number>2499</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-09-13</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2016-09-19</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hswm02</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-09-13</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <title>Primary Care Enhancement Act of 2016</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend the Internal Revenue Code of 1986 to provide for the treatment of certain direct primary care service arrangements and periodic provider fees.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Primary Care Enhancement Act of 2016</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Health care costs and insurance</name>
+          </item>
+          <item>
+            <name>Health promotion and preventive care</name>
+          </item>
+          <item>
+            <name>Income tax deductions</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2016-09-13</sponsorshipDate>
+        <firstName>EARL</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+          <lisID>99</lisID>
+        </identifiers>
+        <bioguideId>B000574</bioguideId>
+        <party>D</party>
+        <district>3</district>
+        <state>OR</state>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <lastName>BLUMENAUER</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-21</sponsorshipDate>
+        <firstName>Jeff</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1793</lisID>
+          <gpoId>8038</gpoId>
+          <bioguideId>F000449</bioguideId>
+        </identifiers>
+        <bioguideId>F000449</bioguideId>
+        <party>R</party>
+        <district>1</district>
+        <state>NE</state>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <lastName>Fortenberry</lastName>
+        <middleName />
+        <sponsorshipWithdrawnDate />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>6015</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Primary Care Enhancement Act of 2016 </b></p> <p>This bill amends the Internal Revenue Code to: (1) permit an individual to pay primary care service arrangement costs from a health savings account; and (2) allow an eligible taxpayer enrolled in a high-deductible health plan to take a tax deduction for cash paid into a health savings account, even if the taxpayer is simultaneously enrolled in a primary care service arrangement.</p> <p>Under a &quot;primary care service arrangement,&quot; an individual is provided coverage restricted to primary care services in exchange for a fixed periodic fee or payment for such services. </p> <p>For the purposes of certain tax-deductible expenses for medical care, the bill expands the definition of &quot;medical care&quot; to include periodic provider fees, including: (1) periodic fees paid to a primary care physician for a defined set of medical services or the right to receive medical services on an as-needed basis; and (2) pre-paid primary care services designed to screen for, diagnose, cure, mitigate, treat, or prevent disease and promote wellness. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-09-13T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2017-02-09T18:32:20Z</lastSummaryUpdateDate>
+          <actionDate>2016-09-13</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PAULSEN:H.R. 6015.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1--``lay and collect taxes''Article 1, Section 8, Clause 18--``necessary and proper''[Page H5436]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Primary Care Enhancement Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-09-19</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:06:04Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Paulsen, Erik [R-MN-3]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>P000594</bioguideId>
+        <district>3</district>
+        <middleName />
+        <state>MN</state>
+        <firstName>Erik</firstName>
+        <lastName>Paulsen</lastName>
+        <identifiers>
+          <lisID>1930</lisID>
+          <bioguideId>P000594</bioguideId>
+          <gpoId>8003</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2013-04-09</introducedDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsju00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-04-09T18:04:50Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+          <subcommittees>
+            <item>
+              <systemCode>hsju01</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2013-04-30T20:02:32Z</date>
+                </item>
+              </activities>
+              <name>Immigration and Border Security Subcommittee</name>
+            </item>
+          </subcommittees>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills />
+    <calendarNumbers />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. OWENS:H.R. 1444.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article I, Section 8, of the United StatesConstitution.[Page H1859]</pre>]]></constitutionalAuthorityStatementText>
+    <sponsors>
+      <item>
+        <fullName>Rep. Owens, William L. [D-NY-21]</fullName>
+        <identifiers>
+          <bioguideId>O000169</bioguideId>
+          <lisID>1974</lisID>
+          <gpoId>8673</gpoId>
+        </identifiers>
+        <bioguideId>O000169</bioguideId>
+        <party>D</party>
+        <byRequestType />
+        <middleName>L.</middleName>
+        <state>NY</state>
+        <lastName>Owens</lastName>
+        <district>21</district>
+        <firstName>William</firstName>
+      </item>
+    </sponsors>
+    <recordedVotes />
+    <billType>HR</billType>
+    <committeeReports />
+    <congress>113</congress>
+    <notes />
+    <titles>
+      <item>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+        <title>H-2A Improvement Act</title>
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+        <title>To improve the H-2A agricultural worker program for use by dairy workers, sheepherders, and goat herders, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+        <title>H-2A Improvement Act</title>
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <createDate>2013-04-11T09:40:13Z</createDate>
+    <originChamber>House</originChamber>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Hanna, Richard L. [R-NY-22]</fullName>
+        <lastName>Hanna</lastName>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>H001051</bioguideId>
+        <identifiers>
+          <gpoId>8085</gpoId>
+          <lisID>2044</lisID>
+          <bioguideId>H001051</bioguideId>
+        </identifiers>
+        <firstName>Richard</firstName>
+        <middleName>L.</middleName>
+        <sponsorshipDate>2013-04-09</sponsorshipDate>
+        <district>22</district>
+        <sponsorshipWithdrawnDate />
+        <state>NY</state>
+      </item>
+      <item>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <lastName>Welch</lastName>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>W000800</bioguideId>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+        </identifiers>
+        <firstName>Peter</firstName>
+        <middleName />
+        <sponsorshipDate>2013-04-09</sponsorshipDate>
+        <district>0</district>
+        <sponsorshipWithdrawnDate />
+        <state>VT</state>
+      </item>
+    </cosponsors>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDate>2013-04-09</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p>H-2A Improvement Act - Amends the Immigration and Nationality Act to include within the H-2A nonimmigrant visa category (temporary agricultural workers) an alien coming temporarily to the United States to work as a sheepherder, goat herder, or dairy worker. </p> <p>Provides for a three-year initial period of admission with an additional three-year extension. </p>]]></text>
+          <updateDate>2013-04-09T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2013-04-19T20:34:49Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <actions>
+      <item>
+        <actionDate>2013-04-30</actionDate>
+        <committee>
+          <name>Immigration and Border Security Subcommittee</name>
+          <systemCode>hsju01</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-04-09</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <links />
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-04-09</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <committee />
+        <actionCode>Intro-H</actionCode>
+        <links />
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2013-04-09</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <committee />
+        <actionCode>1000</actionCode>
+        <links />
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <cboCostEstimates />
+    <amendments />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Foreign labor</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Livestock</name>
+          </item>
+          <item>
+            <name>Migrant, seasonal, agricultural labor</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <laws />
+    <title>H-2A Improvement Act</title>
+    <updateDate>2016-10-25T16:01:48Z</updateDate>
+    <billNumber>1444</billNumber>
+    <latestAction>
+      <actionDate>2013-04-30</actionDate>
+      <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+
