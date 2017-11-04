@@ -1,5 +1,1 @@
-**C**ongressional
-**B**ill
-**E**xploration,
-**A**nalsis, &
-**T**racking
+**C**ongressional **B**ill **E**xploration, **A**nalysis, & **T**racking
