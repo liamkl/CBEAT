@@ -60,12 +60,9 @@ data_dir <- paste0(getwd(), "/data/")
 # easily be extended to pull those as well by adding another for-loop
 # to loop through Congresses.
 #
-# Takes a LONG time so be careful. 
+# Takes a LONG time so be careful (1 hour+)
 # May want to not loop and do it in chunks instead.
-for (bill_type in bill_types){
+for (bill_type in bill_types[3:4]){
   bill_list <- get_bill_list(115, bill_type)
   sapply(bill_list$Name, export_bill_xml, data_dir)
 }
-
-sapply(bill_list$Name[1323:nrow(bill_list)], export_bill_xml, data_dir)
-nrow(bill_list)
