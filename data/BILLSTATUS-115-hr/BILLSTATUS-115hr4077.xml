@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <committeeReports/>
+    <billType>HR</billType>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-19</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsha00</systemCode>
+          <name>House Administration Committee</name>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on House Administration.</text>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-10-19</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-10-19</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <links/>
+      </item>
+    </actions>
+    <recordedVotes/>
+    <originChamber>House</originChamber>
+    <createDate>2017-10-20T03:11:18Z</createDate>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <amendments/>
+    <laws/>
+    <updateDate>2017-10-24T13:45:15Z</updateDate>
+    <title>Honest Ads Act</title>
+    <version>1.0.0</version>
+    <introducedDate>2017-10-19</introducedDate>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <sponsors>
+      <item>
+        <middleName/>
+        <firstName>Derek</firstName>
+        <district>6</district>
+        <lastName>Kilmer</lastName>
+        <bioguideId>K000381</bioguideId>
+        <party>D</party>
+        <byRequestType/>
+        <state>WA</state>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <identifiers>
+          <gpoId/>
+          <lisID>2169</lisID>
+          <bioguideId>K000381</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Referred to the House Committee on House Administration.</text>
+      <links/>
+      <actionDate>2017-10-19</actionDate>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>1912</lisID>
+          <gpoId>7864</gpoId>
+          <bioguideId>C001077</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-19</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <lastName>Coffman</lastName>
+        <state>CO</state>
+        <middleName/>
+        <district>6</district>
+        <bioguideId>C001077</bioguideId>
+      </item>
+    </cosponsors>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <number>1989</number>
+        <latestTitle>Honest Ads Act</latestTitle>
+        <latestAction>
+          <actionDate>2017-10-19</actionDate>
+          <text>Read twice and referred to the Committee on Rules and Administration.</text>
+        </latestAction>
+        <congress>115</congress>
+      </item>
+    </relatedBills>
+    <billNumber>4077</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. SHIMKUS:H.R. 3053.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1 of the United StatesConstitution.[Page H5179]</pre>]]></constitutionalAuthorityStatementText>
+    <cboCostEstimates/>
+    <titles>
+      <item>
+        <title>Honest Ads Act</title>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>Honest Ads Act</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>To enhance transparency and accountability for online political advertisements by requiring those who purchase and publish such ads to disclose information about the advertisements to the public, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>Honest Ads Act</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsha00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-19T16:01:05Z</date>
+            </item>
+          </activities>
+          <subcommittees/>
+          <name>House Administration Committee</name>
+          <chamber>House</chamber>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <calendarNumbers/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

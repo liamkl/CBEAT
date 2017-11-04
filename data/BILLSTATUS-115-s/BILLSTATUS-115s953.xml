@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-04-27T00:41:43Z</createDate>
+    <updateDate>2017-10-21T04:29:28Z</updateDate>
+    <introducedDate>2017-04-26</introducedDate>
+    <cboCostEstimates/>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <billType>S</billType>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <sponsors>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1937</lisID>
+          <gpoId>8056</gpoId>
+          <bioguideId>H001046</bioguideId>
+        </identifiers>
+        <lastName>Heinrich</lastName>
+        <bioguideId>H001046</bioguideId>
+        <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+        <party>D</party>
+        <state>NM</state>
+        <firstName>Martin</firstName>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <cosponsors/>
+    <calendarNumbers/>
+    <originChamber>Senate</originChamber>
+    <latestAction>
+      <actionDate>2017-04-26</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links/>
+    </latestAction>
+    <committeeReports/>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-04-26</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <actionDate>2017-04-26</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+      </item>
+    </actions>
+    <notes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-04-26T18:21:24Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills/>
+    <amendments/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Executive Office of the President</name>
+          </item>
+          <item>
+            <name>Federal officials</name>
+          </item>
+          <item>
+            <name>Freedom of information</name>
+          </item>
+          <item>
+            <name>Government ethics and transparency, public corruption</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Presidents and presidential powers, Vice Presidents</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>White House Visitor Logs Transparency Act of 2017</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>White House Visitor Logs Transparency Act of 2017</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <title>A bill to require the United States Secret Service to make certain White House visitor logs available to the public, and for other purposes.</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <title>White House Visitor Logs Transparency Act of 2017</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+    </titles>
+    <title>White House Visitor Logs Transparency Act of 2017</title>
+    <version>1.0.0</version>
+    <congress>115</congress>
+    <laws/>
+    <recordedVotes/>
+    <billNumber>953</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

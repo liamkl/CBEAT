@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Science, Technology, Communications</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <version>1.0.0</version>
+    <notes/>
+    <amendments/>
+    <committeeReports/>
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-10-26</actionDate>
+        <committee>
+          <systemCode>sscm00</systemCode>
+          <name>Commerce, Science, and Transportation Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-26</actionDate>
+        <actionCode>10000</actionCode>
+        <links/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <billNumber>2020</billNumber>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <billType>S</billType>
+    <recordedVotes/>
+    <relatedBills>
+      <item>
+        <number>4163</number>
+        <latestTitle>Cyber Shield Act of 2017</latestTitle>
+        <type>HR</type>
+        <congress>115</congress>
+        <latestAction>
+          <actionDate>2017-10-27</actionDate>
+          <text>Referred to the House Committee on Energy and Commerce.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <createDate>2017-10-27T00:41:23Z</createDate>
+    <introducedDate>2017-10-26</introducedDate>
+    <title>Cyber Shield Act of 2017</title>
+    <cboCostEstimates/>
+    <congress>115</congress>
+    <originChamber>Senate</originChamber>
+    <cosponsors/>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <lastName>MARKEY</lastName>
+        <identifiers>
+          <lisID>735</lisID>
+          <gpoId>7972</gpoId>
+          <bioguideId>M000133</bioguideId>
+        </identifiers>
+        <middleName>J.</middleName>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <byRequestType/>
+        <state>MA</state>
+        <firstName>EDWARD</firstName>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+      <links/>
+      <actionDate>2017-10-26</actionDate>
+    </latestAction>
+    <updateDate>2017-11-04T04:28:29Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>sscm00</systemCode>
+          <subcommittees/>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-26T17:41:42Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <titles>
+      <item>
+        <chamberCode/>
+        <title>Cyber Shield Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>A bill to establish a voluntary program to identify and promote Internet-connected products that meet industry-leading cybersecurity and data security standards, guidelines, best practices, methodologies, procedures, and processes.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>Cyber Shield Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>Cyber Shield Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

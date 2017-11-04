@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <version>1.0.0</version>
+    <billNumber>2063</billNumber>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <middleName/>
+        <firstName>Jon</firstName>
+        <bioguideId>T000464</bioguideId>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+        <party>D</party>
+        <lastName>Tester</lastName>
+        <state>MT</state>
+        <identifiers>
+          <bioguideId>T000464</bioguideId>
+          <gpoId>8258</gpoId>
+          <lisID>1829</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <originChamber>Senate</originChamber>
+    <title>A bill to direct the Secretary of Veterans Affairs to submit to Congress certain documents relating to the Electronic Health Record Modernization Program of the Department of Veterans Affairs.</title>
+    <committeeReports/>
+    <createDate>2017-11-03T00:41:17Z</createDate>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <title>A bill to direct the Secretary of Veterans Affairs to submit to Congress certain documents relating to the Electronic Health Record Modernization Program of the Department of Veterans Affairs.</title>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <title>A bill to direct the Secretary of Veterans Affairs to submit to Congress certain documents relating to the Electronic Health Record Modernization Program of the Department of Veterans Affairs.</title>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+      </item>
+    </titles>
+    <latestAction>
+      <actionDate>2017-11-02</actionDate>
+      <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+      <links/>
+    </latestAction>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-11-02</actionDate>
+        <committee>
+          <systemCode>ssva00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2017-11-02</actionDate>
+        <actionCode>10000</actionCode>
+        <links/>
+      </item>
+    </actions>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <lastName>Blumenthal</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <lisID>2076</lisID>
+          <bioguideId>B001277</bioguideId>
+          <gpoId>8332</gpoId>
+        </identifiers>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <middleName/>
+        <bioguideId>B001277</bioguideId>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>CT</state>
+        <firstName>Richard</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2017-11-02</introducedDate>
+    <calendarNumbers/>
+    <billType>S</billType>
+    <recordedVotes/>
+    <cboCostEstimates/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <updateDate>2017-11-03T04:48:38Z</updateDate>
+    <congress>115</congress>
+    <relatedBills/>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>ssva00</systemCode>
+          <activities>
+            <item>
+              <date>2017-11-02T16:09:18Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <amendments/>
+    <laws/>
+    <policyArea/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <committeeReports/>
+    <billType>S</billType>
+    <actions>
+      <item>
+        <actionDate>2017-02-13</actionDate>
+        <committee>
+          <systemCode>ssra00</systemCode>
+          <name>Rules and Administration Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Rules and Administration.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-02-13</actionDate>
+        <text>Introduced in Senate</text>
+        <links/>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <recordedVotes/>
+    <originChamber>Senate</originChamber>
+    <createDate>2017-02-14T05:20:37Z</createDate>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDate>2017-02-13</actionDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2017-02-13T05:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+          <lastSummaryUpdateDate>2017-10-24T21:45:16Z</lastSummaryUpdateDate>
+          <text><![CDATA[<p><b>Same Day Registration Act</b></p> <p> This bill amends the Help America Vote Act of 2002 to require states with a voter registration requirement to make same-day voter registration available at the polling place on any day voting is permitted.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments/>
+    <laws/>
+    <updateDate>2017-10-27T04:47:34Z</updateDate>
+    <version>1.0.0</version>
+    <introducedDate>2017-02-13</introducedDate>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Same Day Registration Act</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Same Day Registration Act</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to amend the Help America Vote Act of 2002 to require States to provide for same day registration.</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Same Day Registration Act</title>
+      </item>
+    </titles>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <sponsors>
+      <item>
+        <middleName/>
+        <firstName>Amy</firstName>
+        <lastName>Klobuchar</lastName>
+        <bioguideId>K000367</bioguideId>
+        <party>D</party>
+        <byRequestType/>
+        <state>MN</state>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <identifiers>
+          <bioguideId>K000367</bioguideId>
+          <gpoId>8249</gpoId>
+          <lisID>1826</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Rules and Administration.</text>
+      <links/>
+      <actionDate>2017-02-13</actionDate>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <lastName>Tester</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8258</gpoId>
+          <lisID>1829</lisID>
+          <bioguideId>T000464</bioguideId>
+        </identifiers>
+        <state>MT</state>
+        <firstName>Jon</firstName>
+        <bioguideId>T000464</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Tester, Jon [D-MT]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>DURBIN</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8326</gpoId>
+          <lisID>326</lisID>
+          <bioguideId>D000563</bioguideId>
+        </identifiers>
+        <state>IL</state>
+        <firstName>RICHARD</firstName>
+        <bioguideId>D000563</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <lastName>Blumenthal</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2076</lisID>
+          <gpoId>8332</gpoId>
+          <bioguideId>B001277</bioguideId>
+        </identifiers>
+        <state>CT</state>
+        <firstName>Richard</firstName>
+        <bioguideId>B001277</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Blumenthal, Richard [D-CT]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Hirono</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7913</gpoId>
+          <lisID>1844</lisID>
+          <bioguideId>H001042</bioguideId>
+        </identifiers>
+        <state>HI</state>
+        <firstName>Mazie</firstName>
+        <bioguideId>H001042</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName>K.</middleName>
+      </item>
+      <item>
+        <lastName>MENENDEZ</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>791</lisID>
+          <bioguideId>M000639</bioguideId>
+          <gpoId>8239</gpoId>
+        </identifiers>
+        <state>NJ</state>
+        <firstName>ROBERT</firstName>
+        <bioguideId>M000639</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Gillibrand</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1866</lisID>
+          <gpoId>8336</gpoId>
+          <bioguideId>G000555</bioguideId>
+        </identifiers>
+        <state>NY</state>
+        <firstName>Kirsten</firstName>
+        <bioguideId>G000555</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName>E.</middleName>
+      </item>
+      <item>
+        <lastName>Merkley</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1900</lisID>
+          <bioguideId>M001176</bioguideId>
+          <gpoId>8238</gpoId>
+        </identifiers>
+        <state>OR</state>
+        <firstName>Jeff</firstName>
+        <bioguideId>M001176</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Cortez Masto</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId/>
+          <lisID>2299</lisID>
+          <bioguideId>C001113</bioguideId>
+        </identifiers>
+        <state>NV</state>
+        <firstName>Catherine</firstName>
+        <bioguideId>C001113</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Cortez Masto, Catherine  [D-NV]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Van Hollen</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7983</gpoId>
+          <lisID>1729</lisID>
+          <bioguideId>V000128</bioguideId>
+        </identifiers>
+        <state>MD</state>
+        <firstName>Chris</firstName>
+        <bioguideId>V000128</bioguideId>
+        <sponsorshipDate>2017-02-13</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Van Hollen, Chris [D-MD]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Franken</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1969</lisID>
+          <bioguideId>F000457</bioguideId>
+          <gpoId>8339</gpoId>
+        </identifiers>
+        <state>MN</state>
+        <firstName>Al</firstName>
+        <bioguideId>F000457</bioguideId>
+        <sponsorshipDate>2017-06-27</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Franken, Al [D-MN]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Hassan</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId/>
+          <lisID>2302</lisID>
+          <bioguideId>H001076</bioguideId>
+        </identifiers>
+        <state>NH</state>
+        <firstName>Margaret</firstName>
+        <bioguideId>H001076</bioguideId>
+        <sponsorshipDate>2017-06-27</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Hassan, Margaret Wood [D-NH]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName>Wood</middleName>
+      </item>
+      <item>
+        <lastName>UDALL</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>U000039</bioguideId>
+          <gpoId>8260</gpoId>
+          <lisID>1567</lisID>
+        </identifiers>
+        <state>NM</state>
+        <firstName>TOM</firstName>
+        <bioguideId>U000039</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Udall, Tom [D-NM]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>MARKEY</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M000133</bioguideId>
+          <gpoId>7972</gpoId>
+          <lisID>735</lisID>
+        </identifiers>
+        <state>MA</state>
+        <firstName>EDWARD</firstName>
+        <bioguideId>M000133</bioguideId>
+        <sponsorshipDate>2017-09-19</sponsorshipDate>
+        <party>D</party>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <middleName>J.</middleName>
+      </item>
+    </cosponsors>
+    <relatedBills>
+      <item>
+        <number>1437</number>
+        <latestTitle>Voter Empowerment Act of 2017</latestTitle>
+        <latestAction>
+          <actionDate>2017-06-26</actionDate>
+          <text>Read twice and referred to the Committee on Rules and Administration.</text>
+        </latestAction>
+        <congress>115</congress>
+        <type>S</type>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <number>12</number>
+        <latestTitle>Voter Empowerment Act of 2017</latestTitle>
+        <latestAction>
+          <actionDate>2017-07-14</actionDate>
+          <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        </latestAction>
+        <congress>115</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <number>1044</number>
+        <latestTitle>Same Day Registration Act of 2017</latestTitle>
+        <latestAction>
+          <actionDate>2017-02-14</actionDate>
+          <text>Referred to the House Committee on House Administration.</text>
+        </latestAction>
+        <congress>115</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billNumber>360</billNumber>
+    <cboCostEstimates/>
+    <title>Same Day Registration Act</title>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <activities>
+            <item>
+              <date>2017-02-13T22:57:34Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>ssra00</systemCode>
+          <chamber>Senate</chamber>
+          <name>Rules and Administration Committee</name>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional elections</name>
+          </item>
+          <item>
+            <name>Elections, voting, political campaign regulation</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <calendarNumbers/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

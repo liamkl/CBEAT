@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-06-20</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-06-20</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-06-20</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-11-01T07:16:16Z</updateDate>
+    <introducedDate>2017-06-20</introducedDate>
+    <recordedVotes/>
+    <createDate>2017-06-21T07:26:39Z</createDate>
+    <congress>115</congress>
+    <sponsors>
+      <item>
+        <firstName>Donald</firstName>
+        <lastName>Norcross</lastName>
+        <state>NJ</state>
+        <bioguideId>N000188</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2202</lisID>
+          <gpoId/>
+          <bioguideId>N000188</bioguideId>
+        </identifiers>
+        <byRequestType/>
+        <middleName/>
+        <fullName>Rep. Norcross, Donald [D-NJ-1]</fullName>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>Remedial Education Improvement Act</title>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>Remedial Education Improvement Act</title>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>To amend the Higher Education Act of 1965 to improve remedial education programs that train students in the competencies needed to succeed in higher education.</title>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>Remedial Education Improvement Act</title>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+    </titles>
+    <amendments/>
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-06-20</sponsorshipDate>
+        <bioguideId>M001196</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MA</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>M001196</bioguideId>
+          <gpoId/>
+          <lisID>2246</lisID>
+        </identifiers>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <party>D</party>
+        <firstName>Seth</firstName>
+        <lastName>Moulton</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-20</sponsorshipDate>
+        <bioguideId>W000799</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MN</state>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>1856</lisID>
+          <bioguideId>W000799</bioguideId>
+          <gpoId>8001</gpoId>
+        </identifiers>
+        <fullName>Rep. Walz, Timothy J. [D-MN-1]</fullName>
+        <party>D</party>
+        <firstName>Timothy</firstName>
+        <lastName>Walz</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-20</sponsorshipDate>
+        <bioguideId>S000185</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>VA</state>
+        <middleName>C. "Bobby"</middleName>
+        <identifiers>
+          <lisID>1037</lisID>
+          <gpoId>8194</gpoId>
+          <bioguideId>S000185</bioguideId>
+        </identifiers>
+        <fullName>Rep. Scott, Robert C. "Bobby" [D-VA-3]</fullName>
+        <party>D</party>
+        <firstName>Robert</firstName>
+        <lastName>Scott</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-20</sponsorshipDate>
+        <bioguideId>D000598</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <bioguideId>D000598</bioguideId>
+          <gpoId>7858</gpoId>
+          <lisID>1641</lisID>
+        </identifiers>
+        <fullName>Rep. Davis, Susan A. [D-CA-53]</fullName>
+        <party>D</party>
+        <firstName>SUSAN</firstName>
+        <lastName>DAVIS</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>53</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-11</sponsorshipDate>
+        <bioguideId>R000577</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>OH</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1756</lisID>
+          <bioguideId>R000577</bioguideId>
+          <gpoId>8107</gpoId>
+        </identifiers>
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <party>D</party>
+        <firstName>TIM</firstName>
+        <lastName>RYAN</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>13</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-11</sponsorshipDate>
+        <bioguideId>T000472</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2110</lisID>
+          <gpoId/>
+          <bioguideId>T000472</bioguideId>
+        </identifiers>
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <lastName>Takano</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>41</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-17</sponsorshipDate>
+        <bioguideId>S001193</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2104</lisID>
+          <gpoId/>
+          <bioguideId>S001193</bioguideId>
+        </identifiers>
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <party>D</party>
+        <firstName>Eric</firstName>
+        <lastName>Swalwell</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>15</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-18</sponsorshipDate>
+        <bioguideId>N000127</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MN</state>
+        <middleName/>
+        <identifiers>
+          <gpoId/>
+          <lisID>867</lisID>
+          <bioguideId>N000127</bioguideId>
+        </identifiers>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <party>D</party>
+        <firstName>RICHARD</firstName>
+        <lastName>NOLAN</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>8</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-31</sponsorshipDate>
+        <bioguideId>D000623</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName/>
+        <identifiers>
+          <gpoId/>
+          <lisID>2227</lisID>
+          <bioguideId>D000623</bioguideId>
+        </identifiers>
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <lastName>DeSaulnier</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>11</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. NORCROSS:H.R. 2961.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H4994]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports/>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2017-06-20T16:01:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2017-06-20</actionDate>
+      <text>Referred to the House Committee on Education and the Workforce.</text>
+      <links/>
+    </latestAction>
+    <relatedBills/>
+    <laws/>
+    <originChamber>House</originChamber>
+    <cboCostEstimates/>
+    <title>Remedial Education Improvement Act</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <calendarNumbers/>
+    <billNumber>2961</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

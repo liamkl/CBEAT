@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes/>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <updateDate>2017-11-04T04:28:29Z</updateDate>
+    <cosponsors/>
+    <version>1.0.0</version>
+    <congress>115</congress>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-10-25</actionDate>
+        <committee>
+          <systemCode>sshr00</systemCode>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-25</actionDate>
+        <actionCode>10000</actionCode>
+        <links/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <title>FDA Cosmetic Safety and Modernization Act</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <notes/>
+    <laws/>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers/>
+    <createDate>2017-10-26T00:26:17Z</createDate>
+    <cboCostEstimates/>
+    <billNumber>2003</billNumber>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Health, Education, Labor, and Pensions Committee</name>
+          <activities>
+            <item>
+              <date>2017-10-25T15:41:57Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>sshr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <introducedDate>2017-10-25</introducedDate>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <amendments/>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <lastName>HATCH</lastName>
+        <fullName>Sen. Hatch, Orrin G. [R-UT]</fullName>
+        <middleName>GRANT</middleName>
+        <identifiers>
+          <lisID>1351</lisID>
+          <gpoId>8314</gpoId>
+          <bioguideId>H000338</bioguideId>
+        </identifiers>
+        <bioguideId>H000338</bioguideId>
+        <byRequestType/>
+        <firstName>ORRIN</firstName>
+        <state>UT</state>
+      </item>
+    </sponsors>
+    <titles>
+      <item>
+        <title>FDA Cosmetic Safety and Modernization Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <title>A bill to modernize the regulation of cosmetics.</title>
+        <chamberCode/>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <title>FDA Cosmetic Safety and Modernization Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+      </item>
+      <item>
+        <title>FDA Cosmetic Safety and Modernization Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+      </item>
+    </titles>
+    <relatedBills/>
+    <latestAction>
+      <actionDate>2017-10-25</actionDate>
+      <links/>
+      <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+    </latestAction>
+    <committeeReports/>
+    <billType>S</billType>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

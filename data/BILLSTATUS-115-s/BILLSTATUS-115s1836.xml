@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <originChamber>Senate</originChamber>
+    <latestAction>
+      <links/>
+      <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+      <actionDate>2017-09-19</actionDate>
+    </latestAction>
+    <laws/>
+    <recordedVotes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <date>2017-09-19T19:38:51Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssva00</systemCode>
+          <subcommittees/>
+          <name>Veterans' Affairs Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>S</billType>
+    <calendarNumbers/>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2017-09-19</introducedDate>
+    <createDate>2017-09-20T00:41:19Z</createDate>
+    <amendments/>
+    <cboCostEstimates/>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <bioguideId>S001194</bioguideId>
+          <lisID>2173</lisID>
+          <gpoId/>
+        </identifiers>
+        <firstName>Brian</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-09-19</sponsorshipDate>
+        <party>D</party>
+        <middleName/>
+        <bioguideId>S001194</bioguideId>
+        <lastName>Schatz</lastName>
+        <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+        <state>HI</state>
+        <sponsorshipWithdrawnDate/>
+      </item>
+    </cosponsors>
+    <committeeReports/>
+    <relatedBills/>
+    <title>Veterans' Disability Compensation Automatic COLA Act</title>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-09-19</actionDate>
+        <committee>
+          <systemCode>ssva00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-09-19</actionDate>
+        <committee/>
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDate>2017-09-19</actionDate>
+          <name>Introduced in Senate</name>
+          <lastSummaryUpdateDate>2017-10-02T21:58:05Z</lastSummaryUpdateDate>
+          <updateDate>2017-09-19T04:00:00Z</updateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Veterans' Disability Compensation Automatic COLA Act</strong></p> <p>This bill provides that whenever there is an increase in benefit amounts payable under title II (Old Age, Survivors and Disability Insurance) of the Social Security Act, the Department of Veterans Affairs shall increase by the same percentage the amounts payable as veterans' disability compensation, additional compensation for dependents, the clothing allowance for certain disabled adult children, and dependency and indemnity compensation for surviving spouses and children.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <version>1.0.0</version>
+    <titles>
+      <item>
+        <title>Veterans' Disability Compensation Automatic COLA Act</title>
+        <chamberCode/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <title>A bill to amend title 38, United States Code, to provide for annual cost-of-living adjustments to be made automatically by law each year in the rates of disability compensation for veterans with service-connected disabilities and the rates of dependency and indemnity compensation for survivors of certain service-connected disabled veterans, and for other purposes.</title>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <title>Veterans' Disability Compensation Automatic COLA Act</title>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <title>Veterans' Disability Compensation Automatic COLA Act</title>
+        <chamberCode/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+    </titles>
+    <updateDate>2017-10-05T04:32:13Z</updateDate>
+    <sponsors>
+      <item>
+        <middleName>R.</middleName>
+        <firstName>JOHN</firstName>
+        <fullName>Sen. Thune, John [R-SD]</fullName>
+        <bioguideId>T000250</bioguideId>
+        <lastName>THUNE</lastName>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>T000250</bioguideId>
+          <gpoId>8257</gpoId>
+          <lisID>1534</lisID>
+        </identifiers>
+        <state>SD</state>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <billNumber>1836</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers/>
+    <amendments/>
+    <originChamber>Senate</originChamber>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Alternative and renewable resources</name>
+          </item>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Electric power generation and transmission</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Lighting and heating</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <state>MS</state>
+        <identifiers>
+          <bioguideId>W000437</bioguideId>
+          <gpoId>8263</gpoId>
+          <lisID>1226</lisID>
+        </identifiers>
+        <lastName>WICKER</lastName>
+        <firstName>ROGER</firstName>
+        <bioguideId>W000437</bioguideId>
+        <byRequestType/>
+        <middleName>F.</middleName>
+        <fullName>Sen. Wicker, Roger F. [R-MS]</fullName>
+      </item>
+    </sponsors>
+    <createDate>2017-05-05T00:41:45Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <name>Finance Committee</name>
+          <type>Standing</type>
+          <systemCode>ssfi00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-05-04T19:02:57Z</date>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <congress>115</congress>
+    <billNumber>1054</billNumber>
+    <introducedDate>2017-05-04</introducedDate>
+    <cosponsors>
+      <item>
+        <middleName>J.</middleName>
+        <lastName>MARKEY</lastName>
+        <firstName>EDWARD</firstName>
+        <bioguideId>M000133</bioguideId>
+        <state>MA</state>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <identifiers>
+          <lisID>735</lisID>
+          <gpoId>7972</gpoId>
+          <bioguideId>M000133</bioguideId>
+        </identifiers>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+      </item>
+    </cosponsors>
+    <recordedVotes/>
+    <committeeReports/>
+    <billType>S</billType>
+    <title>Dynamic Glass Act</title>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <updateDate>2017-10-28T04:33:08Z</updateDate>
+    <titles>
+      <item>
+        <title>Dynamic Glass Act</title>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>Dynamic Glass Act</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>A bill to amend the Internal Revenue Code of 1986 to ensure that electrochromic glass qualifies as energy property for purposes of the energy credit.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <title>Dynamic Glass Act</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <latestAction>
+      <actionDate>2017-05-04</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+    </latestAction>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Dynamic Glass Act </b></p> <p>This bill amends the Internal Revenue Code to specify that the use of electrochromic glass qualifies for the tax credit for investment in energy property. (Electrochromic glass is able to switch from clear to dark using a switch, sensor, timer, or similar controls.) </p>]]></text>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2017-05-04</actionDate>
+          <updateDate>2017-05-04T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2017-05-17T13:54:25Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes/>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-05-04</actionDate>
+        <committee>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-05-04</actionDate>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+    </actions>
+    <cboCostEstimates/>
+    <version>1.0.0</version>
+    <relatedBills/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2017-09-15</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <actionDate>2017-09-14</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2017-09-14</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <actionDate>2017-09-14</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <introducedDate>2017-09-14</introducedDate>
+    <cboCostEstimates/>
+    <title>Northeast Gasoline Supply Reserve Act</title>
+    <cosponsors>
+      <item>
+        <lastName>Kennedy</lastName>
+        <district>4</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>K000379</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. Kennedy, Joseph P., III [D-MA-4]</fullName>
+        <firstName>Joseph</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2172</lisID>
+          <gpoId/>
+          <bioguideId>K000379</bioguideId>
+        </identifiers>
+        <middleName>P.</middleName>
+      </item>
+      <item>
+        <lastName>ENGEL</lastName>
+        <district>16</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>E000179</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NY</state>
+        <fullName>Rep. Engel, Eliot L. [D-NY-16]</fullName>
+        <firstName>ELIOT</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>344</lisID>
+          <gpoId>8078</gpoId>
+          <bioguideId>E000179</bioguideId>
+        </identifiers>
+        <middleName>L.</middleName>
+      </item>
+      <item>
+        <lastName>Tonko</lastName>
+        <district>20</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>T000469</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NY</state>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <firstName>Paul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1942</lisID>
+          <gpoId>8082</gpoId>
+          <bioguideId>T000469</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Welch</lastName>
+        <district>0</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>W000800</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>VT</state>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <firstName>Peter</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Shea-Porter</lastName>
+        <district>1</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S001170</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NH</state>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <firstName>Carol</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S001170</bioguideId>
+          <gpoId>7528</gpoId>
+          <lisID>1861</lisID>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Moulton</lastName>
+        <district>6</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>M001196</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <firstName>Seth</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001196</bioguideId>
+          <gpoId/>
+          <lisID>2246</lisID>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>CAPUANO</lastName>
+        <district>7</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>C001037</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <firstName>MICHAEL</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001037</bioguideId>
+          <lisID>1564</lisID>
+          <gpoId>7973</gpoId>
+        </identifiers>
+        <middleName>E.</middleName>
+      </item>
+      <item>
+        <lastName>Sires</lastName>
+        <district>8</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S001165</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Sires, Albio [D-NJ-8]</fullName>
+        <firstName>Albio</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1818</lisID>
+          <gpoId>8055</gpoId>
+          <bioguideId>S001165</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Keating</lastName>
+        <district>9</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>K000375</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. Keating, William R. [D-MA-9]</fullName>
+        <firstName>William</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7975</gpoId>
+          <lisID>2025</lisID>
+          <bioguideId>K000375</bioguideId>
+        </identifiers>
+        <middleName>R.</middleName>
+      </item>
+      <item>
+        <lastName>DOYLE</lastName>
+        <district>14</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>D000482</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>PA</state>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <firstName>MIKE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>316</lisID>
+          <gpoId>8132</gpoId>
+          <bioguideId>D000482</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Kuster</lastName>
+        <district>2</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>K000382</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NH</state>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <firstName>Ann</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <lastName>PASCRELL</lastName>
+        <district>9</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>P000096</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <firstName>WILLIAM</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1510</lisID>
+          <gpoId>8050</gpoId>
+          <bioguideId>P000096</bioguideId>
+        </identifiers>
+        <middleName>J.</middleName>
+      </item>
+      <item>
+        <lastName>Norcross</lastName>
+        <district>1</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>N000188</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Norcross, Donald [D-NJ-1]</fullName>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2202</lisID>
+          <bioguideId>N000188</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Watson Coleman</lastName>
+        <district>12</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>W000822</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Watson Coleman, Bonnie [D-NJ-12]</fullName>
+        <firstName>Bonnie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>W000822</bioguideId>
+          <lisID>2259</lisID>
+          <gpoId/>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Payne</lastName>
+        <district>10</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>P000604</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Payne, Donald M., Jr. [D-NJ-10]</fullName>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2097</lisID>
+          <gpoId>8373</gpoId>
+          <bioguideId>P000604</bioguideId>
+        </identifiers>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <lastName>MCGOVERN</lastName>
+        <district>2</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <firstName>JAMES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <middleName>P.</middleName>
+      </item>
+      <item>
+        <lastName>Gottheimer</lastName>
+        <district>5</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>G000583</bioguideId>
+        <sponsorshipDate>2017-09-18</sponsorshipDate>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Gottheimer, Josh [D-NJ-5]</fullName>
+        <firstName>Josh</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000583</bioguideId>
+          <lisID>2338</lisID>
+          <gpoId/>
+        </identifiers>
+        <middleName/>
+      </item>
+    </cosponsors>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <latestAction>
+      <actionDate>2017-09-15</actionDate>
+      <text>Referred to the Subcommittee on Energy.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hsif00</systemCode>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsif03</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-09-15T20:37:48Z</date>
+                </item>
+              </activities>
+              <name>Energy and Power Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-14T13:04:10Z</date>
+            </item>
+          </activities>
+          <name>Energy and Commerce Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>HR</billType>
+    <recordedVotes/>
+    <committeeReports/>
+    <updateDate>2017-10-17T07:12:41Z</updateDate>
+    <congress>115</congress>
+    <originChamber>House</originChamber>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Northeast Gasoline Supply Reserve Act</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <title>To amend the Energy Policy and Conservation Act to provide for a Northeast Gasoline Supply Reserve, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <title>Northeast Gasoline Supply Reserve Act</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Northeast Gasoline Supply Reserve Act</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+    </titles>
+    <notes/>
+    <relatedBills/>
+    <amendments/>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PALLONE:H.R. 3788.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1[Page H7424]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>3788</billNumber>
+    <createDate>2017-09-15T03:11:21Z</createDate>
+    <calendarNumbers/>
+    <version>1.0.0</version>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <state>NJ</state>
+        <fullName>Rep. Pallone, Frank, Jr. [D-NJ-6]</fullName>
+        <lastName>PALLONE</lastName>
+        <firstName>FRANK</firstName>
+        <identifiers>
+          <bioguideId>P000034</bioguideId>
+          <gpoId>8048</gpoId>
+          <lisID>887</lisID>
+        </identifiers>
+        <bioguideId>P000034</bioguideId>
+        <byRequestType/>
+        <district>6</district>
+        <middleName/>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

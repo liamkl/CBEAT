@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-17</actionDate>
+        <committee>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <systemCode>sscm00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-10-17</actionDate>
+      </item>
+    </actions>
+    <introducedDate>2017-10-17</introducedDate>
+    <cboCostEstimates/>
+    <title>Pilot Records Improvement Enhancement Act of 2017</title>
+    <cosponsors>
+      <item>
+        <middleName>Alfred</middleName>
+        <identifiers>
+          <lisID>2286</lisID>
+          <gpoId/>
+          <bioguideId>P000612</bioguideId>
+        </identifiers>
+        <lastName>Perdue</lastName>
+        <bioguideId>P000612</bioguideId>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>GA</state>
+        <sponsorshipDate>2017-10-17</sponsorshipDate>
+        <firstName>David</firstName>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <recordedVotes/>
+    <latestAction>
+      <actionDate>2017-10-17</actionDate>
+      <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-17T19:55:52Z</date>
+            </item>
+          </activities>
+          <systemCode>sscm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>S</billType>
+    <relatedBills/>
+    <committeeReports/>
+    <updateDate>2017-10-21T04:29:29Z</updateDate>
+    <congress>115</congress>
+    <originChamber>Senate</originChamber>
+    <policyArea/>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Pilot Records Improvement Enhancement Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to provide air carriers with access to information about applicants to be pilots from the National Driver Register, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Pilot Records Improvement Enhancement Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Pilot Records Improvement Enhancement Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <notes/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <amendments/>
+    <version>1.0.0</version>
+    <billNumber>1971</billNumber>
+    <createDate>2017-10-18T00:41:22Z</createDate>
+    <calendarNumbers/>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <state>IL</state>
+        <lastName>Duckworth</lastName>
+        <firstName>Tammy</firstName>
+        <identifiers>
+          <lisID>2123</lisID>
+          <bioguideId>D000622</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <bioguideId>D000622</bioguideId>
+        <byRequestType/>
+        <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+        <middleName/>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

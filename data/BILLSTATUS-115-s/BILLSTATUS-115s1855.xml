@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-09-26T00:26:19Z</createDate>
+    <introducedDate>2017-09-25</introducedDate>
+    <cosponsors>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <middleName>C.</middleName>
+        <bioguideId>Y000064</bioguideId>
+        <fullName>Sen. Young, Todd C. [R-IN]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <gpoId>7948</gpoId>
+          <bioguideId>Y000064</bioguideId>
+          <lisID>2019</lisID>
+        </identifiers>
+        <firstName>Todd</firstName>
+        <state>IN</state>
+        <sponsorshipDate>2017-09-25</sponsorshipDate>
+        <lastName>Young</lastName>
+      </item>
+    </cosponsors>
+    <amendments/>
+    <cboCostEstimates/>
+    <billNumber>1855</billNumber>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Native Americans</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Other</type>
+          <systemCode>slia00</systemCode>
+          <name>Indian Affairs Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-25T22:25:29Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <version>1.0.0</version>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <updateDate>2017-10-04T04:48:37Z</updateDate>
+    <calendarNumbers/>
+    <congress>115</congress>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Indian Affairs.</text>
+      <actionDate>2017-09-25</actionDate>
+      <links/>
+    </latestAction>
+    <sponsors>
+      <item>
+        <identifiers>
+          <bioguideId>D000607</bioguideId>
+          <gpoId>7941</gpoId>
+          <lisID>1850</lisID>
+        </identifiers>
+        <firstName>Joe</firstName>
+        <byRequestType/>
+        <middleName/>
+        <party>D</party>
+        <bioguideId>D000607</bioguideId>
+        <lastName>Donnelly</lastName>
+        <fullName>Sen. Donnelly, Joe [D-IN]</fullName>
+        <state>IN</state>
+      </item>
+    </sponsors>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-09-25</actionDate>
+        <committee>
+          <systemCode>slia00</systemCode>
+          <name>Indian Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-09-25</actionDate>
+        <committee/>
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <titles>
+      <item>
+        <chamberCode/>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to permit the Miami Nation of Indiana to apply for acknowledgment as a federally recognized Indian tribe, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode/>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <title>A bill to permit the Miami Nation of Indiana to apply for acknowledgment as a federally recognized Indian tribe, and for other purposes.</title>
+      </item>
+    </titles>
+    <committeeReports/>
+    <originChamber>Senate</originChamber>
+    <billType>S</billType>
+    <recordedVotes/>
+    <notes/>
+    <title>A bill to permit the Miami Nation of Indiana to apply for acknowledgment as a federally recognized Indian tribe, and for other purposes.</title>
+    <relatedBills/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

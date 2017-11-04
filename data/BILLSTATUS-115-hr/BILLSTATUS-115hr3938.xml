@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <name>Aviation Subcommittee</name>
+          <systemCode>hspw05</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Aviation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <actionDate>2017-10-04</actionDate>
+        <links/>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <committee/>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <actionDate>2017-10-04</actionDate>
+        <links/>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <committee/>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <actionDate>2017-10-04</actionDate>
+        <links/>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <introducedDate>2017-10-04</introducedDate>
+    <cboCostEstimates/>
+    <title>Air Traffic Noise and Pollution Expert Consensus Act of 2017</title>
+    <cosponsors>
+      <item>
+        <lastName>Suozzi</lastName>
+        <district>3</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S001201</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>NY</state>
+        <fullName>Rep. Suozzi, Thomas R. [D-NY-3]</fullName>
+        <firstName>Thomas</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>S001201</bioguideId>
+          <lisID>2341</lisID>
+          <gpoId/>
+        </identifiers>
+        <middleName>R.</middleName>
+      </item>
+      <item>
+        <lastName>NORTON</lastName>
+        <district>0</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>DC</state>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+        </identifiers>
+        <middleName>HOLMES</middleName>
+      </item>
+      <item>
+        <lastName>Quigley</lastName>
+        <district>5</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>Q000023</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>IL</state>
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1967</lisID>
+          <gpoId>7925</gpoId>
+          <bioguideId>Q000023</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Polis</lastName>
+        <district>2</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>P000598</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CO</state>
+        <fullName>Rep. Polis, Jared [D-CO-2]</fullName>
+        <firstName>Jared</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7860</gpoId>
+          <lisID>1910</lisID>
+          <bioguideId>P000598</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Khanna</lastName>
+        <district>17</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>K000389</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Khanna, Ro [D-CA-17]</fullName>
+        <firstName>Ro</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>K000389</bioguideId>
+          <lisID>2308</lisID>
+          <gpoId/>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Gallego</lastName>
+        <district>7</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>G000574</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>AZ</state>
+        <fullName>Rep. Gallego, Ruben [D-AZ-7]</fullName>
+        <firstName>Ruben</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000574</bioguideId>
+          <gpoId/>
+          <lisID>2226</lisID>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Raskin</lastName>
+        <district>8</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>R000606</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>MD</state>
+        <fullName>Rep. Raskin, Jamie [D-MD-8]</fullName>
+        <firstName>Jamie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2332</lisID>
+          <gpoId/>
+          <bioguideId>R000606</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Rice</lastName>
+        <district>4</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>R000602</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>NY</state>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <firstName>Kathleen</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2262</lisID>
+          <gpoId/>
+          <bioguideId>R000602</bioguideId>
+        </identifiers>
+        <middleName>M.</middleName>
+      </item>
+      <item>
+        <lastName>Panetta</lastName>
+        <district>20</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>P000613</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Panetta, Jimmy [D-CA-20]</fullName>
+        <firstName>Jimmy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2309</lisID>
+          <gpoId/>
+          <bioguideId>P000613</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Speier</lastName>
+        <district>14</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S001175</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <firstName>Jackie</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7817</gpoId>
+          <lisID>1890</lisID>
+          <bioguideId>S001175</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>Peters</lastName>
+        <district>52</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>P000608</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000608</bioguideId>
+          <gpoId/>
+          <lisID>2113</lisID>
+        </identifiers>
+        <middleName>H.</middleName>
+      </item>
+      <item>
+        <lastName>Lowenthal</lastName>
+        <district>47</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>L000579</bioguideId>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <firstName>Alan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2111</lisID>
+          <gpoId/>
+          <bioguideId>L000579</bioguideId>
+        </identifiers>
+        <middleName>S.</middleName>
+      </item>
+      <item>
+        <lastName>Krishnamoorthi</lastName>
+        <district>8</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>K000391</bioguideId>
+        <sponsorshipDate>2017-10-10</sponsorshipDate>
+        <party>D</party>
+        <state>IL</state>
+        <fullName>Rep. Krishnamoorthi, Raja [D-IL-8]</fullName>
+        <firstName>Raja</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2325</lisID>
+          <gpoId/>
+          <bioguideId>K000391</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>ESHOO</lastName>
+        <district>18</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>E000215</bioguideId>
+        <sponsorshipDate>2017-10-10</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <firstName>ANNA</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>355</lisID>
+          <gpoId>7819</gpoId>
+          <bioguideId>E000215</bioguideId>
+        </identifiers>
+        <middleName>G.</middleName>
+      </item>
+      <item>
+        <lastName>SMITH</lastName>
+        <district>9</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S000510</bioguideId>
+        <sponsorshipDate>2017-10-10</sponsorshipDate>
+        <party>D</party>
+        <state>WA</state>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <firstName>ADAM</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1528</lisID>
+          <gpoId>8213</gpoId>
+          <bioguideId>S000510</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+      <item>
+        <lastName>SCHAKOWSKY</lastName>
+        <district>9</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>S001145</bioguideId>
+        <sponsorshipDate>2017-10-16</sponsorshipDate>
+        <party>D</party>
+        <state>IL</state>
+        <fullName>Rep. Schakowsky, Janice D. [D-IL-9]</fullName>
+        <firstName>JANICE</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1588</lisID>
+          <bioguideId>S001145</bioguideId>
+          <gpoId>7929</gpoId>
+        </identifiers>
+        <middleName>D.</middleName>
+      </item>
+      <item>
+        <lastName>Bass</lastName>
+        <district>37</district>
+        <sponsorshipWithdrawnDate/>
+        <bioguideId>B001270</bioguideId>
+        <sponsorshipDate>2017-10-16</sponsorshipDate>
+        <party>D</party>
+        <state>CA</state>
+        <fullName>Rep. Bass, Karen [D-CA-37]</fullName>
+        <firstName>Karen</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1996</lisID>
+          <gpoId>7838</gpoId>
+          <bioguideId>B001270</bioguideId>
+        </identifiers>
+        <middleName/>
+      </item>
+    </cosponsors>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <latestAction>
+      <actionDate>2017-10-05</actionDate>
+      <text>Referred to the Subcommittee on Aviation.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hspw05</systemCode>
+              <name>Aviation Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2017-10-05T18:59:28Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <date>2017-10-04T14:00:13Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>hspw00</systemCode>
+          <chamber>House</chamber>
+          <name>Transportation and Infrastructure Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>HR</billType>
+    <recordedVotes/>
+    <committeeReports/>
+    <updateDate>2017-10-17T07:15:30Z</updateDate>
+    <congress>115</congress>
+    <originChamber>House</originChamber>
+    <policyArea/>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Air Traffic Noise and Pollution Expert Consensus Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <title>To direct the Administrator of the Federal Aviation Administration to enter into appropriate arrangements with the National Academies of Sciences, Engineering, and Medicine to provide for a report on the health impacts of air traffic noise and pollution, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <title>Air Traffic Noise and Pollution Expert Consensus Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Air Traffic Noise and Pollution Expert Consensus Act of 2017</title>
+        <chamberName/>
+        <parentTitleType/>
+      </item>
+    </titles>
+    <notes/>
+    <relatedBills/>
+    <amendments/>
+    <constitutionalAuthorityStatementText/>
+    <billNumber>3938</billNumber>
+    <createDate>2017-10-05T03:11:21Z</createDate>
+    <calendarNumbers/>
+    <version>1.0.0</version>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <state>MA</state>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-8]</fullName>
+        <lastName>Lynch</lastName>
+        <firstName>Stephen</firstName>
+        <identifiers>
+          <lisID>1686</lisID>
+          <bioguideId>L000562</bioguideId>
+          <gpoId>7974</gpoId>
+        </identifiers>
+        <bioguideId>L000562</bioguideId>
+        <byRequestType/>
+        <district>8</district>
+        <middleName>F.</middleName>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

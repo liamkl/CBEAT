@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-05-12T03:11:39Z</createDate>
+    <introducedDate>2017-05-11</introducedDate>
+    <cosponsors>
+      <item>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>K000381</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <firstName>Derek</firstName>
+        <sponsorshipDate>2017-05-11</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <district>6</district>
+        <state>WA</state>
+        <identifiers>
+          <gpoId/>
+          <bioguideId>K000381</bioguideId>
+          <lisID>2169</lisID>
+        </identifiers>
+        <lastName>Kilmer</lastName>
+      </item>
+      <item>
+        <middleName>P.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <firstName>JAMES</firstName>
+        <sponsorshipDate>2017-06-27</sponsorshipDate>
+        <party>D</party>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <district>2</district>
+        <state>MA</state>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <lisID>1504</lisID>
+          <gpoId>7968</gpoId>
+        </identifiers>
+        <lastName>MCGOVERN</lastName>
+      </item>
+    </cosponsors>
+    <amendments/>
+    <cboCostEstimates/>
+    <billNumber>2409</billNumber>
+    <recordedVotes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Contracts and agency</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Television and film</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+          <subcommittees>
+            <item>
+              <systemCode>hsvr10</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-05-11T14:16:27Z</date>
+                </item>
+              </activities>
+              <name>Economic Opportunity Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-05-11T18:00:31Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <version>1.0.0</version>
+    <laws/>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2017-05-11</actionDate>
+          <updateDate>2017-05-11T04:00:00Z</updateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <versionCode>00</versionCode>
+          <lastSummaryUpdateDate>2017-10-06T14:45:59Z</lastSummaryUpdateDate>
+          <text><![CDATA[<p>This bill amends the Servicemembers Civil Relief Act to allow a service member to terminate a commercial mobile, telephone exchange, Internet access, or multichannel video programming service contract at any time after the date the service member receives military orders to relocate for at least 90 days to a location that does not support such service contract. (Currently, such provision applies to a cellular telephone service or telephone exchange service contract.) </p> <p>A service member shall return any provider-owned consumer premises equipment to the service provider not later than 10 days after the service is disconnected.</p>]]></text>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2017-03-14</actionDate>
+          <text>Read twice and referred to the Committee on Veterans' Affairs.</text>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>A bill to allow servicemembers to terminate their cable, satellite television, and Internet access service contracts while deployed.</latestTitle>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>624</number>
+        <congress>115</congress>
+      </item>
+    </relatedBills>
+    <calendarNumbers/>
+    <congress>115</congress>
+    <latestAction>
+      <text>Referred to the House Committee on Veterans' Affairs.</text>
+      <actionDate>2017-05-11</actionDate>
+      <links/>
+    </latestAction>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <firstName>Ryan</firstName>
+        <party>R</party>
+        <identifiers>
+          <lisID>2266</lisID>
+          <gpoId/>
+          <bioguideId>C001106</bioguideId>
+        </identifiers>
+        <district>6</district>
+        <middleName>A.</middleName>
+        <bioguideId>C001106</bioguideId>
+        <lastName>Costello</lastName>
+        <fullName>Rep. Costello, Ryan A. [R-PA-6]</fullName>
+        <state>PA</state>
+      </item>
+    </sponsors>
+    <actions>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <committee>
+          <name>Veterans' Affairs Committee</name>
+          <systemCode>hsvr00</systemCode>
+        </committee>
+        <actionDate>2017-05-11</actionDate>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-05-11</actionDate>
+        <committee>
+          <name>Economic Opportunity Subcommittee</name>
+          <systemCode>hsvr10</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Opportunity.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <committee/>
+        <actionDate>2017-05-11</actionDate>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links/>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <committee/>
+        <actionDate>2017-05-11</actionDate>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+    </actions>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To allow servicemembers to terminate their cable, satellite television, and Internet access service contracts while deployed.</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <title>To allow servicemembers to terminate their cable, satellite television, and Internet access service contracts while deployed.</title>
+      </item>
+    </titles>
+    <committeeReports/>
+    <originChamber>House</originChamber>
+    <billType>HR</billType>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. COSTELLO of Pennsylvania:H.R. 2409.Congress has the power to enact this legislation pursuantto the following:Article l, Section 8 of the U.S. Constitution[Page H4190]</pre>]]></constitutionalAuthorityStatementText>
+    <notes/>
+    <title>To allow servicemembers to terminate their cable, satellite television, and Internet access service contracts while deployed.</title>
+    <updateDate>2017-10-06T15:00:18Z</updateDate>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

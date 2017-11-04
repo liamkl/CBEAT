@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <version>1.0.0</version>
+    <billNumber>2060</billNumber>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <middleName>SIDNEY</middleName>
+        <firstName>JOHN</firstName>
+        <bioguideId>M000303</bioguideId>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <party>R</party>
+        <lastName>MCCAIN</lastName>
+        <state>AZ</state>
+        <identifiers>
+          <bioguideId>M000303</bioguideId>
+          <gpoId>8253</gpoId>
+          <lisID>754</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <originChamber>Senate</originChamber>
+    <title>A bill to promote democracy and human rights in Burma, and for other purposes.</title>
+    <committeeReports/>
+    <createDate>2017-11-03T00:41:17Z</createDate>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to promote democracy and human rights in Burma, and for other purposes.</title>
+        <chamberName/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <title>A bill to promote democracy and human rights in Burma, and for other purposes.</title>
+        <chamberName/>
+      </item>
+    </titles>
+    <latestAction>
+      <actionDate>2017-11-02</actionDate>
+      <text>Read twice and referred to the Committee on Foreign Relations.</text>
+      <links/>
+    </latestAction>
+    <actions>
+      <item>
+        <actionDate>2017-11-02</actionDate>
+        <committee>
+          <name>Foreign Relations Committee</name>
+          <systemCode>ssfr00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <links/>
+        <actionDate>2017-11-02</actionDate>
+        <committee/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <lastName>CARDIN</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>L.</middleName>
+        <identifiers>
+          <gpoId>8287</gpoId>
+          <bioguideId>C000141</bioguideId>
+          <lisID>174</lisID>
+        </identifiers>
+        <state>MD</state>
+        <firstName>BENJAMIN</firstName>
+        <bioguideId>C000141</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>DURBIN</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>326</lisID>
+          <gpoId>8326</gpoId>
+          <bioguideId>D000563</bioguideId>
+        </identifiers>
+        <state>IL</state>
+        <firstName>RICHARD</firstName>
+        <bioguideId>D000563</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <lastName>Young</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Young, Todd C. [R-IN]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>C.</middleName>
+        <identifiers>
+          <lisID>2019</lisID>
+          <gpoId>7948</gpoId>
+          <bioguideId>Y000064</bioguideId>
+        </identifiers>
+        <state>IN</state>
+        <firstName>Todd</firstName>
+        <bioguideId>Y000064</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>MARKEY</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>J.</middleName>
+        <identifiers>
+          <bioguideId>M000133</bioguideId>
+          <gpoId>7972</gpoId>
+          <lisID>735</lisID>
+        </identifiers>
+        <state>MA</state>
+        <firstName>EDWARD</firstName>
+        <bioguideId>M000133</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <lastName>Rubio</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>2084</lisID>
+          <gpoId>8242</gpoId>
+          <bioguideId>R000595</bioguideId>
+        </identifiers>
+        <state>FL</state>
+        <firstName>Marco</firstName>
+        <bioguideId>R000595</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Merkley</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Merkley, Jeff [D-OR]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <gpoId>8238</gpoId>
+          <bioguideId>M001176</bioguideId>
+          <lisID>1900</lisID>
+        </identifiers>
+        <state>OR</state>
+        <firstName>Jeff</firstName>
+        <bioguideId>M001176</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>FEINSTEIN</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>1332</lisID>
+          <gpoId>8338</gpoId>
+          <bioguideId>F000062</bioguideId>
+        </identifiers>
+        <state>CA</state>
+        <firstName>DIANNE</firstName>
+        <bioguideId>F000062</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Schatz</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Schatz, Brian [D-HI]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>2173</lisID>
+          <bioguideId>S001194</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <state>HI</state>
+        <firstName>Brian</firstName>
+        <bioguideId>S001194</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Kaine</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Kaine, Tim [D-VA]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>2176</lisID>
+          <gpoId/>
+          <bioguideId>K000384</bioguideId>
+        </identifiers>
+        <state>VA</state>
+        <firstName>Timothy</firstName>
+        <bioguideId>K000384</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Van Hollen</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Van Hollen, Chris [D-MD]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>1729</lisID>
+          <gpoId>7983</gpoId>
+          <bioguideId>V000128</bioguideId>
+        </identifiers>
+        <state>MD</state>
+        <firstName>Chris</firstName>
+        <bioguideId>V000128</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>BALDWIN</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <gpoId>8215</gpoId>
+          <lisID>1558</lisID>
+          <bioguideId>B001230</bioguideId>
+        </identifiers>
+        <state>WI</state>
+        <firstName>TAMMY</firstName>
+        <bioguideId>B001230</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Booker</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>2194</lisID>
+          <gpoId/>
+          <bioguideId>B001288</bioguideId>
+        </identifiers>
+        <state>NJ</state>
+        <firstName>Cory</firstName>
+        <bioguideId>B001288</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <lastName>Shaheen</lastName>
+        <sponsorshipDate>2017-11-02</sponsorshipDate>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <identifiers>
+          <lisID>1901</lisID>
+          <gpoId>8276</gpoId>
+          <bioguideId>S001181</bioguideId>
+        </identifiers>
+        <state>NH</state>
+        <firstName>Jeanne</firstName>
+        <bioguideId>S001181</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2017-11-02</introducedDate>
+    <calendarNumbers/>
+    <billType>S</billType>
+    <recordedVotes/>
+    <cboCostEstimates/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <updateDate>2017-11-03T04:48:37Z</updateDate>
+    <congress>115</congress>
+    <relatedBills/>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <date>2017-11-02T14:44:54Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>ssfr00</systemCode>
+          <subcommittees/>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <name>Foreign Relations Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <amendments/>
+    <laws/>
+    <policyArea/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

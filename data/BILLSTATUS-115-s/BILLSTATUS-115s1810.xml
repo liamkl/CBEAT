@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <updateDate>2017-10-25T18:00:15Z</updateDate>
+    <billNumber>1810</billNumber>
+    <cboCostEstimates/>
+    <committeeReports/>
+    <recordedVotes/>
+    <introducedDate>2017-09-14</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-09-14</actionDate>
+        <committee>
+          <systemCode>ssbk00</systemCode>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-09-14</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in Senate</text>
+        <links/>
+      </item>
+    </actions>
+    <version>1.0.0</version>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1247</lisID>
+          <bioguideId>W000779</bioguideId>
+          <gpoId>8265</gpoId>
+        </identifiers>
+        <middleName/>
+        <lastName>WYDEN</lastName>
+        <bioguideId>W000779</bioguideId>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <state>OR</state>
+        <party>D</party>
+        <byRequestType/>
+        <firstName>RON</firstName>
+      </item>
+    </sponsors>
+    <createDate>2017-09-15T00:41:23Z</createDate>
+    <title>Free Credit Freeze Act</title>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <congress>115</congress>
+    <latestAction>
+      <actionDate>2017-09-14</actionDate>
+      <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <activities>
+            <item>
+              <date>2017-09-14T16:31:24Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>ssbk00</systemCode>
+          <chamber>Senate</chamber>
+          <name>Banking, Housing, and Urban Affairs Committee</name>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <titles>
+      <item>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Free Credit Freeze Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Fair Credit Reporting Act to provide access to free credit freezes for all consumers.</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <title>Free Credit Freeze Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Free Credit Freeze Act</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+    </titles>
+    <billType>S</billType>
+    <cosponsors/>
+    <calendarNumbers/>
+    <amendments/>
+    <originChamber>Senate</originChamber>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestAction>
+          <actionDate>2017-10-17</actionDate>
+          <text>Committee on Banking, Housing, and Urban Affairs. Hearings held.</text>
+        </latestAction>
+        <latestTitle>Freedom from Equifax Exploitation Act</latestTitle>
+        <number>1816</number>
+        <type>S</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestAction>
+          <actionDate>2017-09-28</actionDate>
+          <text>Referred to the House Committee on Financial Services.</text>
+        </latestAction>
+        <latestTitle>Free Credit Freeze Act</latestTitle>
+        <number>3878</number>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes/>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2017-09-06</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2017-09-06</actionDate>
+        <text>Introduced in House</text>
+        <committee/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2017-09-06</actionDate>
+        <text>Introduced in House</text>
+        <committee/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Agriculture and Food</name>
+    </policyArea>
+    <cboCostEstimates/>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-09-06</sponsorshipDate>
+        <district>11</district>
+        <state>OH</state>
+        <party>D</party>
+        <fullName>Rep. Fudge, Marcia L. [D-OH-11]</fullName>
+        <firstName>Marcia</firstName>
+        <middleName>L.</middleName>
+        <lastName>Fudge</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <lisID>1895</lisID>
+          <gpoId>8101</gpoId>
+          <bioguideId>F000455</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <bioguideId>F000455</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-12</sponsorshipDate>
+        <district>13</district>
+        <state>IL</state>
+        <party>R</party>
+        <fullName>Rep. Davis, Rodney [R-IL-13]</fullName>
+        <firstName>Rodney</firstName>
+        <middleName/>
+        <lastName>Davis</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <lisID>2126</lisID>
+          <bioguideId>D000619</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000619</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-12</sponsorshipDate>
+        <district>1</district>
+        <state>NM</state>
+        <party>D</party>
+        <fullName>Rep. Lujan Grisham, Michelle [D-NM-1]</fullName>
+        <firstName>Michelle</firstName>
+        <middleName/>
+        <lastName>Lujan Grisham</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <gpoId/>
+          <lisID>2146</lisID>
+          <bioguideId>L000580</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000580</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-31</sponsorshipDate>
+        <district>0</district>
+        <state>VT</state>
+        <party>D</party>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <firstName>Peter</firstName>
+        <middleName/>
+        <lastName>Welch</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <bioguideId>W000800</bioguideId>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>W000800</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-31</sponsorshipDate>
+        <district>21</district>
+        <state>NY</state>
+        <party>R</party>
+        <fullName>Rep. Stefanik, Elise M. [R-NY-21]</fullName>
+        <firstName>Elise</firstName>
+        <middleName>M.</middleName>
+        <lastName>Stefanik</lastName>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <lisID>2263</lisID>
+          <bioguideId>S001196</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S001196</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2017-09-06</introducedDate>
+    <latestAction>
+      <actionDate>2017-09-06</actionDate>
+      <text>Referred to the House Committee on Education and the Workforce.</text>
+      <links/>
+    </latestAction>
+    <billNumber>3687</billNumber>
+    <titles>
+      <item>
+        <title>Farm to School Act of 2017</title>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>To reauthorize the farm to school program, and for other purposes.</title>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>Farm to School Act of 2017</title>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>Farm to School Act of 2017</title>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+    </titles>
+    <amendments/>
+    <laws/>
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. FORTENBERRY:H.R. 3687.Congress has the power to enact this legislation pursuantto the following:The constitutional authority for this bill is pursuant toArticle I, Section 8, Clause 18 of the United StatesConstitution.[Page H7089]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers/>
+    <title>Farm to School Act of 2017</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2017-09-06</actionDate>
+          <text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text>
+        </latestAction>
+        <number>1767</number>
+        <type>S</type>
+        <latestTitle>Farm to School Act of 2017</latestTitle>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2017-09-06T14:00:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports/>
+    <updateDate>2017-11-01T07:16:37Z</updateDate>
+    <congress>115</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Agriculture and Food</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Aquaculture</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Food assistance and relief</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Indian social and development programs</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Seafood</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes/>
+    <createDate>2017-09-07T03:11:33Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <state>NE</state>
+        <byRequestType/>
+        <party>R</party>
+        <lastName>Fortenberry</lastName>
+        <firstName>Jeff</firstName>
+        <bioguideId>F000449</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>1793</lisID>
+          <gpoId>8038</gpoId>
+          <bioguideId>F000449</bioguideId>
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

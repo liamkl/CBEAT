@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to rename a waterway in the State of New York as the "Joseph Sanford Jr. Channel".</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to rename a waterway in the State of New York as the "Joseph Sanford Jr. Channel".</title>
+      </item>
+    </titles>
+    <updateDate>2017-10-31T04:31:56Z</updateDate>
+    <title>A bill to rename a waterway in the State of New York as the "Joseph Sanford Jr. Channel".</title>
+    <billType>S</billType>
+    <relatedBills/>
+    <calendarNumbers/>
+    <laws/>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Commerce, Science, and Transportation Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>sscm00</systemCode>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-07-27T22:27:14Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <introducedDate>2017-07-27</introducedDate>
+    <originChamber>Senate</originChamber>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Water Resources Development</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-07-27</actionDate>
+        <committee>
+          <systemCode>sscm00</systemCode>
+          <name>Commerce, Science, and Transportation Committee</name>
+        </committee>
+        <links>
+          <link>
+            <name>S4331</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S4331</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S4331)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <actionDate>2017-07-27</actionDate>
+        <text>Introduced in Senate</text>
+        <committee/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+    </actions>
+    <committeeReports/>
+    <billNumber>1668</billNumber>
+    <recordedVotes/>
+    <congress>115</congress>
+    <cosponsors/>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <firstName>CHARLES</firstName>
+        <middleName>E.</middleName>
+        <lastName>SCHUMER</lastName>
+        <bioguideId>S000148</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1036</lisID>
+          <bioguideId>S000148</bioguideId>
+          <gpoId>8279</gpoId>
+        </identifiers>
+        <state>NY</state>
+      </item>
+    </sponsors>
+    <notes/>
+    <createDate>2017-07-28T06:26:38Z</createDate>
+    <latestAction>
+      <actionDate>2017-07-27</actionDate>
+      <text>Read twice and referred to the Committee on Commerce, Science, and Transportation. (text of measure as introduced: CR S4331)</text>
+      <links/>
+    </latestAction>
+    <policyArea>
+      <name>Water Resources Development</name>
+    </policyArea>
+    <cboCostEstimates/>
+    <amendments/>
+    <version>1.0.0</version>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2017-07-27T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2017-07-27</actionDate>
+          <text><![CDATA[<p>This bill redesignates the waterway in New York State known as the Negro Bar Channel as the &quot;Joseph Sanford Jr. Channel.&quot;</p>]]></text>
+          <lastSummaryUpdateDate>2017-10-26T21:19:41Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

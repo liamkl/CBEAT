@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <version>1.0.0</version>
+    <notes/>
+    <amendments/>
+    <committeeReports/>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-10-13</actionDate>
+        <committee>
+          <systemCode>hsif16</systemCode>
+          <name>Communications and Technology Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Communications and Technology.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionDate>2017-10-10</actionDate>
+        <actionCode>H11100</actionCode>
+        <links/>
+      </item>
+      <item>
+        <committee/>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-10</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links/>
+      </item>
+      <item>
+        <committee/>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-10</actionDate>
+        <actionCode>1000</actionCode>
+        <links/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. McNERNEY:H.R. 3995.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the Constitution of the UnitedStates grants Congress the authority to enact this bill.[Page H7918]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>3995</billNumber>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <billType>HR</billType>
+    <recordedVotes/>
+    <relatedBills>
+      <item>
+        <number>1950</number>
+        <latestAction>
+          <actionDate>2017-10-05</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestTitle>Improving Broadband Access for Veterans Act of 2017</latestTitle>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <createDate>2017-10-11T03:11:20Z</createDate>
+    <introducedDate>2017-10-10</introducedDate>
+    <title>Improving Broadband Access for Veterans Act of 2017</title>
+    <cboCostEstimates/>
+    <congress>115</congress>
+    <originChamber>House</originChamber>
+    <cosponsors>
+      <item>
+        <district>16</district>
+        <sponsorshipWithdrawnDate/>
+        <identifiers>
+          <gpoId>7931</gpoId>
+          <bioguideId>K000378</bioguideId>
+          <lisID>2014</lisID>
+        </identifiers>
+        <sponsorshipDate>2017-10-10</sponsorshipDate>
+        <fullName>Rep. Kinzinger, Adam [R-IL-16]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>IL</state>
+        <party>R</party>
+        <lastName>Kinzinger</lastName>
+        <bioguideId>K000378</bioguideId>
+        <middleName/>
+        <firstName>Adam</firstName>
+      </item>
+    </cosponsors>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <lastName>McNerney</lastName>
+        <district>9</district>
+        <identifiers>
+          <lisID>1832</lisID>
+          <gpoId>7816</gpoId>
+          <bioguideId>M001166</bioguideId>
+        </identifiers>
+        <middleName/>
+        <bioguideId>M001166</bioguideId>
+        <fullName>Rep. McNerney, Jerry [D-CA-9]</fullName>
+        <byRequestType/>
+        <state>CA</state>
+        <firstName>Jerry</firstName>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Referred to the Subcommittee on Communications and Technology.</text>
+      <links/>
+      <actionDate>2017-10-13</actionDate>
+    </latestAction>
+    <updateDate>2017-11-02T07:13:19Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-10T16:00:18Z</date>
+            </item>
+          </activities>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Communications and Technology Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-10-13T15:37:50Z</date>
+                </item>
+              </activities>
+              <systemCode>hsif16</systemCode>
+            </item>
+          </subcommittees>
+        </item>
+      </billCommittees>
+    </committees>
+    <titles>
+      <item>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Improving Broadband Access for Veterans Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <title>To require the Federal Communications Commission to submit to Congress a report on promoting broadband internet access service for veterans.</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <title>Improving Broadband Access for Veterans Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Improving Broadband Access for Veterans Act of 2017</title>
+        <chamberCode/>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

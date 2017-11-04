@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <hearingsHeld>1</hearingsHeld>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-06-27</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on the Judiciary. Hearings held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-06-06</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links>
+          <link>
+            <name>S3296</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S3296</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S3296)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-06-06</actionDate>
+        <committee/>
+        <actionCode>10000</actionCode>
+      </item>
+    </actions>
+    <introducedDate>2017-06-06</introducedDate>
+    <cboCostEstimates/>
+    <title>A bill to make title VII of the Foreign Intelligence Surveillance Act of 1978 permanent, and for other purposes.</title>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <state>NC</state>
+        <fullName>Sen. Burr, Richard [R-NC]</fullName>
+        <bioguideId>B001135</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>BURR</lastName>
+        <identifiers>
+          <lisID>153</lisID>
+          <gpoId>8286</gpoId>
+          <bioguideId>B001135</bioguideId>
+        </identifiers>
+        <firstName>RICHARD</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>ID</state>
+        <fullName>Sen. Risch, James E. [R-ID]</fullName>
+        <bioguideId>R000584</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Risch</lastName>
+        <identifiers>
+          <gpoId>8274</gpoId>
+          <lisID>1896</lisID>
+          <bioguideId>R000584</bioguideId>
+        </identifiers>
+        <firstName>James</firstName>
+        <middleName>E.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>FL</state>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+        <bioguideId>R000595</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Rubio</lastName>
+        <identifiers>
+          <lisID>2084</lisID>
+          <gpoId>8242</gpoId>
+          <bioguideId>R000595</bioguideId>
+        </identifiers>
+        <firstName>Marco</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>ME</state>
+        <fullName>Sen. Collins, Susan M. [R-ME]</fullName>
+        <bioguideId>C001035</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>COLLINS</lastName>
+        <identifiers>
+          <lisID>1541</lisID>
+          <gpoId>8291</gpoId>
+          <bioguideId>C001035</bioguideId>
+        </identifiers>
+        <firstName>SUSAN</firstName>
+        <middleName>MARGARET</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>MO</state>
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+        <bioguideId>B000575</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Blunt</lastName>
+        <identifiers>
+          <lisID>1464</lisID>
+          <gpoId>8313</gpoId>
+          <bioguideId>B000575</bioguideId>
+        </identifiers>
+        <firstName>Roy</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>OK</state>
+        <fullName>Sen. Lankford, James [R-OK]</fullName>
+        <bioguideId>L000575</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Lankford</lastName>
+        <identifiers>
+          <lisID>2050</lisID>
+          <bioguideId>L000575</bioguideId>
+          <gpoId>8113</gpoId>
+        </identifiers>
+        <firstName>James</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>TX</state>
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+        <bioguideId>C001056</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Cornyn</lastName>
+        <identifiers>
+          <lisID>1692</lisID>
+          <gpoId>8295</gpoId>
+          <bioguideId>C001056</bioguideId>
+        </identifiers>
+        <firstName>John</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>AZ</state>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <bioguideId>M000303</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>MCCAIN</lastName>
+        <identifiers>
+          <bioguideId>M000303</bioguideId>
+          <gpoId>8253</gpoId>
+          <lisID>754</lisID>
+        </identifiers>
+        <firstName>JOHN</firstName>
+        <middleName>SIDNEY</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>NC</state>
+        <fullName>Sen. Tillis, Thom [R-NC]</fullName>
+        <bioguideId>T000476</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Tillis</lastName>
+        <identifiers>
+          <lisID>2291</lisID>
+          <bioguideId>T000476</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <firstName>Thomas</firstName>
+        <middleName>Roland</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>KS</state>
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+        <bioguideId>R000307</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>ROBERTS</lastName>
+        <identifiers>
+          <bioguideId>R000307</bioguideId>
+          <lisID>968</lisID>
+          <gpoId>8275</gpoId>
+        </identifiers>
+        <firstName>PAT</firstName>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>SC</state>
+        <fullName>Sen. Graham, Lindsey [R-SC]</fullName>
+        <bioguideId>G000359</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>GRAHAM</lastName>
+        <identifiers>
+          <bioguideId>G000359</bioguideId>
+          <lisID>452</lisID>
+          <gpoId>8335</gpoId>
+        </identifiers>
+        <firstName>LINDSEY</firstName>
+        <middleName>O.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>SD</state>
+        <fullName>Sen. Thune, John [R-SD]</fullName>
+        <bioguideId>T000250</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>THUNE</lastName>
+        <identifiers>
+          <lisID>1534</lisID>
+          <gpoId>8257</gpoId>
+          <bioguideId>T000250</bioguideId>
+        </identifiers>
+        <firstName>JOHN</firstName>
+        <middleName>R.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+      <item>
+        <party>R</party>
+        <state>GA</state>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+        <bioguideId>P000612</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Perdue</lastName>
+        <identifiers>
+          <bioguideId>P000612</bioguideId>
+          <lisID>2286</lisID>
+          <gpoId/>
+        </identifiers>
+        <firstName>David</firstName>
+        <middleName>Alfred</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2017-06-06</sponsorshipDate>
+      </item>
+    </cosponsors>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <recordedVotes/>
+    <latestAction>
+      <actionDate>2017-06-27</actionDate>
+      <text>Committee on the Judiciary. Hearings held.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssju00</systemCode>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Hearings by</name>
+              <date>2017-06-27T13:30:00Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2017-06-06T21:26:58Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>S</billType>
+    <relatedBills>
+      <item>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <latestAction>
+          <actionDate>2017-06-12</actionDate>
+          <text>Read twice and referred to the Committee on the Judiciary.</text>
+        </latestAction>
+        <number>1339</number>
+        <latestTitle>Liberty Through Strength Act</latestTitle>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <committeeReports/>
+    <updateDate>2017-10-20T16:15:14Z</updateDate>
+    <congress>115</congress>
+    <originChamber>Senate</originChamber>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName/>
+        <title>A bill to make title VII of the Foreign Intelligence Surveillance Act of 1978 permanent, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <title>A bill to make title VII of the Foreign Intelligence Surveillance Act of 1978 permanent, and for other purposes.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <notes/>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2017-06-06</actionDate>
+          <lastSummaryUpdateDate>2017-08-04T12:54:32Z</lastSummaryUpdateDate>
+          <updateDate>2017-06-06T04:00:00Z</updateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill&nbsp;amends the FISA Amendments Act of 2008 to make permanent&nbsp;title VII of the&nbsp;Foreign&nbsp;Intelligence Surveillance Act&nbsp;of 1978, which is scheduled to expire on December 31, 2017. Among other things, title VII authorizes the Office of the Director of National Intelligence and the Department of Justice to jointly authorize the targeting (electronic surveillance)&nbsp;of non-U.S. persons outside of the United States.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments/>
+    <version>1.0.0</version>
+    <billNumber>1297</billNumber>
+    <createDate>2017-06-07T00:41:38Z</createDate>
+    <calendarNumbers/>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <state>AR</state>
+        <lastName>Cotton</lastName>
+        <firstName>Tom</firstName>
+        <identifiers>
+          <bioguideId>C001095</bioguideId>
+          <lisID>2098</lisID>
+          <gpoId/>
+        </identifiers>
+        <bioguideId>C001095</bioguideId>
+        <byRequestType/>
+        <fullName>Sen. Cotton, Tom [R-AR]</fullName>
+        <middleName/>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

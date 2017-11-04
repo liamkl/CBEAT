@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <latestAction>
+      <links/>
+      <actionDate>2017-10-24</actionDate>
+      <text>Referred to the House Committee on Education and the Workforce.</text>
+    </latestAction>
+    <congress>115</congress>
+    <recordedVotes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <firstName>Daniel</firstName>
+        <party>R</party>
+        <lastName>Donovan</lastName>
+        <fullName>Rep. Donovan, Daniel M., Jr. [R-NY-11]</fullName>
+        <bioguideId>D000625</bioguideId>
+        <district>11</district>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>2293</lisID>
+          <gpoId/>
+          <bioguideId>D000625</bioguideId>
+        </identifiers>
+        <state>NY</state>
+      </item>
+    </sponsors>
+    <cboCostEstimates/>
+    <createDate>2017-10-25T03:11:21Z</createDate>
+    <committeeReports/>
+    <updateDate>2017-10-25T21:00:16Z</updateDate>
+    <introducedDate>2017-10-24</introducedDate>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <originChamber>House</originChamber>
+    <actions>
+      <item>
+        <actionDate>2017-10-24</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <links/>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+      </item>
+      <item>
+        <actionDate>2017-10-24</actionDate>
+        <text>Introduced in House</text>
+        <links/>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+      </item>
+      <item>
+        <actionDate>2017-10-24</actionDate>
+        <text>Introduced in House</text>
+        <links/>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+    </actions>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Education and the Workforce Committee</name>
+          <type>Standing</type>
+          <systemCode>hsed00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-24T14:01:20Z</date>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <subcommittees/>
+        </item>
+      </billCommittees>
+    </committees>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 163, Number 171 (Tuesday, October 24, 2017)]From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DONOVAN:H.R. 4108.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 of the United States Constitution.[Page H8144]</pre>]]></constitutionalAuthorityStatementText>
+    <notes/>
+    <version>1.0.0</version>
+    <title>Danny's Law</title>
+    <laws/>
+    <calendarNumbers/>
+    <cosponsors/>
+    <titles>
+      <item>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Danny's Law</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To establish an Anti-Bullying Roundtable to study bullying in elementary and secondary schools in the United States, and for other purposes.</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <title>Danny's Law</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+      <item>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Danny’s Law</title>
+        <chamberCode/>
+        <parentTitleType/>
+      </item>
+    </titles>
+    <billType>HR</billType>
+    <billNumber>4108</billNumber>
+    <relatedBills/>
+    <amendments/>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

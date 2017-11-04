@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2017-05-04</introducedDate>
+    <relatedBills/>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <type>Standing</type>
+          <systemCode>ssju00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-05-04T14:39:25Z</date>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <subcommittees/>
+        </item>
+      </billCommittees>
+    </committees>
+    <notes/>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>754</lisID>
+          <bioguideId>M000303</bioguideId>
+          <gpoId>8253</gpoId>
+        </identifiers>
+        <lastName>MCCAIN</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName>SIDNEY</middleName>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <party>R</party>
+        <bioguideId>M000303</bioguideId>
+        <firstName>JOHN</firstName>
+        <state>AZ</state>
+      </item>
+    </cosponsors>
+    <title>State Sponsored Visa Pilot Program Act of 2017</title>
+    <billType>S</billType>
+    <billNumber>1040</billNumber>
+    <titles>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <title>State Sponsored Visa Pilot Program Act of 2017</title>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <title>State Sponsored Visa Pilot Program Act of 2017</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <title>A bill to amend the Immigration and Nationality Act to provide for a State-sponsored nonimmigrant pilot program, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <title>State Sponsored Visa Pilot Program Act of 2017</title>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+      </item>
+    </titles>
+    <createDate>2017-05-05T00:41:44Z</createDate>
+    <congress>115</congress>
+    <laws/>
+    <actions>
+      <item>
+        <actionDate>2017-05-04</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <type>IntroReferral</type>
+        <links/>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-05-04</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <calendarNumbers/>
+    <committeeReports/>
+    <latestAction>
+      <actionDate>2017-05-04</actionDate>
+      <links/>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+    </latestAction>
+    <sponsors>
+      <item>
+        <middleName/>
+        <firstName>Ron</firstName>
+        <bioguideId>J000293</bioguideId>
+        <fullName>Sen. Johnson, Ron [R-WI]</fullName>
+        <state>WI</state>
+        <byRequestType/>
+        <identifiers>
+          <lisID>2086</lisID>
+          <gpoId>8355</gpoId>
+          <bioguideId>J000293</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <lastName>Johnson</lastName>
+      </item>
+    </sponsors>
+    <cboCostEstimates/>
+    <recordedVotes/>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <version>1.0.0</version>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <amendments/>
+    <originChamber>Senate</originChamber>
+    <updateDate>2017-10-27T04:47:45Z</updateDate>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Economic development</name>
+          </item>
+          <item>
+            <name>Employment taxes</name>
+          </item>
+          <item>
+            <name>Foreign labor</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Intergovernmental relations</name>
+          </item>
+          <item>
+            <name>State and local government operations</name>
+          </item>
+          <item>
+            <name>User charges and fees</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

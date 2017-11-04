@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <name>Agriculture Committee</name>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <date>2017-10-12T14:03:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <systemCode>hsag00</systemCode>
+          <subcommittees>
+            <item>
+              <name>Conservation and Forestry Subcommittee</name>
+              <systemCode>hsag15</systemCode>
+              <activities>
+                <item>
+                  <date>2017-10-26T17:03:24Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+        </item>
+      </billCommittees>
+    </committees>
+    <cboCostEstimates/>
+    <title>Mid-Mississippi Conservation, Recreation and Development Act of 2017</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <relatedBills/>
+    <updateDate>2017-10-27T07:15:36Z</updateDate>
+    <createDate>2017-10-13T03:11:22Z</createDate>
+    <amendments/>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1933</lisID>
+          <gpoId>8021</gpoId>
+          <bioguideId>H001045</bioguideId>
+        </identifiers>
+        <state>MS</state>
+        <bioguideId>H001045</bioguideId>
+        <lastName>Harper</lastName>
+        <byRequestType/>
+        <middleName/>
+        <firstName>Gregg</firstName>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <district>3</district>
+        <party>R</party>
+      </item>
+    </sponsors>
+    <congress>115</congress>
+    <introducedDate>2017-10-12</introducedDate>
+    <committeeReports/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HARPER:H.R. 4034.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, clause 2[Page H8031]</pre>]]></constitutionalAuthorityStatementText>
+    <version>1.0.0</version>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <notes/>
+    <billNumber>4034</billNumber>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>2294</lisID>
+          <gpoId/>
+          <bioguideId>K000388</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Kelly, Trent [R-MS-1]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-12</sponsorshipDate>
+        <party>R</party>
+        <firstName>Trent</firstName>
+        <lastName>Kelly</lastName>
+        <state>MS</state>
+        <middleName/>
+        <district>1</district>
+        <bioguideId>K000388</bioguideId>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>P000601</bioguideId>
+          <gpoId>8022</gpoId>
+          <lisID>2035</lisID>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Palazzo, Steven M. [R-MS-4]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-12</sponsorshipDate>
+        <party>R</party>
+        <firstName>Steven</firstName>
+        <lastName>Palazzo</lastName>
+        <state>MS</state>
+        <middleName>M.</middleName>
+        <district>4</district>
+        <bioguideId>P000601</bioguideId>
+      </item>
+    </cosponsors>
+    <calendarNumbers/>
+    <laws/>
+    <latestAction>
+      <actionDate>2017-10-26</actionDate>
+      <text>Referred to the Subcommittee on Conservation and Forestry.</text>
+      <links/>
+    </latestAction>
+    <originChamber>House</originChamber>
+    <recordedVotes/>
+    <actions>
+      <item>
+        <actionDate>2017-10-26</actionDate>
+        <committee>
+          <systemCode>hsag15</systemCode>
+          <name>Conservation and Forestry Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Conservation and Forestry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Agriculture.</text>
+        <links/>
+        <actionDate>2017-10-12</actionDate>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <links/>
+        <actionDate>2017-10-12</actionDate>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <links/>
+        <actionDate>2017-10-12</actionDate>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <titles>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Mid-Mississippi Conservation, Recreation and Development Act of 2017</title>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <title>To direct the Secretary of Agriculture to issue to the Pat Harrison Waterway District a long-term special use permit to develop approximately 8,307 acres of National Forest System land within the Bienville National Forests in Mississippi, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <title>Mid-Mississippi Conservation, Recreation and Development Act of 2017</title>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <title>Mid-Mississippi Conservation, Recreation and Development Act of 2017</title>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
