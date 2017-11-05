@@ -62,7 +62,7 @@ data_dir <- paste0(getwd(), "/data/")
 #
 # Takes a LONG time so be careful (1 hour+)
 # May want to not loop and do it in chunks instead.
-for (bill_type in bill_types[3:4]){
+for (bill_type in bill_types){
   bill_list <- get_bill_list(115, bill_type)
   sapply(bill_list$Name, export_bill_xml, data_dir)
 }
