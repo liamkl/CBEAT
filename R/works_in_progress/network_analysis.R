@@ -23,3 +23,5 @@ plot(net.senate, layout = layout_with_kk)
 
 degree.distribution(net.senate) %>% hist()
      
+
+net.senate %>% V()
