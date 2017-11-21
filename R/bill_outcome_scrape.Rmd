@@ -1,0 +1,65 @@
+---
+title: "Scraping Bill Outcome Data"
+author: "Hillary Miller"
+date: "November 19, 2017"
+output: html_document
+---
+
+
+##when binding - use 'fill=TRUE" and it'll fill in missing columns 
+#tibble initialize with column vector names. essentially creating a row tha has the name of every action type and then
+#fills in when you merge all the data
+
+```{r}
+library(xml2)
+library(tidyverse)
+library(stringr)
+library(tidyr)
+library(dplyr)
+
+
+file_list_1 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-113-s", full.names=TRUE)
+file_list_2 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-113-sjres", full.names=TRUE)
+file_list_3 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-114-s", full.names=TRUE)
+file_list_4 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-114-sjres", full.names=TRUE)
+file_list_5 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-115-s", full.names=TRUE)
+file_list_6 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-115-sjres", full.names=TRUE)
+
+file_list_a <- c(file_list_1, file_list_2, file_list_3, file_list_4, file_list_5, file_list_6)
+```
+
+```{r}
+
+
+statuses <- tibble()
+
+for (f in file_list_a) {
+
+    bill_data <- read_xml(f) %>% as_list
+
+    
+    bill_status <- tibble(session = bill_data$bill$congress,
+                          billid = bill_data$bill$billNumber,
+                          type = names(bill_data$bill$actions$actionTypeCounts),
+                          count = unlist(bill_data$bill$actions$actionTypeCounts)) %>%
+        spread(type, count)
+
+    statuses <- bind_rows(statuses, bill_status)
+}
+
+# Save matrix after each iteration just in case
+save_statuses = as.dataframe(statuses)
+# Write to disk
+write_csv(saveas, "bill_outcome_area_matrix.csv")
+
+class(save_statuses)
+
+saveas <- as.data.frame(save_statuses)
+is.data.frame(saveas)
+class(saveas)
+
+saveas[is.na(saveas)] <- 0
+```
+
+
+#person = bill_data$bill$sponsors$item$bioguideId,
