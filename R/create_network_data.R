@@ -78,6 +78,7 @@ create_network_data <- function(files){
     }
     # bill_cosponsors is in order of sponsorship
     bill_edges <- get_sponsor_edges(bill_sponsor$bioguideId, bill_cosponsors)
+    bill_edges$bill_id <-
     nodes <- rbind(nodes, select(bill_cosponsors, -sponsor_date))
     nodes <- unique(nodes)
     edges <- rbind(edges, bill_edges)
