@@ -6,11 +6,15 @@ output: html_document
 ---
 
 
-##when binding - use 'fill=TRUE" and it'll fill in missing columns 
-#tibble initialize with column vector names. essentially creating a row tha has the name of every action type and then
-#fills in when you merge all the data
+
 
 ```{r}
+#Notes from TA meeting:
+##when binding - use 'fill=TRUE" and it'll fill in missing columns 
+##tibble initialize with column vector names. essentially creating a row tha has the name of every action type and then
+##fills in when you merge all the data
+
+
 library(xml2)
 library(tidyverse)
 library(stringr)
@@ -26,40 +30,204 @@ file_list_5 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/C
 file_list_6 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data/BILLSTATUS-115-sjres", full.names=TRUE)
 
 file_list_a <- c(file_list_1, file_list_2, file_list_3, file_list_4, file_list_5, file_list_6)
+file_list_b <- c(file_list_1, file_list_3, file_list_5)
 ```
 
 ```{r}
 
 
-statuses <- tibble()
+statuses_2 <- tibble()
 
-for (f in file_list_a) {
+for (f in file_list_2) {
 
     bill_data <- read_xml(f) %>% as_list
 
     
-    bill_status <- tibble(session = bill_data$bill$congress,
-                          billid = bill_data$bill$billNumber,
-                          type = names(bill_data$bill$actions$actionTypeCounts),
-                          count = unlist(bill_data$bill$actions$actionTypeCounts)) %>%
-        spread(type, count)
+    bill_status <- tibble(session = unlist(bill_data$bill$congress),
+                          billid = unlist(bill_data$bill$billNumber),
+                           policy_area <- (bill_data$bill$subjects$billSubjects$policyArea
+  if(is.null(policy_area)) next)
 
-    statuses <- bind_rows(statuses, bill_status)
+    statuses_2 <- bind_rows(statuses_2, bill_status)
 }
 
-# Save matrix after each iteration just in case
-save_statuses = as.dataframe(statuses)
+# Save matrix after for loop
+bill_outcome_maxtrix = statuses_2
+
+#remove NAs
+statuses_2[is.na(statuses_2)] <- 0
+
 # Write to disk
-write_csv(saveas, "bill_outcome_area_matrix.csv")
+write_csv(statuses_2, "bill_outcome_area_matrix.csv")
+```
 
-class(save_statuses)
+```{r}
+#pulling bill sponsor ID and bill number
+sponsor_billid <- tibble()
 
-saveas <- as.data.frame(save_statuses)
-is.data.frame(saveas)
-class(saveas)
+for (file_name in file_list_2) {
 
-saveas[is.na(saveas)] <- 0
+    bill_data <- read_xml(file_name) %>% as_list
+
+   bill_sponsor <- tibble(session = unlist(bill_data$bill$congress),
+       sponsor <- bill_data$bill$sponsors$item$identifers$bioguideId,
+                          billid = unlist(bill_data$bill$billNumber))
+  
+   sponsor_billid <- bind_rows(sponsor_billid, bill_sponsor)
+ 
+
+}
+
+
+```
+
+```{r}
+
+##issue with two data files; ended up running/saving in segements to determine the issue file
+
+# Save 114s
+bill_sponsor_data3 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data3, "bill_sponsor_data_114s.csv")
+
+# Save 114sjres
+bill_sponsor_data4 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data4, "bill_sponsor_data_114sjres.csv")
+
+# Save 115s
+bill_sponsor_data5 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data5, "bill_sponsor_data_115s.csv")
+
+
+# Save 115sjres
+bill_sponsor_data6 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data6, "bill_sponsor_data_115sjres.csv")
+
+
+   
+
+##bill_sponsor_data2 %>% left_join(bill_sponsor_data1, by="sponsor") 
+    
+```
+
+```{r}
+file_list_113a <- file_list_2[1]
+file_list_113c <- file_list_1[776:3020]
+
+#pulling bill sponsor ID and bill number
+sponsor_billid <- tibble()
+
+for (file_name in file_list_113c) {
+
+    bill_data <- read_xml(file_name) %>% as_list
+
+   test<- tibble(session = unlist(bill_data$bill$congress),
+   
+     sponsor = unlist(bill_data$bill$sponsors$item$bioguideId),
+      billid = unlist(bill_data$bill$billNumber))
+  
+   sponsor_billid <- bind_rows(sponsor_billid, test)
+ 
+
+}
+```
+
+```{r}
+# Save 113(1-774)
+bill_sponsor_data7 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data7, "bill_sponsor_data_113s1_774.csv")
+
+
+# Save 113(776-3020)
+bill_sponsor_data9 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data9, "bill_sponsor_data_113s776-3020.csv")
+
+
+# Save 113sjres(3-47)
+bill_sponsor_data10 = sponsor_billid
+# Write to disk
+write_csv(bill_sponsor_data10, "bill_sponsor_data_113sjres3-47.csv")
+
+
+##had to manually pull data from the following 2 data files that had errors:
+###113s bill 1696
+###113sjres 10
+```
+
+## pulling the data for the bioguideId policy type 
+
+```{r}
+statuses_9 <- tibble()
+
+file_list_statb <- file_list_a[1:8769]
+
+for (f in file_list_statb) {
+
+    bill_data <- read_xml(f) %>% as_list
+
+    
+    session = unlist(bill_data$bill$congress)
+                          billid = unlist(bill_data$bill$billNumber)
+                          policy_area = unlist(bill_data$bill$subjects$billSubjects$policyArea)
+                          if(is.null(policy_area)) next
+                          billtype = unlist(bill_data$bill$billType)
+                          type = unlist(names(bill_data$bill$actions$actionTypeCounts))
+                          count = unlist(bill_data$bill$actions$actionTypeCounts)
+                          
+    bill_status <- tibble(session, billid, policy_area, billtype, type, count) %>% spread(type, count)
+
+    statuses_9 <- bind_rows(statuses_9, bill_status)
+}
+
+
+
+#remove NAs
+
+statuses_9[is.na(statuses_9)] <- 0
+
+# Write to disk
+write_csv(statuses_9, "bill_outcome_policy_matrix_notallbillsinc.csv")
+
+
+```
+
+```{r}
+#merging files togeter
+
+library(readr)
+bill_outcome_area_matrix <- read_csv("data/output_data/bill_outcome_area_matrix.csv")
+bill_outcome_policy_matrix_notallbillsinc <- read_csv("data/output_data/bill_outcome_policy_matrix_notallbillsinc.csv")
+bill_sponsor_data <- read_csv("data/output_data/bill_sponsor_data.csv")
+
+dat1 <- bill_outcome_area_matrix
+dat2 <- bill_outcome_policy_matrix_notallbillsinc
+dat3 <- bill_sponsor_data
+dat3 <- dat3 %>% select(session, bioguideId, billid, billtype)
+
+matrix <- join(dat3, dat1, type="full")
+matrix <- join(dat2, matrix, type="full")
+
+matrix[is.na(matrix)] <- "None reported"
+
+# Write to disk
+write_csv(matrix, "bill_outcomes_policy_bioguideID_full.csv")
 ```
 
 
-#person = bill_data$bill$sponsors$item$bioguideId,
+```{r}
+matrix_test <- matrix
+
+matrix_test <- matrix_test %>% mutate(billoutcome = 
+                         ifelse(becamePublicLaw >= 1, "Became Law",
+                                ifelse(clotureMotion >= 1, "Failed Cloture", "nothing")))
+
+#check number of laws
+test <- matrix_test %>% filter(billoutcome == "Became Law")
+##number matches gov tracker!! 215 total
+```
+
