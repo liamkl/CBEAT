@@ -220,14 +220,28 @@ write_csv(matrix, "bill_outcomes_policy_bioguideID_full.csv")
 
 
 ```{r}
-matrix_test <- matrix
+library(readr)
+bill_outcomes_policy_bioguideID_full <- read_csv("data/output_data/bill_outcomes_policy_bioguideID_full.csv")
+
+matrix_test <- bill_outcomes_policy_bioguideID_full
 
 matrix_test <- matrix_test %>% mutate(billoutcome = 
                          ifelse(becamePublicLaw >= 1, "Became Law",
-                                ifelse(clotureMotion >= 1, "Failed Cloture", "nothing")))
+                                ifelse(presentedToPresident >= 1, "Vetoed",
+                                ifelse(passedAgreedToInSenate >= 1, "Passed in the Senate",                                                  ifelse(failedOfPassageNotAgreedToInSenate >= 1, "Got Vote, But Failed Senate",
+ifelse(failedPassage >= 1, "Got Vote, But Failed",
+       ifelse(clotureMotion >= 1, "Failed Legislation",
+              ifelse(placedOnCalendarGeneralOrders >= 1, "Ordered Reported", "nothing"))))))))
 
-#check number of laws
-test <- matrix_test %>% filter(billoutcome == "Became Law")
-##number matches gov tracker!! 215 total
+#check number of laws compared to govtracker
+matrix_test %>% group_by(billoutcome) %>% summarize(sum(n()))
+
+matrix_test <- matrix_test %>% select(bioguideId, session, billid, policy_area, billtype, billoutcome)
+
+# Write to disk
+write_csv(matrix_test, "bill_outcomes_summary.csv")
+
 ```
+
+
 
