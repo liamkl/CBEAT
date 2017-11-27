@@ -20,83 +20,27 @@ library(stringr)
 members <- read_csv("./data/member_list.csv")
 policy_areas <- read_csv("./data/policy_areas.csv")
 matrix <- read_csv("./data/output_data/member_policy_area_matrix.csv")
+outcomes <- read_csv("./data/output_data/bill_outcomes_summary")
 ```
 
 ```{r}
 # Read in member and policy area lists
-members <- read_csv("./data/member_list.csv")
-policy_areas <- read_csv("./data/policy_areas.csv")
+members <- member_list
 
 #create matrix that includes the sponsorship by state
-matrix <- read_csv("./data/output_data/member_policy_area_matrix.csv")
+matrix <- member_policy_area_matrix
+outcomes <- bill_outcomes_summary
+nodes <- nodes
 
-state_sponsorship <- members %>% select(bioguideId, state) %>% left_join(matrix, by="bioguideId")
+state_sponsorship <- outcomes %>% full_join(members, by="bioguideId") %>% left_join(nodes, by="bioguideId") %>% filter(chamber == "Senate") %>% select(bioguideId, session, billid, policy_area, billtype, billoutcome, last_name, first_name, party.x, state_name, state.x, chamber)
+
+colnames(state_sponsorship)[11] <- "state"
+colnames(state_sponsorship)[9] <- "party"
 
 
-# Save matrix test
-saved_matrix <- state_sponsorship
-# Write to disk
-write_csv(saved_matrix, "./data/output_data/state_sponsorship_map_data.csv")
 
 ```
 
-```{r}
-##extract legislative session data from source and add to matrix
-## 113th Congress (2013-2014)
-# 114th Congress (2015-2016)
-# 115th Congress (2017-2018)
-
-##create additional column for legislative session
-state_sponsorship$leg_session <- NA
-
-# Fn to do reverse paste (for apply purposes)
-paste_dir <- function(end, beginning) return(paste0(beginning, end))
-data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
-con_bill_type <- c("113-hjres", "113-hr", "113-s", "113-sjres",
-                   "114-hjres", "114-hr", "114-s", "114-sjres",
-                   "115-hjres", "115-hr", "115-s", "115-sjres")
-folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = TRUE)
-file_list <- list.files(folders, full.names = TRUE)
-
-# Break file list into chunks just for easier running/debugging
-file_list_1 <- file_list[1:2500]
-file_list_2 <- file_list[2501:5000]
-file_list_3 <- file_list[5001:7500]
-file_list_4 <- file_list[7501:10000]
-file_list_5 <- file_list[10001:12500]
-file_list_6 <- file_list[12501:15000]
-file_list_7 <- file_list[15001:17500]
-file_list_8 <- file_list[17501:20000]
-file_list_9 <- file_list[20001:22500]
-file_list_10 <- file_list[22501:25780]
-
-##for bills without a legislative session noted (not expected to be high)
-orphan_leg_session <- c()
-
-# Loop to fill the State-Sponsorship Area matrix
-for(file_name in file_list_1){
-  # Read in bill data from XML, convert to list for easier access
-  bill_data <- read_xml(file_name) %>% as_list()
-  # Extract legislative session
-  leg_session <- bill_data$bill$congress %>% unlist()
-  if(is.null(leg_session)) next
-  }
-  # Even though the policy list from Congress' website is supposed to 
-  # be exhaustive, I came up against at least one which was not included
-  # called "Private Legislation". If the policy area is not in my existing list
-  # I move to next iteration and make note of it
-  if(!(leg_session %in% state$policy_area)){
-    orphan_pas <- c(orphan_pas, policy_area)
-    next
-  }
-  # Increment policy area for that sponsor
-  m_pa_matrix[m_pa_matrix$bioguideId == sponsor, policy_area] <- 1 + m_pa_matrix[m_pa_matrix$bioguideId == sponsor, policy_area] 
-}
-# Save matrix after each iteration just in case
-saved_matrix <- m_pa_matrix
-# Write to disk
-write_csv(saved_matrix, "./data/output_data/member_policy_area_matrix.csv")
-```
 
 ```{r}
 ncol(state_sponsorship)
@@ -106,9 +50,16 @@ state_sponsorship <- state_sponsorship %>%
   replace(is.na(.), 0) %>%
    mutate(total = rowSums(.[3:35]))
 
+
 #mutating state names to full names;  need to add in for PR, MP,  DC, GU, AS, VI
-state_sponsorship$state_long <- state.name[match(state_sponsorship$state,state.abb)]
-state_sponsorship$state_long <- tolower(state_sponsorship$state_long)
+state_sponsorship$state_name_2 <- tolower(state_sponsorship$state_name)
+
+
+# Save matrix test
+saved_matrix <- state_sponsorship
+# Write to disk
+write_csv(saved_matrix, "state_sponsorship_map_data2.csv")
+
 
 #mapping the state data with the map data, using fiftystater package
 library(fiftystater)
@@ -119,39 +70,55 @@ data("fifty_states")
 library(gridExtra)
 library(colorplaner)
 
-dat3 <- state_sponsorship %>% filter(!is.na(state_long)) %>% group_by(state)
+dat3 <- state_sponsorship %>% filter(!is.na(billoutcome))
+
+dat3 %>% group_by(session) %>% summarize(sum(n()))
 ```
 
 ```{r}
 
 ##will look at the bills/number of sponsors; per state; senate vs. house; for each congressional session
 
-dat3 <- dat3 %>% mutate(total_2 = sum(total))
 
-dat4 <- dat3 %>% mutate(proportion = sum(total)/length(bioguideId))
+dat3 <- dat3 %>% group_by(session) %>% mutate(total_session = sum(n())) %>% ungroup()
+
+dat3 <- dat3 %>% group_by(session, state) %>% mutate(total_state = sum(n()), proportion = total_state/total_session) %>% ungroup()
 
 
-p <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_long, fill=proportion), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
+# Write to disk
+write_csv(dat3, "mapdata3.csv")
+
+dat4 <- dat3 %>% filter(session == "113")
+
+p <- ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name_2, fill=proportion), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
   expand_limits(x = fifty_states$long, y = fifty_states$lat) +
   coord_map() +
   scale_x_continuous(breaks = NULL) + 
   scale_y_continuous(breaks = NULL) +
   labs(x = "", y = "") +
   theme(legend.position = "bottom", panel.background = element_rect(), element_blank())+ fifty_states_inset_boxes() +
-ggtitle("Proportion of state sponsorships/legislators, by state")
+ggtitle("Proportion of sponsored bills, by state")
 
-q <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_long, fill=total_2), colour=alpha("darkgrey", 3/4), data=dat3, map=fifty_states) +
+q <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name, fill=total_state), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
   expand_limits(x = fifty_states$long, y = fifty_states$lat) +
   coord_map() +
   scale_x_continuous(breaks = NULL) + 
   scale_y_continuous(breaks = NULL) +
   labs(x = "", y = "") +
   theme(legend.position = "bottom", panel.background = element_rect(), element_blank())+ fifty_states_inset_boxes() +
-ggtitle("Number of state sponsorships, by state")
+ggtitle("Prevalence of bill type, by state")
 
 p
 q
 ```
 
+```{r}
+##table summarizing the total 
+
+dat4$senator <- paste(dat4$first_name,dat4$last_name,sep=" ")
+
+dat4 %>% group_by(state, senator) %>% filter(state_name=="Alaska") %>% summarize(Total = sum(n()))
+
+```
 
 
