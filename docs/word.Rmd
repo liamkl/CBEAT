@@ -1,0 +1,19 @@
+---
+title: "new_word"
+author: "Yueting Luo"
+date: "11/27/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+topic <- read_csv("subject.csv")
+```
+
+```{r}
+topic=topic[topic$freq>100,]
+library(wordcloud2)
+wordcloud2(topic,size = 0.3)
+```
+
