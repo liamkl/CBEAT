@@ -22,8 +22,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -32,10 +32,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -181,7 +183,7 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="senateactivity.html">What are my Senators doing?</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -202,10 +204,8 @@ $(document).ready(function () {
 </div>
 
 
-<div id="senator-activity-by-state-and-congressional-session" class="section level2">
-<h2>Senator Activity, by State and Congressional Session</h2>
+<p>##Senator Activity, by State and Congressional Session</p>
 <iframe src="https://millerhillaryv.shinyapps.io/Statedropdown/" style="border: black; width: 1500px; height: 700px">
-</div>
 
 
 
