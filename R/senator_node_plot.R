@@ -8,8 +8,9 @@ library(grDevices)
 nodes <- read.csv("./data/output_data/nodes_proc.csv")
 simp_edges <- read.csv("./data/output_data/simplified_edges.csv")
 
+
 ### Example bioguideId set here ### 
-sen_ID <- "M001170" # Claire Mcaskill
+sen_ID <- "R000146" # Claire Mcaskill
 
 # Filter edges to get ones we want
 senator_edges <- simp_edges %>% 
