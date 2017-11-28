@@ -8,7 +8,6 @@ library(mapproj)
 library(ggplot2)
 library(dplyr)
 library(igraph)
-library(tidyverse)
 library(grDevices)
 library(readr)
 
@@ -16,17 +15,12 @@ library(readr)
 
 mapdata3 <- read_csv("./data/mapdata3.csv")
 dat4 <- mapdata3
-
-simp_edges <- read_csv("./data/output_data/simplified_edges.csv")
-simp_edges <- simp_edges
-nodes <- read_csv("./data/output_data/nodes_proc.csv")
-nodes <- nodes
+nodes <- read_csv("./data/nodes_proc.csv")
+simp_edges <- read_csv("./data/simplified_edges.csv")
 
 dat4$senator <- paste(dat4$first_name,dat4$last_name,sep=" ")
 dat4$image <- paste("https://www.congress.gov/img/member/", tolower(dat4$bioguideId), ".jpg", sep="")
 
-nodes <- read.csv("./data/output_data/nodes_proc.csv")
-simp_edges <- read.csv("./data/output_data/simplified_edges.csv")
 
 # Define UI for application
 ui <- fluidPage(
@@ -130,8 +124,15 @@ server <- function(input, output) {
        "image",
        '">') })
   output$nodes <- renderPlot({### Example bioguideId set here ### 
-    sen_ID <- "R000146" # Claire Mcaskill
+    test <- dat4 %>% filter(session == input$session)
     
+    sen_ID <- test %>% filter(state_name == input$state) 
+    sen_ID <- unique(as.character(sen_ID$bioguideId))
+    
+    sen_ID <- data() %>% filter(state_name == input$state)
+    sen_ID <- unique(as.character(sen_ID$bioguideId))
+    
+    for(i in sen_ID){
     # Filter edges to get ones we want
     senator_edges <- simp_edges %>% 
       select(-X) %>%
@@ -179,7 +180,8 @@ server <- function(input, output) {
          vertex.size = 40,
          arrow.mode = 2,
          layout = L * 1, 
-         rescale = FALSE)})
+         rescale = FALSE)
+    print(F)}})
 
 }
 
