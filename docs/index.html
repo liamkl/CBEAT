@@ -9,9 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Liam Loscalzo" />
 
-<meta name="date" content="2017-11-21" />
 
 <title>Untitled</title>
 
@@ -22,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -32,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -199,20 +199,18 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Untitled</h1>
-<h4 class="author"><em>Liam Loscalzo</em></h4>
-<h4 class="date"><em>November 21, 2017</em></h4>
 
 </div>
 
 
-<div id="introduction-page-that-will-include" class="section level2">
+<section id="introduction-page-that-will-include" class="level2">
 <h2>Introduction page that will include:</h2>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>Our Video</li>
 <li>Overview of the goal of the page</li>
 <li>Explanation of the additional pages/resources</li>
 </ol>
-</div>
+</section>
 
 
 
