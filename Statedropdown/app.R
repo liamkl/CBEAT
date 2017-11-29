@@ -10,6 +10,7 @@ library(dplyr)
 library(igraph)
 library(grDevices)
 library(readr)
+library(networkD3)
 
 #load data
 
@@ -18,10 +19,15 @@ dat4 <- mapdata3
 nodes <- read_csv("./data/nodes_proc.csv")
 simp_edges <- read_csv("./data/simplified_edges.csv")
 
+nodes <- nodes %>% 
+  mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
+
+
+
 dat4$senator <- paste(dat4$first_name,dat4$last_name,sep=" ")
 dat4$image <- paste("https://www.congress.gov/img/member/", tolower(dat4$bioguideId), ".jpg", sep="")
 
-
+#create new vector, call is 'options' and list only the unique values. takes a named vector name(x) = x
 # Define UI for application
 ui <- fluidPage(
    
@@ -40,7 +46,7 @@ ui <- fluidPage(
                     selected = NULL),
         selectInput(inputId = "policyarea",
                      label = "Select Bill Policy Area",
-                     choices = c("All"=".",
+                     choices = c("All"= "*",
                        "Education" = "Education",
                        "Health" = "Health",
                        "Public Lands and Natural Resources" = "Public Lands and Natural Resources",
@@ -88,14 +94,15 @@ ui <- fluidPage(
         tableOutput("stats"),
         tableOutput("interests"),
         htmlOutput("photo"),
-        plotOutput("nodes")
+        forceNetworkOutput("nodes")
       )
    )
 )
+#set all = star and grepl=*
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
-  data <- reactive({    dat4 %>% filter(session == input$session) %>% group_by(state) %>% filter(policy_area == input$policyarea) %>% mutate(total_submit = sum(n())) %>% ungroup()  })
+  data <- reactive({    dat4 %>% filter(grepl(input$session, session)) %>% group_by(state) %>% filter(grepl(input$policyarea, policy_area)) %>% mutate(total_submit = sum(n())) %>% ungroup()  })
    output$map <- renderPlot({
      data() 
      ##need to add code for filtering the map
@@ -123,65 +130,43 @@ server <- function(input, output) {
        '<img src="',
        "image",
        '">') })
-  output$nodes <- renderPlot({### Example bioguideId set here ### 
-    test <- dat4 %>% filter(session == input$session)
-    
-    sen_ID <- test %>% filter(state_name == input$state) 
-    sen_ID <- unique(as.character(sen_ID$bioguideId))
-    
-    sen_ID <- data() %>% filter(state_name == input$state)
-    sen_ID <- unique(as.character(sen_ID$bioguideId))
-    
-    for(i in sen_ID){
-    # Filter edges to get ones we want
-    senator_edges <- simp_edges %>% 
-      select(-X) %>%
-      filter((from == sen_ID | to == sen_ID))
-    senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:15],]
-    # Then subset nodes
-    nodes_subset <- nodes %>%
-      filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
-    # Create graph
-    G <- graph_from_data_frame(d = senator_edges, vertices = nodes_subset, directed = TRUE)
-    ###################
-    ###################
-    ## Colors
-    ###################
-    alpha <- 0.8
-    red <- rgb(0.82, 0.305, 0.305, alpha = alpha)
-    blue <- rgb(0.258, 0.345, 0.803, alpha = alpha)
-    green <- rgb(0.270, 0.709, 0.396, alpha = alpha)
-    colrs <- c("D" = blue, "I" = green, "R" = red)
-    V(G)$color <- colrs[V(G)$party]
-    edge_colors <- 1 - 0.6 * (E(G)$weight / max(E(G)$weight))
-    E(G)$color <- rgb(edge_colors, edge_colors, edge_colors)
-    ###################
-    ###################
-    ## Other graph parameters
-    ###################
-    # Node labels
-    V(G)$label <- paste0(V(G)$last_name, ", ", V(G)$first_name, 
-                         "\n (", V(G)$party, "-", V(G)$state, ")")
-    E(G)$width <- E(G)$weight
-    E(G)$arrow.size <- (E(G)$weight / max(E(G)$weight))
-    E(G)$curved <- 0.5 * (E(G)$weight / max(E(G)$weight))
-    L <- layout_with_gem(G)
-    L <- norm_coords(L, ymin = -1, ymax = 1, xmin = -1, xmax = 1)
-    ###################
-    ###################
-    ## Plot
-    ###################
-    plot(G,
-         vertex.label.family = "sans",
-         vertex.label.font = 2,
-         vertex.label.dist = 0,
-         vertex.label.color = "white",
-         vertex.label.cex = 0.95,
-         vertex.size = 40,
-         arrow.mode = 2,
-         layout = L * 1, 
-         rescale = FALSE)
-    print(F)}})
+    output$nodes <- renderForceNetwork({### Example bioguideId set here ### 
+      test <- dat4 %>% filter(session == input$session)
+      
+      sen_ID <- test %>% filter(state_name == input$state) 
+      sen_ID <- unique(as.character(sen_ID$bioguideId))
+      
+      sen_ID <- data() %>% filter(state_name == input$state)
+      sen_ID <- unique(as.character(sen_ID$bioguideId))
+      
+        for(i in sen_ID){
+          senator_edges <- simp_edges %>% 
+            select(-X1) %>%
+            filter((from == i | to == i))
+          senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+          # Then subset nodes
+          nodes_subset <- nodes %>%
+            filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+          
+          # Set target and source as indices to node data
+          # minus 1 because it converts to JS which uses 0-indexing
+          senator_edges <- senator_edges %>%
+            mutate(source = match(from, nodes_subset$bioguideId) - 1,
+                   target = match(to, nodes_subset$bioguideId) - 1)
+          
+          p <- forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+                       Source = "source", Target = "target",
+                       Value = "weight", NodeID = "label",
+                       Group = "party", 
+                       Nodesize = "total_in",
+                       linkDistance = 150, 
+                       fontSize = 15,
+                       colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+                       opacity = 0.6, arrows = TRUE, charge = -60, zoom = TRUE,
+                       opacityNoHover = TRUE)
+          print(p)
+          
+}})
 
 }
 
