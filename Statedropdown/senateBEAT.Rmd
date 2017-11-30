@@ -1,0 +1,256 @@
+---
+title: "SenateBEAT"
+output: 
+  flexdashboard::flex_dashboard:
+    data-orientation: rows
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(highcharter)
+library(DT)
+library(networkD3)
+library(tidyverse)
+library(treemap)
+library(flexdashboard)
+library(viridisLite)
+
+thm <- 
+  hc_theme(
+    colors = c("#1a6ecc", "#434348", "#90ed7d"),
+    chart = list(
+      backgroundColor = "white",
+      style = list(fontFamily = "Source Sans Pro")
+    ),
+    xAxis = list(
+      gridLineWidth = 1
+    )
+  )
+
+# Data read in/processing
+nodes <- read.csv("./data/nodes_proc.csv")
+simp_edges <- read.csv("./data/simplified_edges.csv")
+nodes <- nodes %>% 
+  mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
+
+mapdata3 <- read_csv("./data/mapdata3.csv")
+
+policy_area_list <- mapdata3 %>% 
+  arrange(policy_area) %>% 
+  .$policy_area %>% 
+  unique()
+
+mapdata3 <- mapdata3 %>%
+  group_by(session, state_name, state, policy_area) %>%
+  summarise(total_submit = sum(n()))
+```
+
+Home
+====================================
+### Welcome to SenateBEAT
+
+#### Introduction, blah blah blah 
+
+### Another thing to look at
+
+Wow this is cool!
+
+### Let's see another
+
+Nice
+
+### Last one for now
+
+Great
+
+
+Bills Submitted {data-orientation=rows}
+=====================================
+
+Input {.sidebar}
+-------------------------------------
+### Inputs
+
+```{r input_objects}
+radioButtons(inputId = "session",
+            label = "Select legislative session",
+            choices = c("All"="*",
+                        "113th Session" = "113",
+                        "114th Session" = "114",
+                        "115th Session" = "115"),
+            selected = NULL)
+
+selectInput(inputId = "policyarea",
+           label = "Select Bill Policy Area",
+           choices = c("All"="*", policy_area_list))
+```
+
+### Policy area input
+
+```{r}
+selectInput(inputId = "state", 
+            label = "Select a state", 
+            choices = c("All" = "*", state.name),
+            selectize = FALSE)
+```
+
+
+Row {data-height=600}
+-------------------------------------
+###  
+
+```{r}
+data("usgeojson")
+
+data_map <- reactive({
+  mapdata3 %>%
+    filter(grepl(input$session, session)) %>%
+    filter(grepl(input$policyarea, policy_area)) 
+  })
+
+n <- 4
+colstops <- data.frame(
+  q = (0 : n) / n,
+  c = substring(viridis(n + 1), 0, 7)) %>%
+  list.parse2()
+
+renderHighchart({
+  dat <- data_map() %>%
+    group_by(state_name) %>%
+    summarise(total_submit = sum(total_submit))
+  
+  highchart() %>%
+  hc_add_series_map(map = usgeojson, dat, name = "Bills submitted",
+                    value = "total_submit", joinBy = c("woename", "state_name"),
+                    dataLabels = list(enabled = TRUE,
+                                      format = '{point.properties.postalcode}')) %>%
+  hc_colorAxis(stops = colstops) %>%
+  hc_legend(valueDecimals = 0) %>%
+  hc_title(text = paste0(ifelse(input$policyarea == "*", "All", input$policyarea), " bills")) %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_add_theme(thm)
+})
+```
+
+Row {data-height=400}
+-------------------------------------
+### Policy Area
+
+```{r}
+data_areas <- reactive({
+  mapdata3 %>%
+    filter(grepl(input$session, session)) %>%
+    filter(grepl(input$state, state_name))
+  })
+
+renderHighchart({
+  tm <- treemap(data_areas(), "policy_area",
+                vSize = "total_submit", palette = rev(viridis(6)))
+  highchart() %>% 
+    hc_add_series_treemap(tm, layoutAlgorithm = "squarified") %>% 
+    hc_add_theme(thm)
+})
+```
+
+
+
+
+Senate Overview {data-orientation=rows}
+=====================================
+
+Input {.sidebar}
+-------------------------------------
+
+```{r}
+radioButtons(inputId = "session",
+            label = "Select legislative session",
+            choices = c("All"="*",
+                        "113th Session" = "113",
+                        "114th Session" = "114",
+                        "115th Session" = "115"),
+            selected = NULL)
+
+checkboxGroupInput(inputId = "party",
+            label = "Select party",
+            choices = c("Republican" = "R",
+                        "Democrat" = "D",
+                        "Independent" = "I"),
+            selected = c("R", "D", "I"))
+
+
+```
+
+```{r}
+sliderInput(inputId = "edge_filter",
+            label = "Select edge weight cutoff",
+            min = 0.950,
+            max = 1,
+            value = 0.98)
+```
+
+
+Row {data-height=400}
+-------------------------------------
+```{r}
+nodes_subset <- reactive({
+  nodes %>%
+    filter(party %in% input$party) %>%
+    .[1:20, ]
+})
+
+renderDataTable({
+  datatable(
+  nodes_subset() %>%
+    select(last_name, first_name, party, state)
+  )
+})
+```
+
+Co-sponsorship Network {data-height=500}
+-------------------------------------
+```{r, eval = FALSE}
+# edges <- reactive({
+#   simp_edges %>%
+#     filter(from %in% head(nodes_subset()$bioguideId, 10) | to %in% head(nodes_subset()$bioguideId, 10)) %>%
+#     arrange(desc(weight)) %>%
+#     filter(weight > quantile(weight, input$edge_filter))
+# })
+
+renderForceNetwork({
+  n <- nodes_subset()
+  e <- simp_edges %>%
+    filter(from %in% n$bioguideId | to %in% n$bioguideId) %>%
+    mutate(source = match(from, n$bioguideId) - 1,
+           target = match(to, n$bioguideId) - 1)
+  
+  # e <- edges() %>%
+  #   mutate(source = match(from, n$bioguideId) - 1,
+  #          target = match(to, n$bioguideId) - 1)
+
+  forceNetwork(Links = e, Nodes = n,
+             Source = "source", Target = "target",
+             Value = "weight", NodeID = "label", Group = "party",
+
+             # -- Nodes and labels
+             fontSize = 15,
+             fontFamily = "sans-serif",
+             opacity = 0.6,
+             opacityNoHover = 0.5,
+
+             # -- Edges
+             arrows = TRUE,
+             linkColour = c("grey", "grey"),
+
+             # -- Layout
+             linkDistance = 100,
+             charge = -30,
+
+             # -- General params
+             colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+             zoom = TRUE,
+             bounded = TRUE
+             )
+})
+```
+
+
