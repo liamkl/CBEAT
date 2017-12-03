@@ -19,6 +19,7 @@ library(viridisLite)
 library(shiny)
 library(xml2)
 library(grDevices)
+library(distances)
 # Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
@@ -205,9 +206,7 @@ checkboxGroupInput(inputId = "party",
                         "Independent" = "I"),
             selected = c("R", "D", "I"))
 
-selectInput(inputId = "matrix_senator",
-            label = "Sort by Senator",
-            choices = nodes$label)
+uiOutput(outputId = "choose_senator")
 
 numericInput(inputId = "matrix_rows",
              label = "Number of Senators \n(heatmap display)",
@@ -224,7 +223,25 @@ Column
 ### Heatmap 
 
 ```{r}
+# Dynamic list for dropdown
+output$choose_senator <- renderUI({
+  
+  sen_list <- nodes %>%
+    filter(party %in% input$party)
+  if (input$session2 == "113") {
+    sen_list <- sen_list %>% filter(in_113 == 1)
+  } else if (input$session2 == "114") {
+    sen_list <- sen_list %>% filter(in_114 == 1)
+  } else if (input$session2 == "115") {
+    sen_list <- sen_list %>% filter(in_115 == 1)
+  } 
+  selectInput(inputId = "matrix_senator",
+            label = "Sort by Senator",
+            choices = sort(sen_list$label))
+})
+
 data_heatmap <- reactive({
+  # Matrix filtering
   filtered <- subject_matrix %>%
     filter(party %in% input$party)
 
@@ -235,13 +252,26 @@ data_heatmap <- reactive({
   } else if (input$session2 == "115") {
     filtered <- filtered %>% filter(in_115 == 1)
   }
-
+  
   mat <- filtered %>% 
     select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
   rownames(mat) <- filtered$label
   
+  # Compute distances
+  dists <- distances(mat)
+  
+  # Output options
   n <- input$matrix_page
-  mat[1:input$matrix_rows, (50 * (n - 1) + 1):(50 * n)]
+  rows <- min(nrow(mat), input$matrix_rows)
+  
+  # Matrix sorting
+  sortby <- mat[input$matrix_senator, ]
+  mat <- mat[, order(sortby, decreasing = TRUE)]
+  #mat <- mat[order(mat[1], decreasing = TRUE), ]
+  mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == input$matrix_senator)), ]
+  
+  # To display
+  mat[1:rows, (50 * (n - 1) + 1):(50 * n)]
 })
 
 renderPlotly({
@@ -250,7 +280,7 @@ renderPlotly({
     dendrogram = "none",
     label_names = c("Senator", "Subject", "Bills"),
     grid_gap = 0.3,
-    hide_colorbar = TRUE,
+    hide_colorbar = TRUE
     )
 })
 
