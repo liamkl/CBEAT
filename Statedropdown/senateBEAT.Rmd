@@ -10,6 +10,7 @@ runtime: shiny
 library(highcharter)
 library(DT)
 library(networkD3)
+library(d3heatmap)
 library(tidyverse)
 library(treemap)
 library(flexdashboard)
@@ -30,10 +31,12 @@ thm <-
 # Data read in/processing
 nodes <- read.csv("./data/nodes_proc.csv")
 simp_edges <- read.csv("./data/simplified_edges.csv")
-nodes <- nodes %>% 
-  mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
-
+nodes <- nodes %>% mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
 mapdata3 <- read_csv("./data/mapdata3.csv")
+subject_matrix <- nodes %>%
+  select(bioguideId, label, party, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+  
 
 policy_area_list <- mapdata3 %>% 
   arrange(policy_area) %>% 
@@ -78,12 +81,13 @@ radioButtons(inputId = "session",
                         "113th Session" = "113",
                         "114th Session" = "114",
                         "115th Session" = "115"),
-            selected = NULL)
+            selected = "*")
 
 selectInput(inputId = "policyarea",
            label = "Select Bill Policy Area",
            choices = c("All"="*", policy_area_list))
 ```
+<br><br>
 
 ### Policy area input
 
@@ -97,7 +101,7 @@ selectInput(inputId = "state",
 
 Row {data-height=600}
 -------------------------------------
-###  
+### Map
 
 ```{r}
 data("usgeojson")
@@ -111,7 +115,7 @@ data_map <- reactive({
 n <- 4
 colstops <- data.frame(
   q = (0 : n) / n,
-  c = substring(viridis(n + 1), 0, 7)) %>%
+  c = substring(rev(viridis(n + 1)), 0, 7)) %>%
   list.parse2()
 
 renderHighchart({
@@ -138,31 +142,43 @@ Row {data-height=400}
 
 ```{r}
 data_areas <- reactive({
+  # Get national totals
+  national_totals <- mapdata3 %>% 
+    group_by(policy_area, session) %>% 
+    summarise(national_total = sum(total_submit)) %>% 
+    ungroup()
+  
   mapdata3 %>%
+    left_join(national_totals) %>%
     filter(grepl(input$session, session)) %>%
     filter(grepl(input$state, state_name))
   })
 
+
 renderHighchart({
   tm <- treemap(data_areas(), "policy_area",
-                vSize = "total_submit", palette = rev(viridis(6)))
-  highchart() %>% 
-    hc_add_series_treemap(tm, layoutAlgorithm = "squarified") %>% 
-    hc_add_theme(thm)
+                vSize = "total_submit", vColor = "national_total",
+                type = "value", palette = rev(viridis(6)))
+  # highchart() %>% 
+  #   hc_add_series_treemap(tm, layoutAlgorithm = "squarified") %>% 
+  #   hc_add_theme(thm)
+  hctreemap(tm) %>%
+    hc_add_theme(thm) %>%
+    hc_legend(align = "center", enabled = TRUE)
 })
 ```
 
 
 
 
-Senate Overview {data-orientation=rows}
+Senate Overview {data-orientation=columns}
 =====================================
 
 Input {.sidebar}
 -------------------------------------
 
 ```{r}
-radioButtons(inputId = "session",
+radioButtons(inputId = "session2",
             label = "Select legislative session",
             choices = c("All"="*",
                         "113th Session" = "113",
@@ -173,84 +189,95 @@ radioButtons(inputId = "session",
 checkboxGroupInput(inputId = "party",
             label = "Select party",
             choices = c("Republican" = "R",
-                        "Democrat" = "D",
+                        "Democratic" = "D",
                         "Independent" = "I"),
             selected = c("R", "D", "I"))
 
-
+numericInput(inputId = "matrix_page",
+             label = "Select heatmap page", value = 1,
+             min = 1, max = 21, step = 1)
 ```
+
+Column
+-------------------------------------
+
+### Heatmap 
 
 ```{r}
-sliderInput(inputId = "edge_filter",
-            label = "Select edge weight cutoff",
-            min = 0.950,
-            max = 1,
-            value = 0.98)
-```
+data_heatmap <- reactive({
+  filtered <- subject_matrix %>%
+    filter(party %in% input$party)
 
+  if (input$session2 == "113") {
+    filtered <- filtered %>% filter(in_113 == 1)
+  } else if (input$session2 == "114") {
+    filtered <- filtered %>% filter(in_114 == 1)
+  } else if (input$session2 == "115") {
+    filtered <- filtered %>% filter(in_115 == 1)
+  }
 
-Row {data-height=400}
--------------------------------------
-```{r}
-nodes_subset <- reactive({
-  nodes %>%
-    filter(party %in% input$party) %>%
-    .[1:20, ]
+  mat <- filtered %>% select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
+  rownames(mat) <- filtered$label
+  n <- input$matrix_page
+  mat[, (50 * (n - 1) + 1):(50 * n)]
+  #mat[, 1:50]
 })
 
-renderDataTable({
-  datatable(
-  nodes_subset() %>%
-    select(last_name, first_name, party, state)
-  )
+renderD3heatmap({
+  d3heatmap(
+  data_heatmap(), 
+  dendrogram = "none",
+  colors = viridis(10)
+)
 })
+
 ```
 
-Co-sponsorship Network {data-height=500}
--------------------------------------
-```{r, eval = FALSE}
-# edges <- reactive({
-#   simp_edges %>%
-#     filter(from %in% head(nodes_subset()$bioguideId, 10) | to %in% head(nodes_subset()$bioguideId, 10)) %>%
-#     arrange(desc(weight)) %>%
-#     filter(weight > quantile(weight, input$edge_filter))
-# })
+<!-- Co-sponsorship Network {data-width=300} -->
+<!-- ------------------------------------ -->
 
-renderForceNetwork({
-  n <- nodes_subset()
-  e <- simp_edges %>%
-    filter(from %in% n$bioguideId | to %in% n$bioguideId) %>%
-    mutate(source = match(from, n$bioguideId) - 1,
-           target = match(to, n$bioguideId) - 1)
-  
-  # e <- edges() %>%
-  #   mutate(source = match(from, n$bioguideId) - 1,
-  #          target = match(to, n$bioguideId) - 1)
+<!-- ### Network  -->
 
-  forceNetwork(Links = e, Nodes = n,
-             Source = "source", Target = "target",
-             Value = "weight", NodeID = "label", Group = "party",
+<!-- ```{r, eval = FALSE} -->
+<!-- edges <- reactive({ -->
+<!--   simp_edges %>% -->
+<!--     arrange(desc(weight)) %>% -->
+<!--     filter(weight > quantile(weight, input$edge_filter)) -->
+<!-- }) -->
 
-             # -- Nodes and labels
-             fontSize = 15,
-             fontFamily = "sans-serif",
-             opacity = 0.6,
-             opacityNoHover = 0.5,
+<!-- #filter(from %in% head(nodes_subset()$bioguideId, 10) | to %in% head(nodes_subset()$bioguideId, 10)) %>% -->
 
-             # -- Edges
-             arrows = TRUE,
-             linkColour = c("grey", "grey"),
+<!-- renderForceNetwork({ -->
+<!--   n <- nodes_subset() -->
+<!--   e <- simp_edges %>% -->
+<!--     filter(from %in% n$bioguideId | to %in% n$bioguideId) %>% -->
+<!--     mutate(source = match(from, n$bioguideId) - 1, -->
+<!--            target = match(to, n$bioguideId) - 1) -->
 
-             # -- Layout
-             linkDistance = 100,
-             charge = -30,
+<!--   forceNetwork(Links = e, Nodes = n, -->
+<!--              Source = "source", Target = "target", -->
+<!--              Value = "weight", NodeID = "label", Group = "party", -->
 
-             # -- General params
-             colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
-             zoom = TRUE,
-             bounded = TRUE
-             )
-})
-```
+<!--              # -- Nodes and labels -->
+<!--              fontSize = 15, -->
+<!--              fontFamily = "sans-serif", -->
+<!--              opacity = 0.6, -->
+<!--              opacityNoHover = 0.5, -->
 
+<!--              # -- Edges -->
+<!--              arrows = TRUE, -->
+<!--              linkColour = c("grey", "grey"), -->
 
+<!--              # -- Layout -->
+<!--              linkDistance = 100, -->
+<!--              charge = -30, -->
+
+<!--              # -- General params -->
+<!--              colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'), -->
+<!--              zoom = TRUE, -->
+<!--              bounded = TRUE -->
+<!--              ) -->
+<!-- }) -->
+<!-- ``` -->
+
+<!-- ### Other -->
