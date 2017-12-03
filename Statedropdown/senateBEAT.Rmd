@@ -15,6 +15,15 @@ library(tidyverse)
 library(treemap)
 library(flexdashboard)
 library(viridisLite)
+library(shiny)
+library(xml2)
+library(tidyverse)
+library(stringr)
+library(ggplot2)
+library(dplyr)
+library(igraph)
+library(grDevices)
+
 
 thm <- 
   hc_theme(
@@ -36,6 +45,10 @@ mapdata3 <- read_csv("./data/mapdata3.csv")
 subject_matrix <- nodes %>%
   select(bioguideId, label, party, in_113, in_114, in_115) %>%
   left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+
+senatordata <- mapdata3
+senatordata$senator <- paste(senatordata$first_name,senatordata$last_name,sep=" ")
+senatordata$image <- paste("https://www.congress.gov/img/member/", tolower(senatordata$bioguideId), ".jpg", sep="")
   
 
 policy_area_list <- mapdata3 %>% 
@@ -281,3 +294,129 @@ renderD3heatmap({
 <!-- ``` -->
 
 <!-- ### Other -->
+
+
+Senator Activity {data-orientation=rows}
+=====================================
+
+Input {.sidebar}
+-------------------------------------
+
+### Select a legislative session and a state to get a close-up of each senator's focus areas. 
+
+```{r}
+### Inputs
+radioButtons(inputId = "session3",
+            label = "Select legislative session",
+            choices = c("All"="*",
+                        "113th Session" = "113",
+                        "114th Session" = "114",
+                        "115th Session" = "115"),
+            selected = "113")
+
+```
+
+
+```{r}
+#state Input
+selectInput(inputId = "state3", 
+            label = "Select a state", 
+            choices = c("All" = "*", state.name),
+            selected = "Alaska",
+            selectize = FALSE)
+```
+
+Row {data-height=400}
+-------------------------------------
+### Senator Spotlight: Alaska (D)
+
+The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
+
+Row {data-height=600}
+-------------------------------------
+### Senator summary statistics 
+
+```{r}
+
+senatorstats <- reactive({senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name))})
+
+
+renderTable({ senatorstats() %>%
+       summarise(sum(n()), 
+                 sum(billoutcome == "Became Law"), 
+                 Percent = mean(billoutcome == "Became Law")*100) %>%
+       `colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law"))})
+    
+
+```
+
+## Top 5 Policy Areas
+
+```{r}
+
+renderTable({ senatordata %>% filter(grepl(input$session3, session)) %>% 
+                       group_by(state, senator, policy_area) %>% filter(grepl(input$state3, state_name)) %>% 
+                       summarise(sum(n())) %>%
+                       'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))})
+
+```
+
+
+Row {data-height=400}
+-------------------------------------
+## Senator Network Data
+
+```{r}
+
+#network <- reactive({senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name))})
+renderForceNetwork({ 
+ 
+ # sen_ID0 <- senatorstats() 
+test <- senatordata %>% filter(grepl(input$session3, session))
+      
+      sen_ID <- test %>% filter(grepl(input$state3, state_name))
+      sen_ID <- unique(as.character(sen_ID$bioguideId))
+      
+ 
+          senator_edges <- simp_edges %>% 
+
+            filter((from == sen_ID | to == sen_ID))
+          senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+          # Then subset nodes
+          nodes_subset <- nodes %>%
+            filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+          
+          # Set target and source as indices to node data
+          # minus 1 because it converts to JS which uses 0-indexing
+          senator_edges <- senator_edges %>%
+            mutate(source = match(from, nodes_subset$bioguideId) - 1,
+                   target = match(to, nodes_subset$bioguideId) - 1)
+          
+          p <- forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+                       Source = "source", Target = "target",
+                       Value = "weight", NodeID = "label",
+                       Group = "party", 
+                       Nodesize = "total_in",
+                       linkDistance = 150, 
+                       fontSize = 15,
+                       colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+                       opacity = 0.6, arrows = TRUE, charge = -60, zoom = TRUE,
+                       opacityNoHover = TRUE)
+          print(p)
+          
+ })
+
+```
+
+##Senator picture
+```{r}
+#senator picture code here
+
+renderText({ senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name)) %>%
+     c(
+       '<img src="',
+       "image",
+       '">') })
+```
+
+
