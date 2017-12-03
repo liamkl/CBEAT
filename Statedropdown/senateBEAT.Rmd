@@ -7,24 +7,19 @@ runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
+# Libraries
+library(treemap)
 library(highcharter)
 library(DT)
 library(networkD3)
-library(d3heatmap)
+library(heatmaply)
 library(tidyverse)
-library(treemap)
 library(flexdashboard)
 library(viridisLite)
 library(shiny)
 library(xml2)
-library(tidyverse)
-library(stringr)
-library(ggplot2)
-library(dplyr)
-library(igraph)
 library(grDevices)
-
-
+# Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
     colors = c("#1a6ecc", "#434348", "#90ed7d"),
@@ -36,26 +31,30 @@ thm <-
       gridLineWidth = 1
     )
   )
-
-# Data read in/processing
-nodes <- read.csv("./data/nodes_proc.csv")
+###############################
+### Data read in/processing ###
+###############################
+# Senator nodes
+nodes <- read.csv("./data/nodes_proc.csv") %>% 
+  mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
+# Cosponsorship edges
 simp_edges <- read.csv("./data/simplified_edges.csv")
-nodes <- nodes %>% mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
-mapdata3 <- read_csv("./data/mapdata3.csv")
+# For heatmap
 subject_matrix <- nodes %>%
   select(bioguideId, label, party, in_113, in_114, in_115) %>%
   left_join(read_csv("./data/member_leg_subject_matrix.csv"))
-
+# Bill data for maps etc
+mapdata3 <- read_csv("./data/mapdata3.csv")
+# For individual Senator page
 senatordata <- mapdata3
 senatordata$senator <- paste(senatordata$first_name,senatordata$last_name,sep=" ")
 senatordata$image <- paste("https://www.congress.gov/img/member/", tolower(senatordata$bioguideId), ".jpg", sep="")
-  
-
+# List for dropdown on map page
 policy_area_list <- mapdata3 %>% 
   arrange(policy_area) %>% 
   .$policy_area %>% 
   unique()
-
+# Processing map data for map page
 mapdata3 <- mapdata3 %>%
   group_by(session, state_name, state, policy_area) %>%
   summarise(total_submit = sum(n()))
@@ -197,7 +196,7 @@ radioButtons(inputId = "session2",
                         "113th Session" = "113",
                         "114th Session" = "114",
                         "115th Session" = "115"),
-            selected = NULL)
+            selected = "115")
 
 checkboxGroupInput(inputId = "party",
             label = "Select party",
@@ -205,6 +204,14 @@ checkboxGroupInput(inputId = "party",
                         "Democratic" = "D",
                         "Independent" = "I"),
             selected = c("R", "D", "I"))
+
+selectInput(inputId = "matrix_senator",
+            label = "Sort by Senator",
+            choices = nodes$label)
+
+numericInput(inputId = "matrix_rows",
+             label = "Number of Senators \n(heatmap display)",
+             value = 50, min = 10, max = 100, step = 1)
 
 numericInput(inputId = "matrix_page",
              label = "Select heatmap page", value = 1,
@@ -229,27 +236,30 @@ data_heatmap <- reactive({
     filtered <- filtered %>% filter(in_115 == 1)
   }
 
-  mat <- filtered %>% select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
+  mat <- filtered %>% 
+    select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
   rownames(mat) <- filtered$label
+  
   n <- input$matrix_page
-  mat[, (50 * (n - 1) + 1):(50 * n)]
-  #mat[, 1:50]
+  mat[1:input$matrix_rows, (50 * (n - 1) + 1):(50 * n)]
 })
 
-renderD3heatmap({
-  d3heatmap(
-  data_heatmap(), 
-  dendrogram = "none",
-  colors = viridis(10)
-)
+renderPlotly({
+  heatmaply(
+    data_heatmap(),
+    dendrogram = "none",
+    label_names = c("Senator", "Subject", "Bills"),
+    grid_gap = 0.3,
+    hide_colorbar = TRUE,
+    )
 })
 
 ```
 
-<!-- Co-sponsorship Network {data-width=300} -->
+<!-- Column {data-width=300} -->
 <!-- ------------------------------------ -->
 
-<!-- ### Network  -->
+<!-- ### Network -->
 
 <!-- ```{r, eval = FALSE} -->
 <!-- edges <- reactive({ -->
@@ -326,97 +336,127 @@ selectInput(inputId = "state3",
             selectize = FALSE)
 ```
 
-Row {data-height=400}
+Row {data-height=300}
 -------------------------------------
 ### Senator Spotlight: Alaska (D)
 
 The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
 
-Row {data-height=600}
+Row {data-height=500}
 -------------------------------------
 ### Senator summary statistics 
 
 ```{r}
 
-senatorstats <- reactive({senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name))})
+senatorstats <- reactive({
+  senatordata %>% 
+    filter(grepl(input$session3, session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl(input$state3, state_name))
+  })
 
 
-renderTable({ senatorstats() %>%
-       summarise(sum(n()), 
-                 sum(billoutcome == "Became Law"), 
-                 Percent = mean(billoutcome == "Became Law")*100) %>%
-       `colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law"))})
+renderTable({ 
+  senatorstats() %>%
+  summarise(sum(n()), 
+           sum(billoutcome == "Became Law"), 
+           Percent = mean(billoutcome == "Became Law")*100) %>%
+  `colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law"))
+  })
     
 
 ```
 
-## Top 5 Policy Areas
+### Top 5 Policy Areas
 
 ```{r}
 
-renderTable({ senatordata %>% filter(grepl(input$session3, session)) %>% 
-                       group_by(state, senator, policy_area) %>% filter(grepl(input$state3, state_name)) %>% 
-                       summarise(sum(n())) %>%
-                       'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))})
+renderTable({ 
+  senatordata %>% 
+    filter(grepl(input$session3, session)) %>% 
+    group_by(state, senator, policy_area) %>% 
+    filter(grepl(input$state3, state_name)) %>% 
+    summarise(sum(n())) %>%
+    'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))
+  })
 
 ```
 
 
-Row {data-height=400}
+Row {data-height=500}
 -------------------------------------
-## Senator Network Data
+### Senator Network Data
 
 ```{r}
 
-#network <- reactive({senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name))})
-renderForceNetwork({ 
- 
- # sen_ID0 <- senatorstats() 
-test <- senatordata %>% filter(grepl(input$session3, session))
-      
-      sen_ID <- test %>% filter(grepl(input$state3, state_name))
-      sen_ID <- unique(as.character(sen_ID$bioguideId))
-      
- 
-          senator_edges <- simp_edges %>% 
+network <- reactive({
+  senatordata %>% 
+    filter(grepl(input$session3, session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl(input$state3, state_name))
+  })
 
-            filter((from == sen_ID | to == sen_ID))
-          senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
-          # Then subset nodes
-          nodes_subset <- nodes %>%
-            filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+renderForceNetwork({ 
+  # sen_ID0 <- senatorstats() 
+  # test <- senatordata %>% filter(grepl(input$session3, session))
+  # sen_ID <- test %>% filter(grepl(input$state3, state_name))
+  # sen_ID <- unique(as.character(sen_ID$bioguideId))
+  sen_ID <- network()$bioguideId
+  
+  senator_edges <- simp_edges %>% 
+    filter((from == sen_ID | to == sen_ID))
+  
+  senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+  # Then subset nodes
+  nodes_subset <- nodes %>%
+    filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+  
+  # Set target and source as indices to node data
+  # minus 1 because it converts to JS which uses 0-indexing
+  senator_edges <- senator_edges %>%
+    mutate(source = match(from, nodes_subset$bioguideId) - 1,
+           target = match(to, nodes_subset$bioguideId) - 1)
           
-          # Set target and source as indices to node data
-          # minus 1 because it converts to JS which uses 0-indexing
-          senator_edges <- senator_edges %>%
-            mutate(source = match(from, nodes_subset$bioguideId) - 1,
-                   target = match(to, nodes_subset$bioguideId) - 1)
-          
-          p <- forceNetwork(Links = senator_edges, Nodes = nodes_subset,
-                       Source = "source", Target = "target",
-                       Value = "weight", NodeID = "label",
-                       Group = "party", 
-                       Nodesize = "total_in",
-                       linkDistance = 150, 
-                       fontSize = 15,
-                       colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
-                       opacity = 0.6, arrows = TRUE, charge = -60, zoom = TRUE,
-                       opacityNoHover = TRUE)
-          print(p)
-          
+  forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+       Source = "source", Target = "target",
+       Value = "weight", NodeID = "label", Group = "party",
+  
+       # -- Nodes and labels
+       fontSize = 15,
+       fontFamily = "sans-serif",
+       opacity = 0.6,
+       opacityNoHover = 0.5,
+  
+       # -- Edges
+       arrows = TRUE,
+       linkColour = c("grey", "grey"),
+  
+       # -- Layout
+       linkDistance = 100,
+       charge = -30,
+  
+       # -- General params
+       colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+       zoom = TRUE,
+       bounded = TRUE
+       )     
  })
 
 ```
 
-##Senator picture
-```{r}
+### Senator picture
+```{r, eval = FALSE}
+# ^^^ TEMPORARILY SET eval=FALSE ABOVE ^^^
 #senator picture code here
-
-renderText({ senatordata %>% filter(grepl(input$session3, session)) %>% group_by(state, senator) %>% filter(grepl(input$state3, state_name)) %>%
-     c(
-       '<img src="',
+renderText({ 
+  senatordata %>% 
+    filter(grepl(input$session3, session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl(input$state3, state_name)) %>%
+     c('<img src="',
        "image",
-       '">') })
+       '">') 
+  })
 ```
 
 
