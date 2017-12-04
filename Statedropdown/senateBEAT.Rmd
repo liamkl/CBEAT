@@ -178,9 +178,7 @@ renderHighchart({
   tm <- treemap(data_areas(), "policy_area",
                 vSize = "total_submit", vColor = "national_total",
                 type = "value", palette = rev(viridis(6)))
-  # highchart() %>% 
-  #   hc_add_series_treemap(tm, layoutAlgorithm = "squarified") %>% 
-  #   hc_add_theme(thm)
+
   hctreemap(tm) %>%
     hc_add_theme(thm) %>%
     hc_legend(align = "center", enabled = TRUE)
@@ -212,26 +210,8 @@ checkboxGroupInput(inputId = "party",
                         "Independent" = "I"),
             selected = c("R", "D", "I"))
 
-uiOutput(outputId = "choose_senator")
-
-numericInput(inputId = "matrix_rows",
-             label = "Number of Senators \n(heatmap display)",
-             value = 50, min = 10, max = 100, step = 1)
-
-numericInput(inputId = "matrix_page",
-             label = "Select heatmap page", value = 1,
-             min = 1, max = 21, step = 1)
-```
-
-Column
--------------------------------------
-
-### Heatmap 
-
-```{r}
 # Dynamic list for dropdown
 output$choose_senator <- renderUI({
-  
   sen_list <- nodes %>%
     filter(party %in% input$party)
   if (input$session2 == "113") {
@@ -243,9 +223,31 @@ output$choose_senator <- renderUI({
   } 
   selectInput(inputId = "matrix_senator",
             label = "Sort by Senator",
-            choices = sort(sen_list$label))
+            choices = sort(sen_list$label),
+            selected = NULL)
 })
 
+uiOutput(outputId = "choose_senator")
+
+numericInput(inputId = "matrix_rows",
+             label = "Number of Senators to display",
+             value = 30, min = 10, max = 100, step = 1)
+
+numericInput(inputId = "matrix_cols",
+             label = "Number of legislative subjects to display",
+             value = 30, min = 10, max = 60, step = 1)
+
+numericInput(inputId = "matrix_page",
+             label = "Select heatmap page", value = 1,
+             min = 1, max = 21, step = 1)
+```
+
+Column {data-width=700}
+-------------------------------------
+
+### Heatmap 
+
+```{r}
 data_heatmap <- reactive({
   # Matrix filtering
   filtered <- subject_matrix %>%
@@ -269,15 +271,15 @@ data_heatmap <- reactive({
   # Output options
   n <- input$matrix_page
   rows <- min(nrow(mat), input$matrix_rows)
+  columns <- input$matrix_cols
   
   # Matrix sorting
   sortby <- mat[input$matrix_senator, ]
   mat <- mat[, order(sortby, decreasing = TRUE)]
-  #mat <- mat[order(mat[1], decreasing = TRUE), ]
   mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == input$matrix_senator)), ]
   
   # To display
-  mat[1:rows, (50 * (n - 1) + 1):(50 * n)]
+  mat[1:rows, (columns * (n - 1) + 1):(columns * n)]
 })
 
 renderPlotly({
@@ -289,57 +291,39 @@ renderPlotly({
     hide_colorbar = TRUE
     )
 })
+```
+
+Column {.tabset data-width=300}
+-------------------------------------
+
+### ranks
+
+```{r}
+senate_stats <- reactive({
+  senatordata <- senatordata %>% 
+      filter(grepl(input$session2, session)) %>% 
+      group_by(bioguideId) %>%
+      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"), Percent = mean(billoutcome == "Became Law")*100)
+  
+  dat <- nodes %>% left_join(senatordata)
+  
+  # Sorting
+  dat[order(dat$Introduced, decreasing = TRUE), ] %>%
+    head(n = input$matrix_rows)
+  })
+
+renderHighchart({
+  dat <- senate_stats()
+  
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series(dat$Introduced, showInLegend = FALSE) %>%
+    hc_add_theme(thm)
+})
 
 ```
 
-<!-- Column {data-width=300} -->
-<!-- ------------------------------------ -->
-
-<!-- ### Network -->
-
-<!-- ```{r, eval = FALSE} -->
-<!-- edges <- reactive({ -->
-<!--   simp_edges %>% -->
-<!--     arrange(desc(weight)) %>% -->
-<!--     filter(weight > quantile(weight, input$edge_filter)) -->
-<!-- }) -->
-
-<!-- #filter(from %in% head(nodes_subset()$bioguideId, 10) | to %in% head(nodes_subset()$bioguideId, 10)) %>% -->
-
-<!-- renderForceNetwork({ -->
-<!--   n <- nodes_subset() -->
-<!--   e <- simp_edges %>% -->
-<!--     filter(from %in% n$bioguideId | to %in% n$bioguideId) %>% -->
-<!--     mutate(source = match(from, n$bioguideId) - 1, -->
-<!--            target = match(to, n$bioguideId) - 1) -->
-
-<!--   forceNetwork(Links = e, Nodes = n, -->
-<!--              Source = "source", Target = "target", -->
-<!--              Value = "weight", NodeID = "label", Group = "party", -->
-
-<!--              # -- Nodes and labels -->
-<!--              fontSize = 15, -->
-<!--              fontFamily = "sans-serif", -->
-<!--              opacity = 0.6, -->
-<!--              opacityNoHover = 0.5, -->
-
-<!--              # -- Edges -->
-<!--              arrows = TRUE, -->
-<!--              linkColour = c("grey", "grey"), -->
-
-<!--              # -- Layout -->
-<!--              linkDistance = 100, -->
-<!--              charge = -30, -->
-
-<!--              # -- General params -->
-<!--              colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'), -->
-<!--              zoom = TRUE, -->
-<!--              bounded = TRUE -->
-<!--              ) -->
-<!-- }) -->
-<!-- ``` -->
-
-<!-- ### Other -->
 
 
 Senator Activity {data-orientation=rows}
@@ -383,7 +367,6 @@ Row {data-width=600, data-height=400}
 ### Senator summary statistics 
 
 ```{r}
-
 senatorstats <- reactive({
   senatordata %>% 
     filter(grepl(input$session3, session)) %>% 
