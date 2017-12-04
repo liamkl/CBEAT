@@ -585,6 +585,7 @@ radioButtons(inputId = "methods",
 Row {data-height=600}
 -------------------------------------
 ### Fitted Probability
+
 ```{r}
 #dat=melt(fittedprob,id=c("session","policy_area","party","state"))
 
@@ -607,6 +608,8 @@ Row {data-height=400}
 ### Prediction
 User can select a particular scenario, and comes out a predicted probability with 95% confidence interval.
 Developing!
+
+
 Row {data-height=200}
 -------------------------------------
 ### Explore Bills
