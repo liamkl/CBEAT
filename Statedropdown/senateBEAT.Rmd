@@ -20,6 +20,9 @@ library(shiny)
 library(xml2)
 library(grDevices)
 library(distances)
+library(gridExtra)
+library(ggplot2)
+
 # Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
@@ -372,7 +375,7 @@ Row {data-height=300}
 
 The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
 
-Row {data-height=500}
+Row {data-width=600, data-height=400}
 -------------------------------------
 ### Senator summary statistics 
 
@@ -397,24 +400,61 @@ renderTable({
 
 ```
 
-### Top 5 Policy Areas
 
+Column {data-height=700}
+-------------------------------------
+
+### Senator picture
 ```{r}
+# ^^^ TEMPORARILY SET eval=FALSE ABOVE ^^^
+#senator picture code here
+#photo <- reactive({
+ # senatordata %>% 
+  #  filter(grepl(input$session3, session)) %>% 
+   # group_by(state, senator) %>% 
+  #  filter(grepl(input$state3, state_name)) %>% select(senator, image)
+#  })
 
-renderTable({ 
+#renderText({ 
+  
+#   photo() %>% unique(photo())  %>%
+ # group_by(senator) 
+  
+#  senatordata %>% 
+ #   filter(grepl(input$session3, session)) %>% 
+  #  group_by(state, senator) %>% 
+   # filter(grepl(input$state3, state_name)) %>%
+    # c('<img src="',
+     #  "image",
+      # '">')
+
+photo <-
   senatordata %>% 
-    filter(grepl(input$session3, session)) %>% 
-    group_by(state, senator, policy_area) %>% 
-    filter(grepl(input$state3, state_name)) %>% 
-    summarise(sum(n())) %>%
-    'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))
+    filter(session == "113") %>% 
+    group_by(state, senator) %>% 
+    filter(state_name == "Alaska") %>% select(image)
+
+
+photo2 <- unique(photo)
+photo3 <- photo2$image
+  
+photo2$image <- paste0("<a href='",photo2$image,"'>",photo2$image,"</a>")
+
+#  })
+  renderUI({
+
+#for (i in photo3){
+#src = i
+ # print(paste(tag = tags$img(src=src)))
+   
+src = 'https://www.congress.gov/img/member/m001153.jpg'
+tags$img(src=src)
+
   })
 
 ```
 
 
-Row {data-height=500}
--------------------------------------
 ### Senator Network Data
 
 ```{r}
@@ -474,19 +514,69 @@ renderForceNetwork({
 
 ```
 
-### Senator picture
-```{r, eval = FALSE}
-# ^^^ TEMPORARILY SET eval=FALSE ABOVE ^^^
-#senator picture code here
-renderText({ 
-  senatordata %>% 
-    filter(grepl(input$session3, session)) %>% 
-    group_by(state, senator) %>% 
-    filter(grepl(input$state3, state_name)) %>%
-     c('<img src="',
-       "image",
-       '">') 
+### Senator picture 2
+```{r}
+renderUI({
+
+#for (i in photo3){
+#src = i
+ # print(paste(tag = tags$img(src=src)))
+   
+src = 'https://www.congress.gov/img/member/b001265.jpg'
+tags$img(src=src)
+
   })
+
+
 ```
 
+
+
+
+Row {data-height=700}
+-------------------------------------
+### Top Policy Areas
+
+```{r}
+toppolicy <- reactive({
+  senatordata %>% 
+    filter(grepl(input$session3, session)) %>% 
+          group_by(state,senator,policy_area) %>% filter(grepl(input$state3, state_name)) %>% 
+          mutate(numspon = sum(n())) %>% select(state, senator, policy_area, numspon)
+  })
+
+renderTable({ 
+
+test2  <-  toppolicy()
+test2 <- unique(test2)  %>%
+  group_by(senator) %>% filter(numspon > 1) %>%
+  top_n(n = 5, wt = numspon) %>% 'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))
+  test2
+ })
+
+```
+
+Bill Exploration {data-orientation=rows}
+=====================================
+
+Row {data-height=400}
+-------------------------------------
+### Explore Bills
+
+Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
+
+There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
+
+  1. Introduced into Senate
+  2. Ordered Reported
+  3. Failed legislation; or received a vote, but failed in the senate
+  4. Passed in the Senate 
+  5. Passed in the House, but Vetoed by the President
+  6. Became a law
+  
+Explore below to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
+
+  (need to add) Define: Policy Area or Legislative Subject, in contract
+
+(Additionally) Which legislative subjects do most of the Senate bills focus on? Explore the types of policy areas that are most prevalently introduced as bills. 
 
