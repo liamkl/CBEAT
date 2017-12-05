@@ -35,6 +35,10 @@ thm <-
       gridLineWidth = 1
     )
   )
+
+red <- "rgba(205, 77, 77, 0.7)"
+green <- "rgba(77, 205, 77, 0.7)"
+blue <- "rgba(77, 77, 205, 0.7)"
 ###############################
 ### Data read in/processing ###
 ###############################
@@ -245,7 +249,7 @@ numericInput(inputId = "matrix_page",
 Column {data-width=700}
 -------------------------------------
 
-### Heatmap 
+### Legislative Subject Interests 
 
 ```{r}
 data_heatmap <- reactive({
@@ -296,30 +300,92 @@ renderPlotly({
 Column {.tabset data-width=300}
 -------------------------------------
 
-### ranks
+### Bills Submitted
 
 ```{r}
 senate_stats <- reactive({
   senatordata <- senatordata %>% 
       filter(grepl(input$session2, session)) %>% 
       group_by(bioguideId) %>%
-      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"), Percent = mean(billoutcome == "Became Law")*100)
+      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"))
   
   dat <- nodes %>% left_join(senatordata)
-  
-  # Sorting
-  dat[order(dat$Introduced, decreasing = TRUE), ] %>%
-    head(n = input$matrix_rows)
-  })
+})
+
+n_rows <- reactive({
+  input$matrix_rows
+})
 
 renderHighchart({
   dat <- senate_stats()
+  dat <- dat[order(dat$Introduced, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    head(n = n_rows()) %>%
+    select(label, Introduced, color)
   
   highchart() %>%
     hc_chart(type = "bar") %>%
     hc_xAxis(categories = dat$label) %>%
-    hc_add_series(dat$Introduced, showInLegend = FALSE) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Introduced, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills submitted") %>%
     hc_add_theme(thm)
+})
+
+```
+
+### Bills Passed
+
+```{r}
+renderHighchart({
+  dat <- senate_stats()
+  thresh <- nrow(filter(dat, Passed > 0 ))
+  
+  dat <- dat[order(dat$Passed, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    head(n = min(thresh, n_rows())) %>%
+    select(label, Passed, color)
+  
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Passed, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills passed") %>%
+    hc_add_theme(thm)
+})
+
+```
+
+### Bipartisan Index
+
+```{r}
+renderHighchart({
+  
+  
+  dat <- senate_stats() %>%
+    mutate(bipart_index = (total_in_nonparty + total_out_nonparty) / (total_in + total_out)) %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green)))
+  
+  dat <- dat[order(dat$bipart_index, decreasing = TRUE), ] %>%
+    head(n = n_rows()) %>%
+    select(label, bipart_index, color)
+
+
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$bipart_index, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Sponsorship network bipartisan index") %>%
+    hc_add_theme(thm)
+  
 })
 
 ```
