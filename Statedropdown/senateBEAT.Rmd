@@ -23,6 +23,8 @@ library(distances)
 library(gridExtra)
 library(ggplot2)
 library(reshape2)
+library(wordcloud2)
+library(readxl)
 # Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
@@ -69,6 +71,7 @@ mapdata3 <- mapdata3 %>%
 
 #For the modeling Data
 fittedprob=read_csv("data/fittedprob.csv")
+stack<-read_excel("data/stack.xlsx")
 ```
 
 Home
@@ -608,12 +611,25 @@ test2 <- unique(test2)  %>%
 
 ```
 
-Bill Exploration {data-orientation=rows}
+Bill Modeling and Exploration{data-orientation=rows}
 =====================================
 
 Input {.sidebar}
 -------------------------------------
-### Inputs
+### General Inputs
+
+```{r}
+radioButtons(inputId = "session6",
+            label = "Select legislative session",
+            choices = c("All"="*",
+                        "113th Session" = "113",
+                        "114th Session" = "114",
+                        "115th Session" = "115"),
+            selected = "*")
+
+```
+
+### Model Inputs
 
 ```{r}
 radioButtons(inputId = "category",
@@ -621,47 +637,93 @@ radioButtons(inputId = "category",
             choices = c("By Topic" = 5,
                         "By State" = 7),
             selected = 7)
-            
+
 radioButtons(inputId = "methods",
             label = "Select Method",
             choices = c("Ordinary Logistic Regression" = 1,
                         "Lasso Logistic Regreesion" = 2,
                         "Ridge Logistics Regression" = 3),
             selected = 3)
-
 ```
 
-Row {data-height=600}
+### Cloud Inputs
+```{r}
+radioButtons(inputId = "party5",
+            label = "Select Party",
+            choices = c("Republican" = "R",
+                        "Democratic" = "D",
+                        "Independent"="I"),
+            selected = "D")
+```
+
+Row {data-height=400}
 -------------------------------------
 ### Fitted Probability
 
 ```{r}
-#dat=melt(fittedprob,id=c("session","policy_area","party","state"))
-
 probdata <- reactive({
 fittedprob=fittedprob[,c(1:3,4,6,as.integer(input$category))]
 colnames(fittedprob)[6]="x_axis"
 fittedprob=fittedprob[,c(as.integer(input$methods),4:6)]
 colnames(fittedprob)[1]="y_axis"
-fittedprob=as.data.frame(fittedprob)})
+fittedprob=as.data.frame(fittedprob)
+fittedprob%>%filter(grepl(input$session6, session))})
 
 renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
-  geom_point(alpha=0.5,size=0.5)+facet_grid(session~.)+theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(y="Fitted Probability of Bills Become to Law")+scale_color_discrete(name="Senator's Party",position="bottom")})
-
-#as.numeric(as.character(value))
-#filter(grepl(input$methods, variable))
+  geom_point(alpha=0.5,size=1)+theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(y="Fitted Probability of Bills Become to Law")+scale_color_discrete(name="Senator's Party",position="bottom")})
+#+facet_grid(session~.)
 ```
 
-Row {data-height=400}
+Row {data-height=300}
 -------------------------------------
-### Prediction
-User can select a particular scenario, and comes out a predicted probability with 95% confidence interval.
-Developing!
+### Process of Bills
+  
+```{r}
+a=c(sum(stack$start),sum(stack$step2),sum(stack$step3),sum(stack$step4),sum(stack$step5),sum(stack$step6))
+b=colnames(stack)[2:7]
+temp=melt(stack,id="X__1")
+p=ggplot(temp, aes(variable, value,group=X__1,color=X__1,fill=X__1))+geom_area(position = "stack")+theme(legend.position = "none")
+ggplotly(p)
+```
+
+Row {data-height=300}
+-------------------------------------
+### Word Cloud
+```{r}
+subject<- nodes %>%
+  select(bioguideId, party,state, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+words <- reactive({
+  word_matrix=subject %>% filter(grepl(input$party5, party))
+  freq=as.data.frame(colSums(word_matrix[7:1020]))
+  word=row.names(freq)
+  word_matrix=cbind(word,freq)
+  rownames(word_matrix)=NULL
+  colnames(word_matrix)[2]="freq"
+  cloud_color="white"
+  if(as.character(input$party5)=="R")
+  {
+    cloud_color="darksalmon"
+  }
+  else if(as.character(input$party5)=="D")
+  {
+    cloud_color="lightblue"
+  }
+  else if(as.character(input$party5)=="I")
+  {
+    cloud_color="lightgreen"
+  }
+  wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
+  })
+
+renderWordcloud2({words()})
+```
 
 
-Row {data-height=200}
 -------------------------------------
-### Explore Bills
+### Bills Prediction
+
+Under development
 
 Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
 

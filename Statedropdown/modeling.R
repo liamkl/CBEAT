@@ -71,12 +71,18 @@ coef(cv.out_ridge,s=lambda_1se_ridge)
 #predict class, type=”class”
 prob_lasso <-predict(cv.out_lasso,newx = x,s=lambda_1se,type="response")
 prob_ridge <-predict(cv.out_ridge,newx = x,s=lambda_1se,type="response")
-#translate probabilities to predictions
-lasso_predict <- rep("neg",nrow(test))
-lasso_predict[lasso_prob>.5] <- "pos"
-#confusion matrix
-table(pred=lasso_predict,true=mapdata[test_index,]$law)
+prob_regular<-fitted.values(m2)
+#policy area
+a=as.data.frame(cbind(round(prob_ridge,3),mapdata$policy_area))
+colnames(a)=c("fitted_prob","policy_area")
+ggplot(a,aes(x=policy_area,y=as.numeric(as.character(fitted_prob)),color=policy_area))+geom_point()
 
-#accuracy
-mean(lasso_predict==mapdata[test_index,]$law)
-plot(prob_lasso,prob_ridge)
+#session
+b=as.data.frame(cbind(round(prob_regular,4),round(prob_lasso,4),round(prob_ridge,4),mapdata$session,mapdata$policy_area,mapdata$party,mapdata$state))
+colnames(b)=c("o","l","r","session","policy_area","party","state")
+write_csv(b,"data/fittedprob.csv")
+ggplot(b,aes(x=state,y=as.numeric(as.character(fitted_prob)),color=factor(party)))+
+  geom_point(alpha=0.5,size=0.5)+facet_grid(session~.)+theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplot(subset(b,session==113),aes(x=1:nrow(subset(b,session==113)),y=as.numeric(as.character(fitted_prob)),color=factor(party)))+geom_point(alpha=0.5)
+
