@@ -2,6 +2,9 @@ library(rvest)
 library(xml2)
 library(stringr)
 
+save_path <- paste0(getwd(), "/data/member_list.csv")
+if(!file.exists(save_path)){
+
 page_url <- "https://www.congress.gov/help/field-values/member-bioguide-ids"
 # Get table with list of members and their IDs
 members <- html_node(read_html(page_url), "table.std.full") %>% 
@@ -43,4 +46,4 @@ members <- mutate(members, state = state_abbs[match(state_name, state_names)])
 
 # Write to disk
 save_path <- paste0(getwd(), "/data/member_list.csv")
-write_csv(members, save_path)
+write_csv(members, save_path)}
