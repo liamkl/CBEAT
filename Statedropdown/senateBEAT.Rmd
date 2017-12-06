@@ -74,23 +74,170 @@ fittedprob=read_csv("data/fittedprob.csv")
 stack<-read_excel("data/stack.xlsx")
 ```
 
-Home
+Home {.storyboard}
 ====================================
 ### Welcome to SenateBEAT
 
 #### Introduction, blah blah blah 
 
+Video
+
+*** 
+
+Commentary
+
 ### Another thing to look at
 
 Wow this is cool!
+
+***
+
+Commentary about how cool it is
 
 ### Let's see another
 
 Nice
 
+*** 
+
+I get the idea
+
 ### Last one for now
 
 Great
+
+***
+
+Bye
+
+Bill Modeling and Exploration{data-orientation=rows}
+=====================================
+
+Input {.sidebar}
+-------------------------------------
+### General Inputs
+
+```{r}
+radioButtons(inputId = "session6",
+            label = "Select legislative session",
+            choices = c("All"="*",
+                        "113th Session" = "113",
+                        "114th Session" = "114",
+                        "115th Session" = "115"),
+            selected = "*")
+
+```
+
+### Model Inputs
+
+```{r}
+radioButtons(inputId = "category",
+            label = "By Topic or By State",
+            choices = c("By Topic" = 5,
+                        "By State" = 7),
+            selected = 7)
+
+radioButtons(inputId = "methods",
+            label = "Select Method",
+            choices = c("Ordinary Logistic Regression" = 1,
+                        "Lasso Logistic Regreesion" = 2,
+                        "Ridge Logistics Regression" = 3),
+            selected = 3)
+```
+
+### Cloud Inputs
+```{r}
+radioButtons(inputId = "party5",
+            label = "Select Party",
+            choices = c("Republican" = "R",
+                        "Democratic" = "D",
+                        "Independent"="I"),
+            selected = "D")
+```
+
+Row {data-height=400}
+-------------------------------------
+### Fitted Probability
+
+```{r}
+probdata <- reactive({
+fittedprob=fittedprob[,c(1:3,4,6,as.integer(input$category))]
+colnames(fittedprob)[6]="x_axis"
+fittedprob=fittedprob[,c(as.integer(input$methods),4:6)]
+colnames(fittedprob)[1]="y_axis"
+fittedprob=as.data.frame(fittedprob)
+fittedprob%>%filter(grepl(input$session6, session))})
+
+renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
+  geom_point(alpha=0.5,size=1)+theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(y="Fitted Probability of Bills Become to Law")+scale_color_discrete(name="Senator's Party",position="bottom")})
+#+facet_grid(session~.)
+```
+
+Row {data-height=300}
+-------------------------------------
+### Process of Bills
+  
+```{r}
+a=c(sum(stack$start),sum(stack$step2),sum(stack$step3),sum(stack$step4),sum(stack$step5),sum(stack$step6))
+b=colnames(stack)[2:7]
+temp=melt(stack,id="X__1")
+p=ggplot(temp, aes(variable, value,group=X__1,color=X__1,fill=X__1))+geom_area(position = "stack")+theme(legend.position = "none")
+ggplotly(p)
+```
+
+Row {data-height=300}
+-------------------------------------
+### Word Cloud
+```{r}
+subject<- nodes %>%
+  select(bioguideId, party,state, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+words <- reactive({
+  word_matrix=subject %>% filter(grepl(input$party5, party))
+  freq=as.data.frame(colSums(word_matrix[7:1020]))
+  word=row.names(freq)
+  word_matrix=cbind(word,freq)
+  rownames(word_matrix)=NULL
+  colnames(word_matrix)[2]="freq"
+  cloud_color="white"
+  if(as.character(input$party5)=="R")
+  {
+    cloud_color="darksalmon"
+  }
+  else if(as.character(input$party5)=="D")
+  {
+    cloud_color="lightblue"
+  }
+  else if(as.character(input$party5)=="I")
+  {
+    cloud_color="lightgreen"
+  }
+  wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
+  })
+
+renderWordcloud2({words()})
+```
+
+### Bills Prediction
+
+Under development
+
+Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
+
+There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
+
+  1. Introduced into Senate
+  2. Ordered Reported
+  3. Failed legislation; or received a vote, but failed in the senate
+  4. Passed in the Senate 
+  5. Passed in the House, but Vetoed by the President
+  6. Became a law
+  
+Explore below to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
+
+  (need to add) Define: Policy Area or Legislative Subject, in contract
+
+(Additionally) Which legislative subjects do most of the Senate bills focus on? Explore the types of policy areas that are most prevalently introduced as bills. 
 
 
 Bills Submitted {data-orientation=rows}
@@ -111,7 +258,8 @@ radioButtons(inputId = "session",
 
 selectInput(inputId = "policyarea",
            label = "Select Bill Policy Area",
-           choices = c("All"="*", policy_area_list))
+           choices = c("All"="*", policy_area_list),
+           selected = "Public Lands and Natural Resources")
 ```
 <br><br>
 
@@ -121,6 +269,7 @@ selectInput(inputId = "policyarea",
 selectInput(inputId = "state", 
             label = "Select a state", 
             choices = c("All" = "*", state.name),
+            selected = "New Mexico",
             selectize = FALSE)
 ```
 
@@ -164,7 +313,7 @@ renderHighchart({
 
 Row {data-height=400}
 -------------------------------------
-### Policy Area
+### Policy Area by State
 
 ```{r}
 data_areas <- reactive({
@@ -191,209 +340,6 @@ renderHighchart({
     hc_legend(align = "center", enabled = TRUE)
 })
 ```
-
-
-
-
-Senate Overview {data-orientation=columns}
-=====================================
-
-Input {.sidebar}
--------------------------------------
-
-```{r}
-radioButtons(inputId = "session2",
-            label = "Select legislative session",
-            choices = c("All"="*",
-                        "113th Session" = "113",
-                        "114th Session" = "114",
-                        "115th Session" = "115"),
-            selected = "115")
-
-checkboxGroupInput(inputId = "party",
-            label = "Select party",
-            choices = c("Republican" = "R",
-                        "Democratic" = "D",
-                        "Independent" = "I"),
-            selected = c("R", "D", "I"))
-
-# Dynamic list for dropdown
-output$choose_senator <- renderUI({
-  sen_list <- nodes %>%
-    filter(party %in% input$party)
-  if (input$session2 == "113") {
-    sen_list <- sen_list %>% filter(in_113 == 1)
-  } else if (input$session2 == "114") {
-    sen_list <- sen_list %>% filter(in_114 == 1)
-  } else if (input$session2 == "115") {
-    sen_list <- sen_list %>% filter(in_115 == 1)
-  } 
-  selectInput(inputId = "matrix_senator",
-            label = "Sort by Senator",
-            choices = sort(sen_list$label),
-            selected = NULL)
-})
-
-uiOutput(outputId = "choose_senator")
-
-numericInput(inputId = "matrix_rows",
-             label = "Number of Senators to display",
-             value = 30, min = 10, max = 100, step = 1)
-
-numericInput(inputId = "matrix_cols",
-             label = "Number of legislative subjects to display",
-             value = 30, min = 10, max = 60, step = 1)
-
-numericInput(inputId = "matrix_page",
-             label = "Select heatmap page", value = 1,
-             min = 1, max = 21, step = 1)
-```
-
-Column {data-width=700}
--------------------------------------
-
-### Legislative Subject Interests 
-
-```{r}
-data_heatmap <- reactive({
-  # Matrix filtering
-  filtered <- subject_matrix %>%
-    filter(party %in% input$party)
-
-  if (input$session2 == "113") {
-    filtered <- filtered %>% filter(in_113 == 1)
-  } else if (input$session2 == "114") {
-    filtered <- filtered %>% filter(in_114 == 1)
-  } else if (input$session2 == "115") {
-    filtered <- filtered %>% filter(in_115 == 1)
-  }
-  
-  mat <- filtered %>% 
-    select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
-  rownames(mat) <- filtered$label
-  
-  # Compute distances
-  dists <- distances(mat)
-  
-  # Output options
-  n <- input$matrix_page
-  rows <- min(nrow(mat), input$matrix_rows)
-  columns <- input$matrix_cols
-  
-  # Matrix sorting
-  sortby <- mat[input$matrix_senator, ]
-  mat <- mat[, order(sortby, decreasing = TRUE)]
-  mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == input$matrix_senator)), ]
-  
-  # To display
-  mat[1:rows, (columns * (n - 1) + 1):(columns * n)]
-})
-
-renderPlotly({
-  heatmaply(
-    data_heatmap(),
-    dendrogram = "none",
-    label_names = c("Senator", "Subject", "Bills"),
-    grid_gap = 0.3,
-    hide_colorbar = TRUE
-    )
-})
-```
-
-Column {.tabset data-width=300}
--------------------------------------
-
-### Bills Submitted
-
-```{r}
-senate_stats <- reactive({
-  senatordata <- senatordata %>% 
-      filter(grepl(input$session2, session)) %>% 
-      group_by(bioguideId) %>%
-      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"))
-  
-  dat <- nodes %>% left_join(senatordata)
-})
-
-n_rows <- reactive({
-  input$matrix_rows
-})
-
-renderHighchart({
-  dat <- senate_stats()
-  dat <- dat[order(dat$Introduced, decreasing = TRUE), ] %>%
-    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
-    head(n = n_rows()) %>%
-    select(label, Introduced, color)
-  
-  highchart() %>%
-    hc_chart(type = "bar") %>%
-    hc_xAxis(categories = dat$label) %>%
-    hc_add_series_labels_values(labels = dat$label, 
-                                values = dat$Introduced, 
-                                colors = dat$color,
-                                showInLegend = FALSE, 
-                                name = "Bills submitted") %>%
-    hc_add_theme(thm)
-})
-
-```
-
-### Bills Passed
-
-```{r}
-renderHighchart({
-  dat <- senate_stats()
-  thresh <- nrow(filter(dat, Passed > 0 ))
-  
-  dat <- dat[order(dat$Passed, decreasing = TRUE), ] %>%
-    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
-    head(n = min(thresh, n_rows())) %>%
-    select(label, Passed, color)
-  
-  highchart() %>%
-    hc_chart(type = "bar") %>%
-    hc_xAxis(categories = dat$label) %>%
-    hc_add_series_labels_values(labels = dat$label, 
-                                values = dat$Passed, 
-                                colors = dat$color,
-                                showInLegend = FALSE, 
-                                name = "Bills passed") %>%
-    hc_add_theme(thm)
-})
-
-```
-
-### Bipartisan Index
-
-```{r}
-renderHighchart({
-  
-  
-  dat <- senate_stats() %>%
-    mutate(bipart_index = (total_in_nonparty + total_out_nonparty) / (total_in + total_out)) %>%
-    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green)))
-  
-  dat <- dat[order(dat$bipart_index, decreasing = TRUE), ] %>%
-    head(n = n_rows()) %>%
-    select(label, bipart_index, color)
-
-
-  highchart() %>%
-    hc_chart(type = "bar") %>%
-    hc_xAxis(categories = dat$label) %>%
-    hc_add_series_labels_values(labels = dat$label, 
-                                values = dat$bipart_index, 
-                                colors = dat$color,
-                                showInLegend = FALSE, 
-                                name = "Sponsorship network bipartisan index") %>%
-    hc_add_theme(thm)
-  
-})
-
-```
-
-
 
 Senator Activity {data-orientation=rows}
 =====================================
@@ -611,134 +557,203 @@ test2 <- unique(test2)  %>%
 
 ```
 
-Bill Modeling and Exploration{data-orientation=rows}
+Senate Overview {data-orientation=columns}
 =====================================
 
 Input {.sidebar}
 -------------------------------------
-### General Inputs
 
 ```{r}
-radioButtons(inputId = "session6",
+radioButtons(inputId = "session2",
             label = "Select legislative session",
             choices = c("All"="*",
                         "113th Session" = "113",
                         "114th Session" = "114",
                         "115th Session" = "115"),
-            selected = "*")
+            selected = "115")
 
-```
-
-### Model Inputs
-
-```{r}
-radioButtons(inputId = "category",
-            label = "By Topic or By State",
-            choices = c("By Topic" = 5,
-                        "By State" = 7),
-            selected = 7)
-
-radioButtons(inputId = "methods",
-            label = "Select Method",
-            choices = c("Ordinary Logistic Regression" = 1,
-                        "Lasso Logistic Regreesion" = 2,
-                        "Ridge Logistics Regression" = 3),
-            selected = 3)
-```
-
-### Cloud Inputs
-```{r}
-radioButtons(inputId = "party5",
-            label = "Select Party",
+checkboxGroupInput(inputId = "party",
+            label = "Select party",
             choices = c("Republican" = "R",
                         "Democratic" = "D",
-                        "Independent"="I"),
-            selected = "D")
+                        "Independent" = "I"),
+            selected = c("R", "D", "I"))
+
+# Dynamic list for dropdown
+output$choose_senator <- renderUI({
+  sen_list <- nodes %>%
+    filter(party %in% input$party)
+  if (input$session2 == "113") {
+    sen_list <- sen_list %>% filter(in_113 == 1)
+  } else if (input$session2 == "114") {
+    sen_list <- sen_list %>% filter(in_114 == 1)
+  } else if (input$session2 == "115") {
+    sen_list <- sen_list %>% filter(in_115 == 1)
+  } 
+  selectInput(inputId = "matrix_senator",
+            label = "Sort by Senator",
+            choices = sort(sen_list$label),
+            selected = NULL)
+})
+
+uiOutput(outputId = "choose_senator")
+
+numericInput(inputId = "matrix_rows",
+             label = "Number of Senators to display",
+             value = 30, min = 10, max = 100, step = 1)
+
+numericInput(inputId = "matrix_cols",
+             label = "Number of legislative subjects to display",
+             value = 30, min = 10, max = 60, step = 1)
+
+numericInput(inputId = "matrix_page",
+             label = "Select heatmap page", value = 1,
+             min = 1, max = 21, step = 1)
 ```
 
-Row {data-height=400}
+Column {data-width=700}
 -------------------------------------
-### Fitted Probability
+
+### Legislative Subject Interests 
 
 ```{r}
-probdata <- reactive({
-fittedprob=fittedprob[,c(1:3,4,6,as.integer(input$category))]
-colnames(fittedprob)[6]="x_axis"
-fittedprob=fittedprob[,c(as.integer(input$methods),4:6)]
-colnames(fittedprob)[1]="y_axis"
-fittedprob=as.data.frame(fittedprob)
-fittedprob%>%filter(grepl(input$session6, session))})
+data_heatmap <- reactive({
+  # Matrix filtering
+  filtered <- subject_matrix %>%
+    filter(party %in% input$party)
 
-renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
-  geom_point(alpha=0.5,size=1)+theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(y="Fitted Probability of Bills Become to Law")+scale_color_discrete(name="Senator's Party",position="bottom")})
-#+facet_grid(session~.)
-```
-
-Row {data-height=300}
--------------------------------------
-### Process of Bills
+  if (input$session2 == "113") {
+    filtered <- filtered %>% filter(in_113 == 1)
+  } else if (input$session2 == "114") {
+    filtered <- filtered %>% filter(in_114 == 1)
+  } else if (input$session2 == "115") {
+    filtered <- filtered %>% filter(in_115 == 1)
+  }
   
-```{r}
-a=c(sum(stack$start),sum(stack$step2),sum(stack$step3),sum(stack$step4),sum(stack$step5),sum(stack$step6))
-b=colnames(stack)[2:7]
-temp=melt(stack,id="X__1")
-p=ggplot(temp, aes(variable, value,group=X__1,color=X__1,fill=X__1))+geom_area(position = "stack")+theme(legend.position = "none")
-ggplotly(p)
-```
-
-Row {data-height=300}
--------------------------------------
-### Word Cloud
-```{r}
-subject<- nodes %>%
-  select(bioguideId, party,state, in_113, in_114, in_115) %>%
-  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
-words <- reactive({
-  word_matrix=subject %>% filter(grepl(input$party5, party))
-  freq=as.data.frame(colSums(word_matrix[7:1020]))
-  word=row.names(freq)
-  word_matrix=cbind(word,freq)
-  rownames(word_matrix)=NULL
-  colnames(word_matrix)[2]="freq"
-  cloud_color="white"
-  if(as.character(input$party5)=="R")
-  {
-    cloud_color="darksalmon"
-  }
-  else if(as.character(input$party5)=="D")
-  {
-    cloud_color="lightblue"
-  }
-  else if(as.character(input$party5)=="I")
-  {
-    cloud_color="lightgreen"
-  }
-  wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
-  })
-
-renderWordcloud2({words()})
-```
-
-
--------------------------------------
-### Bills Prediction
-
-Under development
-
-Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
-
-There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
-
-  1. Introduced into Senate
-  2. Ordered Reported
-  3. Failed legislation; or received a vote, but failed in the senate
-  4. Passed in the Senate 
-  5. Passed in the House, but Vetoed by the President
-  6. Became a law
+  mat <- filtered %>% 
+    select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
+  rownames(mat) <- filtered$label
   
-Explore below to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
+  # Compute distances
+  dists <- distances(mat)
+  
+  # Output options
+  n <- input$matrix_page
+  rows <- min(nrow(mat), input$matrix_rows)
+  columns <- input$matrix_cols
+  
+  # Matrix sorting
+  sortby <- mat[input$matrix_senator, ]
+  mat <- mat[, order(sortby, decreasing = TRUE)]
+  mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == input$matrix_senator)), ]
+  
+  # To display
+  mat[1:rows, (columns * (n - 1) + 1):(columns * n)]
+})
 
-  (need to add) Define: Policy Area or Legislative Subject, in contract
+renderPlotly({
+  heatmaply(
+    data_heatmap(),
+    dendrogram = "none",
+    label_names = c("Senator", "Subject", "Bills"),
+    grid_gap = 0.3,
+    hide_colorbar = TRUE
+    )
+})
+```
 
-(Additionally) Which legislative subjects do most of the Senate bills focus on? Explore the types of policy areas that are most prevalently introduced as bills. 
+Column {.tabset data-width=300}
+-------------------------------------
+
+### Bills Submitted
+
+```{r}
+senate_stats <- reactive({
+  senatordata <- senatordata %>% 
+      filter(grepl(input$session2, session)) %>% 
+      group_by(bioguideId) %>%
+      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"))
+  
+  dat <- nodes %>% left_join(senatordata)
+})
+
+n_rows <- reactive({
+  input$matrix_rows
+})
+
+renderHighchart({
+  dat <- senate_stats()
+  dat <- dat[order(dat$Introduced, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    head(n = n_rows()) %>%
+    select(label, Introduced, color)
+  
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Introduced, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills submitted") %>%
+    hc_add_theme(thm)
+})
+
+```
+
+### Bills Passed
+
+```{r}
+renderHighchart({
+  dat <- senate_stats()
+  thresh <- nrow(filter(dat, Passed > 0 ))
+  
+  dat <- dat[order(dat$Passed, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    head(n = min(thresh, n_rows())) %>%
+    select(label, Passed, color)
+  
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Passed, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills passed") %>%
+    hc_add_theme(thm)
+})
+
+```
+
+### Bipartisan Index
+
+```{r}
+renderHighchart({
+  
+  
+  dat <- senate_stats() %>%
+    mutate(bipart_index = (total_in_nonparty + total_out_nonparty) / (total_in + total_out)) %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green)))
+  
+  dat <- dat[order(dat$bipart_index, decreasing = TRUE), ] %>%
+    head(n = n_rows()) %>%
+    select(label, bipart_index, color)
+
+
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = round(dat$bipart_index, 2), 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Sponsorship network bipartisan index") %>%
+    hc_add_theme(thm)
+  
+})
+
+```
+
+
 
