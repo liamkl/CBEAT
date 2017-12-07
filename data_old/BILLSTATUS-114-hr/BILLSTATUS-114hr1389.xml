@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <item>
+        <actionDate>2015-04-08</actionDate>
+        <committee>
+          <systemCode>hsag22</systemCode>
+          <name>Commodity Exchanges, Energy, and Credit Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Agriculture</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee>
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <text>Referred to House Financial Services</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Referred to the Committee on Financial Services, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>H11100-A</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <actionDate>2015-03-17</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in House</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <lastName>Tipton</lastName>
+        <bioguideId>T000470</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Scott</firstName>
+        <state>CO</state>
+        <identifiers>
+          <lisID>1997</lisID>
+          <bioguideId>T000470</bioguideId>
+          <gpoId>7861</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>R.</middleName>
+        <fullName>Rep. Tipton, Scott  R. [R-CO-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>Duffy</lastName>
+        <bioguideId>D000614</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Sean</firstName>
+        <state>WI</state>
+        <identifiers>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+          <gpoId>8220</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <district>7</district>
+      </item>
+      <item>
+        <lastName>Hill</lastName>
+        <bioguideId>H001072</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>J.</firstName>
+        <state>AR</state>
+        <identifiers>
+          <lisID>2223</lisID>
+          <bioguideId>H001072</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>French</middleName>
+        <fullName>Rep. Hill, J. French [R-AR-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Wagner</lastName>
+        <bioguideId>W000812</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-19</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ann</firstName>
+        <state>MO</state>
+        <identifiers>
+          <lisID>2137</lisID>
+          <gpoId />
+          <bioguideId>W000812</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Wagner, Ann [R-MO-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Zinke</lastName>
+        <bioguideId>Z000018</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Ryan</firstName>
+        <state>MT</state>
+        <identifiers>
+          <lisID>2254</lisID>
+          <gpoId />
+          <bioguideId>Z000018</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>K.</middleName>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Stivers</lastName>
+        <bioguideId>S001187</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Steve</firstName>
+        <state>OH</state>
+        <identifiers>
+          <bioguideId>S001187</bioguideId>
+          <gpoId>8105</gpoId>
+          <lisID>2047</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Stivers, Steve [R-OH-15]</fullName>
+        <district>15</district>
+      </item>
+      <item>
+        <lastName>Guinta</lastName>
+        <bioguideId>G000570</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Frank</firstName>
+        <state>NH</state>
+        <identifiers>
+          <lisID>2038</lisID>
+          <bioguideId>G000570</bioguideId>
+          <gpoId>8041</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>C.</middleName>
+        <fullName>Rep. Guinta, Frank C. [R-NH-1]</fullName>
+        <district>1</district>
+      </item>
+      <item>
+        <lastName>Fincher</lastName>
+        <bioguideId>F000458</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Stephen</firstName>
+        <state>TN</state>
+        <identifiers>
+          <bioguideId>F000458</bioguideId>
+          <gpoId>8741</gpoId>
+          <lisID>2064</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>Lee</middleName>
+        <fullName>Rep. Fincher, Stephen Lee [R-TN-8]</fullName>
+        <district>8</district>
+      </item>
+      <item>
+        <lastName>SMITH</lastName>
+        <bioguideId>S000583</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>LAMAR</firstName>
+        <state>TX</state>
+        <identifiers>
+          <lisID>1075</lisID>
+          <bioguideId>S000583</bioguideId>
+          <gpoId>8177</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <district>21</district>
+      </item>
+      <item>
+        <lastName>Westmoreland</lastName>
+        <bioguideId>W000796</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-03-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Lynn</firstName>
+        <state>GA</state>
+        <identifiers>
+          <bioguideId>W000796</bioguideId>
+          <gpoId>7900</gpoId>
+          <lisID>1779</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Westmoreland, Lynn A. [R-GA-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>Wilson</lastName>
+        <bioguideId>W000795</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-04-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Joe</firstName>
+        <state>SC</state>
+        <identifiers>
+          <gpoId>8142</gpoId>
+          <lisID>1688</lisID>
+          <bioguideId>W000795</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Wilson, Joe [R-SC-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Hultgren</lastName>
+        <bioguideId>H001059</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-04-14</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Randy</firstName>
+        <state>IL</state>
+        <identifiers>
+          <lisID>2015</lisID>
+          <gpoId>7934</gpoId>
+          <bioguideId>H001059</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Hultgren, Randy [R-IL-14]</fullName>
+        <district>14</district>
+      </item>
+      <item>
+        <lastName>Buchanan</lastName>
+        <bioguideId>B001260</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-04-16</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Vern</firstName>
+        <state>FL</state>
+        <identifiers>
+          <gpoId>7885</gpoId>
+          <lisID>1840</lisID>
+          <bioguideId>B001260</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Buchanan, Vern [R-FL-16]</fullName>
+        <district>16</district>
+      </item>
+      <item>
+        <lastName>Rothfus</lastName>
+        <bioguideId>R000598</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-04-21</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Keith</firstName>
+        <state>PA</state>
+        <identifiers>
+          <lisID>2158</lisID>
+          <bioguideId>R000598</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Rothfus, Keith J. [R-PA-12]</fullName>
+        <district>12</district>
+      </item>
+      <item>
+        <lastName>Ross</lastName>
+        <bioguideId>R000593</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Dennis</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>R000593</bioguideId>
+          <gpoId>7884</gpoId>
+          <lisID>2003</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Ross, Dennis A. [R-FL-15]</fullName>
+        <district>15</district>
+      </item>
+      <item>
+        <lastName>Curbelo</lastName>
+        <bioguideId>C001107</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Carlos</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+          <lisID>2235</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <district>26</district>
+      </item>
+      <item>
+        <lastName>Webster</lastName>
+        <bioguideId>W000806</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Daniel</firstName>
+        <state>FL</state>
+        <identifiers>
+          <bioguideId>W000806</bioguideId>
+          <gpoId>7880</gpoId>
+          <lisID>2002</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Webster, Daniel [R-FL-10]</fullName>
+        <district>10</district>
+      </item>
+      <item>
+        <lastName>DUNCAN</lastName>
+        <bioguideId>D000533</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>JOHN</firstName>
+        <state>TN</state>
+        <identifiers>
+          <bioguideId>D000533</bioguideId>
+          <gpoId>8149</gpoId>
+          <lisID>322</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <fullName>Rep. Duncan, John J., Jr. [R-TN-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>Cramer</lastName>
+        <bioguideId>C001096</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Kevin</firstName>
+        <state>ND</state>
+        <identifiers>
+          <lisID>2144</lisID>
+          <bioguideId>C001096</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Cramer, Kevin [R-ND-At Large]</fullName>
+        <district>0</district>
+      </item>
+      <item>
+        <lastName>Fleischmann</lastName>
+        <bioguideId>F000459</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Charles</firstName>
+        <state>TN</state>
+        <identifiers>
+          <lisID>2061</lisID>
+          <bioguideId>F000459</bioguideId>
+          <gpoId>8150</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>J. "Chuck"</middleName>
+        <fullName>Rep. Fleischmann, Charles J. "Chuck" [R-TN-3]</fullName>
+        <district>3</district>
+      </item>
+      <item>
+        <lastName>Nugent</lastName>
+        <bioguideId>N000185</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Richard</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2001</lisID>
+          <bioguideId>N000185</bioguideId>
+          <gpoId>7877</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>B.</middleName>
+        <fullName>Rep. Nugent, Richard B. [R-FL-11]</fullName>
+        <district>11</district>
+      </item>
+      <item>
+        <lastName>Jolly</lastName>
+        <bioguideId>J000296</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-05-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>David</firstName>
+        <state>FL</state>
+        <identifiers>
+          <lisID>2199</lisID>
+          <gpoId />
+          <bioguideId>J000296</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>W.</middleName>
+        <fullName>Rep. Jolly, David W. [R-FL-13]</fullName>
+        <district>13</district>
+      </item>
+      <item>
+        <lastName>Gosar</lastName>
+        <bioguideId>G000565</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-06-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Paul</firstName>
+        <state>AZ</state>
+        <identifiers>
+          <lisID>1992</lisID>
+          <gpoId>7798</gpoId>
+          <bioguideId>G000565</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Jenkins</lastName>
+        <bioguideId>J000290</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-06-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Lynn</firstName>
+        <state>KS</state>
+        <identifiers>
+          <lisID>1921</lisID>
+          <bioguideId>J000290</bioguideId>
+          <gpoId>7950</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <district>2</district>
+      </item>
+      <item>
+        <lastName>DesJarlais</lastName>
+        <bioguideId>D000616</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-09-11</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Scott</firstName>
+        <state>TN</state>
+        <identifiers>
+          <gpoId>8151</gpoId>
+          <lisID>2062</lisID>
+          <bioguideId>D000616</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. DesJarlais, Scott [R-TN-4]</fullName>
+        <district>4</district>
+      </item>
+      <item>
+        <lastName>Brooks</lastName>
+        <bioguideId>B001274</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Mo</firstName>
+        <state>AL</state>
+        <identifiers>
+          <lisID>1987</lisID>
+          <bioguideId>B001274</bioguideId>
+          <gpoId>7790</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <district>5</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-03-17</introducedDate>
+    <latestAction>
+      <actionDate>2015-04-08</actionDate>
+      <text>Referred to the Subcommittee on Commodity Exchanges, Energy, and Credit.</text>
+      <links />
+    </latestAction>
+    <billNumber>1389</billNumber>
+    <titles>
+      <item>
+        <title>American Jobs and Community Revitalization Act of 2015</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To improve the mortgage finance system and the regulation of financial institutions, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>American Jobs and Community Revitalization Act of 2015</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BARR:H.R. 1389.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3: ``The Congress shall havepower . . . To regulate commerce with foreign nations, andamong the several states, and with the Indian tribes.''[Page H1722]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>American Jobs and Community Revitalization Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-05-11T15:58:10Z</lastSummaryUpdateDate>
+          <actionDate>2015-03-17</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-03-17T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>American Jobs and Community Revitalization Act of 2015</b></p> <p>Directs the Consumer Financial Protection Bureau (CFPB) to establish an application process under which a person who lives or does business in a state may apply to have an area in the state identified as a rural area if it has not yet been so designated by the CFPB for purposes of federal consumer financial law.</p> <p>Prescribes criteria for the CFPB to consider when evaluating the application.<p>Requires the CFPB to: (1) grant or deny the application within 90 days after the public comment period ends; and (2) publish the grant or denial in the Federal Register, including an explanation of the factors upon which the CFPB relied in making its determination.</p> <p>Amends the Truth in Lending Act to create a safe harbor from lawsuit for creditors that are depository institutions for any failure to comply with certain requirements with respect to a residential mortgage loan, and the banking regulators are required to treat such a loan as a qualified mortgage, if the creditor has, since the loan's origination, held it on its balance sheet and all prepayment penalties with respect to the loan comply with specified limitations.</p> <p>A safe harbor from lawsuit is also created for mortgage originators for steering a consumer to a residential mortgage loan if: (1) the creditor is a depository institution and has informed the mortgage originator that it intends to hold the loan on its balance sheet for the life of the loan, and (2) the mortgage originator informs the consumer that the creditor intends to do so. </p> <p>Requires the Federal Deposit Insurance Corporation, the Office of Comptroller of the Currency, the Board of Governors of the Federal Reserve System, CFPB, the National Credit Union Administration, the Securities and Exchange Commission, and the Commodity Futures Trading Commission, before issuing a regulation or order, to assess other federal regulations and orders to determine whether the agency's proposal is in conflict with, is inconsistent with, or is duplicative of such other regulations or orders and whether such other federal regulations or orders are outdated.</p> <p>Amends the Federal Deposit Insurance Act to double the maximum asset size of certain small insured depository institutions that qualify for an onsite examination by the appropriate federal banking agency every 18 months instead of every 12 months.</p> <p> Directs the Secretary of the Treasury to issue final rules to exempt depository institutions from reporting requirements with respect to a monetary instrument transaction involving a qualified customer.</p> <p>Requires the Director of the Financial Crimes Enforcement Network (FinCEN) to report annually to Congress on how the FinCEN data access service and the information it collects are used to detect and prevent money laundering, terrorist financing, and other financial crimes.</p> <p>Directs the Secretary to establish operating procedures with respect to the government-wide data access service and the FinCEN financial crimes communications center which provide for appropriate metrics to monitor, track, assess, and report on access to information in the FinCEN data access service.</p> <p>Amends the Dodd-Frank Wall Street and Consumer Protection Act to direct the appropriate federal banking agencies to issue final regulations authorizing S corporation banks to make dividend distributions under their capital conservation buffer for payment of taxes arising from bank activities.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>Portfolio Lending and Mortgage Access Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-02-26</actionDate>
+          <text>Referred to the House Committee on Financial Services.</text>
+        </latestAction>
+        <number>1113</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>S</type>
+        <latestTitle>HELP Rural Communities Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-03-26</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (text of measure as introduced: CR S2048-2049)</text>
+        </latestAction>
+        <number>871</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>HR</type>
+        <latestTitle>Portfolio Lending and Mortgage Access Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-11-19</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <number>1210</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>HR</type>
+        <latestTitle>Helping Expand Lending Practices in Rural Communities Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-04-14</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <number>1259</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <type>S</type>
+        <latestTitle>Portfolio Lending and Mortgage Access Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-05-26</actionDate>
+          <text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text>
+        </latestAction>
+        <number>2995</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsag22</systemCode>
+              <activities>
+                <item>
+                  <date>2015-04-08T18:59:15Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Commodity Exchanges, Energy, and Credit Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-17T14:03:00Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+        <item>
+          <subcommittees />
+          <systemCode>hsba00</systemCode>
+          <name>Financial Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-17T14:02:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:21Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Bank accounts, deposits, capital</name>
+          </item>
+          <item>
+            <name>Banking and financial institutions regulation</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Commodities markets</name>
+          </item>
+          <item>
+            <name>Commodity Futures Trading Commission</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Consumer Financial Protection Bureau</name>
+          </item>
+          <item>
+            <name>Consumer credit</name>
+          </item>
+          <item>
+            <name>Credit and credit markets</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Currency</name>
+          </item>
+          <item>
+            <name>Department of the Treasury</name>
+          </item>
+          <item>
+            <name>Federal Deposit Insurance Corporation (FDIC)</name>
+          </item>
+          <item>
+            <name>Federal Reserve System</name>
+          </item>
+          <item>
+            <name>Financial services and investments</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Housing finance and home ownership</name>
+          </item>
+          <item>
+            <name>Interest, dividends, interest rates</name>
+          </item>
+          <item>
+            <name>National Credit Union Administration</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+          <item>
+            <name>Securities and Exchange Commission (SEC)</name>
+          </item>
+          <item>
+            <name>Small business</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+          <item>
+            <name>Terrorism</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-03-18T04:46:16Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <state>KY</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Barr</lastName>
+        <firstName>Andy</firstName>
+        <bioguideId>B001282</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2131</lisID>
+          <bioguideId>B001282</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <actionStageOverride>1</actionStageOverride>
+        <placeholderTextForH>3</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-18</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-18</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-17</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Subcommittee on Crime, Terrorism, Homeland Security, and Investigations Discharged.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+          <systemCode>hsju08</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:03:49Z</updateDate>
+    <introducedDate>2015-11-16</introducedDate>
+    <recordedVotes />
+    <createDate>2015-11-17T10:19:51Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Mimi</firstName>
+        <lastName>Walters</lastName>
+        <state>CA</state>
+        <bioguideId>W000820</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2232</lisID>
+          <bioguideId>W000820</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Walters, Mimi [R-CA-45]</fullName>
+        <district>45</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Regulatory Reporting Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To require reports on agency rules with criminal penalties for the violation thereof, to evaluate the necessity and prudence of such rules remaining in effect.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Regulatory Reporting Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <district>6</district>
+        <middleName>W.</middleName>
+        <state>VA</state>
+        <firstName>ROBERT</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8197</gpoId>
+          <lisID>446</lisID>
+          <bioguideId>G000289</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>G000289</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>GOODLATTE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <district>13</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+          <lisID>229</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>CONYERS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Buck, Ken [R-CO-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>CO</state>
+        <firstName>Ken</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2233</lisID>
+          <bioguideId>B001297</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>B001297</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Buck</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2249</lisID>
+          <gpoId />
+          <bioguideId>B001293</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>B001293</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bishop</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <district>18</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>SHEILA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>588</lisID>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <bioguideId>J000032</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>JACKSON LEE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Trott, David A. [R-MI-11]</fullName>
+        <district>11</district>
+        <middleName>A.</middleName>
+        <state>MI</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2250</lisID>
+          <bioguideId>T000475</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>T000475</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Trott</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Forbes, J. Randy [R-VA-4]</fullName>
+        <district>4</district>
+        <middleName>Randy</middleName>
+        <state>VA</state>
+        <firstName>J.</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1683</lisID>
+          <bioguideId>F000445</bioguideId>
+          <gpoId>8786</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>F000445</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Forbes</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ratcliffe, John [R-TX-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2268</lisID>
+          <bioguideId>R000601</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <bioguideId>R000601</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ratcliffe</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>Louie</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8157</gpoId>
+          <lisID>1801</lisID>
+          <bioguideId>G000552</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <bioguideId>G000552</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Gohmert</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <district>4</district>
+        <middleName>B.</middleName>
+        <state>UT</state>
+        <firstName>Mia</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>L000584</bioguideId>
+          <gpoId />
+          <lisID>2271</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <bioguideId>L000584</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Love</lastName>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. MIMI WALTERS of California:H.R. 4003.Congress has the power to enact this legislation pursuantto the following:The authority to enact this bill is derived from, but maynot be limited to, Article I, Section 8, Clause 3 of theUnited States Constitution.[Page H8241]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju08</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-17T17:28:17Z</date>
+                  <name>Discharged from</name>
+                </item>
+                <item>
+                  <date>2015-11-16T17:17:26Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Crime, Terrorism, Homeland Security, and Investigations Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-11-18T19:06:06Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-11-16T19:03:50Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-18</actionDate>
+      <text>Ordered to be Reported by Voice Vote.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 4003, Regulatory Reporting Act of 2015</title>
+        <pubDate>2015-12-08T17:46:00Z</pubDate>
+        <url>https://www.cbo.gov/publication/51069</url>
+      </item>
+    </cboCostEstimates>
+    <title>Regulatory Reporting Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-07-01T14:52:45Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-11-16</actionDate>
+          <text><![CDATA[<p><b>Regulatory Reporting Act of 2015</b></p> <p>This bill requires each federal agency, in consultation with the Department of Justice, to submit a report to Congress that lists each agency rule enforceable by criminal penalties. For each rule, the report must justify criminal penalties based on specified criteria. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-11-16T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>4003</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

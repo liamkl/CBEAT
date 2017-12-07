@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <relatedBills/>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-10-05T21:04:22Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports/>
+    <title>Florida Gasoline Supply Reserve Act</title>
+    <recordedVotes/>
+    <createDate>2017-10-06T00:41:20Z</createDate>
+    <billType>S</billType>
+    <latestAction>
+      <links/>
+      <actionDate>2017-10-05</actionDate>
+      <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+    </latestAction>
+    <calendarNumbers/>
+    <introducedDate>2017-10-05</introducedDate>
+    <congress>115</congress>
+    <cboCostEstimates/>
+    <billNumber>1957</billNumber>
+    <amendments/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <notes/>
+    <laws/>
+    <originChamber>Senate</originChamber>
+    <titles>
+      <item>
+        <chamberCode/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Florida Gasoline Supply Reserve Act</title>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Energy Policy and Conservation Act to require the Secretary of Energy to establish a gasoline supply reserve in the State of Florida, and for other purposes.</title>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <title>Florida Gasoline Supply Reserve Act</title>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Florida Gasoline Supply Reserve Act</title>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <actionDate>2017-10-05</actionDate>
+        <text>Introduced in Senate</text>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <links/>
+        <actionCode>10000</actionCode>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-20T05:48:08Z</updateDate>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <cosponsors/>
+    <version>1.0.0</version>
+    <sponsors>
+      <item>
+        <fullName>Sen. Nelson, Bill [D-FL]</fullName>
+        <middleName>WILLIAM</middleName>
+        <state>FL</state>
+        <party>D</party>
+        <lastName>NELSON</lastName>
+        <byRequestType/>
+        <firstName>CLARENCE</firstName>
+        <identifiers>
+          <bioguideId>N000032</bioguideId>
+          <gpoId>8236</gpoId>
+          <lisID>859</lisID>
+        </identifiers>
+        <bioguideId>N000032</bioguideId>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

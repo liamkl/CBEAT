@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <committee>
+          <name>Highways and Transit Subcommittee</name>
+          <systemCode>hspw12</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Highways and Transit.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links>
+          <link>
+            <name>H4634</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H4634</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>B00100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-24</actionDate>
+        <text>Sponsor introductory remarks on measure. (CR H4634)</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-06-23</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForB>1</placeholderTextForB>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:29Z</updateDate>
+    <introducedDate>2015-06-23</introducedDate>
+    <recordedVotes />
+    <createDate>2015-06-24T09:23:12Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Martha</firstName>
+        <lastName>McSally</lastName>
+        <state>AZ</state>
+        <bioguideId>M001197</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2225</lisID>
+          <bioguideId>M001197</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. McSally, Martha [R-AZ-2]</fullName>
+        <district>2</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Sonoran Corridor Interstate Development Act of 2015</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Intermodal Surface Transportation Efficiency Act of 1991 to designate the Sonoran Corridor connecting Interstate 19 to Interstate 10 south of the Tucson International Airport as a future part of the Interstate System, and for other purposes.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Sonoran Corridor Interstate Development Act of 2015</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Raul</firstName>
+        <district>3</district>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Grijalva</lastName>
+        <identifiers>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+          <lisID>1708</lisID>
+        </identifiers>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <district>1</district>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Kirkpatrick</lastName>
+        <identifiers>
+          <bioguideId>K000368</bioguideId>
+          <gpoId>7220</gpoId>
+          <lisID>1907</lisID>
+        </identifiers>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>R</party>
+        <firstName>Trent</firstName>
+        <district>8</district>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Franks</lastName>
+        <identifiers>
+          <lisID>1707</lisID>
+          <gpoId>7799</gpoId>
+          <bioguideId>F000448</bioguideId>
+        </identifiers>
+        <bioguideId>F000448</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Kyrsten</firstName>
+        <district>9</district>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Sinema</lastName>
+        <identifiers>
+          <lisID>2099</lisID>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>S001191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>R</party>
+        <firstName>David</firstName>
+        <district>6</district>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Schweikert</lastName>
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <bioguideId>S001183</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Ruben</firstName>
+        <district>7</district>
+        <fullName>Rep. Gallego, Ruben [D-AZ-7]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Gallego</lastName>
+        <identifiers>
+          <bioguideId>G000574</bioguideId>
+          <gpoId />
+          <lisID>2226</lisID>
+        </identifiers>
+        <bioguideId>G000574</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>R</party>
+        <firstName>MATT</firstName>
+        <district>5</district>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>SALMON</lastName>
+        <identifiers>
+          <bioguideId>S000018</bioguideId>
+          <gpoId />
+          <lisID>1009</lisID>
+        </identifiers>
+        <bioguideId>S000018</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>R</party>
+        <firstName>Paul</firstName>
+        <district>4</district>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Gosar</lastName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <bioguideId>G000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>AZ</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. McSALLY:H.R. 2859.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clauses:1) ``The Congress shall have Power To . . . provide for thecommon defense and general Welfare of the United States''3) ``To regulate Commerce with foreign Nations, and amongthe several States, and with the Indian Tribes''7) ``To establish Post Offices and post Roads''18) ``To make all Law which shall be necessary and properfor carrying into Execution the foregoing Powers, and allother Powers vested in this Constitution in the Government ofthe United States, or in any Department or Officer thereof''[Page H4593]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Arizona</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hspw12</systemCode>
+              <activities>
+                <item>
+                  <date>2015-06-24T16:42:04Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Highways and Transit Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-06-23T16:01:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-24</actionDate>
+      <text>Referred to the Subcommittee on Highways and Transit.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Sonoran Corridor Interstate Development Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-06-23</actionDate>
+          <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>S</type>
+        <number>1649</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Sonoran Corridor Interstate Development Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-06-23</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-06-23T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Sonoran Corridor Interstate Development Act of 2015</strong></p> <p>This bill amends the Intermodal Surface Transportation Efficiency Act of 1991 to designate the State Route 410, the Sonoran Corridor connecting Interstate 19 to Interstate 10 south of the Tucson International Airport in Arizona, as a high priority corridor on the National Highway System and a future part of the Interstate System.</p>]]></text>
+          <lastSummaryUpdateDate>2015-12-09T19:32:24Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2859</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

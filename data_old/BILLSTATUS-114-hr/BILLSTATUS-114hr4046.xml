@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <presentedToPresident>1</presentedToPresident>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <passedAgreedToInSenate>1</passedAgreedToInSenate>
+        <considerationByHouse>1</considerationByHouse>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <becamePublicLaw>2</becamePublicLaw>
+        <placeholderTextForE>3</placeholderTextForE>
+        <actionStageOverride>1</actionStageOverride>
+        <reportedToSenate>2</reportedToSenate>
+        <sentToHouse>1</sentToHouse>
+        <passedSenate>1</passedSenate>
+        <referredToCommittee>1</referredToCommittee>
+        <billReferrals>1</billReferrals>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <orderedReported>1</orderedReported>
+        <placeholderTextForH>1</placeholderTextForH>
+        <generalDebate>1</generalDebate>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <introducedInHouse>1</introducedInHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>8</senate>
+        <houseOfRepresentatives>11</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <type>President</type>
+        <actionDate>2016-06-13</actionDate>
+        <actionCode>E40000</actionCode>
+        <links>
+          <link>
+            <name>Public Law No: 114-176</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4046/text/pl</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <text>Became Public Law No: 114-176.</text>
+      </item>
+      <item>
+        <type>BecameLaw</type>
+        <actionDate>2016-06-13</actionDate>
+        <actionCode>36000</actionCode>
+        <links>
+          <link>
+            <name>Public Law No: 114-176</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4046/text/pl</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Became Public Law No: 114-176.</text>
+      </item>
+      <item>
+        <type>President</type>
+        <actionDate>2016-06-13</actionDate>
+        <actionCode>E30000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <type>BecameLaw</type>
+        <actionDate>2016-06-13</actionDate>
+        <actionCode>36000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-06-03</actionDate>
+        <actionCode>E20000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <type>President</type>
+        <actionDate>2016-06-03</actionDate>
+        <actionCode>28000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <actionDate>2016-05-27</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2016-05-26</actionDate>
+        <committee />
+        <links>
+          <link>
+            <name>S3378</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S3378</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S3378)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-05-26</actionDate>
+        <actionCode>17000</actionCode>
+        <links>
+          <link>
+            <name>S3378</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/senate-section/page/S3378</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S3378)</text>
+      </item>
+      <item>
+        <actionDate>2016-05-25</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 497.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-05-25</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson without amendment. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2016-05-25</actionDate>
+        <actionCode>14000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson without amendment. Without written report.</text>
+      </item>
+      <item>
+        <actionDate>2016-05-25</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-03-02</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>H38310</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>14:02:09</actionTime>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>H37300</actionCode>
+        <links>
+          <link>
+            <name>H1067</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1067</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>14:02:06</actionTime>
+        <text>On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H1067)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>8000</actionCode>
+        <links>
+          <link>
+            <name>H1067</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1067</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>14:02:06</actionTime>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.(text: CR H1067)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>H8D000</actionCode>
+        <links>
+          <link>
+            <name>H.R. 4046</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4046</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>13:56:32</actionTime>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4046.</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>H30000</actionCode>
+        <links>
+          <link>
+            <name>H1067</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1067</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>13:56:29</actionTime>
+        <text>Considered under suspension of the rules. (consideration: CR H1067)</text>
+      </item>
+      <item>
+        <type>Floor</type>
+        <actionDate>2016-03-01</actionDate>
+        <actionCode>H30300</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <actionTime>13:56:13</actionTime>
+        <text>Mr. Russell moved to suspend the rules and pass the bill.</text>
+      </item>
+      <item>
+        <actionDate>2015-12-09</actionDate>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported by Unanimous Consent.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-12-09</actionDate>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-17</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-17</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-17</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Ryan, Paul D. [R-WI-1]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ryan</lastName>
+        <identifiers>
+          <lisID>1560</lisID>
+          <gpoId>8214</gpoId>
+          <bioguideId>R000570</bioguideId>
+        </identifiers>
+        <firstName>Paul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <middleName>D.</middleName>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>R000570</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Pocan</lastName>
+        <identifiers>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+          <lisID>2171</lisID>
+        </identifiers>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+        <middleName />
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>P000607</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>KIND</lastName>
+        <identifiers>
+          <bioguideId>K000188</bioguideId>
+          <gpoId>8216</gpoId>
+          <lisID>1498</lisID>
+        </identifiers>
+        <firstName>RON</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>K000188</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Moore</lastName>
+        <identifiers>
+          <bioguideId>M001160</bioguideId>
+          <gpoId>8217</gpoId>
+          <lisID>1811</lisID>
+        </identifiers>
+        <firstName>Gwen</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+        <middleName />
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>M001160</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Sensenbrenner, F. James, Jr. [R-WI-5]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SENSENBRENNER</lastName>
+        <identifiers>
+          <bioguideId>S000244</bioguideId>
+          <gpoId>8218</gpoId>
+          <lisID>1041</lisID>
+        </identifiers>
+        <firstName>F.</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName>JAMES</middleName>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>S000244</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Grothman, Glenn [R-WI-6]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grothman</lastName>
+        <identifiers>
+          <lisID>2276</lisID>
+          <bioguideId>G000576</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Glenn</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>6</district>
+        <middleName />
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>G000576</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ribble</lastName>
+        <identifiers>
+          <lisID>2073</lisID>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+        </identifiers>
+        <firstName>Reid</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>8</district>
+        <middleName>J.</middleName>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>R000587</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-11-17</introducedDate>
+    <latestAction>
+      <actionDate>2016-06-13</actionDate>
+      <text>Became Public Law No: 114-176.</text>
+      <links>
+        <link>
+          <name>Public Law No: 114-176</name>
+          <url>https://www.congress.gov/bill/114th-congress/house-bill/4046/text/pl</url>
+        </link>
+      </links>
+    </latestAction>
+    <billNumber>4046</billNumber>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To designate the facility of the United States Postal Service located at 220 East Oak Street, Glenwood City, Wisconsin, as the Second Lt. Ellen Ainsworth Memorial Post Office.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>To designate the facility of the United States Postal Service located at 220 East Oak Street, Glenwood City, Wisconsin, as the Second Lt. Ellen Ainsworth Memorial Post Office.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>114-176</number>
+      </item>
+    </laws>
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DUFFY:H.R. 4046.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, The Congress shall haev the Power to. . . establish Post Offices and Post Roads[Page H8281]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers>
+      <item>
+        <number>0497</number>
+        <calendar>Senate Calendar of Business</calendar>
+      </item>
+    </calendarNumbers>
+    <title>To designate the facility of the United States Postal Service located at 220 East Oak Street, Glenwood City, Wisconsin, as the Second Lt. Ellen Ainsworth Memorial Post Office.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[Designates the facility of the United States Postal Service located at 220 East Oak Street, Glenwood City, Wisconsin, as the Second Lt. Ellen Ainsworth Memorial Post Office.]]></text>
+          <lastSummaryUpdateDate>2015-11-18T09:07:55Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-11-17</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-11-17T05:00:00Z</updateDate>
+        </item>
+        <item>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</p> <p> Designates the facility of the United States Postal Service located at 220 East Oak Street, Glenwood City, Wisconsin, as the &quot;Second Lt. Ellen Ainsworth Memorial Post Office.&quot;</p>]]></text>
+          <lastSummaryUpdateDate>2016-06-21T18:34:51Z</lastSummaryUpdateDate>
+          <name>Public Law</name>
+          <versionCode>49</versionCode>
+          <actionDate>2016-06-13</actionDate>
+          <actionDesc>Public Law</actionDesc>
+          <updateDate>2016-06-14T03:59:58Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+          <activities>
+            <item>
+              <date>2016-05-25T21:51:08Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2016-05-25T14:00:00Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2016-03-02T16:40:41Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+          <activities>
+            <item>
+              <date>2015-12-09T19:32:56Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-11-17T15:01:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:03:51Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional tributes</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Postal service</name>
+          </item>
+          <item>
+            <name>Wisconsin</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-11-18T09:46:23Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <state>WI</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Duffy</lastName>
+        <firstName>Sean</firstName>
+        <bioguideId>D000614</bioguideId>
+        <middleName>P.</middleName>
+        <identifiers>
+          <gpoId>8220</gpoId>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+        </identifiers>
+        <district>7</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

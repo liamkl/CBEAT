@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 722.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment in the nature of a substitute. Without written report.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-12-09</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson with an amendment in the nature of a substitute. Without written report.</text>
+        <links />
+        <type>Committee</type>
+        <actionCode>14000</actionCode>
+      </item>
+      <item>
+        <actionDate>2016-05-25</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-04-21</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-04-21</actionDate>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <links />
+        <type>IntroReferral</type>
+        <actionCode>10000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+        <reportedToSenate>2</reportedToSenate>
+        <orderedReported>1</orderedReported>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>6</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:11:05Z</updateDate>
+    <introducedDate>2016-04-21</introducedDate>
+    <recordedVotes />
+    <createDate>2016-04-22T05:10:13Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>THOMAS</firstName>
+        <lastName>CARPER</lastName>
+        <state>DE</state>
+        <bioguideId>C000174</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>C000174</bioguideId>
+          <gpoId>8283</gpoId>
+          <lisID>179</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>R.</middleName>
+        <fullName>Sen. Carper, Thomas R. [D-DE]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode>S</chamberCode>
+        <chamberName>Senate</chamberName>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <title>Getting Results through Enhanced Accountability and Transparency Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Getting Results through Enhanced Accountability and Transparency Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to improve the Governmentwide management of unnecessarily duplicative Government programs and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Getting Results through Enhanced Accountability and Transparency Act of 2016</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>J000293</bioguideId>
+        <party>R</party>
+        <fullName>Sen. Johnson, Ron [R-WI]</fullName>
+        <firstName>Ron</firstName>
+        <middleName />
+        <lastName>Johnson</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-04-21</sponsorshipDate>
+        <identifiers>
+          <lisID>2086</lisID>
+          <bioguideId>J000293</bioguideId>
+          <gpoId>8355</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>WI</state>
+      </item>
+      <item>
+        <bioguideId>B001288</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+        <firstName>Cory</firstName>
+        <middleName>A.</middleName>
+        <lastName>Booker</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-04-21</sponsorshipDate>
+        <identifiers>
+          <lisID>2194</lisID>
+          <bioguideId>B001288</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>NJ</state>
+      </item>
+      <item>
+        <bioguideId>B001230</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <firstName>TAMMY</firstName>
+        <middleName />
+        <lastName>BALDWIN</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-04-21</sponsorshipDate>
+        <identifiers>
+          <lisID>1558</lisID>
+          <bioguideId>B001230</bioguideId>
+          <gpoId>8215</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>WI</state>
+      </item>
+      <item>
+        <bioguideId>P000595</bioguideId>
+        <party>D</party>
+        <fullName>Sen. Peters, Gary C. [D-MI]</fullName>
+        <firstName>Gary</firstName>
+        <middleName>C.</middleName>
+        <lastName>Peters</lastName>
+        <sponsorshipWithdrawnDate />
+        <sponsorshipDate>2016-04-21</sponsorshipDate>
+        <identifiers>
+          <gpoId>7994</gpoId>
+          <lisID>1929</lisID>
+          <bioguideId>P000595</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <state>MI</state>
+      </item>
+    </cosponsors>
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0722</number>
+      </item>
+    </calendarNumbers>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Accounting and auditing</name>
+          </item>
+          <item>
+            <name>Computers and information technology</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government employee pay, benefits, personnel management</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2016-12-09T20:58:22Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2016-05-25T14:00:00Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2016-04-21T17:00:57Z</date>
+            </item>
+          </activities>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees />
+          <systemCode>ssga00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-12-09</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 722.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>3011</number>
+        <congress>114</congress>
+        <latestTitle>Bolster Accountability to Drive Government Efficiency and Reform Washington Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-06-06</actionDate>
+          <text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 505.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+          <item>
+            <identifiedBy>House</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>5033</number>
+        <congress>114</congress>
+        <latestTitle>Getting Results through Enhanced Accountability and Transparency Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-12-08</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 666.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Getting Results through Enhanced Accountability and Transparency Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <actionDate>2016-04-21</actionDate>
+          <lastSummaryUpdateDate>2016-08-02T21:46:42Z</lastSummaryUpdateDate>
+          <updateDate>2016-04-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Getting Results through Enhanced Accountability and Transparency Act of 2016</b></p> <p>This bill requires that the Government Accountability Office's (GAO's) annual report on its routine investigations to identify programs, agencies, offices, and initiatives with unnecessarily duplicative goals and activities aggregate separately estimates of related costs for instances of actual and potential unnecessary duplication and other potential cost savings and revenue collection.</p> <p>When executive agencies (with certain exceptions) conduct their systemic review of operations on a continuing basis, the purpose of their reviews must include: (1) improving agency performance toward their mission, (2) informing learning and decision-making processes, (3) assessing opportunities to improve coordination within the agency and with other agencies, and (4) identifying employees who cause their units to be outstanding toward achieving the agency's mission. </p> <p>Chief operating officers' responsibilities are expanded to include: (1) improving evaluation and risk management; (2) addressing crosscutting program and management issues, including opportunities to improve coordination and address unnecessary duplication, using an enterprise risk management approach; (3) overseeing agency-specific efforts to improve management of mission-oriented components and units; and (4) coordinating with mission-related components, units, and support functions at their agency and the major components of their agency. </p> <p>The Office of Management and Budget's (OMB's) federal government performance plan submitted with each budget must provide plans to address management challenges concerning unnecessary duplication. Agency performance plans for each program activity set forth in the budget must include planned actions and performance goals for resolving such challenges. </p> <p>The OMB's federal government priority goals must include mission support for financial, human capital, information technology, procurement, and real estate management. The OMB must consider GAO recommendations when developing or adjusting such goals. Performance improvement officers must collaborate with the heads of agency components and mission support functions when they advise on strategic planning. Their advice must include performance evaluation and risk management. </p> <p>The Performance Improvement Council's (PIC's) functions are expanded to include: (1) resolving government-wide issues relating to coordination and unnecessary duplication; (2) facilitating the exchange of performance improvement practices with state and local governments and other nonfederal stakeholders; and (3) coordinating with interagency mission support councils. PIC must also publish annual reports describing its structure, budgets, funding, staffing, and activities. </p> <p>The chief operating officers of agencies must publish all of the plans and reports produced for Congress with citations to the relevant statutory requirements. </p> <p>Agencies must submit to Congress statements regarding the actions they have taken in response to recommendations in the GAO's: (1) annual report on unnecessarily duplicative goals and activities; and (2) High Risk list of fraud, waste, abuse, and mismanagement. </p> <p>Executive agencies' internal accounting and administrative controls and the OMB's guidelines for evaluating such controls must address the management of high-priority enterprise risks.</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+        <item>
+          <name>Reported to Senate with amendment(s)</name>
+          <actionDate>2016-12-09</actionDate>
+          <lastSummaryUpdateDate>2017-02-10T22:58:36Z</lastSummaryUpdateDate>
+          <updateDate>2016-12-09T17:30:20Z</updateDate>
+          <versionCode>01</versionCode>
+          <text><![CDATA[<p><b>Getting Results through Enhanced Accountability and Transparency Act of 2016</b></p> <p>(Sec. 3) This bill requires that the Government Accountability Office's (GAO's) annual report on its routine investigations to identify programs, agencies, offices, and initiatives with unnecessarily duplicative goals and activities aggregate separately estimates of related costs for instances of actual and potential unnecessary duplication and other potential cost savings and revenue collection.</p> <p>(Sec. 4) When executive agencies (with certain exceptions) conduct their systemic review of operations on a continuing basis, the purpose of their reviews must include: (1) improving agency performance toward their mission, (2) informing learning and decision-making processes, (3) assessing opportunities to improve coordination within the agency and with other agencies, and (4) identifying employees who cause their units to be outstanding toward achieving the agency's mission. </p> <p>Chief operating officers' responsibilities are expanded to include: (1) improving evaluation and risk management; (2) addressing crosscutting program and management issues, including opportunities to improve coordination and address unnecessary duplication, using an enterprise risk management approach; (3) overseeing agency-specific efforts to improve management of mission-oriented components and units; and (4) coordinating with mission-related components, units, and support functions at their agency and the major components of their agency. </p> <p>The Office of Management and Budget's (OMB's) federal government performance plan submitted with each budget must provide plans to address management challenges concerning unnecessary duplication. Agency performance plans for each program activity set forth in the budget must include planned actions and performance goals for resolving such challenges. </p> <p>The OMB's federal government priority goals must include mission support for financial, human capital, information technology, procurement, and real estate management. The OMB must consider GAO recommendations when developing or adjusting such goals. Performance improvement officers must collaborate with the heads of agency components and mission support functions when they advise on strategic planning. Their advice must include performance evaluation and risk management. </p> <p>The Performance Improvement Council's (PIC's) functions are expanded to include: (1) resolving government-wide issues relating to coordination and unnecessary duplication; (2) facilitating the exchange of performance improvement practices with state and local governments and other nonfederal stakeholders; and (3) coordinating with interagency mission support councils. PIC must also publish annual reports describing its structure, budgets, funding, staffing, and activities. </p> <p>The chief operating officers of agencies must publish all of the plans and reports produced for Congress with citations to the relevant statutory requirements. </p> <p>Agencies must submit to Congress statements regarding the actions they have taken in response to recommendations in the GAO's: (1) annual report on unnecessarily duplicative goals and activities; and (2) High Risk list of fraud, waste, abuse, and mismanagement. </p>]]></text>
+          <actionDesc>Reported to Senate with amendment(s)</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>2834</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>2</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-09-30</actionDate>
+        <committee>
+          <systemCode>hssy18</systemCode>
+          <name>Environment Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Environment.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-03-22</actionDate>
+        <committee>
+          <systemCode>hsii13</systemCode>
+          <name>Water, Power and Oceans Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Water, Power and Oceans.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2016-03-17</actionDate>
+        <text>Referred to House Science, Space, and Technology</text>
+        <committee>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2016-03-17</actionDate>
+        <text>Referred to House Natural Resources</text>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <actionDate>2016-03-17</actionDate>
+        <text>Referred to the Committee on Natural Resources, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2016-03-17</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2016-03-17</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Beyer, Donald S., Jr. [D-VA-8]</fullName>
+        <district>8</district>
+        <middleName>S.</middleName>
+        <state>VA</state>
+        <firstName>Donald</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001292</bioguideId>
+          <gpoId />
+          <lisID>2272</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>B001292</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Beyer</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bordallo, Madeleine Z. [D-GU-At Large]</fullName>
+        <district>0</district>
+        <middleName>Z.</middleName>
+        <state>GU</state>
+        <firstName>Madeleine</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001245</bioguideId>
+          <gpoId>7911</gpoId>
+          <lisID>1723</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>B001245</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bordallo</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Castor, Kathy [D-FL-14]</fullName>
+        <district>14</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Kathy</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1839</lisID>
+          <bioguideId>C001066</bioguideId>
+          <gpoId>7883</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>C001066</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Castor</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Curbelo, Carlos [R-FL-26]</fullName>
+        <district>26</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Carlos</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001107</bioguideId>
+          <gpoId />
+          <lisID>2235</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>C001107</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Curbelo</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <district>21</district>
+        <middleName>E.</middleName>
+        <state>FL</state>
+        <firstName>Theodore</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>D000610</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Deutch</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Farr, Sam [D-CA-20]</fullName>
+        <district>20</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>SAM</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>368</lisID>
+          <bioguideId>F000030</bioguideId>
+          <gpoId>7822</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>F000030</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>FARR</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Frankel, Lois [D-FL-22]</fullName>
+        <district>22</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Lois</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>F000462</bioguideId>
+          <gpoId />
+          <lisID>2119</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>F000462</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Frankel</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Gabbard, Tulsi [D-HI-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>HI</state>
+        <firstName>Tulsi</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>G000571</bioguideId>
+          <gpoId />
+          <lisID>2122</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>G000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Gabbard</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Grayson, Alan [D-FL-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Alan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1914</lisID>
+          <gpoId>7302</gpoId>
+          <bioguideId>G000556</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>G000556</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grayson</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <district>3</district>
+        <middleName>M.</middleName>
+        <state>AZ</state>
+        <firstName>Raul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>G000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Grijalva</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <district>20</district>
+        <middleName>L.</middleName>
+        <state>FL</state>
+        <firstName>ALCEE</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7895</gpoId>
+          <lisID>511</lisID>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>H000324</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>HASTINGS</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <district>0</district>
+        <middleName>HOLMES</middleName>
+        <state>DC</state>
+        <firstName>ELEANOR</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>N000147</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>NORTON</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Huffman, Jared [D-CA-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>CA</state>
+        <firstName>Jared</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>H001068</bioguideId>
+          <gpoId />
+          <lisID>2101</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>H001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Huffman</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <district>18</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>Patrick</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2117</lisID>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>M001191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Murphy</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ros-Lehtinen, Ileana [R-FL-27]</fullName>
+        <district>27</district>
+        <middleName />
+        <state>FL</state>
+        <firstName>ILEANA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000435</bioguideId>
+          <gpoId>7890</gpoId>
+          <lisID>985</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <bioguideId>R000435</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ROS-LEHTINEN</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-03-17</introducedDate>
+    <latestAction>
+      <actionDate>2016-09-30</actionDate>
+      <text>Referred to the Subcommittee on Environment.</text>
+      <links />
+    </latestAction>
+    <billNumber>4811</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Coral Reef Sustainability Through Innovation Act of 2016</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To authorize Federal agencies to establish prize competitions for innovation or adaptation management development relating to coral reef ecosystems and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Coral Reef Sustainability Through Innovation Act of 2016</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. TAKAI:H.R. 4811.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H1463]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Coral Reef Sustainability Through Innovation Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Coral Reef Sustainability Through Innovation Act of 2016</b></p> <p>This bill amends the Coral Reef Conservation Act to authorize the 12 federal agencies on the U.S. Coral Reef Task Force, which includes the National Oceanic and Atmospheric Administration, to carry out, either individually or cooperatively, prize competitions that promote coral reef research and conservation. The prize competitions should be designed to help the United States achieve its goal of developing new and effective ways to advance the understanding, monitoring, and sustainability of coral reef ecosystems. </p> <p>Priority is given to establish programs that address communities, environments, or industries that are in distress due to the decline or degradation of coral reef ecosystems.</p>]]></text>
+          <lastSummaryUpdateDate>2016-04-13T19:55:31Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-03-17</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-03-17T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2016-03-17</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <number>2705</number>
+        <type>S</type>
+        <latestTitle>Coral Reef Sustainability Through Innovation Act of 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2016-11-18</actionDate>
+          <text>Referred to the Subcommittee on Water, Power and Oceans.</text>
+        </latestAction>
+        <number>6331</number>
+        <type>HR</type>
+        <latestTitle>Coral Reef Sustainability Through Innovation Act of 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+      <item>
+        <latestAction>
+          <actionDate>2016-09-30</actionDate>
+          <text>Referred to the Subcommittee on Environment.</text>
+        </latestAction>
+        <number>5771</number>
+        <type>HR</type>
+        <latestTitle>Conserving Our Reefs and Livelihoods Act of 2016</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-03-17T13:04:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hssy18</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-09-30T15:28:03Z</date>
+                </item>
+              </activities>
+              <name>Environment Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+        <item>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-03-17T13:04:25Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <systemCode>hsii13</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-03-22T21:16:03Z</date>
+                </item>
+              </activities>
+              <name>Water, Power and Oceans Subcommittee</name>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:37Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Aquatic ecology</name>
+          </item>
+          <item>
+            <name>Climate change and greenhouse gases</name>
+          </item>
+          <item>
+            <name>Economic performance and conditions</name>
+          </item>
+          <item>
+            <name>Marine and coastal resources, fisheries</name>
+          </item>
+          <item>
+            <name>Marine pollution</name>
+          </item>
+          <item>
+            <name>Research administration and funding</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+          <item>
+            <name>Travel and tourism</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-03-18T05:09:36Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Takai, Mark [D-HI-1]</fullName>
+        <state>HI</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Takai</lastName>
+        <firstName>Mark</firstName>
+        <bioguideId>T000473</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2240</lisID>
+          <bioguideId>T000473</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

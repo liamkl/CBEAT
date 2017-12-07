@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-07-17</actionDate>
+        <committee>
+          <name>Energy and Power Subcommittee</name>
+          <systemCode>hsif03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Power.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-15</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-15</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-15</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:44Z</updateDate>
+    <introducedDate>2015-07-15</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-16T09:11:25Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Charles</firstName>
+        <lastName>Dent</lastName>
+        <state>PA</state>
+        <bioguideId>D000604</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>D000604</bioguideId>
+          <gpoId>8133</gpoId>
+          <lisID>1799</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName>W.</middleName>
+        <fullName>Rep. Dent, Charles W. [R-PA-15]</fullName>
+        <district>15</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>To remove the authority of the Secretary of Energy to amend or issue new energy efficiency standards for ceiling fans.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To remove the authority of the Secretary of Energy to amend or issue new energy efficiency standards for ceiling fans.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Marsha</firstName>
+        <district>7</district>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Blackburn</lastName>
+        <identifiers>
+          <lisID>1748</lisID>
+          <bioguideId>B001243</bioguideId>
+          <gpoId>8154</gpoId>
+        </identifiers>
+        <bioguideId>B001243</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Todd</firstName>
+        <district>4</district>
+        <fullName>Rep. Rokita, Todd [R-IN-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Rokita</lastName>
+        <identifiers>
+          <lisID>2017</lisID>
+          <bioguideId>R000592</bioguideId>
+          <gpoId>7943</gpoId>
+        </identifiers>
+        <bioguideId>R000592</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>IN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Paul</firstName>
+        <district>4</district>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Gosar</lastName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <bioguideId>G000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>AZ</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Charles</firstName>
+        <district>3</district>
+        <fullName>Rep. Fleischmann, Charles J. "Chuck" [R-TN-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Fleischmann</lastName>
+        <identifiers>
+          <lisID>2061</lisID>
+          <bioguideId>F000459</bioguideId>
+          <gpoId>8150</gpoId>
+        </identifiers>
+        <bioguideId>F000459</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J. "Chuck"</middleName>
+        <state>TN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>David</firstName>
+        <district>7</district>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Rouzer</lastName>
+        <identifiers>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+          <lisID>2256</lisID>
+        </identifiers>
+        <bioguideId>R000603</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NC</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>David</firstName>
+        <district>14</district>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Joyce</lastName>
+        <identifiers>
+          <lisID>2154</lisID>
+          <bioguideId>J000295</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>J000295</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <state>OH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>ANDER</firstName>
+        <district>4</district>
+        <fullName>Rep. Crenshaw, Ander [R-FL-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CRENSHAW</lastName>
+        <identifiers>
+          <lisID>1643</lisID>
+          <bioguideId>C001045</bioguideId>
+          <gpoId>7876</gpoId>
+        </identifiers>
+        <bioguideId>C001045</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Tim</firstName>
+        <district>18</district>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <identifiers>
+          <lisID>1744</lisID>
+          <gpoId>8723</gpoId>
+          <bioguideId>M001151</bioguideId>
+        </identifiers>
+        <bioguideId>M001151</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>PA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-15</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <district>4</district>
+        <fullName>Rep. Pompeo, Mike [R-KS-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Pompeo</lastName>
+        <identifiers>
+          <lisID>2022</lisID>
+          <bioguideId>P000602</bioguideId>
+          <gpoId>7952</gpoId>
+        </identifiers>
+        <bioguideId>P000602</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>KS</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>Chris</firstName>
+        <district>27</district>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Collins</lastName>
+        <identifiers>
+          <bioguideId>C001092</bioguideId>
+          <gpoId />
+          <lisID>2151</lisID>
+        </identifiers>
+        <bioguideId>C001092</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>NY</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DENT:H.R. 3072.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the U.S. Constitution.[Page H5237]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Department of Energy</name>
+          </item>
+          <item>
+            <name>Energy efficiency and conservation</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-07-17T15:27:01Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Energy and Power Subcommittee</name>
+              <systemCode>hsif03</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-15T14:03:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-17</actionDate>
+      <text>Referred to the Subcommittee on Energy and Power.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>A bill to remove the authority of the Secretary of Energy to amend or issue new energy efficiency standards for ceiling fans.</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1048</number>
+        <latestAction>
+          <actionDate>2015-04-30</actionDate>
+          <text>Committee on Energy and Natural Resources. Hearings held.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>To remove the authority of the Secretary of Energy to amend or issue new energy efficiency standards for ceiling fans.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p>This bill amends the Energy Policy and Conservation Act to eliminate the Department of Energy's authority to: (1) amend energy efficiency standards for ceiling fan light kits, and (2) issue energy efficiency or energy use standards for electricity used by ceiling fans to circulate air in a room.</p>]]></text>
+          <lastSummaryUpdateDate>2016-06-22T17:19:34Z</lastSummaryUpdateDate>
+          <updateDate>2015-07-15T04:00:00Z</updateDate>
+          <actionDate>2015-07-15</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3072</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <latestAction>
+      <links/>
+      <actionDate>2017-10-16</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+    </latestAction>
+    <calendarNumbers/>
+    <congress>115</congress>
+    <recordedVotes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Crime and Law Enforcement</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Prescription drugs</name>
+          </item>
+          <item>
+            <name>Retail and wholesale trades</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cboCostEstimates/>
+    <createDate>2017-10-17T00:26:20Z</createDate>
+    <committeeReports/>
+    <updateDate>2017-10-25T05:55:01Z</updateDate>
+    <introducedDate>2017-10-16</introducedDate>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <originChamber>Senate</originChamber>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-10-16</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <committee/>
+        <actionDate>2017-10-16</actionDate>
+        <text>Introduced in Senate</text>
+        <links/>
+      </item>
+    </actions>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <name>Judiciary Committee</name>
+          <type>Standing</type>
+          <systemCode>ssju00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-16T21:04:21Z</date>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <notes/>
+    <version>1.0.0</version>
+    <title>A bill to repeal the amendments made to the Controlled Substances Act by the Ensuring Patient Access and Effective Drug Enforcement Act of 2016.</title>
+    <laws/>
+    <sponsors>
+      <item>
+        <byRequestType/>
+        <firstName>Claire</firstName>
+        <party>D</party>
+        <lastName>McCaskill</lastName>
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+        <bioguideId>M001170</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>1820</lisID>
+          <gpoId>8252</gpoId>
+          <bioguideId>M001170</bioguideId>
+        </identifiers>
+        <state>MO</state>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <firstName>Joe</firstName>
+        <identifiers>
+          <bioguideId>M001183</bioguideId>
+          <lisID>1983</lisID>
+          <gpoId>8256</gpoId>
+        </identifiers>
+        <middleName/>
+        <lastName>Manchin</lastName>
+        <sponsorshipDate>2017-10-16</sponsorshipDate>
+        <bioguideId>M001183</bioguideId>
+        <fullName>Sen. Manchin, Joe, III [D-WV]</fullName>
+        <state>WV</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>Margaret</firstName>
+        <identifiers>
+          <lisID>2302</lisID>
+          <gpoId/>
+          <bioguideId>H001076</bioguideId>
+        </identifiers>
+        <middleName>Wood</middleName>
+        <lastName>Hassan</lastName>
+        <sponsorshipDate>2017-10-16</sponsorshipDate>
+        <bioguideId>H001076</bioguideId>
+        <fullName>Sen. Hassan, Margaret Wood [D-NH]</fullName>
+        <state>NH</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>Amy</firstName>
+        <identifiers>
+          <lisID>1826</lisID>
+          <bioguideId>K000367</bioguideId>
+          <gpoId>8249</gpoId>
+        </identifiers>
+        <middleName/>
+        <lastName>Klobuchar</lastName>
+        <sponsorshipDate>2017-10-17</sponsorshipDate>
+        <bioguideId>K000367</bioguideId>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <state>MN</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>Kirsten</firstName>
+        <identifiers>
+          <lisID>1866</lisID>
+          <bioguideId>G000555</bioguideId>
+          <gpoId>8336</gpoId>
+        </identifiers>
+        <middleName>E.</middleName>
+        <lastName>Gillibrand</lastName>
+        <sponsorshipDate>2017-10-18</sponsorshipDate>
+        <bioguideId>G000555</bioguideId>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <state>NY</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>TAMMY</firstName>
+        <identifiers>
+          <lisID>1558</lisID>
+          <gpoId>8215</gpoId>
+          <bioguideId>B001230</bioguideId>
+        </identifiers>
+        <middleName/>
+        <lastName>BALDWIN</lastName>
+        <sponsorshipDate>2017-10-18</sponsorshipDate>
+        <bioguideId>B001230</bioguideId>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <state>WI</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>Jeanne</firstName>
+        <identifiers>
+          <lisID>1901</lisID>
+          <bioguideId>S001181</bioguideId>
+          <gpoId>8276</gpoId>
+        </identifiers>
+        <middleName/>
+        <lastName>Shaheen</lastName>
+        <sponsorshipDate>2017-10-19</sponsorshipDate>
+        <bioguideId>S001181</bioguideId>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <state>NH</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>Bob</firstName>
+        <identifiers>
+          <lisID>1828</lisID>
+          <gpoId>8282</gpoId>
+          <bioguideId>C001070</bioguideId>
+        </identifiers>
+        <middleName/>
+        <lastName>Casey</lastName>
+        <sponsorshipDate>2017-10-19</sponsorshipDate>
+        <bioguideId>C001070</bioguideId>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <state>PA</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>RICHARD</firstName>
+        <identifiers>
+          <lisID>326</lisID>
+          <bioguideId>D000563</bioguideId>
+          <gpoId>8326</gpoId>
+        </identifiers>
+        <middleName>J.</middleName>
+        <lastName>DURBIN</lastName>
+        <sponsorshipDate>2017-10-19</sponsorshipDate>
+        <bioguideId>D000563</bioguideId>
+        <fullName>Sen. Durbin, Richard J. [D-IL]</fullName>
+        <state>IL</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+      <item>
+        <firstName>EDWARD</firstName>
+        <identifiers>
+          <lisID>735</lisID>
+          <gpoId>7972</gpoId>
+          <bioguideId>M000133</bioguideId>
+        </identifiers>
+        <middleName>J.</middleName>
+        <lastName>MARKEY</lastName>
+        <sponsorshipDate>2017-10-24</sponsorshipDate>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+        <state>MA</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <title>A bill to repeal the amendments made to the Controlled Substances Act by the Ensuring Patient Access and Effective Drug Enforcement Act of 2016.</title>
+      </item>
+      <item>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <title>A bill to repeal the amendments made to the Controlled Substances Act by the Ensuring Patient Access and Effective Drug Enforcement Act of 2016.</title>
+      </item>
+    </titles>
+    <billType>S</billType>
+    <billNumber>1960</billNumber>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <number>4084</number>
+        <latestAction>
+          <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+          <actionDate>2017-10-19</actionDate>
+        </latestAction>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <latestTitle>To repeal the amendments made to the Controlled Substances Act by the Ensuring Patient Access and Effective Drug Enforcement Act of 2016.</latestTitle>
+      </item>
+    </relatedBills>
+    <amendments/>
+    <policyArea>
+      <name>Crime and Law Enforcement</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

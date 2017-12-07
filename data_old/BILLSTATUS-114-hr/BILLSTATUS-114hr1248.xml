@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-03-05</actionDate>
+        <committee>
+          <systemCode>hspw07</systemCode>
+          <name>Coast Guard and Maritime Transportation Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-03-04</actionDate>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <committee>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-03-04</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-03-04</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <bioguideId>C001049</bioguideId>
+        <middleName>LACY</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Clay, Wm. Lacy [D-MO-1]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <gpoId>8009</gpoId>
+          <lisID>1654</lisID>
+          <bioguideId>C001049</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>WM.</firstName>
+        <lastName>CLAY</lastName>
+        <state>MO</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>M001184</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>2094</lisID>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Thomas</firstName>
+        <lastName>Massie</lastName>
+        <state>KY</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>G000563</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Gibbs, Bob [R-OH-7]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>2049</lisID>
+          <gpoId>8108</gpoId>
+          <bioguideId>G000563</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Bob</firstName>
+        <lastName>Gibbs</lastName>
+        <state>OH</state>
+        <district>7</district>
+      </item>
+      <item>
+        <bioguideId>J000292</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <bioguideId>J000292</bioguideId>
+          <gpoId>8096</gpoId>
+          <lisID>2046</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Bill</firstName>
+        <lastName>Johnson</lastName>
+        <state>OH</state>
+        <district>6</district>
+      </item>
+      <item>
+        <bioguideId>L000566</bioguideId>
+        <middleName>E.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Latta, Robert E. [R-OH-5]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <gpoId>8095</gpoId>
+          <lisID>1885</lisID>
+          <bioguideId>L000566</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Robert</firstName>
+        <lastName>Latta</lastName>
+        <state>OH</state>
+        <district>5</district>
+      </item>
+      <item>
+        <bioguideId>S001187</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Stivers, Steve [R-OH-15]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>2047</lisID>
+          <bioguideId>S001187</bioguideId>
+          <gpoId>8105</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Steve</firstName>
+        <lastName>Stivers</lastName>
+        <state>OH</state>
+        <district>15</district>
+      </item>
+      <item>
+        <bioguideId>T000462</bioguideId>
+        <middleName>J.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Tiberi, Patrick J. [R-OH-12]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>1664</lisID>
+          <bioguideId>T000462</bioguideId>
+          <gpoId>8102</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>PATRICK</firstName>
+        <lastName>TIBERI</lastName>
+        <state>OH</state>
+        <district>12</district>
+      </item>
+      <item>
+        <bioguideId>W000815</bioguideId>
+        <middleName>R.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Wenstrup, Brad R. [R-OH-2]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <bioguideId>W000815</bioguideId>
+          <gpoId />
+          <lisID>2152</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Brad</firstName>
+        <lastName>Wenstrup</lastName>
+        <state>OH</state>
+        <district>2</district>
+      </item>
+      <item>
+        <bioguideId>W000413</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Whitfield, Ed [R-KY-1]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>1222</lisID>
+          <bioguideId>W000413</bioguideId>
+          <gpoId>7953</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>EDWARD</firstName>
+        <lastName>WHITFIELD</lastName>
+        <state>KY</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>M001180</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. McKinley, David B. [R-WV-1]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>2074</lisID>
+          <bioguideId>M001180</bioguideId>
+          <gpoId>8222</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>David</firstName>
+        <lastName>McKinley</lastName>
+        <state>WV</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>R000586</bioguideId>
+        <middleName>B.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <lisID>2048</lisID>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>James</firstName>
+        <lastName>Renacci</lastName>
+        <state>OH</state>
+        <district>16</district>
+      </item>
+      <item>
+        <bioguideId>J000295</bioguideId>
+        <middleName>P.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <bioguideId>J000295</bioguideId>
+          <gpoId />
+          <lisID>2154</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>David</firstName>
+        <lastName>Joyce</lastName>
+        <state>OH</state>
+        <district>14</district>
+      </item>
+      <item>
+        <bioguideId>C001068</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <sponsorshipDate>2015-03-04</sponsorshipDate>
+        <identifiers>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <state>TN</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>T000463</bioguideId>
+        <middleName>R.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Turner, Michael R. [R-OH-10]</fullName>
+        <sponsorshipDate>2015-03-16</sponsorshipDate>
+        <identifiers>
+          <bioguideId>T000463</bioguideId>
+          <gpoId>8093</gpoId>
+          <lisID>1741</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Michael</firstName>
+        <lastName>Turner</lastName>
+        <state>OH</state>
+        <district>10</district>
+      </item>
+      <item>
+        <bioguideId>Y000064</bioguideId>
+        <middleName>C.</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Young, Todd C. [R-IN-9]</fullName>
+        <sponsorshipDate>2015-03-16</sponsorshipDate>
+        <identifiers>
+          <lisID>2019</lisID>
+          <bioguideId>Y000064</bioguideId>
+          <gpoId>7948</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Todd</firstName>
+        <lastName>Young</lastName>
+        <state>IN</state>
+        <district>9</district>
+      </item>
+      <item>
+        <bioguideId>C001087</bioguideId>
+        <middleName>A. "Rick"</middleName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Crawford, Eric A. "Rick" [R-AR-1]</fullName>
+        <sponsorshipDate>2015-07-07</sponsorshipDate>
+        <identifiers>
+          <lisID>1989</lisID>
+          <gpoId>7793</gpoId>
+          <bioguideId>C001087</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Eric</firstName>
+        <lastName>Crawford</lastName>
+        <state>AR</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>B001294</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Blum, Rod [R-IA-1]</fullName>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <identifiers>
+          <gpoId />
+          <lisID>2241</lisID>
+          <bioguideId>B001294</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Rod</firstName>
+        <lastName>Blum</lastName>
+        <state>IA</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>L000569</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Luetkemeyer, Blaine [R-MO-3]</fullName>
+        <sponsorshipDate>2015-09-10</sponsorshipDate>
+        <identifiers>
+          <lisID>1931</lisID>
+          <bioguideId>L000569</bioguideId>
+          <gpoId>8017</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Blaine</firstName>
+        <lastName>Luetkemeyer</lastName>
+        <state>MO</state>
+        <district>3</district>
+      </item>
+      <item>
+        <bioguideId>G000546</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <sponsorshipDate>2015-10-16</sponsorshipDate>
+        <identifiers>
+          <bioguideId>G000546</bioguideId>
+          <gpoId>8014</gpoId>
+          <lisID>1656</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>SAM</firstName>
+        <lastName>GRAVES</lastName>
+        <state>MO</state>
+        <district>6</district>
+      </item>
+      <item>
+        <bioguideId>D000616</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. DesJarlais, Scott [R-TN-4]</fullName>
+        <sponsorshipDate>2015-10-22</sponsorshipDate>
+        <identifiers>
+          <lisID>2062</lisID>
+          <bioguideId>D000616</bioguideId>
+          <gpoId>8151</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Scott</firstName>
+        <lastName>DesJarlais</lastName>
+        <state>TN</state>
+        <district>4</district>
+      </item>
+      <item>
+        <bioguideId>S001195</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Smith, Jason [R-MO-8]</fullName>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <identifiers>
+          <lisID>2191</lisID>
+          <bioguideId>S001195</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Jason</firstName>
+        <lastName>Smith</lastName>
+        <state>MO</state>
+        <district>8</district>
+      </item>
+      <item>
+        <bioguideId>T000193</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Thompson, Bennie G. [D-MS-2]</fullName>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <identifiers>
+          <lisID>1151</lisID>
+          <bioguideId>T000193</bioguideId>
+          <gpoId>8020</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>D</party>
+        <firstName>BENNIE</firstName>
+        <lastName>THOMPSON</lastName>
+        <state>MS</state>
+        <district>2</district>
+      </item>
+      <item>
+        <bioguideId>S000051</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Sanford, Mark [R-SC-1]</fullName>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <identifiers>
+          <bioguideId>S000051</bioguideId>
+          <gpoId />
+          <lisID>1012</lisID>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Sanford</lastName>
+        <state>SC</state>
+        <district>1</district>
+      </item>
+      <item>
+        <bioguideId>W000821</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Westerman, Bruce [R-AR-4]</fullName>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <identifiers>
+          <lisID>2224</lisID>
+          <gpoId />
+          <bioguideId>W000821</bioguideId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Bruce</firstName>
+        <lastName>Westerman</lastName>
+        <state>AR</state>
+        <district>4</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-03-04</introducedDate>
+    <latestAction>
+      <actionDate>2015-03-05</actionDate>
+      <text>Referred to the Subcommittee on Coast Guard and Maritime Transportation.</text>
+      <links />
+    </latestAction>
+    <billNumber>1248</billNumber>
+    <titles>
+      <item>
+        <title>To amend title 46, United States Code, to exempt old vessels that only operate within inland waterways from the fire-retardant materials requirement if the owners of such vessels make annual structural alterations to at least 10 percent of the areas of the vessels that are not constructed of fire-retardant materials.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>To amend title 46, United States Code, to exempt old vessels that only operate within inland waterways from the fire-retardant materials requirement if the owners of such vessels make annual structural alterations to at least 10 percent of the areas of the vessels that are not constructed of fire-retardant materials.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. CHABOT:H.R. 1248.Congress has the power to enact this legislation pursuantto the following:This legislation is enacted by Congressional Authorityexpressed in Article I, Section 8, Clause 3 of the UnitedStates Constitution.[Page H1615]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To amend title 46, United States Code, to exempt old vessels that only operate within inland waterways from the fire-retardant materials requirement if the owners of such vessels make annual structural alterations to at least 10 percent of the areas of the vessels that are not constructed of fire-retardant materials.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-03-13T19:54:10Z</lastSummaryUpdateDate>
+          <actionDate>2015-03-04</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-03-04T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p>Amends federal shipping law to extend through October 31, 2028, the exemption of certain vessels from the requirement that U.S. passenger vessels having berth or stateroom accommodations for at least 50 passengers be constructed of fire-retardant materials in order to be granted a certificate of inspection.</p> <p>Continues to apply this exemption only to vessels in operation before January 1, 1968, which operate only within the Boundary Line (the dividing point between inland waters and high seas).</p> <p>Requires the owner or managing operator of an exempt vessel to: </p> <ul> <li>notify crew members that the vessel does not comply with applicable fire safety standards due primarily to the wooden construction of passenger berthing areas, and</li> <li>make annual structural alterations to at least 10% of vessel areas that are not constructed of fire-retardant materials.</li> </ul> <p>Requires any noncombustible material requirements prescribed by the Coast Guard (with which an exempt vessel is still required to comply) to be consistent with the preservation of a vessel's historic integrity in areas carrying or accessible to passengers or generally visible to the public.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>A bill to amend title 46, United States Code, to exempt old vessels that only operate within inland waterways from the fire-retardant materials requirement if the owners of such vessels make annual structural alterations to at least 10 percent of the areas of the vessels that are not constructed of fire-retardant materials.</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1717</number>
+        <latestAction>
+          <actionDate>2016-10-27</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 658.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-03-05T22:46:27Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Coast Guard and Maritime Transportation Subcommittee</name>
+              <systemCode>hspw07</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-03-04T15:00:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:07Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Fires</name>
+          </item>
+          <item>
+            <name>Marine and inland water transportation</name>
+          </item>
+          <item>
+            <name>Transportation employees</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+          <item>
+            <name>Worker safety and health</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-03-05T05:59:24Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Chabot, Steve [R-OH-1]</fullName>
+        <state>OH</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>CHABOT</lastName>
+        <firstName>STEVE</firstName>
+        <bioguideId>C000266</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>186</lisID>
+          <bioguideId>C000266</bioguideId>
+          <gpoId>8091</gpoId>
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

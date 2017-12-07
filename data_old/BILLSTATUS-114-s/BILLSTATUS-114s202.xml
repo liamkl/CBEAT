@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <middleName>R.</middleName>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <state>VA</state>
+        <bioguideId>W000805</bioguideId>
+        <lastName>Warner</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+        <sponsorshipDate>2015-06-03</sponsorshipDate>
+        <identifiers>
+          <lisID>1897</lisID>
+          <bioguideId>W000805</bioguideId>
+          <gpoId>8269</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <middleName />
+        <party>R</party>
+        <firstName>David</firstName>
+        <state>LA</state>
+        <bioguideId>V000127</bioguideId>
+        <lastName>Vitter</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <sponsorshipDate>2015-06-04</sponsorshipDate>
+        <identifiers>
+          <lisID>1609</lisID>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <titles>
+      <item>
+        <title>A bill to provide for a technical change to the Medicare long-term care hospital moratorium exception.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>A bill to provide for a technical change to the Medicare long-term care hospital moratorium exception.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>Senate</originChamber>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-01-21</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>S349</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S349</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S349)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-01-21</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <notes />
+    <committeeReports />
+    <updateDate>2017-10-27T18:07:56Z</updateDate>
+    <billNumber>202</billNumber>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S349)</text>
+      <actionDate>2015-01-21</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2015-01-21</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1692</lisID>
+          <bioguideId>C001056</bioguideId>
+          <gpoId>8295</gpoId>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>C001056</bioguideId>
+        <state>TX</state>
+        <firstName>John</firstName>
+        <lastName>Cornyn</lastName>
+        <middleName />
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+      </item>
+    </sponsors>
+    <billType>S</billType>
+    <createDate>2015-01-22T10:02:12Z</createDate>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>441</number>
+        <congress>114</congress>
+        <latestTitle>To provide for a technical change to the Medicare long-term care hospital moratorium exception.</latestTitle>
+        <latestAction>
+          <actionDate>2015-02-27</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>5273</number>
+        <congress>114</congress>
+        <latestTitle>Helping Hospitals Improve Patient Care Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-06-08</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>34</number>
+        <congress>114</congress>
+        <latestTitle>21st Century Cures Act</latestTitle>
+        <latestAction>
+          <actionDate>2016-12-13</actionDate>
+          <text>Became Public Law No: 114-255.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Hospital care</name>
+          </item>
+          <item>
+            <name>Long-term, rehabilitative, and terminal care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <title>A bill to provide for a technical change to the Medicare long-term care hospital moratorium exception.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-01-21</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-01-21T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p>This bill amends the Medicare, Medicaid, and SCHIP Extension Act of 2007, as amended by other specified federal law, with respect to the five-year moratorium begining April 1, 2014, on the establishment of long-term care (LTC) hospitals and LTC satellite facilities and on the increase of LTC hospital beds in existing LTC hospitals or satellite facilities for purposes of title XVIII (Medicare) of the Social Security Act.</p> <p>A technical correction is made to an exception to this moratorium for certain LTC hospitals that:</p> <ul> <li>began their qualifying period for Medicare payment on or before April 1, 2014;</li> <li>have a binding written agreement as of that date with an outside, unrelated party for the actual construction, renovation, lease, or demolition for an LTC hospital, and have expended, before that date, at least 10% of the project's estimated cost (or, if less, $ 2.5 million); or</li> <li>have obtained on or before that date an approved certificate of need in a state where one is required.</li> </ul> <p>This bill applies the exception to any similar moratorium.</p>]]></text>
+          <lastSummaryUpdateDate>2015-02-02T21:08:03Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-01-21T16:40:33Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

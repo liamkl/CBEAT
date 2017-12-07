@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Financial Services Committee</name>
+          <systemCode>hsba00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Financial Services.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:46Z</updateDate>
+    <introducedDate>2015-07-16</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-17T09:23:44Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Justin</firstName>
+        <lastName>Amash</lastName>
+        <state>MI</state>
+        <bioguideId>A000367</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2029</lisID>
+          <bioguideId>A000367</bioguideId>
+          <gpoId>7988</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Amash, Justin [R-MI-3]</fullName>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Finance and Financial Sector</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Commemorative Coins Reform Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To prohibit the payment of surcharges for commemorative coin programs to private organizations or entities, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Commemorative Coins Reform Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>R000587</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>2073</lisID>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+        </identifiers>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <party>R</party>
+        <firstName>Reid</firstName>
+        <lastName>Ribble</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>8</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>M001182</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <lisID>2059</lisID>
+          <gpoId>8145</gpoId>
+          <bioguideId>M001182</bioguideId>
+        </identifiers>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <party>R</party>
+        <firstName>Mick</firstName>
+        <lastName>Mulvaney</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>J000289</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>J000289</bioguideId>
+          <gpoId>8094</gpoId>
+          <lisID>1868</lisID>
+        </identifiers>
+        <fullName>Rep. Jordan, Jim [R-OH-4]</fullName>
+        <party>R</party>
+        <firstName>Jim</firstName>
+        <lastName>Jordan</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>L000573</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>ID</state>
+        <middleName>R.</middleName>
+        <identifiers>
+          <lisID>2011</lisID>
+          <gpoId>7919</gpoId>
+          <bioguideId>L000573</bioguideId>
+        </identifiers>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <party>R</party>
+        <firstName>Raul</firstName>
+        <lastName>Labrador</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>M001184</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>KY</state>
+        <middleName />
+        <identifiers>
+          <lisID>2094</lisID>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+        </identifiers>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <party>R</party>
+        <firstName>Thomas</firstName>
+        <lastName>Massie</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>D000615</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <gpoId>8143</gpoId>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+        </identifiers>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <party>R</party>
+        <firstName>Jeff</firstName>
+        <lastName>Duncan</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>G000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <party>R</party>
+        <firstName>Paul</firstName>
+        <lastName>Gosar</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>B001283</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OK</state>
+        <middleName />
+        <identifiers>
+          <lisID>2155</lisID>
+          <gpoId />
+          <bioguideId>B001283</bioguideId>
+        </identifiers>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <party>R</party>
+        <firstName>Jim</firstName>
+        <lastName>Bridenstine</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>L000583</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <middleName />
+        <identifiers>
+          <lisID>2238</lisID>
+          <bioguideId>L000583</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Loudermilk, Barry [R-GA-11]</fullName>
+        <party>R</party>
+        <firstName>Barry</firstName>
+        <lastName>Loudermilk</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>11</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>S000051</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <lisID>1012</lisID>
+          <bioguideId>S000051</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Sanford, Mark [R-SC-1]</fullName>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Sanford</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>B001297</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>B001297</bioguideId>
+          <gpoId />
+          <lisID>2233</lisID>
+        </identifiers>
+        <fullName>Rep. Buck, Ken [R-CO-4]</fullName>
+        <party>R</party>
+        <firstName>Ken</firstName>
+        <lastName>Buck</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>B001290</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <middleName />
+        <identifiers>
+          <lisID>2203</lisID>
+          <bioguideId>B001290</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Brat, Dave [R-VA-7]</fullName>
+        <party>R</party>
+        <firstName>Dave</firstName>
+        <lastName>Brat</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>C001076</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>UT</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>C001076</bioguideId>
+          <gpoId>8191</gpoId>
+          <lisID>1956</lisID>
+        </identifiers>
+        <fullName>Rep. Chaffetz, Jason [R-UT-3]</fullName>
+        <party>R</party>
+        <firstName>Jason</firstName>
+        <lastName>Chaffetz</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>M001187</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>M001187</bioguideId>
+          <gpoId />
+          <lisID>2142</lisID>
+        </identifiers>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Meadows</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>11</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>P000605</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>PA</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>P000605</bioguideId>
+          <gpoId />
+          <lisID>2157</lisID>
+        </identifiers>
+        <fullName>Rep. Perry, Scott [R-PA-4]</fullName>
+        <party>R</party>
+        <firstName>Scott</firstName>
+        <lastName>Perry</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. AMASH:H.R. 3097.Congress has the power to enact this legislation pursuantto the following:Acticle 1, Section 8, clause 5 empowers Congress ``To coinMoney, [and] regulate the Value thereof.'' Congress currentlyauthorizes the minting of commemorative coins, and this billdirects the proceeds of the minting.[Page H5292]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Commemorative events and holidays</name>
+          </item>
+          <item>
+            <name>Currency</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>User charges and fees</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Finance and Financial Sector</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Financial Services Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-07-16T13:00:16Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>hsba00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-07-16</actionDate>
+      <text>Referred to the House Committee on Financial Services.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Commemorative Coins Reform Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><strong>Commemorative Coins Reform Act of 2015</strong></p> <p> This bill prohibits surcharges generated by the sale of any numismatic item or commemorative coin program from being paid to a non-federal organization, except with respect to sales and production costs. </p> <p>Surcharges must be used to recover all numismatic operation and program costs allocable to the program under which a numismatic item is produced and sold.</p> <p>Any excess surcharges must be transferred to the general fund of the Treasury for deficit reduction purposes.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-07-16T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-11-04T16:06:13Z</lastSummaryUpdateDate>
+          <actionDate>2015-07-16</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>3097</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

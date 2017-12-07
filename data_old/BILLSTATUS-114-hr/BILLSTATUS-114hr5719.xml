@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes>
+      <recordedVote>
+        <rollNumber>544</rollNumber>
+        <date>2016-09-22T21:03:34Z</date>
+        <url>http://clerk.house.gov/evs/2016/roll544.xml</url>
+        <sessionNumber>2</sessionNumber>
+        <congress>114</congress>
+        <fullActionName>Passage of a Measure</fullActionName>
+        <chamber>House</chamber>
+      </recordedVote>
+    </recordedVotes>
+    <actions>
+      <actionTypeCounts>
+        <ruleForConsiderationOfBillReportedToHouse>1</ruleForConsiderationOfBillReportedToHouse>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <actionStageOverride>1</actionStageOverride>
+        <placeholderTextForH>1</placeholderTextForH>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <placeholderTextForHL>1</placeholderTextForHL>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <billReferrals>1</billReferrals>
+        <generalDebate>3</generalDebate>
+        <introducedInSenate>1</introducedInSenate>
+        <reportedToHouse>1</reportedToHouse>
+        <motionForPreviousQuestion>1</motionForPreviousQuestion>
+        <passageOfAMeasure>1</passageOfAMeasure>
+        <considerationByHouse>2</considerationByHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>19</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-09-26</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links />
+        <actionCode>H38310</actionCode>
+        <type>Floor</type>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>17:03:36</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H5822-5824</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5822-5824</url>
+          </link>
+          <link>
+            <name>Roll no. 544</name>
+            <url>http://clerk.house.gov/evs/2016/roll544.xml</url>
+          </link>
+        </links>
+        <actionCode>H37100</actionCode>
+        <type>Floor</type>
+        <text>On passage Passed by the Yeas and Nays: 287 - 124 (Roll no. 544). (text of amendment in the nature of a substitute: CR H5822-5824)</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>17:03:34</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>Roll no. 544</name>
+            <url>http://clerk.house.gov/evs/2016/roll544.xml</url>
+          </link>
+        </links>
+        <actionCode>8000</actionCode>
+        <type>Floor</type>
+        <text>Passed/agreed to in House: On passage Passed by the Yeas and Nays: 287 - 124 (Roll no. 544).</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionTime>17:03:34</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H5719-5835</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5719-5835</url>
+          </link>
+        </links>
+        <actionCode>H30000</actionCode>
+        <type>Floor</type>
+        <text>Considered as unfinished business. (consideration: CR H5719-5835)</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>16:57:12</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H.R. 5719</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/5719</url>
+          </link>
+        </links>
+        <actionCode>H8D000</actionCode>
+        <type>Floor</type>
+        <text>POSTPONED PROCEEDINGS - At the conclusion of debate on H.R. 5719, the Chair put the question on passage and by voice vote, announced that the ayes had prevailed. Mr. Crowley demanded the yeas and nays and the Chair postponed further proceedings on passage of the bill until a time to be announced.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>14:02:46</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H5829</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5829</url>
+          </link>
+        </links>
+        <actionCode>H35000</actionCode>
+        <type>Floor</type>
+        <text>The previous question was ordered pursuant to the rule. (consideration: CR H5829)</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>14:02:25</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H.R. 5719</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/5719</url>
+          </link>
+        </links>
+        <actionCode>H8D000</actionCode>
+        <type>Floor</type>
+        <text>DEBATE - The House proceeded with one hour of debate on H.R. 5719.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>13:17:38</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H.R. 3438</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/3438</url>
+          </link>
+          <link>
+            <name>H.R. 5719</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/5719</url>
+          </link>
+        </links>
+        <actionCode>H8D000</actionCode>
+        <type>Floor</type>
+        <text>Rule provides for consideration of H.R. 3438 and H.R. 5719. The resolution provides for one hour of general debate on H.R. 3438 and H.R. 5719. The resolution provides that it shall be in order at any time on the legislative day of September 22, 2016 or September 23, 2016, for the Speaker to entertain motions that the House suspend the rules.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>13:12:54</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-22</actionDate>
+        <links>
+          <link>
+            <name>H. Res. 875</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-resolution/875</url>
+          </link>
+          <link>
+            <name>H5822-5830</name>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H5822-5830</url>
+          </link>
+        </links>
+        <actionCode>H30000</actionCode>
+        <type>Floor</type>
+        <text>Considered under the provisions of rule H. Res. 875. (consideration: CR H5822-5830)</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>13:12:49</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-21</actionDate>
+        <links>
+          <link>
+            <name>H. Res. 875</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-resolution/875</url>
+          </link>
+        </links>
+        <actionCode>H1L220</actionCode>
+        <type>Floor</type>
+        <text>Rule H. Res. 875 passed House.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>14:21:20</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-20</actionDate>
+        <links>
+          <link>
+            <name>H. Res. 875</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-resolution/875</url>
+          </link>
+          <link>
+            <name>H.R. 3438</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/3438</url>
+          </link>
+          <link>
+            <name>H.R. 5719</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/5719</url>
+          </link>
+        </links>
+        <actionCode>H1L210</actionCode>
+        <type>Floor</type>
+        <text>Rules Committee Resolution H. Res. 875 Reported to House. Rule provides for consideration of H.R. 3438 and H.R. 5719. The resolution provides for one hour of general debate on H.R. 3438 and H.R. 5719. The resolution provides that it shall be in order at any time on the legislative day of September 22, 2016 or September 23, 2016, for the Speaker to entertain motions that the House suspend the rules.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionTime>19:29:05</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-09-16</actionDate>
+        <links />
+        <actionCode>H12410</actionCode>
+        <type>Calendars</type>
+        <text>Placed on the Union Calendar, Calendar No. 581.</text>
+        <committee />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-09-16</actionDate>
+        <links>
+          <link>
+            <name>H. Rept. 114-748</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/748</url>
+          </link>
+        </links>
+        <actionCode>H12200</actionCode>
+        <type>Committee</type>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 114-748.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-09-16</actionDate>
+        <links>
+          <link>
+            <name>H. Rept. 114-748</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/748</url>
+          </link>
+        </links>
+        <actionCode>5000</actionCode>
+        <type>Committee</type>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 114-748.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-09-14</actionDate>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-09-14</actionDate>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-07-11</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-07-11</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2016-07-11</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 5719, Empowering Employees through Stock Ownership Act</title>
+        <pubDate>2016-09-19T12:04:00Z</pubDate>
+        <url>https://www.cbo.gov/publication/52031</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CROWLEY</lastName>
+        <middleName />
+        <district>14</district>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <identifiers>
+          <bioguideId>C001038</bioguideId>
+          <gpoId>8068</gpoId>
+          <lisID>1604</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001038</bioguideId>
+        <firstName>JOSEPH</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>ESHOO</lastName>
+        <middleName>G.</middleName>
+        <district>18</district>
+        <fullName>Rep. Eshoo, Anna G. [D-CA-18]</fullName>
+        <identifiers>
+          <lisID>355</lisID>
+          <bioguideId>E000215</bioguideId>
+          <gpoId>7819</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000215</bioguideId>
+        <firstName>ANNA</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Hultgren</lastName>
+        <middleName />
+        <district>14</district>
+        <fullName>Rep. Hultgren, Randy [R-IL-14]</fullName>
+        <identifiers>
+          <bioguideId>H001059</bioguideId>
+          <gpoId>7934</gpoId>
+          <lisID>2015</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-09-13</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001059</bioguideId>
+        <firstName>Randy</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-07-11</introducedDate>
+    <latestAction>
+      <actionDate>2016-09-26</actionDate>
+      <text>Received in the Senate.</text>
+      <links />
+    </latestAction>
+    <billNumber>5719</billNumber>
+    <titles>
+      <item>
+        <chamberName>House</chamberName>
+        <titleType>Short Titles as Passed House</titleType>
+        <chamberCode>H</chamberCode>
+        <title>Empowering Employees through Stock Ownership Act</title>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+      </item>
+      <item>
+        <chamberName>House</chamberName>
+        <titleType>Short Titles as Reported to House</titleType>
+        <chamberCode>H</chamberCode>
+        <title>Empowering Employees through Stock Ownership Act</title>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Empowering Employees through Stock Ownership Act</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Internal Revenue Code of 1986 to modify the tax treatment of certain equity grants.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Empowering Employees through Stock Ownership Act</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments>
+      <amendment>
+        <latestAction />
+        <congress>114</congress>
+        <type>HAMDT</type>
+        <number>1428</number>
+        <description />
+        <purpose>Pursuant to the provisions of H.Res. 875 the amendment in the nature of a substitute recommended by the Committee on Ways and Means and printed in the bill is considered as adopted.</purpose>
+        <purpose>Pursuant to the provisions of H.Res. 875 the amendment in the nature of a substitute recommended by the Committee on Ways and Means and printed in the bill is considered as adopted.</purpose>
+        <number>1428</number>
+        <createDate>2016-09-23T09:26:02Z</createDate>
+        <type>HAMDT</type>
+        <updateDate>2017-10-27T18:05:44Z</updateDate>
+        <actions>
+          <actionTypeCounts>
+            <houseAmendmentOffered>1</houseAmendmentOffered>
+          </actionTypeCounts>
+          <actions>
+            <item>
+              <actionDate>2016-09-22</actionDate>
+              <committee />
+              <links />
+              <text />
+            </item>
+            <item>
+              <actionCode>71000</actionCode>
+              <sourceSystem>
+                <name>Library of Congress</name>
+                <code>9</code>
+              </sourceSystem>
+              <committee />
+              <links />
+              <type>Floor</type>
+              <actionDate>2016-09-22</actionDate>
+              <text>House amendment offered</text>
+            </item>
+          </actions>
+          <actionByCounts>
+            <houseOfRepresentatives>1</houseOfRepresentatives>
+          </actionByCounts>
+          <count>2</count>
+        </actions>
+        <links />
+        <version>1.0.0</version>
+        <chamber>House of Representatives</chamber>
+        <congress>114</congress>
+        <sponsors>
+          <item>
+            <name>Rules Committee</name>
+          </item>
+        </sponsors>
+        <submittedDate>2016-09-22T04:00:00Z</submittedDate>
+        <cosponsors>
+          <currentCount>0</currentCount>
+          <totalCount>0</totalCount>
+        </cosponsors>
+        <titles />
+        <amendments>
+          <count>0</count>
+        </amendments>
+        <amendedAmendment />
+        <amendedBill>
+          <number>5719</number>
+          <congress>114</congress>
+          <type>HR</type>
+          <originChamber>House</originChamber>
+          <originChamberCode>H</originChamberCode>
+          <title>Empowering Employees through Stock Ownership Act</title>
+        </amendedBill>
+        <proposedDate />
+        <notes />
+        <description />
+      </amendment>
+    </amendments>
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PAULSEN:H.R. 5719.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the United States Constitution.[Page H4660]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers>
+      <item>
+        <number />
+        <calendar>U00581</calendar>
+      </item>
+    </calendarNumbers>
+    <title>Empowering Employees through Stock Ownership Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2016-07-11</actionDate>
+          <lastSummaryUpdateDate>2016-11-03T20:22:32Z</lastSummaryUpdateDate>
+          <updateDate>2016-07-11T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Empowering Employees through Stock Ownership Act </b></p> <p>This bill amends the Internal Revenue Code to allow an employee to elect to defer, for income tax purposes, income attributable to certain stock transferred to the employee by an employer. </p> <p>The employee may defer the inclusion of income from the stock until the year that includes the earliest of the dates on which: </p> <ul> <li> the stock is sold, exchanged, or otherwise transferred; </li> <li> the employee becomes an excluded employee; </li> <li> stock of the corporation becomes readily tradable on an established securities market; </li> <li>seven years have passed after the rights of the employee in the stock are transferable or are not subject to a substantial risk of forfeiture, whichever occurs earlier; or </li> <li>the employee elects to include the amount in income. </li> </ul> <p>The stock must meet specified requirements and be transferred to the employee from an eligible corporation in connection with the performance of services as an employee. </p> <p>A corporation is eligible if: (1) no stock of the corporation is readily tradable on an established securities market during the year or any preceding year, and (2) it has a written plan under which at least 80% of all employees have the same rights and privileges to receive stock for the year. </p> <p>Employees are excluded if they are or have been: (1) a 1% owner, the chief executive officer, or the chief financial officer of the corporation; (2) a family member of the specified individuals; (3) or one of the four highest compensated officers of the corporation. </p> <p>The corporation transferring stock must notify employees regarding the option of deferring income and meet specified withholding and reporting requirements. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+        <item>
+          <name>Reported to House with amendment(s)</name>
+          <actionDate>2016-09-16</actionDate>
+          <lastSummaryUpdateDate>2016-11-03T19:30:42Z</lastSummaryUpdateDate>
+          <updateDate>2016-09-16T14:46:21Z</updateDate>
+          <versionCode>17</versionCode>
+          <text><![CDATA[<p><b>Empowering Employees through Stock Ownership Act </b></p> <p>(Sec. 2) This bill amends the Internal Revenue Code to allow an employee to elect to defer, for income tax purposes, income attributable to certain stock transferred to the employee by an employer. </p> <p>The employee may defer the inclusion of income from the stock until the year that includes the earliest of the dates on which: </p> <ul> <li> the stock becomes transferable; </li> <li> the employee becomes an excluded employee; </li> <li> stock of the corporation becomes readily tradable on an established securities market; </li> <li>seven years have passed after the rights of the employee in the stock are transferable or are not subject to a substantial risk of forfeiture, whichever occurs earlier; or </li> <li>the employee revokes the election with respect to the stock. </li> </ul> <p>The stock must meet specified requirements and be transferred to the employee from an eligible corporation in connection with the performance of services as an employee. </p> <p>A corporation is eligible if: (1) no stock of the corporation or a predecessor of the corporation is readily tradable on an established securities market during any preceding calendar year, and (2) it has a written plan under which at least 80% of all employees who provide services to the corporation in the United States (or a U.S. possession) are granted stock options, or restricted stock units, with the same rights and privileges to receive qualified stock.</p> <p>Employees are excluded if they: (1) are a 1% owner, the chief executive officer, or the chief financial officer of the corporation or have been at any time during the 10 preceding calendar years; (2) are a family member of the specified individuals; or (3) have been one of the four highest compensated officers of the corporation during any of the 10 preceding taxable years. </p> <p>The corporation transferring stock must notify employees regarding the option of deferring income and meet specified withholding and reporting requirements. </p>]]></text>
+          <actionDesc>Reported to House with amendment(s)</actionDesc>
+        </item>
+        <item>
+          <name>Passed House amended</name>
+          <actionDate>2016-09-22</actionDate>
+          <lastSummaryUpdateDate>2016-11-03T19:33:02Z</lastSummaryUpdateDate>
+          <updateDate>2016-09-22T13:15:25Z</updateDate>
+          <versionCode>36</versionCode>
+          <text><![CDATA[<p>(This measure has not been amended since it was reported to the House on September 16, 2016. The summary of that version is repeated here.)</p> <p><b>Empowering Employees through Stock Ownership Act </b></p> <p>(Sec. 2) This bill amends the Internal Revenue Code to allow an employee to elect to defer, for income tax purposes, income attributable to certain stock transferred to the employee by an employer. </p> <p>The employee may defer the inclusion of income from the stock until the year that includes the earliest of the dates on which: </p> <ul> <li> the stock becomes transferable; </li> <li> the employee becomes an excluded employee; </li> <li> stock of the corporation becomes readily tradable on an established securities market; </li> <li>seven years have passed after the rights of the employee in the stock are transferable or are not subject to a substantial risk of forfeiture, whichever occurs earlier; or </li> <li>the employee revokes the election with respect to the stock. </li> </ul> <p>The stock must meet specified requirements and be transferred to the employee from an eligible corporation in connection with the performance of services as an employee. </p> <p>A corporation is eligible if: (1) no stock of the corporation or a predecessor of the corporation is readily tradable on an established securities market during any preceding calendar year, and (2) it has a written plan under which at least 80% of all employees who provide services to the corporation in the United States (or a U.S. possession) are granted stock options, or restricted stock units, with the same rights and privileges to receive qualified stock.</p> <p>Employees are excluded if they: (1) are a 1% owner, the chief executive officer, or the chief financial officer of the corporation or have been at any time during the 10 preceding calendar years; (2) are a family member of the specified individuals; or (3) have been one of the four highest compensated officers of the corporation during any of the 10 preceding taxable years. </p> <p>The corporation transferring stock must notify employees regarding the option of deferring income and meet specified withholding and reporting requirements. </p>]]></text>
+          <actionDesc>Passed House amended</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>3152</number>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Finance.</text>
+          <actionDate>2016-07-11</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Empowering Employees through Stock Ownership Act</latestTitle>
+      </item>
+      <item>
+        <number>875</number>
+        <relationshipDetails>
+          <item>
+            <type>Procedurally-related</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+          <actionTime>14:21:21</actionTime>
+          <actionDate>2016-09-21</actionDate>
+        </latestAction>
+        <type>HRES</type>
+        <latestTitle>Providing for consideration of the bill (H.R. 3438) to amend title 5, United States Code, to postpone the effective date of high-impact rules pending judicial review; providing for consideration of the bill (H.R. 5719) to amend the Internal Revenue Code of 1986 to modify the tax treatment of certain equity grants; and providing for consideration of motions to suspend the rules.</latestTitle>
+      </item>
+      <item>
+        <number>3471</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 670.</text>
+          <actionDate>2016-11-16</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Retirement Enhancement and Savings Act of 2016</latestTitle>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2016-09-16T18:30:33Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2016-09-14T21:56:48Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-11T16:02:35Z</date>
+            </item>
+          </activities>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <subcommittees />
+          <systemCode>hswm00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-748</citation>
+      </committeeReport>
+    </committeeReports>
+    <updateDate>2017-10-27T18:05:44Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Corporate finance and management</name>
+          </item>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Income tax deferral</name>
+          </item>
+          <item>
+            <name>Income tax exclusion</name>
+          </item>
+          <item>
+            <name>Securities</name>
+          </item>
+          <item>
+            <name>Wages and earnings</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-07-12T05:43:12Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Paulsen, Erik [R-MN-3]</fullName>
+        <state>MN</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Paulsen</lastName>
+        <firstName>Erik</firstName>
+        <bioguideId>P000594</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1930</lisID>
+          <bioguideId>P000594</bioguideId>
+          <gpoId>8003</gpoId>
+        </identifiers>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

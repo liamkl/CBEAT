@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2017-10-04</actionDate>
+        <committee>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-09-12</actionDate>
+        <committee>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <committee/>
+        <actionDate>2017-09-12</actionDate>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links/>
+      </item>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <orderedReported>1</orderedReported>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <createDate>2017-09-13T07:56:22Z</createDate>
+    <version>1.0.0</version>
+    <notes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Markup by</name>
+              <date>2017-10-04T14:00:38Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-12T14:43:31Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <billNumber>1791</billNumber>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <identifiers>
+          <gpoId/>
+          <bioguideId>E000295</bioguideId>
+          <lisID>2283</lisID>
+        </identifiers>
+        <lastName>Ernst</lastName>
+        <bioguideId>E000295</bioguideId>
+        <fullName>Sen. Ernst, Joni  [R-IA]</fullName>
+        <state>IA</state>
+        <firstName>Joni</firstName>
+        <middleName/>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <introducedDate>2017-09-12</introducedDate>
+    <relatedBills>
+      <item>
+        <latestTitle>Presidential Allowance Modernization Act of 2017</latestTitle>
+        <number>3739</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <type>HR</type>
+        <congress>115</congress>
+        <latestAction>
+          <actionDate>2017-09-13</actionDate>
+          <text>Ordered to be Reported by Voice Vote.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <originChamber>Senate</originChamber>
+    <billType>S</billType>
+    <title>Presidential Allowance Modernization Act of 2017</title>
+    <calendarNumbers/>
+    <recordedVotes/>
+    <amendments/>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <updateDate>2017-10-05T04:34:09Z</updateDate>
+    <cboCostEstimates/>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <latestAction>
+      <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+      <actionDate>2017-10-04</actionDate>
+      <links/>
+    </latestAction>
+    <cosponsors>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Enzi, Michael B. [R-WY]</fullName>
+        <identifiers>
+          <bioguideId>E000285</bioguideId>
+          <lisID>1542</lisID>
+          <gpoId>8328</gpoId>
+        </identifiers>
+        <lastName>ENZI</lastName>
+        <bioguideId>E000285</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <party>R</party>
+        <state>WY</state>
+        <firstName>MICHAEL</firstName>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2017-09-12</sponsorshipDate>
+      </item>
+      <item>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Fischer, Deb [R-NE]</fullName>
+        <identifiers>
+          <gpoId/>
+          <lisID>2179</lisID>
+          <bioguideId>F000463</bioguideId>
+        </identifiers>
+        <lastName>Fischer</lastName>
+        <bioguideId>F000463</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <party>R</party>
+        <state>NE</state>
+        <firstName>Deb</firstName>
+        <middleName/>
+        <sponsorshipDate>2017-09-19</sponsorshipDate>
+      </item>
+      <item>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+        <identifiers>
+          <gpoId>8252</gpoId>
+          <bioguideId>M001170</bioguideId>
+          <lisID>1820</lisID>
+        </identifiers>
+        <lastName>McCaskill</lastName>
+        <bioguideId>M001170</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <party>D</party>
+        <state>MO</state>
+        <firstName>Claire</firstName>
+        <middleName/>
+        <sponsorshipDate>2017-10-03</sponsorshipDate>
+      </item>
+    </cosponsors>
+    <congress>115</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committeeReports/>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <title>Presidential Allowance Modernization Act of 2017</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <title>A bill to amend the Act of August 25, 1958, commonly known as the "Former Presidents Act of 1958", with respect to the monetary allowance payable to a former President, and for other purposes.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <title>Presidential Allowance Modernization Act of 2017</title>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <title>Presidential Allowance Modernization Act of 2017</title>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

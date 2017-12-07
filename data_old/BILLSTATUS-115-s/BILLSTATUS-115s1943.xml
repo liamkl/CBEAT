@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-10-06T00:41:19Z</createDate>
+    <updateDate>2017-10-19T04:50:43Z</updateDate>
+    <introducedDate>2017-10-05</introducedDate>
+    <cboCostEstimates/>
+    <policyArea/>
+    <billType>S</billType>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <sponsors>
+      <item>
+        <middleName>WILLIAM</middleName>
+        <identifiers>
+          <lisID>859</lisID>
+          <gpoId>8236</gpoId>
+          <bioguideId>N000032</bioguideId>
+        </identifiers>
+        <lastName>NELSON</lastName>
+        <bioguideId>N000032</bioguideId>
+        <fullName>Sen. Nelson, Bill [D-FL]</fullName>
+        <party>D</party>
+        <state>FL</state>
+        <firstName>CLARENCE</firstName>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <state>FL</state>
+        <lastName>Rubio</lastName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-05</sponsorshipDate>
+        <firstName>Marco</firstName>
+        <identifiers>
+          <lisID>2084</lisID>
+          <bioguideId>R000595</bioguideId>
+          <gpoId>8242</gpoId>
+        </identifiers>
+        <bioguideId>R000595</bioguideId>
+        <middleName/>
+        <fullName>Sen. Rubio, Marco [R-FL]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers/>
+    <originChamber>Senate</originChamber>
+    <latestAction>
+      <actionDate>2017-10-05</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+    </latestAction>
+    <committeeReports/>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-10-05</actionDate>
+      </item>
+    </actions>
+    <notes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <name>Finance Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-05T19:22:21Z</date>
+            </item>
+          </activities>
+          <systemCode>ssfi00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills/>
+    <amendments/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <chamberName/>
+        <title>Caribbean Trade Extension Act of 2017</title>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <title>A bill to amend the Caribbean Basin Economic Recovery Act to extend the transition period for preferential treatment of certain textile and apparel articles.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <title>Caribbean Trade Extension Act of 2017</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <title>Caribbean Trade Extension Act of 2017</title>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <title>Caribbean Trade Extension Act of 2017</title>
+    <version>1.0.0</version>
+    <congress>115</congress>
+    <laws/>
+    <recordedVotes/>
+    <billNumber>1943</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

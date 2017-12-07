@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <policyArea>
+      <name>Native Americans</name>
+    </policyArea>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <notes/>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <state>MO</state>
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+        <byRequestType/>
+        <bioguideId>M001170</bioguideId>
+        <lastName>McCaskill</lastName>
+        <identifiers>
+          <bioguideId>M001170</bioguideId>
+          <lisID>1820</lisID>
+          <gpoId>8252</gpoId>
+        </identifiers>
+        <firstName>Claire</firstName>
+        <middleName/>
+      </item>
+    </sponsors>
+    <recordedVotes/>
+    <congress>115</congress>
+    <calendarNumbers/>
+    <updateDate>2017-10-21T04:29:29Z</updateDate>
+    <committeeReports/>
+    <createDate>2017-10-06T00:41:19Z</createDate>
+    <laws/>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>slia00</systemCode>
+          <chamber>Senate</chamber>
+          <type>Other</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-05T19:39:07Z</date>
+            </item>
+          </activities>
+          <name>Indian Affairs Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <systemCode>slia00</systemCode>
+          <name>Indian Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Indian Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <actionDate>2017-10-05</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <cboCostEstimates/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Native Americans</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <version>1.0.0</version>
+    <title>A bill to abrogate the sovereign immunity of Indian tribes as a defense in inter partes review of patents.</title>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Indian Affairs.</text>
+      <links/>
+      <actionDate>2017-10-05</actionDate>
+    </latestAction>
+    <amendments/>
+    <introducedDate>2017-10-05</introducedDate>
+    <billNumber>1948</billNumber>
+    <cosponsors/>
+    <originChamber>Senate</originChamber>
+    <billType>S</billType>
+    <titles>
+      <item>
+        <title>A bill to abrogate the sovereign immunity of Indian tribes as a defense in inter partes review of patents.</title>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>A bill to abrogate the sovereign immunity of Indian tribes as a defense in inter partes review of patents.</title>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+    </titles>
+    <relatedBills/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

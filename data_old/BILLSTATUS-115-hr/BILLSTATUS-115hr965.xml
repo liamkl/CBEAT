@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <bioguideId>S001170</bioguideId>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <party>D</party>
+        <sponsorshipDate>2017-02-07</sponsorshipDate>
+        <firstName>Carol</firstName>
+        <sponsorshipWithdrawnDate/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <middleName/>
+        <state>NH</state>
+        <district>1</district>
+        <identifiers>
+          <lisID>1861</lisID>
+          <gpoId>7528</gpoId>
+          <bioguideId>S001170</bioguideId>
+        </identifiers>
+        <lastName>Shea-Porter</lastName>
+      </item>
+    </cosponsors>
+    <laws/>
+    <relatedBills>
+      <item>
+        <number>312</number>
+        <type>S</type>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <latestAction>
+          <text>Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.</text>
+          <actionDate>2017-07-19</actionDate>
+        </latestAction>
+        <latestTitle>Saint-Gaudens National Historical Park Redesignation Act</latestTitle>
+      </item>
+    </relatedBills>
+    <introducedDate>2017-02-07</introducedDate>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. KUSTER of New Hampshire:H.R. 965.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18: To make all Laws whichshall be necessary and proper for[Page H1086]</pre>]]></constitutionalAuthorityStatementText>
+    <version>1.0.0</version>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Natural Resources Committee</name>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-03T19:22:33Z</date>
+            </item>
+          </activities>
+          <systemCode>sseg00</systemCode>
+        </item>
+        <item>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Federal Lands Subcommittee</name>
+              <systemCode>hsii10</systemCode>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-02-23T21:09:17Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2017-08-25T15:31:08Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2017-07-26T17:05:44Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2017-02-07T15:03:30Z</date>
+            </item>
+          </activities>
+          <systemCode>hsii00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <billNumber>965</billNumber>
+    <actions>
+      <item>
+        <actionDate>2017-10-03</actionDate>
+        <committee>
+          <name>Energy and Natural Resources Committee</name>
+          <systemCode>sseg00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H38310</actionCode>
+        <actionTime>19:01:21</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links/>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H37300</actionCode>
+        <actionTime>19:01:19</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links>
+          <link>
+            <name>H7642</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H7642</url>
+          </link>
+          <link>
+            <name>Roll no. 545</name>
+            <url>http://clerk.house.gov/evs/2017/roll545.xml</url>
+          </link>
+        </links>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 401 - 0 (Roll no. 545). (text: CR H7642)</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>8000</actionCode>
+        <actionTime>19:01:19</actionTime>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links>
+          <link>
+            <name>Roll no. 545</name>
+            <url>http://clerk.house.gov/evs/2017/roll545.xml</url>
+          </link>
+        </links>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 401 - 0 (Roll no. 545).</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H30000</actionCode>
+        <actionTime>18:54:03</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links>
+          <link>
+            <name>H7651</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H7651</url>
+          </link>
+        </links>
+        <text>Considered as unfinished business. (consideration: CR H7651)</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H37220</actionCode>
+        <actionTime>17:24:48</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links/>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H8D000</actionCode>
+        <actionTime>17:15:07</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links>
+          <link>
+            <name>H.R. 965</name>
+            <url>https://www.congress.gov/bill/115th-congress/house-bill/965</url>
+          </link>
+        </links>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 965.</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H30000</actionCode>
+        <actionTime>17:15:06</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links>
+          <link>
+            <name>H7642-7643</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H7642-7643</url>
+          </link>
+        </links>
+        <text>Considered under suspension of the rules. (consideration: CR H7642-7643)</text>
+      </item>
+      <item>
+        <actionDate>2017-10-02</actionDate>
+        <actionCode>H30300</actionCode>
+        <actionTime>17:15:00</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Floor</type>
+        <committee/>
+        <links/>
+        <text>Mr. Thompson (PA) moved to suspend the rules and pass the bill, as amended.</text>
+      </item>
+      <item>
+        <actionDate>2017-08-25</actionDate>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Calendars</type>
+        <committee/>
+        <links/>
+        <text>Placed on the Union Calendar, Calendar No. 197.</text>
+      </item>
+      <item>
+        <actionDate>2017-08-25</actionDate>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>Committee</type>
+        <committee>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 115-277</name>
+            <url>https://www.congress.gov/congressional-report/115th-congress/house-report/277</url>
+          </link>
+        </links>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 115-277.</text>
+      </item>
+      <item>
+        <actionDate>2017-08-25</actionDate>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>Committee</type>
+        <committee>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 115-277</name>
+            <url>https://www.congress.gov/congressional-report/115th-congress/house-report/277</url>
+          </link>
+        </links>
+        <text>Reported (Amended) by the Committee on Natural Resources. H. Rept. 115-277.</text>
+      </item>
+      <item>
+        <actionDate>2017-07-26</actionDate>
+        <committee>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by Unanimous Consent.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-07-26</actionDate>
+        <committee>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-02-23</actionDate>
+        <committee>
+          <name>Federal Lands Subcommittee</name>
+          <systemCode>hsii10</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-02-07</actionDate>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </committee>
+        <links/>
+        <text>Referred to the House Committee on Natural Resources.</text>
+      </item>
+      <item>
+        <actionDate>2017-02-07</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+        <links/>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionDate>2017-02-07</actionDate>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+        <links/>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>17</houseOfRepresentatives>
+        <senate>1</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <placeholderTextForH>3</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <considerationByHouse>2</considerationByHouse>
+        <reportedToHouse>1</reportedToHouse>
+        <referredToCommittee>1</referredToCommittee>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <generalDebate>1</generalDebate>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <introducedInHouse>1</introducedInHouse>
+        <actionStageOverride>1</actionStageOverride>
+      </actionTypeCounts>
+    </actions>
+    <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2017-02-07T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2017-02-22T21:06:16Z</lastSummaryUpdateDate>
+          <text><![CDATA[<p><b>Saint-Gaudens National Historical Park Redesignation Act</b></p> This bill redesignates the Saint-Gaudens National Historic Site, in New Hampshire, as the &quot;Saint-Gaudens National Historical Park.&quot;]]></text>
+          <name>Introduced in House</name>
+          <actionDate>2017-02-07</actionDate>
+          <versionCode>00</versionCode>
+        </item>
+      </billSummaries>
+    </summaries>
+    <latestAction>
+      <links/>
+      <actionDate>2017-10-03</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+    </latestAction>
+    <notes/>
+    <createDate>2017-02-08T04:46:00Z</createDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <bioguideId>K000382</bioguideId>
+        <firstName>Ann</firstName>
+        <lastName>Kuster</lastName>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>K000382</bioguideId>
+          <lisID>2145</lisID>
+          <gpoId/>
+        </identifiers>
+        <middleName>M.</middleName>
+        <state>NH</state>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <district>2</district>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 115-277</citation>
+      </committeeReport>
+    </committeeReports>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Art, artists, authorship</name>
+          </item>
+          <item>
+            <name>Historic sites and heritage areas</name>
+          </item>
+          <item>
+            <name>New Hampshire</name>
+          </item>
+          <item>
+            <name>Parks, recreation areas, trails</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <recordedVotes>
+      <recordedVote>
+        <chamber>House</chamber>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+        <url>http://clerk.house.gov/evs/2017/roll545.xml</url>
+        <sessionNumber>1</sessionNumber>
+        <congress>115</congress>
+        <rollNumber>545</rollNumber>
+        <date>2017-10-02T23:01:19Z</date>
+      </recordedVote>
+    </recordedVotes>
+    <originChamber>House</originChamber>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <congress>115</congress>
+    <titles>
+      <item>
+        <titleType>Short Titles as Passed House</titleType>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <chamberCode>H</chamberCode>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to House</titleType>
+        <chamberName>House</chamberName>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <chamberCode>H</chamberCode>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>To redesignate the Saint-Gaudens National Historic Site as the "Saint-Gaudens National Historical Park", and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Passed House</titleType>
+        <chamberName>House</chamberName>
+        <parentTitleType/>
+        <chamberCode>H</chamberCode>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Reported to House</titleType>
+        <chamberName>House</chamberName>
+        <parentTitleType/>
+        <chamberCode>H</chamberCode>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>Saint-Gaudens National Historical Park Redesignation Act</title>
+      </item>
+    </titles>
+    <amendments/>
+    <updateDate>2017-10-11T04:29:11Z</updateDate>
+    <calendarNumbers>
+      <item>
+        <calendar>U00197</calendar>
+        <number/>
+      </item>
+    </calendarNumbers>
+    <cboCostEstimates/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

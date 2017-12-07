@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+          <systemCode>hsed14</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-08</actionDate>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-08</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-07-08</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:02:36Z</updateDate>
+    <introducedDate>2015-07-08</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-09T09:22:55Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Tim</firstName>
+        <lastName>Walberg</lastName>
+        <state>MI</state>
+        <bioguideId>W000798</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1855</lisID>
+          <bioguideId>W000798</bioguideId>
+          <gpoId>7992</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Walberg, Tim [R-MI-7]</fullName>
+        <district>7</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Building on Local District Flexibility in IDEA Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend the Individuals with Disabilities Education Act to provide certain exceptions to the maintenance of effort requirement for local educational agencies, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Building on Local District Flexibility in IDEA Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-07-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>John</firstName>
+        <district>4</district>
+        <fullName>Rep. Moolenaar, John R. [R-MI-4]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Moolenaar</lastName>
+        <identifiers>
+          <lisID>2248</lisID>
+          <bioguideId>M001194</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>M001194</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>R.</middleName>
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>Reid</firstName>
+        <district>8</district>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ribble</lastName>
+        <identifiers>
+          <lisID>2073</lisID>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+        </identifiers>
+        <bioguideId>R000587</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>J.</middleName>
+        <state>WI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>Dan</firstName>
+        <district>1</district>
+        <fullName>Rep. Benishek, Dan [R-MI-1]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Benishek</lastName>
+        <identifiers>
+          <bioguideId>B001271</bioguideId>
+          <gpoId>7986</gpoId>
+          <lisID>2027</lisID>
+        </identifiers>
+        <bioguideId>B001271</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-08</sponsorshipDate>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <district>8</district>
+        <fullName>Rep. Bishop, Mike [R-MI-8]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bishop</lastName>
+        <identifiers>
+          <bioguideId>B001293</bioguideId>
+          <gpoId />
+          <lisID>2249</lisID>
+        </identifiers>
+        <bioguideId>B001293</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <party>R</party>
+        <firstName>FRED</firstName>
+        <district>6</district>
+        <fullName>Rep. Upton, Fred [R-MI-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>UPTON</lastName>
+        <identifiers>
+          <gpoId>7991</gpoId>
+          <lisID>1177</lisID>
+          <bioguideId>U000031</bioguideId>
+        </identifiers>
+        <bioguideId>U000031</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-06</sponsorshipDate>
+        <party>R</party>
+        <firstName>David</firstName>
+        <district>11</district>
+        <fullName>Rep. Trott, David A. [R-MI-11]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Trott</lastName>
+        <identifiers>
+          <lisID>2250</lisID>
+          <bioguideId>T000475</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>T000475</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>A.</middleName>
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <party>R</party>
+        <firstName>SAM</firstName>
+        <district>6</district>
+        <fullName>Rep. Graves, Sam [R-MO-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>GRAVES</lastName>
+        <identifiers>
+          <lisID>1656</lisID>
+          <bioguideId>G000546</bioguideId>
+          <gpoId>8014</gpoId>
+        </identifiers>
+        <bioguideId>G000546</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MO</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. WALBERG:H.R. 2965.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8.Clause 3: To regulate Commerce with foreign Nations, andamong the several States, and with the Indian tribes;Clause 18: To make all Laws which shall be necessary andproper for carrying into Execution the foregoing Powers, andall other Powers vested by this Constitution in theGovernment of the United States, or in any Department orOfficer thereof.[Page H4956]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Natural disasters</name>
+          </item>
+          <item>
+            <name>Special education</name>
+          </item>
+          <item>
+            <name>State and local finance</name>
+          </item>
+          <item>
+            <name>Teaching, teachers, curricula</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-11-16T20:16:32Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+              <systemCode>hsed14</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-07-08T14:00:37Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Building on Local District Flexibility in IDEA Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <updateDate>2015-07-08T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <actionDate>2015-07-08</actionDate>
+          <text><![CDATA[<p><b>Building on Local District Flexibility in IDEA Act</b></p> <p>This bill amends the Individuals with Disabilities Education Act to add exceptions to the maintenance of effort requirement for local education agencies (LEAs). Specifically, an LEA may reduce its level of expenditures for the education of children with disabilities below the level of those expenditures for the preceding fiscal year where such reduction is attributable to: (1) improved efficiencies that do not result in a reduction of special education services; or (2) the reduction of expenditures for employment-related benefits provided to special education personnel, provided that such reduction of expenditures does not result in a reduction in special education services. </p> <p>Furthermore, a state may waive the maintenance of effort requirement for an LEA for one fiscal year at a time if the state determines that: (1) all children with disabilities have available to them a free, appropriate public education; or (2) the LEA has not reduced the level of expenditures for the education of children with disabilities for such fiscal year disproportionately to other expenditures, and granting a waiver would be equitable due to exceptional or uncontrollable circumstances or a precipitous and unforeseen decline in the LEA's financial resources.</p>]]></text>
+          <lastSummaryUpdateDate>2015-11-18T15:31:53Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2965</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

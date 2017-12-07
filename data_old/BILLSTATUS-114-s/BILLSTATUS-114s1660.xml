@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:09:49Z</updateDate>
+    <introducedDate>2015-06-24</introducedDate>
+    <recordedVotes />
+    <createDate>2015-06-25T09:28:03Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>PAT</firstName>
+        <lastName>ROBERTS</lastName>
+        <state>KS</state>
+        <bioguideId>R000307</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>R000307</bioguideId>
+          <gpoId>8275</gpoId>
+          <lisID>968</lisID>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>A bill to amend the Internal Revenue Code of 1986 to modify and make permanent bonus depreciation.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>A bill to amend the Internal Revenue Code of 1986 to modify and make permanent bonus depreciation.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <middleName />
+        <party>R</party>
+        <firstName>Johnny</firstName>
+        <state>GA</state>
+        <bioguideId>I000055</bioguideId>
+        <lastName>Isakson</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Isakson, Johnny [R-GA]</fullName>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <bioguideId>I000055</bioguideId>
+          <gpoId>8323</gpoId>
+          <lisID>1608</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <middleName />
+        <party>R</party>
+        <firstName>Roy</firstName>
+        <state>MO</state>
+        <bioguideId>B000575</bioguideId>
+        <lastName>Blunt</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>1464</lisID>
+          <gpoId>8313</gpoId>
+          <bioguideId>B000575</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <middleName />
+        <party>R</party>
+        <firstName>Pat</firstName>
+        <state>PA</state>
+        <bioguideId>T000461</bioguideId>
+        <lastName>Toomey</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Toomey, Pat [R-PA]</fullName>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <identifiers>
+          <lisID>1594</lisID>
+          <gpoId />
+          <bioguideId>T000461</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <middleName />
+        <party>R</party>
+        <firstName>JERRY</firstName>
+        <state>KS</state>
+        <bioguideId>M000934</bioguideId>
+        <lastName>MORAN</lastName>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Moran, Jerry [R-KS]</fullName>
+        <sponsorshipDate>2015-07-08</sponsorshipDate>
+        <identifiers>
+          <bioguideId>M000934</bioguideId>
+          <gpoId>8307</gpoId>
+          <lisID>1507</lisID>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Forests, forestry, trees</name>
+          </item>
+          <item>
+            <name>Fruit and vegetables</name>
+          </item>
+          <item>
+            <name>Horticulture and plants</name>
+          </item>
+          <item>
+            <name>Income tax credits</name>
+          </item>
+          <item>
+            <name>Income tax deductions</name>
+          </item>
+          <item>
+            <name>Inflation and prices</name>
+          </item>
+          <item>
+            <name>Motor vehicles</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Finance Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-06-24T17:59:37Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssfi00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-06-24</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2510</number>
+        <congress>114</congress>
+        <latestTitle>To amend the Internal Revenue Code of 1986 to modify and make permanent bonus depreciation.</latestTitle>
+        <latestAction>
+          <actionDate>2015-10-28</actionDate>
+          <text>Placed on the Union Calendar, Calendar No. 240.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>3213</number>
+        <congress>114</congress>
+        <latestTitle>Fixed Asset Relief Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-23</actionDate>
+          <text>Referred to the House Committee on Ways and Means.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2029</number>
+        <congress>114</congress>
+        <latestTitle>Consolidated Appropriations Act, 2016</latestTitle>
+        <latestAction>
+          <actionDate>2015-12-18</actionDate>
+          <text>Became Public Law No: 114-113.</text>
+        </latestAction>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>A bill to amend the Internal Revenue Code of 1986 to modify and make permanent bonus depreciation.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>This bill amends the Internal Revenue Code to make permanent the additional 50% depreciation allowance, known as bonus depreciation, for depreciable business property (i.e., qualified property) placed in service after December 31, 2014. The term "qualified property" is modified to include qualified improvement property, in lieu of qualified leasehold improvement property, which is defined as any improvement to an interior portion of a building that is nonresidential real property if such improvement is placed in service after the date such building was first placed in service. The bill also increases by $8,000 (with an annual inflation adjustment after 2015) the maximum allowable depreciation deduction for a passenger automobile (i.e., any 4-wheeled vehicle that is manufactured primarily for use on public streets, roads, and highways and is rated at 6,000 pounds unloaded gross vehicle weight or less). </p> <p>Also made permanent, for taxable years ending after December 31, 2014, is the election to increase the alternative minium tax credit limitation in lieu of bonus depreciation. </p> <p>The bill allows an additional depreciation allowance for any specified plant that is planted, or grafted to a plant that has already been planted, by the taxpayer in the ordinary course of the taxpayer's farming business. The term "specified plant" means: (1) any tree or vine that bears fruits or nuts, and (2) any other plant that will have more than one yield of fruits or nuts and that generally has a period of more than two years from the time of planting or grafting to the time at which such plant begins bearing fruits or nuts. This allowance is applicable to specified plants planted or grafted after December 31, 2014. </p> <p>Finally, the bill prohibits the entry of the budgetary effects of this Act on any PAYGO scorecard maintained pursuant to the Statutory Pay-As-You-Go Act of 2010. </p>]]></text>
+          <lastSummaryUpdateDate>2015-07-21T20:34:53Z</lastSummaryUpdateDate>
+          <name>Introduced in Senate</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-06-24</actionDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-06-24T04:00:00Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1660</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+    <actions>
+      <item>
+        <actionDate>2017-01-05</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionTime>12:37:31</actionTime>
+        <type>Floor</type>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>H38310</actionCode>
+        <links/>
+      </item>
+      <item>
+        <actionTime>12:37:27</actionTime>
+        <type>Floor</type>
+        <text>On motion to suspend the rules and pass the resolution Agreed to by voice vote. (text: CR H62)</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>H37300</actionCode>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H62</url>
+            <name>H62</name>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionTime>12:37:27</actionTime>
+        <type>Floor</type>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the resolution Agreed to by voice vote.(text: CR H62)</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>8000</actionCode>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H62</url>
+            <name>H62</name>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionTime>12:29:28</actionTime>
+        <type>Floor</type>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.J. Res. 3.</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>H8D000</actionCode>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/115th-congress/house-joint-resolution/3</url>
+            <name>H.J. Res. 3</name>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionTime>12:29:27</actionTime>
+        <type>Floor</type>
+        <text>Considered under suspension of the rules. (consideration: CR H62-63)</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>H30000</actionCode>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/house-section/page/H62-63</url>
+            <name>H62-63</name>
+          </link>
+        </links>
+      </item>
+      <item>
+        <actionTime>12:29:01</actionTime>
+        <type>Floor</type>
+        <text>Mr. McClintock moved to suspend the rules and pass the resolution.</text>
+        <actionDate>2017-01-04</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>H30300</actionCode>
+        <links/>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionDate>2017-01-03</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <actionCode>H11100</actionCode>
+        <links/>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionDate>2017-01-03</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>Intro-H</actionCode>
+        <links/>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionDate>2017-01-03</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <committee/>
+        <actionCode>1000</actionCode>
+        <links/>
+      </item>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <considerationByHouse>1</considerationByHouse>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <generalDebate>1</generalDebate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>9</houseOfRepresentatives>
+        <senate>1</senate>
+      </actionByCounts>
+    </actions>
+    <recordedVotes/>
+    <amendments/>
+    <introducedDate>2017-01-03</introducedDate>
+    <updateDate>2017-05-04T00:17:01Z</updateDate>
+    <laws/>
+    <cboCostEstimates/>
+    <originChamber>House</originChamber>
+    <createDate>2017-01-04T07:01:08Z</createDate>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Conflicts and wars</name>
+          </item>
+          <item>
+            <name>District of Columbia</name>
+          </item>
+          <item>
+            <name>Iraq</name>
+          </item>
+          <item>
+            <name>Kuwait</name>
+          </item>
+          <item>
+            <name>Middle East</name>
+          </item>
+          <item>
+            <name>Military operations and strategy</name>
+          </item>
+          <item>
+            <name>Military personnel and dependents</name>
+          </item>
+          <item>
+            <name>Monuments and memorials</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes/>
+    <latestAction>
+      <links/>
+      <actionDate>2017-01-05</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+    </latestAction>
+    <version>1.0.0</version>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ROE of Tennessee:H.J. Res. 3.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, clause 17 of the United StatesConstitution[Page H53]</pre>]]></constitutionalAuthorityStatementText>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2017-01-03</actionDate>
+          <lastSummaryUpdateDate>2017-01-07T17:22:53Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2017-01-03T05:00:00Z</updateDate>
+          <text><![CDATA[<p>This joint resolution approves the location within Washington, D.C. and the surrounding area of the National Desert Storm and Desert Shield Memorial authorized to be established under the Carl Levin and Howard P. `Buck' McKeon National Defense Authorization Act for Fiscal Year 2015.</p>]]></text>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <actionDate>2017-01-04</actionDate>
+          <lastSummaryUpdateDate>2017-01-07T17:26:08Z</lastSummaryUpdateDate>
+          <actionDesc>Passed House without amendment</actionDesc>
+          <updateDate>2017-01-04T14:37:18Z</updateDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary of that version is repeated here.)</p> <p>This joint resolution approves the location within Washington, D.C. and the surrounding area of the National Desert Storm and Desert Shield Memorial authorized to be established under the Carl Levin and Howard P. `Buck' McKeon National Defense Authorization Act for Fiscal Year 2015.</p>]]></text>
+          <versionCode>81</versionCode>
+          <name>Passed House without amendment</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <title>Approving the location of a memorial to commemorate and honor the members of the Armed Forces who served on active duty in support of Operation Desert Storm or Operation Desert Shield.</title>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-05T18:24:25Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Energy and Natural Resources Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees/>
+          <systemCode>sseg00</systemCode>
+        </item>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-01-03T17:12:30Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+          <subcommittees/>
+          <systemCode>hsii00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>HJRES</billType>
+    <congress>115</congress>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>Approving the location of a memorial to commemorate and honor the members of the Armed Forces who served on active duty in support of Operation Desert Storm or Operation Desert Shield.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberCode/>
+        <title>Approving the location of a memorial to commemorate and honor the members of the Armed Forces who served on active duty in support of Operation Desert Storm or Operation Desert Shield.</title>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+      </item>
+    </titles>
+    <relatedBills>
+      <item>
+        <congress>115</congress>
+        <latestAction>
+          <text>Became Public Law No: 115-18.</text>
+          <actionDate>2017-03-31</actionDate>
+        </latestAction>
+        <latestTitle>A joint resolution approving the location of a memorial to commemorate and honor the members of the Armed Forces who served on active duty in support of Operation Desert Storm or Operation Desert Shield.</latestTitle>
+        <type>SJRES</type>
+        <number>1</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+          <item>
+            <identifiedBy>House</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <committeeReports/>
+    <sponsors>
+      <item>
+        <state>TN</state>
+        <party>R</party>
+        <district>1</district>
+        <identifiers>
+          <bioguideId>R000582</bioguideId>
+          <gpoId>8148</gpoId>
+          <lisID>1954</lisID>
+        </identifiers>
+        <lastName>Roe</lastName>
+        <firstName>David</firstName>
+        <fullName>Rep. Roe, David P. [R-TN-1]</fullName>
+        <bioguideId>R000582</bioguideId>
+        <byRequestType/>
+        <middleName>P.</middleName>
+      </item>
+    </sponsors>
+    <billNumber>3</billNumber>
+    <cosponsors/>
+    <calendarNumbers/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

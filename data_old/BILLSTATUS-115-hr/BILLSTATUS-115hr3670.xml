@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <updateDate>2017-10-27T07:16:08Z</updateDate>
+    <billNumber>3670</billNumber>
+    <cboCostEstimates/>
+    <committeeReports/>
+    <recordedVotes/>
+    <introducedDate>2017-09-01</introducedDate>
+    <constitutionalAuthorityStatementText/>
+    <actions>
+      <item>
+        <actionDate>2017-09-01</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <links/>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+      </item>
+      <item>
+        <actionDate>2017-09-01</actionDate>
+        <text>Introduced in House</text>
+        <links/>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+      </item>
+      <item>
+        <actionDate>2017-09-01</actionDate>
+        <text>Introduced in House</text>
+        <links/>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+    </actions>
+    <version>1.0.0</version>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <sponsors>
+      <item>
+        <identifiers>
+          <bioguideId>C001038</bioguideId>
+          <gpoId>8068</gpoId>
+          <lisID>1604</lisID>
+        </identifiers>
+        <middleName/>
+        <lastName>CROWLEY</lastName>
+        <district>14</district>
+        <bioguideId>C001038</bioguideId>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <state>NY</state>
+        <party>D</party>
+        <byRequestType/>
+        <firstName>JOSEPH</firstName>
+      </item>
+    </sponsors>
+    <createDate>2017-09-02T03:11:31Z</createDate>
+    <title>Rent Relief Act of 2017</title>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <congress>115</congress>
+    <latestAction>
+      <actionDate>2017-09-01</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <name>Ways and Means Committee</name>
+          <type>Standing</type>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-01T17:00:14Z</date>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <title>Rent Relief Act of 2017</title>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <title>To amend the Internal Revenue Code of 1986 to allow for a credit against tax for rent paid on the personal residence of the taxpayer.</title>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <title>Rent Relief Act of 2017</title>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <title>Rent Relief Act of 2017</title>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+      </item>
+    </titles>
+    <billType>HR</billType>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>2259</lisID>
+          <bioguideId>W000822</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Rep. Watson Coleman, Bonnie [D-NJ-12]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-26</sponsorshipDate>
+        <party>D</party>
+        <firstName>Bonnie</firstName>
+        <lastName>Watson Coleman</lastName>
+        <state>NJ</state>
+        <middleName/>
+        <district>12</district>
+        <bioguideId>W000822</bioguideId>
+      </item>
+    </cosponsors>
+    <calendarNumbers/>
+    <amendments/>
+    <originChamber>House</originChamber>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <relatedBills/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

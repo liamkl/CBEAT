@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <introducedDate>2015-04-15</introducedDate>
+    <calendarNumbers />
+    <updateDate>2017-10-27T18:08:53Z</updateDate>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>1010</lisID>
+          <bioguideId>S000033</bioguideId>
+          <gpoId>8270</gpoId>
+        </identifiers>
+        <state>VT</state>
+        <party>I</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2015-04-15</sponsorshipDate>
+        <firstName>BERNARD</firstName>
+        <lastName>SANDERS</lastName>
+        <middleName />
+        <bioguideId>S000033</bioguideId>
+        <fullName>Sen. Sanders, Bernard [I-VT]</fullName>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>M000133</bioguideId>
+          <gpoId>7972</gpoId>
+          <lisID>735</lisID>
+        </identifiers>
+        <state>MA</state>
+        <party>D</party>
+        <sponsorshipWithdrawnDate />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipDate>2015-04-15</sponsorshipDate>
+        <firstName>EDWARD</firstName>
+        <lastName>MARKEY</lastName>
+        <middleName>J.</middleName>
+        <bioguideId>M000133</bioguideId>
+        <fullName>Sen. Markey, Edward J. [D-MA]</fullName>
+      </item>
+    </cosponsors>
+    <notes />
+    <laws />
+    <latestAction>
+      <actionDate>2015-04-15</actionDate>
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+      <links />
+    </latestAction>
+    <title>Safe and Secure Decommissioning Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Safe and Secure Decommissioning Act of 2015</b></p> <p> Amends the Atomic Energy Act of 1954 to prohibit the Nuclear Regulatory Commission from approving the request of a licensee for a waiver of, or exemption from, a covered regulation applicable to a civilian nuclear power reactor that has permanently ceased to operate.</p> <p>Specifies as a covered regulation: (1) an emergency preparedness or response regulation or requirement, or (2) a security regulation or requirement applicable to spent nuclear fuel.</p> <p>Declares that this prohibition shall not apply to a civilian nuclear power reactor at which all spent nuclear fuel has been transferred to spent nuclear fuel dry casks.</p> <ul> </ul>]]></text>
+          <lastSummaryUpdateDate>2015-04-29T21:31:28Z</lastSummaryUpdateDate>
+          <updateDate>2015-04-15T04:00:00Z</updateDate>
+          <actionDate>2015-04-15</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <congress>114</congress>
+    <version>1.0.0</version>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Environment and Public Works Committee</name>
+          <chamber>Senate</chamber>
+          <systemCode>ssev00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-15T14:18:47Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <committeeReports />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Emergency planning and evacuation</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Nuclear Regulatory Commission (NRC)</name>
+          </item>
+          <item>
+            <name>Nuclear power</name>
+          </item>
+          <item>
+            <name>Radioactive wastes and releases</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-04-15</actionDate>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2015-04-15</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <firstName>BARBARA</firstName>
+        <bioguideId>B000711</bioguideId>
+        <byRequestType />
+        <identifiers>
+          <gpoId>8306</gpoId>
+          <lisID>116</lisID>
+          <bioguideId>B000711</bioguideId>
+        </identifiers>
+        <fullName>Sen. Boxer, Barbara [D-CA]</fullName>
+        <lastName>BOXER</lastName>
+        <party>D</party>
+        <middleName />
+        <state>CA</state>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <billNumber>944</billNumber>
+    <recordedVotes />
+    <cboCostEstimates />
+    <billType>S</billType>
+    <titles>
+      <item>
+        <title>Safe and Secure Decommissioning Act of 2015</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to amend the Atomic Energy Act of 1954 to prohibit certain waivers and exemptions from emergency preparedness and response and security regulations.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>Safe and Secure Decommissioning Act of 2015</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <createDate>2015-04-16T09:11:20Z</createDate>
+    <amendments />
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Environmental Protection</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Air quality</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Environmental Protection Agency (EPA)</name>
+          </item>
+          <item>
+            <name>Environmental regulatory procedures</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <laws/>
+    <committeeReports/>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-02-03</actionDate>
+        <committee>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2017-02-03</actionDate>
+        <text>Introduced in Senate</text>
+        <committee/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <links/>
+      </item>
+    </actions>
+    <introducedDate>2017-02-03</introducedDate>
+    <createDate>2017-02-04T05:07:08Z</createDate>
+    <amendments/>
+    <relatedBills/>
+    <billNumber>21</billNumber>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-02-03T15:55:02Z</date>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <calendarNumbers/>
+    <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to Cross-State Air Pollution Rule Update for the 2008 Ozone NAAQS.</title>
+    <version>1.0.0</version>
+    <titles>
+      <item>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to Cross-State Air Pollution Rule Update for the 2008 Ozone NAAQS.</title>
+      </item>
+      <item>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <title>A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to Cross-State Air Pollution Rule Update for the 2008 Ozone NAAQS.</title>
+      </item>
+    </titles>
+    <notes/>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2017-03-06T19:24:19Z</lastSummaryUpdateDate>
+          <actionDate>2017-02-03</actionDate>
+          <text><![CDATA[<p>This joint resolution nullifies the Cross-State Air Pollution Rule Update finalized by the Environmental Protection Agency on October 26, 2016. The rule addresses interstate transport of ozone pollution with respect to the 2008 ozone National Ambient Air Quality Standards under the Clean Air Act. </p>]]></text>
+          <name>Introduced in Senate</name>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2017-02-03T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+        </item>
+      </billSummaries>
+    </summaries>
+    <latestAction>
+      <actionDate>2017-02-03</actionDate>
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+      <links/>
+    </latestAction>
+    <cosponsors/>
+    <sponsors>
+      <item>
+        <bioguideId>T000461</bioguideId>
+        <identifiers>
+          <lisID>1594</lisID>
+          <gpoId/>
+          <bioguideId>T000461</bioguideId>
+        </identifiers>
+        <middleName/>
+        <firstName>Pat</firstName>
+        <fullName>Sen. Toomey, Pat [R-PA]</fullName>
+        <byRequestType/>
+        <party>R</party>
+        <lastName>Toomey</lastName>
+        <state>PA</state>
+      </item>
+    </sponsors>
+    <originChamber>Senate</originChamber>
+    <recordedVotes/>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <cboCostEstimates/>
+    <updateDate>2017-05-04T00:09:32Z</updateDate>
+    <congress>115</congress>
+    <billType>SJRES</billType>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

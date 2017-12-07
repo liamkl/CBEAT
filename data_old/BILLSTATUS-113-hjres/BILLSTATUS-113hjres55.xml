@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2013-09-13</actionDate>
+        <committee>
+          <systemCode>hsju10</systemCode>
+          <name>Constitution and Civil Justice Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2013-08-01</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <actionDate>2013-08-01</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionDate>2013-08-01</actionDate>
+        <links />
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <sponsors>
+      <item>
+        <byRequestType />
+        <district>6</district>
+        <fullName>Rep. DeSantis, Ron [R-FL-6]</fullName>
+        <lastName>DeSantis</lastName>
+        <middleName />
+        <state>FL</state>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>D000621</bioguideId>
+          <gpoId />
+          <lisID>2116</lisID>
+        </identifiers>
+        <firstName>Ron</firstName>
+        <bioguideId>D000621</bioguideId>
+      </item>
+    </sponsors>
+    <congress>113</congress>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>By Mr. DESANTIS:H.J. Res. 55.Congress has the power to enact this legislation pursuantto the following:Article V of the U.S. Constitution[Page H5347]</pre>]]></constitutionalAuthorityStatementText>
+    <billNumber>55</billNumber>
+    <cboCostEstimates />
+    <updateDate>2016-10-25T15:56:17Z</updateDate>
+    <laws />
+    <createDate>2013-08-02T05:52:35Z</createDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju10</systemCode>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2013-09-13T18:44:40Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2013-08-01T14:04:50Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes />
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p>Constitutional Amendment - Prohibits Congress from making any law respecting the citizens of the United States that does not also apply to the Senators and Representatives.</p>]]></text>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <lastSummaryUpdateDate>2013-08-12T20:55:52Z</lastSummaryUpdateDate>
+          <actionDate>2013-08-01</actionDate>
+          <updateDate>2013-08-01T04:00:00Z</updateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports />
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <cosponsors>
+      <item>
+        <identifiers>
+          <lisID>1009</lisID>
+          <bioguideId>S000018</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>SALMON</lastName>
+        <middleName />
+        <sponsorshipDate>2013-08-01</sponsorshipDate>
+        <district>5</district>
+        <firstName>MATT</firstName>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S000018</bioguideId>
+        <state>AZ</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+          <gpoId>8143</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Duncan</lastName>
+        <middleName />
+        <sponsorshipDate>2013-08-02</sponsorshipDate>
+        <district>3</district>
+        <firstName>Jeff</firstName>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000615</bioguideId>
+        <state>SC</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <gpoId />
+          <lisID>2191</lisID>
+          <bioguideId>S001195</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Smith</lastName>
+        <middleName />
+        <sponsorshipDate>2013-08-02</sponsorshipDate>
+        <district>8</district>
+        <firstName>Jason</firstName>
+        <fullName>Rep. Smith, Jason T. [R-MO-8]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001195</bioguideId>
+        <state>MO</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <gpoId>8187</gpoId>
+          <bioguideId>C001051</bioguideId>
+          <lisID>1752</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Carter</lastName>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2013-09-09</sponsorshipDate>
+        <district>31</district>
+        <firstName>John</firstName>
+        <fullName>Rep. Carter, John R. [R-TX-31]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001051</bioguideId>
+        <state>TX</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+          <bioguideId>A000369</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Amodei</lastName>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2013-09-09</sponsorshipDate>
+        <district>2</district>
+        <firstName>Mark</firstName>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000369</bioguideId>
+        <state>NV</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <gpoId>8019</gpoId>
+          <lisID>2034</lisID>
+          <bioguideId>N000186</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Nunnelee</lastName>
+        <middleName />
+        <sponsorshipDate>2013-09-09</sponsorshipDate>
+        <district>1</district>
+        <firstName>Alan</firstName>
+        <fullName>Rep. Nunnelee, Alan [R-MS-1]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000186</bioguideId>
+        <state>MS</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>B001282</bioguideId>
+          <lisID>2131</lisID>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Barr</lastName>
+        <middleName />
+        <sponsorshipDate>2013-09-09</sponsorshipDate>
+        <district>6</district>
+        <firstName>Andy</firstName>
+        <fullName>Rep. Barr, Andy [R-KY-6]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001282</bioguideId>
+        <state>KY</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1806</lisID>
+          <bioguideId>M001158</bioguideId>
+          <gpoId>8766</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Marchant</lastName>
+        <middleName />
+        <sponsorshipDate>2013-11-12</sponsorshipDate>
+        <district>24</district>
+        <firstName>Kenny</firstName>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001158</bioguideId>
+        <state>TX</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <bioguideId>P000606</bioguideId>
+          <lisID>2141</lisID>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Pittenger</lastName>
+        <middleName />
+        <sponsorshipDate>2013-12-02</sponsorshipDate>
+        <district>9</district>
+        <firstName>Robert</firstName>
+        <fullName>Rep. Pittenger, Robert [R-NC-9]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000606</bioguideId>
+        <state>NC</state>
+        <party>R</party>
+      </item>
+      <item>
+        <identifiers>
+          <lisID>1892</lisID>
+          <bioguideId>S001176</bioguideId>
+          <gpoId>7959</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Scalise</lastName>
+        <middleName />
+        <sponsorshipDate>2014-01-17</sponsorshipDate>
+        <district>1</district>
+        <firstName>Steve</firstName>
+        <fullName>Rep. Scalise, Steve [R-LA-1]</fullName>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001176</bioguideId>
+        <state>LA</state>
+        <party>R</party>
+      </item>
+    </cosponsors>
+    <relatedBills />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Constitution and constitutional amendments</name>
+          </item>
+          <item>
+            <name>Due process and equal protection</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+          <item>
+            <name>Members of Congress</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Proposing an amendment to the Constitution of the United States relating to the equal application to the Senators and Representatives of the laws that apply to all citizens of the United States.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Proposing an amendment to the Constitution of the United States relating to the equal application to the Senators and Representatives of the laws that apply to all citizens of the United States.</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes />
+    <calendarNumbers />
+    <title>Proposing an amendment to the Constitution of the United States relating to the equal application to the Senators and Representatives of the laws that apply to all citizens of the United States.</title>
+    <billType>HJRES</billType>
+    <introducedDate>2013-08-01</introducedDate>
+    <amendments />
+    <latestAction>
+      <actionDate>2013-09-13</actionDate>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <links />
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

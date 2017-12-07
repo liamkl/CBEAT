@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-18</actionDate>
+        <committee>
+          <systemCode>hswm01</systemCode>
+          <name>Social Security Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Social Security.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-04-30</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2015-04-30</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-27T18:01:28Z</updateDate>
+    <introducedDate>2015-04-30</introducedDate>
+    <recordedVotes />
+    <createDate>2015-05-01T14:01:10Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Brian</firstName>
+        <lastName>Higgins</lastName>
+        <state>NY</state>
+        <bioguideId>H001038</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>1794</lisID>
+          <bioguideId>H001038</bioguideId>
+          <gpoId>8088</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <district>26</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Social Security Administration Accountability Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend title VII of the Social Security Act to require the President to transmit the annual budget of the Social Security Administration without revisions to Congress, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Social Security Administration Accountability Act of 2015</title>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-05-15</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOSE</firstName>
+        <district>15</district>
+        <fullName>Rep. Serrano, Jose E. [D-NY-15]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SERRANO</lastName>
+        <identifiers>
+          <lisID>1042</lisID>
+          <bioguideId>S000248</bioguideId>
+          <gpoId>8077</gpoId>
+        </identifiers>
+        <bioguideId>S000248</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-15</sponsorshipDate>
+        <party>D</party>
+        <firstName>Marcia</firstName>
+        <district>11</district>
+        <fullName>Rep. Fudge, Marcia L. [D-OH-11]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Fudge</lastName>
+        <identifiers>
+          <bioguideId>F000455</bioguideId>
+          <gpoId>8101</gpoId>
+          <lisID>1895</lisID>
+        </identifiers>
+        <bioguideId>F000455</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>L.</middleName>
+        <state>OH</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-15</sponsorshipDate>
+        <party>D</party>
+        <firstName>JAMES</firstName>
+        <district>2</district>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MCGOVERN</lastName>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <bioguideId>M000312</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>P.</middleName>
+        <state>MA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-19</sponsorshipDate>
+        <party>D</party>
+        <firstName>LOUISE</firstName>
+        <district>25</district>
+        <fullName>Rep. Slaughter, Louise McIntosh [D-NY-25]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>SLAUGHTER</lastName>
+        <identifiers>
+          <lisID>1069</lisID>
+          <bioguideId>S000480</bioguideId>
+          <gpoId>8089</gpoId>
+        </identifiers>
+        <bioguideId>S000480</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>NY</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-19</sponsorshipDate>
+        <party>D</party>
+        <firstName>Derek</firstName>
+        <district>6</district>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kilmer</lastName>
+        <identifiers>
+          <lisID>2169</lisID>
+          <gpoId />
+          <bioguideId>K000381</bioguideId>
+        </identifiers>
+        <bioguideId>K000381</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>WA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <party>D</party>
+        <firstName>Daniel</firstName>
+        <district>3</district>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lipinski</lastName>
+        <identifiers>
+          <lisID>1781</lisID>
+          <bioguideId>L000563</bioguideId>
+          <gpoId>7923</gpoId>
+        </identifiers>
+        <bioguideId>L000563</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>William</middleName>
+        <state>IL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <party>D</party>
+        <firstName>JOHN</firstName>
+        <district>13</district>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CONYERS</lastName>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <bioguideId>C000714</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <district>2</district>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Pocan</lastName>
+        <identifiers>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+          <lisID>2171</lisID>
+        </identifiers>
+        <bioguideId>P000607</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>WI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <party>D</party>
+        <firstName>SAM</firstName>
+        <district>20</district>
+        <fullName>Rep. Farr, Sam [D-CA-20]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>FARR</lastName>
+        <identifiers>
+          <lisID>368</lisID>
+          <bioguideId>F000030</bioguideId>
+          <gpoId>7822</gpoId>
+        </identifiers>
+        <bioguideId>F000030</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Theodore</firstName>
+        <district>21</district>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Deutch</lastName>
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <bioguideId>D000610</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>Patrick</firstName>
+        <district>18</district>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2117</lisID>
+          <bioguideId>M001191</bioguideId>
+        </identifiers>
+        <bioguideId>M001191</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <party>D</party>
+        <firstName>Gwen</firstName>
+        <district>2</district>
+        <fullName>Rep. Graham, Gwen [D-FL-2]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Graham</lastName>
+        <identifiers>
+          <lisID>2234</lisID>
+          <bioguideId>G000575</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>G000575</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>FL</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-16</sponsorshipDate>
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <district>17</district>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>HONDA</lastName>
+        <identifiers>
+          <bioguideId>H001034</bioguideId>
+          <gpoId>7820</gpoId>
+          <lisID>1634</lisID>
+        </identifiers>
+        <bioguideId>H001034</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>M.</middleName>
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-18</sponsorshipDate>
+        <party>D</party>
+        <firstName>BETTY</firstName>
+        <district>4</district>
+        <fullName>Rep. McCollum, Betty [D-MN-4]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MCCOLLUM</lastName>
+        <identifiers>
+          <lisID>1653</lisID>
+          <bioguideId>M001143</bioguideId>
+          <gpoId>8004</gpoId>
+        </identifiers>
+        <bioguideId>M001143</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-09-29</sponsorshipDate>
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <district>9</district>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Cohen</lastName>
+        <identifiers>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>TN</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-09</sponsorshipDate>
+        <party>D</party>
+        <firstName>John</firstName>
+        <district>3</district>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Garamendi</lastName>
+        <identifiers>
+          <lisID>1973</lisID>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+        </identifiers>
+        <bioguideId>G000559</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-28</sponsorshipDate>
+        <party>D</party>
+        <firstName>Debbie</firstName>
+        <district>12</district>
+        <fullName>Rep. Dingell, Debbie [D-MI-12]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Dingell</lastName>
+        <identifiers>
+          <lisID>2251</lisID>
+          <bioguideId>D000624</bioguideId>
+          <gpoId />
+        </identifiers>
+        <bioguideId>D000624</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>MI</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <party>D</party>
+        <firstName>RICHARD</firstName>
+        <district>1</district>
+        <fullName>Rep. Neal, Richard E. [D-MA-1]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NEAL</lastName>
+        <identifiers>
+          <lisID>854</lisID>
+          <bioguideId>N000015</bioguideId>
+          <gpoId>7967</gpoId>
+        </identifiers>
+        <bioguideId>N000015</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>MA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-07-25</sponsorshipDate>
+        <party>D</party>
+        <firstName>BARBARA</firstName>
+        <district>13</district>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>LEE</lastName>
+        <identifiers>
+          <lisID>1501</lisID>
+          <gpoId>7814</gpoId>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <bioguideId>L000551</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName />
+        <state>CA</state>
+      </item>
+      <item>
+        <sponsorshipDate>2016-09-12</sponsorshipDate>
+        <party>D</party>
+        <firstName>MICHAEL</firstName>
+        <district>7</district>
+        <fullName>Rep. Capuano, Michael E. [D-MA-7]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CAPUANO</lastName>
+        <identifiers>
+          <lisID>1564</lisID>
+          <gpoId>7973</gpoId>
+          <bioguideId>C001037</bioguideId>
+        </identifiers>
+        <bioguideId>C001037</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <middleName>E.</middleName>
+        <state>MA</state>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HIGGINS:H.R. 2169.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18[Page H2771]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Social Security Administration</name>
+          </item>
+          <item>
+            <name>Social Welfare</name>
+          </item>
+          <item>
+            <name>Social security and elderly assistance</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-04-30T14:02:45Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>Social Security Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2015-05-18T13:29:15Z</date>
+                </item>
+              </activities>
+              <systemCode>hswm01</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hswm00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-05-18</actionDate>
+      <text>Referred to the Subcommittee on Social Security.</text>
+      <links />
+    </latestAction>
+    <relatedBills />
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>Social Security Administration Accountability Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Social Security Administration Accountability Act of 2015</b></p> <p> Amends title VII (Administration) of the Social Security Act to require the Commissioner of Social Security to submit an annual budget estimate of the Social Security Administration (SSA) (instead of a budget) directly to Congress and the President (instead of first to the President, who would submit it to Congress).</p> <p>Revises requirements for the general contents of the SSA budget, requiring inclusion of the number of cases pending at each hearing office and the average processing time.</p> <p>Prohibits the Commissioner from closing or consolidating SSA field or hearing offices, or otherwise limiting public access to one, until 180 days after submitting to specified congressional committees a detailed report outlining and justifying the process for selecting field offices to be closed, consolidated, or otherwise have limited access.</p> <p>Prohibits the Commissioner from closing an SSA field or hearing office, consolidating two or more such offices, or otherwise imposing any new limitation on public access to any such office unless the Commissioner follows certain administrative procedures.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-04-30T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2015-05-13T20:46:37Z</lastSummaryUpdateDate>
+          <actionDate>2015-04-30</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>2169</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-11-18T09:46:26Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-11-17T21:09:52Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees />
+          <systemCode>ssju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>Syrian Refugee Verification and Safety Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-12-04</actionDate>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+        </latestAction>
+        <number>4048</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-11-17</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-11-17</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S8022-8023</url>
+            <name>S8022-8023</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S8022-8023)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee />
+        <links />
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-11-17</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <committeeReports />
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Syrian Refugee Verification and Safety Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to suspend the admission and resettlement of aliens seeking refugee status because of the conflict in Syria until adequate protocols are established to protect the national security of the United States and for other purposes.</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Syrian Refugee Verification and Safety Act</title>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Conflicts and wars</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Criminal justice information and records</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Immigration status and procedures</name>
+          </item>
+          <item>
+            <name>Intelligence activities, surveillance, classified information</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+          <item>
+            <name>Middle East</name>
+          </item>
+          <item>
+            <name>Refugees, asylum, displaced persons</name>
+          </item>
+          <item>
+            <name>Syria</name>
+          </item>
+          <item>
+            <name>Terrorism</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Lee, Mike [R-UT]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>L000577</bioguideId>
+        <middleName />
+        <state>UT</state>
+        <lastName>Lee</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2080</lisID>
+          <gpoId>8303</gpoId>
+          <bioguideId>L000577</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Tillis, Thom [R-NC]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>T000476</bioguideId>
+        <middleName>Roland</middleName>
+        <state>NC</state>
+        <lastName>Tillis</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Thomas</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>T000476</bioguideId>
+          <gpoId />
+          <lisID>2291</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>P000612</bioguideId>
+        <middleName>Alfred</middleName>
+        <state>GA</state>
+        <lastName>Perdue</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2286</lisID>
+          <gpoId />
+          <bioguideId>P000612</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Cassidy, Bill [R-LA]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>C001075</bioguideId>
+        <middleName />
+        <state>LA</state>
+        <lastName>Cassidy</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Bill</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1925</lisID>
+          <bioguideId>C001075</bioguideId>
+          <gpoId>7964</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Barrasso, John [R-WY]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <bioguideId>B001261</bioguideId>
+        <middleName />
+        <state>WY</state>
+        <lastName>Barrasso</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001261</bioguideId>
+          <gpoId>8300</gpoId>
+          <lisID>1881</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Daines, Steve [R-MT]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2015-11-19</sponsorshipDate>
+        <bioguideId>D000618</bioguideId>
+        <middleName />
+        <state>MT</state>
+        <lastName>Daines</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Steve</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2138</lisID>
+          <bioguideId>D000618</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+      <item>
+        <fullName>Sen. Scott, Tim [R-SC]</fullName>
+        <party>R</party>
+        <sponsorshipDate>2016-01-19</sponsorshipDate>
+        <bioguideId>S001184</bioguideId>
+        <middleName />
+        <state>SC</state>
+        <lastName>Scott</lastName>
+        <sponsorshipWithdrawnDate />
+        <firstName>Tim</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8141</gpoId>
+          <lisID>2056</lisID>
+          <bioguideId>S001184</bioguideId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>2284</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-11-20T20:57:27Z</lastSummaryUpdateDate>
+          <actionDate>2015-11-17</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-11-17T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><strong>Syrian Refugee Verification and Safety Act</strong></p> <p>This bill declares that: (1) no alien who is a refugee because of the conflict in Syria (covered alien) may be admitted to the United States as a refugee, (2) no funds may be expended to process refugee applications for covered aliens, and (3) no funds may be expended by the Department of State or the Department of Health and Human Services to resettle covered aliens in the United States.</p> <p>These restrictions shall remain in effect until 30 days after the President certifies to Congress regarding: </p> <ul> <li>protocols and interagency coordination to adjudicate such U.S. admissions and resettlement; </li> <li>evaluation and review of such protocols and coordination by the Inspector General of the Intelligence Community; </li> <li>State Department submission to Congress of an updated Congressional Presentation Document of the Bureau of Population, Refugees, and Migration for Fiscal Year 2016 that reflects security or other risks posed by covered aliens; and </li> <li>a State Department briefing to Congress on the increase in covered aliens seeking refugee admission and so admitted, including information on any terrorist conduct. </li> </ul> <p>This certification: (1) may not be submitted to Congress before 270 days, and (2) shall not have any effect if Congress enacts into law a joint resolution of disapproval within 15 days.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Syrian Refugee Verification and Safety Act</title>
+    <latestAction>
+      <actionDate>2015-11-17</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S8022-8023)</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:10:31Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Vitter, David [R-LA]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>V000127</bioguideId>
+        <middleName />
+        <state>LA</state>
+        <firstName>David</firstName>
+        <lastName>Vitter</lastName>
+        <identifiers>
+          <lisID>1609</lisID>
+          <bioguideId>V000127</bioguideId>
+          <gpoId>8267</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

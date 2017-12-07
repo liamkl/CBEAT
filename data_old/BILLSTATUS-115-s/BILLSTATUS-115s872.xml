@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-04-07T00:41:50Z</createDate>
+    <recordedVotes/>
+    <cboCostEstimates/>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+          <activities>
+            <item>
+              <date>2017-04-06T18:00:33Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws/>
+    <relatedBills>
+      <item>
+        <number>1955</number>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestAction>
+          <text>Referred to the Subcommittee on Health.</text>
+          <actionDate>2017-04-17</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Rural Hospital Access Act of 2017</latestTitle>
+      </item>
+    </relatedBills>
+    <calendarNumbers/>
+    <introducedDate>2017-04-06</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-04-06</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-04-06</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <congress>115</congress>
+    <committeeReports/>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Rural Hospital Access Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Rural Hospital Access Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend title XVIII of the Social Security Act to make permanent the extension of the Medicare-dependent hospital (MDH) program and the increased payments under the Medicare low-volume hospital program.</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <title>Rural Hospital Access Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Health care coverage and access</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Hospital care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Schumer, Charles E. [D-NY]</fullName>
+        <state>NY</state>
+        <bioguideId>S000148</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>SCHUMER</lastName>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <lisID>1036</lisID>
+          <bioguideId>S000148</bioguideId>
+          <gpoId>8279</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>DEBORAH</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Stabenow, Debbie [D-MI]</fullName>
+        <state>MI</state>
+        <bioguideId>S000770</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>STABENOW</lastName>
+        <middleName>ANN</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <lisID>1531</lisID>
+          <bioguideId>S000770</bioguideId>
+          <gpoId>8261</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>SHELLEY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Capito, Shelley Moore [R-WV]</fullName>
+        <state>WV</state>
+        <bioguideId>C001047</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>CAPITO</lastName>
+        <middleName>MOORE</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <gpoId>8223</gpoId>
+          <lisID>1676</lisID>
+          <bioguideId>C001047</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Claire</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+        <state>MO</state>
+        <bioguideId>M001170</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>McCaskill</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <bioguideId>M001170</bioguideId>
+          <gpoId>8252</gpoId>
+          <lisID>1820</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>TAMMY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Baldwin, Tammy [D-WI]</fullName>
+        <state>WI</state>
+        <bioguideId>B001230</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>BALDWIN</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <bioguideId>B001230</bioguideId>
+          <gpoId>8215</gpoId>
+          <lisID>1558</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>PATRICK</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+        <state>VT</state>
+        <bioguideId>L000174</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>LEAHY</lastName>
+        <middleName>JOSEPH</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <bioguideId>L000174</bioguideId>
+          <gpoId>8244</gpoId>
+          <lisID>1383</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Michael</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Bennet, Michael F. [D-CO]</fullName>
+        <state>CO</state>
+        <bioguideId>B001267</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Bennet</lastName>
+        <middleName>F.</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <lisID>1965</lisID>
+          <bioguideId>B001267</bioguideId>
+          <gpoId>8302</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>JOHN</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. McCain, John [R-AZ]</fullName>
+        <state>AZ</state>
+        <bioguideId>M000303</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>MCCAIN</lastName>
+        <middleName>SIDNEY</middleName>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <lisID>754</lisID>
+          <bioguideId>M000303</bioguideId>
+          <gpoId>8253</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Cory</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Gardner, Cory [R-CO]</fullName>
+        <state>CO</state>
+        <bioguideId>G000562</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Gardner</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-04-06</sponsorshipDate>
+        <identifiers>
+          <lisID>1998</lisID>
+          <bioguideId>G000562</bioguideId>
+          <gpoId>7862</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Kirsten</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <state>NY</state>
+        <bioguideId>G000555</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Gillibrand</lastName>
+        <middleName>E.</middleName>
+        <sponsorshipDate>2017-04-25</sponsorshipDate>
+        <identifiers>
+          <bioguideId>G000555</bioguideId>
+          <gpoId>8336</gpoId>
+          <lisID>1866</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Martin</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Heinrich, Martin [D-NM]</fullName>
+        <state>NM</state>
+        <bioguideId>H001046</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Heinrich</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-05-11</sponsorshipDate>
+        <identifiers>
+          <bioguideId>H001046</bioguideId>
+          <gpoId>8056</gpoId>
+          <lisID>1937</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Jeanne</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <state>NH</state>
+        <bioguideId>S001181</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Shaheen</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-05-25</sponsorshipDate>
+        <identifiers>
+          <lisID>1901</lisID>
+          <bioguideId>S001181</bioguideId>
+          <gpoId>8276</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Catherine</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Cortez Masto, Catherine  [D-NV]</fullName>
+        <state>NV</state>
+        <bioguideId>C001113</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Cortez Masto</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-07-10</sponsorshipDate>
+        <identifiers>
+          <lisID>2299</lisID>
+          <bioguideId>C001113</bioguideId>
+          <gpoId/>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Amy</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <state>MN</state>
+        <bioguideId>K000367</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Klobuchar</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-07-11</sponsorshipDate>
+        <identifiers>
+          <gpoId>8249</gpoId>
+          <lisID>1826</lisID>
+          <bioguideId>K000367</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Bob</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Casey, Robert P., Jr. [D-PA]</fullName>
+        <state>PA</state>
+        <bioguideId>C001070</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Casey</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-09-14</sponsorshipDate>
+        <identifiers>
+          <lisID>1828</lisID>
+          <bioguideId>C001070</bioguideId>
+          <gpoId>8282</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Margaret</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <fullName>Sen. Hassan, Margaret Wood [D-NH]</fullName>
+        <state>NH</state>
+        <bioguideId>H001076</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Hassan</lastName>
+        <middleName>Wood</middleName>
+        <sponsorshipDate>2017-09-26</sponsorshipDate>
+        <identifiers>
+          <gpoId/>
+          <lisID>2302</lisID>
+          <bioguideId>H001076</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Roy</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+        <state>MO</state>
+        <bioguideId>B000575</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Blunt</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-10-16</sponsorshipDate>
+        <identifiers>
+          <bioguideId>B000575</bioguideId>
+          <gpoId>8313</gpoId>
+          <lisID>1464</lisID>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Joni</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Ernst, Joni  [R-IA]</fullName>
+        <state>IA</state>
+        <bioguideId>E000295</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Ernst</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-10-26</sponsorshipDate>
+        <identifiers>
+          <lisID>2283</lisID>
+          <bioguideId>E000295</bioguideId>
+          <gpoId/>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Angus</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>I</party>
+        <fullName>Sen. King, Angus S., Jr. [I-ME]</fullName>
+        <state>ME</state>
+        <bioguideId>K000383</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <lastName>King</lastName>
+        <middleName/>
+        <sponsorshipDate>2017-10-30</sponsorshipDate>
+        <identifiers>
+          <lisID>2185</lisID>
+          <gpoId/>
+          <bioguideId>K000383</bioguideId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>872</billNumber>
+    <amendments/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <notes/>
+    <title>Rural Hospital Access Act of 2017</title>
+    <latestAction>
+      <actionDate>2017-04-06</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+    </latestAction>
+    <updateDate>2017-10-31T04:50:58Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+        <party>R</party>
+        <byRequestType/>
+        <bioguideId>G000386</bioguideId>
+        <middleName>ERNEST</middleName>
+        <state>IA</state>
+        <firstName>CHARLES</firstName>
+        <lastName>GRASSLEY</lastName>
+        <identifiers>
+          <lisID>457</lisID>
+          <bioguideId>G000386</bioguideId>
+          <gpoId>8316</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

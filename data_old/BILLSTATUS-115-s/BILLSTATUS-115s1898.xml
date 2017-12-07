@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-09-28</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>S6228-6229</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S6228-6229</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S6228-6229)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <actionDate>2017-09-28</actionDate>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+      </item>
+    </actions>
+    <introducedDate>2017-09-28</introducedDate>
+    <cboCostEstimates/>
+    <title>Repeal and Refund Act</title>
+    <cosponsors/>
+    <laws/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <recordedVotes/>
+    <latestAction>
+      <actionDate>2017-09-28</actionDate>
+      <text>Read twice and referred to the Committee on Finance. (text of measure as introduced: CR S6228-6229)</text>
+      <links/>
+    </latestAction>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-09-28T20:51:43Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>S</billType>
+    <relatedBills/>
+    <committeeReports/>
+    <updateDate>2017-10-16T16:18:45Z</updateDate>
+    <congress>115</congress>
+    <originChamber>Senate</originChamber>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Repeal and Refund Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Internal Revenue Code of 1986 to retroactively repeal the individual mandate for health insurance.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Repeal and Refund Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Repeal and Refund Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <notes/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <amendments/>
+    <version>1.0.0</version>
+    <billNumber>1898</billNumber>
+    <createDate>2017-09-29T00:26:26Z</createDate>
+    <calendarNumbers/>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <state>MT</state>
+        <lastName>Daines</lastName>
+        <firstName>Steve</firstName>
+        <identifiers>
+          <bioguideId>D000618</bioguideId>
+          <lisID>2138</lisID>
+          <gpoId/>
+        </identifiers>
+        <bioguideId>D000618</bioguideId>
+        <byRequestType/>
+        <fullName>Sen. Daines, Steve [R-MT]</fullName>
+        <middleName/>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

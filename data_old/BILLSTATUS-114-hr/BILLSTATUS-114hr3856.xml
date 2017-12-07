@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-10-29T09:16:28Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-10-28T14:02:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>Consolidated Appropriations Act, 2016</latestTitle>
+        <latestAction>
+          <text>Became Public Law No: 114-113.</text>
+          <actionDate>2015-12-18</actionDate>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2029</number>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-10-28</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-10-28</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-28</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-10-28</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Information Reporting Simplification Act of 2015</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the Internal Revenue Code of 1986 to provide a safe harbor for de minimis errors on information returns and payee statements.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Information Reporting Simplification Act of 2015</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Carney, John C., Jr. [D-DE-At Large]</fullName>
+        <district>0</district>
+        <middleName>C.</middleName>
+        <state>DE</state>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1999</lisID>
+          <bioguideId>C001083</bioguideId>
+          <gpoId>7872</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-10-28</sponsorshipDate>
+        <bioguideId>C001083</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Carney</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Marchant, Kenny [R-TX-24]</fullName>
+        <district>24</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>Kenny</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001158</bioguideId>
+          <gpoId>8766</gpoId>
+          <lisID>1806</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <bioguideId>M001158</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Marchant</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <district>52</district>
+        <middleName>H.</middleName>
+        <state>CA</state>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+          <lisID>2113</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-03</sponsorshipDate>
+        <bioguideId>P000608</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Peters</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <district>9</district>
+        <middleName>J.</middleName>
+        <state>NJ</state>
+        <firstName>WILLIAM</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1510</lisID>
+          <gpoId>8050</gpoId>
+          <bioguideId>P000096</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-03</sponsorshipDate>
+        <bioguideId>P000096</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>PASCRELL</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <district>6</district>
+        <middleName />
+        <state>WA</state>
+        <firstName>Derek</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <gpoId />
+          <lisID>2169</lisID>
+          <bioguideId>K000381</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <bioguideId>K000381</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kilmer</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Bucshon, Larry [R-IN-8]</fullName>
+        <district>8</district>
+        <middleName />
+        <state>IN</state>
+        <firstName>Larry</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001275</bioguideId>
+          <gpoId>7947</gpoId>
+          <lisID>2018</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-10</sponsorshipDate>
+        <bioguideId>B001275</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Bucshon</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Meehan, Patrick [R-PA-7]</fullName>
+        <district>7</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Patrick</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>M001181</bioguideId>
+          <gpoId>8125</gpoId>
+          <lisID>2052</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <bioguideId>M001181</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Meehan</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <district>2</district>
+        <middleName>E.</middleName>
+        <state>NV</state>
+        <firstName>Mark</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2090</lisID>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <bioguideId>A000369</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Amodei</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Barletta, Lou [R-PA-11]</fullName>
+        <district>11</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Lou</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>B001269</bioguideId>
+          <gpoId>8129</gpoId>
+          <lisID>2054</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-16</sponsorshipDate>
+        <bioguideId>B001269</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Barletta</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Rice, Kathleen M. [D-NY-4]</fullName>
+        <district>4</district>
+        <middleName>M.</middleName>
+        <state>NY</state>
+        <firstName>Kathleen</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2262</lisID>
+          <bioguideId>R000602</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-12-17</sponsorshipDate>
+        <bioguideId>R000602</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Rice</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kelly, Mike [R-PA-3]</fullName>
+        <district>3</district>
+        <middleName />
+        <state>PA</state>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2051</lisID>
+          <bioguideId>K000376</bioguideId>
+          <gpoId>8708</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-12-17</sponsorshipDate>
+        <bioguideId>K000376</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kelly</lastName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3856</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2015-10-28</actionDate>
+          <lastSummaryUpdateDate>2015-12-11T14:53:52Z</lastSummaryUpdateDate>
+          <updateDate>2015-10-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Information Reporting Simplification Act of 2015 </strong></p> <p>This bill amends the Internal Revenue Code, with respect to penalties for filing erroneous tax returns, to set forth a safe harbor rule for errors on tax information returns and payee statements. If any such return or statement has one or more incorrect dollar amounts, but no single amount in error differs from the correct amount by more than $100, and no single amount reported for tax withheld on any information return differs from the correct amount by more than $25, then no correction shall be required and such return or statement shall be treated as having been filed with all of the correct required information. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. RENACCI:H.R. 3856.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 1:The Congress shall have Power To lay and collect Taxes,Duties, Imposts and Excises, to pay the Debts and provide forthe common Defence and general Welfare of the United States;but all Duties, Imposts and Excises shall be uniformthroughout the United States.Article 1, Section 8, Clause 18:To make all Laws which shall be necessary and proper forcarrying into Execution the foregoing Powers, and all otherPowers vested by this Constitution in the Government of theUnited States, or in any Department or Officer thereof.____________________[Page H7332]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Information Reporting Simplification Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-10-28</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:03:39Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>R000586</bioguideId>
+        <district>16</district>
+        <middleName>B.</middleName>
+        <state>OH</state>
+        <firstName>James</firstName>
+        <lastName>Renacci</lastName>
+        <identifiers>
+          <lisID>2048</lisID>
+          <bioguideId>R000586</bioguideId>
+          <gpoId>8106</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

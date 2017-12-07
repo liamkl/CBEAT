@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <billType>S</billType>
+    <originChamber>Senate</originChamber>
+    <title>Rim of the Valley Corridor Preservation Act</title>
+    <notes/>
+    <updateDate>2017-10-28T04:31:53Z</updateDate>
+    <cboCostEstimates/>
+    <introducedDate>2017-10-19</introducedDate>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <actions>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-19</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links>
+          <link>
+            <name>S6645-6646</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S6645-6646</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S6645-6646)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-10-19</actionDate>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+    </actions>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <latestTitle>Rim of the Valley Corridor Preservation Act</latestTitle>
+        <number>4086</number>
+        <congress>115</congress>
+        <type>HR</type>
+        <latestAction>
+          <text>Referred to the House Committee on Natural Resources.</text>
+          <actionDate>2017-10-19</actionDate>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <calendarNumbers/>
+    <createDate>2017-10-20T01:41:19Z</createDate>
+    <billNumber>1993</billNumber>
+    <committeeReports/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <laws/>
+    <recordedVotes/>
+    <cosponsors/>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <title>Rim of the Valley Corridor Preservation Act</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <title>A bill to adjust the boundary of the Santa Monica Mountains National Recreation Area to include the Rim of the Valley Corridor, and for other purposes.</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <title>Rim of the Valley Corridor Preservation Act</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <title>Rim of the Valley Corridor Preservation Act</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S6645-6646)</text>
+      <actionDate>2017-10-19</actionDate>
+      <links/>
+    </latestAction>
+    <amendments/>
+    <sponsors>
+      <item>
+        <middleName/>
+        <fullName>Sen. Feinstein, Dianne [D-CA]</fullName>
+        <lastName>FEINSTEIN</lastName>
+        <firstName>DIANNE</firstName>
+        <party>D</party>
+        <state>CA</state>
+        <bioguideId>F000062</bioguideId>
+        <identifiers>
+          <bioguideId>F000062</bioguideId>
+          <gpoId>8338</gpoId>
+          <lisID>1332</lisID>
+        </identifiers>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <congress>115</congress>
+    <version>1.0.0</version>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-19T20:57:50Z</date>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+          <type>Standing</type>
+          <subcommittees/>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

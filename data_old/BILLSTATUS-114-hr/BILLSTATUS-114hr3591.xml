@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-09-23T08:46:10Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-09-22T20:00:29Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestAction>
+          <actionDate>2015-09-22</actionDate>
+          <text>Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S6896-6897)</text>
+        </latestAction>
+        <number>2068</number>
+        <type>S</type>
+        <latestTitle>Fire Sprinkler Incentive Act</latestTitle>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2015-09-22</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2015-09-22</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-09-22</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionDate>2015-09-22</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Fire Sprinkler Incentive Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Internal Revenue Code of 1986 to include automated fire sprinkler system retrofits as section 179 property and classify certain automated fire sprinkler system retrofits as 15-year property for purposes of depreciation.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Fire Sprinkler Incentive Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Fires</name>
+          </item>
+          <item>
+            <name>Income tax deductions</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <state>RI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LANGEVIN</lastName>
+        <middleName>R.</middleName>
+        <district>2</district>
+        <fullName>Rep. Langevin, James R. [D-RI-2]</fullName>
+        <identifiers>
+          <lisID>1668</lisID>
+          <bioguideId>L000559</bioguideId>
+          <gpoId>8140</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-09-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000559</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Collins</lastName>
+        <middleName />
+        <district>27</district>
+        <fullName>Rep. Collins, Chris [R-NY-27]</fullName>
+        <identifiers>
+          <lisID>2151</lisID>
+          <gpoId />
+          <bioguideId>C001092</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001092</bioguideId>
+        <firstName>Chris</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>KING</lastName>
+        <middleName>T.</middleName>
+        <district>2</district>
+        <fullName>Rep. King, Peter T. [R-NY-2]</fullName>
+        <identifiers>
+          <lisID>635</lisID>
+          <gpoId>8064</gpoId>
+          <bioguideId>K000210</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000210</bioguideId>
+        <firstName>PETER</firstName>
+      </item>
+      <item>
+        <state>CT</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>LARSON</lastName>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <identifiers>
+          <lisID>1583</lisID>
+          <bioguideId>L000557</bioguideId>
+          <gpoId>7866</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000557</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>TN</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>COOPER</lastName>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <fullName>Rep. Cooper, Jim [D-TN-5]</fullName>
+        <identifiers>
+          <gpoId>8152</gpoId>
+          <lisID>231</lisID>
+          <bioguideId>C000754</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-10-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000754</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Johnson</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <identifiers>
+          <lisID>2046</lisID>
+          <bioguideId>J000292</bioguideId>
+          <gpoId>8096</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-10-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000292</bioguideId>
+        <firstName>Bill</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Van Hollen</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <identifiers>
+          <lisID>1729</lisID>
+          <bioguideId>V000128</bioguideId>
+          <gpoId>7983</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-10-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>V000128</bioguideId>
+        <firstName>Chris</firstName>
+      </item>
+      <item>
+        <state>NJ</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>PASCRELL</lastName>
+        <middleName>J.</middleName>
+        <district>9</district>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <identifiers>
+          <lisID>1510</lisID>
+          <gpoId>8050</gpoId>
+          <bioguideId>P000096</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000096</bioguideId>
+        <firstName>WILLIAM</firstName>
+      </item>
+      <item>
+        <state>NJ</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>LOBIONDO</lastName>
+        <middleName>A.</middleName>
+        <district>2</district>
+        <fullName>Rep. LoBiondo, Frank A. [R-NJ-2]</fullName>
+        <identifiers>
+          <lisID>699</lisID>
+          <bioguideId>L000554</bioguideId>
+          <gpoId>8044</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000554</bioguideId>
+        <firstName>FRANK</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Dold</lastName>
+        <middleName>J.</middleName>
+        <district>10</district>
+        <fullName>Rep. Dold, Robert J. [R-IL-10]</fullName>
+        <identifiers>
+          <lisID>2013</lisID>
+          <gpoId>7930</gpoId>
+          <bioguideId>D000613</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-12-01</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000613</bioguideId>
+        <firstName>Robert</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Johnson</lastName>
+        <middleName>C. "Hank"</middleName>
+        <district>4</district>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <identifiers>
+          <lisID>1843</lisID>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-12-01</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000288</bioguideId>
+        <firstName>Henry</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>RANGEL</lastName>
+        <middleName>B.</middleName>
+        <district>13</district>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <identifiers>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+          <lisID>944</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-02-03</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000053</bioguideId>
+        <firstName>CHARLES</firstName>
+      </item>
+      <item>
+        <state>PA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <middleName />
+        <district>18</district>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <identifiers>
+          <bioguideId>M001151</bioguideId>
+          <gpoId>8723</gpoId>
+          <lisID>1744</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-03-07</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001151</bioguideId>
+        <firstName>Tim</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Tonko</lastName>
+        <middleName />
+        <district>20</district>
+        <fullName>Rep. Tonko, Paul [D-NY-20]</fullName>
+        <identifiers>
+          <lisID>1942</lisID>
+          <bioguideId>T000469</bioguideId>
+          <gpoId>8082</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-03-07</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000469</bioguideId>
+        <firstName>Paul</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Comstock</lastName>
+        <middleName />
+        <district>10</district>
+        <fullName>Rep. Comstock, Barbara [R-VA-10]</fullName>
+        <identifiers>
+          <lisID>2273</lisID>
+          <gpoId />
+          <bioguideId>C001105</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001105</bioguideId>
+        <firstName>Barbara</firstName>
+      </item>
+      <item>
+        <state>NJ</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MacArthur</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. MacArthur, Thomas [R-NJ-3]</fullName>
+        <identifiers>
+          <lisID>2258</lisID>
+          <gpoId />
+          <bioguideId>M001193</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001193</bioguideId>
+        <firstName>Thomas</firstName>
+      </item>
+      <item>
+        <state>MA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lynch</lastName>
+        <middleName>F.</middleName>
+        <district>8</district>
+        <fullName>Rep. Lynch, Stephen F. [D-MA-8]</fullName>
+        <identifiers>
+          <bioguideId>L000562</bioguideId>
+          <gpoId>7974</gpoId>
+          <lisID>1686</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-06-28</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000562</bioguideId>
+        <firstName>Stephen</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ruppersberger</lastName>
+        <middleName>Dutch</middleName>
+        <district>2</district>
+        <fullName>Rep. Ruppersberger, C. A. Dutch [D-MD-2]</fullName>
+        <identifiers>
+          <lisID>1728</lisID>
+          <bioguideId>R000576</bioguideId>
+          <gpoId>7977</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000576</bioguideId>
+        <firstName>C. A.</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>LEE</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <identifiers>
+          <lisID>1501</lisID>
+          <gpoId>7814</gpoId>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000551</bioguideId>
+        <firstName>BARBARA</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Swalwell</lastName>
+        <middleName />
+        <district>15</district>
+        <fullName>Rep. Swalwell, Eric [D-CA-15]</fullName>
+        <identifiers>
+          <lisID>2104</lisID>
+          <bioguideId>S001193</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001193</bioguideId>
+        <firstName>Eric</firstName>
+      </item>
+      <item>
+        <state>CT</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Courtney</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Courtney, Joe [D-CT-2]</fullName>
+        <identifiers>
+          <lisID>1836</lisID>
+          <gpoId>7867</gpoId>
+          <bioguideId>C001069</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001069</bioguideId>
+        <firstName>Joe</firstName>
+      </item>
+      <item>
+        <state>DC</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>NORTON</lastName>
+        <middleName>HOLMES</middleName>
+        <district>0</district>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <identifiers>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+          <lisID>868</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000147</bioguideId>
+        <firstName>ELEANOR</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DeSaulnier</lastName>
+        <middleName />
+        <district>11</district>
+        <fullName>Rep. DeSaulnier, Mark [D-CA-11]</fullName>
+        <identifiers>
+          <bioguideId>D000623</bioguideId>
+          <gpoId />
+          <lisID>2227</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000623</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+      <item>
+        <state>NH</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kuster</lastName>
+        <middleName>M.</middleName>
+        <district>2</district>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <identifiers>
+          <bioguideId>K000382</bioguideId>
+          <gpoId />
+          <lisID>2145</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000382</bioguideId>
+        <firstName>Ann</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Garamendi</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Garamendi, John [D-CA-3]</fullName>
+        <identifiers>
+          <lisID>1973</lisID>
+          <bioguideId>G000559</bioguideId>
+          <gpoId>7815</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>G000559</bioguideId>
+        <firstName>John</firstName>
+      </item>
+      <item>
+        <state>NE</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ashford</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <identifiers>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+          <lisID>2257</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000373</bioguideId>
+        <firstName>Brad</firstName>
+      </item>
+      <item>
+        <state>MA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>MCGOVERN</lastName>
+        <middleName>P.</middleName>
+        <district>2</district>
+        <fullName>Rep. McGovern, James P. [D-MA-2]</fullName>
+        <identifiers>
+          <bioguideId>M000312</bioguideId>
+          <gpoId>7968</gpoId>
+          <lisID>1504</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-12-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M000312</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3591</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-10-01T18:23:29Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-09-22</actionDate>
+          <text><![CDATA[<p><strong>Fire Sprinkler Incentive Act</strong> </p> <p>This bill amends the Internal Revenue Code to allow: (1) 100% expensing in a current taxable year of the cost of automated fire sprinkler system retrofit property, as defined by this Act; and (2) accelerated depreciation (i.e., a 15-year recovery period) of automated fire sprinkler system retrofit property that is installed in a building or structure where the floor of any occupiable story is greater than 75 feet above the lowest level of fire department vehicle access and that has a certain classification by the National Fire Protection Association. </p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-09-22T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. REED:H.R. 3591.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 and Amendment XVI of the United StatesConstitution[Page H6189]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Fire Sprinkler Incentive Act</title>
+    <latestAction>
+      <actionDate>2015-09-22</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:03:16Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Reed, Tom [R-NY-23]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>R000585</bioguideId>
+        <district>23</district>
+        <middleName />
+        <state>NY</state>
+        <firstName>Tom</firstName>
+        <lastName>Reed</lastName>
+        <identifiers>
+          <lisID>1982</lisID>
+          <bioguideId>R000585</bioguideId>
+          <gpoId>8090</gpoId>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

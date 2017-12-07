@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssfi00</systemCode>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-04-27T20:03:21Z</date>
+            </item>
+          </activities>
+          <name>Finance Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <amendments/>
+    <billNumber>980</billNumber>
+    <calendarNumbers/>
+    <relatedBills>
+      <item>
+        <number>1828</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestAction>
+          <text>Referred to the Subcommittee on Health.</text>
+          <actionDate>2017-04-12</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Rural Access to Hospice Act of 2017</latestTitle>
+      </item>
+    </relatedBills>
+    <sponsors>
+      <item>
+        <middleName>MOORE</middleName>
+        <party>R</party>
+        <bioguideId>C001047</bioguideId>
+        <lastName>CAPITO</lastName>
+        <state>WV</state>
+        <firstName>SHELLEY</firstName>
+        <identifiers>
+          <lisID>1676</lisID>
+          <bioguideId>C001047</bioguideId>
+          <gpoId>8223</gpoId>
+        </identifiers>
+        <fullName>Sen. Capito, Shelley Moore [R-WV]</fullName>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Long-term, rehabilitative, and terminal care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2017-04-27</actionDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Rural Access to Hospice Act of 2017</strong></p> <p>This bill amends title XVIII (Medicare) of the Social Security Act to allow payment under Medicare for certain services furnished to hospice patients by rural health clinics and federally qualified health centers (FQHCs).</p> <p>With respect to a patient who elects to receive hospice care under Medicare, current law generally limits payment for services that are either duplicative of&nbsp;such care or related to the treatment of the individual's terminal illness. However, current law exempts from this limitation: (1)&nbsp;physicians' services furnished by an attending physician not employed by the hospice program; and (2) services provided or arranged by the hospice program.</p> <p>The bill expands this exemption with regard to rural health clinic and FQHC services. Specifically, the payment limitation shall not apply to such services that: (1) would otherwise be physicians' services if furnished by an individual&nbsp;unaffiliated with a rural health clinic or FQHC; and (2) are either&nbsp;arranged by the hospice program or furnished by an attending physician not employed by the hospice program.</p>]]></text>
+          <lastSummaryUpdateDate>2017-08-31T20:08:59Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2017-04-27T04:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <updateDate>2017-10-19T05:45:40Z</updateDate>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-04-27</actionDate>
+        <committee>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-04-27</actionDate>
+        <committee/>
+        <actionCode>10000</actionCode>
+      </item>
+    </actions>
+    <version>1.0.0</version>
+    <latestAction>
+      <actionDate>2017-04-27</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1901</lisID>
+          <gpoId>8276</gpoId>
+          <bioguideId>S001181</bioguideId>
+        </identifiers>
+        <lastName>Shaheen</lastName>
+        <bioguideId>S001181</bioguideId>
+        <fullName>Sen. Shaheen, Jeanne [D-NH]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>NH</state>
+        <sponsorshipDate>2017-04-27</sponsorshipDate>
+        <firstName>Jeanne</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1969</lisID>
+          <gpoId>8339</gpoId>
+          <bioguideId>F000457</bioguideId>
+        </identifiers>
+        <lastName>Franken</lastName>
+        <bioguideId>F000457</bioguideId>
+        <fullName>Sen. Franken, Al [D-MN]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>MN</state>
+        <sponsorshipDate>2017-04-27</sponsorshipDate>
+        <firstName>Al</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1866</lisID>
+          <gpoId>8336</gpoId>
+          <bioguideId>G000555</bioguideId>
+        </identifiers>
+        <lastName>Gillibrand</lastName>
+        <bioguideId>G000555</bioguideId>
+        <fullName>Sen. Gillibrand, Kirsten E. [D-NY]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>NY</state>
+        <sponsorshipDate>2017-04-27</sponsorshipDate>
+        <firstName>Kirsten</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1687</lisID>
+          <gpoId>8247</gpoId>
+          <bioguideId>B001236</bioguideId>
+        </identifiers>
+        <lastName>Boozman</lastName>
+        <bioguideId>B001236</bioguideId>
+        <fullName>Sen. Boozman, John [R-AR]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>AR</state>
+        <sponsorshipDate>2017-05-08</sponsorshipDate>
+        <firstName>John</firstName>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <bioguideId>K000367</bioguideId>
+          <lisID>1826</lisID>
+          <gpoId>8249</gpoId>
+        </identifiers>
+        <lastName>Klobuchar</lastName>
+        <bioguideId>K000367</bioguideId>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>MN</state>
+        <sponsorshipDate>2017-05-10</sponsorshipDate>
+        <firstName>Amy</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>2283</lisID>
+          <gpoId/>
+          <bioguideId>E000295</bioguideId>
+        </identifiers>
+        <lastName>Ernst</lastName>
+        <bioguideId>E000295</bioguideId>
+        <fullName>Sen. Ernst, Joni  [R-IA]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>IA</state>
+        <sponsorshipDate>2017-05-22</sponsorshipDate>
+        <firstName>Joni</firstName>
+        <party>R</party>
+      </item>
+      <item>
+        <middleName>JOSEPH</middleName>
+        <identifiers>
+          <lisID>1383</lisID>
+          <gpoId>8244</gpoId>
+          <bioguideId>L000174</bioguideId>
+        </identifiers>
+        <lastName>LEAHY</lastName>
+        <bioguideId>L000174</bioguideId>
+        <fullName>Sen. Leahy, Patrick J. [D-VT]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>VT</state>
+        <sponsorshipDate>2017-07-24</sponsorshipDate>
+        <firstName>PATRICK</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1010</lisID>
+          <gpoId>8270</gpoId>
+          <bioguideId>S000033</bioguideId>
+        </identifiers>
+        <lastName>SANDERS</lastName>
+        <bioguideId>S000033</bioguideId>
+        <fullName>Sen. Sanders, Bernard [I-VT]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>VT</state>
+        <sponsorshipDate>2017-07-24</sponsorshipDate>
+        <firstName>BERNARD</firstName>
+        <party>I</party>
+      </item>
+      <item>
+        <middleName>K.</middleName>
+        <identifiers>
+          <lisID>1844</lisID>
+          <gpoId>7913</gpoId>
+          <bioguideId>H001042</bioguideId>
+        </identifiers>
+        <lastName>Hirono</lastName>
+        <bioguideId>H001042</bioguideId>
+        <fullName>Sen. Hirono, Mazie K. [D-HI]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>HI</state>
+        <sponsorshipDate>2017-10-05</sponsorshipDate>
+        <firstName>Mazie</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName>ANN</middleName>
+        <identifiers>
+          <lisID>1531</lisID>
+          <gpoId>8261</gpoId>
+          <bioguideId>S000770</bioguideId>
+        </identifiers>
+        <lastName>STABENOW</lastName>
+        <bioguideId>S000770</bioguideId>
+        <fullName>Sen. Stabenow, Debbie [D-MI]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>MI</state>
+        <sponsorshipDate>2017-10-18</sponsorshipDate>
+        <firstName>DEBORAH</firstName>
+        <party>D</party>
+      </item>
+      <item>
+        <middleName/>
+        <identifiers>
+          <lisID>1850</lisID>
+          <bioguideId>D000607</bioguideId>
+          <gpoId>7941</gpoId>
+        </identifiers>
+        <lastName>Donnelly</lastName>
+        <bioguideId>D000607</bioguideId>
+        <fullName>Sen. Donnelly, Joe [D-IN]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <sponsorshipWithdrawnDate/>
+        <state>IN</state>
+        <sponsorshipDate>2017-10-18</sponsorshipDate>
+        <firstName>Joe</firstName>
+        <party>D</party>
+      </item>
+    </cosponsors>
+    <introducedDate>2017-04-27</introducedDate>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <billType>S</billType>
+    <title>Rural Access to Hospice Act of 2017</title>
+    <committeeReports/>
+    <cboCostEstimates/>
+    <originChamber>Senate</originChamber>
+    <notes/>
+    <createDate>2017-04-28T00:41:46Z</createDate>
+    <recordedVotes/>
+    <laws/>
+    <titles>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Rural Access to Hospice Act of 2017</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Rural Access to Hospice Act of 2017</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to amend title XVIII of the Social Security Act to provide for payments for certain rural health clinic and Federally qualified health center services furnished to hospice patients under the Medicare program.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Rural Access to Hospice Act of 2017</title>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

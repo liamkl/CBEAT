@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>S6362-6363</name>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S6362-6363</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S6362-6363)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <links/>
+        <type>IntroReferral</type>
+        <actionDate>2017-10-05</actionDate>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-11-01T04:47:28Z</updateDate>
+    <introducedDate>2017-10-05</introducedDate>
+    <recordedVotes/>
+    <createDate>2017-10-06T00:41:19Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>JEFF</firstName>
+        <lastName>FLAKE</lastName>
+        <state>AZ</state>
+        <bioguideId>F000444</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1633</lisID>
+          <bioguideId>F000444</bioguideId>
+          <gpoId>7803</gpoId>
+        </identifiers>
+        <byRequestType/>
+        <middleName/>
+        <fullName>Sen. Flake, Jeff [R-AZ]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Border Security and Deferred Action Recipient Relief Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to authorize appropriations for border infrastructure construction, to provide conditional resident status to certain aliens, and to amend the Immigration and Nationality Act to include grounds of inadmissibility and deportability for alien members of criminal gangs and cartels, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Border Security and Deferred Action Recipient Relief Act</title>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>Border Security and Deferred Action Recipient Relief Act</title>
+      </item>
+    </titles>
+    <amendments/>
+    <version>1.0.0</version>
+    <cosponsors/>
+    <calendarNumbers/>
+    <committeeReports/>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-10-05T18:56:46Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Judiciary Committee</name>
+          <systemCode>ssju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2017-10-05</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary. (Sponsor introductory remarks on measure: CR S6362-6363)</text>
+      <links/>
+    </latestAction>
+    <relatedBills/>
+    <laws/>
+    <congress>115</congress>
+    <cboCostEstimates/>
+    <title>Border Security and Deferred Action Recipient Relief Act</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1937</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

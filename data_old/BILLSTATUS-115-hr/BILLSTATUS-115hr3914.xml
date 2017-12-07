@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-03T14:00:36Z</date>
+            </item>
+          </activities>
+          <subcommittees>
+            <item>
+              <systemCode>hsii10</systemCode>
+              <name>Federal Lands Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-10-06T19:41:51Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+          <chamber>House</chamber>
+        </item>
+      </billCommittees>
+    </committees>
+    <amendments/>
+    <billNumber>3914</billNumber>
+    <calendarNumbers/>
+    <relatedBills/>
+    <sponsors>
+      <item>
+        <middleName/>
+        <party>R</party>
+        <bioguideId>E000298</bioguideId>
+        <lastName>Estes</lastName>
+        <state>KS</state>
+        <firstName>Ron</firstName>
+        <fullName>Rep. Estes, Ron [R-KS-4]</fullName>
+        <identifiers>
+          <lisID>2358</lisID>
+          <gpoId/>
+          <bioguideId>E000298</bioguideId>
+        </identifiers>
+        <district>4</district>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <updateDate>2017-10-17T07:12:42Z</updateDate>
+    <actions>
+      <item>
+        <actionDate>2017-10-06</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Natural Resources.</text>
+        <actionCode>H11100</actionCode>
+        <actionDate>2017-10-03</actionDate>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2017-10-03</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <actionDate>2017-10-03</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <version>1.0.0</version>
+    <latestAction>
+      <actionDate>2017-10-06</actionDate>
+      <text>Referred to the Subcommittee on Federal Lands.</text>
+      <links/>
+    </latestAction>
+    <recordedVotes/>
+    <cosponsors>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <lastName>Marshall</lastName>
+        <firstName>Roger</firstName>
+        <identifiers>
+          <lisID>2328</lisID>
+          <gpoId/>
+          <bioguideId>M001198</bioguideId>
+        </identifiers>
+        <middleName>W.</middleName>
+        <district>1</district>
+        <state>KS</state>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-03</sponsorshipDate>
+        <bioguideId>M001198</bioguideId>
+        <fullName>Rep. Marshall, Roger W. [R-KS-1]</fullName>
+      </item>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <lastName>Jenkins</lastName>
+        <firstName>Lynn</firstName>
+        <identifiers>
+          <lisID>1921</lisID>
+          <gpoId>7950</gpoId>
+          <bioguideId>J000290</bioguideId>
+        </identifiers>
+        <middleName/>
+        <district>2</district>
+        <state>KS</state>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-03</sponsorshipDate>
+        <bioguideId>J000290</bioguideId>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+      </item>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <lastName>Yoder</lastName>
+        <firstName>Kevin</firstName>
+        <identifiers>
+          <bioguideId>Y000063</bioguideId>
+          <gpoId>7951</gpoId>
+          <lisID>2021</lisID>
+        </identifiers>
+        <middleName/>
+        <district>3</district>
+        <state>KS</state>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-03</sponsorshipDate>
+        <bioguideId>Y000063</bioguideId>
+        <fullName>Rep. Yoder, Kevin [R-KS-3]</fullName>
+      </item>
+    </cosponsors>
+    <introducedDate>2017-10-03</introducedDate>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <billType>HR</billType>
+    <laws/>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. ESTES of Kansas:H.R. 3914.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, clause 2Article I, Section 8, clause 18[Page H7750]</pre>]]></constitutionalAuthorityStatementText>
+    <titles>
+      <item>
+        <title>To remove the limitation imposed as a result of receiving funding under the Land and Water Conservation Fund on the conversion of Lake Afton Park in Sedgwick County, Kansas, to a use other than public outdoor recreation.</title>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>To remove the limitation imposed as a result of receiving funding under the Land and Water Conservation Fund on the conversion of Lake Afton Park in Sedgwick County, Kansas, to a use other than public outdoor recreation.</title>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+      </item>
+    </titles>
+    <originChamber>House</originChamber>
+    <notes/>
+    <committeeReports/>
+    <createDate>2017-10-04T03:11:23Z</createDate>
+    <congress>115</congress>
+    <title>To remove the limitation imposed as a result of receiving funding under the Land and Water Conservation Fund on the conversion of Lake Afton Park in Sedgwick County, Kansas, to a use other than public outdoor recreation.</title>
+    <cboCostEstimates/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

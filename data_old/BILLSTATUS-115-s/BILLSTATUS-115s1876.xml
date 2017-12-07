@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-09-28T00:26:19Z</createDate>
+    <billType>S</billType>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <recordedVotes/>
+    <relatedBills/>
+    <cboCostEstimates/>
+    <cosponsors>
+      <item>
+        <sponsorshipWithdrawnDate/>
+        <firstName>Sheldon</firstName>
+        <sponsorshipDate>2017-09-27</sponsorshipDate>
+        <middleName/>
+        <fullName>Sen. Whitehouse, Sheldon [D-RI]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <state>RI</state>
+        <bioguideId>W000802</bioguideId>
+        <identifiers>
+          <lisID>1823</lisID>
+          <gpoId>8264</gpoId>
+          <bioguideId>W000802</bioguideId>
+        </identifiers>
+        <lastName>Whitehouse</lastName>
+      </item>
+      <item>
+        <sponsorshipWithdrawnDate/>
+        <firstName>JOHN</firstName>
+        <sponsorshipDate>2017-09-27</sponsorshipDate>
+        <middleName>F.</middleName>
+        <fullName>Sen. Reed, Jack [D-RI]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>D</party>
+        <state>RI</state>
+        <bioguideId>R000122</bioguideId>
+        <identifiers>
+          <lisID>949</lisID>
+          <bioguideId>R000122</bioguideId>
+          <gpoId>8272</gpoId>
+        </identifiers>
+        <lastName>REED</lastName>
+      </item>
+      <item>
+        <sponsorshipWithdrawnDate/>
+        <firstName>Christopher</firstName>
+        <sponsorshipDate>2017-10-04</sponsorshipDate>
+        <middleName>A.</middleName>
+        <fullName>Sen. Coons, Christopher A. [D-DE]</fullName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <state>DE</state>
+        <bioguideId>C001088</bioguideId>
+        <identifiers>
+          <bioguideId>C001088</bioguideId>
+          <lisID>1984</lisID>
+          <gpoId>8297</gpoId>
+        </identifiers>
+        <lastName>Coons</lastName>
+      </item>
+    </cosponsors>
+    <congress>115</congress>
+    <notes/>
+    <introducedDate>2017-09-27</introducedDate>
+    <laws/>
+    <committeeReports/>
+    <titles>
+      <item>
+        <chamberCode/>
+        <title>Reducing the Cost of Energy Storage Act of 2017</title>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>A bill to direct the Secretary of Energy to establish a program to advance energy storage deployment by reducing the cost of energy storage through research, development, and demonstration, and for other purposes.</title>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>Reducing the Cost of Energy Storage Act of 2017</title>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>Reducing the Cost of Energy Storage Act of 2017</title>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+      </item>
+    </titles>
+    <originChamber>Senate</originChamber>
+    <version>1.0.0</version>
+    <sponsors>
+      <item>
+        <identifiers>
+          <bioguideId>W000779</bioguideId>
+          <lisID>1247</lisID>
+          <gpoId>8265</gpoId>
+        </identifiers>
+        <middleName/>
+        <fullName>Sen. Wyden, Ron [D-OR]</fullName>
+        <firstName>RON</firstName>
+        <byRequestType/>
+        <lastName>WYDEN</lastName>
+        <bioguideId>W000779</bioguideId>
+        <party>D</party>
+        <state>OR</state>
+      </item>
+    </sponsors>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-27T20:09:29Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <amendments/>
+    <billNumber>1876</billNumber>
+    <actions>
+      <item>
+        <actionDate>2017-09-27</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-163/senate-section/page/S6188</url>
+            <name>S6188</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S6188)</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <committee/>
+        <actionDate>2017-09-27</actionDate>
+        <links/>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <calendarNumbers/>
+    <title>Reducing the Cost of Energy Storage Act of 2017</title>
+    <updateDate>2017-10-07T04:28:52Z</updateDate>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <latestAction>
+      <actionDate>2017-09-27</actionDate>
+      <text>Read twice and referred to the Committee on Energy and Natural Resources. (Sponsor introductory remarks on measure: CR S6188)</text>
+      <links/>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

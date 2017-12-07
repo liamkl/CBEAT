@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <cosponsors>
+      <item>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Cornyn, John [R-TX]</fullName>
+        <state>TX</state>
+        <bioguideId>C001056</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cornyn</lastName>
+        <middleName />
+        <sponsorshipDate>2015-01-28</sponsorshipDate>
+        <identifiers>
+          <lisID>1692</lisID>
+          <gpoId>8295</gpoId>
+          <bioguideId>C001056</bioguideId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Deb</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Fischer, Deb [R-NE]</fullName>
+        <state>NE</state>
+        <bioguideId>F000463</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Fischer</lastName>
+        <middleName />
+        <sponsorshipDate>2015-01-28</sponsorshipDate>
+        <identifiers>
+          <lisID>2179</lisID>
+          <bioguideId>F000463</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+      <item>
+        <firstName>PAT</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+        <state>KS</state>
+        <bioguideId>R000307</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>ROBERTS</lastName>
+        <middleName />
+        <sponsorshipDate>2015-01-28</sponsorshipDate>
+        <identifiers>
+          <lisID>968</lisID>
+          <bioguideId>R000307</bioguideId>
+          <gpoId>8275</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Citizen Empowerment Act</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>A bill to amend title 5, United States Code, to establish certain procedures for conducting in-person or telephone interactions by executive branch employees with individuals, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Citizen Empowerment Act</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <cboCostEstimates />
+    <originChamber>Senate</originChamber>
+    <actions>
+      <item>
+        <actionDate>2015-01-28</actionDate>
+        <committee>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-28</actionDate>
+        <text>Introduced in Senate</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <notes />
+    <committeeReports />
+    <updateDate>2017-10-27T18:08:02Z</updateDate>
+    <billNumber>278</billNumber>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+      <actionDate>2015-01-28</actionDate>
+      <links />
+    </latestAction>
+    <version>1.0.0</version>
+    <introducedDate>2015-01-28</introducedDate>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>1464</lisID>
+          <bioguideId>B000575</bioguideId>
+          <gpoId>8313</gpoId>
+        </identifiers>
+        <byRequestType />
+        <party>R</party>
+        <bioguideId>B000575</bioguideId>
+        <state>MO</state>
+        <firstName>Roy</firstName>
+        <lastName>Blunt</lastName>
+        <middleName />
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+      </item>
+    </sponsors>
+    <billType>S</billType>
+    <createDate>2015-01-29T04:56:28Z</createDate>
+    <relatedBills>
+      <item>
+        <latestTitle>Citizen Empowerment Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-09</actionDate>
+          <text>Referred to the Subcommittee on Crime, Terrorism, Homeland Security, and Investigations.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>2856</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Evidence and witnesses</name>
+          </item>
+          <item>
+            <name>Government ethics and transparency, public corruption</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+          <item>
+            <name>Telephone and wireless communication</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <title>Citizen Empowerment Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Citizen Empowerment Act</b> </p> <p>Requires any executive agency employee who is conducting a covered interaction with an individual to allow the individual to make an audio recording of such interaction at the individual's expense and with the individual's equipment. Defines "covered interaction" as an in-person or telephonic official interaction relating to a possible violation of a federal statute or regulation that could result in the imposition of a fine or penalty against, the forfeiture of property by, or the collection of an unpaid tax, fine, or penalty from, the individual or a business owned or operated by the individual. </p> <p>Permits the employee conducting a covered interaction to record it if the employee: (1) informs the individual prior to or at the initiation of the interaction, and (2) provides the individual with a transcript or copy of the recording upon request and with the individual's reimbursement.</p> <p>Requires the employee, before or at an initial covered interaction, to provide to the individual a verbal or written notice of such individual's rights under this Act.</p> <p>Exempts any such interaction that is likely to include the discussion of: (1) classified material; or (2) information that, if released publicly, would endanger public safety or an ongoing criminal investigation. </p> <p>Subjects any executive agency employee who violates this Act to disciplinary action. </p>]]></text>
+          <lastSummaryUpdateDate>2015-04-09T20:09:45Z</lastSummaryUpdateDate>
+          <updateDate>2015-01-28T05:00:00Z</updateDate>
+          <actionDate>2015-01-28</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <laws />
+    <recordedVotes />
+    <congress>114</congress>
+    <amendments />
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-01-28T18:46:24Z</date>
+            </item>
+          </activities>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees />
+          <systemCode>ssga00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

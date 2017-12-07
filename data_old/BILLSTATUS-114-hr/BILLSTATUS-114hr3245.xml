@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-07-29T09:31:46Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Oversight and Government Reform Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hsgo00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-07-28T14:02:35Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills />
+    <calendarNumbers />
+    <introducedDate>2015-07-28</introducedDate>
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <text>Referred to the House Committee on Oversight and Government Reform.</text>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+      </item>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>GRACE Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Government Refusal of Abortion in Contracting and Enterprise</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To prohibit the Federal Government from contracting with entities that donate or match employee donations to Planned Parenthood Federation of America, Inc.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>GRACE Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Charitable contributions</name>
+          </item>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Sex and reproductive health</name>
+          </item>
+          <item>
+            <name>Women's health</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>F000449</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NE</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>F000449</bioguideId>
+          <gpoId>8038</gpoId>
+          <lisID>1793</lisID>
+        </identifiers>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <party>R</party>
+        <firstName>Jeff</firstName>
+        <lastName>Fortenberry</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>H001052</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>MD</state>
+        <middleName />
+        <identifiers>
+          <gpoId>7976</gpoId>
+          <lisID>2026</lisID>
+          <bioguideId>H001052</bioguideId>
+        </identifiers>
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <party>R</party>
+        <firstName>Andy</firstName>
+        <lastName>Harris</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>B000213</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName>L.</middleName>
+        <identifiers>
+          <bioguideId>B000213</bioguideId>
+          <gpoId>8162</gpoId>
+          <lisID>62</lisID>
+        </identifiers>
+        <fullName>Rep. Barton, Joe [R-TX-6]</fullName>
+        <party>R</party>
+        <firstName>JOE</firstName>
+        <lastName>BARTON</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>C001048</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName>ABNEY</middleName>
+        <identifiers>
+          <bioguideId>C001048</bioguideId>
+          <gpoId>8163</gpoId>
+          <lisID>1670</lisID>
+        </identifiers>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <party>R</party>
+        <firstName>JOHN</firstName>
+        <lastName>CULBERSON</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>B001248</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName>C.</middleName>
+        <identifiers>
+          <bioguideId>B001248</bioguideId>
+          <gpoId>8182</gpoId>
+          <lisID>1751</lisID>
+        </identifiers>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <party>R</party>
+        <firstName>Michael</firstName>
+        <lastName>Burgess</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>26</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>H001071</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <middleName>B.</middleName>
+        <identifiers>
+          <lisID>2237</lisID>
+          <bioguideId>H001071</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Hice, Jody B. [R-GA-10]</fullName>
+        <party>R</party>
+        <firstName>Jody</firstName>
+        <lastName>Hice</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>10</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>Y000065</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <middleName>S.</middleName>
+        <identifiers>
+          <lisID>2115</lisID>
+          <gpoId />
+          <bioguideId>Y000065</bioguideId>
+        </identifiers>
+        <fullName>Rep. Yoho, Ted S. [R-FL-3]</fullName>
+        <party>R</party>
+        <firstName>Ted</firstName>
+        <lastName>Yoho</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>D000615</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <lisID>2057</lisID>
+          <bioguideId>D000615</bioguideId>
+          <gpoId>8143</gpoId>
+        </identifiers>
+        <fullName>Rep. Duncan, Jeff [R-SC-3]</fullName>
+        <party>R</party>
+        <firstName>Jeff</firstName>
+        <lastName>Duncan</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>M001182</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <lisID>2059</lisID>
+          <gpoId>8145</gpoId>
+          <bioguideId>M001182</bioguideId>
+        </identifiers>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <party>R</party>
+        <firstName>Mick</firstName>
+        <lastName>Mulvaney</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>G000566</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>G000566</bioguideId>
+          <gpoId>8144</gpoId>
+          <lisID>2058</lisID>
+        </identifiers>
+        <fullName>Rep. Gowdy, Trey [R-SC-4]</fullName>
+        <party>R</party>
+        <firstName>Trey</firstName>
+        <lastName>Gowdy</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>S000018</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName />
+        <identifiers>
+          <lisID>1009</lisID>
+          <gpoId />
+          <bioguideId>S000018</bioguideId>
+        </identifiers>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <party>R</party>
+        <firstName>MATT</firstName>
+        <lastName>SALMON</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>M001184</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>KY</state>
+        <middleName />
+        <identifiers>
+          <lisID>2094</lisID>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+        </identifiers>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <party>R</party>
+        <firstName>Thomas</firstName>
+        <lastName>Massie</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>F000448</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>F000448</bioguideId>
+          <gpoId>7799</gpoId>
+          <lisID>1707</lisID>
+        </identifiers>
+        <fullName>Rep. Franks, Trent [R-AZ-8]</fullName>
+        <party>R</party>
+        <firstName>Trent</firstName>
+        <lastName>Franks</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>8</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>R000597</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>SC</state>
+        <middleName />
+        <identifiers>
+          <lisID>2160</lisID>
+          <bioguideId>R000597</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Rice, Tom [R-SC-7]</fullName>
+        <party>R</party>
+        <firstName>Tom</firstName>
+        <lastName>Rice</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>R000598</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>PA</state>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>2158</lisID>
+          <gpoId />
+          <bioguideId>R000598</bioguideId>
+        </identifiers>
+        <fullName>Rep. Rothfus, Keith J. [R-PA-12]</fullName>
+        <party>R</party>
+        <firstName>Keith</firstName>
+        <lastName>Rothfus</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>12</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>J000289</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>J000289</bioguideId>
+          <gpoId>8094</gpoId>
+          <lisID>1868</lisID>
+        </identifiers>
+        <fullName>Rep. Jordan, Jim [R-OH-4]</fullName>
+        <party>R</party>
+        <firstName>Jim</firstName>
+        <lastName>Jordan</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>K000362</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>IA</state>
+        <middleName />
+        <identifiers>
+          <lisID>1724</lisID>
+          <bioguideId>K000362</bioguideId>
+          <gpoId>7918</gpoId>
+        </identifiers>
+        <fullName>Rep. King, Steve [R-IA-4]</fullName>
+        <party>R</party>
+        <firstName>Steve</firstName>
+        <lastName>King</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-29</sponsorshipDate>
+        <bioguideId>R000603</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>R000603</bioguideId>
+          <gpoId />
+          <lisID>2256</lisID>
+        </identifiers>
+        <fullName>Rep. Rouzer, David [R-NC-7]</fullName>
+        <party>R</party>
+        <firstName>David</firstName>
+        <lastName>Rouzer</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>3245</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-10-08T18:09:10Z</lastSummaryUpdateDate>
+          <actionDate>2015-07-28</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-07-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Government Refusal of Abortion in Contracting and Enterprise or the GRACE Act</strong></p> <p>This bill prohibits a federal entity from entering into a contract with a person or entity that donates or matches employee donations to Planned Parenthood Federation of America, Inc.,&nbsp;or any of its affiliates or clinics. This prohibition applies to contracts entered into after the enactment of this Act and to subcontracts (at any tier) awarded under such contracts. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BRIDENSTINE:H.R. 3245.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8 states that: ``The Congress shall havePower to lay and collect Taxes, Duties, Imposts and Excises,and to pay the Debts and provide for the common Defence andgeneral Welfare of the United States.''Article 1, Section 9 states that: ``No Money shall be drawnfrom the Treasury, but in Consequence of Appropriations byLaw.''These two clauses provide Congress with the ``power of thepurse.'' Congress has the Constitutional authority regardingauthorizing and appropriating Federal spending on Federalgovernment contracts.[Page H5590]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>GRACE Act</title>
+    <latestAction>
+      <actionDate>2015-07-28</actionDate>
+      <text>Referred to the House Committee on Oversight and Government Reform.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:02:55Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>B001283</bioguideId>
+        <district>1</district>
+        <middleName />
+        <state>OK</state>
+        <firstName>Jim</firstName>
+        <lastName>Bridenstine</lastName>
+        <identifiers>
+          <bioguideId>B001283</bioguideId>
+          <gpoId />
+          <lisID>2155</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

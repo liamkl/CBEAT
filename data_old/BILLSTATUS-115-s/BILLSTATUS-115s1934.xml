@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-10-06T00:41:19Z</createDate>
+    <updateDate>2017-10-19T04:50:23Z</updateDate>
+    <introducedDate>2017-10-05</introducedDate>
+    <cboCostEstimates/>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <billType>S</billType>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <sponsors>
+      <item>
+        <middleName/>
+        <identifiers>
+          <gpoId/>
+          <lisID>2290</lisID>
+          <bioguideId>S001198</bioguideId>
+        </identifiers>
+        <lastName>Sullivan</lastName>
+        <bioguideId>S001198</bioguideId>
+        <fullName>Sen. Sullivan, Dan  [R-AK]</fullName>
+        <party>R</party>
+        <state>AK</state>
+        <firstName>Dan</firstName>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <state>AK</state>
+        <lastName>Murkowski</lastName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-05</sponsorshipDate>
+        <firstName>Lisa</firstName>
+        <identifiers>
+          <lisID>1694</lisID>
+          <bioguideId>M001153</bioguideId>
+          <gpoId>8234</gpoId>
+        </identifiers>
+        <bioguideId>M001153</bioguideId>
+        <middleName/>
+        <fullName>Sen. Murkowski, Lisa [R-AK]</fullName>
+      </item>
+    </cosponsors>
+    <calendarNumbers/>
+    <originChamber>Senate</originChamber>
+    <latestAction>
+      <actionDate>2017-10-05</actionDate>
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+      <links/>
+    </latestAction>
+    <committeeReports/>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-05</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <text>Introduced in Senate</text>
+        <actionDate>2017-10-05</actionDate>
+        <committee/>
+        <actionCode>10000</actionCode>
+      </item>
+    </actions>
+    <notes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <type>Standing</type>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-10-05T17:51:58Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <relatedBills/>
+    <amendments/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Environmental Protection</name>
+        </policyArea>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Alaska Remote Generator Reliability and Protection Act</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <title>A bill to prevent catastrophic failure or shutdown of remote diesel power engines due to emission control devices, and for other purposes.</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <title>Alaska Remote Generator Reliability and Protection Act</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Alaska Remote Generator Reliability and Protection Act</title>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+    </titles>
+    <title>Alaska Remote Generator Reliability and Protection Act</title>
+    <version>1.0.0</version>
+    <congress>115</congress>
+    <laws/>
+    <recordedVotes/>
+    <billNumber>1934</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

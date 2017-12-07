@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <committeeReports/>
+    <billType>HR</billType>
+    <actions>
+      <item>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links/>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionDate>2017-10-25</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+      </item>
+      <item>
+        <committee/>
+        <links/>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-25</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+      </item>
+      <item>
+        <committee/>
+        <links/>
+        <text>Introduced in House</text>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-10-25</actionDate>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+      </item>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <recordedVotes/>
+    <originChamber>House</originChamber>
+    <createDate>2017-10-26T03:11:20Z</createDate>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <amendments/>
+    <laws/>
+    <updateDate>2017-10-27T20:30:11Z</updateDate>
+    <title>Transparent Drug Pricing Act of 2017</title>
+    <version>1.0.0</version>
+    <introducedDate>2017-10-25</introducedDate>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <sponsors>
+      <item>
+        <middleName/>
+        <firstName>LLOYD</firstName>
+        <district>35</district>
+        <lastName>DOGGETT</lastName>
+        <bioguideId>D000399</bioguideId>
+        <party>D</party>
+        <byRequestType/>
+        <state>TX</state>
+        <fullName>Rep. Doggett, Lloyd [D-TX-35]</fullName>
+        <identifiers>
+          <lisID>303</lisID>
+          <gpoId>8181</gpoId>
+          <bioguideId>D000399</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Referred to the House Committee on Energy and Commerce.</text>
+      <links/>
+      <actionDate>2017-10-25</actionDate>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <middleName>E.</middleName>
+        <fullName>Rep. Cummings, Elijah E. [D-MD-7]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>256</lisID>
+          <bioguideId>C000984</bioguideId>
+          <gpoId>7982</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>C000984</bioguideId>
+        <district>7</district>
+        <firstName>ELIJAH</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>MD</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>CUMMINGS</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>D000216</bioguideId>
+          <lisID>281</lisID>
+          <gpoId>7868</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>D000216</bioguideId>
+        <district>3</district>
+        <firstName>ROSA</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>CT</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>DELAURO</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Ellison, Keith [D-MN-5]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>E000288</bioguideId>
+          <gpoId>8005</gpoId>
+          <lisID>1857</lisID>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>E000288</bioguideId>
+        <district>5</district>
+        <firstName>Keith</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>MN</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Ellison</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId/>
+          <lisID>2171</lisID>
+          <bioguideId>P000607</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>P000607</bioguideId>
+        <district>2</district>
+        <firstName>Mark</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>WI</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Pocan</lastName>
+      </item>
+      <item>
+        <middleName>M.</middleName>
+        <fullName>Rep. Grijalva, Raul M. [D-AZ-3]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1708</lisID>
+          <bioguideId>G000551</bioguideId>
+          <gpoId>7804</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>G000551</bioguideId>
+        <district>3</district>
+        <firstName>Raul</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>AZ</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Grijalva</lastName>
+      </item>
+      <item>
+        <middleName>N.</middleName>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001084</bioguideId>
+          <lisID>2055</lisID>
+          <gpoId>8139</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>C001084</bioguideId>
+        <district>1</district>
+        <firstName>David</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>RI</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Cicilline</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>C001068</bioguideId>
+        <district>9</district>
+        <firstName>Steve</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>TN</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Cohen</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>C000714</bioguideId>
+        <district>13</district>
+        <firstName>JOHN</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>MI</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>CONYERS</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Higgins, Brian [D-NY-26]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8088</gpoId>
+          <lisID>1794</lisID>
+          <bioguideId>H001038</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>H001038</bioguideId>
+        <district>26</district>
+        <firstName>Brian</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>NY</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Higgins</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>K000009</bioguideId>
+          <lisID>616</lisID>
+          <gpoId>8099</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>K000009</bioguideId>
+        <district>9</district>
+        <firstName>MARCY</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>OH</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>KAPTUR</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Nadler, Jerrold [D-NY-10]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>850</lisID>
+          <bioguideId>N000002</bioguideId>
+          <gpoId>8069</gpoId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>N000002</bioguideId>
+        <district>10</district>
+        <firstName>JERROLD</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>NY</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>NADLER</lastName>
+      </item>
+      <item>
+        <middleName/>
+        <fullName>Rep. Raskin, Jamie [D-MD-8]</fullName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2332</lisID>
+          <gpoId/>
+          <bioguideId>R000606</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <bioguideId>R000606</bioguideId>
+        <district>8</district>
+        <firstName>Jamie</firstName>
+        <sponsorshipWithdrawnDate/>
+        <state>MD</state>
+        <sponsorshipDate>2017-10-25</sponsorshipDate>
+        <lastName>Raskin</lastName>
+      </item>
+    </cosponsors>
+    <relatedBills/>
+    <billNumber>4116</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 163, Number 172 (Wednesday, October 25, 2017)]From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. DOGGETT:H.R. 4116.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clauses 3 and 18 of the Constitutionof the United States of America[Page H8225]</pre>]]></constitutionalAuthorityStatementText>
+    <cboCostEstimates/>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <title>Transparent Drug Pricing Act of 2017</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <title>To amend the Public Health Service Act to require reporting by drug manufacturers to increase transparency in drug pricing, and for other purposes.</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <title>Transparent Drug Pricing Act of 2017</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <title>Transparent Drug Pricing Act of 2017</title>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-10-25T14:01:20Z</date>
+            </item>
+          </activities>
+          <subcommittees/>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsif00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <calendarNumbers/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

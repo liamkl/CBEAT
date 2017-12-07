@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <billReferrals>2</billReferrals>
+        <placeholderTextForH>2</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>7</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-05-27</actionDate>
+        <committee>
+          <systemCode>hsag15</systemCode>
+          <name>Conservation and Forestry Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Conservation and Forestry.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-26</actionDate>
+        <committee>
+          <systemCode>hsii10</systemCode>
+          <name>Federal Lands Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Federal Lands.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-30</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsii00</systemCode>
+          <name>Natural Resources Committee</name>
+        </committee>
+        <text>Referred to House Natural Resources</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-30</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <text>Referred to House Agriculture</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-30</actionDate>
+        <actionCode>H11100-A</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Agriculture, and in addition to the Committee on Natural Resources, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-30</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-30</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <fullName>Rep. Newhouse, Dan [R-WA-4]</fullName>
+        <district>4</district>
+        <middleName />
+        <state>WA</state>
+        <firstName>Dan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>N000189</bioguideId>
+          <gpoId />
+          <lisID>2275</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>N000189</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Newhouse</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>AZ</state>
+        <firstName>Ann</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1907</lisID>
+          <gpoId>7220</gpoId>
+          <bioguideId>K000368</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kirkpatrick</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Ribble, Reid J. [R-WI-8]</fullName>
+        <district>8</district>
+        <middleName>J.</middleName>
+        <state>WI</state>
+        <firstName>Reid</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>R000587</bioguideId>
+          <gpoId>8221</gpoId>
+          <lisID>2073</lisID>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>R000587</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ribble</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Benishek, Dan [R-MI-1]</fullName>
+        <district>1</district>
+        <middleName />
+        <state>MI</state>
+        <firstName>Dan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7986</gpoId>
+          <lisID>2027</lisID>
+          <bioguideId>B001271</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>B001271</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Benishek</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Poliquin, Bruce [R-ME-2]</fullName>
+        <district>2</district>
+        <middleName />
+        <state>ME</state>
+        <firstName>Bruce</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2247</lisID>
+          <gpoId />
+          <bioguideId>P000611</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>P000611</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Poliquin</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <district>1</district>
+        <middleName>R.</middleName>
+        <state>ID</state>
+        <firstName>Raul</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>7919</gpoId>
+          <lisID>2011</lisID>
+          <bioguideId>L000573</bioguideId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>L000573</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Labrador</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Reichert, David G. [R-WA-8]</fullName>
+        <district>8</district>
+        <middleName>G.</middleName>
+        <state>WA</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1810</lisID>
+          <bioguideId>R000578</bioguideId>
+          <gpoId>8212</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-04-30</sponsorshipDate>
+        <bioguideId>R000578</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Reichert</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Palazzo, Steven M. [R-MS-4]</fullName>
+        <district>4</district>
+        <middleName>M.</middleName>
+        <state>MS</state>
+        <firstName>Steven</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2035</lisID>
+          <bioguideId>P000601</bioguideId>
+          <gpoId>8022</gpoId>
+        </identifiers>
+        <party>R</party>
+        <sponsorshipDate>2015-05-13</sponsorshipDate>
+        <bioguideId>P000601</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Palazzo</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-04-30</introducedDate>
+    <latestAction>
+      <actionDate>2015-05-27</actionDate>
+      <text>Referred to the Subcommittee on Conservation and Forestry.</text>
+      <links />
+    </latestAction>
+    <billNumber>2178</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>FORESTS Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Fostering Opportunities for Resources and Education Spending through Timber Sales Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To restore employment and educational opportunities in, and improve the economic stability of, counties containing National Forest System land, while also reducing Forest Service management costs, by ensuring that such counties have a dependable source of revenue from timber sales conducted on National Forest System land, to reduce payments under the Secure Rural Schools and Community Self-Determination Act of 2000 to reflect such counties' receipt of timber sale revenues, to strengthen stewardship end result contracting, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>FORESTS Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. McMORRIS RODGERS:H.R. 2178.Congress has the power to enact this legislation pursuantto the following:Article IV, Section 3, Clause 2The Congress shall have Power to dispose of and make allneedful Rules and Regulations respecting the Territory orother Property belonging to the United States; and nothing inthis Constitution shall be so construed as to Prejudice anyClaims of the United States, or of any particular State.[Page H2772]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>FORESTS Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-04-30</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-04-30T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Fostering Opportunities for Resources and Education Spending through Timber Sales Act of 2015 or the FORESTS Act of 2015</b></p> <p>This bill directs the Department of Agriculture to establish at least one Forest Active Management Area within each unit of the National Forest System designated for sustainable forest management for the production of national forest materials (trees, portions of trees, or forest products) and forest active management revenues (derived from the sale of such materials). </p> <p>The purpose of an Area is to provide a dependable source of:</p> <ul> <li>payments to states in which a national forest is situated of 25% of specified forest receipts, to be used for the benefit of public schools and public roads; and </li> <li>economic activity through sustainable forest management for each beneficiary county containing System land included within that Area.</li> </ul>  <p>Forest active management revenues shall be used to make: (1) the 25% payments to states for payment to beneficiary counties for the benefit of public schools and public roads, and (2) deposits into the Knutson-Vandenburg Fund and the salvage sale fund for projects on System land. </p> <p>This bill amends the Secure Rural Schools and Community Self-Determination Act of 2000 to extend:</p> <ul> <li>through FY2018 authorities for secure payments to states and counties containing federal land, and </li> <li>through FY2020 the authority for special projects on federal land and certain county activities.</li> </ul>    <p>Receipt by a county of Forest Active Management revenues or stewardship project payments shall be offset against 25% payments to the county.</p> <p>The original method for calculating 25% payments is restored. <p>Beginning October 1, 2015, a state or territorial legislature may not withhold any portion of a 25% payment from the county or counties in which a national forest is situated.</p> <p>The maximum duration of a stewardship end resulting contract under the Healthy Forest Restoration Act of 2003 may extend from 10 to 20 years. </p> <p>The Forest Service or the Bureau of Land Management of the Department of the Interior:</p> <ul> <li>shall pay to the county or counties in which the project site is situated 25% of the monies retained from a contract or agreement for a stewardship contracting project on federal land under its respective jurisdiction, and</li> <li>may procure the services of non-federal employees to perform activities necessary to ensure a project for compliance with the National Environmental Policy Act of 1969 and the Endangered Species Act of 1973. </li> </ul>]]></text>
+          <lastSummaryUpdateDate>2015-08-04T19:32:39Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-05-27T17:04:43Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Conservation and Forestry Subcommittee</name>
+              <systemCode>hsag15</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-30T14:02:05Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Agriculture Committee</name>
+          <systemCode>hsag00</systemCode>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <date>2015-05-26T19:21:43Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Federal Lands Subcommittee</name>
+              <systemCode>hsii10</systemCode>
+            </item>
+          </subcommittees>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-04-30T14:02:10Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <name>Natural Resources Committee</name>
+          <systemCode>hsii00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:28Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Endangered and threatened species</name>
+          </item>
+          <item>
+            <name>Environmental assessment, monitoring, research</name>
+          </item>
+          <item>
+            <name>Forests, forestry, trees</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>State and local finance</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-05-01T14:01:10Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. McMorris Rodgers, Cathy [R-WA-5]</fullName>
+        <state>WA</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>McMorris Rodgers</lastName>
+        <firstName>Cathy</firstName>
+        <bioguideId>M001159</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>1809</lisID>
+          <bioguideId>M001159</bioguideId>
+          <gpoId>8209</gpoId>
+        </identifiers>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

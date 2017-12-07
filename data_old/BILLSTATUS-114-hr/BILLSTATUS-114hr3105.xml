@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <committee>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-07-16</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>PELOSI</lastName>
+        <middleName />
+        <district>12</district>
+        <fullName>Rep. Pelosi, Nancy [D-CA-12]</fullName>
+        <identifiers>
+          <lisID>905</lisID>
+          <bioguideId>P000197</bioguideId>
+          <gpoId>7813</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000197</bioguideId>
+        <firstName>NANCY</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>RANGEL</lastName>
+        <middleName>B.</middleName>
+        <district>13</district>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <identifiers>
+          <lisID>944</lisID>
+          <gpoId>8076</gpoId>
+          <bioguideId>R000053</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000053</bioguideId>
+        <firstName>CHARLES</firstName>
+      </item>
+      <item>
+        <state>WA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>MCDERMOTT</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. McDermott, Jim [D-WA-7]</fullName>
+        <identifiers>
+          <lisID>766</lisID>
+          <gpoId>8211</gpoId>
+          <bioguideId>M000404</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M000404</bioguideId>
+        <firstName>JIM</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LEWIS</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Lewis, John [D-GA-5]</fullName>
+        <identifiers>
+          <lisID>688</lisID>
+          <gpoId>7902</gpoId>
+          <bioguideId>L000287</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000287</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>BECERRA</lastName>
+        <middleName />
+        <district>34</district>
+        <fullName>Rep. Becerra, Xavier [D-CA-34]</fullName>
+        <identifiers>
+          <lisID>70</lisID>
+          <bioguideId>B000287</bioguideId>
+          <gpoId>7836</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B000287</bioguideId>
+        <firstName>XAVIER</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>DOGGETT</lastName>
+        <middleName />
+        <district>35</district>
+        <fullName>Rep. Doggett, Lloyd [D-TX-35]</fullName>
+        <identifiers>
+          <lisID>303</lisID>
+          <bioguideId>D000399</bioguideId>
+          <gpoId>8181</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000399</bioguideId>
+        <firstName>LLOYD</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>THOMPSON</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Thompson, Mike [D-CA-5]</fullName>
+        <identifiers>
+          <bioguideId>T000460</bioguideId>
+          <gpoId>7806</gpoId>
+          <lisID>1593</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>T000460</bioguideId>
+        <firstName>MIKE</firstName>
+      </item>
+      <item>
+        <state>CT</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>LARSON</lastName>
+        <middleName>B.</middleName>
+        <district>1</district>
+        <fullName>Rep. Larson, John B. [D-CT-1]</fullName>
+        <identifiers>
+          <lisID>1583</lisID>
+          <bioguideId>L000557</bioguideId>
+          <gpoId>7866</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000557</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>OR</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>BLUMENAUER</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <identifiers>
+          <lisID>99</lisID>
+          <gpoId>8116</gpoId>
+          <bioguideId>B000574</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B000574</bioguideId>
+        <firstName>EARL</firstName>
+      </item>
+      <item>
+        <state>NJ</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>PASCRELL</lastName>
+        <middleName>J.</middleName>
+        <district>9</district>
+        <fullName>Rep. Pascrell, Bill, Jr. [D-NJ-9]</fullName>
+        <identifiers>
+          <lisID>1510</lisID>
+          <gpoId>8050</gpoId>
+          <bioguideId>P000096</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000096</bioguideId>
+        <firstName>WILLIAM</firstName>
+      </item>
+      <item>
+        <state>NY</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CROWLEY</lastName>
+        <middleName />
+        <district>14</district>
+        <fullName>Rep. Crowley, Joseph [D-NY-14]</fullName>
+        <identifiers>
+          <lisID>1604</lisID>
+          <gpoId>8068</gpoId>
+          <bioguideId>C001038</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001038</bioguideId>
+        <firstName>JOSEPH</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>DAVIS</lastName>
+        <middleName>K.</middleName>
+        <district>7</district>
+        <fullName>Rep. Davis, Danny K. [D-IL-7]</fullName>
+        <identifiers>
+          <lisID>1477</lisID>
+          <gpoId>7927</gpoId>
+          <bioguideId>D000096</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000096</bioguideId>
+        <firstName>DANNY</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>SANCHEZ</lastName>
+        <middleName>T.</middleName>
+        <district>38</district>
+        <fullName>Rep. Sanchez, Linda T. [D-CA-38]</fullName>
+        <identifiers>
+          <gpoId>7844</gpoId>
+          <lisID>1757</lisID>
+          <bioguideId>S001156</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001156</bioguideId>
+        <firstName>LINDA</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>HOYER</lastName>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <fullName>Rep. Hoyer, Steny H. [D-MD-5]</fullName>
+        <identifiers>
+          <lisID>566</lisID>
+          <bioguideId>H000874</bioguideId>
+          <gpoId>7980</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H000874</bioguideId>
+        <firstName>STENY</firstName>
+      </item>
+      <item>
+        <state>SC</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>CLYBURN</lastName>
+        <middleName>E.</middleName>
+        <district>6</district>
+        <fullName>Rep. Clyburn, James E. [D-SC-6]</fullName>
+        <identifiers>
+          <lisID>208</lisID>
+          <gpoId>8146</gpoId>
+          <bioguideId>C000537</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000537</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Dingell</lastName>
+        <middleName />
+        <district>12</district>
+        <fullName>Rep. Dingell, Debbie [D-MI-12]</fullName>
+        <identifiers>
+          <gpoId />
+          <lisID>2251</lisID>
+          <bioguideId>D000624</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000624</bioguideId>
+        <firstName>Debbie</firstName>
+      </item>
+      <item>
+        <state>WI</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>KIND</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <identifiers>
+          <bioguideId>K000188</bioguideId>
+          <gpoId>8216</gpoId>
+          <lisID>1498</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000188</bioguideId>
+        <firstName>RON</firstName>
+      </item>
+      <item>
+        <state>MA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NEAL</lastName>
+        <middleName>E.</middleName>
+        <district>1</district>
+        <fullName>Rep. Neal, Richard E. [D-MA-1]</fullName>
+        <identifiers>
+          <lisID>854</lisID>
+          <bioguideId>N000015</bioguideId>
+          <gpoId>7967</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000015</bioguideId>
+        <firstName>RICHARD</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Van Hollen</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Van Hollen, Chris [D-MD-8]</fullName>
+        <identifiers>
+          <bioguideId>V000128</bioguideId>
+          <gpoId>7983</gpoId>
+          <lisID>1729</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-20</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>V000128</bioguideId>
+        <firstName>Chris</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>CONYERS</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Conyers, John, Jr. [D-MI-13]</fullName>
+        <identifiers>
+          <lisID>229</lisID>
+          <bioguideId>C000714</bioguideId>
+          <gpoId>7999</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000714</bioguideId>
+        <firstName>JOHN</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Lawrence</lastName>
+        <middleName>L.</middleName>
+        <district>14</district>
+        <fullName>Rep. Lawrence, Brenda L. [D-MI-14]</fullName>
+        <identifiers>
+          <lisID>2252</lisID>
+          <gpoId />
+          <bioguideId>L000581</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000581</bioguideId>
+        <firstName>Brenda</firstName>
+      </item>
+      <item>
+        <state>MI</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Kildee</lastName>
+        <middleName>T.</middleName>
+        <district>5</district>
+        <fullName>Rep. Kildee, Daniel T. [D-MI-5]</fullName>
+        <identifiers>
+          <lisID>2134</lisID>
+          <gpoId />
+          <bioguideId>K000380</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-07-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>K000380</bioguideId>
+        <firstName>Daniel</firstName>
+      </item>
+      <item>
+        <state>CO</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>DEGETTE</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <identifiers>
+          <bioguideId>D000197</bioguideId>
+          <gpoId>7859</gpoId>
+          <lisID>1479</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-07-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000197</bioguideId>
+        <firstName>DIANA</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Wilson</lastName>
+        <middleName>S.</middleName>
+        <district>24</district>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <identifiers>
+          <lisID>2004</lisID>
+          <gpoId>7889</gpoId>
+          <bioguideId>W000808</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-11-17</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000808</bioguideId>
+        <firstName>Frederica</firstName>
+      </item>
+      <item>
+        <state>OR</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Schrader</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Schrader, Kurt [D-OR-5]</fullName>
+        <identifiers>
+          <lisID>1950</lisID>
+          <bioguideId>S001180</bioguideId>
+          <gpoId>8118</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001180</bioguideId>
+        <firstName>Kurt</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Duckworth</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Duckworth, Tammy [D-IL-8]</fullName>
+        <identifiers>
+          <gpoId />
+          <lisID>2123</lisID>
+          <bioguideId>D000622</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-05-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000622</bioguideId>
+        <firstName>Tammy</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-07-16</introducedDate>
+    <latestAction>
+      <actionDate>2015-07-16</actionDate>
+      <text>Referred to the House Committee on Ways and Means.</text>
+      <links />
+    </latestAction>
+    <billNumber>3105</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Equal Dignity for Married Taxpayers Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend the Internal Revenue Code of 1986 to clarify that all provisions shall apply to legally married same-sex couples in the same manner as other married couples, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Equal Dignity for Married Taxpayers Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LEVIN:H.R. 3105.Congress has the power to enact this legislation pursuantto the following:Clause 1 of Section 8 of Article 1 of the United StatesConstitution[Page H5292]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Equal Dignity for Married Taxpayers Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-09-25T21:43:01Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Equal Dignity for Married Taxpayers Act of 2015</strong></p> <p>This bill amends the Internal Revenue Code to change provisions that refer to married couples to make such provisions equally applicable to legally married same sex couples. </p>]]></text>
+          <updateDate>2015-07-16T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-07-16</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>1740</number>
+        <congress>114</congress>
+        <latestTitle>Equal Dignity for Married Taxpayers Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-09</actionDate>
+          <text>Read twice and referred to the Committee on Finance. (Sponsor introductory remarks on measure: CR S4957)</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <date>2015-07-16T13:02:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:46Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Marriage and family status</name>
+          </item>
+          <item>
+            <name>Sex, gender, sexual orientation discrimination</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+          <item>
+            <name>Tax treatment of families</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-07-17T09:23:44Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Levin, Sander M. [D-MI-9]</fullName>
+        <state>MI</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>LEVIN</lastName>
+        <firstName>SANDER</firstName>
+        <bioguideId>L000263</bioguideId>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>683</lisID>
+          <bioguideId>L000263</bioguideId>
+          <gpoId>7997</gpoId>
+        </identifiers>
+        <district>9</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

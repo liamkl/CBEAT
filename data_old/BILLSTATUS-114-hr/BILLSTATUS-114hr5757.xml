@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2016-07-27</actionDate>
+        <committee>
+          <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+          <systemCode>hsju03</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2016-07-13</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-27T18:05:46Z</updateDate>
+    <introducedDate>2016-07-13</introducedDate>
+    <recordedVotes />
+    <createDate>2016-07-14T06:10:13Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Hakeem</firstName>
+        <lastName>Jeffries</lastName>
+        <state>NY</state>
+        <bioguideId>J000294</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <lisID>2149</lisID>
+          <bioguideId>J000294</bioguideId>
+          <gpoId />
+        </identifiers>
+        <byRequestType />
+        <middleName>S.</middleName>
+        <fullName>Rep. Jeffries, Hakeem S. [D-NY-8]</fullName>
+        <district>8</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>CASE Act of 2016</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Copyright Alternative in Small-Claims Enforcement Act of 2016</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>To amend title 17, United States Code, to establish an alternative dispute resolution program for copyright small claims, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>CASE Act of 2016</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <bioguideId>M001179</bioguideId>
+        <middleName />
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Rep. Marino, Tom [R-PA-10]</fullName>
+        <sponsorshipDate>2016-07-13</sponsorshipDate>
+        <identifiers>
+          <lisID>2053</lisID>
+          <bioguideId>M001179</bioguideId>
+          <gpoId>8128</gpoId>
+        </identifiers>
+        <sponsorshipWithdrawnDate />
+        <party>R</party>
+        <firstName>Tom</firstName>
+        <lastName>Marino</lastName>
+        <state>PA</state>
+        <district>10</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. JEFFRIES:H.R. 5757.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8, Clause 8[Page H4926]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Congressional agencies</name>
+          </item>
+          <item>
+            <name>Evidence and witnesses</name>
+          </item>
+          <item>
+            <name>Intellectual property</name>
+          </item>
+          <item>
+            <name>Judicial review and appeals</name>
+          </item>
+          <item>
+            <name>Library of Congress</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsju03</systemCode>
+              <activities>
+                <item>
+                  <date>2016-07-27T20:46:30Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Courts, Intellectual Property, and the Internet Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+          <activities>
+            <item>
+              <date>2016-07-13T14:03:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-07-27</actionDate>
+      <text>Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Fairness for American Small Creators Act</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>6496</number>
+        <latestAction>
+          <actionDate>2016-12-22</actionDate>
+          <text>Referred to the Subcommittee on Courts, Intellectual Property, and the Internet.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates />
+    <title>CASE Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>Copyright Alternative in Small-Claims Enforcement Act of 2016 or the CASE Act of 2016</b></p> <p>This bill establishes in the U.S. Copyright Office a small claims board to serve as an alternative forum for parties to voluntarily seek to resolve certain copyright claims if the total monetary recovery sought by a party does not exceed $30,000.</p> <p>The board is authorized to: (1) conduct hearings and conferences to facilitate parties' settlement of claims and counterclaims; (2) render independent determinations based on copyright laws and regulations; (3) award monetary relief; and (4) require cessation or mitigation of infringing activity, including the takedown or destruction of infringing materials, where the parties agree. </p> <p>The bill preserves the right of parties to instead pursue a claim or defense in court.</p> <p>Board proceedings shall not require in-person appearances by parties. Proceedings may take place through Internet-based teleconference applications.</p> <p>Discovery shall be limited to the production of relevant information and documents, written interrogatories, and written requests for admission. But the board may consider a party's request for additional limited discovery.</p> <p>A party may request: (1) the claims board to reconsider its determinations, and (2) the Register of Copyrights to review a claims board determination if the board denies reconsideration. </p> <p>A final determination precludes relitigation of the claims before a court or the board, but parties may apply for the U.S. District Court for the District of Columbia to vacate, modify, or correct a determination that: (1) was issued as a result of fraud, corruption, misrepresentation, or misconduct; (2) exceeds the board's authority or fails to render a definite determination; or (3) was based on a default determination or failure to prosecute that was due to excusable neglect. </p> <p>If a party fails to pay or comply with relief awarded in a final board determination, the aggrieved party may apply for a court order confirming the final award.</p>]]></text>
+          <lastSummaryUpdateDate>2016-08-29T19:45:54Z</lastSummaryUpdateDate>
+          <updateDate>2016-07-13T04:00:00Z</updateDate>
+          <actionDate>2016-07-13</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>5757</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

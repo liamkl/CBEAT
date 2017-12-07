@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Connected Government Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to require a new or updated Federal website that is intended for use by the public to be mobile friendly, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <title>Connected Government Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Connected Government Act</title>
+        <chamberName/>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <actions>
+      <actionByCounts>
+        <senate>3</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-10-04</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-09-07</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee/>
+        <links/>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2017-09-07</actionDate>
+      </item>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+        <orderedReported>1</orderedReported>
+      </actionTypeCounts>
+    </actions>
+    <updateDate>2017-10-16T18:15:49Z</updateDate>
+    <billNumber>1769</billNumber>
+    <originChamber>Senate</originChamber>
+    <amendments/>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <sponsors>
+      <item>
+        <identifiers>
+          <lisID>2302</lisID>
+          <gpoId/>
+          <bioguideId>H001076</bioguideId>
+        </identifiers>
+        <fullName>Sen. Hassan, Margaret Wood [D-NH]</fullName>
+        <firstName>Margaret</firstName>
+        <lastName>Hassan</lastName>
+        <state>NH</state>
+        <party>D</party>
+        <middleName>Wood</middleName>
+        <byRequestType/>
+        <bioguideId>H001076</bioguideId>
+      </item>
+    </sponsors>
+    <billType>S</billType>
+    <congress>115</congress>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestAction>
+          <text>Ordered to be Reported (Amended) by Voice Vote.</text>
+          <actionDate>2017-09-13</actionDate>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestTitle>Connected Government Act</latestTitle>
+        <number>2331</number>
+      </item>
+    </relatedBills>
+    <recordedVotes/>
+    <committeeReports/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <fullName>Sen. Gardner, Cory [R-CO]</fullName>
+        <middleName/>
+        <state>CO</state>
+        <bioguideId>G000562</bioguideId>
+        <party>R</party>
+        <sponsorshipDate>2017-09-07</sponsorshipDate>
+        <sponsorshipWithdrawnDate/>
+        <lastName>Gardner</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1998</lisID>
+          <gpoId>7862</gpoId>
+          <bioguideId>G000562</bioguideId>
+        </identifiers>
+        <firstName>Cory</firstName>
+      </item>
+      <item>
+        <fullName>Sen. McCaskill, Claire [D-MO]</fullName>
+        <middleName/>
+        <state>MO</state>
+        <bioguideId>M001170</bioguideId>
+        <party>D</party>
+        <sponsorshipDate>2017-10-03</sponsorshipDate>
+        <sponsorshipWithdrawnDate/>
+        <lastName>McCaskill</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <identifiers>
+          <lisID>1820</lisID>
+          <gpoId>8252</gpoId>
+          <bioguideId>M001170</bioguideId>
+        </identifiers>
+        <firstName>Claire</firstName>
+      </item>
+    </cosponsors>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Telephone and wireless communication</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <title>Connected Government Act</title>
+    <introducedDate>2017-09-07</introducedDate>
+    <createDate>2017-09-08T10:26:41Z</createDate>
+    <latestAction>
+      <actionDate>2017-10-04</actionDate>
+      <links/>
+      <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.</text>
+    </latestAction>
+    <calendarNumbers/>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssga00</systemCode>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Markup by</name>
+              <date>2017-10-04T14:00:40Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-07T15:57:11Z</date>
+            </item>
+          </activities>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </item>
+      </billCommittees>
+    </committees>
+    <cboCostEstimates>
+      <item>
+        <title>S. 1769, Connected Government Act</title>
+        <url>https://www.cbo.gov/publication/53202</url>
+        <pubDate>2017-10-13T15:00:00Z</pubDate>
+      </item>
+    </cboCostEstimates>
+    <laws/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

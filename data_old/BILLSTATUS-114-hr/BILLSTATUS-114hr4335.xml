@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-01-07T09:49:59Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Congress</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Judiciary Committee</name>
+          <subcommittees>
+            <item>
+              <name>Constitution and Civil Justice Subcommittee</name>
+              <activities>
+                <item>
+                  <date>2016-02-03T20:37:48Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <systemCode>hsju10</systemCode>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2016-01-06T15:01:35Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <type>Standing</type>
+          <systemCode>hsju00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <latestTitle>One Subject at a Time Act</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1572</number>
+        <latestAction>
+          <actionDate>2015-06-15</actionDate>
+          <text>Read twice and referred to the Committee on Rules and Administration.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-01-06</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2016-02-03</actionDate>
+        <committee>
+          <name>Constitution and Civil Justice Subcommittee</name>
+          <systemCode>hsju10</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-01-06</actionDate>
+        <text>Referred to the House Committee on the Judiciary.</text>
+        <committee>
+          <name>Judiciary Committee</name>
+          <systemCode>hsju00</systemCode>
+        </committee>
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-01-06</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <item>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2016-01-06</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>One Subject at a Time Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To end the practice of including more than one subject in a single bill by requiring that each bill enacted by Congress be limited to only one subject, and for other purposes.</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>One Subject at a Time Act</title>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Congress</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Government liability</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <state>SC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Mulvaney</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Mulvaney, Mick [R-SC-5]</fullName>
+        <identifiers>
+          <bioguideId>M001182</bioguideId>
+          <gpoId>8145</gpoId>
+          <lisID>2059</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001182</bioguideId>
+        <firstName>Mick</firstName>
+      </item>
+      <item>
+        <state>UT</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Stewart</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Stewart, Chris [R-UT-2]</fullName>
+        <identifiers>
+          <lisID>2168</lisID>
+          <bioguideId>S001192</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001192</bioguideId>
+        <firstName>Chris</firstName>
+      </item>
+      <item>
+        <state>KY</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Massie</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Massie, Thomas [R-KY-4]</fullName>
+        <identifiers>
+          <lisID>2094</lisID>
+          <bioguideId>M001184</bioguideId>
+          <gpoId>8371</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001184</bioguideId>
+        <firstName>Thomas</firstName>
+      </item>
+      <item>
+        <state>TX</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Ratcliffe</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Ratcliffe, John [R-TX-4]</fullName>
+        <identifiers>
+          <bioguideId>R000601</bioguideId>
+          <gpoId />
+          <lisID>2268</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000601</bioguideId>
+        <firstName>John</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Jordan</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Jordan, Jim [R-OH-4]</fullName>
+        <identifiers>
+          <lisID>1868</lisID>
+          <bioguideId>J000289</bioguideId>
+          <gpoId>8094</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000289</bioguideId>
+        <firstName>Jim</firstName>
+      </item>
+      <item>
+        <state>NM</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Pearce</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <identifiers>
+          <bioguideId>P000588</bioguideId>
+          <gpoId>8057</gpoId>
+          <lisID>1738</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>P000588</bioguideId>
+        <firstName>Stevan</firstName>
+      </item>
+      <item>
+        <state>NC</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Walker</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Walker, Mark [R-NC-6]</fullName>
+        <identifiers>
+          <lisID>2255</lisID>
+          <bioguideId>W000819</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000819</bioguideId>
+        <firstName>Mark</firstName>
+      </item>
+      <item>
+        <state>VA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Brat</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Brat, Dave [R-VA-7]</fullName>
+        <identifiers>
+          <bioguideId>B001290</bioguideId>
+          <gpoId />
+          <lisID>2203</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001290</bioguideId>
+        <firstName>Dave</firstName>
+      </item>
+      <item>
+        <state>ID</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Labrador</lastName>
+        <middleName>R.</middleName>
+        <district>1</district>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <identifiers>
+          <lisID>2011</lisID>
+          <bioguideId>L000573</bioguideId>
+          <gpoId>7919</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000573</bioguideId>
+        <firstName>Raul</firstName>
+      </item>
+      <item>
+        <state>IA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Blum</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Blum, Rod [R-IA-1]</fullName>
+        <identifiers>
+          <bioguideId>B001294</bioguideId>
+          <gpoId />
+          <lisID>2241</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001294</bioguideId>
+        <firstName>Rod</firstName>
+      </item>
+      <item>
+        <state>KS</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Yoder</lastName>
+        <middleName />
+        <district>3</district>
+        <fullName>Rep. Yoder, Kevin [R-KS-3]</fullName>
+        <identifiers>
+          <lisID>2021</lisID>
+          <gpoId>7951</gpoId>
+          <bioguideId>Y000063</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>Y000063</bioguideId>
+        <firstName>Kevin</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Loudermilk</lastName>
+        <middleName />
+        <district>11</district>
+        <fullName>Rep. Loudermilk, Barry [R-GA-11]</fullName>
+        <identifiers>
+          <bioguideId>L000583</bioguideId>
+          <gpoId />
+          <lisID>2238</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-02-08</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000583</bioguideId>
+        <firstName>Barry</firstName>
+      </item>
+      <item>
+        <state>OK</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Bridenstine</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <identifiers>
+          <lisID>2155</lisID>
+          <gpoId />
+          <bioguideId>B001283</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-02-11</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001283</bioguideId>
+        <firstName>Jim</firstName>
+      </item>
+      <item>
+        <state>MN</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Emmer</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Emmer, Tom [R-MN-6]</fullName>
+        <identifiers>
+          <lisID>2253</lisID>
+          <gpoId />
+          <bioguideId>E000294</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-02-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>E000294</bioguideId>
+        <firstName>Tom</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Collins</lastName>
+        <middleName />
+        <district>9</district>
+        <fullName>Rep. Collins, Doug [R-GA-9]</fullName>
+        <identifiers>
+          <bioguideId>C001093</bioguideId>
+          <gpoId />
+          <lisID>2121</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-02-29</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001093</bioguideId>
+        <firstName>Doug</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Harris</lastName>
+        <middleName />
+        <district>1</district>
+        <fullName>Rep. Harris, Andy [R-MD-1]</fullName>
+        <identifiers>
+          <lisID>2026</lisID>
+          <bioguideId>H001052</bioguideId>
+          <gpoId>7976</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-03-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>H001052</bioguideId>
+        <firstName>Andy</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ross</lastName>
+        <middleName>A.</middleName>
+        <district>15</district>
+        <fullName>Rep. Ross, Dennis A. [R-FL-15]</fullName>
+        <identifiers>
+          <lisID>2003</lisID>
+          <bioguideId>R000593</bioguideId>
+          <gpoId>7884</gpoId>
+        </identifiers>
+        <sponsorshipDate>2016-07-06</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000593</bioguideId>
+        <firstName>Dennis</firstName>
+      </item>
+      <item>
+        <state>WA</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Newhouse</lastName>
+        <middleName />
+        <district>4</district>
+        <fullName>Rep. Newhouse, Dan [R-WA-4]</fullName>
+        <identifiers>
+          <lisID>2275</lisID>
+          <bioguideId>N000189</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2016-11-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000189</bioguideId>
+        <firstName>Dan</firstName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4335</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>One Subject at a Time Act</b></p> <p> This bill requires: (1) each bill or joint resolution to embrace no more than one subject, and (2) the subject to be clearly and descriptively expressed in the measure's title.</p> <p>The bill prohibits an appropriations bill from containing any general legislation or change of existing law requirement, if its subject is not germane to the subject of such bill.</p> <p>The bill also declares void: (1) an entire Act or joint resolution if its title addresses two or more unrelated subjects, (2) provisions in legislation not clearly and descriptively expressed in the measure's title, (3) appropriation provisions in legislation outside the relevant subcommittee's jurisdiction, and (4) provisions of appropriation bills not germane to their subject matter.</p> <p>Aggrieved persons and Members of Congress shall have the right to bring an action against the United States to seek appropriate relief, including an injunction against the enforcement of any law the passage of which did not conform to this Act.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-01-06T05:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-01-20T22:25:39Z</lastSummaryUpdateDate>
+          <actionDate>2016-01-06</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. LOVE:H.R. 4335.Congress has the power to enact this legislation pursuantto the following:(a) Section 8, Clause 1 of Article I of the Constitution;and(b) Section 8, Clause 3 of Article I of the Constitution.[Page H102]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>One Subject at a Time Act</title>
+    <latestAction>
+      <actionDate>2016-02-03</actionDate>
+      <text>Referred to the Subcommittee on the Constitution and Civil Justice.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:08Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <party>R</party>
+        <byRequestType />
+        <bioguideId>L000584</bioguideId>
+        <district>4</district>
+        <middleName>B.</middleName>
+        <state>UT</state>
+        <firstName>Mia</firstName>
+        <lastName>Love</lastName>
+        <identifiers>
+          <lisID>2271</lisID>
+          <bioguideId>L000584</bioguideId>
+          <gpoId />
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

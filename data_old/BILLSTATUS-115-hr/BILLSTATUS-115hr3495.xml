@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionDate>2017-07-28</actionDate>
+        <committee>
+          <name>Health Subcommittee</name>
+          <systemCode>hsif14</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-07-27</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-07-27</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <item>
+        <actionDate>2017-07-27</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee/>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <links/>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <updateDate>2017-10-30T15:00:13Z</updateDate>
+    <introducedDate>2017-07-27</introducedDate>
+    <recordedVotes/>
+    <createDate>2017-07-28T03:11:38Z</createDate>
+    <congress>115</congress>
+    <sponsors>
+      <item>
+        <firstName>Ben</firstName>
+        <lastName>Lujan</lastName>
+        <state>NM</state>
+        <bioguideId>L000570</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>L000570</bioguideId>
+          <gpoId>8058</gpoId>
+          <lisID>1939</lisID>
+        </identifiers>
+        <byRequestType/>
+        <middleName>Ray</middleName>
+        <fullName>Rep. Lujan, Ben Ray [D-NM-3]</fullName>
+        <district>3</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Opioid and Heroin Abuse Crisis Investment Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend the 21st Century Cures Act to appropriate funds for the Account for the State Response to the Opioid Abuse Crisis through fiscal year 2023, and for other purposes.</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <title>Opioid and Heroin Abuse Crisis Investment Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Opioid and Heroin Abuse Crisis Investment Act of 2017</title>
+        <chamberName/>
+        <chamberCode/>
+      </item>
+    </titles>
+    <amendments/>
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>L000580</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NM</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2146</lisID>
+          <bioguideId>L000580</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <fullName>Rep. Lujan Grisham, Michelle [D-NM-1]</fullName>
+        <party>D</party>
+        <firstName>Michelle</firstName>
+        <lastName>Lujan Grisham</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>TN</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1878</lisID>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+        </identifiers>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <party>D</party>
+        <firstName>Steve</firstName>
+        <lastName>Cohen</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>B001251</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NC</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>B001251</bioguideId>
+          <gpoId>8024</gpoId>
+          <lisID>1761</lisID>
+        </identifiers>
+        <fullName>Rep. Butterfield, G. K. [D-NC-1]</fullName>
+        <party>D</party>
+        <firstName>G. K.</firstName>
+        <lastName>Butterfield</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>O000171</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>AZ</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>O000171</bioguideId>
+          <gpoId/>
+          <lisID>2306</lisID>
+        </identifiers>
+        <fullName>Rep. O'Halleran, Tom [D-AZ-1]</fullName>
+        <party>D</party>
+        <firstName>Tom</firstName>
+        <lastName>O'Halleran</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>E000296</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>PA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2298</lisID>
+          <gpoId/>
+          <bioguideId>E000296</bioguideId>
+        </identifiers>
+        <fullName>Rep. Evans, Dwight [D-PA-2]</fullName>
+        <party>D</party>
+        <firstName>Dwight</firstName>
+        <lastName>Evans</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>M001185</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NY</state>
+        <middleName>Patrick</middleName>
+        <identifiers>
+          <lisID>2150</lisID>
+          <bioguideId>M001185</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <fullName>Rep. Maloney, Sean Patrick [D-NY-18]</fullName>
+        <party>D</party>
+        <firstName>Sean</firstName>
+        <lastName>Maloney</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>18</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>D000610</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>FL</state>
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-22]</fullName>
+        <party>D</party>
+        <firstName>Theodore</firstName>
+        <lastName>Deutch</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>22</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>D000197</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CO</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1479</lisID>
+          <bioguideId>D000197</bioguideId>
+          <gpoId>7859</gpoId>
+        </identifiers>
+        <fullName>Rep. DeGette, Diana [D-CO-1]</fullName>
+        <party>D</party>
+        <firstName>DIANA</firstName>
+        <lastName>DEGETTE</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>K000382</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NH</state>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <lastName>Kuster</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>J000298</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>WA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2354</lisID>
+          <gpoId/>
+          <bioguideId>J000298</bioguideId>
+        </identifiers>
+        <fullName>Rep. Jayapal, Pramila [D-WA-7]</fullName>
+        <party>D</party>
+        <firstName>Pramila</firstName>
+        <lastName>Jayapal</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>M001200</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>VA</state>
+        <middleName>Donald</middleName>
+        <identifiers>
+          <lisID>2352</lisID>
+          <bioguideId>M001200</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <fullName>Rep. McEachin, A. Donald [D-VA-4]</fullName>
+        <party>D</party>
+        <firstName>A.</firstName>
+        <lastName>McEachin</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-08-04</sponsorshipDate>
+        <bioguideId>S000510</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>WA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1528</lisID>
+          <gpoId>8213</gpoId>
+          <bioguideId>S000510</bioguideId>
+        </identifiers>
+        <fullName>Rep. Smith, Adam [D-WA-9]</fullName>
+        <party>D</party>
+        <firstName>ADAM</firstName>
+        <lastName>SMITH</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>9</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-08-04</sponsorshipDate>
+        <bioguideId>W000797</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>FL</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>W000797</bioguideId>
+          <gpoId>7892</gpoId>
+          <lisID>1777</lisID>
+        </identifiers>
+        <fullName>Rep. Wasserman Schultz, Debbie [D-FL-23]</fullName>
+        <party>D</party>
+        <firstName>Debbie</firstName>
+        <lastName>Wasserman Schultz</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>23</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-08-04</sponsorshipDate>
+        <bioguideId>D000482</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>PA</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>D000482</bioguideId>
+          <gpoId>8132</gpoId>
+          <lisID>316</lisID>
+        </identifiers>
+        <fullName>Rep. Doyle, Michael F. [D-PA-14]</fullName>
+        <party>D</party>
+        <firstName>MIKE</firstName>
+        <lastName>DOYLE</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>14</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-09-08</sponsorshipDate>
+        <bioguideId>H001064</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>WA</state>
+        <middleName/>
+        <identifiers>
+          <gpoId/>
+          <lisID>2170</lisID>
+          <bioguideId>H001064</bioguideId>
+        </identifiers>
+        <fullName>Rep. Heck, Denny [D-WA-10]</fullName>
+        <party>D</party>
+        <firstName>Denny</firstName>
+        <lastName>Heck</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>10</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-23</sponsorshipDate>
+        <bioguideId>S001185</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>AL</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>1988</lisID>
+          <bioguideId>S001185</bioguideId>
+          <gpoId>7792</gpoId>
+        </identifiers>
+        <fullName>Rep. Sewell, Terri A. [D-AL-7]</fullName>
+        <party>D</party>
+        <firstName>Terri</firstName>
+        <lastName>Sewell</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. BEN RAY LUJAN of New Mexico:H.R. 3495.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H6519]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports/>
+    <notes/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Appropriations</name>
+          </item>
+          <item>
+            <name>Drug trafficking and controlled substances</name>
+          </item>
+          <item>
+            <name>Drug, alcohol, tobacco use</name>
+          </item>
+          <item>
+            <name>Health programs administration and funding</name>
+          </item>
+          <item>
+            <name>Indian social and development programs</name>
+          </item>
+          <item>
+            <name>Minority health</name>
+          </item>
+          <item>
+            <name>Prescription drugs</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-07-27T14:10:40Z</date>
+            </item>
+          </activities>
+          <name>Energy and Commerce Committee</name>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-07-28T14:58:53Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+              <systemCode>hsif14</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsif00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2017-07-28</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links/>
+    </latestAction>
+    <relatedBills/>
+    <laws/>
+    <originChamber>House</originChamber>
+    <cboCostEstimates/>
+    <title>Opioid and Heroin Abuse Crisis Investment Act of 2017</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <calendarNumbers/>
+    <billNumber>3495</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

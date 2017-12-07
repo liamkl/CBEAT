@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>2</billReferrals>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <placeholderTextForH>3</placeholderTextForH>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <reportedToHouse>1</reportedToHouse>
+        <actionStageOverride>1</actionStageOverride>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>11</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <type>Committee</type>
+        <actionDate>2015-03-13</actionDate>
+        <actionCode>H12200</actionCode>
+        <links>
+          <link>
+            <name>H. Rept. 114-40</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/40</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 114-40, Part I.</text>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2015-03-13</actionDate>
+        <actionCode>5000</actionCode>
+        <links>
+          <link>
+            <name>H. Rept. 114-40</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/40</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 114-40, Part I.</text>
+      </item>
+      <item>
+        <actionDate>2015-02-27</actionDate>
+        <committee>
+          <systemCode>hswm02</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-26</actionDate>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Ordered to be Reported (Amended) by Voice Vote.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-26</actionDate>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-02-13</actionDate>
+        <committee>
+          <systemCode>hsif14</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-11</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <text>Referred to House Ways and Means</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-11</actionDate>
+        <actionCode>H11100</actionCode>
+        <links />
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <text>Referred to House Energy and Commerce</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-11</actionDate>
+        <actionCode>H11100-A</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-11</actionDate>
+        <actionCode>Intro-H</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-02-11</actionDate>
+        <actionCode>1000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in House</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T17:59:42Z</updateDate>
+    <introducedDate>2015-02-11</introducedDate>
+    <recordedVotes />
+    <createDate>2015-02-12T05:30:26Z</createDate>
+    <congress>114</congress>
+    <sponsors>
+      <item>
+        <firstName>Diane</firstName>
+        <lastName>Black</lastName>
+        <state>TN</state>
+        <bioguideId>B001273</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>2063</lisID>
+          <bioguideId>B001273</bioguideId>
+          <gpoId>8153</gpoId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Rep. Black, Diane [R-TN-6]</fullName>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode>H</chamberCode>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <title>Electronic Health Fairness Act of 2015</title>
+        <chamberName>House</chamberName>
+        <titleType>Short Titles as Reported to House</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Electronic Health Fairness Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To amend title XVIII of the Social Security Act with respect to the treatment of patient encounters in ambulatory surgical centers in determining meaningful EHR use, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Electronic Health Fairness Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <state>GA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Scott</lastName>
+        <identifiers>
+          <bioguideId>S001157</bioguideId>
+          <gpoId>7910</gpoId>
+          <lisID>1722</lisID>
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>13</district>
+        <middleName />
+        <sponsorshipDate>2015-02-11</sponsorshipDate>
+        <bioguideId>S001157</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Sanchez, Linda T. [D-CA-38]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SANCHEZ</lastName>
+        <identifiers>
+          <bioguideId>S001156</bioguideId>
+          <gpoId>7844</gpoId>
+          <lisID>1757</lisID>
+        </identifiers>
+        <firstName>LINDA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>38</district>
+        <middleName>T.</middleName>
+        <sponsorshipDate>2015-02-11</sponsorshipDate>
+        <bioguideId>S001156</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Buchanan, Vern [R-FL-16]</fullName>
+        <state>FL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Buchanan</lastName>
+        <identifiers>
+          <lisID>1840</lisID>
+          <gpoId>7885</gpoId>
+          <bioguideId>B001260</bioguideId>
+        </identifiers>
+        <firstName>Vern</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>16</district>
+        <middleName />
+        <sponsorshipDate>2015-02-11</sponsorshipDate>
+        <bioguideId>B001260</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Rangel, Charles B. [D-NY-13]</fullName>
+        <state>NY</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>RANGEL</lastName>
+        <identifiers>
+          <lisID>944</lisID>
+          <bioguideId>R000053</bioguideId>
+          <gpoId>8076</gpoId>
+        </identifiers>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>13</district>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>R000053</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Blumenauer, Earl [D-OR-3]</fullName>
+        <state>OR</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>BLUMENAUER</lastName>
+        <identifiers>
+          <lisID>99</lisID>
+          <bioguideId>B000574</bioguideId>
+          <gpoId>8116</gpoId>
+        </identifiers>
+        <firstName>EARL</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>B000574</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Burgess, Michael C. [R-TX-26]</fullName>
+        <state>TX</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Burgess</lastName>
+        <identifiers>
+          <lisID>1751</lisID>
+          <bioguideId>B001248</bioguideId>
+          <gpoId>8182</gpoId>
+        </identifiers>
+        <firstName>Michael</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>26</district>
+        <middleName>C.</middleName>
+        <sponsorshipDate>2015-02-25</sponsorshipDate>
+        <bioguideId>B001248</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Schweikert, David [R-AZ-6]</fullName>
+        <state>AZ</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Schweikert</lastName>
+        <identifiers>
+          <lisID>1994</lisID>
+          <bioguideId>S001183</bioguideId>
+          <gpoId>7802</gpoId>
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+        <middleName />
+        <sponsorshipDate>2015-03-03</sponsorshipDate>
+        <bioguideId>S001183</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <state>MS</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Harper</lastName>
+        <identifiers>
+          <gpoId>8021</gpoId>
+          <lisID>1933</lisID>
+          <bioguideId>H001045</bioguideId>
+        </identifiers>
+        <firstName>Gregg</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <bioguideId>H001045</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Kelly, Mike [R-PA-3]</fullName>
+        <state>PA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kelly</lastName>
+        <identifiers>
+          <lisID>2051</lisID>
+          <bioguideId>K000376</bioguideId>
+          <gpoId>8708</gpoId>
+        </identifiers>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2015-03-17</sponsorshipDate>
+        <bioguideId>K000376</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Peters, Scott H. [D-CA-52]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Peters</lastName>
+        <identifiers>
+          <bioguideId>P000608</bioguideId>
+          <gpoId />
+          <lisID>2113</lisID>
+        </identifiers>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>52</district>
+        <middleName>H.</middleName>
+        <sponsorshipDate>2015-04-21</sponsorshipDate>
+        <bioguideId>P000608</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Blackburn, Marsha [R-TN-7]</fullName>
+        <state>TN</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Blackburn</lastName>
+        <identifiers>
+          <lisID>1748</lisID>
+          <gpoId>8154</gpoId>
+          <bioguideId>B001243</bioguideId>
+        </identifiers>
+        <firstName>Marsha</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+        <middleName />
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <bioguideId>B001243</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Smith, Jason [R-MO-8]</fullName>
+        <state>MO</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Smith</lastName>
+        <identifiers>
+          <lisID>2191</lisID>
+          <gpoId />
+          <bioguideId>S001195</bioguideId>
+        </identifiers>
+        <firstName>Jason</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>8</district>
+        <middleName />
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <bioguideId>S001195</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Salmon, Matt [R-AZ-5]</fullName>
+        <state>AZ</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>SALMON</lastName>
+        <identifiers>
+          <lisID>1009</lisID>
+          <bioguideId>S000018</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>MATT</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <bioguideId>S000018</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Kelly, Trent [R-MS-1]</fullName>
+        <state>MS</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kelly</lastName>
+        <identifiers>
+          <lisID>2294</lisID>
+          <bioguideId>K000388</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Trent</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <middleName />
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <bioguideId>K000388</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Price, Tom [R-GA-6]</fullName>
+        <state>GA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Price</lastName>
+        <identifiers>
+          <lisID>1778</lisID>
+          <gpoId>7903</gpoId>
+          <bioguideId>P000591</bioguideId>
+        </identifiers>
+        <firstName>Tom</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+        <middleName />
+        <sponsorshipDate>2016-01-06</sponsorshipDate>
+        <bioguideId>P000591</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. McClintock, Tom [R-CA-4]</fullName>
+        <state>CA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>McClintock</lastName>
+        <identifiers>
+          <gpoId>7809</gpoId>
+          <lisID>1908</lisID>
+          <bioguideId>M001177</bioguideId>
+        </identifiers>
+        <firstName>Tom</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+        <middleName />
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <bioguideId>M001177</bioguideId>
+      </item>
+    </cosponsors>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. BLACK:H.R. 887.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3, to regulate Commerce withforeign Nations, and among the several States, and with theIndian Tribes.[Page H983]</pre>]]></constitutionalAuthorityStatementText>
+    <billType>HR</billType>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-40</citation>
+      </committeeReport>
+    </committeeReports>
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Home and outpatient care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Surgery and anesthesia</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <activities>
+                <item>
+                  <date>2015-02-27T21:54:40Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Ways and Means Committee</name>
+          <systemCode>hswm00</systemCode>
+          <activities>
+            <item>
+              <date>2015-03-13T15:46:28Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2015-02-26T17:45:04Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-02-11T15:02:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-02-13T14:48:15Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2015-02-11T15:02:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-03-13</actionDate>
+      <text>Reported (Amended) by the Committee on Ways and Means. H. Rept. 114-40, Part I.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>1347</number>
+        <type>S</type>
+        <latestTitle>Electronic Health Fairness Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-09-08</actionDate>
+          <actionTime>20:29:21</actionTime>
+          <text>Held at the desk.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <laws />
+    <originChamber>House</originChamber>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 887, Electronic Health Fairness Act of 2015</title>
+        <pubDate>2015-03-12T17:10:07Z</pubDate>
+        <url>https://www.cbo.gov/publication/50026</url>
+      </item>
+    </cboCostEstimates>
+    <title>Electronic Health Fairness Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Electronic Health Fairness Act of 2015 </b></p> <p> Amends title XVIII (Medicare) of the Social Security Act to prohibit any patient encounter of an eligible professional occurring at an ambulatory surgical center from being treated as such an encounter in determining whether an eligible professional qualifies as a meaningful electronic health record (EHR) user.</p> <p>Terminates this prohibition three years after the Secretary of Health and Human Services certifies EHR technology for the ambulatory surgical center setting.</p>]]></text>
+          <lastSummaryUpdateDate>2015-02-25T17:19:15Z</lastSummaryUpdateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2015-02-11</actionDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-02-11T05:00:00Z</updateDate>
+        </item>
+        <item>
+          <text><![CDATA[<p><b>Electronic Health Fairness Act of 2015 </b></p> <p>(Sec. 2) Amends title XVIII (Medicare) of the Social Security Act to prohibit for a payment year after 2015 any patient encounter of an eligible professional occurring at an ambulatory surgical center (ASC) from being treated as such a patient encounter in determining whether an eligible professional qualifies as a meaningful electronic health record (EHR) user.</p> <p>Terminates this prohibition three years after the Secretary of Health and Human Services determines, through notice and comment rulemaking, that certified EHR technology is applicable to the ASC setting.</p>]]></text>
+          <lastSummaryUpdateDate>2015-04-20T19:17:07Z</lastSummaryUpdateDate>
+          <name>Reported to House amended, Part I</name>
+          <versionCode>18</versionCode>
+          <actionDate>2015-03-13</actionDate>
+          <actionDesc>Reported to House amended, Part I</actionDesc>
+          <updateDate>2015-03-13T10:46:33Z</updateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <calendarNumbers />
+    <billNumber>887</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

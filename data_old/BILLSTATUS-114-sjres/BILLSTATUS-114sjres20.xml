@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <committeeDischarged>1</committeeDischarged>
+        <senateCommitteeDischarged>1</senateCommitteeDischarged>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>5</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 285.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2015-10-29</actionDate>
+        <committee>
+          <systemCode>ssfr00</systemCode>
+          <name>Foreign Relations Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Senate Committee on Foreign Relations discharged pursuant to 42 U.S.C. 2159(i) and section 601(b)(4) of Public Law 94-329.</text>
+        <type>Discharge</type>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2015-10-29</actionDate>
+        <actionCode>14500</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>ssfr00</systemCode>
+          <name>Foreign Relations Committee</name>
+        </committee>
+        <text>Senate Committee on Foreign Relations discharged pursuant to 42 U.S.C. 2159(i) and section 601(b)(4) of Public Law 94-329.</text>
+      </item>
+      <item>
+        <actionDate>2015-07-28</actionDate>
+        <committee>
+          <systemCode>ssfr00</systemCode>
+          <name>Foreign Relations Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Foreign Relations.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-28</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:07:39Z</updateDate>
+    <introducedDate>2015-07-28</introducedDate>
+    <recordedVotes />
+    <createDate>2015-07-29T09:31:47Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>BENJAMIN</firstName>
+        <lastName>CARDIN</lastName>
+        <state>MD</state>
+        <bioguideId>C000141</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <bioguideId>C000141</bioguideId>
+          <gpoId>8287</gpoId>
+          <lisID>174</lisID>
+        </identifiers>
+        <byRequestType>Single Sponsor by request</byRequestType>
+        <middleName>L.</middleName>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>International Affairs</name>
+    </policyArea>
+    <titles>
+      <item>
+        <title>A joint resolution relating to the approval of the proposed Agreement for Cooperation Between the United States of America and the Government of the Republic of Korea Concerning Peaceful Uses of Nuclear Energy.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A joint resolution relating to the approval of the proposed Agreement for Cooperation Between the United States of America and the Government of the Republic of Korea Concerning Peaceful Uses of Nuclear Energy.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors />
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0285</number>
+      </item>
+    </calendarNumbers>
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>International Affairs</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Asia</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>International law and treaties</name>
+          </item>
+          <item>
+            <name>International organizations and cooperation</name>
+          </item>
+          <item>
+            <name>Nuclear power</name>
+          </item>
+          <item>
+            <name>South Korea</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Foreign Relations Committee</name>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-10-29T23:56:46Z</date>
+              <name>Discharged from</name>
+            </item>
+            <item>
+              <date>2015-07-28T23:14:40Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <systemCode>ssfr00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-10-29</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 285.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Providing for the approval of the Congress of the proposed Agreement for Cooperation Between the Government of the United States of America and the Government of the Republic of Korea Concerning Peaceful Uses of Nuclear Energy transmitted on June 16, 2015.</latestTitle>
+        <latestAction>
+          <actionDate>2015-07-31</actionDate>
+          <text>Referred to the House Committee on Foreign Affairs.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HJRES</type>
+        <number>63</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>A joint resolution relating to the approval of the proposed Agreement for Cooperation Between the United States of America and the Government of the Republic of Korea Concerning Peaceful Uses of Nuclear Energy.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-08-27T19:41:19Z</lastSummaryUpdateDate>
+          <actionDate>2015-07-28</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-07-28T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p>States that Congress favors the proposed Agreement for Cooperation Between the Government of the United States of America and the Government of the Republic of Korea Concerning Peaceful Uses of Nuclear Energy transmitted to the President on June 16, 2015.</p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>SJRES</billType>
+    <billNumber>20</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

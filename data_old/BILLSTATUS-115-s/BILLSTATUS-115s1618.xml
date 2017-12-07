@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <item>
+        <actionDate>2017-07-24</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <committee/>
+        <actionDate>2017-07-24</actionDate>
+        <type>IntroReferral</type>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <links/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <createDate>2017-07-25T01:41:35Z</createDate>
+    <version>1.0.0</version>
+    <notes/>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+          <subcommittees/>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-07-24T21:30:49Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <billNumber>1618</billNumber>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <identifiers>
+          <lisID>1531</lisID>
+          <gpoId>8261</gpoId>
+          <bioguideId>S000770</bioguideId>
+        </identifiers>
+        <lastName>STABENOW</lastName>
+        <bioguideId>S000770</bioguideId>
+        <fullName>Sen. Stabenow, Debbie [D-MI]</fullName>
+        <state>MI</state>
+        <firstName>DEBORAH</firstName>
+        <middleName>ANN</middleName>
+        <byRequestType/>
+      </item>
+    </sponsors>
+    <introducedDate>2017-07-24</introducedDate>
+    <relatedBills>
+      <item>
+        <congress>115</congress>
+        <number>2293</number>
+        <type>HR</type>
+        <latestAction>
+          <text>Referred to the House Committee on Ways and Means.</text>
+          <actionDate>2017-05-02</actionDate>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <latestTitle>To amend the Internal Revenue Code of 1986 for purposes of the tax on private foundation excess business holdings to treat as outstanding any employee-owned stock purchased by a business enterprise pursuant to certain employee stock ownership retirement plans.</latestTitle>
+      </item>
+    </relatedBills>
+    <originChamber>Senate</originChamber>
+    <billType>S</billType>
+    <title>A bill to amend the Internal Revenue Code of 1986 for purposes of the tax on private foundation excess business holdings to treat as outstanding any employee-owned stock purchased by a business enterprise pursuant to certain employee stock ownership retirement plans.</title>
+    <calendarNumbers/>
+    <recordedVotes/>
+    <amendments/>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <updateDate>2017-10-06T04:50:32Z</updateDate>
+    <cboCostEstimates/>
+    <laws/>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDate>2017-07-24</actionDate>
+          <name>Introduced in Senate</name>
+          <lastSummaryUpdateDate>2017-08-07T15:56:40Z</lastSummaryUpdateDate>
+          <updateDate>2017-07-24T04:00:00Z</updateDate>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p>This bill amends the Internal Revenue Code to exclude certain purchases of employee-owned stock from being considered as outstanding voting stock for the purpose of the tax on excess business holdings of a private foundation in a business enterprise. </p> <p>The bill applies to any voting stock that is: (1) not readily tradable on an established securities market; (2) purchased by the business enterprise on or after January 1, 2005, from an employee stock ownership plan in which employees of the business enterprise participate, in connection with a distribution from the plan; and (3) held by the business enterprise as treasury stock, cancelled, or retired. </p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <actionDate>2017-07-24</actionDate>
+      <links/>
+    </latestAction>
+    <cosponsors/>
+    <congress>115</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Business investment and capital</name>
+          </item>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Sales and excise taxes</name>
+          </item>
+          <item>
+            <name>Securities</name>
+          </item>
+          <item>
+            <name>Social work, volunteer service, charitable organizations</name>
+          </item>
+          <item>
+            <name>Tax-exempt organizations</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committeeReports/>
+    <titles>
+      <item>
+        <chamberName/>
+        <title>A bill to amend the Internal Revenue Code of 1986 for purposes of the tax on private foundation excess business holdings to treat as outstanding any employee-owned stock purchased by a business enterprise pursuant to certain employee stock ownership retirement plans.</title>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+      <item>
+        <chamberName/>
+        <title>A bill to amend the Internal Revenue Code of 1986 for purposes of the tax on private foundation excess business holdings to treat as outstanding any employee-owned stock purchased by a business enterprise pursuant to certain employee stock ownership retirement plans.</title>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberCode/>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

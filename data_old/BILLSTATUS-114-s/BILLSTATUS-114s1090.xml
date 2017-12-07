@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2015-04-28T09:16:15Z</createDate>
+    <recordedVotes>
+      <recordedVote>
+        <date>2015-12-16T15:54:30Z</date>
+        <sessionNumber>1</sessionNumber>
+        <chamber>House</chamber>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+        <rollNumber>697</rollNumber>
+        <congress>114</congress>
+        <url>http://clerk.house.gov/evs/2015/roll697.xml</url>
+      </recordedVote>
+    </recordedVotes>
+    <cboCostEstimates>
+      <item>
+        <title>S. 1090, Emergency Information Improvement Act of 2015</title>
+        <pubDate>2015-07-08T15:53:48Z</pubDate>
+        <url>https://www.cbo.gov/publication/50368</url>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Emergency Management</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hspw13</systemCode>
+              <activities>
+                <item>
+                  <date>2015-09-18T21:06:23Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-09-17T23:14:32Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+          <systemCode>ssga00</systemCode>
+          <subcommittees />
+          <activities>
+            <item>
+              <date>2015-09-15T18:18:20Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2015-06-24T14:00:00Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-04-27T20:38:49Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>114-111</number>
+      </item>
+    </laws>
+    <relatedBills>
+      <item>
+        <number>1471</number>
+        <latestAction>
+          <actionDate>2016-03-01</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>HR</type>
+        <latestTitle>FEMA Disaster Assistance Reform Act of 2015</latestTitle>
+        <congress>114</congress>
+      </item>
+      <item>
+        <number>1546</number>
+        <latestAction>
+          <actionDate>2015-03-24</actionDate>
+          <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>HR</type>
+        <latestTitle>Emergency Information Improvement Act of 2015</latestTitle>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0227</number>
+      </item>
+    </calendarNumbers>
+    <introducedDate>2015-04-27</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>11</houseOfRepresentatives>
+        <senate>9</senate>
+      </actionByCounts>
+      <item>
+        <actionCode>E40000</actionCode>
+        <text>Became Public Law No: 114-111.</text>
+        <actionDate>2015-12-18</actionDate>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/114th-congress/senate-bill/1090/text/pl</url>
+            <name>Public Law No: 114-111</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>President</type>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <text>Became Public Law No: 114-111.</text>
+        <actionDate>2015-12-18</actionDate>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/114th-congress/senate-bill/1090/text/pl</url>
+            <name>Public Law No: 114-111</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>BecameLaw</type>
+      </item>
+      <item>
+        <actionCode>E30000</actionCode>
+        <text>Signed by President.</text>
+        <actionDate>2015-12-18</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>President</type>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <text>Signed by President.</text>
+        <actionDate>2015-12-18</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>BecameLaw</type>
+      </item>
+      <item>
+        <actionCode>E20000</actionCode>
+        <text>Presented to President.</text>
+        <actionDate>2015-12-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>28000</actionCode>
+        <text>Presented to President.</text>
+        <actionDate>2015-12-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>President</type>
+      </item>
+      <item>
+        <actionCode>H38310</actionCode>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <links />
+        <actionTime>10:54:30</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H37300</actionCode>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 420 - 1 (Roll no. 697). (text: CR H9337)</text>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H9337</url>
+            <name>H9337</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2015/roll697.xml</url>
+            <name>Roll no. 697</name>
+          </link>
+        </links>
+        <actionTime>10:54:30</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>8000</actionCode>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 420 - 1 (Roll no. 697).(text: CR H9337)</text>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H9337</url>
+            <name>H9337</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2015/roll697.xml</url>
+            <name>Roll no. 697</name>
+          </link>
+        </links>
+        <actionTime>10:54:30</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H30000</actionCode>
+        <text>Considered as unfinished business. (consideration: CR H9340-9341)</text>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H9340-9341</url>
+            <name>H9340-9341</name>
+          </link>
+        </links>
+        <actionTime>10:45:20</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H37220</actionCode>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <links />
+        <actionTime>09:44:53</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H8D000</actionCode>
+        <text>DEBATE - The House proceeded with forty minutes of debate on S. 1090.</text>
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/114th-congress/senate-bill/1090</url>
+            <name>S. 1090</name>
+          </link>
+        </links>
+        <actionTime>09:40:24</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H30000</actionCode>
+        <text>Considered under suspension of the rules. (consideration: CR H9337-9338)</text>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H9337-9338</url>
+            <name>H9337-9338</name>
+          </link>
+        </links>
+        <actionTime>09:40:22</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>H30300</actionCode>
+        <text>Mr. Costello (PA) moved to suspend the rules and pass the bill.</text>
+        <links />
+        <actionTime>09:40:04</actionTime>
+        <committee />
+        <actionDate>2015-12-16</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-09-18</actionDate>
+        <committee>
+          <systemCode>hspw13</systemCode>
+          <name>Economic Development, Public Buildings and Emergency Management Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <actionDate>2015-09-17</actionDate>
+        <committee>
+          <systemCode>hspw00</systemCode>
+          <name>Transportation and Infrastructure Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>H14000</actionCode>
+        <text>Received in the House.</text>
+        <links />
+        <actionTime>19:01:59</actionTime>
+        <committee />
+        <actionDate>2015-09-17</actionDate>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-09-17</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-09-17</actionDate>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S6819</url>
+            <name>S6819</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Unanimous Consent. (consideration: CR S6819; text as passed Senate: CR S6819)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>17000</actionCode>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.(consideration: CR S6819; text as passed Senate: CR S6819)</text>
+        <actionDate>2015-09-17</actionDate>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S6819</url>
+            <name>S6819</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-09-15</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 227.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2015-09-15</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/142</url>
+            <name>report No. 114-142</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson without amendment. With written report No. 114-142.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>14000</actionCode>
+        <text>Committee on Homeland Security and Governmental Affairs. Reported by Senator Johnson without amendment. With written report No. 114-142.</text>
+        <actionDate>2015-09-15</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/142</url>
+            <name>report No. 114-142</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-06-24</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-27</actionDate>
+        <committee>
+          <systemCode>ssga00</systemCode>
+          <name>Homeland Security and Governmental Affairs Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <text>Introduced in Senate</text>
+        <actionDate>2015-04-27</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <becamePublicLaw>2</becamePublicLaw>
+        <generalDebate>1</generalDebate>
+        <introducedInSenate>1</introducedInSenate>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <placeholderTextForH>2</placeholderTextForH>
+        <placeholderTextForE>3</placeholderTextForE>
+        <passedSenate>1</passedSenate>
+        <billReferrals>1</billReferrals>
+        <receivedInTheHouse>1</receivedInTheHouse>
+        <sentToHouse>1</sentToHouse>
+        <reportedToSenate>2</reportedToSenate>
+        <referredToCommittee>1</referredToCommittee>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <presentedToPresident>1</presentedToPresident>
+        <passedAgreedToInSenate>1</passedAgreedToInSenate>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <considerationByHouse>2</considerationByHouse>
+        <orderedReported>1</orderedReported>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 114-142</citation>
+      </committeeReport>
+    </committeeReports>
+    <titles>
+      <item>
+        <titleType>Short Titles as Enacted</titleType>
+        <parentTitleType>Short Title</parentTitleType>
+        <chamberName />
+        <chamberCode />
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed Senate</titleType>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <chamberName>Senate</chamberName>
+        <chamberCode>S</chamberCode>
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Passed House</titleType>
+        <parentTitleType>Short Titles House of Representatives</parentTitleType>
+        <chamberName>House</chamberName>
+        <chamberCode>H</chamberCode>
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Reported to Senate</titleType>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <chamberName>Senate</chamberName>
+        <chamberCode>S</chamberCode>
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>A bill to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to provide eligibility for broadcasting facilities to receive certain disaster assistance, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Emergency Information Improvement Act of 2015</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Emergency Management</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Broadcasting, cable, digital technologies</name>
+          </item>
+          <item>
+            <name>Disaster relief and insurance</name>
+          </item>
+          <item>
+            <name>News media and reporting</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <lastName>Cruz</lastName>
+        <bioguideId>C001098</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-04-27</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Ted</firstName>
+        <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+        <identifiers>
+          <bioguideId>C001098</bioguideId>
+          <gpoId />
+          <lisID>2175</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>ROBERTS</lastName>
+        <bioguideId>R000307</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-07-09</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>KS</state>
+        <firstName>PAT</firstName>
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+        <identifiers>
+          <bioguideId>R000307</bioguideId>
+          <gpoId>8275</gpoId>
+          <lisID>968</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Boozman</lastName>
+        <bioguideId>B001236</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-08-03</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>AR</state>
+        <firstName>John</firstName>
+        <fullName>Sen. Boozman, John [R-AR]</fullName>
+        <identifiers>
+          <bioguideId>B001236</bioguideId>
+          <gpoId>8247</gpoId>
+          <lisID>1687</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>Gardner</lastName>
+        <bioguideId>G000562</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-08-05</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <firstName>Cory</firstName>
+        <fullName>Sen. Gardner, Cory [R-CO]</fullName>
+        <identifiers>
+          <bioguideId>G000562</bioguideId>
+          <gpoId>7862</gpoId>
+          <lisID>1998</lisID>
+        </identifiers>
+        <middleName />
+      </item>
+      <item>
+        <lastName>MENENDEZ</lastName>
+        <bioguideId>M000639</bioguideId>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <sponsorshipDate>2015-09-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>NJ</state>
+        <firstName>ROBERT</firstName>
+        <fullName>Sen. Menendez, Robert [D-NJ]</fullName>
+        <identifiers>
+          <lisID>791</lisID>
+          <bioguideId>M000639</bioguideId>
+          <gpoId>8239</gpoId>
+        </identifiers>
+        <middleName />
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>1090</billNumber>
+    <amendments />
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-05-21T20:59:27Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-04-27</actionDate>
+          <text><![CDATA[<p><strong>Emergency Information Improvement Act of 2015</strong></p> <p> Amends the Robert T. Stafford Disaster Relief and Emergency Assistance Act to include broadcasting facilities within the definition of a &quot;private nonprofit facility&quot; that provides essential services of a governmental nature to the general public, and to include broadcast and telecommunications within the definition of &quot;critical services&quot; provided by such a facility, for purposes of eligibility for certain disaster assistance.</p>]]></text>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <updateDate>2015-04-27T04:00:00Z</updateDate>
+          <name>Introduced in Senate</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-10-05T21:50:33Z</lastSummaryUpdateDate>
+          <versionCode>80</versionCode>
+          <actionDate>2015-09-15</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><strong>Emergency Information Improvement Act of 2015</strong></p> <p> (Sec. 2) Amends the Robert T. Stafford Disaster Relief and Emergency Assistance Act to include broadcasting facilities within the definition of a &quot;private nonprofit facility&quot; that provides essential services of a governmental nature to the general public, and to include broadcast and telecommunications within the definition of &quot;critical services&quot; provided by such a facility, for purposes of eligibility for certain disaster assistance.</p>]]></text>
+          <actionDesc>Reported to Senate without amendment</actionDesc>
+          <updateDate>2015-09-15T12:39:27Z</updateDate>
+          <name>Reported to Senate without amendment</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-10-05T21:56:44Z</lastSummaryUpdateDate>
+          <versionCode>82</versionCode>
+          <actionDate>2015-09-17</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.)</p> <p><strong>Emergency Information Improvement Act of 2015</strong></p> <p> (Sec. 2) Amends the Robert T. Stafford Disaster Relief and Emergency Assistance Act to include broadcasting facilities within the definition of a &quot;private nonprofit facility&quot; that provides essential services of a governmental nature to the general public, and to include broadcast and telecommunications within the definition of &quot;critical services&quot; provided by such a facility, for purposes of eligibility for certain disaster assistance.</p>]]></text>
+          <actionDesc>Passed Senate without amendment</actionDesc>
+          <updateDate>2015-09-17T12:35:10Z</updateDate>
+          <name>Passed Senate without amendment</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-12-22T22:57:56Z</lastSummaryUpdateDate>
+          <versionCode>81</versionCode>
+          <actionDate>2015-12-16</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.)</p> <p><strong>Emergency Information Improvement Act of 2015</strong></p> <p> (Sec. 2) Amends the Robert T. Stafford Disaster Relief and Emergency Assistance Act to include broadcasting facilities within the definition of a &quot;private nonprofit facility&quot; that provides essential services of a governmental nature to the general public, and to include broadcast and telecommunications within the definition of &quot;critical services&quot; provided by such a facility, for purposes of eligibility for certain disaster assistance.</p>]]></text>
+          <actionDesc>Passed House without amendment</actionDesc>
+          <updateDate>2015-12-16T13:39:51Z</updateDate>
+          <name>Passed House without amendment</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-12-22T22:58:07Z</lastSummaryUpdateDate>
+          <versionCode>49</versionCode>
+          <actionDate>2015-12-18</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The expanded summary of the Senate reported version is repeated here.)</p> <p><strong>Emergency Information Improvement Act of 2015</strong></p> <p> (Sec. 2) Amends the Robert T. Stafford Disaster Relief and Emergency Assistance Act to include broadcasting facilities within the definition of a &quot;private nonprofit facility&quot; that provides essential services of a governmental nature to the general public, and to include broadcast and telecommunications within the definition of &quot;critical services&quot; provided by such a facility, for purposes of eligibility for certain disaster assistance.</p>]]></text>
+          <actionDesc>Public Law</actionDesc>
+          <updateDate>2015-12-19T04:59:58Z</updateDate>
+          <name>Public Law</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes />
+    <title>Emergency Information Improvement Act of 2015</title>
+    <latestAction>
+      <actionDate>2015-12-18</actionDate>
+      <text>Became Public Law No: 114-111.</text>
+      <links>
+        <link>
+          <name>Public Law No: 114-111</name>
+          <url>https://www.congress.gov/bill/114th-congress/senate-bill/1090/text/pl</url>
+        </link>
+      </links>
+    </latestAction>
+    <updateDate>2017-10-27T18:09:02Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Booker, Cory A. [D-NJ]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>B001288</bioguideId>
+        <middleName>A.</middleName>
+        <state>NJ</state>
+        <firstName>Cory</firstName>
+        <lastName>Booker</lastName>
+        <identifiers>
+          <bioguideId>B001288</bioguideId>
+          <gpoId />
+          <lisID>2194</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

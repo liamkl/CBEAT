@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <hearingsHeld>1</hearingsHeld>
+        <orderedReported>1</orderedReported>
+        <introducedInSenate>1</introducedInSenate>
+        <placedOnCalendarGeneralOrders>1</placedOnCalendarGeneralOrders>
+        <reportedToSenate>2</reportedToSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>7</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-09-06</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 593.</text>
+        <type>Calendars</type>
+      </item>
+      <item>
+        <actionDate>2016-09-06</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links>
+          <link>
+            <name>report No. 114-320</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/320</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Murkowski without amendment. With written report No. 114-320.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <type>Committee</type>
+        <actionDate>2016-09-06</actionDate>
+        <actionCode>14000</actionCode>
+        <links>
+          <link>
+            <name>report No. 114-320</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/senate-report/320</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <text>Committee on Energy and Natural Resources. Reported by Senator Murkowski without amendment. With written report No. 114-320.</text>
+      </item>
+      <item>
+        <actionDate>2016-07-13</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-03-17</actionDate>
+        <committee>
+          <systemCode>sseg04</systemCode>
+          <name>National Parks Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-08-04</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <type>IntroReferral</type>
+        <actionDate>2015-08-04</actionDate>
+        <actionCode>10000</actionCode>
+        <links />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <text>Introduced in Senate</text>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:10:07Z</updateDate>
+    <introducedDate>2015-08-04</introducedDate>
+    <recordedVotes />
+    <createDate>2015-08-05T08:16:03Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Johnny</firstName>
+        <lastName>Isakson</lastName>
+        <state>GA</state>
+        <bioguideId>I000055</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>1608</lisID>
+          <gpoId>8323</gpoId>
+          <bioguideId>I000055</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Isakson, Johnny [R-GA]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Public Lands and Natural Resources</name>
+    </policyArea>
+    <titles>
+      <item>
+        <chamberCode>S</chamberCode>
+        <parentTitleType>Short Titles Senate</parentTitleType>
+        <title>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</title>
+        <chamberName>Senate</chamberName>
+        <titleType>Short Titles as Reported to Senate</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>A bill to adjust the boundary of the Kennesaw Mountain National Battlefield Park to include the Wallis House and Harriston Hill, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <lastName>Perdue</lastName>
+        <bioguideId>P000612</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipDate>2015-08-04</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <firstName>David</firstName>
+        <fullName>Sen. Perdue, David [R-GA]</fullName>
+        <identifiers>
+          <lisID>2286</lisID>
+          <bioguideId>P000612</bioguideId>
+          <gpoId />
+        </identifiers>
+        <middleName>Alfred</middleName>
+      </item>
+    </cosponsors>
+    <calendarNumbers>
+      <item>
+        <calendar>Senate Calendar of Business</calendar>
+        <number>0593</number>
+      </item>
+    </calendarNumbers>
+    <committeeReports>
+      <committeeReport>
+        <citation>S. Rept. 114-320</citation>
+      </committeeReport>
+    </committeeReports>
+    <notes />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Conflicts and wars</name>
+          </item>
+          <item>
+            <name>Georgia</name>
+          </item>
+          <item>
+            <name>Land transfers</name>
+          </item>
+          <item>
+            <name>Military history</name>
+          </item>
+          <item>
+            <name>Parks, recreation areas, trails</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Public Lands and Natural Resources</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Energy and Natural Resources Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <name>Reported by</name>
+              <date>2016-09-06T21:43:57Z</date>
+            </item>
+            <item>
+              <name>Markup by</name>
+              <date>2016-07-13T13:30:00Z</date>
+            </item>
+            <item>
+              <name>Referred to</name>
+              <date>2015-08-04T21:31:07Z</date>
+            </item>
+          </activities>
+          <type>Standing</type>
+          <subcommittees>
+            <item>
+              <name>National Parks Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Hearings by</name>
+                  <date>2016-03-17T19:08:34Z</date>
+                </item>
+              </activities>
+              <systemCode>sseg04</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>sseg00</systemCode>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2016-09-06</actionDate>
+      <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 593.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <latestTitle>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2016-03-17</actionDate>
+          <text>Committee on Energy and Natural Resources Subcommittee on National Parks. Hearings held.</text>
+        </latestAction>
+        <congress>114</congress>
+        <type>HR</type>
+        <number>3371</number>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+          <item>
+            <identifiedBy>House</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates>
+      <item>
+        <title>S. 1930, Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</title>
+        <pubDate>2016-08-10T18:27:19Z</pubDate>
+        <url>https://www.cbo.gov/publication/51897</url>
+      </item>
+    </cboCostEstimates>
+    <title>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-09-24T16:47:23Z</lastSummaryUpdateDate>
+          <actionDate>2015-08-04</actionDate>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-08-04T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p><b>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015 </b></p> <p> Modifies the boundary of the Kennesaw Mountain National Battlefield Park in Georgia to include approximately eight acres identified as Wallis House and Harriston Hill. </p> <p>Authorizes the Department of the Interior to acquire land or interests, by donation or exchange, from willing sellers only.</p> <p>]]></text>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2016-09-13T14:20:48Z</lastSummaryUpdateDate>
+          <actionDate>2016-09-06</actionDate>
+          <name>Reported to Senate without amendment</name>
+          <updateDate>2016-09-06T15:15:11Z</updateDate>
+          <versionCode>80</versionCode>
+          <actionDesc>Reported to Senate without amendment</actionDesc>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p><b>Kennesaw Mountain National Battlefield Park Boundary Adjustment Act of 2015 </b></p> <p> (Sec. 3) This bill modifies the boundary of the Kennesaw Mountain National Battlefield Park in Georgia to include approximately eight acres identified as Wallis House and Harriston Hill. </p> <p> The Department of the Interior may acquire land or interests, by donation or exchange, from willing sellers only. </p> <p>Interior shall administer acquired lands and interests as part of the park.</p> <p>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>1930</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

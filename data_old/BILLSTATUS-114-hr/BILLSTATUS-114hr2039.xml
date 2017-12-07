@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>5</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported by the Yeas and Nays: 19 - 15.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-04-30</actionDate>
+        <committee>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Science, Space, and Technology.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hssy00</systemCode>
+          <name>Science, Space, and Technology Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-28</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <actionStageOverride>1</actionStageOverride>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Science, Technology, Communications</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 2039, National Aeronautics and Space Administration Authorization Act for 2016 and 2017</title>
+        <pubDate>2015-05-15T16:33:10Z</pubDate>
+        <url>https://www.cbo.gov/publication/50200</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <bioguideId>S000583</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>LAMAR</firstName>
+        <identifiers>
+          <lisID>1075</lisID>
+          <bioguideId>S000583</bioguideId>
+          <gpoId>8177</gpoId>
+        </identifiers>
+        <fullName>Rep. Smith, Lamar [R-TX-21]</fullName>
+        <district>21</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>SMITH</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001048</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>JOHN</firstName>
+        <identifiers>
+          <lisID>1670</lisID>
+          <bioguideId>C001048</bioguideId>
+          <gpoId>8163</gpoId>
+        </identifiers>
+        <fullName>Rep. Culberson, John Abney [R-TX-7]</fullName>
+        <district>7</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>CULBERSON</lastName>
+        <middleName>ABNEY</middleName>
+      </item>
+      <item>
+        <bioguideId>L000491</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OK</state>
+        <firstName>FRANK</firstName>
+        <identifiers>
+          <bioguideId>L000491</bioguideId>
+          <gpoId>8111</gpoId>
+          <lisID>711</lisID>
+        </identifiers>
+        <fullName>Rep. Lucas, Frank D. [R-OK-3]</fullName>
+        <district>3</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>LUCAS</lastName>
+        <middleName>D.</middleName>
+      </item>
+      <item>
+        <bioguideId>B001283</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OK</state>
+        <firstName>Jim</firstName>
+        <identifiers>
+          <lisID>2155</lisID>
+          <gpoId />
+          <bioguideId>B001283</bioguideId>
+        </identifiers>
+        <fullName>Rep. Bridenstine, Jim [R-OK-1]</fullName>
+        <district>1</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Bridenstine</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>W000814</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Randy</firstName>
+        <identifiers>
+          <lisID>2161</lisID>
+          <gpoId />
+          <bioguideId>W000814</bioguideId>
+        </identifiers>
+        <fullName>Rep. Weber, Randy K., Sr. [R-TX-14]</fullName>
+        <district>14</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Weber</lastName>
+        <middleName>K.</middleName>
+      </item>
+      <item>
+        <bioguideId>L000583</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>GA</state>
+        <firstName>Barry</firstName>
+        <identifiers>
+          <bioguideId>L000583</bioguideId>
+          <gpoId />
+          <lisID>2238</lisID>
+        </identifiers>
+        <fullName>Rep. Loudermilk, Barry [R-GA-11]</fullName>
+        <district>11</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Loudermilk</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>R000409</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>DANA</firstName>
+        <identifiers>
+          <gpoId>7851</gpoId>
+          <lisID>979</lisID>
+          <bioguideId>R000409</bioguideId>
+        </identifiers>
+        <fullName>Rep. Rohrabacher, Dana [R-CA-48]</fullName>
+        <district>48</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>ROHRABACHER</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>M001157</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Michael</firstName>
+        <identifiers>
+          <lisID>1804</lisID>
+          <bioguideId>M001157</bioguideId>
+          <gpoId>8166</gpoId>
+        </identifiers>
+        <fullName>Rep. McCaul, Michael T. [R-TX-10]</fullName>
+        <district>10</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>McCaul</lastName>
+        <middleName>T.</middleName>
+      </item>
+      <item>
+        <bioguideId>H001059</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>IL</state>
+        <firstName>Randy</firstName>
+        <identifiers>
+          <lisID>2015</lisID>
+          <gpoId>7934</gpoId>
+          <bioguideId>H001059</bioguideId>
+        </identifiers>
+        <fullName>Rep. Hultgren, Randy [R-IL-14]</fullName>
+        <district>14</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Hultgren</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>M001194</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>MI</state>
+        <firstName>John</firstName>
+        <identifiers>
+          <bioguideId>M001194</bioguideId>
+          <gpoId />
+          <lisID>2248</lisID>
+        </identifiers>
+        <fullName>Rep. Moolenaar, John R. [R-MI-4]</fullName>
+        <district>4</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Moolenaar</lastName>
+        <middleName>R.</middleName>
+      </item>
+      <item>
+        <bioguideId>K000387</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <firstName>Stephen</firstName>
+        <identifiers>
+          <lisID>2228</lisID>
+          <gpoId />
+          <bioguideId>K000387</bioguideId>
+        </identifiers>
+        <fullName>Rep. Knight, Stephen [R-CA-25]</fullName>
+        <district>25</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Knight</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001291</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <firstName>Brian</firstName>
+        <identifiers>
+          <bioguideId>B001291</bioguideId>
+          <gpoId />
+          <lisID>2270</lisID>
+        </identifiers>
+        <fullName>Rep. Babin, Brian [R-TX-36]</fullName>
+        <district>36</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Babin</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>C001105</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <firstName>Barbara</firstName>
+        <identifiers>
+          <bioguideId>C001105</bioguideId>
+          <gpoId />
+          <lisID>2273</lisID>
+        </identifiers>
+        <fullName>Rep. Comstock, Barbara [R-VA-10]</fullName>
+        <district>10</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Comstock</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>B001274</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>AL</state>
+        <firstName>Mo</firstName>
+        <identifiers>
+          <lisID>1987</lisID>
+          <bioguideId>B001274</bioguideId>
+          <gpoId>7790</gpoId>
+        </identifiers>
+        <fullName>Rep. Brooks, Mo [R-AL-5]</fullName>
+        <district>5</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Brooks</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>J000292</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>OH</state>
+        <firstName>Bill</firstName>
+        <identifiers>
+          <lisID>2046</lisID>
+          <gpoId>8096</gpoId>
+          <bioguideId>J000292</bioguideId>
+        </identifiers>
+        <fullName>Rep. Johnson, Bill [R-OH-6]</fullName>
+        <district>6</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Johnson</lastName>
+        <middleName />
+      </item>
+      <item>
+        <bioguideId>P000599</bioguideId>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <sponsorshipWithdrawnDate />
+        <state>FL</state>
+        <firstName>Bill</firstName>
+        <identifiers>
+          <lisID>1915</lisID>
+          <gpoId>7887</gpoId>
+          <bioguideId>P000599</bioguideId>
+        </identifiers>
+        <fullName>Rep. Posey, Bill [R-FL-8]</fullName>
+        <district>8</district>
+        <sponsorshipDate>2015-04-28</sponsorshipDate>
+        <lastName>Posey</lastName>
+        <middleName />
+      </item>
+    </cosponsors>
+    <introducedDate>2015-04-28</introducedDate>
+    <latestAction>
+      <actionDate>2015-04-30</actionDate>
+      <text>Ordered to be Reported by the Yeas and Nays: 19 - 15.</text>
+      <links />
+    </latestAction>
+    <billNumber>2039</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>National Aeronautics and Space Administration Authorization Act for 2016 and 2017</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To authorize the programs of the National Aeronautics and Space Administration, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>National Aeronautics and Space Administration Authorization Act for 2016 and 2017</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. PALAZZO:H.R. 2039.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 3:The Congress shall have power to regulate commerce withforeign nations, and among the several states, and withIndian tribes.andArticle I, Section 8, Clause 18:The Congress shall have power to make all Laws which shallbe necessary and proper for carrying into Execution theforegoing Powers, and all other Powers vested by thisConstitution in the Government of the United States, or inany Department of Officer thereof[Page H2498]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>National Aeronautics and Space Administration Authorization Act for 2016 and 2017</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><b>National Aeronautics and Space Administration Authorization Act for 2016 and 2017 </b></p> <p>Authorizes appropriations for FY2016-FY2017 for the National Aeronautics and Space Administration (NASA).</p> <p>Authorizes programs, activities, and reports for NASA, including those relating to human exploration of space, the Space Launch System, the Orion multipurpose crew vehicle, space radiation, the International Space Station, the commercial crew program, radioisotope power systems, extrasolar planet exploration, the James Webb Space Telescope, the Wide-Field Infrared Survey Telescope, near-Earth objects, astrobiology, space weather, the Stratospheric Observatory for Infrared Astronomy, Venture class missions, aeronautics research (including transformative aeronautics research), science, technology, engineering, and mathematics (STEM) education, project and program reserves, orbital debris mitigation, remote satellite robotic servicing demonstrations, and astronaut occupational health care. </p> <p>Directs NASA to report to Congress on the proposed Asteroid Retrieval Mission. </p> <p>Directs NASA to utilize the International Space Station and commercial services for space technology demonstration missions in low-Earth orbit whenever it is practical and cost effective to do so.</p> <p>Establishes a space technology program. </p> <p>Directs NASA to: (1) enter into an arrangement with the National Academy of Public Administration to assess the effectiveness of the NASA Advisory Council, (2) enter into an arrangement with the National Academies for a review of the National Space Grant College and Fellowship Program, and (3) revise the NASA Supplement to the Federal Acquisition Regulation to address the detection and avoidance of counterfeit electronic parts. </p> <p>Directs NASA to develop a policy on the use of operational commercial reusable suborbital flight vehicles for carrying out scientific and engineering investigations and educational activities. </p>]]></text>
+          <lastSummaryUpdateDate>2016-05-05T14:52:01Z</lastSummaryUpdateDate>
+          <updateDate>2015-04-28T04:00:00Z</updateDate>
+          <actionDate>2015-04-28</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>National Aeronautics and Space Administration Authorization Act of 2015</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>810</number>
+        <latestAction>
+          <actionDate>2015-02-11</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Science, Space, and Technology Committee</name>
+          <systemCode>hssy00</systemCode>
+          <activities>
+            <item>
+              <date>2015-04-30T15:09:19Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2015-04-28T16:00:16Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:18Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Science, Technology, Communications</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Accounting and auditing</name>
+          </item>
+          <item>
+            <name>Advanced technology and technological innovations</name>
+          </item>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Astronomy</name>
+          </item>
+          <item>
+            <name>Aviation and airports</name>
+          </item>
+          <item>
+            <name>Biological and life sciences</name>
+          </item>
+          <item>
+            <name>Buy American requirements</name>
+          </item>
+          <item>
+            <name>Competition and antitrust</name>
+          </item>
+          <item>
+            <name>Computers and information technology</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Crimes against property</name>
+          </item>
+          <item>
+            <name>Earth sciences</name>
+          </item>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Government buildings, facilities, and property</name>
+          </item>
+          <item>
+            <name>Government employee pay, benefits, personnel management</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Historic sites and heritage areas</name>
+          </item>
+          <item>
+            <name>International organizations and cooperation</name>
+          </item>
+          <item>
+            <name>Materials</name>
+          </item>
+          <item>
+            <name>Medical research</name>
+          </item>
+          <item>
+            <name>Medical tests and diagnostic methods</name>
+          </item>
+          <item>
+            <name>Minority education</name>
+          </item>
+          <item>
+            <name>National Aeronautics and Space Administration</name>
+          </item>
+          <item>
+            <name>Natural disasters</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Public-private cooperation</name>
+          </item>
+          <item>
+            <name>Radiation</name>
+          </item>
+          <item>
+            <name>Research administration and funding</name>
+          </item>
+          <item>
+            <name>Research and development</name>
+          </item>
+          <item>
+            <name>Science and engineering education</name>
+          </item>
+          <item>
+            <name>Small business</name>
+          </item>
+          <item>
+            <name>Space flight and exploration</name>
+          </item>
+          <item>
+            <name>Spacecraft and satellites</name>
+          </item>
+          <item>
+            <name>Student aid and college costs</name>
+          </item>
+          <item>
+            <name>Tax administration and collection, taxpayers</name>
+          </item>
+          <item>
+            <name>Teaching, teachers, curricula</name>
+          </item>
+          <item>
+            <name>Technology transfer and commercialization</name>
+          </item>
+          <item>
+            <name>Trade restrictions</name>
+          </item>
+          <item>
+            <name>Transportation safety and security</name>
+          </item>
+          <item>
+            <name>Worker safety and health</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-04-29T08:46:09Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Palazzo, Steven M. [R-MS-4]</fullName>
+        <state>MS</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Palazzo</lastName>
+        <firstName>Steven</firstName>
+        <bioguideId>P000601</bioguideId>
+        <middleName>M.</middleName>
+        <identifiers>
+          <gpoId>8022</gpoId>
+          <lisID>2035</lisID>
+          <bioguideId>P000601</bioguideId>
+        </identifiers>
+        <district>4</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

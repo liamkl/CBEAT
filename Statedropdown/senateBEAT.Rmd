@@ -176,12 +176,16 @@ renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
 Row {data-height=300}
 -------------------------------------
 ### Process of Bills
-  
+1. Introduced into Senate
+  2. Ordered Reported
+  3. Failed legislation; or received a vote, but failed in the senate
+  4. Passed in the Senate 
+  5. Passed in the House, but Vetoed by the President
+  6. Became a law
 ```{r}
-a=c(sum(stack$start),sum(stack$step2),sum(stack$step3),sum(stack$step4),sum(stack$step5),sum(stack$step6))
-b=colnames(stack)[2:7]
-temp=melt(stack,id="X__1")
-p=ggplot(temp, aes(variable, value,group=X__1,color=X__1,fill=X__1))+geom_area(position = "stack")+theme(legend.position = "none")
+colnames(stack)=c("Topic","Introduced into Senate","Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
+temp=melt(stack,id="Topic")
+p=ggplot(temp, aes(variable, value,group=Topic,color=Topic,fill=Topic))+geom_area(position = "stack")+theme(legend.position = "none")
 ggplotly(p)
 ```
 

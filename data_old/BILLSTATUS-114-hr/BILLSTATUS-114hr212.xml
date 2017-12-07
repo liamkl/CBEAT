@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes>
+      <recordedVote>
+        <rollNumber>84</rollNumber>
+        <date>2015-02-24T23:58:36Z</date>
+        <url>http://clerk.house.gov/evs/2015/roll084.xml</url>
+        <sessionNumber>1</sessionNumber>
+        <congress>114</congress>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+        <chamber>House</chamber>
+      </recordedVote>
+    </recordedVotes>
+    <actions>
+      <actionTypeCounts>
+        <becamePublicLaw>2</becamePublicLaw>
+        <amendingTheTitleOfAnActWithoutObjection>1</amendingTheTitleOfAnActWithoutObjection>
+        <placeholderTextForH>2</placeholderTextForH>
+        <considerationByHouse>2</considerationByHouse>
+        <billReferrals>1</billReferrals>
+        <committeeReportOfABill>1</committeeReportOfABill>
+        <passedAgreedToInSenate>1</passedAgreedToInSenate>
+        <passedSenate>1</passedSenate>
+        <presentedToPresident>1</presentedToPresident>
+        <reportedToHouse>1</reportedToHouse>
+        <sentToHouse>1</sentToHouse>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <introducedInHouse>1</introducedInHouse>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <placeholderTextForE>3</placeholderTextForE>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <generalDebate>1</generalDebate>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <unionCalendarAssignment>1</unionCalendarAssignment>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <item>
+        <actionCode>E40000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>Public Law No: 114-45</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/212/text/pl</url>
+          </link>
+        </links>
+        <type>President</type>
+        <actionDate>2015-08-07</actionDate>
+        <text>Became Public Law No: 114-45.</text>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>Public Law No: 114-45</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/212/text/pl</url>
+          </link>
+        </links>
+        <type>BecameLaw</type>
+        <actionDate>2015-08-07</actionDate>
+        <text>Became Public Law No: 114-45.</text>
+      </item>
+      <item>
+        <actionCode>E30000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>President</type>
+        <actionDate>2015-08-07</actionDate>
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <actionCode>36000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>BecameLaw</type>
+        <actionDate>2015-08-07</actionDate>
+        <text>Signed by President.</text>
+      </item>
+      <item>
+        <actionCode>E20000</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2015-08-06</actionDate>
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <actionCode>28000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>President</type>
+        <actionDate>2015-08-06</actionDate>
+        <text>Presented to President.</text>
+      </item>
+      <item>
+        <actionDate>2015-08-06</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Message on Senate action sent to the House.</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionDate>2015-08-05</actionDate>
+        <committee />
+        <links>
+          <link>
+            <name>S6348-6349</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S6348-6349</url>
+          </link>
+        </links>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Passed Senate without amendment by Voice Vote. (consideration: CR S6348-6349)</text>
+        <type>Floor</type>
+      </item>
+      <item>
+        <actionCode>17000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>S6348-6349</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/senate-section/page/S6348-6349</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-08-05</actionDate>
+        <text>Passed/agreed to in Senate: Passed Senate without amendment by Voice Vote.(consideration: CR S6348-6349)</text>
+      </item>
+      <item>
+        <actionDate>2015-02-25</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Received in the Senate, read twice.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionTime>18:58:37</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H38800</actionCode>
+        <text>The title of the measure was amended. Agreed to without objection.</text>
+      </item>
+      <item>
+        <actionTime>18:58:36</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H38310</actionCode>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+      </item>
+      <item>
+        <actionTime>18:58:36</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H1094</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H1094</url>
+          </link>
+          <link>
+            <name>Roll no. 84</name>
+            <url>http://clerk.house.gov/evs/2015/roll084.xml</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H37300</actionCode>
+        <text>On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 375 - 37 (Roll no. 84). (text: CR H1094)</text>
+      </item>
+      <item>
+        <actionTime>18:58:36</actionTime>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H1094</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H1094</url>
+          </link>
+          <link>
+            <name>Roll no. 84</name>
+            <url>http://clerk.house.gov/evs/2015/roll084.xml</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>8000</actionCode>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 375 - 37 (Roll no. 84).(text: CR H1094)</text>
+      </item>
+      <item>
+        <actionTime>18:31:04</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H1100-1101</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H1100-1101</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H30000</actionCode>
+        <text>Considered as unfinished business. (consideration: CR H1100-1101)</text>
+      </item>
+      <item>
+        <actionTime>16:12:20</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H37220</actionCode>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+      </item>
+      <item>
+        <actionTime>16:04:17</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H.R. 212</name>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/212</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H8D000</actionCode>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 212.</text>
+      </item>
+      <item>
+        <actionTime>16:04:15</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links>
+          <link>
+            <name>H1094-1095</name>
+            <url>https://www.congress.gov/congressional-record/volume-161/house-section/page/H1094-1095</url>
+          </link>
+        </links>
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H30000</actionCode>
+        <text>Considered under suspension of the rules. (consideration: CR H1094-1095)</text>
+      </item>
+      <item>
+        <actionTime>16:04:03</actionTime>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Floor</type>
+        <actionDate>2015-02-24</actionDate>
+        <actionCode>H30300</actionCode>
+        <text>Mr. Latta moved to suspend the rules and pass the bill, as amended.</text>
+      </item>
+      <item>
+        <actionCode>H12410</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>Calendars</type>
+        <actionDate>2015-02-24</actionDate>
+        <text>Placed on the Union Calendar, Calendar No. 18.</text>
+      </item>
+      <item>
+        <actionCode>H12200</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 114-26</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/26</url>
+          </link>
+        </links>
+        <type>Committee</type>
+        <actionDate>2015-02-24</actionDate>
+        <text>Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 114-26.</text>
+      </item>
+      <item>
+        <actionCode>5000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links>
+          <link>
+            <name>H. Rept. 114-26</name>
+            <url>https://www.congress.gov/congressional-report/114th-congress/house-report/26</url>
+          </link>
+        </links>
+        <type>Committee</type>
+        <actionDate>2015-02-24</actionDate>
+        <text>Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 114-26.</text>
+      </item>
+      <item>
+        <actionDate>2015-01-09</actionDate>
+        <committee>
+          <name>Environment and the Economy Subcommittee</name>
+          <systemCode>hsif18</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Environment and the Economy.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <committee>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+        </committee>
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <committee />
+        <links />
+        <type>IntroReferral</type>
+        <actionDate>2015-01-08</actionDate>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <senate>4</senate>
+        <houseOfRepresentatives>16</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <policyArea>
+      <name>Environmental Protection</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 212, Drinking Water Protection Act</title>
+        <pubDate>2015-02-18T22:18:58Z</pubDate>
+        <url>https://www.cbo.gov/publication/49959</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Miller, Candice S. [R-MI-10]</fullName>
+        <state>MI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Miller</lastName>
+        <identifiers>
+          <lisID>1731</lisID>
+          <bioguideId>M001150</bioguideId>
+          <gpoId>8589</gpoId>
+        </identifiers>
+        <firstName>Candice</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>10</district>
+        <middleName>S.</middleName>
+        <sponsorshipDate>2015-01-08</sponsorshipDate>
+        <bioguideId>M001150</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Quigley, Mike [D-IL-5]</fullName>
+        <state>IL</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Quigley</lastName>
+        <identifiers>
+          <lisID>1967</lisID>
+          <gpoId>7925</gpoId>
+          <bioguideId>Q000023</bioguideId>
+        </identifiers>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+        <middleName />
+        <sponsorshipDate>2015-01-08</sponsorshipDate>
+        <bioguideId>Q000023</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Kaptur, Marcy [D-OH-9]</fullName>
+        <state>OH</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>KAPTUR</lastName>
+        <identifiers>
+          <lisID>616</lisID>
+          <bioguideId>K000009</bioguideId>
+          <gpoId>8099</gpoId>
+        </identifiers>
+        <firstName>MARCY</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>9</district>
+        <middleName />
+        <sponsorshipDate>2015-01-08</sponsorshipDate>
+        <bioguideId>K000009</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Murphy, Tim [R-PA-18]</fullName>
+        <state>PA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Murphy</lastName>
+        <identifiers>
+          <lisID>1744</lisID>
+          <bioguideId>M001151</bioguideId>
+          <gpoId>8723</gpoId>
+        </identifiers>
+        <firstName>Tim</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>18</district>
+        <middleName />
+        <sponsorshipDate>2015-02-10</sponsorshipDate>
+        <bioguideId>M001151</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Joyce, David P. [R-OH-14]</fullName>
+        <state>OH</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Joyce</lastName>
+        <identifiers>
+          <gpoId />
+          <lisID>2154</lisID>
+          <bioguideId>J000295</bioguideId>
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>14</district>
+        <middleName>P.</middleName>
+        <sponsorshipDate>2015-02-10</sponsorshipDate>
+        <bioguideId>J000295</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. McKinley, David B. [R-WV-1]</fullName>
+        <state>WV</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>McKinley</lastName>
+        <identifiers>
+          <lisID>2074</lisID>
+          <gpoId>8222</gpoId>
+          <bioguideId>M001180</bioguideId>
+        </identifiers>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <middleName>B.</middleName>
+        <sponsorshipDate>2015-02-10</sponsorshipDate>
+        <bioguideId>M001180</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-01-08</introducedDate>
+    <latestAction>
+      <actionDate>2015-08-07</actionDate>
+      <text>Became Public Law No: 114-45.</text>
+      <links>
+        <link>
+          <name>Public Law No: 114-45</name>
+          <url>https://www.congress.gov/bill/114th-congress/house-bill/212/text/pl</url>
+        </link>
+      </links>
+    </latestAction>
+    <billNumber>212</billNumber>
+    <titles>
+      <item>
+        <title>Drinking Water Protection Act</title>
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend the Safe Drinking Water Act to provide for the assessment and management of the risk of algal toxins in drinking water, and for other purposes.</title>
+        <parentTitleType>Official Titles House of Representatives</parentTitleType>
+        <titleType>Official Titles as Amended by House</titleType>
+        <chamberCode>H</chamberCode>
+        <chamberName>House</chamberName>
+      </item>
+      <item>
+        <title>To amend the Safe Drinking Water Act to provide for the assessment and management of the risk of cyanotoxins in drinking water, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+      <item>
+        <title>To amend the Safe Drinking Water Act to provide for the assessment and management of the risk of algal toxins in drinking water, and for other purposes.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <laws>
+      <item>
+        <type>Public Law</type>
+        <number>114-45</number>
+      </item>
+    </laws>
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. LATTA:H.R. 212.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 18To make all Laws which shall be necessary and proper forcarrying into Execution the foregoing Powers, and all otherPowers vested by this Constitution in the Government of theUnited States, or in any Department or Officer thereof.[Page H156]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers>
+      <item>
+        <number />
+        <calendar>U00018</calendar>
+      </item>
+    </calendarNumbers>
+    <title>To amend the Safe Drinking Water Act to provide for the assessment and management of the risk of algal toxins in drinking water, and for other purposes.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2015-02-25T22:09:34Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2015-01-08</actionDate>
+          <text><![CDATA[<p><b>Drinking Water Protection Act </b></p> <p>This bill amends the Safe Drinking Water Act to direct the Environmental Protection Agency to develop and submit to Congress a strategic plan for assessing and managing risks associated with cyanotoxins in drinking water provided by public water systems. (Cyanotoxins are naturally occurring toxins produced by cyanobacteria, also known as blue-green algae.)</p> <p>The plan must include steps and time lines to:</p> <ul> <li>evaluate the risk to human health from drinking water contaminated with cyanotoxins;</li> <li> establish, publish, and update a comprehensive list of cyanotoxins that are harmful to human health;</li> <li> summarize the known adverse human health effects of cyanotoxins and the factors that cause cyanobacteria to grow rapidly and make toxins; </li> <li>determine whether to publish health advisories for harmful cyanotoxins and establish relevant guidance; </li> <li>recommend feasible treatment options; and </li> <li>enter into cooperative agreements with, and provide technical assistance to, affected states and public water systems to manage risks associated with cyanotoxins. </li> </ul> <ul> </ul>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-01-08T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-02-27T16:46:41Z</lastSummaryUpdateDate>
+          <versionCode>36</versionCode>
+          <actionDate>2015-02-24</actionDate>
+          <text><![CDATA[<p><b>Drinking Water Protection Act </b></p> <p>(Sec. 2) This bill amends the Safe Drinking Water Act to direct the Environmental Protection Agency (EPA) to develop and submit to Congress a strategic plan for assessing and managing risks associated with algal toxins in drinking water provided by public water systems. Cyanobacteria, also known as blue-green algae, have the ability to produce cyanotoxins, or algal toxins. When certain conditions are favorable, algae can rapidly multiply causing blooms, or dense surface scums, that may be toxic.</p> <p>The plan must include steps and time lines to:</p> <ul> <li>evaluate the risk to human health from drinking water contaminated with algal toxins;</li> <li> establish, publish, and update a comprehensive list of algal toxins that may have an adverse effect on human health, taking into account likely exposure levels;</li> <li> summarize the known adverse human health effects of algal toxins and the factors that cause toxin-producing cyanobacteria and algae to grow rapidly and make toxins; </li> <li>determine whether to publish health advisories for algal toxins and establish guidance regarding feasible analytical methods to quantify the presence of algal toxins and guidance regarding the frequency of monitoring necessary to determine if the algal toxins are present; </li> <li>recommend feasible treatment options, including procedures, equipment, and source water protection practices; and </li> <li>enter into cooperative agreements with, and provide technical assistance to, affected states and public water systems to manage risks associated with algal toxins. </li> </ul> <p> The EPA must update and resubmit the plan as appropriate. </p> <p>The EPA must identify gaps in its understanding of algal toxins. It must also assemble and publish information from each agency that has examined or analyzed cyanobacteria or algal toxins or addressed public health concerns related to harmful algal blooms. <p>The Government Accountability Office must submit to Congress an inventory of funds expended by the United States for each of FY2010 through 2014 to examine or analyze toxin-producing cyanobacteria and algae or address public health concerns related to harmful algal blooms. The inventory must include the specific purpose for which the funds were made available, the law under which the funds were authorized, and the agency that received or spent the funds. </p>]]></text>
+          <actionDesc>Passed House amended</actionDesc>
+          <updateDate>2015-02-24T12:35:03Z</updateDate>
+          <name>Passed House amended</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-08-11T15:37:51Z</lastSummaryUpdateDate>
+          <versionCode>82</versionCode>
+          <actionDate>2015-08-05</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was passed by the House on February 24, 2015. The summary of that version is repeated here.)</p> <p><b>Drinking Water Protection Act </b></p> <p>(Sec. 2) This bill amends the Safe Drinking Water Act to direct the Environmental Protection Agency (EPA) to develop and submit to Congress a strategic plan for assessing and managing risks associated with algal toxins in drinking water provided by public water systems. Cyanobacteria, also known as blue-green algae, have the ability to produce cyanotoxins, or algal toxins. When certain conditions are favorable, algae can rapidly multiply causing blooms, or dense surface scums, that may be toxic.</p> <p>The plan must include steps and time lines to:</p> <ul> <li>evaluate the risk to human health from drinking water contaminated with algal toxins;</li> <li> establish, publish, and update a comprehensive list of algal toxins that may have an adverse effect on human health, taking into account likely exposure levels;</li> <li> summarize the known adverse human health effects of algal toxins and the factors that cause toxin-producing cyanobacteria and algae to grow rapidly and make toxins; </li> <li>determine whether to publish health advisories for algal toxins and establish guidance regarding feasible analytical methods to quantify the presence of algal toxins and guidance regarding the frequency of monitoring necessary to determine if the algal toxins are present; </li> <li>recommend feasible treatment options, including procedures, equipment, and source water protection practices; and </li> <li>enter into cooperative agreements with, and provide technical assistance to, affected states and public water systems to manage risks associated with algal toxins. </li> </ul> <p> The EPA must update and resubmit the plan as appropriate. </p> <p>The EPA must identify gaps in its understanding of algal toxins. It must also assemble and publish information from each agency that has examined or analyzed cyanobacteria or algal toxins or addressed public health concerns related to harmful algal blooms. <p>The Government Accountability Office must submit to Congress an inventory of funds expended by the United States for each of FY2010 through 2014 to examine or analyze toxin-producing cyanobacteria and algae or address public health concerns related to harmful algal blooms. The inventory must include the specific purpose for which the funds were made available, the law under which the funds were authorized, and the agency that received or spent the funds. </p>]]></text>
+          <actionDesc>Passed Senate without amendment</actionDesc>
+          <updateDate>2015-08-05T16:07:14Z</updateDate>
+          <name>Passed Senate without amendment</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2015-08-11T21:35:09Z</lastSummaryUpdateDate>
+          <versionCode>49</versionCode>
+          <actionDate>2015-08-07</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was passed by the House on February 24, 2015. The summary of that version is repeated here.)</p> <p><b>Drinking Water Protection Act </b></p> <p>(Sec. 2) This bill amends the Safe Drinking Water Act to direct the Environmental Protection Agency (EPA) to develop and submit to Congress a strategic plan for assessing and managing risks associated with algal toxins in drinking water provided by public water systems. Cyanobacteria, also known as blue-green algae, have the ability to produce cyanotoxins, or algal toxins. When certain conditions are favorable, algae can rapidly multiply causing blooms, or dense surface scums, that may be toxic.</p> <p>The plan must include steps and time lines to:</p> <ul> <li>evaluate the risk to human health from drinking water contaminated with algal toxins;</li> <li> establish, publish, and update a comprehensive list of algal toxins that may have an adverse effect on human health, taking into account likely exposure levels;</li> <li> summarize the known adverse human health effects of algal toxins and the factors that cause toxin-producing cyanobacteria and algae to grow rapidly and make toxins; </li> <li>determine whether to publish health advisories for algal toxins and establish guidance regarding feasible analytical methods to quantify the presence of algal toxins and guidance regarding the frequency of monitoring necessary to determine if the algal toxins are present; </li> <li>recommend feasible treatment options, including procedures, equipment, and source water protection practices; and </li> <li>enter into cooperative agreements with, and provide technical assistance to, affected states and public water systems to manage risks associated with algal toxins. </li> </ul> <p> The EPA must update and resubmit the plan as appropriate. </p> <p>The EPA must identify gaps in its understanding of algal toxins. It must also assemble and publish information from each agency that has examined or analyzed cyanobacteria or algal toxins or addressed public health concerns related to harmful algal blooms. <p>The Government Accountability Office must submit to Congress an inventory of funds expended by the United States for each of FY2010 through 2014 to examine or analyze toxin-producing cyanobacteria and algae or address public health concerns related to harmful algal blooms. The inventory must include the specific purpose for which the funds were made available, the law under which the funds were authorized, and the agency that received or spent the funds. </p>]]></text>
+          <actionDesc>Public Law</actionDesc>
+          <updateDate>2015-08-08T03:59:59Z</updateDate>
+          <name>Public Law</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>460</number>
+        <latestAction>
+          <actionDate>2015-02-11</actionDate>
+          <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>S</type>
+        <latestTitle>Drinking Water Protection Act</latestTitle>
+        <congress>114</congress>
+      </item>
+      <item>
+        <number>1709</number>
+        <latestAction>
+          <actionDate>2015-03-27</actionDate>
+          <text>Referred to the Subcommittee on Environment and the Economy.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <type>HR</type>
+        <latestTitle>To amend the Safe Drinking Water Act to provide for the assessment and management of the risks of drought to drinking water, and for other purposes.</latestTitle>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif18</systemCode>
+              <activities>
+                <item>
+                  <date>2015-01-09T16:47:59Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Environment and the Economy Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2015-02-24T17:13:31Z</date>
+              <name>Reported by</name>
+            </item>
+            <item>
+              <date>2015-01-08T15:01:25Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports>
+      <committeeReport>
+        <citation>H. Rept. 114-26</citation>
+      </committeeReport>
+    </committeeReports>
+    <updateDate>2017-10-27T17:58:42Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Environmental assessment, monitoring, research</name>
+          </item>
+          <item>
+            <name>Environmental technology</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Hazardous wastes and toxic substances</name>
+          </item>
+          <item>
+            <name>Health information and medical records</name>
+          </item>
+          <item>
+            <name>Water quality</name>
+          </item>
+          <item>
+            <name>Water use and supply</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Environmental Protection</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-01-09T04:46:23Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Latta, Robert E. [R-OH-5]</fullName>
+        <state>OH</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Latta</lastName>
+        <firstName>Robert</firstName>
+        <bioguideId>L000566</bioguideId>
+        <middleName>E.</middleName>
+        <identifiers>
+          <gpoId>8095</gpoId>
+          <lisID>1885</lisID>
+          <bioguideId>L000566</bioguideId>
+        </identifiers>
+        <district>5</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

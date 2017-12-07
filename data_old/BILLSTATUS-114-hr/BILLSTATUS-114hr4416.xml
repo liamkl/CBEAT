@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes>
+      <recordedVote>
+        <rollNumber>125</rollNumber>
+        <date>2016-03-16T17:30:50Z</date>
+        <url>http://clerk.house.gov/evs/2016/roll125.xml</url>
+        <sessionNumber>2</sessionNumber>
+        <congress>114</congress>
+        <fullActionName>Final Passage Under Suspension of the Rules Results</fullActionName>
+        <chamber>House</chamber>
+      </recordedVote>
+    </recordedVotes>
+    <actions>
+      <actionByCounts>
+        <senate>1</senate>
+        <houseOfRepresentatives>17</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-03-17</actionDate>
+        <committee>
+          <systemCode>sseg00</systemCode>
+          <name>Energy and Natural Resources Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Motion to reconsider laid on the table Agreed to without objection.</text>
+        <actionCode>H38310</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-16</actionDate>
+        <actionTime>13:30:51</actionTime>
+      </item>
+      <item>
+        <text>On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 418 - 2 (Roll no. 125). (text: CR 3/14/2016 H1310)</text>
+        <actionCode>H37300</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1310</url>
+            <name>CR 3/14/2016 H1310</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2016/roll125.xml</url>
+            <name>Roll no. 125</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-16</actionDate>
+        <actionTime>13:30:50</actionTime>
+      </item>
+      <item>
+        <text>Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by the Yeas and Nays: (2/3 required): 418 - 2 (Roll no. 125).(text: CR 3/14/2016 H1310)</text>
+        <actionCode>8000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1310</url>
+            <name>CR 3/14/2016 H1310</name>
+          </link>
+          <link>
+            <url>http://clerk.house.gov/evs/2016/roll125.xml</url>
+            <name>Roll no. 125</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-16</actionDate>
+        <actionTime>13:30:50</actionTime>
+      </item>
+      <item>
+        <text>Considered as unfinished business. (consideration: CR H1402)</text>
+        <actionCode>H30000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1402</url>
+            <name>H1402</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-16</actionDate>
+        <actionTime>13:24:21</actionTime>
+      </item>
+      <item>
+        <text>At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.</text>
+        <actionCode>H37220</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-14</actionDate>
+        <actionTime>15:42:17</actionTime>
+      </item>
+      <item>
+        <text>DEBATE - The House proceeded with forty minutes of debate on H.R. 4416.</text>
+        <actionCode>H8D000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/bill/114th-congress/house-bill/4416</url>
+            <name>H.R. 4416</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-14</actionDate>
+        <actionTime>15:40:21</actionTime>
+      </item>
+      <item>
+        <text>Considered under suspension of the rules. (consideration: CR H1310)</text>
+        <actionCode>H30000</actionCode>
+        <committee />
+        <links>
+          <link>
+            <url>https://www.congress.gov/congressional-record/volume-162/house-section/page/H1310</url>
+            <name>H1310</name>
+          </link>
+        </links>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-14</actionDate>
+        <actionTime>15:40:19</actionTime>
+      </item>
+      <item>
+        <text>Mr. Whitfield moved to suspend the rules and pass the bill.</text>
+        <actionCode>H30300</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>Floor</type>
+        <actionDate>2016-03-14</actionDate>
+        <actionTime>15:40:06</actionTime>
+      </item>
+      <item>
+        <actionDate>2016-02-25</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported by Unanimous Consent.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-25</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-11</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Forwarded by Subcommittee to Full Committee by Voice Vote .</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-11</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-10</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee Consideration and Mark-up Session Held.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2016-02-01</actionDate>
+        <committee>
+          <systemCode>hsif03</systemCode>
+          <name>Energy and Power Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Energy and Power.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-01</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-01</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-02-01</actionDate>
+      </item>
+      <actionTypeCounts>
+        <passedAgreedToInHouse>1</passedAgreedToInHouse>
+        <considerationByHouse>2</considerationByHouse>
+        <referredToCommittee>1</referredToCommittee>
+        <generalDebate>1</generalDebate>
+        <motionToReconsiderResults>1</motionToReconsiderResults>
+        <introducedInHouse>1</introducedInHouse>
+        <actionStageOverride>1</actionStageOverride>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferrals>1</billReferrals>
+        <placeholderTextForH>4</placeholderTextForH>
+        <motionMadeToSuspendTheRules>1</motionMadeToSuspendTheRules>
+        <finalPassageUnderSuspensionOfTheRulesResults>1</finalPassageUnderSuspensionOfTheRulesResults>
+        <designationOfSpeakerProTempore>2</designationOfSpeakerProTempore>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Energy</name>
+    </policyArea>
+    <cboCostEstimates>
+      <item>
+        <title>H.R. 4416, a bill to extend the deadline for commencement of construction of a hydroelectric project</title>
+        <pubDate>2016-03-11T22:57:11Z</pubDate>
+        <url>https://www.cbo.gov/publication/51374</url>
+      </item>
+    </cboCostEstimates>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Delaney, John K. [D-MD-6]</fullName>
+        <district>6</district>
+        <middleName>K.</middleName>
+        <state>MD</state>
+        <firstName>John</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>2133</lisID>
+          <bioguideId>D000620</bioguideId>
+          <gpoId />
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-01</sponsorshipDate>
+        <bioguideId>D000620</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Delaney</lastName>
+      </item>
+    </cosponsors>
+    <introducedDate>2016-02-01</introducedDate>
+    <latestAction>
+      <actionDate>2016-03-17</actionDate>
+      <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+      <links />
+    </latestAction>
+    <billNumber>4416</billNumber>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To extend the deadline for commencement of construction of a hydroelectric project.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>To extend the deadline for commencement of construction of a hydroelectric project.</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. McKINLEY:H.R. 4416.Congress has the power to enact this legislation pursuantto the following:According to Article I, Section 8 of the Constitution: TheCongress shall have power to lay and collect taxes, duties,imposts and excises, to pay the debts and provide for thecommon defense and general welfare of the United States butall duties, imposts, and excises shall be uniform throughout.[Page H432]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>To extend the deadline for commencement of construction of a hydroelectric project.</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-03-10T20:37:57Z</lastSummaryUpdateDate>
+          <versionCode>00</versionCode>
+          <actionDate>2016-02-01</actionDate>
+          <text><![CDATA[<p>This bill authorizes the Federal Energy Regulatory Commission (FERC), upon the request of the licensee for FERC project numbered 12715 (Jennings Randolph Hydroelectric Project in Garrett County, Maryland, and Mineral County, West Virginia), to extend the time period during which the licensee is required to commence the construction of the project for up to three consecutive two-year periods from the date of the expiration of the extension originally issued by FERC.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2016-02-01T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+        </item>
+        <item>
+          <lastSummaryUpdateDate>2016-04-07T16:39:21Z</lastSummaryUpdateDate>
+          <versionCode>81</versionCode>
+          <actionDate>2016-03-16</actionDate>
+          <text><![CDATA[<p>(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)</p> <p>(Sec. 1) This bill authorizes the Federal Energy Regulatory Commission (FERC) to extend by six years the time period during which Fairlawn Hydroelectric Company is required to commence construction on the Jennings Randolph Hydroelectric Project located on the North Branch of the Potomac River in Garrett County, Maryland, and Mineral County, West Virginia.</p> <p>In addition, FERC is authorized to reinstate the construction license if it is expired.</p>]]></text>
+          <actionDesc>Passed House without amendment</actionDesc>
+          <updateDate>2016-03-16T14:47:36Z</updateDate>
+          <name>Passed House without amendment</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <latestTitle>North American Energy Security and Infrastructure Act of 2015</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>8</number>
+        <latestAction>
+          <actionDate>2015-12-07</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>A bill to extend the deadline for commencement of construction of a hydroelectric project.</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2083</number>
+        <latestAction>
+          <actionDate>2015-12-16</actionDate>
+          <text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 337.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>To extend the deadline for commencement of construction of a hydroelectric project.</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3447</number>
+        <latestAction>
+          <actionDate>2016-03-16</actionDate>
+          <text>Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 396.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>To extend the deadline for commencement of construction of a hydroelectric project.</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>4411</number>
+        <latestAction>
+          <actionDate>2016-03-15</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>To extend the deadline for commencement of construction of a hydroelectric project.</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>4412</number>
+        <latestAction>
+          <actionDate>2016-03-15</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>North American Energy Security and Infrastructure Act of 2016</latestTitle>
+        <type>S</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>2012</number>
+        <latestAction>
+          <actionDate>2016-09-08</actionDate>
+          <text>Conference held.</text>
+          <actionTime>14:37:58</actionTime>
+        </latestAction>
+      </item>
+      <item>
+        <latestTitle>To extend the deadline for commencement of construction of a hydroelectric project.</latestTitle>
+        <type>HR</type>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>House</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>4434</number>
+        <latestAction>
+          <actionDate>2016-03-17</actionDate>
+          <text>Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.</text>
+        </latestAction>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Energy and Natural Resources Committee</name>
+          <systemCode>sseg00</systemCode>
+          <activities>
+            <item>
+              <date>2016-03-17T15:51:18Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsif03</systemCode>
+              <activities>
+                <item>
+                  <date>2016-02-11T22:17:35Z</date>
+                  <name>Reported by</name>
+                </item>
+                <item>
+                  <date>2016-02-11T22:17:21Z</date>
+                  <name>Markup by</name>
+                </item>
+                <item>
+                  <date>2016-02-01T17:02:12Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Energy and Power Subcommittee</name>
+            </item>
+          </subcommittees>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <systemCode>hsif00</systemCode>
+          <activities>
+            <item>
+              <date>2016-02-25T14:12:23Z</date>
+              <name>Markup by</name>
+            </item>
+            <item>
+              <date>2016-02-01T17:01:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:04:13Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Alternative and renewable resources</name>
+          </item>
+          <item>
+            <name>Dams and canals</name>
+          </item>
+          <item>
+            <name>Electric power generation and transmission</name>
+          </item>
+          <item>
+            <name>Federal Energy Regulatory Commission (FERC)</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Maryland</name>
+          </item>
+          <item>
+            <name>West Virginia</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Energy</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2016-02-02T05:12:50Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. McKinley, David B. [R-WV-1]</fullName>
+        <state>WV</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>McKinley</lastName>
+        <firstName>David</firstName>
+        <bioguideId>M001180</bioguideId>
+        <middleName>B.</middleName>
+        <identifiers>
+          <lisID>2074</lisID>
+          <bioguideId>M001180</bioguideId>
+          <gpoId>8222</gpoId>
+        </identifiers>
+        <district>1</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

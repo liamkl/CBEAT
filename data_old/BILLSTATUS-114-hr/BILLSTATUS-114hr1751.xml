@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <systemCode>hsed14</systemCode>
+          <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+        </committee>
+        <links />
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-13</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-13</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <committee />
+        <links />
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-04-13</actionDate>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Education</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>21</district>
+        <state>FL</state>
+        <party>D</party>
+        <fullName>Rep. Deutch, Theodore E. [D-FL-21]</fullName>
+        <firstName>Theodore</firstName>
+        <middleName>E.</middleName>
+        <lastName>Deutch</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1976</lisID>
+          <bioguideId>D000610</bioguideId>
+          <gpoId>7891</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000610</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>51</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Vargas, Juan [D-CA-51]</fullName>
+        <firstName>Juan</firstName>
+        <middleName />
+        <lastName>Vargas</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2112</lisID>
+          <bioguideId>V000130</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>V000130</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>13</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Lee, Barbara [D-CA-13]</fullName>
+        <firstName>BARBARA</firstName>
+        <middleName />
+        <lastName>LEE</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1501</lisID>
+          <gpoId>7814</gpoId>
+          <bioguideId>L000551</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000551</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-26</sponsorshipDate>
+        <district>9</district>
+        <state>FL</state>
+        <party>D</party>
+        <fullName>Rep. Grayson, Alan [D-FL-9]</fullName>
+        <firstName>Alan</firstName>
+        <middleName />
+        <lastName>Grayson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7302</gpoId>
+          <lisID>1914</lisID>
+          <bioguideId>G000556</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>G000556</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-10-27</sponsorshipDate>
+        <district>4</district>
+        <state>WI</state>
+        <party>D</party>
+        <fullName>Rep. Moore, Gwen [D-WI-4]</fullName>
+        <firstName>Gwen</firstName>
+        <middleName />
+        <lastName>Moore</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>M001160</bioguideId>
+          <gpoId>8217</gpoId>
+          <lisID>1811</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>M001160</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <district>0</district>
+        <state>DC</state>
+        <party>D</party>
+        <fullName>Rep. Norton, Eleanor Holmes [D-DC-At Large]</fullName>
+        <firstName>ELEANOR</firstName>
+        <middleName>HOLMES</middleName>
+        <lastName>NORTON</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>868</lisID>
+          <bioguideId>N000147</bioguideId>
+          <gpoId>7871</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>N000147</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <district>2</district>
+        <state>WI</state>
+        <party>D</party>
+        <fullName>Rep. Pocan, Mark [D-WI-2]</fullName>
+        <firstName>Mark</firstName>
+        <middleName />
+        <lastName>Pocan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2171</lisID>
+          <bioguideId>P000607</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>P000607</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-02</sponsorshipDate>
+        <district>0</district>
+        <state>MP</state>
+        <party>D</party>
+        <fullName>Rep. Sablan, Gregorio Kilili Camacho [D-MP-At Large]</fullName>
+        <firstName>Gregorio</firstName>
+        <middleName>Kilili Camacho</middleName>
+        <lastName>Sablan</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1962</lisID>
+          <bioguideId>S001177</bioguideId>
+          <gpoId>8018</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S001177</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-16</sponsorshipDate>
+        <district>1</district>
+        <state>NV</state>
+        <party>D</party>
+        <fullName>Rep. Titus, Dina [D-NV-1]</fullName>
+        <firstName>Dina</firstName>
+        <middleName />
+        <lastName>Titus</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>T000468</bioguideId>
+          <gpoId>7493</gpoId>
+          <lisID>1940</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>T000468</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-18</sponsorshipDate>
+        <district>16</district>
+        <state>NY</state>
+        <party>D</party>
+        <fullName>Rep. Engel, Eliot L. [D-NY-16]</fullName>
+        <firstName>ELIOT</firstName>
+        <middleName>L.</middleName>
+        <lastName>ENGEL</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <bioguideId>E000179</bioguideId>
+          <gpoId>8078</gpoId>
+          <lisID>344</lisID>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>E000179</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <district>2</district>
+        <state>IA</state>
+        <party>D</party>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <firstName>David</firstName>
+        <middleName />
+        <lastName>Loebsack</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1846</lisID>
+          <bioguideId>L000565</bioguideId>
+          <gpoId>7915</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>L000565</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-09</sponsorshipDate>
+        <district>53</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Davis, Susan A. [D-CA-53]</fullName>
+        <firstName>SUSAN</firstName>
+        <middleName>A.</middleName>
+        <lastName>DAVIS</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <gpoId>7858</gpoId>
+          <lisID>1641</lisID>
+          <bioguideId>D000598</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>D000598</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-09</sponsorshipDate>
+        <district>14</district>
+        <state>CA</state>
+        <party>D</party>
+        <fullName>Rep. Speier, Jackie [D-CA-14]</fullName>
+        <firstName>Jackie</firstName>
+        <middleName />
+        <lastName>Speier</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>1890</lisID>
+          <bioguideId>S001175</bioguideId>
+          <gpoId>7817</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>S001175</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-15</sponsorshipDate>
+        <district>24</district>
+        <state>FL</state>
+        <party>D</party>
+        <fullName>Rep. Wilson, Frederica S. [D-FL-24]</fullName>
+        <firstName>Frederica</firstName>
+        <middleName>S.</middleName>
+        <lastName>Wilson</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2004</lisID>
+          <bioguideId>W000808</bioguideId>
+          <gpoId>7889</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>W000808</bioguideId>
+      </item>
+      <item>
+        <sponsorshipDate>2016-01-08</sponsorshipDate>
+        <district>1</district>
+        <state>NJ</state>
+        <party>D</party>
+        <fullName>Rep. Norcross, Donald [D-NJ-1]</fullName>
+        <firstName>Donald</firstName>
+        <middleName />
+        <lastName>Norcross</lastName>
+        <sponsorshipWithdrawnDate />
+        <identifiers>
+          <lisID>2202</lisID>
+          <bioguideId>N000188</bioguideId>
+          <gpoId />
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <bioguideId>N000188</bioguideId>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-04-13</introducedDate>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Early Childhood, Elementary, and Secondary Education.</text>
+      <links />
+    </latestAction>
+    <billNumber>1751</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>BEST Act</title>
+      </item>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Better Educator Support and Training Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To amend part A of title II of the Elementary and Secondary Education Act of 1965, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>BEST Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. HONDA:H.R. 1751.Congress has the power to enact this legislation pursuantto the following:section 8 of article I of the Constitution[Page H2154]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>BEST Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2015-04-13</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2015-04-13T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Better Educator Support and Training Act or the BEST Act</strong></p> <p>Revises, and reauthorizes appropriations through FY2021 under, part A (Teacher and Principal Training and Recruiting Fund) of title II (Preparing, Training, and Recruiting High Quality Teachers and Principals) of the Elementary and Secondary Education Act of 1965 (ESEA). </p> <p>Redesignates title II (Developing and Supporting Effective Educators for Disadvantaged Students) and its revised part A (Educator Equity, Professional Development, and Recruitment Fund) program.</p> <p>Amends subpart 1 of part A to require each state applying for an allotment of part A funds to develop a state educator equity plan to improve the access of low-income and minority students to effective educators.</p> <p>Requires states to use: (1) 95% of their allotment to make subgrants to local educational agencies (LEAs) under subpart 2; and (2) 2% to 5% of their allotment to develop and implement a plan to improve the effectiveness of principals in high-need schools, ensure that low-income and minority students have equitable access to profession ready principals, and implement a comprehensive strategy for educator development and support that includes, among other elements, the state educator equity plan.</p> <p>Withholds administrative funds from a state's part A allotment if the state does not meet certain teacher preparation accountability provisions of the Higher Education Act of 1965.</p> <p>Requires each LEA to use its subgrant under subpart 2 of part A to implement a comprehensive strategy for educator development and support that:</p> <ul> <li>addresses gaps in the access of low-income and minority students to effective educators;</li> <li>targets assistance to schools identified as having the greatest need;</li> <li>implements evidence-based activities that provide support to new educators, such as comprehensive, multi-year induction programs;</li> <li>provides systematic, sustained, targeted, coherent, collaborative, and job-embedded professional development for all educators;</li> <li>provides feedback on the performance of new educators to local educator preparation programs; and</li> <li>develops and implements a professional growth and improvement system.</li> </ul> <p>Sets forth permissible subgrant activities.</p> <p>Revises subpart 3 of part A to require each state, directly or through subgrants to institutions of higher education, LEAs, schools or colleges of education, nonprofit organizations, or partnerships of such entities, to use a portion of its remaining allotment to:</p> <ul> <li>assist each teacher preparation program that has been identified as low-performing or that is at risk of being identified as such, and</li> <li>terminate programs identified as low-performing after such assistance and a period of time for program improvement has been provided.</li> </ul> <p>Set forth permissible subpart 3 activities.</p> <p>Revises subpart 4 of part A to require states that receive an allotment under subpart 1, and LEAs that receive a subgrant under subpart 2, to report annually to the Secretary of Education and their state, respectively, on the performance and results of their respective programs under those subparts.</p> <p>Authorizes the Secretary to withhold part A administrative funds from states that, for three consecutive academic years, demonstrate no progress in making student access to effective teachers more equitable.</p> <p>Defines a &quot;high-need LEA&quot; for purposes of the national activities under subpart 5 of part A. Replaces the national teacher recruitment campaign with a program authorizing the Secretary to award grants to national nonprofit organizations for projects to: (1) recruit and select educators, or (2) prepare or provide professional enhancement activities for educators.</p> <p>Redefines &quot;professional development&quot; under the ESEA as job-embedded comprehensive, sustained, targeted, intensive, evidence-based, and classroom-focused support and capacity-building for educators that strengthens classroom practice and increases student learning. Lists additional requirements for professional development activities.</p>]]></text>
+          <lastSummaryUpdateDate>2015-04-28T20:18:11Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>882</number>
+        <type>S</type>
+        <latestTitle>BEST Act</latestTitle>
+        <latestAction>
+          <actionDate>2015-03-26</actionDate>
+          <text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text>
+        </latestAction>
+        <congress>114</congress>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hsed14</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-16T19:57:56Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Early Childhood, Elementary, and Secondary Education Subcommittee</name>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <date>2015-04-13T18:00:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:00:52Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Education</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Academic performance and assessments</name>
+          </item>
+          <item>
+            <name>Education of the disadvantaged</name>
+          </item>
+          <item>
+            <name>Education programs funding</name>
+          </item>
+          <item>
+            <name>Elementary and secondary education</name>
+          </item>
+          <item>
+            <name>Higher education</name>
+          </item>
+          <item>
+            <name>Minority education</name>
+          </item>
+          <item>
+            <name>Performance measurement</name>
+          </item>
+          <item>
+            <name>Preschool education</name>
+          </item>
+          <item>
+            <name>School administration</name>
+          </item>
+          <item>
+            <name>Special education</name>
+          </item>
+          <item>
+            <name>Teaching, teachers, curricula</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-04-14T09:15:04Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Honda, Michael M. [D-CA-17]</fullName>
+        <state>CA</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>HONDA</lastName>
+        <firstName>MICHAEL</firstName>
+        <bioguideId>H001034</bioguideId>
+        <middleName>M.</middleName>
+        <identifiers>
+          <gpoId>7820</gpoId>
+          <lisID>1634</lisID>
+          <bioguideId>H001034</bioguideId>
+        </identifiers>
+        <district>17</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

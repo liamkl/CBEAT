@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>5</houseOfRepresentatives>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <billReferralsAggregate>1</billReferralsAggregate>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>2</billReferrals>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-06-18</actionDate>
+        <text>Referred to House Rules</text>
+        <committee>
+          <systemCode>hsru00</systemCode>
+          <name>Rules Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <actionDate>2015-06-18</actionDate>
+        <text>Referred to House Oversight and Government Reform</text>
+        <committee>
+          <systemCode>hsgo00</systemCode>
+          <name>Oversight and Government Reform Committee</name>
+        </committee>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>H11100-A</actionCode>
+        <actionDate>2015-06-18</actionDate>
+        <text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <actionDate>2015-06-18</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <actionDate>2015-06-18</actionDate>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <links />
+      </item>
+    </actions>
+    <policyArea>
+      <name>Government Operations and Politics</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <state>PA</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Fitzpatrick</lastName>
+        <middleName>G.</middleName>
+        <district>8</district>
+        <fullName>Rep. Fitzpatrick, Michael G. [R-PA-8]</fullName>
+        <identifiers>
+          <lisID>1797</lisID>
+          <gpoId>8126</gpoId>
+          <bioguideId>F000451</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>F000451</bioguideId>
+        <firstName>Michael</firstName>
+      </item>
+      <item>
+        <state>TN</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>COOPER</lastName>
+        <middleName>H.</middleName>
+        <district>5</district>
+        <fullName>Rep. Cooper, Jim [D-TN-5]</fullName>
+        <identifiers>
+          <bioguideId>C000754</bioguideId>
+          <gpoId>8152</gpoId>
+          <lisID>231</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C000754</bioguideId>
+        <firstName>JAMES</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Brownley</lastName>
+        <middleName />
+        <district>26</district>
+        <fullName>Rep. Brownley, Julia [D-CA-26]</fullName>
+        <identifiers>
+          <lisID>2106</lisID>
+          <gpoId />
+          <bioguideId>B001285</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001285</bioguideId>
+        <firstName>Julia</firstName>
+      </item>
+      <item>
+        <state>CO</state>
+        <party>R</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Coffman</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <identifiers>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+          <lisID>1912</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001077</bioguideId>
+        <firstName>Mike</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lipinski</lastName>
+        <middleName>William</middleName>
+        <district>3</district>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <identifiers>
+          <gpoId>7923</gpoId>
+          <lisID>1781</lisID>
+          <bioguideId>L000563</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000563</bioguideId>
+        <firstName>Daniel</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Lowenthal</lastName>
+        <middleName>S.</middleName>
+        <district>47</district>
+        <fullName>Rep. Lowenthal, Alan S. [D-CA-47]</fullName>
+        <identifiers>
+          <lisID>2111</lisID>
+          <gpoId />
+          <bioguideId>L000579</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000579</bioguideId>
+        <firstName>Alan</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Bera</lastName>
+        <middleName />
+        <district>7</district>
+        <fullName>Rep. Bera, Ami [D-CA-7]</fullName>
+        <identifiers>
+          <lisID>2102</lisID>
+          <bioguideId>B001287</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B001287</bioguideId>
+        <firstName>Ami</firstName>
+      </item>
+      <item>
+        <state>OR</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Schrader</lastName>
+        <middleName />
+        <district>5</district>
+        <fullName>Rep. Schrader, Kurt [D-OR-5]</fullName>
+        <identifiers>
+          <lisID>1950</lisID>
+          <bioguideId>S001180</bioguideId>
+          <gpoId>8118</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001180</bioguideId>
+        <firstName>Kurt</firstName>
+      </item>
+      <item>
+        <state>MN</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>NOLAN</lastName>
+        <middleName />
+        <district>8</district>
+        <fullName>Rep. Nolan, Richard M. [D-MN-8]</fullName>
+        <identifiers>
+          <lisID>867</lisID>
+          <bioguideId>N000127</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>N000127</bioguideId>
+        <firstName>RICHARD</firstName>
+      </item>
+      <item>
+        <state>IA</state>
+        <party>D</party>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <lastName>Loebsack</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Loebsack, David [D-IA-2]</fullName>
+        <identifiers>
+          <lisID>1846</lisID>
+          <bioguideId>L000565</bioguideId>
+          <gpoId>7915</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-06-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>L000565</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>KS</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Jenkins</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <identifiers>
+          <lisID>1921</lisID>
+          <bioguideId>J000290</bioguideId>
+          <gpoId>7950</gpoId>
+        </identifiers>
+        <sponsorshipDate>2015-06-23</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>J000290</bioguideId>
+        <firstName>Lynn</firstName>
+      </item>
+      <item>
+        <state>VT</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Welch</lastName>
+        <middleName />
+        <district>0</district>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <identifiers>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>W000800</bioguideId>
+        <firstName>Peter</firstName>
+      </item>
+      <item>
+        <state>FL</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Murphy</lastName>
+        <middleName />
+        <district>18</district>
+        <fullName>Rep. Murphy, Patrick [D-FL-18]</fullName>
+        <identifiers>
+          <bioguideId>M001191</bioguideId>
+          <gpoId />
+          <lisID>2117</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001191</bioguideId>
+        <firstName>Patrick</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>BISHOP</lastName>
+        <middleName>D.</middleName>
+        <district>2</district>
+        <fullName>Rep. Bishop, Sanford D., Jr. [D-GA-2]</fullName>
+        <identifiers>
+          <bioguideId>B000490</bioguideId>
+          <gpoId>7899</gpoId>
+          <lisID>91</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>B000490</bioguideId>
+        <firstName>SANFORD</firstName>
+      </item>
+      <item>
+        <state>GA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Scott</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Scott, David [D-GA-13]</fullName>
+        <identifiers>
+          <bioguideId>S001157</bioguideId>
+          <gpoId>7910</gpoId>
+          <lisID>1722</lisID>
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001157</bioguideId>
+        <firstName>David</firstName>
+      </item>
+      <item>
+        <state>NE</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Ashford</lastName>
+        <middleName />
+        <district>2</district>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <identifiers>
+          <lisID>2257</lisID>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>A000373</bioguideId>
+        <firstName>Brad</firstName>
+      </item>
+      <item>
+        <state>CA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Costa</lastName>
+        <middleName />
+        <district>16</district>
+        <fullName>Rep. Costa, Jim [D-CA-16]</fullName>
+        <identifiers>
+          <gpoId>7825</gpoId>
+          <lisID>1774</lisID>
+          <bioguideId>C001059</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-06-24</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>C001059</bioguideId>
+        <firstName>Jim</firstName>
+      </item>
+      <item>
+        <state>AZ</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Sinema</lastName>
+        <middleName />
+        <district>9</district>
+        <fullName>Rep. Sinema, Kyrsten [D-AZ-9]</fullName>
+        <identifiers>
+          <lisID>2099</lisID>
+          <bioguideId>S001191</bioguideId>
+          <gpoId />
+        </identifiers>
+        <sponsorshipDate>2015-07-14</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>S001191</bioguideId>
+        <firstName>Kyrsten</firstName>
+      </item>
+      <item>
+        <state>MD</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Delaney</lastName>
+        <middleName>K.</middleName>
+        <district>6</district>
+        <fullName>Rep. Delaney, John K. [D-MD-6]</fullName>
+        <identifiers>
+          <lisID>2133</lisID>
+          <gpoId />
+          <bioguideId>D000620</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-10-22</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000620</bioguideId>
+        <firstName>John</firstName>
+      </item>
+      <item>
+        <state>IL</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Davis</lastName>
+        <middleName />
+        <district>13</district>
+        <fullName>Rep. Davis, Rodney [R-IL-13]</fullName>
+        <identifiers>
+          <lisID>2126</lisID>
+          <gpoId />
+          <bioguideId>D000619</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2015-12-18</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>D000619</bioguideId>
+        <firstName>Rodney</firstName>
+      </item>
+      <item>
+        <state>OH</state>
+        <party>R</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Renacci</lastName>
+        <middleName>B.</middleName>
+        <district>16</district>
+        <fullName>Rep. Renacci, James B. [R-OH-16]</fullName>
+        <identifiers>
+          <gpoId>8106</gpoId>
+          <lisID>2048</lisID>
+          <bioguideId>R000586</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2016-03-15</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>R000586</bioguideId>
+        <firstName>James</firstName>
+      </item>
+      <item>
+        <state>MA</state>
+        <party>D</party>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <lastName>Moulton</lastName>
+        <middleName />
+        <district>6</district>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <identifiers>
+          <bioguideId>M001196</bioguideId>
+          <gpoId />
+          <lisID>2246</lisID>
+        </identifiers>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <sponsorshipWithdrawnDate />
+        <bioguideId>M001196</bioguideId>
+        <firstName>Seth</firstName>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-06-18</introducedDate>
+    <latestAction>
+      <actionDate>2015-06-18</actionDate>
+      <text>Referred to House Rules</text>
+      <links />
+    </latestAction>
+    <billNumber>2826</billNumber>
+    <titles>
+      <item>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Government Transformation Act</title>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>To establish the Commission on Government Transformation to make recommendations to improve the economy, efficiency, and effectiveness, of Federal programs, and for other purposes.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType />
+        <chamberName />
+        <chamberCode />
+        <title>Government Transformation Act</title>
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mrs. BUSTOS:H.R. 2826.Congress has the power to enact this legislation pursuantto the following:This bill is enacted pursuant to the power granted toCongress under Article I, Section 8, Clause 18 of the UnitedStates Constitution.[Page H4543]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Government Transformation Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p><strong>Government Transformation Act</strong></p> <p>Establishes the Commission on Government Transformation. Directs the Commission to: (1) review work done by governmental and non-governmental entities and conduct research on the organizational practices, operations, and reform efforts of federal agencies; (2) analyze organizational practices and management challenges of federal agencies; (3) assess federal programs for economy, efficiency, and effectiveness and identify best practices; (4) upon request, provide information on Commission activities to the Government Accountability Office, the Congressional Budget Office, the Office of Management and Budget, other federal agency heads, and the Office of Inspector General of each federal agency; and (5) serve as a repository for best practices for federal agencies. Requires the Commission to make interim and annual reports on its activities to the President and Congress and make such reports available to the public.</p> <p>Provides for expedited congressional consideration of legislation to implement recommendations of the Commission.</p>]]></text>
+          <lastSummaryUpdateDate>2015-07-08T17:46:29Z</lastSummaryUpdateDate>
+          <updateDate>2015-06-18T04:00:00Z</updateDate>
+          <actionDate>2015-06-18</actionDate>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills>
+      <item>
+        <number>2269</number>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text>
+          <actionDate>2015-11-10</actionDate>
+        </latestAction>
+        <type>S</type>
+        <latestTitle>Government Transformation Act of 2015</latestTitle>
+      </item>
+    </relatedBills>
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Rules Committee</name>
+          <systemCode>hsru00</systemCode>
+          <activities>
+            <item>
+              <date>2015-06-18T13:01:20Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Oversight and Government Reform Committee</name>
+          <systemCode>hsgo00</systemCode>
+          <activities>
+            <item>
+              <date>2015-06-18T13:01:15Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:02:26Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Government Operations and Politics</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Advisory bodies</name>
+          </item>
+          <item>
+            <name>Congressional oversight</name>
+          </item>
+          <item>
+            <name>Executive agency funding and structure</name>
+          </item>
+          <item>
+            <name>Government information and archives</name>
+          </item>
+          <item>
+            <name>Government studies and investigations</name>
+          </item>
+          <item>
+            <name>Legislative rules and procedure</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-06-19T09:13:36Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Bustos, Cheri [D-IL-17]</fullName>
+        <state>IL</state>
+        <byRequestType />
+        <party>D</party>
+        <lastName>Bustos</lastName>
+        <firstName>Cheri</firstName>
+        <bioguideId>B001286</bioguideId>
+        <middleName />
+        <identifiers>
+          <lisID>2127</lisID>
+          <bioguideId>B001286</bioguideId>
+          <gpoId />
+        </identifiers>
+        <district>17</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

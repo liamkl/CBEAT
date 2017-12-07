@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <title>A bill to amend title 23, United States Code, to modify a provision relating to the obligation and release of funds.</title>
+    <billType>S</billType>
+    <laws />
+    <billNumber>1781</billNumber>
+    <titles>
+      <item>
+        <title>A bill to amend title 23, United States Code, to modify a provision relating to the obligation and release of funds.</title>
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+      <item>
+        <title>A bill to amend title 23, United States Code, to modify a provision relating to the obligation and release of funds.</title>
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <chamberName />
+        <chamberCode />
+      </item>
+    </titles>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Government trust funds</name>
+          </item>
+          <item>
+            <name>Roads and highways</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2015-07-15</introducedDate>
+    <version>1.0.0</version>
+    <cosponsors />
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees />
+          <type>Standing</type>
+          <chamber>Senate</chamber>
+          <name>Environment and Public Works Committee</name>
+          <systemCode>ssev00</systemCode>
+          <activities>
+            <item>
+              <date>2015-07-15T22:37:46Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <actions>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-07-15</actionDate>
+        <committee>
+          <systemCode>ssev00</systemCode>
+          <name>Environment and Public Works Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>0</code>
+          <name>Senate</name>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <actionCode>10000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-07-15</actionDate>
+      </item>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <cboCostEstimates />
+    <committeeReports />
+    <createDate>2015-07-16T09:11:27Z</createDate>
+    <recordedVotes />
+    <latestAction>
+      <actionDate>2015-07-15</actionDate>
+      <links />
+      <text>Read twice and referred to the Committee on Environment and Public Works.</text>
+    </latestAction>
+    <congress>114</congress>
+    <updateDate>2017-10-27T18:09:57Z</updateDate>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2015-07-15T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2015-07-15</actionDate>
+          <text><![CDATA[<p>This bill modifies requirements that apply to the obligation and release of federal highway funds by states. </p> <p>Under current law, any funds released by the final payment or a modification for a project must be credited to the same class of funds previously apportioned or allocated to the state for the project and are immediately available for obligation. </p> <p>This bill permits the funds to be credited to a similar class of funds if the same class is no longer authorized. </p>]]></text>
+          <lastSummaryUpdateDate>2016-03-25T16:12:49Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <sponsors>
+      <item>
+        <bioguideId>H000338</bioguideId>
+        <party>R</party>
+        <firstName>ORRIN</firstName>
+        <state>UT</state>
+        <middleName>GRANT</middleName>
+        <lastName>HATCH</lastName>
+        <byRequestType />
+        <fullName>Sen. Hatch, Orrin G. [R-UT]</fullName>
+        <identifiers>
+          <bioguideId>H000338</bioguideId>
+          <gpoId>8314</gpoId>
+          <lisID>1351</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <amendments />
+    <notes />
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

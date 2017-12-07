@@ -1,0 +1,104 @@
+---
+title: "Final Report"
+author: "Yueting Luo"
+date: "12/7/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Libraries
+library(treemap)
+library(highcharter)
+library(DT)
+library(networkD3)
+library(heatmaply)
+library(tidyverse)
+library(flexdashboard)
+library(viridisLite)
+library(shiny)
+library(xml2)
+library(grDevices)
+library(distances)
+library(gridExtra)
+library(ggplot2)
+library(reshape2)
+library(wordcloud2)
+library(readxl)
+# Theme to use for highcharts (from example htmlwidgets page)
+thm <- 
+  hc_theme(
+    colors = c("#1a6ecc", "#434348", "#90ed7d"),
+    chart = list(
+      backgroundColor = "white",
+      style = list(fontFamily = "Source Sans Pro")
+    ),
+    xAxis = list(
+      gridLineWidth = 1
+    )
+  )
+
+red <- "rgba(205, 77, 77, 0.7)"
+green <- "rgba(77, 205, 77, 0.7)"
+blue <- "rgba(77, 77, 205, 0.7)"
+###############################
+### Data read in/processing ###
+###############################
+# Senator nodes
+nodes <- read.csv("./data/nodes_proc.csv") %>% 
+  mutate(label = paste0(last_name, ", ", first_name, " (", party, "-", state, ")"))
+# Cosponsorship edges
+simp_edges <- read.csv("./data/simplified_edges.csv")
+# For heatmap
+subject_matrix <- nodes %>%
+  select(bioguideId, label, party, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+# Bill data for maps etc
+mapdata3 <- read_csv("./data/mapdata3.csv")
+# For individual Senator page
+senatordata <- mapdata3
+senatordata$senator <- paste(senatordata$first_name,senatordata$last_name,sep=" ")
+senatordata$image <- paste("https://www.congress.gov/img/member/", tolower(senatordata$bioguideId), ".jpg", sep="")
+# List for dropdown on map page
+policy_area_list <- mapdata3 %>% 
+  arrange(policy_area) %>% 
+  .$policy_area %>% 
+  unique()
+# Processing map data for map page
+mapdata3 <- mapdata3 %>%
+  group_by(session, state_name, state, policy_area) %>%
+  summarise(total_submit = sum(n()))
+
+#For the modeling Data
+fittedprob=read_csv("data/fittedprob.csv")
+stack<-read_excel("data/stack.xlsx")
+```
+
+#1. Overiew and Motivation
+We want to create resources to allow the public to better understand how congress works. There are an overwhelming number of bills introduced each year (>6,000) and many do not know what they contain and who sponsors them. Given the public distaste for the way media presents politics, it is becoming more important for individuals to understand and be given raw information to draw their own conclusions. Normally the media is focused on one or two bills, despite many being discussed concurrently. 
+
+#2. Related Work
+
+#3. Initial Questions
+
+#4. Data Source
+
+#5. Exploratory Analysis
+
+## 5.1 Progress of Bills
+
+```{r}
+colnames(stack)=c("Topic","Introduced into Senate","Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
+temp=melt(stack,id="Topic")
+p=ggplot(temp, aes(variable, value,group=Topic,color=Topic,fill=Topic))+geom_area(position = "stack")+theme(legend.position = "bottom")
+p
+```
+
+## 5.2 Rate of Become to Law break down by Topics or States
+
+```{r}
+
+```
+
+
+#6. Final Analysis

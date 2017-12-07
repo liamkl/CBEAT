@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <notes/>
+    <committeeReports/>
+    <billType>HR</billType>
+    <actions>
+      <item>
+        <actionDate>2017-05-05</actionDate>
+        <committee>
+          <name>Aviation Subcommittee</name>
+          <systemCode>hspw05</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>House committee actions</name>
+          <code>1</code>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Aviation.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <committee>
+          <name>Transportation and Infrastructure Committee</name>
+          <systemCode>hspw00</systemCode>
+        </committee>
+        <type>IntroReferral</type>
+        <links/>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Transportation and Infrastructure.</text>
+        <actionDate>2017-05-04</actionDate>
+        <sourceSystem>
+          <name>House floor actions</name>
+          <code>2</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee/>
+        <type>IntroReferral</type>
+        <links/>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2017-05-04</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <item>
+        <committee/>
+        <type>IntroReferral</type>
+        <links/>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2017-05-04</actionDate>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+      </item>
+      <actionTypeCounts>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <recordedVotes/>
+    <originChamber>House</originChamber>
+    <createDate>2017-05-05T03:11:54Z</createDate>
+    <summaries>
+      <billSummaries>
+        <item>
+          <updateDate>2017-05-04T04:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <text><![CDATA[<p><strong>Friendly Airports for Mothers Act of 2017</strong></p> <p>This bill authorizes the Department of Transportation (DOT) to approve a grant application for an airport development project only if the DOT receives written assurances that the owner or operator of a large or medium hub airport will maintain a lactation area at each passenger terminal building of the airport behind the airport security screening area.</p> <p>The bill defines &quot;lactation area&quot; to mean a room or other location in a commercial service airport for members of the public to express breast milk that: </p> <ul> <li> is shielded from view and free from intrusion from the public; </li> <li> has a door that can be locked; </li> <li> includes a place to sit, a table or other flat surface, and an electrical outlet; </li> <li> is readily accessible to and usable by individuals with disabilities; and </li> <li> is not located in a restroom.</li> </ul> <p>DOT may approve a terminal development project for the construction or installation of a lactation area at a commercial service airport.</p>]]></text>
+          <actionDate>2017-05-04</actionDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in House</actionDesc>
+          <lastSummaryUpdateDate>2017-06-27T12:09:07Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments/>
+    <laws/>
+    <updateDate>2017-10-27T07:15:52Z</updateDate>
+    <title>Friendly Airports for Mothers Act of 2017</title>
+    <version>1.0.0</version>
+    <introducedDate>2017-05-04</introducedDate>
+    <policyArea>
+      <name>Transportation and Public Works</name>
+    </policyArea>
+    <sponsors>
+      <item>
+        <middleName/>
+        <firstName>Stephen</firstName>
+        <district>25</district>
+        <lastName>Knight</lastName>
+        <bioguideId>K000387</bioguideId>
+        <party>R</party>
+        <byRequestType/>
+        <state>CA</state>
+        <fullName>Rep. Knight, Stephen [R-CA-25]</fullName>
+        <identifiers>
+          <gpoId/>
+          <lisID>2228</lisID>
+          <bioguideId>K000387</bioguideId>
+        </identifiers>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Referred to the Subcommittee on Aviation.</text>
+      <links/>
+      <actionDate>2017-05-05</actionDate>
+    </latestAction>
+    <congress>115</congress>
+    <cosponsors>
+      <item>
+        <lastName>Herrera Beutler</lastName>
+        <party>R</party>
+        <bioguideId>H001056</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>2071</lisID>
+          <gpoId>8207</gpoId>
+          <bioguideId>H001056</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Jaime</firstName>
+        <district>3</district>
+        <fullName>Rep. Herrera Beutler, Jaime [R-WA-3]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>WA</state>
+      </item>
+      <item>
+        <lastName>Comstock</lastName>
+        <party>R</party>
+        <bioguideId>C001105</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>2273</lisID>
+          <gpoId/>
+          <bioguideId>C001105</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Barbara</firstName>
+        <district>10</district>
+        <fullName>Rep. Comstock, Barbara [R-VA-10]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>VA</state>
+      </item>
+      <item>
+        <lastName>Brooks</lastName>
+        <party>R</party>
+        <bioguideId>B001284</bioguideId>
+        <middleName>W.</middleName>
+        <identifiers>
+          <gpoId/>
+          <lisID>2129</lisID>
+          <bioguideId>B001284</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Susan</firstName>
+        <district>5</district>
+        <fullName>Rep. Brooks, Susan W. [R-IN-5]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>IN</state>
+      </item>
+      <item>
+        <lastName>Bustos</lastName>
+        <party>D</party>
+        <bioguideId>B001286</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>2127</lisID>
+          <bioguideId>B001286</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Cheri</firstName>
+        <district>17</district>
+        <fullName>Rep. Bustos, Cheri [D-IL-17]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>IL</state>
+      </item>
+      <item>
+        <lastName>Lipinski</lastName>
+        <party>D</party>
+        <bioguideId>L000563</bioguideId>
+        <middleName>William</middleName>
+        <identifiers>
+          <bioguideId>L000563</bioguideId>
+          <lisID>1781</lisID>
+          <gpoId>7923</gpoId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Daniel</firstName>
+        <district>3</district>
+        <fullName>Rep. Lipinski, Daniel [D-IL-3]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>IL</state>
+      </item>
+      <item>
+        <lastName>Torres</lastName>
+        <party>D</party>
+        <bioguideId>T000474</bioguideId>
+        <middleName>J.</middleName>
+        <identifiers>
+          <lisID>2231</lisID>
+          <gpoId/>
+          <bioguideId>T000474</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <firstName>Norma</firstName>
+        <district>35</district>
+        <fullName>Rep. Torres, Norma J. [D-CA-35]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-04</sponsorshipDate>
+        <state>CA</state>
+      </item>
+      <item>
+        <lastName>Welch</lastName>
+        <party>D</party>
+        <bioguideId>W000800</bioguideId>
+        <middleName/>
+        <identifiers>
+          <gpoId>8204</gpoId>
+          <lisID>1879</lisID>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Peter</firstName>
+        <district>0</district>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-05-24</sponsorshipDate>
+        <state>VT</state>
+      </item>
+      <item>
+        <lastName>PRICE</lastName>
+        <party>D</party>
+        <bioguideId>P000523</bioguideId>
+        <middleName>E.</middleName>
+        <identifiers>
+          <lisID>930</lisID>
+          <gpoId>8027</gpoId>
+          <bioguideId>P000523</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>DAVID</firstName>
+        <district>4</district>
+        <fullName>Rep. Price, David E. [D-NC-4]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-09-05</sponsorshipDate>
+        <state>NC</state>
+      </item>
+      <item>
+        <lastName>Connolly</lastName>
+        <party>D</party>
+        <bioguideId>C001078</bioguideId>
+        <middleName>E.</middleName>
+        <identifiers>
+          <gpoId>8202</gpoId>
+          <lisID>1959</lisID>
+          <bioguideId>C001078</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Gerald</firstName>
+        <district>11</district>
+        <fullName>Rep. Connolly, Gerald E. [D-VA-11]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-26</sponsorshipDate>
+        <state>VA</state>
+      </item>
+      <item>
+        <lastName>Shea-Porter</lastName>
+        <party>D</party>
+        <bioguideId>S001170</bioguideId>
+        <middleName/>
+        <identifiers>
+          <lisID>1861</lisID>
+          <gpoId>7528</gpoId>
+          <bioguideId>S001170</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>Carol</firstName>
+        <district>1</district>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-26</sponsorshipDate>
+        <state>NH</state>
+      </item>
+      <item>
+        <lastName>HASTINGS</lastName>
+        <party>D</party>
+        <bioguideId>H000324</bioguideId>
+        <middleName>L.</middleName>
+        <identifiers>
+          <lisID>511</lisID>
+          <gpoId>7895</gpoId>
+          <bioguideId>H000324</bioguideId>
+        </identifiers>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <firstName>ALCEE</firstName>
+        <district>20</district>
+        <fullName>Rep. Hastings, Alcee L. [D-FL-20]</fullName>
+        <sponsorshipWithdrawnDate/>
+        <sponsorshipDate>2017-10-26</sponsorshipDate>
+        <state>FL</state>
+      </item>
+    </cosponsors>
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestAction>
+          <actionDate>2017-05-11</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <latestTitle>Friendly Airports for Mothers Act of 2017</latestTitle>
+        <number>1110</number>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <billNumber>2375</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. KNIGHT:H.R. 2375.Congress has the power to enact this legislation pursuantto the following:Article I, Section I``All legislative Powers herin granted shall be vested in aCongress of the United States, which shall consist of aSenate and House of Representatives.''[Page H4179]</pre>]]></constitutionalAuthorityStatementText>
+    <cboCostEstimates/>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Friendly Airports for Mothers Act of 2017</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Friendly Airports for Mothers Act of 2017</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>To amend title 49, United States Code, to provide for private lactation areas in the terminals of large and medium hub airports, and for other purposes.</title>
+      </item>
+      <item>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberName/>
+        <chamberCode/>
+        <title>Friendly Airports for Mothers Act of 2017</title>
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Transportation and Infrastructure Committee</name>
+          <type>Standing</type>
+          <systemCode>hspw00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-05-04T13:05:25Z</date>
+            </item>
+          </activities>
+          <chamber>House</chamber>
+          <subcommittees>
+            <item>
+              <systemCode>hspw05</systemCode>
+              <name>Aviation Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-05-05T15:47:21Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+        </item>
+      </billCommittees>
+    </committees>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Transportation and Public Works</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Aviation and airports</name>
+          </item>
+          <item>
+            <name>Child health</name>
+          </item>
+          <item>
+            <name>Disability and paralysis</name>
+          </item>
+          <item>
+            <name>Right of privacy</name>
+          </item>
+          <item>
+            <name>Transportation programs funding</name>
+          </item>
+          <item>
+            <name>Women's health</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <calendarNumbers/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

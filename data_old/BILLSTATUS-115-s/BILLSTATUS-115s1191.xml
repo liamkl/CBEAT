@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes/>
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <updateDate>2017-11-02T04:56:31Z</updateDate>
+    <cosponsors>
+      <item>
+        <lastName>Duckworth</lastName>
+        <sponsorshipDate>2017-05-24</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <middleName/>
+        <state>IL</state>
+        <bioguideId>D000622</bioguideId>
+        <firstName>Tammy</firstName>
+        <identifiers>
+          <gpoId/>
+          <bioguideId>D000622</bioguideId>
+          <lisID>2123</lisID>
+        </identifiers>
+        <fullName>Sen. Duckworth, Tammy [D-IL]</fullName>
+        <sponsorshipWithdrawnDate/>
+      </item>
+      <item>
+        <lastName>Cassidy</lastName>
+        <sponsorshipDate>2017-05-25</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <middleName/>
+        <state>LA</state>
+        <bioguideId>C001075</bioguideId>
+        <firstName>Bill</firstName>
+        <identifiers>
+          <lisID>1925</lisID>
+          <bioguideId>C001075</bioguideId>
+          <gpoId>7964</gpoId>
+        </identifiers>
+        <fullName>Sen. Cassidy, Bill [R-LA]</fullName>
+        <sponsorshipWithdrawnDate/>
+      </item>
+      <item>
+        <lastName>Warner</lastName>
+        <sponsorshipDate>2017-06-05</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <middleName>R.</middleName>
+        <state>VA</state>
+        <bioguideId>W000805</bioguideId>
+        <firstName>Mark</firstName>
+        <identifiers>
+          <gpoId>8269</gpoId>
+          <bioguideId>W000805</bioguideId>
+          <lisID>1897</lisID>
+        </identifiers>
+        <fullName>Sen. Warner, Mark R. [D-VA]</fullName>
+        <sponsorshipWithdrawnDate/>
+      </item>
+      <item>
+        <lastName>CARDIN</lastName>
+        <sponsorshipDate>2017-11-01</sponsorshipDate>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>D</party>
+        <middleName>L.</middleName>
+        <state>MD</state>
+        <bioguideId>C000141</bioguideId>
+        <firstName>BENJAMIN</firstName>
+        <identifiers>
+          <gpoId>8287</gpoId>
+          <lisID>174</lisID>
+          <bioguideId>C000141</bioguideId>
+        </identifiers>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <sponsorshipWithdrawnDate/>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <congress>115</congress>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-05-22</actionDate>
+        <committee>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>10000</actionCode>
+        <committee/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2017-05-22</actionDate>
+        <text>Introduced in Senate</text>
+        <links/>
+      </item>
+    </actions>
+    <title>Medicare Orthotics and Prosthetics Improvement Act of 2017</title>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <notes/>
+    <laws/>
+    <originChamber>Senate</originChamber>
+    <calendarNumbers/>
+    <createDate>2017-05-23T00:26:39Z</createDate>
+    <cboCostEstimates/>
+    <billNumber>1191</billNumber>
+    <committees>
+      <billCommittees>
+        <item>
+          <systemCode>ssfi00</systemCode>
+          <subcommittees/>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <name>Finance Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-05-22T19:56:33Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <introducedDate>2017-05-22</introducedDate>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <amendments/>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <lastName>GRASSLEY</lastName>
+        <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+        <middleName>ERNEST</middleName>
+        <identifiers>
+          <gpoId>8316</gpoId>
+          <bioguideId>G000386</bioguideId>
+          <lisID>457</lisID>
+        </identifiers>
+        <bioguideId>G000386</bioguideId>
+        <byRequestType/>
+        <firstName>CHARLES</firstName>
+        <state>IA</state>
+      </item>
+    </sponsors>
+    <titles>
+      <item>
+        <chamberName/>
+        <chamberCode/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Medicare Orthotics and Prosthetics Improvement Act of 2017</title>
+      </item>
+      <item>
+        <chamberName/>
+        <chamberCode/>
+        <titleType>Short Titles as Introduced</titleType>
+        <parentTitleType/>
+        <title>Medicare Orthotics and Prosthetics Improvement Act of 2017</title>
+      </item>
+      <item>
+        <chamberName/>
+        <chamberCode/>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <title>A bill to amend title XVIII of the Social Security Act to refine how Medicare pays for orthotics and prosthetics and to improve beneficiary experience and outcomes with orthotic and prosthetic care, and for other purposes.</title>
+      </item>
+      <item>
+        <chamberName/>
+        <chamberCode/>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <title>Medicare Orthotics and Prosthetics Improvement Act of 2017</title>
+      </item>
+    </titles>
+    <relatedBills>
+      <item>
+        <number>2599</number>
+        <latestAction>
+          <actionDate>2017-06-05</actionDate>
+          <text>Referred to the Subcommittee on Health.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>115</congress>
+        <latestTitle>Medicare Orthotics and Prosthetics Improvement Act of 2017</latestTitle>
+        <type>HR</type>
+      </item>
+    </relatedBills>
+    <latestAction>
+      <actionDate>2017-05-22</actionDate>
+      <links/>
+      <text>Read twice and referred to the Committee on Finance.</text>
+    </latestAction>
+    <committeeReports/>
+    <billType>S</billType>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers />
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Health facilities and institutions</name>
+          </item>
+          <item>
+            <name>Long-term, rehabilitative, and terminal care</name>
+          </item>
+          <item>
+            <name>Medicare</name>
+          </item>
+          <item>
+            <name>Rural conditions and development</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Health</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <introducedDate>2016-07-14</introducedDate>
+    <cboCostEstimates />
+    <originChamber>House</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Lynn</firstName>
+        <party>R</party>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <state>KS</state>
+        <byRequestType />
+        <bioguideId>J000290</bioguideId>
+        <lastName>Jenkins</lastName>
+        <middleName />
+        <district>2</district>
+        <identifiers>
+          <bioguideId>J000290</bioguideId>
+          <gpoId>7950</gpoId>
+          <lisID>1921</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+    <notes />
+    <relatedBills>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Related bill</type>
+          </item>
+        </relationshipDetails>
+        <number>3435</number>
+        <congress>114</congress>
+        <latestTitle>Craig Thomas Rural Hospital and Provider Equity Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-09-28</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+      <item>
+        <relationshipDetails>
+          <item>
+            <identifiedBy>CRS</identifiedBy>
+            <type>Identical bill</type>
+          </item>
+        </relationshipDetails>
+        <number>2786</number>
+        <congress>114</congress>
+        <latestTitle>Rural Access to Hospice Act of 2016</latestTitle>
+        <latestAction>
+          <actionDate>2016-04-13</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <type>S</type>
+      </item>
+    </relatedBills>
+    <updateDate>2017-10-27T18:05:49Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <type>Standing</type>
+          <name>Ways and Means Committee</name>
+          <chamber>House</chamber>
+          <systemCode>hswm00</systemCode>
+          <subcommittees>
+            <item>
+              <systemCode>hswm02</systemCode>
+              <name>Health Subcommittee</name>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-07-29T13:58:52Z</date>
+                </item>
+              </activities>
+            </item>
+          </subcommittees>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-07-14T13:03:45Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <createDate>2016-07-15T07:14:33Z</createDate>
+    <latestAction>
+      <links />
+      <actionDate>2016-07-29</actionDate>
+      <text>Referred to the Subcommittee on Health.</text>
+    </latestAction>
+    <recordedVotes />
+    <policyArea>
+      <name>Health</name>
+    </policyArea>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-07-29</actionDate>
+        <committee>
+          <systemCode>hswm02</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <actionCode>H11100</actionCode>
+        <committee>
+          <systemCode>hswm00</systemCode>
+          <name>Ways and Means Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>Intro-H</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+      </item>
+      <item>
+        <text>Introduced in House</text>
+        <actionCode>1000</actionCode>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2016-07-14</actionDate>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+      </actionTypeCounts>
+    </actions>
+    <amendments />
+    <title>Rural Access to Hospice Act of 2016</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <actionDate>2016-07-14</actionDate>
+          <name>Introduced in House</name>
+          <updateDate>2016-07-14T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><strong>Rural Access to Hospice Act of 2016</strong></p> <p>This bill amends title XVIII (Medicare) of the Social Security Act to allow payment under Medicare for certain services furnished to hospice patients by rural health clinics and federally qualified health centers (FQHCs).</p> <p>With respect to a patient who elects to receive hospice care under Medicare, current law generally limits payment for services that are either duplicative of&nbsp;such care or related to the treatment of the individual's terminal illness. However, current law exempts from this limitation: (1)&nbsp;physicians' services furnished by the individual's attending physician, if not an employee of the hospice program; and (2) services provided or arranged by the hospice program.</p> <p>The bill expands this exemption with regard to rural health clinic and FQHC services. Specifically, the Medicare payment limitation shall not apply to such services that: (1) would otherwise be physicians' services if furnished by an individual&nbsp;unaffiliated with a rural health clinic or FQHC; and (2) are either&nbsp;arranged by the hospice program or furnished by the individual's attending physician, if not an employee of the hospice program.</p>]]></text>
+          <lastSummaryUpdateDate>2016-11-02T11:24:47Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>HR</billType>
+    <laws />
+    <billNumber>5799</billNumber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Ms. JENKINS of Kansas:H.R. 5799.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8, Clause 1[Page H5012]</pre>]]></constitutionalAuthorityStatementText>
+    <cosponsors>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Kind, Ron [D-WI-3]</fullName>
+        <state>WI</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>KIND</lastName>
+        <identifiers>
+          <lisID>1498</lisID>
+          <gpoId>8216</gpoId>
+          <bioguideId>K000188</bioguideId>
+        </identifiers>
+        <firstName>RON</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>K000188</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. DelBene, Suzan K. [D-WA-1]</fullName>
+        <state>WA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>DelBene</lastName>
+        <identifiers>
+          <lisID>2096</lisID>
+          <bioguideId>D000617</bioguideId>
+          <gpoId>8374</gpoId>
+        </identifiers>
+        <firstName>Suzan</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>1</district>
+        <middleName>K.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>D000617</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Tipton, Scott  R. [R-CO-3]</fullName>
+        <state>CO</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Tipton</lastName>
+        <identifiers>
+          <lisID>1997</lisID>
+          <bioguideId>T000470</bioguideId>
+          <gpoId>7861</gpoId>
+        </identifiers>
+        <firstName>Scott</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName>R.</middleName>
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>T000470</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Welch, Peter [D-VT-At Large]</fullName>
+        <state>VT</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Welch</lastName>
+        <identifiers>
+          <lisID>1879</lisID>
+          <gpoId>8204</gpoId>
+          <bioguideId>W000800</bioguideId>
+        </identifiers>
+        <firstName>Peter</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>W000800</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Smith, Adrian [R-NE-3]</fullName>
+        <state>NE</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Smith</lastName>
+        <identifiers>
+          <lisID>1860</lisID>
+          <bioguideId>S001172</bioguideId>
+          <gpoId>8040</gpoId>
+        </identifiers>
+        <firstName>Adrian</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2016-07-14</sponsorshipDate>
+        <bioguideId>S001172</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Ashford, Brad [D-NE-2]</fullName>
+        <state>NE</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Ashford</lastName>
+        <identifiers>
+          <bioguideId>A000373</bioguideId>
+          <gpoId />
+          <lisID>2257</lisID>
+        </identifiers>
+        <firstName>Brad</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+        <middleName />
+        <sponsorshipDate>2016-07-25</sponsorshipDate>
+        <bioguideId>A000373</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Harper, Gregg [R-MS-3]</fullName>
+        <state>MS</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Harper</lastName>
+        <identifiers>
+          <lisID>1933</lisID>
+          <gpoId>8021</gpoId>
+          <bioguideId>H001045</bioguideId>
+        </identifiers>
+        <firstName>Gregg</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+        <middleName />
+        <sponsorshipDate>2016-07-25</sponsorshipDate>
+        <bioguideId>H001045</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Palazzo, Steven M. [R-MS-4]</fullName>
+        <state>MS</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Palazzo</lastName>
+        <identifiers>
+          <bioguideId>P000601</bioguideId>
+          <gpoId>8022</gpoId>
+          <lisID>2035</lisID>
+        </identifiers>
+        <firstName>Steven</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <bioguideId>P000601</bioguideId>
+      </item>
+      <item>
+        <party>R</party>
+        <fullName>Rep. Fortenberry, Jeff [R-NE-1]</fullName>
+        <state>NE</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Fortenberry</lastName>
+        <identifiers>
+          <lisID>1793</lisID>
+          <bioguideId>F000449</bioguideId>
+          <gpoId>8038</gpoId>
+        </identifiers>
+        <firstName>Jeff</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+        <middleName />
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <bioguideId>F000449</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Kilmer, Derek [D-WA-6]</fullName>
+        <state>WA</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kilmer</lastName>
+        <identifiers>
+          <bioguideId>K000381</bioguideId>
+          <gpoId />
+          <lisID>2169</lisID>
+        </identifiers>
+        <firstName>Derek</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+        <middleName />
+        <sponsorshipDate>2016-09-06</sponsorshipDate>
+        <bioguideId>K000381</bioguideId>
+      </item>
+      <item>
+        <party>D</party>
+        <fullName>Rep. Kuster, Ann M. [D-NH-2]</fullName>
+        <state>NH</state>
+        <sponsorshipWithdrawnDate />
+        <lastName>Kuster</lastName>
+        <identifiers>
+          <lisID>2145</lisID>
+          <bioguideId>K000382</bioguideId>
+          <gpoId />
+        </identifiers>
+        <firstName>Ann</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+        <middleName>M.</middleName>
+        <sponsorshipDate>2016-09-26</sponsorshipDate>
+        <bioguideId>K000382</bioguideId>
+      </item>
+    </cosponsors>
+    <titles>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Rural Access to Hospice Act of 2016</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Official Title as Introduced</titleType>
+        <title>To amend title XVIII of the Social Security Act to provide for payments for certain rural health clinic and Federally qualified health center services furnished to hospice patients under the Medicare program.</title>
+      </item>
+      <item>
+        <chamberCode />
+        <chamberName />
+        <parentTitleType />
+        <titleType>Display Title</titleType>
+        <title>Rural Access to Hospice Act of 2016</title>
+      </item>
+    </titles>
+    <version>1.0.0</version>
+    <committeeReports />
+    <congress>114</congress>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

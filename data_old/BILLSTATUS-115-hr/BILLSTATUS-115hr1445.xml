@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <title>VREASA</title>
+    <updateDate>2017-11-01T07:16:01Z</updateDate>
+    <originChamber>House</originChamber>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>6</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2017-03-21</actionDate>
+        <committee>
+          <systemCode>hsvr03</systemCode>
+          <name>Health Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Health.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-03-21</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Subcommittee on Disability Assistance and Memorial Affairs Discharged.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2017-03-09</actionDate>
+        <committee>
+          <systemCode>hsvr09</systemCode>
+          <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Disability Assistance and Memorial Affairs.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Veterans' Affairs.</text>
+        <actionDate>2017-03-09</actionDate>
+        <committee>
+          <systemCode>hsvr00</systemCode>
+          <name>Veterans' Affairs Committee</name>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2017-03-09</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2017-03-09</actionDate>
+        <committee/>
+        <links/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>3</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <recordedVotes/>
+    <relatedBills/>
+    <cboCostEstimates/>
+    <createDate>2017-03-10T05:16:36Z</createDate>
+    <sponsors>
+      <item>
+        <bioguideId>C001077</bioguideId>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <middleName/>
+        <identifiers>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+          <lisID>1912</lisID>
+        </identifiers>
+        <state>CO</state>
+        <firstName>Mike</firstName>
+        <lastName>Coffman</lastName>
+        <byRequestType/>
+        <party>R</party>
+        <district>6</district>
+      </item>
+    </sponsors>
+    <congress>115</congress>
+    <notes/>
+    <amendments/>
+    <calendarNumbers/>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Armed Forces and National Security</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Emergency medical services and trauma care</name>
+          </item>
+          <item>
+            <name>Veterans' medical care</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in House</name>
+          <actionDate>2017-03-09</actionDate>
+          <lastSummaryUpdateDate>2017-03-18T14:10:06Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2017-03-09T05:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <text><![CDATA[<p><b>Veterans Reimbursement for Emergency Ambulance Services Act or the VREASA</b></p> <p>This bill directs the Department of Veterans Affairs to treat ambulance services as reimbursable emergency services if: </p> <ul> <li>the ambulance request was made because of the sudden onset of a medical condition of such nature that a prudent layperson would have reasonably expected that a delay in seeking immediate medical attention would have been hazardous to the individual or could reasonably expect the absence of immediate medical attention to result in placing the individual in serious jeopardy, and </li> <li>the individual is transported to the closest and most appropriate medical facility capable of treating such emergency medical condition. </li> </ul>]]></text>
+        </item>
+      </billSummaries>
+    </summaries>
+    <committeeReports/>
+    <version>1.0.0</version>
+    <latestAction>
+      <text>Referred to the Subcommittee on Health.</text>
+      <links/>
+      <actionDate>2017-03-21</actionDate>
+    </latestAction>
+    <introducedDate>2017-03-09</introducedDate>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. COFFMAN:H.R. 1445.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8 of the Constitution of the UnitedStates.[Page H2019]</pre>]]></constitutionalAuthorityStatementText>
+    <titles>
+      <item>
+        <title>Veterans Reimbursement for Emergency Ambulance Services Act</title>
+        <parentTitleType/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>VREASA</title>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>Veterans Reimbursement for Emergency Ambulance Services Act</title>
+        <parentTitleType/>
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>To amend title 38, United States Code, to provide for the circumstances under which the Secretary of Veterans Affairs shall provide reimbursement for emergency ambulance services.</title>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+      <item>
+        <title>VREASA</title>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+        <chamberCode/>
+        <chamberName/>
+      </item>
+    </titles>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-03-21T17:15:34Z</date>
+                </item>
+              </activities>
+              <name>Health Subcommittee</name>
+              <systemCode>hsvr03</systemCode>
+            </item>
+            <item>
+              <activities>
+                <item>
+                  <name>Discharged from</name>
+                  <date>2017-03-21T17:15:15Z</date>
+                </item>
+                <item>
+                  <name>Referred to</name>
+                  <date>2017-03-09T19:49:50Z</date>
+                </item>
+              </activities>
+              <name>Disability Assistance and Memorial Affairs Subcommittee</name>
+              <systemCode>hsvr09</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsvr00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Veterans' Affairs Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-03-09T15:01:35Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <billType>HR</billType>
+    <billNumber>1445</billNumber>
+    <laws/>
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2017-03-09</sponsorshipDate>
+        <bioguideId>A000374</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>LA</state>
+        <middleName>Lee</middleName>
+        <identifiers>
+          <bioguideId>A000374</bioguideId>
+          <gpoId/>
+          <lisID>2244</lisID>
+        </identifiers>
+        <fullName>Rep. Abraham, Ralph Lee [R-LA-5]</fullName>
+        <party>R</party>
+        <firstName>Ralph</firstName>
+        <lastName>Abraham</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-03-09</sponsorshipDate>
+        <bioguideId>D000216</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CT</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>D000216</bioguideId>
+          <gpoId>7868</gpoId>
+          <lisID>281</lisID>
+        </identifiers>
+        <fullName>Rep. DeLauro, Rosa L. [D-CT-3]</fullName>
+        <party>D</party>
+        <firstName>ROSA</firstName>
+        <lastName>DELAURO</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-03-09</sponsorshipDate>
+        <bioguideId>T000472</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2110</lisID>
+          <gpoId/>
+          <bioguideId>T000472</bioguideId>
+        </identifiers>
+        <fullName>Rep. Takano, Mark [D-CA-41]</fullName>
+        <party>D</party>
+        <firstName>Mark</firstName>
+        <lastName>Takano</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>41</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-03-29</sponsorshipDate>
+        <bioguideId>J000255</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NC</state>
+        <middleName>B.</middleName>
+        <identifiers>
+          <gpoId>8026</gpoId>
+          <lisID>612</lisID>
+          <bioguideId>J000255</bioguideId>
+        </identifiers>
+        <fullName>Rep. Jones, Walter B., Jr. [R-NC-3]</fullName>
+        <party>R</party>
+        <firstName>WALTER</firstName>
+        <lastName>JONES</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-04-03</sponsorshipDate>
+        <bioguideId>C001110</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CA</state>
+        <middleName>Luis</middleName>
+        <identifiers>
+          <lisID>2312</lisID>
+          <bioguideId>C001110</bioguideId>
+          <gpoId/>
+        </identifiers>
+        <fullName>Rep. Correa, J. Luis [D-CA-46]</fullName>
+        <party>D</party>
+        <firstName>J.</firstName>
+        <lastName>Correa</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>46</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-04-03</sponsorshipDate>
+        <bioguideId>O000170</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>TX</state>
+        <middleName/>
+        <identifiers>
+          <lisID>2162</lisID>
+          <gpoId/>
+          <bioguideId>O000170</bioguideId>
+        </identifiers>
+        <fullName>Rep. O'Rourke, Beto [D-TX-16]</fullName>
+        <party>D</party>
+        <firstName>Beto</firstName>
+        <lastName>O'Rourke</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>16</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-04-12</sponsorshipDate>
+        <bioguideId>S001170</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>NH</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1861</lisID>
+          <bioguideId>S001170</bioguideId>
+          <gpoId>7528</gpoId>
+        </identifiers>
+        <fullName>Rep. Shea-Porter, Carol [D-NH-1]</fullName>
+        <party>D</party>
+        <firstName>Carol</firstName>
+        <lastName>Shea-Porter</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-04-20</sponsorshipDate>
+        <bioguideId>R000577</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>OH</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1756</lisID>
+          <gpoId>8107</gpoId>
+          <bioguideId>R000577</bioguideId>
+        </identifiers>
+        <fullName>Rep. Ryan, Tim [D-OH-13]</fullName>
+        <party>D</party>
+        <firstName>TIM</firstName>
+        <lastName>RYAN</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>13</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-05-19</sponsorshipDate>
+        <bioguideId>H001053</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MO</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>H001053</bioguideId>
+          <gpoId>8012</gpoId>
+          <lisID>2032</lisID>
+        </identifiers>
+        <fullName>Rep. Hartzler, Vicky [R-MO-4]</fullName>
+        <party>R</party>
+        <firstName>Vicky</firstName>
+        <lastName>Hartzler</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-12</sponsorshipDate>
+        <bioguideId>C001061</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MO</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1790</lisID>
+          <gpoId>8013</gpoId>
+          <bioguideId>C001061</bioguideId>
+        </identifiers>
+        <fullName>Rep. Cleaver, Emanuel [D-MO-5]</fullName>
+        <party>D</party>
+        <firstName>Emanuel</firstName>
+        <lastName>Cleaver</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-15</sponsorshipDate>
+        <bioguideId>J000290</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>KS</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1921</lisID>
+          <gpoId>7950</gpoId>
+          <bioguideId>J000290</bioguideId>
+        </identifiers>
+        <fullName>Rep. Jenkins, Lynn [R-KS-2]</fullName>
+        <party>R</party>
+        <firstName>Lynn</firstName>
+        <lastName>Jenkins</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-06-21</sponsorshipDate>
+        <bioguideId>M001196</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>MA</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>M001196</bioguideId>
+          <gpoId/>
+          <lisID>2246</lisID>
+        </identifiers>
+        <fullName>Rep. Moulton, Seth [D-MA-6]</fullName>
+        <party>D</party>
+        <firstName>Seth</firstName>
+        <lastName>Moulton</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-07-27</sponsorshipDate>
+        <bioguideId>T000470</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>CO</state>
+        <middleName>R.</middleName>
+        <identifiers>
+          <lisID>1997</lisID>
+          <bioguideId>T000470</bioguideId>
+          <gpoId>7861</gpoId>
+        </identifiers>
+        <fullName>Rep. Tipton, Scott  R. [R-CO-3]</fullName>
+        <party>R</party>
+        <firstName>Scott</firstName>
+        <lastName>Tipton</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-08-18</sponsorshipDate>
+        <bioguideId>R000575</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>AL</state>
+        <middleName/>
+        <identifiers>
+          <lisID>1704</lisID>
+          <bioguideId>R000575</bioguideId>
+          <gpoId>7788</gpoId>
+        </identifiers>
+        <fullName>Rep. Rogers, Mike D. [R-AL-3]</fullName>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <lastName>Rogers</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2017-10-31</sponsorshipDate>
+        <bioguideId>H001077</bioguideId>
+        <sponsorshipWithdrawnDate/>
+        <state>LA</state>
+        <middleName/>
+        <identifiers>
+          <bioguideId>H001077</bioguideId>
+          <gpoId/>
+          <lisID>2329</lisID>
+        </identifiers>
+        <fullName>Rep. Higgins, Clay [R-LA-3]</fullName>
+        <party>R</party>
+        <firstName>Clay</firstName>
+        <lastName>Higgins</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+    </cosponsors>
+    <policyArea>
+      <name>Armed Forces and National Security</name>
+    </policyArea>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

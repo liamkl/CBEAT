@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-09-20T00:41:19Z</createDate>
+    <introducedDate>2017-09-19</introducedDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <name>Finance Committee</name>
+          <chamber>Senate</chamber>
+          <type>Standing</type>
+          <subcommittees/>
+          <systemCode>ssfi00</systemCode>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-09-19T23:16:00Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <recordedVotes/>
+    <calendarNumbers/>
+    <congress>115</congress>
+    <title>GAIN Act of 2017</title>
+    <committeeReports/>
+    <titles>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>GAIN Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Short Titles as Introduced</titleType>
+        <title>Grow American Incomes Now Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Official Title as Introduced</titleType>
+        <title>A bill to amend the Internal Revenue Code of 1986 to modify the earned income tax credit to account for the amount by which economic growth has outpaced income growth, and for other purposes.</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>Display Title</titleType>
+        <title>GAIN Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>GAIN Act of 2017</title>
+        <chamberCode/>
+      </item>
+      <item>
+        <parentTitleType/>
+        <chamberName/>
+        <titleType>(Extracted from GPO) Short Titles as Introduced</titleType>
+        <title>Grow American Incomes Now Act of 2017</title>
+        <chamberCode/>
+      </item>
+    </titles>
+    <relatedBills>
+      <item>
+        <latestTitle>GAIN Act</latestTitle>
+        <latestAction>
+          <actionDate>2017-09-13</actionDate>
+          <text>Referred to the House Committee on Ways and Means.</text>
+        </latestAction>
+        <type>HR</type>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <number>3757</number>
+      </item>
+    </relatedBills>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <updateDate>2017-10-12T16:15:16Z</updateDate>
+    <notes/>
+    <originChamber>Senate</originChamber>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <version>1.0.0</version>
+    <billNumber>1849</billNumber>
+    <cosponsors/>
+    <laws/>
+    <sponsors>
+      <item>
+        <party>D</party>
+        <bioguideId>B000944</bioguideId>
+        <firstName>SHERROD</firstName>
+        <fullName>Sen. Brown, Sherrod [D-OH]</fullName>
+        <state>OH</state>
+        <identifiers>
+          <lisID>136</lisID>
+          <bioguideId>B000944</bioguideId>
+          <gpoId>8309</gpoId>
+        </identifiers>
+        <byRequestType/>
+        <lastName>BROWN</lastName>
+        <middleName/>
+      </item>
+    </sponsors>
+    <cboCostEstimates/>
+    <latestAction>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+      <actionDate>2017-09-19</actionDate>
+    </latestAction>
+    <billType>S</billType>
+    <actions>
+      <item>
+        <actionDate>2017-09-19</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionDate>2017-09-19</actionDate>
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <committee/>
+        <links/>
+        <text>Introduced in Senate</text>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <introducedInSenate>1</introducedInSenate>
+        <referredToCommittee>1</referredToCommittee>
+      </actionTypeCounts>
+    </actions>
+    <amendments/>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

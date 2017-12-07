@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2017-03-22T05:45:19Z</createDate>
+    <recordedVotes/>
+    <cboCostEstimates/>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees/>
+          <systemCode>ssfi00</systemCode>
+          <name>Finance Committee</name>
+          <chamber>Senate</chamber>
+          <activities>
+            <item>
+              <date>2017-03-21T15:44:28Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>Senate</originChamber>
+    <laws/>
+    <relatedBills>
+      <item>
+        <type>HR</type>
+        <latestTitle>SERVE Act</latestTitle>
+        <latestAction>
+          <actionDate>2017-05-03</actionDate>
+          <text>Referred to the House Committee on Ways and Means.</text>
+        </latestAction>
+        <number>2341</number>
+        <congress>115</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers/>
+    <introducedDate>2017-03-21</introducedDate>
+    <actions>
+      <item>
+        <actionDate>2017-03-21</actionDate>
+        <committee>
+          <name>Finance Committee</name>
+          <systemCode>ssfi00</systemCode>
+        </committee>
+        <links/>
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on Finance.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <links/>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <actionCode>10000</actionCode>
+        <type>IntroReferral</type>
+        <actionDate>2017-03-21</actionDate>
+        <text>Introduced in Senate</text>
+        <committee/>
+      </item>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+    </actions>
+    <congress>115</congress>
+    <committeeReports/>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to amend the Internal Revenue Code of 1986 to clarify the retirement income account rules relating to church controlled organizations.</title>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <parentTitleType/>
+        <chamberName/>
+        <chamberCode/>
+        <title>A bill to amend the Internal Revenue Code of 1986 to clarify the retirement income account rules relating to church controlled organizations.</title>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Taxation</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Employee benefits and pensions</name>
+          </item>
+          <item>
+            <name>Income tax deferral</name>
+          </item>
+          <item>
+            <name>Religion</name>
+          </item>
+          <item>
+            <name>Tax-exempt organizations</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <firstName>MICHAEL</firstName>
+        <lastName>CRAPO</lastName>
+        <state>ID</state>
+        <bioguideId>C000880</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <lisID>250</lisID>
+          <bioguideId>C000880</bioguideId>
+          <gpoId>8289</gpoId>
+        </identifiers>
+        <sponsorshipDate>2017-03-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate/>
+        <middleName>D.</middleName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Crapo, Mike [R-ID]</fullName>
+      </item>
+      <item>
+        <firstName>PAT</firstName>
+        <lastName>ROBERTS</lastName>
+        <state>KS</state>
+        <bioguideId>R000307</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <bioguideId>R000307</bioguideId>
+          <gpoId>8275</gpoId>
+          <lisID>968</lisID>
+        </identifiers>
+        <sponsorshipDate>2017-03-21</sponsorshipDate>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <fullName>Sen. Roberts, Pat [R-KS]</fullName>
+      </item>
+      <item>
+        <firstName>Amy</firstName>
+        <lastName>Klobuchar</lastName>
+        <state>MN</state>
+        <bioguideId>K000367</bioguideId>
+        <party>D</party>
+        <identifiers>
+          <gpoId>8249</gpoId>
+          <lisID>1826</lisID>
+          <bioguideId>K000367</bioguideId>
+        </identifiers>
+        <sponsorshipDate>2017-10-30</sponsorshipDate>
+        <sponsorshipWithdrawnDate/>
+        <middleName/>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <fullName>Sen. Klobuchar, Amy [D-MN]</fullName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>674</billNumber>
+    <amendments/>
+    <summaries>
+      <billSummaries>
+        <item>
+          <name>Introduced in Senate</name>
+          <updateDate>2017-03-21T04:00:00Z</updateDate>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <actionDate>2017-03-21</actionDate>
+          <text><![CDATA[<p>This bill amends the Internal Revenue Code to specify that a retirement income account provided by a church or a convention or association of churches may cover: (1) a duly ordained, commissioned, or licensed minister of a church in the exercise of his ministry, regardless of the source of his compensation; (2) an employee of a tax-exempt organization, whether a civil law corporation or otherwise, that is controlled by or associated with a church or a convention or association of churches; and (3) certain employees who have been separated from service with a church, a convention or association of churches, or an organization described above.</p>]]></text>
+          <lastSummaryUpdateDate>2017-04-12T14:14:18Z</lastSummaryUpdateDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <notes/>
+    <title>A bill to amend the Internal Revenue Code of 1986 to clarify the retirement income account rules relating to church controlled organizations.</title>
+    <latestAction>
+      <actionDate>2017-03-21</actionDate>
+      <text>Read twice and referred to the Committee on Finance.</text>
+      <links/>
+    </latestAction>
+    <updateDate>2017-10-31T05:01:52Z</updateDate>
+    <billType>S</billType>
+    <sponsors>
+      <item>
+        <fullName>Sen. Cardin, Benjamin L. [D-MD]</fullName>
+        <party>D</party>
+        <byRequestType/>
+        <bioguideId>C000141</bioguideId>
+        <middleName>L.</middleName>
+        <state>MD</state>
+        <firstName>BENJAMIN</firstName>
+        <lastName>CARDIN</lastName>
+        <identifiers>
+          <bioguideId>C000141</bioguideId>
+          <gpoId>8287</gpoId>
+          <lisID>174</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

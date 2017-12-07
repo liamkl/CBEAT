@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <createDate>2016-02-11T05:13:18Z</createDate>
+    <recordedVotes />
+    <cboCostEstimates />
+    <policyArea>
+      <name>Commerce</name>
+    </policyArea>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <activities>
+                <item>
+                  <name>Referred to</name>
+                  <date>2016-02-12T14:28:27Z</date>
+                </item>
+              </activities>
+              <name>Commerce, Manufacturing, and Trade Subcommittee</name>
+              <systemCode>hsif17</systemCode>
+            </item>
+          </subcommittees>
+          <systemCode>hsif00</systemCode>
+          <type>Standing</type>
+          <chamber>House</chamber>
+          <name>Energy and Commerce Committee</name>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2016-02-10T15:01:30Z</date>
+            </item>
+          </activities>
+        </item>
+      </billCommittees>
+    </committees>
+    <originChamber>House</originChamber>
+    <laws />
+    <relatedBills>
+      <item>
+        <type>S</type>
+        <latestTitle>Data Broker Accountability and Transparency Act of 2015</latestTitle>
+        <latestAction>
+          <actionDate>2015-03-04</actionDate>
+          <text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text>
+        </latestAction>
+        <number>668</number>
+        <congress>114</congress>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <calendarNumbers />
+    <introducedDate>2016-02-10</introducedDate>
+    <actions>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2016-02-12</actionDate>
+        <committee>
+          <systemCode>hsif17</systemCode>
+          <name>Commerce, Manufacturing, and Trade Subcommittee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Commerce, Manufacturing, and Trade.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionCode>H11100</actionCode>
+        <text>Referred to the House Committee on Energy and Commerce.</text>
+        <actionDate>2016-02-10</actionDate>
+        <committee>
+          <systemCode>hsif00</systemCode>
+          <name>Energy and Commerce Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-02-10</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <text>Introduced in House</text>
+        <actionDate>2016-02-10</actionDate>
+        <committee />
+        <links />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <type>IntroReferral</type>
+      </item>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <introducedInHouse>1</introducedInHouse>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+      </actionTypeCounts>
+    </actions>
+    <congress>114</congress>
+    <titles>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Data Broker Accountability and Transparency Act of 2016</title>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>To require data brokers to establish procedures to ensure the accuracy of collected personal information, and for other purposes.</title>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode />
+        <parentTitleType />
+        <title>Data Broker Accountability and Transparency Act of 2016</title>
+        <chamberName />
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative law and regulatory procedures</name>
+          </item>
+          <item>
+            <name>Business records</name>
+          </item>
+          <item>
+            <name>Civil actions and liability</name>
+          </item>
+          <item>
+            <name>Consumer affairs</name>
+          </item>
+          <item>
+            <name>Criminal investigation, prosecution, interrogation</name>
+          </item>
+          <item>
+            <name>Federal Trade Commission (FTC)</name>
+          </item>
+          <item>
+            <name>Federal preemption</name>
+          </item>
+          <item>
+            <name>Fraud offenses and financial crimes</name>
+          </item>
+          <item>
+            <name>Internet and video services</name>
+          </item>
+          <item>
+            <name>Marketing and advertising</name>
+          </item>
+          <item>
+            <name>Right of privacy</name>
+          </item>
+        </legislativeSubjects>
+        <policyArea>
+          <name>Commerce</name>
+        </policyArea>
+      </billSubjects>
+    </subjects>
+    <cosponsors>
+      <item>
+        <fullName>Rep. Jackson Lee, Sheila [D-TX-18]</fullName>
+        <district>18</district>
+        <middleName />
+        <state>TX</state>
+        <firstName>SHEILA</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <lisID>588</lisID>
+          <bioguideId>J000032</bioguideId>
+          <gpoId>8174</gpoId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <bioguideId>J000032</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>JACKSON LEE</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cicilline, David N. [D-RI-1]</fullName>
+        <district>1</district>
+        <middleName>N.</middleName>
+        <state>RI</state>
+        <firstName>David</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <gpoId>8139</gpoId>
+          <lisID>2055</lisID>
+          <bioguideId>C001084</bioguideId>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <bioguideId>C001084</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cicilline</lastName>
+      </item>
+      <item>
+        <fullName>Rep. Cohen, Steve [D-TN-9]</fullName>
+        <district>9</district>
+        <middleName />
+        <state>TN</state>
+        <firstName>Steve</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <identifiers>
+          <bioguideId>C001068</bioguideId>
+          <gpoId>8156</gpoId>
+          <lisID>1878</lisID>
+        </identifiers>
+        <party>D</party>
+        <sponsorshipDate>2016-02-10</sponsorshipDate>
+        <bioguideId>C001068</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Cohen</lastName>
+      </item>
+    </cosponsors>
+    <version>1.0.0</version>
+    <billNumber>4516</billNumber>
+    <summaries>
+      <billSummaries>
+        <item>
+          <lastSummaryUpdateDate>2016-03-16T18:38:55Z</lastSummaryUpdateDate>
+          <actionDesc>Introduced in House</actionDesc>
+          <text><![CDATA[<p class="MsoNormal"><b>Data Broker Accountability and Transparency Act of 2016</b></p> <p class="MsoNormal"></p> <p class="MsoNormal">This bill prohibits data brokers from obtaining or causing to be disclosed personal information or any other information relating to any person by making a false, fictitious, or fraudulent statement or representation, including by providing any document that the broker knows or should know to: (1) be forged, counterfeit, lost, stolen, or fraudulently obtained; or (2) contain a false, fictitious, or fraudulent statement or representation.</p> <p class="MsoNormal">&quot;Data broker&quot; is defined as a commercial entity that collects, assembles, or maintains personal information concerning an individual who is not a customer or an employee of that entity in order to sell or provide third party access to the information. The Federal Trade Commission (FTC) may exempt certain data brokers from this Act.</p> <p class="MsoNormal">Data brokers must establish procedures to ensure the accuracy of: (1) the personal information they collect, assemble, or maintain; and (2) any other information that specifically identifies an individual, unless the information only identifies an individual's name or address.</p> <p class="MsoNormal">Data brokers must also provide individuals a cost-free means to review their personal or identifying information.</p> <p class="MsoNormal">Individuals may dispute the accuracy of their personal information with a written request that the data broker make a correction.</p> <p class="MsoNormal">With regard to disputed public record information that is available for public inspection from federal, state, or local governments, a data broker must: (1) inform the individual of the source of the information and, if reasonably available, where to direct the individual's request for correction; or (2) correct the inaccuracy in the broker's records if the individual provides proof that the public record has been corrected or that the broker was reporting the information incorrectly.</p> <p class="MsoNormal">With regard to disputed non-public information of a private nature, a data broker must: (1) note the information that is disputed, (2) independently verify the information, and (3) correct the inaccuracy if the broker was reporting the information incorrectly.</p> <p class="MsoNormal">Data brokers must provide individuals with a reasonable means of expressing a preference to exclude their information from being used, shared, or sold for marketing purposes.</p> <p class="MsoNormal">The bill sets forth authority for the FTC and states to enforce this Act.</p>]]></text>
+          <updateDate>2016-02-10T05:00:00Z</updateDate>
+          <name>Introduced in House</name>
+          <versionCode>00</versionCode>
+          <actionDate>2016-02-10</actionDate>
+        </item>
+      </billSummaries>
+    </summaries>
+    <amendments />
+    <committeeReports />
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. JOHNSON of Georgia:H.R. 4516.Congress has the power to enact this legislation pursuantto the following:Article 1, Section 8.[Page H710]</pre>]]></constitutionalAuthorityStatementText>
+    <notes />
+    <title>Data Broker Accountability and Transparency Act of 2016</title>
+    <latestAction>
+      <actionDate>2016-02-12</actionDate>
+      <text>Referred to the Subcommittee on Commerce, Manufacturing, and Trade.</text>
+      <links />
+    </latestAction>
+    <updateDate>2017-10-27T18:04:20Z</updateDate>
+    <billType>HR</billType>
+    <sponsors>
+      <item>
+        <fullName>Rep. Johnson, Henry C. "Hank," Jr. [D-GA-4]</fullName>
+        <party>D</party>
+        <byRequestType />
+        <bioguideId>J000288</bioguideId>
+        <district>4</district>
+        <middleName>C. "Hank"</middleName>
+        <state>GA</state>
+        <firstName>Henry</firstName>
+        <lastName>Johnson</lastName>
+        <identifiers>
+          <bioguideId>J000288</bioguideId>
+          <gpoId>7901</gpoId>
+          <lisID>1843</lisID>
+        </identifiers>
+      </item>
+    </sponsors>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

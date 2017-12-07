@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <actions>
+      <actionTypeCounts>
+        <referredToCommittee>1</referredToCommittee>
+        <introducedInSenate>1</introducedInSenate>
+      </actionTypeCounts>
+      <actionByCounts>
+        <senate>2</senate>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-01-22</actionDate>
+        <committee>
+          <systemCode>ssju00</systemCode>
+          <name>Judiciary Committee</name>
+        </committee>
+        <links />
+        <sourceSystem>
+          <name>Senate</name>
+          <code>0</code>
+        </sourceSystem>
+        <text>Read twice and referred to the Committee on the Judiciary.</text>
+        <type>IntroReferral</type>
+      </item>
+      <item>
+        <text>Introduced in Senate</text>
+        <committee />
+        <links />
+        <actionCode>10000</actionCode>
+        <sourceSystem>
+          <name>Library of Congress</name>
+          <code>9</code>
+        </sourceSystem>
+        <type>IntroReferral</type>
+        <actionDate>2015-01-22</actionDate>
+      </item>
+    </actions>
+    <updateDate>2017-10-27T18:08:00Z</updateDate>
+    <introducedDate>2015-01-22</introducedDate>
+    <recordedVotes />
+    <createDate>2015-01-23T07:01:23Z</createDate>
+    <originChamber>Senate</originChamber>
+    <sponsors>
+      <item>
+        <firstName>Ted</firstName>
+        <lastName>Cruz</lastName>
+        <state>TX</state>
+        <bioguideId>C001098</bioguideId>
+        <party>R</party>
+        <identifiers>
+          <gpoId />
+          <lisID>2175</lisID>
+          <bioguideId>C001098</bioguideId>
+        </identifiers>
+        <byRequestType />
+        <middleName />
+        <fullName>Sen. Cruz, Ted [R-TX]</fullName>
+      </item>
+    </sponsors>
+    <policyArea>
+      <name>Immigration</name>
+    </policyArea>
+    <titles>
+      <item>
+        <parentTitleType />
+        <title>Expatriate Terrorist Act</title>
+        <chamberCode />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>A bill to amend section 349 of the Immigration and Nationality Act to deem specified activities in support of terrorism as renunciation of United States nationality, and for other purposes.</title>
+        <chamberCode />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberName />
+      </item>
+      <item>
+        <parentTitleType />
+        <title>Expatriate Terrorist Act</title>
+        <chamberCode />
+        <titleType>Display Title</titleType>
+        <chamberName />
+      </item>
+    </titles>
+    <amendments />
+    <version>1.0.0</version>
+    <cosponsors>
+      <item>
+        <firstName>CHARLES</firstName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Grassley, Chuck [R-IA]</fullName>
+        <state>IA</state>
+        <bioguideId>G000386</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>GRASSLEY</lastName>
+        <middleName>ERNEST</middleName>
+        <sponsorshipDate>2015-01-22</sponsorshipDate>
+        <identifiers>
+          <lisID>457</lisID>
+          <bioguideId>G000386</bioguideId>
+          <gpoId>8316</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Roy</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Blunt, Roy [R-MO]</fullName>
+        <state>MO</state>
+        <bioguideId>B000575</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Blunt</lastName>
+        <middleName />
+        <sponsorshipDate>2015-01-27</sponsorshipDate>
+        <identifiers>
+          <lisID>1464</lisID>
+          <bioguideId>B000575</bioguideId>
+          <gpoId>8313</gpoId>
+        </identifiers>
+      </item>
+      <item>
+        <firstName>Mike</firstName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <party>R</party>
+        <fullName>Sen. Lee, Mike [R-UT]</fullName>
+        <state>UT</state>
+        <bioguideId>L000577</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <lastName>Lee</lastName>
+        <middleName />
+        <sponsorshipDate>2015-12-01</sponsorshipDate>
+        <identifiers>
+          <lisID>2080</lisID>
+          <bioguideId>L000577</bioguideId>
+          <gpoId>8303</gpoId>
+        </identifiers>
+      </item>
+    </cosponsors>
+    <calendarNumbers />
+    <committeeReports />
+    <notes />
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Immigration</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Administrative remedies</name>
+          </item>
+          <item>
+            <name>Citizenship and naturalization</name>
+          </item>
+          <item>
+            <name>Due process and equal protection</name>
+          </item>
+          <item>
+            <name>Terrorism</name>
+          </item>
+          <item>
+            <name>Visas and passports</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <committees>
+      <billCommittees>
+        <item>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2015-01-22T23:19:07Z</date>
+            </item>
+          </activities>
+          <name>Judiciary Committee</name>
+          <chamber>Senate</chamber>
+          <subcommittees />
+          <systemCode>ssju00</systemCode>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <latestAction>
+      <actionDate>2015-01-22</actionDate>
+      <text>Read twice and referred to the Committee on the Judiciary.</text>
+      <links />
+    </latestAction>
+    <relatedBills>
+      <item>
+        <number>503</number>
+        <relationshipDetails>
+          <item>
+            <type>Identical bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+        <congress>114</congress>
+        <latestAction>
+          <text>Referred to the Subcommittee on Immigration and Border Security.</text>
+          <actionDate>2015-02-19</actionDate>
+        </latestAction>
+        <type>HR</type>
+        <latestTitle>Expatriate Terrorist Act</latestTitle>
+      </item>
+    </relatedBills>
+    <laws />
+    <congress>114</congress>
+    <cboCostEstimates />
+    <title>Expatriate Terrorist Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <versionCode>00</versionCode>
+          <actionDesc>Introduced in Senate</actionDesc>
+          <text><![CDATA[<p> <strong>Expatriate Terrorist Act</strong></p> <p>This bill amends the Immigration and Nationality Act to include among the grounds for loss of U.S. nationality by a native-born or naturalized citizen: </p> <ul> <li>taking an oath or making a declaration of allegiance to a foreign terrorist organization after attaining the age of 18; </li> <li>entering, or serving in, a foreign terrorist organization; </li> <li>becoming a member of or providing training or material assistance to a foreign terrorist organization; and </li> <li> accepting, serving in, or performing the duties of any office, post, or employment under the government of a foreign state, a political subdivision, or a foreign terrorist organization if the person knowingly has or acquires the nationality of such foreign state, or an oath, affirmation, or declaration of allegiance to the foreign state, political subdivision, or designated foreign terrorist organization is required for such office, post, or employment.</li> </ul> <p> The Passport Act of 1926 is amended to:</p> <ul> <li>prohibit the Secretary of State from issuing a passport or passport card to an individual who is a member, or attempting to become a member, of a foreign terrorist organization; and </li> <li>direct the Secretary to revoke a passport or passport card previously issued to any such individual. </li> </ul> <p> A person who is denied issuance of a passport or passport card or whose passport or passport card is revoked or otherwise restricted may request a due process hearing not later than 60 days after receiving notice of the nonissuance, revocation, or restriction.</p>]]></text>
+          <lastSummaryUpdateDate>2015-02-04T17:26:38Z</lastSummaryUpdateDate>
+          <updateDate>2015-01-22T05:00:00Z</updateDate>
+          <actionDate>2015-01-22</actionDate>
+          <name>Introduced in Senate</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <billType>S</billType>
+    <billNumber>247</billNumber>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+

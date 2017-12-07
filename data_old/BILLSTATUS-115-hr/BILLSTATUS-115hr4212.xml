@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <calendarNumbers/>
+    <subjects>
+      <billSubjects>
+        <legislativeSubjects/>
+      </billSubjects>
+    </subjects>
+    <version>1.0.0</version>
+    <notes/>
+    <amendments/>
+    <committeeReports/>
+    <policyArea/>
+    <actions>
+      <actionTypeCounts>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <item>
+        <actionCode>H11100</actionCode>
+        <links/>
+        <committee>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <actionDate>2017-11-01</actionDate>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Agriculture.</text>
+      </item>
+      <item>
+        <actionCode>Intro-H</actionCode>
+        <links/>
+        <committee/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-11-01</actionDate>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+      </item>
+      <item>
+        <actionCode>1000</actionCode>
+        <links/>
+        <committee/>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+        <actionDate>2017-11-01</actionDate>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+      </item>
+      <actionByCounts>
+        <houseOfRepresentatives>3</houseOfRepresentatives>
+      </actionByCounts>
+    </actions>
+    <constitutionalAuthorityStatementText/>
+    <billNumber>4212</billNumber>
+    <laws/>
+    <summaries>
+      <billSummaries/>
+    </summaries>
+    <billType>HR</billType>
+    <recordedVotes/>
+    <relatedBills/>
+    <createDate>2017-11-02T03:11:20Z</createDate>
+    <introducedDate>2017-11-01</introducedDate>
+    <title>To amend the Agricultural Credit Act of 1978 to increase support for conservation practices under the emergency conservation program, and for other purposes.</title>
+    <cboCostEstimates/>
+    <congress>115</congress>
+    <originChamber>House</originChamber>
+    <cosponsors/>
+    <sponsors>
+      <item>
+        <party>R</party>
+        <lastName>Marshall</lastName>
+        <district>1</district>
+        <identifiers>
+          <lisID>2328</lisID>
+          <gpoId/>
+          <bioguideId>M001198</bioguideId>
+        </identifiers>
+        <middleName>W.</middleName>
+        <bioguideId>M001198</bioguideId>
+        <fullName>Rep. Marshall, Roger W. [R-KS-1]</fullName>
+        <byRequestType/>
+        <state>KS</state>
+        <firstName>Roger</firstName>
+      </item>
+    </sponsors>
+    <latestAction>
+      <text>Referred to the House Committee on Agriculture.</text>
+      <links/>
+      <actionDate>2017-11-01</actionDate>
+    </latestAction>
+    <updateDate>2017-11-02T07:31:15Z</updateDate>
+    <committees>
+      <billCommittees>
+        <item>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <name>Referred to</name>
+              <date>2017-11-01T14:01:25Z</date>
+            </item>
+          </activities>
+          <systemCode>hsag00</systemCode>
+          <name>Agriculture Committee</name>
+          <type>Standing</type>
+          <subcommittees/>
+        </item>
+      </billCommittees>
+    </committees>
+    <titles>
+      <item>
+        <chamberCode/>
+        <title>To amend the Agricultural Credit Act of 1978 to increase support for conservation practices under the emergency conservation program, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Official Title as Introduced</titleType>
+      </item>
+      <item>
+        <chamberCode/>
+        <title>To amend the Agricultural Credit Act of 1978 to increase support for conservation practices under the emergency conservation program, and for other purposes.</title>
+        <chamberName/>
+        <parentTitleType/>
+        <titleType>Display Title</titleType>
+      </item>
+    </titles>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

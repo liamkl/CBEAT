@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<billStatus>
+  <bill>
+    <recordedVotes />
+    <actions>
+      <actionTypeCounts>
+        <placeholderTextForH>1</placeholderTextForH>
+        <billReferrals>1</billReferrals>
+        <introducedInTheHouse>1</introducedInTheHouse>
+        <introducedInHouse>1</introducedInHouse>
+      </actionTypeCounts>
+      <actionByCounts>
+        <houseOfRepresentatives>4</houseOfRepresentatives>
+      </actionByCounts>
+      <item>
+        <actionDate>2015-11-16</actionDate>
+        <committee>
+          <name>Workforce Protections Subcommittee</name>
+          <systemCode>hsed10</systemCode>
+        </committee>
+        <links />
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Referred to the Subcommittee on Workforce Protections.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2015-05-01</actionDate>
+        <links />
+        <actionCode>H11100</actionCode>
+        <type>IntroReferral</type>
+        <text>Referred to the House Committee on Education and the Workforce.</text>
+        <committee>
+          <name>Education and the Workforce Committee</name>
+          <systemCode>hsed00</systemCode>
+        </committee>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-05-01</actionDate>
+        <links />
+        <actionCode>Intro-H</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2015-05-01</actionDate>
+        <links />
+        <actionCode>1000</actionCode>
+        <type>IntroReferral</type>
+        <text>Introduced in House</text>
+        <committee />
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <policyArea>
+      <name>Labor and Employment</name>
+    </policyArea>
+    <cboCostEstimates />
+    <cosponsors>
+      <item>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>L000564</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>L000564</bioguideId>
+          <gpoId>7863</gpoId>
+          <lisID>1834</lisID>
+        </identifiers>
+        <fullName>Rep. Lamborn, Doug [R-CO-5]</fullName>
+        <party>R</party>
+        <firstName>Doug</firstName>
+        <lastName>Lamborn</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>5</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>G000565</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName>A.</middleName>
+        <identifiers>
+          <lisID>1992</lisID>
+          <bioguideId>G000565</bioguideId>
+          <gpoId>7798</gpoId>
+        </identifiers>
+        <fullName>Rep. Gosar, Paul A. [R-AZ-4]</fullName>
+        <party>R</party>
+        <firstName>Paul</firstName>
+        <lastName>Gosar</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>Z000018</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>MT</state>
+        <middleName>K.</middleName>
+        <identifiers>
+          <bioguideId>Z000018</bioguideId>
+          <gpoId />
+          <lisID>2254</lisID>
+        </identifiers>
+        <fullName>Rep. Zinke, Ryan K. [R-MT-At Large]</fullName>
+        <party>R</party>
+        <firstName>Ryan</firstName>
+        <lastName>Zinke</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>L000571</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>WY</state>
+        <middleName>M.</middleName>
+        <identifiers>
+          <lisID>1960</lisID>
+          <bioguideId>L000571</bioguideId>
+          <gpoId>8225</gpoId>
+        </identifiers>
+        <fullName>Rep. Lummis, Cynthia M. [R-WY-At Large]</fullName>
+        <party>R</party>
+        <firstName>Cynthia</firstName>
+        <lastName>Lummis</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>0</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-01</sponsorshipDate>
+        <bioguideId>A000369</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NV</state>
+        <middleName>E.</middleName>
+        <identifiers>
+          <bioguideId>A000369</bioguideId>
+          <gpoId>8366</gpoId>
+          <lisID>2090</lisID>
+        </identifiers>
+        <fullName>Rep. Amodei, Mark E. [R-NV-2]</fullName>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Amodei</lastName>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>C001077</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <middleName />
+        <identifiers>
+          <lisID>1912</lisID>
+          <bioguideId>C001077</bioguideId>
+          <gpoId>7864</gpoId>
+        </identifiers>
+        <fullName>Rep. Coffman, Mike [R-CO-6]</fullName>
+        <party>R</party>
+        <firstName>Mike</firstName>
+        <lastName>Coffman</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>C001076</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>UT</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>C001076</bioguideId>
+          <gpoId>8191</gpoId>
+          <lisID>1956</lisID>
+        </identifiers>
+        <fullName>Rep. Chaffetz, Jason [R-UT-3]</fullName>
+        <party>R</party>
+        <firstName>Jason</firstName>
+        <lastName>Chaffetz</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-12</sponsorshipDate>
+        <bioguideId>M001187</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NC</state>
+        <middleName />
+        <identifiers>
+          <lisID>2142</lisID>
+          <gpoId />
+          <bioguideId>M001187</bioguideId>
+        </identifiers>
+        <fullName>Rep. Meadows, Mark [R-NC-11]</fullName>
+        <party>R</party>
+        <firstName>Mark</firstName>
+        <lastName>Meadows</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>11</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <bioguideId>M001177</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>1908</lisID>
+          <gpoId>7809</gpoId>
+          <bioguideId>M001177</bioguideId>
+        </identifiers>
+        <fullName>Rep. McClintock, Tom [R-CA-4]</fullName>
+        <party>R</party>
+        <firstName>Tom</firstName>
+        <lastName>McClintock</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-05-14</sponsorshipDate>
+        <bioguideId>B001250</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>UT</state>
+        <middleName />
+        <identifiers>
+          <lisID>1753</lisID>
+          <bioguideId>B001250</bioguideId>
+          <gpoId>8189</gpoId>
+        </identifiers>
+        <fullName>Rep. Bishop, Rob [R-UT-1]</fullName>
+        <party>R</party>
+        <firstName>Rob</firstName>
+        <lastName>Bishop</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-03</sponsorshipDate>
+        <bioguideId>P000588</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NM</state>
+        <middleName />
+        <identifiers>
+          <lisID>1738</lisID>
+          <bioguideId>P000588</bioguideId>
+          <gpoId>8057</gpoId>
+        </identifiers>
+        <fullName>Rep. Pearce, Stevan [R-NM-2]</fullName>
+        <party>R</party>
+        <firstName>Stevan</firstName>
+        <lastName>Pearce</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>2</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-03</sponsorshipDate>
+        <bioguideId>H001070</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>NV</state>
+        <middleName />
+        <identifiers>
+          <lisID>2260</lisID>
+          <gpoId />
+          <bioguideId>H001070</bioguideId>
+        </identifiers>
+        <fullName>Rep. Hardy, Cresent [R-NV-4]</fullName>
+        <party>R</party>
+        <firstName>Cresent</firstName>
+        <lastName>Hardy</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-06-16</sponsorshipDate>
+        <bioguideId>G000289</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>VA</state>
+        <middleName>W.</middleName>
+        <identifiers>
+          <bioguideId>G000289</bioguideId>
+          <gpoId>8197</gpoId>
+          <lisID>446</lisID>
+        </identifiers>
+        <fullName>Rep. Goodlatte, Bob [R-VA-6]</fullName>
+        <party>R</party>
+        <firstName>ROBERT</firstName>
+        <lastName>GOODLATTE</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-07-16</sponsorshipDate>
+        <bioguideId>G000577</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>LA</state>
+        <middleName />
+        <identifiers>
+          <bioguideId>G000577</bioguideId>
+          <gpoId />
+          <lisID>2245</lisID>
+        </identifiers>
+        <fullName>Rep. Graves, Garret [R-LA-6]</fullName>
+        <party>R</party>
+        <firstName>Garret</firstName>
+        <lastName>Graves</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>6</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-11-30</sponsorshipDate>
+        <bioguideId>L000584</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>UT</state>
+        <middleName>B.</middleName>
+        <identifiers>
+          <lisID>2271</lisID>
+          <bioguideId>L000584</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. Love, Mia B. [R-UT-4]</fullName>
+        <party>R</party>
+        <firstName>Mia</firstName>
+        <lastName>Love</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2015-12-01</sponsorshipDate>
+        <bioguideId>L000573</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>ID</state>
+        <middleName>R.</middleName>
+        <identifiers>
+          <gpoId>7919</gpoId>
+          <lisID>2011</lisID>
+          <bioguideId>L000573</bioguideId>
+        </identifiers>
+        <fullName>Rep. Labrador, Raul R. [R-ID-1]</fullName>
+        <party>R</party>
+        <firstName>Raul</firstName>
+        <lastName>Labrador</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-02-02</sponsorshipDate>
+        <bioguideId>K000368</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>AZ</state>
+        <middleName />
+        <identifiers>
+          <lisID>1907</lisID>
+          <gpoId>7220</gpoId>
+          <bioguideId>K000368</bioguideId>
+        </identifiers>
+        <fullName>Rep. Kirkpatrick, Ann [D-AZ-1]</fullName>
+        <party>D</party>
+        <firstName>Ann</firstName>
+        <lastName>Kirkpatrick</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-03-02</sponsorshipDate>
+        <bioguideId>L000578</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>2100</lisID>
+          <bioguideId>L000578</bioguideId>
+          <gpoId />
+        </identifiers>
+        <fullName>Rep. LaMalfa, Doug [R-CA-1]</fullName>
+        <party>R</party>
+        <firstName>Doug</firstName>
+        <lastName>LaMalfa</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <bioguideId>D000614</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>WI</state>
+        <middleName>P.</middleName>
+        <identifiers>
+          <lisID>2072</lisID>
+          <bioguideId>D000614</bioguideId>
+          <gpoId>8220</gpoId>
+        </identifiers>
+        <fullName>Rep. Duffy, Sean P. [R-WI-7]</fullName>
+        <party>R</party>
+        <firstName>Sean</firstName>
+        <lastName>Duffy</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>7</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-12</sponsorshipDate>
+        <bioguideId>G000552</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>TX</state>
+        <middleName />
+        <identifiers>
+          <lisID>1801</lisID>
+          <gpoId>8157</gpoId>
+          <bioguideId>G000552</bioguideId>
+        </identifiers>
+        <fullName>Rep. Gohmert, Louie [R-TX-1]</fullName>
+        <party>R</party>
+        <firstName>Louie</firstName>
+        <lastName>Gohmert</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>1</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-04-15</sponsorshipDate>
+        <bioguideId>C001053</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>OK</state>
+        <middleName />
+        <identifiers>
+          <lisID>1742</lisID>
+          <gpoId>8112</gpoId>
+          <bioguideId>C001053</bioguideId>
+        </identifiers>
+        <fullName>Rep. Cole, Tom [R-OK-4]</fullName>
+        <party>R</party>
+        <firstName>Tom</firstName>
+        <lastName>Cole</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>4</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-07</sponsorshipDate>
+        <bioguideId>C001094</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CA</state>
+        <middleName />
+        <identifiers>
+          <lisID>2103</lisID>
+          <gpoId />
+          <bioguideId>C001094</bioguideId>
+        </identifiers>
+        <fullName>Rep. Cook, Paul [R-CA-8]</fullName>
+        <party>R</party>
+        <firstName>Paul</firstName>
+        <lastName>Cook</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>8</district>
+      </item>
+      <item>
+        <sponsorshipDate>2016-06-22</sponsorshipDate>
+        <bioguideId>T000470</bioguideId>
+        <sponsorshipWithdrawnDate />
+        <state>CO</state>
+        <middleName>R.</middleName>
+        <identifiers>
+          <lisID>1997</lisID>
+          <bioguideId>T000470</bioguideId>
+          <gpoId>7861</gpoId>
+        </identifiers>
+        <fullName>Rep. Tipton, Scott  R. [R-CO-3]</fullName>
+        <party>R</party>
+        <firstName>Scott</firstName>
+        <lastName>Tipton</lastName>
+        <isOriginalCosponsor>False</isOriginalCosponsor>
+        <district>3</district>
+      </item>
+    </cosponsors>
+    <introducedDate>2015-05-01</introducedDate>
+    <latestAction>
+      <actionDate>2015-11-16</actionDate>
+      <text>Referred to the Subcommittee on Workforce Protections.</text>
+      <links />
+    </latestAction>
+    <billNumber>2215</billNumber>
+    <titles>
+      <item>
+        <chamberName />
+        <titleType>Short Titles as Introduced</titleType>
+        <chamberCode />
+        <title>Outdoor Recreation Enhancement Act</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Official Title as Introduced</titleType>
+        <chamberCode />
+        <title>To amend the Fair Labor Standards Act of 1938 to broaden an exemption to the minimum wage and maximum hours provisions of that Act for certain seasonal workers in national parks and forests.</title>
+        <parentTitleType />
+      </item>
+      <item>
+        <chamberName />
+        <titleType>Display Title</titleType>
+        <chamberCode />
+        <title>Outdoor Recreation Enhancement Act</title>
+        <parentTitleType />
+      </item>
+    </titles>
+    <amendments />
+    <laws />
+    <originChamber>House</originChamber>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>From the Congressional Record Online through the Government Publishing Office [<a href='http://www.gpo.gov'>www.gpo.gov</a>]By Mr. STEWART:H.R. 2215.Congress has the power to enact this legislation pursuantto the following:The Commerce Clause under Article 1, Section 8.[Page H2793]</pre>]]></constitutionalAuthorityStatementText>
+    <calendarNumbers />
+    <title>Outdoor Recreation Enhancement Act</title>
+    <summaries>
+      <billSummaries>
+        <item>
+          <text><![CDATA[<p><b>Outdoor Recreation Enhancement Act</b></p> <p>This bill amends the Fair Labor Standards Act of 1938 to extend the exemption from minimum wage and maximum hours requirements to an employee of a recreational establishment engaged in providing services or facilities directly related to outfitting and guiding or similar outdoor recreation activities, or rental of outdoor recreational equipment.</p> <p>And federal agency shall notify the holder of any contract, permit, license, or other agreement with the agency of this exemption for these employees.</p>]]></text>
+          <actionDesc>Introduced in House</actionDesc>
+          <updateDate>2015-05-01T04:00:00Z</updateDate>
+          <lastSummaryUpdateDate>2016-04-11T13:58:58Z</lastSummaryUpdateDate>
+          <actionDate>2015-05-01</actionDate>
+          <versionCode>00</versionCode>
+          <name>Introduced in House</name>
+        </item>
+      </billSummaries>
+    </summaries>
+    <relatedBills />
+    <billType>HR</billType>
+    <committees>
+      <billCommittees>
+        <item>
+          <subcommittees>
+            <item>
+              <systemCode>hsed10</systemCode>
+              <activities>
+                <item>
+                  <date>2015-11-16T21:17:51Z</date>
+                  <name>Referred to</name>
+                </item>
+              </activities>
+              <name>Workforce Protections Subcommittee</name>
+            </item>
+          </subcommittees>
+          <systemCode>hsed00</systemCode>
+          <name>Education and the Workforce Committee</name>
+          <chamber>House</chamber>
+          <activities>
+            <item>
+              <date>2015-05-01T13:03:30Z</date>
+              <name>Referred to</name>
+            </item>
+          </activities>
+          <type>Standing</type>
+        </item>
+      </billCommittees>
+    </committees>
+    <committeeReports />
+    <updateDate>2017-10-27T18:01:30Z</updateDate>
+    <congress>114</congress>
+    <subjects>
+      <billSubjects>
+        <policyArea>
+          <name>Labor and Employment</name>
+        </policyArea>
+        <legislativeSubjects>
+          <item>
+            <name>Forests, forestry, trees</name>
+          </item>
+          <item>
+            <name>Labor standards</name>
+          </item>
+          <item>
+            <name>Licensing and registrations</name>
+          </item>
+          <item>
+            <name>Outdoor recreation</name>
+          </item>
+          <item>
+            <name>Parks, recreation areas, trails</name>
+          </item>
+          <item>
+            <name>Public contracts and procurement</name>
+          </item>
+          <item>
+            <name>Sports and recreation facilities</name>
+          </item>
+          <item>
+            <name>Wages and earnings</name>
+          </item>
+        </legislativeSubjects>
+      </billSubjects>
+    </subjects>
+    <notes />
+    <createDate>2015-05-02T08:57:32Z</createDate>
+    <sponsors>
+      <item>
+        <fullName>Rep. Stewart, Chris [R-UT-2]</fullName>
+        <state>UT</state>
+        <byRequestType />
+        <party>R</party>
+        <lastName>Stewart</lastName>
+        <firstName>Chris</firstName>
+        <bioguideId>S001192</bioguideId>
+        <middleName />
+        <identifiers>
+          <bioguideId>S001192</bioguideId>
+          <gpoId />
+          <lisID>2168</lisID>
+        </identifiers>
+        <district>2</district>
+      </item>
+    </sponsors>
+    <version>1.0.0</version>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>
+
