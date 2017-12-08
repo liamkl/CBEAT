@@ -78,37 +78,75 @@ Home {.storyboard}
 ====================================
 ### Welcome to SenateBEAT
 
-#### Introduction, blah blah blah 
+VIDEO AND STUFF
 
-Video
+### Explore geographical differences in policy area interests with an interactive map
 
-*** 
+```{r}
+data("usgeojson")
 
-Commentary
+data_tab2 <- mapdata3 %>%
+  filter(grepl("Public Lands and Natural Resources", policy_area)) %>%
+  group_by(state_name) %>%
+  summarise(total_submit = sum(total_submit))
 
-### Another thing to look at
+n <- 4
+colstops <- data.frame(
+  q = (0 : n) / n,
+  c = substring(rev(viridis(n + 1)), 0, 7)) %>%
+  list.parse2()
 
-Wow this is cool!
+highchart() %>%
+hc_add_series_map(map = usgeojson, data_tab2, name = "Bills submitted",
+                  value = "total_submit", joinBy = c("woename", "state_name"),
+                  dataLabels = list(enabled = TRUE,
+                                    format = '{point.properties.postalcode}')) %>%
+hc_colorAxis(stops = colstops) %>%
+hc_legend(valueDecimals = 0) %>%
+hc_title(text = "Public Lands and Natural Resources bills submitted") %>%
+hc_mapNavigation(enabled = TRUE) %>%
+hc_add_theme(thm)
+```
 
 ***
 
-Commentary about how cool it is
+Note the sharp divide between the Western United States and the rest of the nation with respect to bills submitted that concern the use of public lands and natural resources.
 
-### Let's see another
+The federal government manages and maintains more than [300 million acres](http://www.ncsl.org/research/environment-and-natural-resources/this-land-is-whose-land.aspx) of public lands in the West, somewhat contentiously. There is a constant tug-of-war between the federal government, states, and private entities over the use of public lands.
+  
+Alaska has vast public lands and is particularly rich in natural resources, and has a unique interest in these issues. Alaska's senior Senator, Lisa Murkowski, is the chair of the Energy and Natural Resources Committee
 
-Nice
+Explore more [here](#state-level-policy-interests)
 
-*** 
+### Understand the legislative priorities of each state
 
-I get the idea
+```{r}
+national_totals <- mapdata3 %>% 
+  group_by(policy_area, session) %>% 
+  summarise(national_total = sum(total_submit)) %>% 
+  ungroup()
+  
+data_tab3 <- mapdata3 %>%
+    left_join(national_totals) %>%
+    filter(grepl("New Mexico", state_name))
 
-### Last one for now
+tm <- treemap(data_tab3, "policy_area",
+              vSize = "total_submit", vColor = "national_total",
+              type = "value", palette = rev(viridis(6)))
 
-Great
+hctreemap(tm) %>%
+  hc_add_theme(thm) %>%
+  hc_title(text = "Bills submitted by New Mexico's Senators") %>%
+  hc_legend(align = "center", enabled = TRUE)
+```
 
 ***
 
-Bye
+stuff
+
+### 
+
+
 
 Bill Modeling and Exploration{data-orientation=rows}
 =====================================
@@ -244,12 +282,12 @@ Explore below to see how many bills get to each step of the process, and which t
 (Additionally) Which legislative subjects do most of the Senate bills focus on? Explore the types of policy areas that are most prevalently introduced as bills. 
 
 
-Bills Submitted {data-orientation=rows}
+State-Level Policy Interests {data-orientation=rows}
 =====================================
 
 Input {.sidebar}
 -------------------------------------
-### Inputs
+### Display options
 
 ```{r input_objects}
 radioButtons(inputId = "session",
@@ -259,15 +297,23 @@ radioButtons(inputId = "session",
                         "114th Session" = "114",
                         "115th Session" = "115"),
             selected = "*")
+```
 
+<br>
+
+#### Map display
+Understand the geographical differences in policy area interests across the United States
+
+```{r}
 selectInput(inputId = "policyarea",
            label = "Select Bill Policy Area",
            choices = c("All"="*", policy_area_list),
            selected = "Public Lands and Natural Resources")
 ```
-<br><br>
+<br>
 
-### Policy area input
+####  Policy area display
+Get a sense of any state's policy interests, and how those compare with the nation-wide trends
 
 ```{r}
 selectInput(inputId = "state", 
@@ -277,25 +323,19 @@ selectInput(inputId = "state",
             selectize = FALSE)
 ```
 
+- Areas correspond to number of bills submitted by selected state's Senators
+- Colors correspond to the number of bills submitted across nation
 
 Row {data-height=600}
 -------------------------------------
-### Map
+### Row {.no-title}
 
 ```{r}
-data("usgeojson")
-
 data_map <- reactive({
   mapdata3 %>%
     filter(grepl(input$session, session)) %>%
     filter(grepl(input$policyarea, policy_area)) 
   })
-
-n <- 4
-colstops <- data.frame(
-  q = (0 : n) / n,
-  c = substring(rev(viridis(n + 1)), 0, 7)) %>%
-  list.parse2()
 
 renderHighchart({
   dat <- data_map() %>%
@@ -566,6 +606,7 @@ Senate Overview {data-orientation=columns}
 
 Input {.sidebar}
 -------------------------------------
+### Display options 
 
 ```{r}
 radioButtons(inputId = "session2",
@@ -595,25 +636,35 @@ output$choose_senator <- renderUI({
     sen_list <- sen_list %>% filter(in_115 == 1)
   } 
   selectInput(inputId = "matrix_senator",
-            label = "Sort by Senator",
+            label = "Choose Senator to sort subjects by",
             choices = sort(sen_list$label),
-            selected = NULL)
+            selected = "Murkowski, Lisa (R-AK)")
 })
 
 uiOutput(outputId = "choose_senator")
 
 numericInput(inputId = "matrix_rows",
              label = "Number of Senators to display",
-             value = 30, min = 10, max = 100, step = 1)
+             value = 20, min = 10, max = 100, step = 1)
 
 numericInput(inputId = "matrix_cols",
              label = "Number of legislative subjects to display",
-             value = 30, min = 10, max = 60, step = 1)
+             value = 20, min = 10, max = 60, step = 1)
 
 numericInput(inputId = "matrix_page",
              label = "Select heatmap page", value = 1,
              min = 1, max = 21, step = 1)
 ```
+
+### Notes
+#### Heatmap
+- Columns sorted by number of bills sponsored featuring that subject
+- Rows sorted by overall similarity of other Senators' legislative subject interests
+
+#### Bipartisan Index
+- Based on each Senators cosponsorship network 
+- A higher value indicates stronger out-party cosponsor support (both given and received) 
+- Independents are grouped with the party they caucus with
 
 Column {data-width=700}
 -------------------------------------
@@ -666,7 +717,7 @@ renderPlotly({
 })
 ```
 
-Column {.tabset data-width=300}
+Column {.tabset .tabset-fade data-width=300}
 -------------------------------------
 
 ### Bills Submitted
@@ -758,6 +809,8 @@ renderHighchart({
 })
 
 ```
+
+
 
 
 
