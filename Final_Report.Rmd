@@ -18,47 +18,42 @@ Specifically, we want to examine major factors that could contribute or hinder a
 
 #2. Related Work
 
-The inspiration for this project came from several directions. It is virtually impossible to ignore the heated debates ocurring around certain bills, given the focus of US news networks. 
+The inspiration for this project came from several directions. It is virtually impossible to ignore the daily discussion of bills that are US news networks decide to focus on. After some discussion, it made us realize we do not really know a whole lot about the bills going through congress, other than the ones discussed on the internet or on TV. While the classic schoolhouse rock [video](https://youtu.be/tyeJ55o3El0) provides an overview of the bill process, and congress.gov allows you to examine bills individually, very few resources exist to allow the public to visualize trends overall. 
 
 
 
 #3. Initial Questions
 
-•	Project Objectives
-o	What would you like to learn and accomplish? 
-	Prevalence of topic by year; 
-	prevalence of bill topic in general; likelihood of a certain bill topic to be voted on; likelihood of a certain topic to become a law
-	Geographic prevalence of bills by state – in title alone; Geographic display of number of bills introduced by each state
-	Subject matter interest by congressman
-o	List the benefits.:  This is a very opaque thing to most people, even if you’re interested in it. This allows the public to more clearly understand what’s happening overall. There’s a lot of detail to sift through if just looking at bills individually. 
-o	Optional features: 
-	Legislators with similar interests – Look at the how many bills of each type of subject are sponsored by the same congressman. For example, a constituent is concerned about child welfare; which congressman is most likely to be interested in that topic?
-	Conduct a network analysis of bill co-sponsorship
-	Dig deeper into resolutions and how they influence the movement of bills (especially by coupling unrelated bills into the same resolution)
+We had several initial questions that served as the basis for our exploration, and different techniques (discussed below) in order to approach our questions. 
 
-We discussed using the following methods and tools in our data analysis and in our final . While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
+
+ > What is the prevalence of bill topic, by: legislative session?	by legislator? by state?  
+ > What is the probability that a  certain bill topic be voted on, or become a  law? Do significant trends even exist that can predict outcomes?
+ > How does geography and region affect policy area and legislative subject focus areas?
+ > How many bills do states generally sponsor each session? How does number and topic differ among legislators from the same state?
+	prevalence of bill topic in general; likelihood of a certain bill topic to be voted on; likelihood of a certain topic to become a law
+ > Which legislators have similar interests? Which legislators work with each other, and cosponsor bills together? This will include a network analysis 
+
+
+In general, we were not looking to really answer one big question (although both bill outcomes, network connectivity, and policy area focus were all explored), but rather creating tools that could be utilized to explore activities in congress and understand bills better. 
+
+We discussed using the following methods and tools in our data analysis. While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
 
 ###Data Visualization
 
-*Geographic Display*
-
-*Summary Statistics and Tables*
-
-*Heat Map*
-
-*Word Cloud*
-
+We decided to utilize several different data visualization tools to analyze and present our data. Depending on the topic, different presentations were considered more appropriate. Initially, our visualizations were determined to include: geographic distributions, summary statistics and tables, heat maps, and word clouds. 
 
 ###Network Connectivity
 
 ### Bill Outcome Predictions
 
-*Multinomail Regression*
-
 *Ordinal Regression*
 
+Since certain bill outcomes are better than others (i.e. a bill that becomes a law is more successful than a bill that gets voted on and fails), ordinal regression is explored. In statistics, ordinal regression (also called "ordinal classification") is a type of regression analysis used for predicting an ordinal variable, i.e. a variable whose value exists on an arbitrary scale where only the relative ordering between different values is significant. However, proportional odds must hold in order for this to be utilized. 
 
+*Multinomail Regression*
 
+If ordinal regression assumptions do not hold, multinomial regression could also be explosed. Multinomial regression is used to describe data and to explain the relationship between one dependent nominal variable and one or more continuous-level(interval or ratio scale) independent variables.
 
 #4. Data Source
 
