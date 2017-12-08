@@ -79,6 +79,35 @@ Home {.storyboard}
 ### Welcome to SenateBEAT
 
 VIDEO AND STUFF
+....
+......
+..........
+............
+.........
+............
+..........
+
+
+### What is the Senate working on?
+
+```{r}
+subject <- nodes %>%
+  select(bioguideId, party,state, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+
+word_matrix <- subject
+freq <- as.data.frame(colSums(word_matrix[7:1020]))
+word <- row.names(freq)
+word_matrix <- cbind(word,freq)
+rownames(word_matrix) <- NULL
+colnames(word_matrix)[2] <- "freq"
+cloud_color="white"
+wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
+```
+
+***
+
+Some commentary here
 
 ### Explore geographical differences in policy area interests with an interactive map
 
@@ -97,24 +126,24 @@ colstops <- data.frame(
   list.parse2()
 
 highchart() %>%
-hc_add_series_map(map = usgeojson, data_tab2, name = "Bills submitted",
+  hc_add_series_map(map = usgeojson, data_tab2, name = "Bills submitted",
                   value = "total_submit", joinBy = c("woename", "state_name"),
                   dataLabels = list(enabled = TRUE,
                                     format = '{point.properties.postalcode}')) %>%
-hc_colorAxis(stops = colstops) %>%
-hc_legend(valueDecimals = 0) %>%
-hc_title(text = "Public Lands and Natural Resources bills submitted") %>%
-hc_mapNavigation(enabled = TRUE) %>%
-hc_add_theme(thm)
+  hc_colorAxis(stops = colstops) %>%
+  hc_legend(valueDecimals = 0) %>%
+  hc_title(text = "Public Lands and Natural Resources bills submitted") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_add_theme(thm)
 ```
 
 ***
 
-Note the sharp divide between the Western United States and the rest of the nation with respect to bills submitted that concern the use of public lands and natural resources.
+This map allows a quick look at the legislative activity of each state overall, or relating to a specific policy area. Here, we are looking at the number of bills submitted by each state in the area of public lands and natural resources. 
 
-The federal government manages and maintains more than [300 million acres](http://www.ncsl.org/research/environment-and-natural-resources/this-land-is-whose-land.aspx) of public lands in the West, somewhat contentiously. There is a constant tug-of-war between the federal government, states, and private entities over the use of public lands.
+Note the sharp divide between the Western United States and the rest of the nation. The federal government manages and maintains more than [300 million acres](http://www.ncsl.org/research/environment-and-natural-resources/this-land-is-whose-land.aspx) of public lands in the West, somewhat contentiously. There is a constant tug-of-war between the federal government, states, and private entities over the use of public lands. One can compare this view with a [map of all federal lands and reservations](https://nationalmap.gov/small_scale/printable/images/pdf/fedlands/fedlands3.pdf) and find considerable similarities.
   
-Alaska has vast public lands and is particularly rich in natural resources, and has a unique interest in these issues. Alaska's senior Senator, Lisa Murkowski, is the chair of the Energy and Natural Resources Committee
+The standout here, Alaska, has vast public lands and is particularly rich in natural resources; as such, there is a unique interest in these issues. Alaska's senior Senator, Lisa Murkowski, is also the chair of the Energy and Natural Resources Committee.
 
 Explore more [here](#state-level-policy-interests)
 
@@ -142,9 +171,114 @@ hctreemap(tm) %>%
 
 ***
 
-stuff
+We hear a lot about fights in the Senate over healthcare, taxation, and other big landmark legislation. But there is a lot more that your Senators are interested in, and much of it reflects concerns more regional or local than national. 
 
-### 
+Here we see the distribution of bills by policy area submitted by New Mexico's Senators over the last few years. The area of each rectangle is proportional to the number of bills introduced by New Mexico's Senators in that policy area, and the color scale is proportional to the national totals (darker is more).
+
+While there are a fair number of bills introduced which deal with areas which concern us all, like national security and taxation, we see that New Mexico's representatives are putting a lot of effort into issues which are specific to their constituents. Comprising a large proportion of the total bills introduced are those relating to natural resources, energy, and the environment. New Mexico is [rich in natural resources](https://www.eia.gov/state/?sid=NM), including crude oil and some natural gas, but is also a leader in renewable sources like solar and wind power. Their large Native American population ([2nd highest proportion in the nation](https://www.census.gov/population/estimates/state/rank/aiea.txt)) is also reflected in the policy areas pursued by their Senators. 
+
+See what your state's priorities are [here](#state-level-policy-interests)
+
+### How successful is your Senator? 
+
+```{r}
+senatorstats <- senatordata %>% 
+    filter(grepl("113", session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl("Alaska", state_name))
+
+senatorstats %>%
+summarise(sum(n()), 
+         sum(billoutcome == "Became Law"), 
+         Percent = mean(billoutcome == "Became Law")*100) %>%
+`colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law")) %>% knitr::kable()
+```
+
+```{r, echo = FALSE}
+network <- senatordata %>% 
+    filter(grepl("113", session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl("Alaska", state_name))
+
+sen_ID <- network$bioguideId
+
+senator_edges <- simp_edges %>% 
+  filter((from == sen_ID | to == sen_ID))
+
+senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+# Then subset nodes
+nodes_subset <- nodes %>%
+  filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+# Set target and source as indices to node data
+# minus 1 because it converts to JS which uses 0-indexing
+senator_edges <- senator_edges %>%
+  mutate(source = match(from, nodes_subset$bioguideId) - 1,
+         target = match(to, nodes_subset$bioguideId) - 1)
+        
+forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+     Source = "source", Target = "target",
+     Value = "weight", NodeID = "label", Group = "party",
+     # -- Nodes and labels
+     fontSize = 18,
+     fontFamily = "sans-serif",
+     opacity = 0.6,
+     opacityNoHover = 0.5,
+     # -- Edges
+     arrows = TRUE,
+     linkColour = c("grey", "grey"),
+     # -- Layout
+     linkDistance = 200,
+     charge = -40,
+     # -- General params
+     colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+     zoom = TRUE,
+     bounded = FALSE
+     )     
+```
+
+***
+
+The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
+
+### See what your Senator's legislative passions are, and explore who has similar interests
+
+```{r}
+# Matrix filtering
+filtered <- subject_matrix %>%
+  filter(in_115 == 1)
+mat <- filtered %>% 
+  select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
+rownames(mat) <- filtered$label
+dists <- distances(mat)
+# Output options
+rows <- 20
+columns <- 20
+# Matrix sorting
+matrix_senator <- "Brown, Sherrod (D-OH)"
+sortby <- mat[matrix_senator, ]
+mat <- mat[, order(sortby, decreasing = TRUE)]
+mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == matrix_senator)), ]
+
+heatmaply(
+  mat[1:20, 1:20],
+  dendrogram = "none",
+  label_names = c("Senator", "Subject", "Bills"),
+  grid_gap = 0.3,
+  hide_colorbar = TRUE
+  )
+```
+
+***
+
+This heatmap allows insight into your Senator's interests. What are the subjects he or she is passionate about? The columns represent [legislative subjects](https://www.congress.gov/browse/legislative-subject-terms/115th-congress), sorted by how many bills pertaining to that subject have been sponsored by the selected Senator. The rest of the Senators shown are sorted by the similarity of their interests.
+
+Sherrod Brown, senior Senator from Ohio, clearly cares a lot about the health of his constituents and beyond -- eight of his top 20 most frequent legislative subjects are concerned with healthcare. He also appears to be passionate about Congress' role in regulation, governmental function, and oversight. 
+
+If you are familiar with Sherrod Brown and his progressive platform, you might be surprised to see the his closest neighbors are all Republicans. This doesn't mean that he shares similar policy goals, but that they are interested in similar policy subjects. For example, Ed Markey (D-MA) and Lisa Murkowski (R-AK) both show a strong interest in legislation relating to oil and gas, but you can guess that they have very different aims. 
+
+However, this view can highlight nuances that don't make it into the headlines about partisan politics. Sherrod Brown and John Thune (R-SD) may have more in common than you think when it comes to things like Medicare and healthcare access.
+
+Explore more [here](#senate-overview)
 
 
 
@@ -208,7 +342,6 @@ fittedprob%>%filter(grepl(input$session6, session))})
 
 renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
   geom_point(alpha=0.5,size=1)+theme(axis.text.x = element_text(angle = 90, hjust = 1))+labs(y="Fitted Probability of Bills Become to Law")+scale_color_discrete(name="Senator's Party",position="bottom")})
-#+facet_grid(session~.)
 ```
 
 Row {data-height=300}
@@ -231,9 +364,6 @@ Row {data-height=300}
 -------------------------------------
 ### Word Cloud
 ```{r}
-subject<- nodes %>%
-  select(bioguideId, party,state, in_113, in_114, in_115) %>%
-  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
 words <- reactive({
   word_matrix=subject %>% filter(grepl(input$party5, party))
   freq=as.data.frame(colSums(word_matrix[7:1020]))
@@ -415,12 +545,6 @@ selectInput(inputId = "state3",
             selectize = FALSE)
 ```
 
-Row {data-height=300}
--------------------------------------
-### Senator Spotlight: Alaska (D)
-
-The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
-
 Row {data-width=600, data-height=400}
 -------------------------------------
 ### Senator summary statistics 
@@ -433,7 +557,6 @@ senatorstats <- reactive({
     filter(grepl(input$state3, state_name))
   })
 
-
 renderTable({ 
   senatorstats() %>%
   summarise(sum(n()), 
@@ -441,8 +564,6 @@ renderTable({
            Percent = mean(billoutcome == "Became Law")*100) %>%
   `colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law"))
   })
-    
-
 ```
 
 
@@ -503,7 +624,6 @@ tags$img(src=src)
 ### Senator Network Data
 
 ```{r}
-
 network <- reactive({
   senatordata %>% 
     filter(grepl(input$session3, session)) %>% 
@@ -525,7 +645,6 @@ renderForceNetwork({
   # Then subset nodes
   nodes_subset <- nodes %>%
     filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
-  
   # Set target and source as indices to node data
   # minus 1 because it converts to JS which uses 0-indexing
   senator_edges <- senator_edges %>%
@@ -638,7 +757,7 @@ output$choose_senator <- renderUI({
   selectInput(inputId = "matrix_senator",
             label = "Choose Senator to sort subjects by",
             choices = sort(sen_list$label),
-            selected = "Murkowski, Lisa (R-AK)")
+            selected = "Brown, Sherrod (D-OH)")
 })
 
 uiOutput(outputId = "choose_senator")
