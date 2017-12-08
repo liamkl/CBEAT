@@ -20,35 +20,7 @@ Specifically, we want to examine major factors that could contribute or hinder a
 
 The inspiration for this project came from several directions. It is virtually impossible to ignore the heated debates ocurring around certain bills, given the focus of US news networks. 
 
-###Data Visualization
 
-*Geographic Display*
-
-*Tables*
-
-*Heat Map*
-
-*Word Cloud*
-
-
-
-###Network Connectivity
-
-### Bill Outcome Predictions
-
-*Multinomail Regression*
-
-*Ordinal Regression*
-
-
-*Lasso Regression*
-
-Lasso (Least Absolute Shrinkage and Selection Operator) regression is a regularized linear regression. It uses L1 norm to constrain the coefficients of the fitting model. Usually, some coefficients will be set to 0 under the constrain. Therefore, the lasso regression is more robust compared to ordinary linear regression. (Tibshirani, Robert. "Regression shrinkage and selection via the lasso." Journal of the Royal Statistical Society. Series B (Methodological) (1996): 267-288.2)
-
-
-*Ridge Logistic Regression*
-
-*Regularization*
 
 #3. Initial Questions
 
@@ -63,6 +35,28 @@ o	Optional features:
 	Legislators with similar interests – Look at the how many bills of each type of subject are sponsored by the same congressman. For example, a constituent is concerned about child welfare; which congressman is most likely to be interested in that topic?
 	Conduct a network analysis of bill co-sponsorship
 	Dig deeper into resolutions and how they influence the movement of bills (especially by coupling unrelated bills into the same resolution)
+
+We discussed using the following methods and tools in our data analysis and in our final . While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
+
+###Data Visualization
+
+*Geographic Display*
+
+*Summary Statistics and Tables*
+
+*Heat Map*
+
+*Word Cloud*
+
+
+###Network Connectivity
+
+### Bill Outcome Predictions
+
+*Multinomail Regression*
+
+*Ordinal Regression*
+
 
 
 
