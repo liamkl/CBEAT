@@ -45,6 +45,8 @@ We decided to utilize several different data visualization tools to analyze and 
 
 ###Network Connectivity
 
+We were interested in examining the network for members of legislation. We determined that connections were formed if any legislators cosponsored bills together; and the direction of the connection would be determined by who influence whom. (Presumably, if a certain senator sponsored a bill, and then 12 others cosponsored it, he/she influence the others to sign on.) The network visualization will allow the public to see the direction of influence, who is working across party lines, and which legislators work with others. 
+
 ### Bill Outcome Predictions
 
 *Ordinal Regression*
