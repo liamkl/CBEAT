@@ -5,6 +5,73 @@ date: "12/7/2017"
 output: html_document
 ---
 
+
+
+#1. Overiew and Motivation
+
+A lot of changes are happening in our government, and while the major focus has been towards the executive branch, it should not be overlooked that congress is in charge of the majority of the laws we live by each day. With the current political climate, we feel the public deserves a more transparent insight into its daily activities. The 115th Legislative Session began in January 2017, and so far, has been a tumultuous journey; from healthcare to the environment, to tax reform to the bills that the media overlooks, major changes have ocurred and will continue to occur that could impact every U.S. resident.   
+
+Our objective is to create resources to allow the public to better understand how congress works, and what they spend their time on. There are an overwhelming number of bills introduced during each legislative session (>6,000), and many Americans do not know what they contain, or who sponsors them. Given the public's distaste for the way media frames political discussions, it is becoming more important for individuals to understand the process and be given raw information to draw their own conclusions. Normally the media is focused on one or two bills, despite many being discussed concurrently. 
+
+Specifically, we want to examine major factors that could contribute or hinder a bill's success, and try to make predictions for bill outcomes. This will include educating the public on the different outcomes a bill can have (there are several!). Additionally, we will evaluate the congressional network, to determine the connectivity degree of the legislators. Do some of them simply sit back as a passive participant? Who has bipartisan connections, and who remains within the boundaries of their own party?  Finally, we want to create clear, concise visuals so the public has an opportunity to explore the focus areas for a certain party, state, or legislator. *The resource will focus less on examining specific bills that actually get passed, and more about where legislators focus their time, and how. (not sure about this last sentence)*
+
+
+#2. Related Work
+
+The inspiration for this project came from several directions. It is virtually impossible to ignore the heated debates ocurring around certain bills, given the focus of US news networks. 
+
+###Data Visualization
+
+*Geographic Display*
+
+*Tables*
+
+*Heat Map*
+
+*Word Cloud*
+
+
+
+###Network Connectivity
+
+### Bill Outcome Predictions
+
+*Multinomail Regression*
+
+*Ordinal Regression*
+
+
+*Lasso Regression*
+
+Lasso (Least Absolute Shrinkage and Selection Operator) regression is a regularized linear regression. It uses L1 norm to constrain the coefficients of the fitting model. Usually, some coefficients will be set to 0 under the constrain. Therefore, the lasso regression is more robust compared to ordinary linear regression. (Tibshirani, Robert. "Regression shrinkage and selection via the lasso." Journal of the Royal Statistical Society. Series B (Methodological) (1996): 267-288.2)
+
+
+*Ridge Logistic Regression*
+
+*Regularization*
+
+#3. Initial Questions
+
+•	Project Objectives
+o	What would you like to learn and accomplish? 
+	Prevalence of topic by year; 
+	prevalence of bill topic in general; likelihood of a certain bill topic to be voted on; likelihood of a certain topic to become a law
+	Geographic prevalence of bills by state – in title alone; Geographic display of number of bills introduced by each state
+	Subject matter interest by congressman
+o	List the benefits.:  This is a very opaque thing to most people, even if you’re interested in it. This allows the public to more clearly understand what’s happening overall. There’s a lot of detail to sift through if just looking at bills individually. 
+o	Optional features: 
+	Legislators with similar interests – Look at the how many bills of each type of subject are sponsored by the same congressman. For example, a constituent is concerned about child welfare; which congressman is most likely to be interested in that topic?
+	Conduct a network analysis of bill co-sponsorship
+	Dig deeper into resolutions and how they influence the movement of bills (especially by coupling unrelated bills into the same resolution)
+
+
+
+#4. Data Source
+
+What Data:
+We are using congressional records from Congress.gov. They provide downloadable, bulk data with information on bills, timelines and voting records. https://github.com/usgpo/bill-status/blob/master/BILLSTATUS-XML_User_User-Guide.md. We may also utilize voting records (http://clerk.house.gov/legislative/legvotes.aspx) 
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 # Libraries
@@ -73,15 +140,6 @@ mapdata3 <- mapdata3 %>%
 fittedprob=read_csv("data/fittedprob.csv")
 stack<-read_excel("data/stack.xlsx")
 ```
-
-#1. Overiew and Motivation
-We want to create resources to allow the public to better understand how congress works. There are an overwhelming number of bills introduced each year (>6,000) and many do not know what they contain and who sponsors them. Given the public distaste for the way media presents politics, it is becoming more important for individuals to understand and be given raw information to draw their own conclusions. Normally the media is focused on one or two bills, despite many being discussed concurrently. 
-
-#2. Related Work
-
-#3. Initial Questions
-
-#4. Data Source
 
 #5. Exploratory Analysis
 
