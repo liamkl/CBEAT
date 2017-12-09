@@ -39,13 +39,13 @@ In general, we were not looking to really answer one big question (although both
 
 We discussed using the following methods and tools in our data analysis. While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
 
-###Data Visualization
+### Data Visualization
 
 We decided to utilize several different data visualization tools to analyze and present our data. Depending on the topic, different presentations were considered more appropriate. Initially, our visualizations were determined to include: geographic distributions, summary statistics and tables, heat maps, and word clouds. 
 
-###Network Connectivity
+### Network Connectivity
 
-We were interested in examining the network for members of legislation. We determined that connections were formed if any legislators cosponsored bills together; and the direction of the connection would be determined by who influence whom. (Presumably, if a certain senator sponsored a bill, and then 12 others cosponsored it, he/she influence the others to sign on.) The network visualization will allow the public to see the direction of influence, who is working across party lines, and which legislators work with others. 
+We were interested in examining the cosponsorship network in the Senate. There is some debate over [how meaningful cosponsorship is](https://www.salon.com/2013/08/02/congress_favorite_time_wasting_scam_co_sponsoring_bills/), but the fact that so much effort is expended on wrangling cosponsors makes it worthy of examination. For some quick background, every bill introduced to the Senate has one sponsor, who is the member responsible for its submission. After that, any number of Senators can sign on to the bill as cosponsors (at any point in time). The network visualization will allow the public to see the direction of influence, who is working across party lines, and which legislators work with others. 
 
 ### Bill Outcome Predictions
 
@@ -53,7 +53,7 @@ We were interested in examining the network for members of legislation. We deter
 
 Since certain bill outcomes are better than others (i.e. a bill that becomes a law is more successful than a bill that gets voted on and fails), ordinal regression is explored. In statistics, ordinal regression (also called "ordinal classification") is a type of regression analysis used for predicting an ordinal variable, i.e. a variable whose value exists on an arbitrary scale where only the relative ordering between different values is significant. However, proportional odds must hold in order for this to be utilized. 
 
-*Multinomail Regression*
+*Multinomial Regression*
 
 If ordinal regression assumptions do not hold, multinomial regression could also be explosed. Multinomial regression is used to describe data and to explain the relationship between one dependent nominal variable and one or more continuous-level(interval or ratio scale) independent variables.
 
@@ -150,4 +150,326 @@ p
 ```
 
 
+
 #6. Final Analysis
+## 6.1 Network Analysis
+
+The cosponsorship network is a weighted, directed graph. It must be directed, because there is a meaningful distinction between sponsoring other Senators' bills and receiving support for your own bills. The edges must also be weighted in order to capture some of the dynamics of cosponsorship. For instance, sticking your neck out alone in support of a colleague is a sign of a stronger tie than signing on with your whole caucus, or signing on after 20 other Senators paved the way. 
+
+```{r, eval = FALSE}
+library(xml2)
+library(tidyr)
+library(dplyr)
+library(purrr)
+library(stringr)
+library(readr)
+
+# Functions
+get_edge_weights <- function(cosponsor_list){
+  ###############################################
+  # Function to calculate edge weight 
+  # Edge weights are a function of both when
+  # sponsorship was added 
+  # as well as how many people sponsored so far
+  ###############################################
+  # Get unique sponsorship dates
+  sponsor_dates <- data.frame(date = unique(cosponsor_list$sponsor_date))
+  # Get count for each date
+  sponsor_dates$count <- sapply(sponsor_dates$date, 
+                                function(x) unlist(count(filter(cosponsor_list, sponsor_date <= x))))
+  # Calculate weight for given date and counts
+  sponsor_dates$weights <- exp((1 - seq(1, nrow(sponsor_dates))) / 10) / sponsor_dates$count
+  # Merge weights into cosponsor_list
+  cosponsor_list <- left_join(cosponsor_list, sponsor_dates, by = c("sponsor_date" = "date"))
+  
+  return(cosponsor_list$weights)
+}
+
+get_sponsor_edges <- function(sponsorID, cosponsor_list){
+  sponsor_edges <- data.frame(from = cosponsor_list$bioguideId,
+                              to = sponsorID)
+  sponsor_edges$weight <- get_edge_weights(cosponsor_list)
+  return(sponsor_edges)
+}
+
+get_node <- function(item, chamber){
+  chamber_id <- chamber_id_dict[chamber]
+  bioguideId <- item$bioguideId %>% unlist()
+  last_name <- item$lastName %>% unlist() %>% str_to_title()
+  first_name <- item$firstName %>% unlist() %>% str_to_title()
+  party <- item$party %>% unlist() %>% str_to_upper()
+  state <- item$state %>% unlist()
+  row_data <- data.frame(bioguideId = bioguideId, 
+                         last_name = last_name, 
+                         first_name = ifelse(nchar(first_name) == 0, "", first_name), 
+                         party = party, state = state,
+                         chamber = chamber, chamber_id = chamber_id)
+  return(row_data)
+}
+
+create_network_data <- function(files){
+  # Create empty dataframes
+  nodes <- data.frame()
+  edges <- data.frame()
+  for(file_name in files){
+    # Read in bill
+    bill_data <- read_xml(file_name) %>% as_list()
+    chamber_label <- bill_data$bill$originChamber %>% unlist(use.names = FALSE)
+    congressno <- bill_data$bill$congress %>% unlist(use.names = FALSE)
+    bill_type <- bill_data$bill$billType %>% unlist(use.names = FALSE)
+    billno <- bill_data$bill$billNumber %>% unlist(use.names = FALSE)
+    # Get sponsor node information
+    # After checking to ensure it's not empty
+    if(!is_empty(bill_data$bill$sponsors$item)){
+      bill_sponsor <- get_node(bill_data$bill$sponsors$item, chamber_label)
+    }
+    # Add to node list
+    nodes <- rbind(nodes, bill_sponsor)
+    # Check to see if any cosponsors -- if not, move to next bill
+    if(is_empty(bill_data$bill$cosponsors)) next
+    bill_cosponsors <- data.frame()
+    
+    for(cosponsor in bill_data$bill$cosponsors){
+      if(is_empty(cosponsor)) next 
+      cosponsor_node <- get_node(cosponsor, chamber_label)
+      cosponsor_node$sponsor_date <- cosponsor$sponsorshipDate %>% unlist() %>% as.Date()
+      bill_cosponsors <- rbind(bill_cosponsors, cosponsor_node)
+    }
+    # bill_cosponsors is in order of sponsorship
+    bill_edges <- get_sponsor_edges(bill_sponsor$bioguideId, bill_cosponsors)
+    bill_edges <- bill_edges %>%
+      mutate(congress = congressno,
+             bill_type = bill_type,
+             bill_no = billno)
+    nodes <- rbind(nodes, select(bill_cosponsors, -sponsor_date))
+    nodes <- unique(nodes)
+    edges <- rbind(edges, bill_edges)
+  }
+  output <- list()
+  output$nodes <- nodes
+  output$edges <- edges
+  return(output)
+}
+```
+
+Above are the functions used to create the network data. The master `create_network_data` function goes through every bill XML file we have, extracting information about the bill's sponsor and cosponsors via the `get_node` function, and then extracting information about the edges via the `get_sponsor_edges` function. Weights are calculated in `get_edge_weights`, according to the following algorithm:
+
+ - First, get the list of unique cosponsorship dates (when Senators signed on to the bill)
+ - Then get a count of how many Senators signed on by that date (cumulative)
+ - Finally, calculate a weight based on both the number of Senators who have already signed on, as well as the temporal component of when cosponsorship was offered according to the following function:
+
+$$
+\text{weight}_i = \frac{\exp[(1 - d_i) / 10]}{n_{CS,i}} 
+$$
+Where $n_{CS,i}$ is the number of cosponsors signed on at the $i$th cosigning event, and $d_i$ is the $i$th cosponsorship event. For example, if six Senators have already signed on before me, and my cosponsorship is the third cosponsorship event, my edge pointing to the sponsor will get a weight of 
+```{r}
+exp((1 - 3) / 10) / 6
+```
+
+Weights range from 0 to 1. 
+
+The resulting output of the `create_network_data` function is a list of two dataframes, one containing the node data and one containing the edge data. We then trim the nodes data down to unique entries only, add additional information relating to which Congressional session the Senator was a part of, and save the data to disk. 
+
+```{r, eval = FALSE}
+# Fn to do reverse paste (for apply purposes)
+paste_dir <- function(end, beginning) return(paste0(beginning, end))
+data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
+con_bill_type <- c("113-s", "113-sjres",
+                   "114-s", "114-sjres",
+                   "115-s", "115-sjres")
+folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
+# Break file list into chunks just for easier running/debugging
+file_list_1 <- list.files(folders[1], full.names = TRUE)
+file_list_2 <- list.files(folders[2], full.names = TRUE)
+file_list_3 <- list.files(folders[3], full.names = TRUE)
+file_list_4 <- list.files(folders[4], full.names = TRUE)
+file_list_5 <- list.files(folders[5], full.names = TRUE)
+file_list_6 <- list.files(folders[6], full.names = TRUE)
+
+# "dictionary" for chamber IDs
+chamber_id_dict <- c("House" = 1, "Senate" = 2)
+
+batch_1 <- create_network_data(file_list_1)
+batch_2 <- create_network_data(file_list_2)
+batch_3 <- create_network_data(file_list_3)
+batch_4 <- create_network_data(file_list_4)
+batch_5 <- create_network_data(file_list_5)
+batch_6 <- create_network_data(file_list_6)
+
+nodes <- data.frame()
+edges <- data.frame()
+
+nodes <- rbind(nodes,
+               batch_1$nodes,
+               batch_2$nodes,
+               batch_3$nodes,
+               batch_4$nodes,
+               batch_5$nodes,
+               batch_6$nodes
+               )
+nodes <- unique(nodes)
+
+edges <- rbind(edges,
+               batch_1$edges,
+               batch_2$edges,
+               batch_3$edges,
+               batch_4$edges,
+               batch_5$edges,
+               batch_6$edges
+               )
+
+# Get info on 113th/114th/115th Congresses for each node
+nodes$in_113 <- sapply(nodes$bioguideId, 
+                       function(x) sum(x %in% edges$from[edges$congress == 113] | x %in% edges$edges$from[edges$congress == 113]))
+nodes$in_114 <- sapply(nodes$bioguideId, 
+                       function(x) sum(x %in% edges$from[edges$congress == 114] | x %in% edges$edges$from[edges$congress == 114]))
+nodes$in_115 <- sapply(nodes$bioguideId, 
+                        function(x) sum(x %in% edges$from[edges$congress == 115] | x %in% edges$edges$from[edges$congress == 115]))
+
+write_csv(nodes, paste0(getwd(), "/data/output_data/nodes.csv"))
+write_csv(edges, paste0(getwd(), "/data/output_data/edges.csv"))
+```
+
+We can now pull the network data into a visualization framework like [networkD3](https://christophergandrud.github.io/networkD3/), which leverages the d3.js library. Using this we can quickly get a sense of which Senators Elizabeth Warren works with closely, for example:
+
+```{r, message = FALSE, warning = FALSE}
+network <- senatordata %>% 
+    group_by(senator) %>% 
+    filter(grepl("Warren", last_name))
+sen_ID <- network$bioguideId
+senator_edges <- simp_edges %>% 
+  filter((from == sen_ID | to == sen_ID)) 
+senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+# Then subset nodes
+nodes_subset <- nodes %>%
+  filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+# Set target and source as indices to node data
+# minus 1 because it converts to JS which uses 0-indexing
+senator_edges <- senator_edges %>%
+  mutate(source = match(from, nodes_subset$bioguideId) - 1,
+         target = match(to, nodes_subset$bioguideId) - 1)
+# Plot network       
+forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+     Source = "source", Target = "target",
+     Value = "weight", NodeID = "label", Group = "party",
+     # -- Nodes and labels
+     fontSize = 18,
+     fontFamily = "sans-serif",
+     opacity = 0.6,
+     opacityNoHover = 0.5,
+     # -- Edges
+     arrows = TRUE,
+     linkColour = c("grey", "grey"),
+     # -- Layout
+     linkDistance = 200,
+     charge = -40,
+     # -- General params
+     colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+     zoom = TRUE,
+     bounded = FALSE
+     )     
+```
+
+Perhaps unsurprisingly, the strongest connection in her network is to fellow Senator from Massachusetts, Ed Markey. 
+
+## 6.2 Senator interest similarity 
+
+For this analysis, we were interested in understanding which legislative subjects Senators were interested in, and finding out who had similar interests. First, we extract from each bill's XML file the legislative subjects associated with it, and create a matrix featuring each Senator as a row, and each column as a legislative subject. The values are then the number of bills sponsored by that Senator which pertains to that legislative subject.
+
+```{r, eval=FALSE}
+# Fn to do reverse paste (for apply purposes)
+paste_dir <- function(end, beginning) return(paste0(beginning, end))
+data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
+con_bill_type <- c("113-hjres", "113-hr", "113-s", "113-sjres",
+                   "114-hjres", "114-hr", "114-s", "114-sjres",
+                   "115-hjres", "115-hr", "115-s", "115-sjres")
+folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
+file_list <- list.files(folders, full.names = TRUE)
+
+# Read in member and policy area lists
+members <- read_csv("./data/member_list.csv")
+leg_subject_list <- read_csv("./data/legislative_subjects.csv")
+# Create empty dataframe with row for every member and 
+# column for every policy area
+m_ls_matrix <- data.frame(matrix(nrow = nrow(members),
+                                 ncol = nrow(leg_subject_list)+1))
+colnames(m_ls_matrix) <- c("bioguideId", leg_subject_list$legislative_subject)
+
+# Break file list into chunks just for easier running/debugging
+file_list_1 <- file_list[1:2500]
+file_list_2 <- file_list[2501:5000]
+file_list_3 <- file_list[5001:7500]
+file_list_4 <- file_list[7501:10000]
+file_list_5 <- file_list[10001:12500]
+file_list_6 <- file_list[12501:15000]
+file_list_7 <- file_list[15001:17500]
+file_list_8 <- file_list[17501:20000]
+file_list_9 <- file_list[20001:22500]
+file_list_10 <- file_list[22501:25780]
+
+# Fill with ID numbers and 0 for each policy area
+m_ls_matrix[, 2:ncol(m_ls_matrix)] <- 0
+m_ls_matrix$bioguideId <- members$bioguideId
+orphan_ls <- c()
+
+# Loop to fill the Member-Legislative Subject matrix
+for(file_name in file_list_10){
+  # Read in bill data from XML, convert to list for easier access
+  bill_data <- read_xml(file_name) %>% as_list()
+  # Extract sponsor
+  sponsor <- bill_data$bill$sponsors$item$bioguideId %>% unlist()
+  # Extract legislative subjects (as list)
+  leg_subjects <- bill_data$bill$subjects$billSubjects$legislativeSubjects %>% unlist(use.names = FALSE)
+  if(is.null(leg_subjects)) next
+  # Loop through subjects
+  for(subject in leg_subjects){
+    # Some subjects may have some kind of extra specifier which comes after a comma
+    # If exists, cut off the end and just keep the first part
+    if(grepl(", ", subject)){
+      subject <- str_split(subject, ", ", n = 2) %>% unlist() %>% .[1]
+    }
+    # Even though the list from Congress' website is supposed to 
+    # be exhaustive, might not be
+    # If the policy area is not in my existing list I move to next iteration and make note of it
+    if(!(subject %in% leg_subject_list$legislative_subject)){
+      orphan_ls <- c(orphan_ls, subject)
+      next
+    }
+    # Increment legislative subject for that sponsor
+    m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] <- 1 + m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] 
+  }
+}
+# Save matrix after each iteration just in case
+saved_matrix <- m_ls_matrix
+# Write to disk
+write_csv(saved_matrix, "./data/output_data/member_leg_subject_matrix.csv")
+```
+
+Noting that this actually creates data including the House of Representatives, the analysis of which is outside the scope of this project. 
+
+We can easily understand similarity as the Euclidean distance between each Senator's legislative subject interest vector. We calculate this distance matrix, and then use it in our visualization. We can visualize this matrix as a heatmap using a tool like [heatmaply](https://cran.r-project.org/web/packages/heatmaply/vignettes/heatmaply.html). Below we look at the top 20 legislative subjects that Sen. Ed Markey (D-MA) is interested in. The rows are sorted according to similarity of interests.
+
+```{r, message=FALSE, warning=FALSE, fig.height=7}
+# Matrix filtering
+mat <- subject_matrix %>% 
+  select(-bioguideId, -label, -party, -in_113, -in_114, -in_115)
+rownames(mat) <- subject_matrix$label
+dists <- distances(mat)
+# Output options
+rows <- 20
+columns <- 20
+# Matrix sorting
+matrix_senator <- "Markey, Edward (D-MA)"
+sortby <- mat[matrix_senator, ]
+mat <- mat[, order(sortby, decreasing = TRUE)]
+mat <- mat[nearest_neighbor_search(dists, rows, which(rownames(mat) == matrix_senator)), ]
+
+heatmaply(
+  mat[1:20, 1:20],
+  dendrogram = "none",
+  label_names = c("Senator", "Subject", "Bills"),
+  grid_gap = 0.3,
+  hide_colorbar = TRUE
+  )
+```
+
