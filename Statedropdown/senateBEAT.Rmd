@@ -80,16 +80,23 @@ Home {.storyboard}
 
 VIDEO AND STUFF
 ....
+
 ......
+
 ..........
+
 ............
+
 .........
+
 ............
+
 ..........
 
 
 ### What is the Senate working on?
 
+![](./data/wordcloud.png)
 ```{r}
 subject <- nodes %>%
   select(bioguideId, party,state, in_113, in_114, in_115) %>%
@@ -101,8 +108,10 @@ word <- row.names(freq)
 word_matrix <- cbind(word,freq)
 rownames(word_matrix) <- NULL
 colnames(word_matrix)[2] <- "freq"
-cloud_color="white"
-wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
+cloud_color <- "white"
+```
+```{r, eval = FALSE}
+wordcloud2(data = word_matrix, size = 0.7, backgroundColor = cloud_color)
 ```
 
 ***
@@ -179,7 +188,7 @@ While there are a fair number of bills introduced which deal with areas which co
 
 See what your state's priorities are [here](#state-level-policy-interests)
 
-### How successful is your Senator? 
+### What is your Senator up to? 
 
 ```{r}
 senatorstats <- senatordata %>% 
@@ -190,25 +199,28 @@ senatorstats <- senatordata %>%
 senatorstats %>%
 summarise(sum(n()), 
          sum(billoutcome == "Became Law"), 
-         Percent = mean(billoutcome == "Became Law")*100) %>%
+         Percent = round(mean(billoutcome == "Became Law")*100, 2)) %>%
 `colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law")) %>% knitr::kable()
 ```
 
 ```{r, echo = FALSE}
 network <- senatordata %>% 
-    filter(grepl("113", session)) %>% 
+    filter(grepl("113", as.character(session))) 
+
+network_focus <- network %>% 
     group_by(state, senator) %>% 
     filter(grepl("Alaska", state_name))
 
-sen_ID <- network$bioguideId
+sen_ID <- network_focus$bioguideId
 
 senator_edges <- simp_edges %>% 
-  filter((from == sen_ID | to == sen_ID))
+  filter((from == sen_ID | to == sen_ID)) 
 
 senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
 # Then subset nodes
 nodes_subset <- nodes %>%
   filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+
 # Set target and source as indices to node data
 # minus 1 because it converts to JS which uses 0-indexing
 senator_edges <- senator_edges %>%
@@ -347,12 +359,7 @@ renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
 Row {data-height=300}
 -------------------------------------
 ### Process of Bills
-1. Introduced into Senate
-  2. Ordered Reported
-  3. Failed legislation; or received a vote, but failed in the senate
-  4. Passed in the Senate 
-  5. Passed in the House, but Vetoed by the President
-  6. Became a law
+
 ```{r}
 colnames(stack)=c("Topic","Introduced into Senate","Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
 temp=melt(stack,id="Topic")
@@ -372,18 +379,18 @@ words <- reactive({
   rownames(word_matrix)=NULL
   colnames(word_matrix)[2]="freq"
   cloud_color="white"
-  if(as.character(input$party5)=="R")
-  {
-    cloud_color="darksalmon"
-  }
-  else if(as.character(input$party5)=="D")
-  {
-    cloud_color="lightblue"
-  }
-  else if(as.character(input$party5)=="I")
-  {
-    cloud_color="lightgreen"
-  }
+  # if(as.character(input$party5)=="R")
+  # {
+  #   cloud_color="darksalmon"
+  # }
+  # else if(as.character(input$party5)=="D")
+  # {
+  #   cloud_color="lightblue"
+  # }
+  # else if(as.character(input$party5)=="I")
+  # {
+  #   cloud_color="lightgreen"
+  # }
   wordcloud2(data=word_matrix,size=0.7,backgroundColor=cloud_color)
   })
 
@@ -391,8 +398,6 @@ renderWordcloud2({words()})
 ```
 
 ### Bills Prediction
-
-Under development
 
 Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
 
@@ -405,12 +410,7 @@ There are many final statuses of a bill, but we will only focus on the main 6 he
   5. Passed in the House, but Vetoed by the President
   6. Became a law
   
-Explore below to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
-
-  (need to add) Define: Policy Area or Legislative Subject, in contract
-
-(Additionally) Which legislative subjects do most of the Senate bills focus on? Explore the types of policy areas that are most prevalently introduced as bills. 
-
+Explore to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
 
 State-Level Policy Interests {data-orientation=rows}
 =====================================
