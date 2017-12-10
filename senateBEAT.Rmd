@@ -192,9 +192,9 @@ See what your state's priorities are [here](#state-level-policy-interests)
 
 ```{r}
 senatorstats <- senatordata %>% 
-    filter(grepl("113", session)) %>% 
+    filter(grepl("114", session)) %>% 
     group_by(state, senator) %>% 
-    filter(grepl("Alaska", state_name))
+    filter(grepl("Louisiana", state_name))
 
 senatorstats %>%
 summarise(sum(n()), 
@@ -205,11 +205,11 @@ summarise(sum(n()),
 
 ```{r, echo = FALSE}
 network <- senatordata %>% 
-    filter(grepl("113", as.character(session))) 
+    filter(grepl("114", as.character(session))) 
 
 network_focus <- network %>% 
     group_by(state, senator) %>% 
-    filter(grepl("Alaska", state_name))
+    filter(grepl("Louisiana", state_name))
 
 sen_ID <- network_focus$bioguideId
 
@@ -242,7 +242,7 @@ forceNetwork(Links = senator_edges, Nodes = nodes_subset,
      linkDistance = 200,
      charge = -40,
      # -- General params
-     colourScale = JS('d3.scaleOrdinal().range(["green", "blue", "red"]).domain(function(d) { (d.party); });'),
+     colourScale = JS('d3.scaleOrdinal().range(["green", "red", "blue"]).domain(function(d) { (d.party); });'),
      zoom = TRUE,
      bounded = FALSE
      )     
@@ -250,7 +250,11 @@ forceNetwork(Links = senator_edges, Nodes = nodes_subset,
 
 ***
 
-The Senators from Alaska sponsor more bills than any other state. Looking more closely at Senator ___, who worked in the 113th and 114th session, However, as seen above, the top focus areas are 1) 2) and 3) and. Yet, the percentage of success for getting these bills passed is almost zero. Yadda Yadda Yadda. 
+During the 114th Legislative Session, the Senators from Louisiana sponsored more bills than any other state. Yet, looking more closely at the table, we can see that while David Vitter sponsored 125 bills and Bill Cassidy sponsored 39, almost none of the bills they sponsored passed. 
+
+Additionally, David Vitter (R) has a very connected network. This joint network display shows you the connections for senators in the state you select. Here, David Vitter has many connections, and even crosses party lines. The arrows pointing towards David's circle indicates senators that have cosponored a bill David has sponsored. The arrows pointing away from David indicate bills he has supported for other senators. However, if you look at Bill Cassidy, he is only connected to David, and has no cosponsored anyone else's bills, nor has anyone (other than David) sponsored his. 
+
+If you continue your exploration, take a look at the Louisiana during the 113th session. Louisiana sponsored the second most bills during the 113th, and yet this time, none of them passed. If I were a constituent from LA, I would be concerned about these numbers. Are LA senators wasting time on bills with no merit? Are they sponsoring bills just to report activity? Check out [this page](#senator-activity) and explore the senator activity from your home state. Are your senators getting bills pased? Do they work closely with members from other parties, or do they generally stick to their own party? Are they influencing activity, or do they follow the lead of others? 
 
 ### See what your Senator's legislative passions are, and explore who has similar interests
 
@@ -561,53 +565,17 @@ renderTable({
 Column {data-height=700}
 -------------------------------------
 
-### Senator picture
+### .
+
 ```{r}
-# ^^^ TEMPORARILY SET eval=FALSE ABOVE ^^^
-#senator picture code here
-#photo <- reactive({
- # senatordata %>% 
-  #  filter(grepl(input$session3, session)) %>% 
-   # group_by(state, senator) %>% 
-  #  filter(grepl(input$state3, state_name)) %>% select(senator, image)
-#  })
 
-#renderText({ 
-  
-#   photo() %>% unique(photo())  %>%
- # group_by(senator) 
-  
-#  senatordata %>% 
- #   filter(grepl(input$session3, session)) %>% 
-  #  group_by(state, senator) %>% 
-   # filter(grepl(input$state3, state_name)) %>%
-    # c('<img src="',
-     #  "image",
-      # '">')
-
-photo <-
-  senatordata %>% 
-    filter(session == "113") %>% 
-    group_by(state, senator) %>% 
-    filter(state_name == "Alaska") %>% select(image)
+renderUI({
+  img_urls <- unique(senatorstats()$image)
+  src <- img_urls[1]
+  tags$img(src=src)
+})
 
 
-photo2 <- unique(photo)
-photo3 <- photo2$image
-  
-photo2$image <- paste0("<a href='",photo2$image,"'>",photo2$image,"</a>")
-
-#  })
-  renderUI({
-
-#for (i in photo3){
-#src = i
- # print(paste(tag = tags$img(src=src)))
-   
-src = 'https://www.congress.gov/img/member/m001153.jpg'
-tags$img(src=src)
-
-  })
 
 ```
 
@@ -669,19 +637,14 @@ renderForceNetwork({
 
 ```
 
-### Senator picture 2
+### .
 ```{r}
+
 renderUI({
-
-#for (i in photo3){
-#src = i
- # print(paste(tag = tags$img(src=src)))
-   
-src = 'https://www.congress.gov/img/member/b001265.jpg'
-tags$img(src=src)
-
-  })
-
+  img_urls <- unique(senatorstats()$image)
+  src <- img_urls[2]
+  tags$img(src=src)
+})
 
 ```
 
