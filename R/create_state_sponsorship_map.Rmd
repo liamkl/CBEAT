@@ -89,7 +89,9 @@ dat3 <- dat3 %>% group_by(session, state) %>% mutate(total_state = sum(n()), pro
 # Write to disk
 write_csv(dat3, "mapdata3.csv")
 
-dat4 <- dat3 %>% filter(session == "113")
+
+
+dat4 <- mapdata3 %>% filter(session == "113")
 
 p <- ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name_2, fill=proportion), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
   expand_limits(x = fifty_states$long, y = fifty_states$lat) +

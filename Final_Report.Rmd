@@ -383,10 +383,73 @@ matrix_test <- matrix_test %>% select(bioguideId, session, billid, policy_area, 
 write_csv(matrix_test, "bill_outcomes_summary.csv")
 ```
 
+### 4.3.2 Senator Map Data
+
+```{r eval = FALSE}
+
+# Read in member and policy area lists
+members <- read_csv("./data/member_list.csv")
+policy_areas <- read_csv("./data/policy_areas.csv")
+matrix <- read_csv("./data/output_data/member_policy_area_matrix.csv")
+outcomes <- read_csv("./data/output_data/bill_outcomes_summary")
+
+#create matrix that includes the sponsorship by state
+matrix <- member_policy_area_matrix
+outcomes <- bill_outcomes_summary
+nodes <- nodes
+
+state_sponsorship <- outcomes %>% full_join(members, by="bioguideId") %>% left_join(nodes, by="bioguideId") %>% filter(chamber == "Senate") %>% select(bioguideId, session, billid, policy_area, billtype, billoutcome, last_name, first_name, party.x, state_name, state.x, chamber)
+
+colnames(state_sponsorship)[11] <- "state"
+colnames(state_sponsorship)[9] <- "party"
+
+ncol(state_sponsorship)
+nrow(state_sponsorship)
+
+state_sponsorship <- state_sponsorship %>%
+  replace(is.na(.), 0) %>%
+   mutate(total = rowSums(.[3:35]))
+
+
+#mutating state names to full names;  need to add in for PR, MP,  DC, GU, AS, VI
+state_sponsorship$state_name_2 <- tolower(state_sponsorship$state_name)
+
+
+# Save matrix test
+saved_matrix <- state_sponsorship
+# Write to disk
+write_csv(saved_matrix, "state_sponsorship_map_data2.csv")
+
+
+#mapping the state data with the map data, using fiftystater package
+library(fiftystater)
+library(mapproj)
+
+data("fifty_states") 
+
+library(gridExtra)
+library(colorplaner)
+
+dat3 <- state_sponsorship %>% filter(!is.na(billoutcome))
+
+dat3 %>% group_by(session) %>% summarize(sum(n()))
+
+
+#manipuating data to get necessary totals
+dat3 <- dat3 %>% group_by(session) %>% mutate(total_session = sum(n())) %>% ungroup()
+
+dat3 <- dat3 %>% group_by(session, state) %>% mutate(total_state = sum(n()), proportion = total_state/total_session) %>% ungroup()
+
+
+# Write to disk
+write_csv(dat3, "mapdata3.csv")
+```
 
 
 ## 5. Exploratory Analysis
-Even we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the senate. Specifically, we are exploring the 8769 bills that were created from 113 to 115 session in the Senate.
+Even though we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the Senate. Specifically, we are exploring the 8769 bills that were created from 113 to 115 session (to date) in the Senate.
+
+
 
 ### 5.1 Progress of Bill Outcome
 Thousands of bills are sponsored and introduced into the Senate during each legislative session. There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
@@ -482,6 +545,97 @@ kable(head(word_matrix),align ="c" ,caption = "Top 5 Most Frequent Words in Sena
 ```
 
 ![](./plots/cloud.png)
+
+### 5.4 Senator Sepcific Summary Statistics
+
+While the homepage focuses on interesting senator activity findings, we explored different data visualizations to help users better understand state or person specific activitiy. We also included images of senators, to help users put a face to the name. 
+
+#### 5.4.1 Senator summary statistics 
+
+```{r}
+senatorstats <- senatordata %>% 
+    filter(grepl("114", session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl("Louisiana", state_name))
+
+#bills sponsored and outcomes
+senatorstats %>%
+summarise(sum(n()), 
+         sum(billoutcome == "Became Law"), 
+         Percent = round(mean(billoutcome == "Became Law")*100, 2)) %>%
+`colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law")) %>% knitr::kable()
+
+
+
+toppolicy <- senatordata %>% 
+    filter(grepl("114", session)) %>% 
+          group_by(state,senator,policy_area) %>% filter(grepl("Louisiana", state_name)) %>% 
+          mutate(numspon = sum(n())) %>% select(state, senator, policy_area, numspon)
+
+test2  <-  toppolicy
+test2 <- unique(test2)  %>%
+  group_by(senator) %>% filter(numspon > 1) %>%
+  top_n(n = 5, wt = numspon) %>% 'colnames<-'(c("State", "Senator", "Policy Area", "Number Sponsored"))
+  test2
+
+```
+
+#### 5.4.1 Senator images
+
+```{r}
+#we scraped data from the internet in order to obtain a unique url for a picture of each senator
+
+#display first senator
+#format to make data into url that displays
+img_urls <- unique(senatorstats$image)
+src <- img_urls[1]
+tags$img(src=src)
+
+#display second senator
+#format to make data into url that displays
+img_urls <- unique(senatorstats$image)
+src <- img_urls[2]
+tags$img(src=src)
+
+
+```
+
+### 5.5 Map Data Exploration
+
+```{r}
+#initial map created for exploration
+dat4 <- mapdata3 %>% filter(session == "113")
+
+p <- ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name_2, fill=proportion), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
+  expand_limits(x = fifty_states$long, y = fifty_states$lat) +
+  coord_map() +
+  scale_x_continuous(breaks = NULL) + 
+  scale_y_continuous(breaks = NULL) +
+  labs(x = "", y = "") +
+  theme(legend.position = "bottom", panel.background = element_rect(), element_blank())+ fifty_states_inset_boxes() +
+ggtitle("Proportion of sponsored bills, by state")
+
+q <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name, fill=total_state), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
+  expand_limits(x = fifty_states$long, y = fifty_states$lat) +
+  coord_map() +
+  scale_x_continuous(breaks = NULL) + 
+  scale_y_continuous(breaks = NULL) +
+  labs(x = "", y = "") +
+  theme(legend.position = "bottom", panel.background = element_rect(), element_blank())+ fifty_states_inset_boxes() +
+ggtitle("Prevalence of bill type, by state")
+
+p
+q
+
+
+##table summarizing the total 
+
+dat4$senator <- paste(dat4$first_name,dat4$last_name,sep=" ")
+
+dat4 %>% group_by(state, senator) %>% filter(state_name=="Alaska") %>% summarize(Total = sum(n()))
+
+```
+
 
 
 ## 6. Final Analysis
@@ -883,3 +1037,108 @@ ggplot(dat,aes(x=state,y=Fitted_Probability,color=factor(party)))+geom_point(alp
 We need to be very careful with what we can interpret from this model. The logistic regression model explains the variation of the outcome to some extent, but the model will not be a good predictive model becuase our data-set is too small and we could not taking in account many important factors such as, which party is in control of the Senate and the House, the party affiliation of the predisdent, and etc. To build a better model, we would need a dataset contains at least ten sessions of bills. Even if we had the data from past 20 years, the model should still not be a predictive model since congress is always evolving and each bill is not independent of each other. One should ideally incorporate time series effects in the model and use more than ten sessions of bills for greater insight. 
 
 
+## 6.4 Senator Activity 
+
+### 6.4.1 Website homepage highlights
+
+Using this tool, users can explore specific state and senator activity. Our homepage focused on some highlights:
+
+During the 114th Legislative Session, the Senators from Louisiana sponsored more bills than any other state. Yet, looking more closely at the table, we can see that while David Vitter sponsored 125 bills and Bill Cassidy sponsored 39, almost none of the bills they sponsored passed. 
+
+Additionally, David Vitter (R) has a very connected network. This joint network display shows you the connections for senators in the state you select. Here, David Vitter has many connections, and even crosses party lines. The arrows pointing towards David's circle indicates senators that have cosponored a bill David has sponsored. The arrows pointing away from David indicate bills he has supported for other senators. However, if you look at Bill Cassidy, he is only connected to David, and has no cosponsored anyone else's bills, nor has anyone (other than David) sponsored his. 
+
+If you continue your exploration, take a look at the Louisiana during the 113th session. Louisiana sponsored the second most bills during the 113th, and yet this time, none of them passed. If I were a constituent from LA, I would be concerned about these numbers. 
+
+```{r}
+senatorstats <- senatordata %>% 
+    filter(grepl("114", session)) %>% 
+    group_by(state, senator) %>% 
+    filter(grepl("Louisiana", state_name))
+
+senatorstats %>%
+summarise(sum(n()), 
+         sum(billoutcome == "Became Law"), 
+         Percent = round(mean(billoutcome == "Became Law")*100, 2)) %>%
+`colnames<-`(c("State", "Senator", "Bills Introduced", "Number Passed as Law", "% Passed as Law")) %>% knitr::kable()
+```
+
+```{r, echo = FALSE}
+network <- senatordata %>% 
+    filter(grepl("114", as.character(session))) 
+
+network_focus <- network %>% 
+    group_by(state, senator) %>% 
+    filter(grepl("Louisiana", state_name))
+
+sen_ID <- network_focus$bioguideId
+
+senator_edges <- simp_edges %>% 
+  filter((from == sen_ID | to == sen_ID)) 
+
+senator_edges <- senator_edges[order(senator_edges$weight,decreasing = TRUE)[1:20],]
+# Then subset nodes
+nodes_subset <- nodes %>%
+  filter((bioguideId %in% senator_edges$to | bioguideId %in% senator_edges$from))
+
+# Set target and source as indices to node data
+# minus 1 because it converts to JS which uses 0-indexing
+senator_edges <- senator_edges %>%
+  mutate(source = match(from, nodes_subset$bioguideId) - 1,
+         target = match(to, nodes_subset$bioguideId) - 1)
+        
+forceNetwork(Links = senator_edges, Nodes = nodes_subset,
+     Source = "source", Target = "target",
+     Value = "weight", NodeID = "label", Group = "party",
+     # -- Nodes and labels
+     fontSize = 18,
+     fontFamily = "sans-serif",
+     opacity = 0.6,
+     opacityNoHover = 0.5,
+     # -- Edges
+     arrows = TRUE,
+     linkColour = c("grey", "grey"),
+     # -- Layout
+     linkDistance = 200,
+     charge = -40,
+     # -- General params
+     colourScale = JS('d3.scaleOrdinal().range(["green", "red", "blue"]).domain(function(d) { (d.party); });'),
+     zoom = TRUE,
+     bounded = FALSE
+     )     
+```
+
+
+### 6.5 - Explore geographical differences in policy area interests with an interactive map
+
+This map allows a quick look at the legislative activity of each state overall, or relating to a specific policy area. Here, we are looking at the number of bills submitted by each state in the area of public lands and natural resources. 
+
+Note the sharp divide between the Western United States and the rest of the nation. The federal government manages and maintains more than [300 million acres](http://www.ncsl.org/research/environment-and-natural-resources/this-land-is-whose-land.aspx) of public lands in the West, somewhat contentiously. There is a constant tug-of-war between the federal government, states, and private entities over the use of public lands. One can compare this view with a [map of all federal lands and reservations](https://nationalmap.gov/small_scale/printable/images/pdf/fedlands/fedlands3.pdf) and find considerable similarities.
+  
+The standout here, Alaska, has vast public lands and is particularly rich in natural resources; as such, there is a unique interest in these issues. Alaska's senior Senator, Lisa Murkowski, is also the chair of the Energy and Natural Resources Committee.
+
+
+```{r}
+#static map to show overview
+data("usgeojson")
+
+data_tab2 <- mapdata3 %>%
+  filter(grepl("Public Lands and Natural Resources", policy_area)) %>%
+  group_by(state_name) %>%
+  summarise(total_submit = sum(total_submit))
+
+n <- 4
+colstops <- data.frame(
+  q = (0 : n) / n,
+  c = substring(rev(viridis(n + 1)), 0, 7)) %>%
+  list.parse2()
+
+highchart() %>%
+  hc_add_series_map(map = usgeojson, data_tab2, name = "Bills submitted",
+                  value = "total_submit", joinBy = c("woename", "state_name"),
+                  dataLabels = list(enabled = TRUE,
+                                    format = '{point.properties.postalcode}')) %>%
+  hc_colorAxis(stops = colstops) %>%
+  hc_legend(valueDecimals = 0) %>%
+  hc_title(text = "Public Lands and Natural Resources bills submitted") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_add_theme(thm)
