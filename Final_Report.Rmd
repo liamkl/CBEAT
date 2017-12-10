@@ -472,11 +472,7 @@ saved_matrix <- state_sponsorship
 write_csv(saved_matrix, "state_sponsorship_map_data2.csv")
 
 
-#mapping the state data with the map data, using fiftystater package
-library(fiftystater)
-library(mapproj)
 
-data("fifty_states") 
 
 library(gridExtra)
 library(colorplaner)
@@ -486,10 +482,7 @@ dat3 <- state_sponsorship %>% filter(!is.na(billoutcome))
 dat3 %>% group_by(session) %>% summarize(sum(n()))
 
 
-#manipuating data to get necessary totals
-dat3 <- dat3 %>% group_by(session) %>% mutate(total_session = sum(n())) %>% ungroup()
 
-dat3 <- dat3 %>% group_by(session, state) %>% mutate(total_state = sum(n()), proportion = total_state/total_session) %>% ungroup()
 
 
 # Write to disk
@@ -654,8 +647,26 @@ tags$img(src=src)
 ### 5.5 Map Data Exploration
 
 ```{r}
+
+#mapping the state data with the map data, using fiftystater package
+library(fiftystater)
+library(mapproj)
+
+data("fifty_states") 
+
+
+#manipuating data to get necessary totals
+dat3 <- mapdata3 %>% group_by(session) %>% mutate(total_session = sum(n())) %>% ungroup()
+
+
 #initial map created for exploration
-dat4 <- mapdata3 %>% filter(session == "113")
+dat3 <- dat3 %>% group_by(session, state) %>% mutate(total_submit = sum(n()), proportion = total_submit/total_session) %>% ungroup()
+
+dat4 <- dat3 %>% filter(session == "113")
+
+#mutating state names to full names;  need to add in for PR, MP,  DC, GU, AS, VI
+dat4$state_name_2 <- tolower(dat4$state_name)
+
 
 p <- ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name_2, fill=proportion), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
   expand_limits(x = fifty_states$long, y = fifty_states$lat) +
@@ -666,7 +677,7 @@ p <- ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill=
   theme(legend.position = "bottom", panel.background = element_rect(), element_blank())+ fifty_states_inset_boxes() +
 ggtitle("Proportion of sponsored bills, by state")
 
-q <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name, fill=total_state), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
+q <-  ggplot(fifty_states, aes(map_id = id)) + geom_map(map = fifty_states, fill="lightgrey", colour = alpha("grey", 3/4), size = 0.4)+ geom_map(aes(map_id = state_name_2, fill=total_submit), colour=alpha("darkgrey", 3/4), data=dat4, map=fifty_states) +
   expand_limits(x = fifty_states$long, y = fifty_states$lat) +
   coord_map() +
   scale_x_continuous(breaks = NULL) + 
@@ -679,11 +690,13 @@ p
 q
 
 
-##table summarizing the total 
+##table summarizing the total of a state, just to explore what these stats could mean
 
-dat4$senator <- paste(dat4$first_name,dat4$last_name,sep=" ")
+dat5 <- mapdata
 
-dat4 %>% group_by(state, senator) %>% filter(state_name=="Alaska") %>% summarize(Total = sum(n()))
+dat5$senator <- paste(dat5$first_name,dat5$last_name,sep=" ")
+
+dat5 %>% group_by(state, senator) %>% filter(state_name=="Alaska") %>% summarize(Total = sum(n()))
 
 ```
 
