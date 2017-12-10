@@ -32,6 +32,7 @@ library(ggplot2)
 library(reshape2)
 library(wordcloud2)
 library(readxl)
+library(knitr)
 # Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
@@ -115,32 +116,32 @@ In general, we were not looking to really answer one big question (although both
 
 We discussed using the following methods and tools in our data analysis. While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
 
-### 3.1 Data Visualization
+## 3.1 Data Visualization
 
 We decided to utilize several different data visualization tools to analyze and present our data. Depending on the topic, different presentations were considered more appropriate. Initially, our visualizations were determined to include: geographic distributions, summary statistics and tables, heat maps, and word clouds. 
 
-### 3.2 Network Connectivity
+## 3.2 Network Connectivity
 
 We were interested in examining the cosponsorship network in the Senate. There is some debate over [how meaningful cosponsorship is](https://www.salon.com/2013/08/02/congress_favorite_time_wasting_scam_co_sponsoring_bills/), but the fact that so much effort is expended on wrangling cosponsors makes it worthy of examination. For some quick background, every bill introduced to the Senate has one sponsor, who is the member responsible for its submission. After that, any number of Senators can sign on to the bill as cosponsors (at any point in time). The network visualization will allow the public to see the direction of influence, who is working across party lines, and which legislators work with others. 
 
-### 3.3 Bill Outcome Predictions
+## 3.3 Bill Outcome Predictions
 
-*Binary Logistic Regression*
+### Binary Logistic Regression
 
 Since the goal of a bill is eventually becomes to law, we can model the outcome as an indicator variable(become to law or not become to law). The binary logistic model can be used to estimate the probability of bills become to law based on continuous and categorical predictor variables. It allows us to say that the presence of a predictor variable increases the odds of a bill becomes to law.
 
 
-*Ordinal Logistic Regression*
+### Ordinal Logistic Regression
 
 Since certain bill outcomes are better than others (i.e. a bill that becomes a law is more successful than a bill that gets voted on and fails), ordinal regression is explored. In statistics, ordinal regression (also called "ordinal classification") is a type of regression analysis used for predicting an ordinal variable, i.e. a variable whose value exists on an arbitrary scale where only the relative ordering between different values is significant. However, proportional odds must hold in order for this to be utilized. 
 
-*Multinomial Logistics Regression*
+### Multinomial Logistics Regression
 
 If ordinal regression assumptions do not hold, multinomial regression could also be explosed. Multinomial regression is used to describe data and to explain the relationship between one dependent nominal variable and one or more continuous-level(interval or ratio scale) independent variables.However, since the number of bills that actually got to the second step is fairly small.
 
-*Regularization*
+### Regularization
 
-There are two major issues with our data-set when modeling the probability of bills get to certain stage. First, some of the categories have very few observation. Second, since many of our predictors are categorial variables (ie. states, topics, their interaction terms), we have too many parameters in the model. Regularization is a technique used to avoid this overfitting problem. The idea behind regularization is to penalize the models that overfit the data. Lasso jses L-1 norm and performs both variable selection and regularization in order to enhance the prediction accuracy. Ridge Regularization uses L-2 norm and works well when the data suffers from multicollinearity. 
+There are two major issues with our data-set when modeling the probability of bills get to certain stage. First, some of the categories have very few observation. Second, since many of our predictors are categorial variables (ie. states, topics, interaction terms), we have too many parameters in the model. Regularization is a technique used to avoid this overfitting problem. The idea behind regularization is to penalize the models that overfit the data. Lasso jses L-1 norm and performs both variable selection and regularization in order to enhance the prediction accuracy. Ridge Regularization uses L-2 norm and works well when the data suffers from multicollinearity. 
 
 #4. Data 
 
@@ -227,17 +228,168 @@ for (bill_type in bill_types){
 
 ##4.3 Creating Data-sets
 
-```{r}
+### Bill Outcome Data-sets
 
+```{r eval=FALSE}
+##when binding - use 'fill=TRUE" and it'll fill in missing columns 
+##tibble initialize with column vector names. essentially creating a row tha has the name of every action type and then
+##fills in when you merge all the data
+
+#loading necessary libraries
+library(xml2)
+library(tidyverse)
+library(stringr)
+library(tidyr)
+library(dplyr)
+
+file_list_1 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-113-s", full.names=TRUE)
+file_list_2 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-113-sjres", full.names=TRUE)
+file_list_3 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-114-s", full.names=TRUE)
+file_list_4 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-114-sjres", full.names=TRUE)
+file_list_5 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-115-s", full.names=TRUE)
+file_list_6 <- list.files("C:/Users/millerhillaryv/Desktop/HSPH/BST260/Project/CBEAT/data_old/BILLSTATUS-115-sjres", full.names=TRUE)
+
+file_list_a <- c(file_list_1, file_list_2, file_list_3, file_list_4, file_list_5, file_list_6)
+############
+
+#pulling bill session, ID, and policy area information
+statuses_2 <- tibble()
+
+for (f in file_list_a) {
+
+    bill_data <- read_xml(f) %>% as_list
+      session = unlist(bill_data$bill$congress)
+      billid = unlist(bill_data$bill$billNumber)
+      policy_area <- unlist(bill_data$bill$subjects$billSubjects$policyArea)
+      if(is.null(policy_area)) next
+
+    bill_status <- tibble(session, billid, policy_area)
+    statuses_2 <- bind_rows(statuses_2, bill_status)
+}
+
+# Save matrix after for loop
+bill_outcome_maxtrix = statuses_2
+#remove NAs
+statuses_2[is.na(statuses_2)] <- 0
+# Write to disk
+write_csv(statuses_2, "bill_outcome_area_matrix.csv")
+
+#################
+#after pulling the billid and policy_area, realized bioguideID needed in order to match up with other data files
+#also need to get billIDs for those without a policy area indicated
+
+#manipulating master list in order to remove corrupt files
+file_list_113c <- file_list_a[c(1:774,776:3020,3023:8769)]
+
+#pulling bill sponsor ID and bill number
+sponsor_billid <- tibble()
+
+for (file_name in file_list_113c) {
+
+    bill_data <- read_xml(file_name) %>% as_list
+  #pull session number
+   test<- tibble(session = unlist(bill_data$bill$congress),
+   #pull bill sponsor bioguideID
+     sponsor = unlist(bill_data$bill$sponsors$item$bioguideId),
+   #pull bill id
+      billid = unlist(bill_data$bill$billNumber))
+  
+   sponsor_billid <- bind_rows(sponsor_billid, test)
+
+}
+##after some troubleshooting, had to manually pull data from the following 2 data files that were corrupt:
+###113s bill 1696
+###113sjres 10
+
+#write to disk
+write_csv(sponsor_billid, "bill_sponsor_data.csv")
+###################
+## pulling the data for the bioguideId policy type and bill outcome information 
+
+#create tibble 
+statuses <- tibble()
+
+for (f in file_list_a) {
+
+    bill_data <- read_xml(f) %>% as_list
+
+    #legislative session number
+    session = unlist(bill_data$bill$congress)
+                          billid = unlist(bill_data$bill$billNumber)
+                          #some bills did not have a policy area indicated; if none indicated, make NA
+                          #yet when joining with billID list, all bills will end up in final document 
+                          policy_area = unlist(bill_data$bill$subjects$billSubjects$policyArea)
+                          if(is.null(policy_area)) next
+                         #bill type (s or sjres)
+                          billtype = unlist(bill_data$bill$billType)
+                          type = unlist(names(bill_data$bill$actions$actionTypeCounts))
+                          count = unlist(bill_data$bill$actions$actionTypeCounts)
+                          
+    bill_status <- tibble(session, billid, policy_area, billtype, type, count) %>% spread(type, count)
+
+    statuses <- bind_rows(statuses, bill_status)
+}
+
+#remove NAs
+statuses[is.na(statuses)] <- 0
+# Write to disk
+write_csv(statuses, "bill_outcome_policy_matrix_notallbillsinc.csv")
+
+#############
+#merging files togeter
+library(readr)
+bill_outcome_area_matrix <- read_csv("data/output_data/bill_outcome_area_matrix.csv")
+bill_outcome_policy_matrix_notallbillsinc <- read_csv("data/output_data/bill_outcome_policy_matrix_notallbillsinc.csv")
+bill_sponsor_data <- read_csv("data/output_data/bill_sponsor_data.csv")
+
+dat1 <- bill_outcome_area_matrix
+dat2 <- bill_outcome_policy_matrix_notallbillsinc
+dat3 <- bill_sponsor_data
+dat3 <- dat3 %>% select(session, bioguideId, billid, billtype)
+
+#complete a full join so the bills without an outcome are still included in the data
+matrix <- join(dat3, dat1, type="full")
+matrix <- join(dat2, matrix, type="full")
+
+matrix[is.na(matrix)] <- "None reported"
+
+# Write to disk
+write_csv(matrix, "bill_outcomes_policy_bioguideID_full.csv")
+#################
+#creating bills outcome summary file
+
+library(readr)
+#using the full matrix, create classification of bill outcomes, and save a more concise data frame
+
+#nename original matrix in case error in initial file creation
+matrix_test <- matrix
+
+#using online research, classified bills with the following outcomes; using ifelse
+matrix_test <- matrix_test %>% mutate(billoutcome = 
+                         ifelse(becamePublicLaw >= 1, "Became Law",
+                                ifelse(presentedToPresident >= 1, "Vetoed",
+                                ifelse(passedAgreedToInSenate >= 1, "Passed in the Senate",                                                  ifelse(failedOfPassageNotAgreedToInSenate >= 1, "Got Vote, But Failed Senate",
+ifelse(failedPassage >= 1, "Got Vote, But Failed",
+       ifelse(clotureMotion >= 1, "Failed Legislation",
+              ifelse(placedOnCalendarGeneralOrders >= 1, "Ordered Reported", "nothing"))))))))
+
+#check number of laws compared to online resources (to date, numbers match up)
+matrix_test %>% group_by(billoutcome) %>% summarize(sum(n()))
+
+#select only the columns that will be used (all other outcomes not utilized for project)
+matrix_test <- matrix_test %>% select(bioguideId, session, billid, policy_area, billtype, billoutcome)
+
+# Write to disk
+write_csv(matrix_test, "bill_outcomes_summary.csv")
 ```
 
 
+
 #5. Exploratory Analysis
+Even we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the senate. Specifically, we are exploring the 8769 bills that were created from 113 to 115 session in the Senate.
 
-## 5.1 Progress of Bills
-Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
-
-There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
+## 5.1 Progress of Bill Outcome
+Thousands of bills are sponsored and introduced into the Senate during each legislative session. There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
 
   1. Introduced into Senate
   2. Ordered Reported
@@ -246,13 +398,17 @@ There are many final statuses of a bill, but we will only focus on the main 6 he
   5. Passed in the House, but Vetoed by the President
   6. Became a law
   
-Here we see how many bills get to each step of the process
+Here we see how many bills get to each step of the process. Over 8000 bills were created from the Senate, however it is extremely hard for a bill to even get to the second stage, order reported. Only about one eighth of the bills get reported. Eventually, only 215 of the bills become to laws.
 
 ```{r}
-colnames(stack)=c("Topic","Introduced into Senate","Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
+colnames(stack)=c("Topic","Introduced into Senate","Order Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
 temp=melt(stack,id="Topic")
-p=ggplot(temp, aes(variable, value,group=Topic,color=Topic,fill=Topic))+geom_area(position = "stack")+theme(legend.position = "bottom")
-p
+p=ggplot(temp, aes(variable, value,group=Topic,color=Topic,fill=Topic))+geom_area(position = "stack")+theme(axis.text.x=element_text(angle=45,hjust=1))+labs(x="",y="Number of Bills")
+ggplotly(p)
+
+table=as.data.frame(colSums(stack[,2:7]))
+colnames(table)="Number of the bills"
+kable(table, align="c")
 ```
 
 ## 5.2 Probability of Bills Become to Law Breakdown 
@@ -304,6 +460,28 @@ overall_prob=round(overall_prob,4)
 overall_sd=round(sqrt(overall_prob*(1-overall_prob)/nrow(mapdata)),4)
 kable(rbind(bySubject,c("Total",overall_prob,nrow(mapdata),overall_sd,overall_prob-1.96*overall_sd,overall_prob+1.96*overall_sd)),align = "c")
 ```
+
+### Key Words in the Bill
+We can see the most frequent key words in bills from the Senate ironicly is "Congressional Oversight"
+
+```{r}
+subject <- nodes %>%
+  select(bioguideId, party,state, in_113, in_114, in_115) %>%
+  left_join(read_csv("./data/member_leg_subject_matrix.csv"))
+word_matrix <- subject
+freq <- as.data.frame(colSums(word_matrix[7:1020]))
+word <- row.names(freq)
+word_matrix <- cbind(word,freq)
+rownames(word_matrix) <- NULL
+colnames(word_matrix)[2] <- "freq"
+#the code below generate the word cloud, but sometimes it doesn't show the plots correctly, so I included a picture here instead.
+#wordcloud2(data = word_matrix, size = 0.2)
+word_matrix=word_matrix[order(word_matrix$freq,decreasing = TRUE),]
+kable(head(word_matrix),align ="c" ,caption = "Top 5 Most Frequent Words in Senate Bills")
+
+```
+
+![](./plots/cloud.png)
 
 
 #6. Final Analysis
@@ -629,5 +807,79 @@ heatmaply(
 ```
 
 
-##6.3 Bills Become to Law Modeling
+##6.3 Model the Probability of Bills Become to Law
+
+### Binary vs Multinomial vs Ordinal Logistic Regression
+During exploratory analysis, we know that only about one eighth of the bills make to the second step. We know the proportional odds assumption will not meet if we choose to use ordinal logistic model. With ordinal logit out of the picture, should we consider using multinomial logistics? We try the model, but the model did not turn out very well due to relatively small number of outcomes in each category. Therefore we decided to only use the binary logistic regression. The outcome is the bill whether or not becomes to law.
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+#Binary Logit
+m1=glm(law~factor(session)+billtype+party+party*factor(session)+billtype*factor(session),family = binomial(link='logit'),data=mapdata)
+m2=glm(law~factor(session)+billtype+policy_area+state+party+party*factor(session)+billtype*factor(session),family = binomial(link='logit'),data=mapdata)
+BIC(m1)
+BIC(m2)
+
+#Multinomial
+library(nnet)
+m3=multinom(billoutcome~factor(session)+billtype+party+party*factor(session)+billtype*factor(session),data=mapdata)
+m4=multinom(billoutcome~factor(session)+billtype+policy_area+state+party+party*factor(session)+billtype*factor(session),data=mapdata)
+BIC(m4)
+
+#Ordinal
+#library(VGAM)
+#m5=vglm(billoutcome~factor(session)+billtype+party+party*factor(session)+billtype*factor(session),cumulative(parallel=TRUE, reverse=TRUE), data=mapdata)
+#BIC(m5)
+```
+
+### Regularization and Variable Selection
+We tried both Lasso and Ridge regularization. Regularization can reduce overfitting. Ridge regularization works well when there are multicolineartiy problem. In our case, we don't have too much multicolinearity problem since most of the coloum in X is created by categorical variable, which creates linearly independent columns. Lasso regularization on the other hand,  does both parameter shrinkage (using L1 norm) and variable selection automatically, it works well when there the dataset is sparse.
+
+Deviance Plot for Lasso
+
+![](./plots/lasso.jpeg)
+
+Deviance Plot for Ridge
+
+![](./plots/ridge.jpeg)
+```{R}
+#Regularization
+library(glmnet)
+x <- model.matrix(law~factor(session)+billtype+policy_area+state+party+party*factor(session)+billtype*factor(session),mapdata)
+y <- mapdata$law
+cv.out_lasso <- cv.glmnet(x,y,alpha=1,family="binomial")
+#cv.out_ridge <- cv.glmnet(x,y,alpha=0,family="binomial")
+#plot(cv.out_lasso)
+#plot(cv.out_ridge)
+#best value of lambda
+lambda_1se_lasso <- cv.out_lasso$lambda.1se
+#lambda_1se_ridge<-cv.out_ridge$lambda.1se
+#regression coefficients
+coef1<-coef(cv.out_lasso,s=lambda_1se_lasso)
+#coef2<-coef(cv.out_ridge,s=lambda_1se_ridge)
+#fitted probability
+prob_lasso <-predict(cv.out_lasso,newx = x,s=lambda_1se_lasso,type="response")
+#prob_ridge <-predict(cv.out_ridge,newx = x,s=lambda_1se_ridge,type="response")
+```
+
+### Final Model
+Based on the parsimony principle and BIC, we chose Lasso logistics regression as our final model. We chose $\lambda=0.00625$ for the lasso penalty coefficient becuase that is when it give us the model that has the smallest deviance.
+Specifically, the model is following:
+\begin{align*}
+\log(\frac{p}{1-p}) & =-3.751-0.022\cdot I(session=115)+0.811\cdot I(policy\ area=Government)-0.194 \cdot I(policy \ area = Taxation) \\
+& + 0.523 \cdot I(state=TN)+0.441 \cdot I(session=115 * billtype=Joint)
+\end{align*}
+
+```{r}
+dat=cbind(mapdata%>%select(policy_area,party,state),prob_lasso)
+colnames(dat)[4]="Fitted_Probability"
+#By topic fitted prob
+ggplot(dat,aes(x=policy_area,y=Fitted_Probability,color=factor(party)))+geom_point(alpha=0.5)+scale_color_manual(values = c("#619CFF","#00BA38","#F8766D"))+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+#By state fitted prob
+ggplot(dat,aes(x=state,y=Fitted_Probability,color=factor(party)))+geom_point(alpha=0.5)+scale_color_manual(values = c("#619CFF","#00BA38","#F8766D"))+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Limitation of the Model
+
+We need to be very careful with what we can interpret from this model. The logistic regression model explains the variation of the outcome to some extent, but the model will not be a good predictive model becuase our data-set is too small and we could not taking in account many important factors such as, which party is in control of the Senate and the House, the party affiliation of the predisdent, and etc. To build a better model, we would need a dataset contains at least ten sessions of bills. Even if we had the data from past 20 years, the model should still not be a predictive model since congress is always evolving and each bill is not independent of each other. One should ideally incorporate time series effects in the model and use more than ten sessions of bills for greater insight. 
+
 

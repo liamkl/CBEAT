@@ -397,7 +397,7 @@ fittedprob=as.data.frame(fittedprob)
 fittedprob%>%filter(grepl(input$session6, session))})
 
 renderPlot({ggplot(probdata(),aes(x=x_axis,y=y_axis,color=factor(party)))+
-  geom_point(alpha=0.5,size=1)+labs(y="Fitted Probability of Bills Become to Law",x="")+scale_color_discrete(name="Senator's Party",position="bottom")+theme(axis.text.x = element_text(angle = 45, hjust = 1))})
+  geom_point(alpha=0.5,size=1)+labs(y="Fitted Probability of Bills Become to Law",x="")+scale_color_discrete(name="Senator's Party",position="bottom")+theme(axis.text.x = element_text(angle = 45, hjust = 1))+scale_color_manual(values = c("#619CFF","#00BA38","#F8766D"))})
 ```
 
 

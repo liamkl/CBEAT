@@ -68,6 +68,7 @@ lambda_1se_ridge<-cv.out_ridge$lambda.1se
 #regression coefficients
 coef(cv.out_lasso,s=lambda_1se_lasso)
 coef(cv.out_ridge,s=lambda_1se_ridge)
+
 #predict class, type=”class”
 prob_lasso <-predict(cv.out_lasso,newx = x,s=lambda_1se,type="response")
 prob_ridge <-predict(cv.out_ridge,newx = x,s=lambda_1se,type="response")
