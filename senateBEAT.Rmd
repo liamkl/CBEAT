@@ -25,6 +25,7 @@ library(ggplot2)
 library(reshape2)
 library(wordcloud2)
 library(readxl)
+library(knitr)
 # Theme to use for highcharts (from example htmlwidgets page)
 thm <- 
   hc_theme(
@@ -89,7 +90,7 @@ Plese watch the video to learn some background about the project, and familiariz
 
 ### What is the Senate working on?
 
-![](./data/wordcloud.png){ width=103% }
+![](./plots/wordcloud.png){ width=103% }
 ```{r}
 subject <- nodes %>%
   select(bioguideId, party,state, in_113, in_114, in_115) %>%
@@ -101,15 +102,22 @@ word <- row.names(freq)
 word_matrix <- cbind(word,freq)
 rownames(word_matrix) <- NULL
 colnames(word_matrix)[2] <- "freq"
-cloud_color <- "white"
 ```
 ```{r, eval = FALSE}
-wordcloud2(data = word_matrix, shape="pentagon", size = 1)
+wordcloud2(data = word_matrix, size = 1)
 ```
 
 ***
 
-Some commentary here
+Here are the subjects being discussed inside of over eight thousands bills by decsending frequency order. Ironically, "congressional oversight" is the most frequent subjects. 
+
+```{r}
+
+word_matrix=word_matrix[order(word_matrix$freq,decreasing = TRUE),]
+colnames(word_matrix)=c("Subjects","Frequency")
+row.names(word_matrix)=NULL
+kable(word_matrix,align ="c",row.names = NA)
+```
 
 ### Explore geographical differences in policy area interests with an interactive map
 
