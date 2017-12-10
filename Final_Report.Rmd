@@ -84,7 +84,7 @@ stack<-read_excel("data/stack.xlsx")
 ```
 
 
-#1. Overiew and Motivation
+## 1. Overiew and Motivation
 
 A lot of changes are happening in our government, and while the major focus has been towards the executive branch, it should not be overlooked that congress is in charge of the majority of the laws we live by each day. With the current political climate, we feel the public deserves a more transparent insight into its daily activities. The 115th Legislative Session began in January 2017, and so far, has been a tumultuous journey; from healthcare to the environment, to tax reform to the bills that the media overlooks, major changes have ocurred and will continue to occur that could impact every U.S. resident.   
 
@@ -93,13 +93,13 @@ Our objective is to create resources to allow the public to better understand ho
 Specifically, we want to examine major factors that could contribute or hinder a bill's success, and try to make predictions for bill outcomes. This will include educating the public on the different outcomes a bill can have (there are several!). Additionally, we will evaluate the congressional network, to determine the connectivity degree of the legislators. Do some of them simply sit back as a passive participant? Who has bipartisan connections, and who remains within the boundaries of their own party?  Finally, we want to create clear, concise visuals so the public has an opportunity to explore the focus areas for a certain party, state, or legislator. *The resource will focus less on examining specific bills that actually get passed, and more about where legislators focus their time, and how. (not sure about this last sentence)*
 
 
-#2. Related Work
+## 2. Related Work
 
 The inspiration for this project came from several directions. It is virtually impossible to ignore the daily discussion of bills that are US news networks decide to focus on. After some discussion, it made us realize we do not really know a whole lot about the bills going through congress, other than the ones discussed on the internet or on TV. While the classic schoolhouse rock [video](https://youtu.be/tyeJ55o3El0) provides an overview of the bill process, and congress.gov allows you to examine bills individually, very few resources exist to allow the public to visualize trends overall. 
 
 
 
-#3. Initial Questions
+## 3. Initial Questions
 
 We had several initial questions that served as the basis for our exploration, and different techniques (discussed below) in order to approach our questions. 
 
@@ -116,41 +116,41 @@ In general, we were not looking to really answer one big question (although both
 
 We discussed using the following methods and tools in our data analysis. While several of them evolved throughout the project, these helped serve as the basis of our project and provided direction in our exploration. 
 
-## 3.1 Data Visualization
+### 3.1 Data Visualization
 
 We decided to utilize several different data visualization tools to analyze and present our data. Depending on the topic, different presentations were considered more appropriate. Initially, our visualizations were determined to include: geographic distributions, summary statistics and tables, heat maps, and word clouds. 
 
-## 3.2 Network Connectivity
+### 3.2 Network Connectivity
 
 We were interested in examining the cosponsorship network in the Senate. There is some debate over [how meaningful cosponsorship is](https://www.salon.com/2013/08/02/congress_favorite_time_wasting_scam_co_sponsoring_bills/), but the fact that so much effort is expended on wrangling cosponsors makes it worthy of examination. For some quick background, every bill introduced to the Senate has one sponsor, who is the member responsible for its submission. After that, any number of Senators can sign on to the bill as cosponsors (at any point in time). The network visualization will allow the public to see the direction of influence, who is working across party lines, and which legislators work with others. 
 
-## 3.3 Bill Outcome Predictions
+### 3.3 Bill Outcome Predictions
 
-### Binary Logistic Regression
+#### 3.3.1 Binary Logistic Regression
 
 Since the goal of a bill is eventually becomes to law, we can model the outcome as an indicator variable(become to law or not become to law). The binary logistic model can be used to estimate the probability of bills become to law based on continuous and categorical predictor variables. It allows us to say that the presence of a predictor variable increases the odds of a bill becomes to law.
 
 
-### Ordinal Logistic Regression
+#### 3.3.2 Ordinal Logistic Regression
 
 Since certain bill outcomes are better than others (i.e. a bill that becomes a law is more successful than a bill that gets voted on and fails), ordinal regression is explored. In statistics, ordinal regression (also called "ordinal classification") is a type of regression analysis used for predicting an ordinal variable, i.e. a variable whose value exists on an arbitrary scale where only the relative ordering between different values is significant. However, proportional odds must hold in order for this to be utilized. 
 
-### Multinomial Logistics Regression
+#### 3.3.3 Multinomial Logistics Regression
 
 If ordinal regression assumptions do not hold, multinomial regression could also be explosed. Multinomial regression is used to describe data and to explain the relationship between one dependent nominal variable and one or more continuous-level(interval or ratio scale) independent variables.However, since the number of bills that actually got to the second step is fairly small.
 
-### Regularization
+#### 3.3.4 Regularization
 
 There are two major issues with our data-set when modeling the probability of bills get to certain stage. First, some of the categories have very few observation. Second, since many of our predictors are categorial variables (ie. states, topics, interaction terms), we have too many parameters in the model. Regularization is a technique used to avoid this overfitting problem. The idea behind regularization is to penalize the models that overfit the data. Lasso jses L-1 norm and performs both variable selection and regularization in order to enhance the prediction accuracy. Ridge Regularization uses L-2 norm and works well when the data suffers from multicollinearity. 
 
-#4. Data 
+## 4. Data 
 
-##4.1 Data Source
+### 4.1 Data Source
 
 We are using congressional records from Congress.gov. They provide downloadable, bulk data with information on bills, timelines and voting records. https://github.com/usgpo/bill-status/blob/master/BILLSTATUS-XML_User_User-Guide.md. We may also utilize voting records (http://clerk.house.gov/legislative/legvotes.aspx) 
 We looked into bills that are from 113, 114, and 115 legislative sessions (Jan 2013 - Oct 2017).  
 
-##4.2 Data Scraping
+### 4.2 Data Scraping
 
 We scraped 115 session bills from https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/ using the code below. The data is saved under rawdata folder. In addition, we were able to download the 113 and 114 session bills in bulk from congress.gov, which saved us a few hours. 
 
@@ -226,9 +226,9 @@ for (bill_type in bill_types){
 
 ```
 
-##4.3 Creating Data-sets
+### 4.3 Creating Data-sets
 
-### Bill Outcome Data-sets
+#### 4.3.1 Bill Outcome Data-sets
 
 ```{r eval=FALSE}
 ##when binding - use 'fill=TRUE" and it'll fill in missing columns 
@@ -385,10 +385,10 @@ write_csv(matrix_test, "bill_outcomes_summary.csv")
 
 
 
-#5. Exploratory Analysis
+## 5. Exploratory Analysis
 Even we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the senate. Specifically, we are exploring the 8769 bills that were created from 113 to 115 session in the Senate.
 
-## 5.1 Progress of Bill Outcome
+### 5.1 Progress of Bill Outcome
 Thousands of bills are sponsored and introduced into the Senate during each legislative session. There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
 
   1. Introduced into Senate
@@ -411,9 +411,9 @@ colnames(table)="Number of the bills"
 kable(table, align="c")
 ```
 
-## 5.2 Probability of Bills Become to Law Breakdown 
+### 5.2 Probability of Bills Become to Law Breakdown 
 
-### By Topics
+#### 5.2.1 By Topics
 The horizontal line is the overall probability of bills become to law. The error bars are the 95% confidence interval for each category. The reason we want to plot the confidence interval is that some of the area only have very small number of sample size. A high probability in that area might be due to random chance and not statistically significantly higher than overall probability of bills become to law. Green represents that policy area is statistically significantly higher than overall probability, and red represents the opposite (lower). We can see bills from certain topics have are more likely to become to law, for example "Goverment Operations and Polictics" is an policy area that is way more likely to have bills become to law. In contrast, "Education" is not likely to have bills become to law. Note that a few of the policy areas has 0% probability, therefore their confidence intervals are zeros. 
 
 ```{r message=FALSE, warning=FALSE}
@@ -429,7 +429,7 @@ ggplot(data=bySubject,aes(x=policy_area,y=prob, color = factor(cr)))+geom_point(
   scale_color_discrete(guide=FALSE)+labs(y="Probability of Become to Law",x=NULL)+scale_color_manual(values = c("black","seagreen","orangered"),guide=FALSE)+geom_errorbar(aes(ymin=lower,ymax=upper))+geom_hline(yintercept =overall_prob,alpha=0.5)
 ```
 
-###By State
+### 5.2.2 By State
 
 Same Logics from before, here we are looking at probability of bills become to law by state. Tennessee is the only state that have their lower 95% confidence interval above overall probability. A few states are below average, such as Alabama and Connecticut. 
 
@@ -444,7 +444,7 @@ ggplot(data=bySubject,aes(x=state,y=prob, color = factor(cr)))+geom_point()+them
   scale_color_discrete(guide=FALSE)+labs(y="Probability of Become to Law",x=NULL)+scale_color_manual(values = c("black","seagreen","orangered"),guide=FALSE)+geom_errorbar(aes(ymin=lower,ymax=upper))+geom_hline(yintercept =overall_prob,alpha=0.5)
 ```
 
-### By Session
+#### 5.2.3 By Session
 
 Session 115 has a statistically significantly lower probability of bills become to laws.
 
@@ -461,7 +461,7 @@ overall_sd=round(sqrt(overall_prob*(1-overall_prob)/nrow(mapdata)),4)
 kable(rbind(bySubject,c("Total",overall_prob,nrow(mapdata),overall_sd,overall_prob-1.96*overall_sd,overall_prob+1.96*overall_sd)),align = "c")
 ```
 
-### Key Words in the Bill
+### 5.3 Key Words in the Bill
 We can see the most frequent key words in bills from the Senate ironicly is "Congressional Oversight"
 
 ```{r}
@@ -484,8 +484,8 @@ kable(head(word_matrix),align ="c" ,caption = "Top 5 Most Frequent Words in Sena
 ![](./plots/cloud.png)
 
 
-#6. Final Analysis
-## 6.1 Network Analysis
+## 6. Final Analysis
+### 6.1 Network Analysis
 
 The cosponsorship network is a weighted, directed graph. It must be directed, because there is a meaningful distinction between sponsoring other Senators' bills and receiving support for your own bills. The edges must also be weighted in order to capture some of the dynamics of cosponsorship. For instance, sticking your neck out alone in support of a colleague is a sign of a stronger tie than signing on with your whole caucus, or signing on after 20 other Senators paved the way. 
 
@@ -705,7 +705,7 @@ forceNetwork(Links = senator_edges, Nodes = nodes_subset,
 
 Perhaps unsurprisingly, the strongest connection in her network is to fellow Senator from Massachusetts, Ed Markey. 
 
-## 6.2 Senator interest similarity 
+### 6.2 Senator interest similarity 
 
 For this analysis, we were interested in understanding which legislative subjects Senators were interested in, and finding out who had similar interests. First, we extract from each bill's XML file the legislative subjects associated with it, and create a matrix featuring each Senator as a row, and each column as a legislative subject. The values are then the number of bills sponsored by that Senator which pertains to that legislative subject.
 
@@ -807,9 +807,9 @@ heatmaply(
 ```
 
 
-##6.3 Model the Probability of Bills Become to Law
+### 6.3 Logistic Regression Modeling
 
-### Binary vs Multinomial vs Ordinal Logistic Regression
+#### 6.3.1 Binary vs Multinomial vs Ordinal Logistic Regression
 During exploratory analysis, we know that only about one eighth of the bills make to the second step. We know the proportional odds assumption will not meet if we choose to use ordinal logistic model. With ordinal logit out of the picture, should we consider using multinomial logistics? We try the model, but the model did not turn out very well due to relatively small number of outcomes in each category. Therefore we decided to only use the binary logistic regression. The outcome is the bill whether or not becomes to law.
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
@@ -831,7 +831,7 @@ BIC(m4)
 #BIC(m5)
 ```
 
-### Regularization and Variable Selection
+#### 6.3.2 Regularization and Variable Selection
 We tried both Lasso and Ridge regularization. Regularization can reduce overfitting. Ridge regularization works well when there are multicolineartiy problem. In our case, we don't have too much multicolinearity problem since most of the coloum in X is created by categorical variable, which creates linearly independent columns. Lasso regularization on the other hand,  does both parameter shrinkage (using L1 norm) and variable selection automatically, it works well when there the dataset is sparse.
 
 Deviance Plot for Lasso
@@ -861,7 +861,7 @@ prob_lasso <-predict(cv.out_lasso,newx = x,s=lambda_1se_lasso,type="response")
 #prob_ridge <-predict(cv.out_ridge,newx = x,s=lambda_1se_ridge,type="response")
 ```
 
-### Final Model
+### 6.3.3 Final Model
 Based on the parsimony principle and BIC, we chose Lasso logistics regression as our final model. We chose $\lambda=0.00625$ for the lasso penalty coefficient becuase that is when it give us the model that has the smallest deviance.
 Specifically, the model is following:
 \begin{align*}
@@ -878,7 +878,7 @@ ggplot(dat,aes(x=policy_area,y=Fitted_Probability,color=factor(party)))+geom_poi
 ggplot(dat,aes(x=state,y=Fitted_Probability,color=factor(party)))+geom_point(alpha=0.5)+scale_color_manual(values = c("#619CFF","#00BA38","#F8766D"))+theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-### Limitation of the Model
+### 6.3.4 Limitation of the Model
 
 We need to be very careful with what we can interpret from this model. The logistic regression model explains the variation of the outcome to some extent, but the model will not be a good predictive model becuase our data-set is too small and we could not taking in account many important factors such as, which party is in control of the Senate and the House, the party affiliation of the predisdent, and etc. To build a better model, we would need a dataset contains at least ten sessions of bills. Even if we had the data from past 20 years, the model should still not be a predictive model since congress is always evolving and each bill is not independent of each other. One should ideally incorporate time series effects in the model and use more than ten sessions of bills for greater insight. 
 
