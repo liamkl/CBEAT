@@ -78,20 +78,13 @@ Home {.storyboard}
 ====================================
 ### Welcome to SenateBEAT
 
-VIDEO AND STUFF
-....
 
-......
+Welcome to Senate BEAT (Bill Exploratory Analysis and Tracking)! This tool allows the public to explore what is going on in the Senate. We have data from the 113th, 114th, and the current, 115th legislative sessions. 
 
-..........
+Plese watch the video to learn some background about the project, and familiarize yourself with the site's tools. While we encourage you to explore the site yourself, we have also highlighted a couple findings we found particularly interesting on this page. Use the arrows to click through the storyboard, and learn some interesting findings! Then, continue exploring the other pages to learn more. 
 
-............
 
-.........
-
-............
-
-..........
+![congress](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjz6_nT7P_XAhXM5YMKHdEWDz4QjRwIBw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUnited_States_Congress&psig=AOvVaw2YL9YEukfaY6ujxclpBE9g&ust=1513009203635573)
 
 
 ### What is the Senate working on?
@@ -526,7 +519,7 @@ radioButtons(inputId = "session3",
                         "113th Session" = "113",
                         "114th Session" = "114",
                         "115th Session" = "115"),
-            selected = "113")
+            selected = "114")
 
 ```
 
@@ -536,11 +529,11 @@ radioButtons(inputId = "session3",
 selectInput(inputId = "state3", 
             label = "Select a state", 
             choices = c("All" = "*", state.name),
-            selected = "Alaska",
+            selected = "Louisiana",
             selectize = FALSE)
 ```
 
-Row {data-width=600, data-height=400}
+Row {data-width=600, data-height=500}
 -------------------------------------
 ### Senator summary statistics 
 
