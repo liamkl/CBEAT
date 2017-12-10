@@ -226,6 +226,7 @@ for (bill_type in bill_types){
 ```
 
 ##4.3 Creating Data-sets
+
 ```{r}
 
 ```
@@ -234,6 +235,18 @@ for (bill_type in bill_types){
 #5. Exploratory Analysis
 
 ## 5.1 Progress of Bills
+Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
+
+There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
+
+  1. Introduced into Senate
+  2. Ordered Reported
+  3. Failed legislation; or received a vote, but failed in the senate
+  4. Passed in the Senate 
+  5. Passed in the House, but Vetoed by the President
+  6. Became a law
+  
+Here we see how many bills get to each step of the process
 
 ```{r}
 colnames(stack)=c("Topic","Introduced into Senate","Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
@@ -261,6 +274,9 @@ ggplot(data=bySubject,aes(x=policy_area,y=prob, color = factor(cr)))+geom_point(
 ```
 
 ###By State
+
+Same Logics from before, here we are looking at probability of bills become to law by state. Tennessee is the only state that have their lower 95% confidence interval above overall probability. A few states are below average, such as Alabama and Connecticut. 
+
 ```{r message=FALSE, warning=FALSE}
 bySubject=mapdata%>%group_by(state)%>%summarise(prob=mean(law),n=n())
 bySubject$sd=sqrt(bySubject$prob*(1 - bySubject$prob)/bySubject$n)
@@ -274,8 +290,19 @@ ggplot(data=bySubject,aes(x=state,y=prob, color = factor(cr)))+geom_point()+them
 
 ### By Session
 
-```{r}
+Session 115 has a statistically significantly lower probability of bills become to laws.
 
+```{r}
+bySubject=mapdata%>%group_by(session)%>%summarise(prob=round(mean(law),4),n=n())
+bySubject$sd=round(sqrt(bySubject$prob*(1 - bySubject$prob)/bySubject$n),4)
+bySubject$lower=round(bySubject$prob-1.96*bySubject$sd,4)
+bySubject$lower=ifelse(bySubject$lower<0,0,bySubject$lower)
+bySubject$upper=round(bySubject$prob+1.96*bySubject$sd,4)
+colnames(bySubject)=c("Session","Probability become Law","# of Bills","St. Error","95% Lower CI","95% Upper CI")
+require(knitr)
+overall_prob=round(overall_prob,4)
+overall_sd=round(sqrt(overall_prob*(1-overall_prob)/nrow(mapdata)),4)
+kable(rbind(bySubject,c("Total",overall_prob,nrow(mapdata),overall_sd,overall_prob-1.96*overall_sd,overall_prob+1.96*overall_sd)),align = "c")
 ```
 
 
@@ -602,17 +629,5 @@ heatmaply(
 ```
 
 
-##6.6 Bills Prediction
+##6.3 Bills Become to Law Modeling
 
-Thousands of bills are sponsored and introduced into the Senate during each legislative session. 
-
-There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
-
-  1. Introduced into Senate
-  2. Ordered Reported
-  3. Failed legislation; or received a vote, but failed in the senate
-  4. Passed in the Senate 
-  5. Passed in the House, but Vetoed by the President
-  6. Became a law
-  
-Explore to see how many bills get to each step of the process, and which types of bills tend to be those most likely to become a law.
