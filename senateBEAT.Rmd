@@ -84,13 +84,13 @@ Welcome to Senate BEAT (Bill Exploratory Analysis and Tracking)! This tool allow
 
 Plese watch the video to learn some background about the project, and familiarize yourself with the site's tools. While we encourage you to explore the site yourself, we have also highlighted a couple findings we found particularly interesting on this page. Use the arrows to click through the storyboard, and learn some interesting findings! Then, continue exploring the other pages to learn more. 
 
+<iframe width="700" height="400" src="https://www.youtube.com/embed/D_irwj9-RSM?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-![congress](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjz6_nT7P_XAhXM5YMKHdEWDz4QjRwIBw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUnited_States_Congress&psig=AOvVaw2YL9YEukfaY6ujxclpBE9g&ust=1513009203635573)
 
 
 ### What is the Senate working on?
 
-![](./plots/wordcloud.png){ width=103% }
+![](./data/wordcloud.png){ width=103% }
 ```{r}
 subject <- nodes %>%
   select(bioguideId, party,state, in_113, in_114, in_115) %>%
