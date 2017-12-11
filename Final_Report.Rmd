@@ -228,7 +228,7 @@ for (bill_type in bill_types){
 
 #### Member list scrape
 
-```{r}
+```{r eval=FALSE}
 save_path <- paste0(getwd(), "./data/member_list.csv")
 if(!file.exists(save_path)){
 
@@ -434,7 +434,7 @@ matrix_test <- matrix_test %>% select(bioguideId, session, billid, policy_area, 
 write_csv(matrix_test, "bill_outcomes_summary.csv")
 ```
 
-### 4.3.2 Senator Map Data
+#### 4.3.2 Senator Map Data
 
 ```{r eval = FALSE}
 
@@ -481,12 +481,184 @@ dat3 <- state_sponsorship %>% filter(!is.na(billoutcome))
 
 dat3 %>% group_by(session) %>% summarize(sum(n()))
 
-
-
-
-
 # Write to disk
 write_csv(dat3, "mapdata3.csv")
+```
+
+#### 4.3.3 Senator Subject Interests Data
+
+We extracted from each bill's XML file the legislative subjects associated with it, and created a matrix featuring each Senator as a row, and each column as a legislative subject. The values are then the number of bills sponsored by that Senator which pertains to that legislative subject.
+
+```{r, eval=FALSE}
+# Fn to do reverse paste (for apply purposes)
+paste_dir <- function(end, beginning) return(paste0(beginning, end))
+data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
+con_bill_type <- c("113-hjres", "113-hr", "113-s", "113-sjres",
+                   "114-hjres", "114-hr", "114-s", "114-sjres",
+                   "115-hjres", "115-hr", "115-s", "115-sjres")
+folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
+file_list <- list.files(folders, full.names = TRUE)
+
+# Read in member and policy area lists
+members <- read_csv("./data/member_list.csv")
+leg_subject_list <- read_csv("./data/legislative_subjects.csv")
+# Create empty dataframe with row for every member and 
+# column for every policy area
+m_ls_matrix <- data.frame(matrix(nrow = nrow(members),
+                                 ncol = nrow(leg_subject_list)+1))
+colnames(m_ls_matrix) <- c("bioguideId", leg_subject_list$legislative_subject)
+
+# Break file list into chunks just for easier running/debugging
+file_list_1 <- file_list[1:2500]
+file_list_2 <- file_list[2501:5000]
+file_list_3 <- file_list[5001:7500]
+file_list_4 <- file_list[7501:10000]
+file_list_5 <- file_list[10001:12500]
+file_list_6 <- file_list[12501:15000]
+file_list_7 <- file_list[15001:17500]
+file_list_8 <- file_list[17501:20000]
+file_list_9 <- file_list[20001:22500]
+file_list_10 <- file_list[22501:25780]
+
+# Fill with ID numbers and 0 for each policy area
+m_ls_matrix[, 2:ncol(m_ls_matrix)] <- 0
+m_ls_matrix$bioguideId <- members$bioguideId
+orphan_ls <- c()
+
+# Loop to fill the Member-Legislative Subject matrix
+for(file_name in file_list_10){
+  # Read in bill data from XML, convert to list for easier access
+  bill_data <- read_xml(file_name) %>% as_list()
+  # Extract sponsor
+  sponsor <- bill_data$bill$sponsors$item$bioguideId %>% unlist()
+  # Extract legislative subjects (as list)
+  leg_subjects <- bill_data$bill$subjects$billSubjects$legislativeSubjects %>% unlist(use.names = FALSE)
+  if(is.null(leg_subjects)) next
+  # Loop through subjects
+  for(subject in leg_subjects){
+    # Some subjects may have some kind of extra specifier which comes after a comma
+    # If exists, cut off the end and just keep the first part
+    if(grepl(", ", subject)){
+      subject <- str_split(subject, ", ", n = 2) %>% unlist() %>% .[1]
+    }
+    # Even though the list from Congress' website is supposed to 
+    # be exhaustive, might not be
+    # If the policy area is not in my existing list I move to next iteration and make note of it
+    if(!(subject %in% leg_subject_list$legislative_subject)){
+      orphan_ls <- c(orphan_ls, subject)
+      next
+    }
+    # Increment legislative subject for that sponsor
+    m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] <- 1 + m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] 
+  }
+}
+# Save matrix after each iteration just in case
+saved_matrix <- m_ls_matrix
+# Write to disk
+write_csv(saved_matrix, "./data/output_data/member_leg_subject_matrix.csv")
+```
+
+Noting that this actually creates data including the House of Representatives, the analysis of which is outside the scope of this project. 
+
+#### 4.3.4 Networks Edges and Nodes Data
+
+The resulting output of the `create_network_data` function is a list of two dataframes, one containing the node data and one containing the edge data. We then trim the nodes data down to unique entries only, add additional information relating to which Congressional session the Senator was a part of, and save the data to disk. 
+
+```{r, eval = FALSE}
+library(igraph)
+# Fn to do reverse paste (for apply purposes)
+paste_dir <- function(end, beginning) return(paste0(beginning, end))
+data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
+con_bill_type <- c("113-s", "113-sjres",
+                   "114-s", "114-sjres",
+                   "115-s", "115-sjres")
+folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
+# Break file list into chunks just for easier running/debugging
+file_list_1 <- list.files(folders[1], full.names = TRUE)
+file_list_2 <- list.files(folders[2], full.names = TRUE)
+file_list_3 <- list.files(folders[3], full.names = TRUE)
+file_list_4 <- list.files(folders[4], full.names = TRUE)
+file_list_5 <- list.files(folders[5], full.names = TRUE)
+file_list_6 <- list.files(folders[6], full.names = TRUE)
+
+# "dictionary" for chamber IDs
+chamber_id_dict <- c("House" = 1, "Senate" = 2)
+
+batch_1 <- create_network_data(file_list_1)
+batch_2 <- create_network_data(file_list_2)
+batch_3 <- create_network_data(file_list_3)
+batch_4 <- create_network_data(file_list_4)
+batch_5 <- create_network_data(file_list_5)
+batch_6 <- create_network_data(file_list_6)
+
+nodes <- data.frame()
+edges <- data.frame()
+
+nodes <- rbind(nodes,
+               batch_1$nodes,
+               batch_2$nodes,
+               batch_3$nodes,
+               batch_4$nodes,
+               batch_5$nodes,
+               batch_6$nodes
+               )
+nodes <- unique(nodes)
+
+edges <- rbind(edges,
+               batch_1$edges,
+               batch_2$edges,
+               batch_3$edges,
+               batch_4$edges,
+               batch_5$edges,
+               batch_6$edges
+               )
+
+# Get info on 113th/114th/115th Congresses for each node
+nodes$in_113 <- sapply(nodes$bioguideId, 
+                       function(x) sum(x %in% edges$from[edges$congress == 113] | x %in% edges$edges$from[edges$congress == 113]))
+nodes$in_114 <- sapply(nodes$bioguideId, 
+                       function(x) sum(x %in% edges$from[edges$congress == 114] | x %in% edges$edges$from[edges$congress == 114]))
+nodes$in_115 <- sapply(nodes$bioguideId, 
+                        function(x) sum(x %in% edges$from[edges$congress == 115] | x %in% edges$edges$from[edges$congress == 115]))
+
+write_csv(nodes, paste0(getwd(), "/data/output_data/nodes.csv"))
+write_csv(edges, paste0(getwd(), "/data/output_data/edges.csv"))
+
+###############Simplify Edges Datasets############
+G <- graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
+G <- simplify(G, edge.attr.comb = list(weight = "sum", "ignore"))
+simp_edges <- as_data_frame(G, what = "edges")
+
+###############Process Nodes Datasets for Bipartisan Index########
+total_in <- strength(G, mode = "in", weights = E(G)$weight)
+total_out <- strength(G, mode = "out", weights = E(G)$weight)
+nodes <- nodes %>% cbind(total_in, total_out)
+
+
+D <- induced_subgraph(G, (V(G)$party == "D") | V(G)$party == "I")
+total_in.d <- data.frame(bioguideId = V(D)$name,
+                           total_in.d = strength(D, mode = "in", weights = E(D)$weight))
+total_out.d <- data.frame(bioguideId = V(D)$name,
+                            total_out.d = strength(D, mode = "out", weights = E(D)$weight))
+nodes <- nodes %>% left_join(total_in.d) %>% left_join(total_out.d)
+  
+R <- induced_subgraph(G, V(G)$party == "R")
+total_in.r <- data.frame(bioguideId = V(R)$name,
+                           total_in.r = strength(R, mode = "in", weights = E(R)$weight))
+total_out.r <- data.frame(bioguideId = V(R)$name,
+                            total_out.r = strength(R, mode = "out", weights = E(R)$weight))
+nodes <- nodes %>% left_join(total_in.r) %>% left_join(total_out.r) %>%
+  mutate(total_in_party = coalesce(total_in.d, total_in.r),
+         total_out_party = coalesce(total_out.d, total_out.r)) %>%
+  select(-total_in.d, -total_in.r, -total_out.d, -total_out.r)
+
+nodes <- nodes %>% mutate(total_in_nonparty = total_in - total_in_party, 
+                          total_out_nonparty = total_out - total_out_party) %>%
+  filter(bioguideId != "K000148") # Filter out John Kerry
+
+
+write_csv(nodes, paste0(getwd(), "/data/output_data/nodes_proc.csv"))
+write_csv(simp_edges, paste0(getwd(), "/data/output_data/simplified_edges.csv"))
 ```
 
 
@@ -624,7 +796,7 @@ test2 <- unique(test2)  %>%
 
 ```
 
-#### 5.4.1 Senator images
+#### 5.4.2 Senator images
 
 ```{r}
 #we scraped data from the internet in order to obtain a unique url for a picture of each senator
@@ -643,6 +815,54 @@ tags$img(src=src)
 
 
 ```
+
+#### 5.4.3 Senator Bill Submitted 
+We see from the bar plot that republician senator David Vitter from Louisina submitted the most number of bills, 204 bills. This visualization will be very useful when we break it down by session since some of the senator stayed in the Senate longer the others. The interactive plot in our website provides user to filter by sessions.
+
+```{r}
+senatordata1 <- mapdata
+senatordata1$senator <- paste(senatordata1$first_name,senatordata1$last_name,sep=" ")
+senatordata1 <- senatordata1 %>% 
+      group_by(bioguideId) %>%
+      summarise(Introduced = sum(n()), Passed = sum(billoutcome == "Became Law"))
+  dat <- nodes %>% left_join(senatordata1)
+  dat <- dat[order(dat$Introduced, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    select(label, Introduced, color)
+  
+  highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Introduced, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills submitted") %>%
+    hc_add_theme(thm)
+```
+
+#### 5.4.4 Senator Bill Passed 
+Some senators have submitted hundreds of bills, but how many are there that actually passed. We see from the plot below.
+
+```{r}
+dat <- nodes %>% left_join(senatordata1)
+thresh <- nrow(filter(dat, Passed > 0 ))
+  dat <- dat[order(dat$Passed, decreasing = TRUE), ] %>%
+    mutate(color = ifelse(party == "R", red, ifelse(party == "D", blue, green))) %>%
+    head(n = thresh) %>%
+    select(label, Passed, color)
+
+ highchart() %>%
+    hc_chart(type = "bar") %>%
+    hc_xAxis(categories = dat$label) %>%
+    hc_add_series_labels_values(labels = dat$label, 
+                                values = dat$Passed, 
+                                colors = dat$color,
+                                showInLegend = FALSE, 
+                                name = "Bills passed") %>%
+    hc_add_theme(thm)
+```
+
 
 ### 5.5 Map Data Exploration
 
@@ -819,67 +1039,6 @@ exp((1 - 3) / 10) / 6
 
 Weights range from 0 to 1. 
 
-The resulting output of the `create_network_data` function is a list of two dataframes, one containing the node data and one containing the edge data. We then trim the nodes data down to unique entries only, add additional information relating to which Congressional session the Senator was a part of, and save the data to disk. 
-
-```{r, eval = FALSE}
-# Fn to do reverse paste (for apply purposes)
-paste_dir <- function(end, beginning) return(paste0(beginning, end))
-data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
-con_bill_type <- c("113-s", "113-sjres",
-                   "114-s", "114-sjres",
-                   "115-s", "115-sjres")
-folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
-# Break file list into chunks just for easier running/debugging
-file_list_1 <- list.files(folders[1], full.names = TRUE)
-file_list_2 <- list.files(folders[2], full.names = TRUE)
-file_list_3 <- list.files(folders[3], full.names = TRUE)
-file_list_4 <- list.files(folders[4], full.names = TRUE)
-file_list_5 <- list.files(folders[5], full.names = TRUE)
-file_list_6 <- list.files(folders[6], full.names = TRUE)
-
-# "dictionary" for chamber IDs
-chamber_id_dict <- c("House" = 1, "Senate" = 2)
-
-batch_1 <- create_network_data(file_list_1)
-batch_2 <- create_network_data(file_list_2)
-batch_3 <- create_network_data(file_list_3)
-batch_4 <- create_network_data(file_list_4)
-batch_5 <- create_network_data(file_list_5)
-batch_6 <- create_network_data(file_list_6)
-
-nodes <- data.frame()
-edges <- data.frame()
-
-nodes <- rbind(nodes,
-               batch_1$nodes,
-               batch_2$nodes,
-               batch_3$nodes,
-               batch_4$nodes,
-               batch_5$nodes,
-               batch_6$nodes
-               )
-nodes <- unique(nodes)
-
-edges <- rbind(edges,
-               batch_1$edges,
-               batch_2$edges,
-               batch_3$edges,
-               batch_4$edges,
-               batch_5$edges,
-               batch_6$edges
-               )
-
-# Get info on 113th/114th/115th Congresses for each node
-nodes$in_113 <- sapply(nodes$bioguideId, 
-                       function(x) sum(x %in% edges$from[edges$congress == 113] | x %in% edges$edges$from[edges$congress == 113]))
-nodes$in_114 <- sapply(nodes$bioguideId, 
-                       function(x) sum(x %in% edges$from[edges$congress == 114] | x %in% edges$edges$from[edges$congress == 114]))
-nodes$in_115 <- sapply(nodes$bioguideId, 
-                        function(x) sum(x %in% edges$from[edges$congress == 115] | x %in% edges$edges$from[edges$congress == 115]))
-
-write_csv(nodes, paste0(getwd(), "/data/output_data/nodes.csv"))
-write_csv(edges, paste0(getwd(), "/data/output_data/edges.csv"))
-```
 
 We can now pull the network data into a visualization framework like [networkD3](https://christophergandrud.github.io/networkD3/), which leverages the d3.js library. Using this we can quickly get a sense of which Senators Elizabeth Warren works with closely, for example:
 
@@ -925,78 +1084,7 @@ Perhaps unsurprisingly, the strongest connection in her network is to fellow Sen
 
 ### 6.2 Senator interest similarity 
 
-For this analysis, we were interested in understanding which legislative subjects Senators were interested in, and finding out who had similar interests. First, we extract from each bill's XML file the legislative subjects associated with it, and create a matrix featuring each Senator as a row, and each column as a legislative subject. The values are then the number of bills sponsored by that Senator which pertains to that legislative subject.
-
-```{r, eval=FALSE}
-# Fn to do reverse paste (for apply purposes)
-paste_dir <- function(end, beginning) return(paste0(beginning, end))
-data_dir <- paste0(getwd(), "/data/BILLSTATUS-")
-con_bill_type <- c("113-hjres", "113-hr", "113-s", "113-sjres",
-                   "114-hjres", "114-hr", "114-s", "114-sjres",
-                   "115-hjres", "115-hr", "115-s", "115-sjres")
-folders <- sapply(con_bill_type, paste_dir, data_dir, USE.NAMES = FALSE)
-file_list <- list.files(folders, full.names = TRUE)
-
-# Read in member and policy area lists
-members <- read_csv("./data/member_list.csv")
-leg_subject_list <- read_csv("./data/legislative_subjects.csv")
-# Create empty dataframe with row for every member and 
-# column for every policy area
-m_ls_matrix <- data.frame(matrix(nrow = nrow(members),
-                                 ncol = nrow(leg_subject_list)+1))
-colnames(m_ls_matrix) <- c("bioguideId", leg_subject_list$legislative_subject)
-
-# Break file list into chunks just for easier running/debugging
-file_list_1 <- file_list[1:2500]
-file_list_2 <- file_list[2501:5000]
-file_list_3 <- file_list[5001:7500]
-file_list_4 <- file_list[7501:10000]
-file_list_5 <- file_list[10001:12500]
-file_list_6 <- file_list[12501:15000]
-file_list_7 <- file_list[15001:17500]
-file_list_8 <- file_list[17501:20000]
-file_list_9 <- file_list[20001:22500]
-file_list_10 <- file_list[22501:25780]
-
-# Fill with ID numbers and 0 for each policy area
-m_ls_matrix[, 2:ncol(m_ls_matrix)] <- 0
-m_ls_matrix$bioguideId <- members$bioguideId
-orphan_ls <- c()
-
-# Loop to fill the Member-Legislative Subject matrix
-for(file_name in file_list_10){
-  # Read in bill data from XML, convert to list for easier access
-  bill_data <- read_xml(file_name) %>% as_list()
-  # Extract sponsor
-  sponsor <- bill_data$bill$sponsors$item$bioguideId %>% unlist()
-  # Extract legislative subjects (as list)
-  leg_subjects <- bill_data$bill$subjects$billSubjects$legislativeSubjects %>% unlist(use.names = FALSE)
-  if(is.null(leg_subjects)) next
-  # Loop through subjects
-  for(subject in leg_subjects){
-    # Some subjects may have some kind of extra specifier which comes after a comma
-    # If exists, cut off the end and just keep the first part
-    if(grepl(", ", subject)){
-      subject <- str_split(subject, ", ", n = 2) %>% unlist() %>% .[1]
-    }
-    # Even though the list from Congress' website is supposed to 
-    # be exhaustive, might not be
-    # If the policy area is not in my existing list I move to next iteration and make note of it
-    if(!(subject %in% leg_subject_list$legislative_subject)){
-      orphan_ls <- c(orphan_ls, subject)
-      next
-    }
-    # Increment legislative subject for that sponsor
-    m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] <- 1 + m_ls_matrix[m_ls_matrix$bioguideId == sponsor, subject] 
-  }
-}
-# Save matrix after each iteration just in case
-saved_matrix <- m_ls_matrix
-# Write to disk
-write_csv(saved_matrix, "./data/output_data/member_leg_subject_matrix.csv")
-```
-
-Noting that this actually creates data including the House of Representatives, the analysis of which is outside the scope of this project. 
+For this analysis, we were interested in understanding which legislative subjects Senators were interested in, and finding out who had similar interests. 
 
 We can easily understand similarity as the Euclidean distance between each Senator's legislative subject interest vector. We calculate this distance matrix, and then use it in our visualization. We can visualize this matrix as a heatmap using a tool like [heatmaply](https://cran.r-project.org/web/packages/heatmaply/vignettes/heatmaply.html). Below we look at the top 20 legislative subjects that Sen. Ed Markey (D-MA) is interested in. The rows are sorted according to similarity of interests.
 
@@ -1079,7 +1167,7 @@ prob_lasso <-predict(cv.out_lasso,newx = x,s=lambda_1se_lasso,type="response")
 #prob_ridge <-predict(cv.out_ridge,newx = x,s=lambda_1se_ridge,type="response")
 ```
 
-### 6.3.3 Final Model
+#### 6.3.3 Final Model
 Based on the parsimony principle and BIC, we chose Lasso logistics regression as our final model. We chose $\lambda=0.00625$ for the lasso penalty coefficient becuase that is when it give us the model that has the smallest deviance.
 Specifically, the model is following:
 \begin{align*}
