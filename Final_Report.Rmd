@@ -11,6 +11,8 @@ output:
     toc_float: true
 ---
 
+In order to access our full GitHub data repository, please click [here](https://github.com/liamkl/CBEAT).
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
 	echo = TRUE,
@@ -927,6 +929,9 @@ dat5 %>% group_by(state, senator) %>% filter(state_name=="Alaska") %>% summarize
 
 
 ## 6. Final Analysis
+
+While our data exploration and analysis was performed in Rmarkdown, our final website was published using Rshiny and Flexdashboard. These images provide an overview of the final visualizations we included in our website, but the interactive versions can be found on our website [link](https://yuetingluo.shinyapps.io/senateBEAT/).
+
 ### 6.1 Network Analysis
 
 The cosponsorship network is a weighted, directed graph. It must be directed, because there is a meaningful distinction between sponsoring other Senators' bills and receiving support for your own bills. The edges must also be weighted in order to capture some of the dynamics of cosponsorship. For instance, sticking your neck out alone in support of a colleague is a sign of a stronger tie than signing on with your whole caucus, or signing on after 20 other Senators paved the way. 
@@ -1264,7 +1269,38 @@ forceNetwork(Links = senator_edges, Nodes = nodes_subset,
 ```
 
 
-### 6.5 - Explore geographical differences in policy area interests with an interactive map
+### 6.5 - Bills Submitted by New Mexico's Senators
+
+We hear a lot about fights in the Senate over healthcare, taxation, and other big landmark legislation. But there is a lot more that your Senators are interested in, and much of it reflects concerns more regional or local than national.
+
+Here we see the distribution of bills by policy area submitted by New Mexico’s Senators over the last few years. The area of each rectangle is proportional to the number of bills introduced by New Mexico’s Senators in that policy area, and the color scale is proportional to the national totals (darker is more).
+
+While there are a fair number of bills introduced which deal with areas which concern us all, like national security and taxation, we see that New Mexico’s representatives are putting a lot of effort into issues which are specific to their constituents. Comprising a large proportion of the total bills introduced are those relating to natural resources, energy, and the environment. New Mexico is rich in natural resources, including crude oil and some natural gas, but is also a leader in renewable sources like solar and wind power. Their large Native American population (2nd highest proportion in the nation) is also reflected in the policy areas pursued by their Senators.
+
+
+```{r}
+national_totals <- mapdata3 %>% 
+  group_by(policy_area, session) %>% 
+  summarise(national_total = sum(total_submit)) %>% 
+  ungroup()
+  
+data_tab3 <- mapdata3 %>%
+    left_join(national_totals) %>%
+    filter(grepl("New Mexico", state_name))
+
+tm <- treemap(data_tab3, "policy_area",
+              vSize = "total_submit", vColor = "national_total",
+              type = "value", palette = rev(viridis(6)))
+
+hctreemap(tm) %>%
+  hc_add_theme(thm) %>%
+  hc_title(text = "Bills submitted by New Mexico's Senators") %>%
+  hc_legend(align = "center", enabled = TRUE)
+```
+
+
+
+### 6.6 - Explore geographical differences in policy area interests with an interactive map
 
 This map allows a quick look at the legislative activity of each state overall, or relating to a specific policy area. Here, we are looking at the number of bills submitted by each state in the area of public lands and natural resources. 
 
@@ -1299,3 +1335,10 @@ highchart() %>%
   hc_mapNavigation(enabled = TRUE) %>%
   hc_add_theme(thm)
 ```
+
+
+Above are some of the final analyses we made, yet overall the tool is meant to be utilized by the public. To explore our interactive website, please [click here](https://yuetingluo.shinyapps.io/senateBEAT/), and to view our video, please [watch here](https://youtu.be/D_irwj9-RSM). 
+
+Access the original Rmarkdown for our website (in order to see how we created the dynamic versions of our images) [here](https://github.com/liamkl/CBEAT/blob/master/senateBEAT.Rmd).
+
+**Note that the website performs best in Safari**
