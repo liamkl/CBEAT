@@ -4,8 +4,11 @@ author:
 - "Hillary Miller"
 - "Liam Loscalzo"
 - "Yueting Luo"
-date: "12/9/2017"
-output: html_document
+date: "12/10/2017"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
@@ -104,12 +107,17 @@ The inspiration for this project came from several directions. It is virtually i
 We had several initial questions that served as the basis for our exploration, and different techniques (discussed below) in order to approach our questions. 
 
 
- > What is the prevalence of bill topic, by: legislative session?	by legislator? by state?  
- > What is the probability that a  certain bill topic be voted on, or become a  law? Do significant trends even exist that can predict outcomes?
- > How does geography and region affect policy area and legislative subject focus areas?
- > How many bills do states generally sponsor each session? How does number and topic differ among legislators from the same state?
-	prevalence of bill topic in general; likelihood of a certain bill topic to be voted on; likelihood of a certain topic to become a law
- > Which legislators have similar interests? Which legislators work with each other, and cosponsor bills together? This will include a network analysis 
+> What is the prevalence of bill topic, by: legislative session?	by legislator? by state?  
+ 
+> What is the probability that a  certain bill topic be voted on, or become a  law? Do significant trends even exist that can predict outcomes?
+
+> How does geography and region affect policy area and legislative subject focus areas?
+
+> How many bills do states generally sponsor each session? How does number and topic differ among legislators from the same state?
+
+> Prevalence of bill topic in general; likelihood of a certain bill topic to be voted on; likelihood of a certain topic to become a law
+
+> Which legislators have similar interests? Which legislators work with each other, and cosponsor bills together? This will include a network analysis 
 
 
 In general, we were not looking to really answer one big question (although both bill outcomes, network connectivity, and policy area focus were all explored), but rather creating tools that could be utilized to explore activities in congress and understand bills better. 
@@ -141,18 +149,18 @@ If ordinal regression assumptions do not hold, multinomial regression could also
 
 #### 3.3.4 Regularization
 
-There are two major issues with our data-set when modeling the probability of bills get to certain stage. First, some of the categories have very few observation. Second, since many of our predictors are categorial variables (ie. states, topics, interaction terms), we have too many parameters in the model. Regularization is a technique used to avoid this overfitting problem. The idea behind regularization is to penalize the models that overfit the data. Lasso jses L-1 norm and performs both variable selection and regularization in order to enhance the prediction accuracy. Ridge Regularization uses L-2 norm and works well when the data suffers from multicollinearity. 
+There are two major issues with our data-set when modeling the probability of bills get to certain stage. First, some of the categories have very few observation. Second, since many of our predictors are categorial variables (i.e., states, topics, interaction terms), we have too many parameters in the model. Regularization is a technique used to avoid this overfitting problem. The idea behind regularization is to penalize the models that overfit the data. Lasso uses L1 norm and performs both variable selection and regularization in order to enhance the prediction accuracy. Ridge regularization uses L2 norm and works well when the data suffers from multicollinearity. 
 
 ## 4. Data 
 
 ### 4.1 Data Source
 
 We are using congressional records from Congress.gov. They provide downloadable, bulk data with information on bills, timelines and voting records. https://github.com/usgpo/bill-status/blob/master/BILLSTATUS-XML_User_User-Guide.md. We may also utilize voting records (http://clerk.house.gov/legislative/legvotes.aspx) 
-We looked into bills that are from 113, 114, and 115 legislative sessions (Jan 2013 - Oct 2017).  
+We looked into bills that are from the 113th, 114th, and 115th legislative sessions (Jan 2013 - Oct 2017).  
 
 ### 4.2 Data Scraping
 
-We scraped 115 session bills from https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/ using the code below. The data is saved under rawdata folder. In addition, we were able to download the 113 and 114 session bills in bulk from congress.gov, which saved us a few hours. 
+We scraped the 115th session bills from https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/, using the code below. The data is saved under rawdata folder. In addition, we were able to download the 113 and 114 session bills in bulk from congress.gov, which saved us a few hours. 
 
 ```{r eval=FALSE}
 # Imports
@@ -277,9 +285,9 @@ write_csv(members, save_path)}
 ```
 
 
-### 4.3 Creating Data-sets
+### 4.3 Creating Datasets
 
-#### 4.3.1 Bill Outcome Data-sets
+#### 4.3.1 Bill Outcome Datasets
 
 ```{r eval=FALSE}
 ##when binding - use 'fill=TRUE" and it'll fill in missing columns 
@@ -663,9 +671,7 @@ write_csv(simp_edges, paste0(getwd(), "/data/output_data/simplified_edges.csv"))
 
 
 ## 5. Exploratory Analysis
-Even though we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the Senate. Specifically, we are exploring the 8769 bills that were created from 113 to 115 session (to date) in the Senate.
-
-
+Even though we retrieved the bills from both the Senate and the House, we decided to focus on bills that are generated from the Senate. Specifically, we are exploring the 8769 bills that were created from the 113th to 115th sessions (to date) in the Senate.
 
 ### 5.1 Progress of Bill Outcome
 Thousands of bills are sponsored and introduced into the Senate during each legislative session. There are many final statuses of a bill, but we will only focus on the main 6 here. They include:
@@ -677,7 +683,7 @@ Thousands of bills are sponsored and introduced into the Senate during each legi
   5. Passed in the House, but Vetoed by the President
   6. Became a law
   
-Here we see how many bills get to each step of the process. Over 8000 bills were created from the Senate, however it is extremely hard for a bill to even get to the second stage, order reported. Only about one eighth of the bills get reported. Eventually, only 215 of the bills become to laws.
+Here we see how many bills get to each step of the process. Over 8000 bills were introduced to the Senate, however it is extremely hard for a bill to even get to the second stage, order reported (only about one-eighth of the bills get reported). Eventually, only 215 of the bills go on to become laws.
 
 ```{r}
 colnames(stack)=c("Topic","Introduced into Senate","Order Reported","Failed in the Senate","Passed in the Senate","Passed in the House","Become a Law")
@@ -686,7 +692,7 @@ p=ggplot(temp, aes(variable, value,group=Topic,color=Topic,fill=Topic))+geom_are
 ggplotly(p)
 
 table=as.data.frame(colSums(stack[,2:7]))
-colnames(table)="Number of the bills"
+colnames(table)="Number of bills"
 kable(table, align="c")
 ```
 
@@ -741,7 +747,7 @@ kable(rbind(bySubject,c("Total",overall_prob,nrow(mapdata),overall_sd,overall_pr
 ```
 
 ### 5.3 Key Words in the Bill
-We can see the most frequent key words in bills from the Senate ironicly is "Congressional Oversight"
+We can see the most frequent key words in bills from the Senate is, perhaps ironically, "Congressional Oversight":
 
 ```{r}
 subject <- nodes %>%
@@ -798,9 +804,9 @@ test2 <- unique(test2)  %>%
 
 #### 5.4.2 Senator images
 
-```{r}
-#we scraped data from the internet in order to obtain a unique url for a picture of each senator
+For our Senator Activity page, we pull images in real time from Congress.gov, using the Senator's ID.
 
+```{r}
 #display first senator
 #format to make data into url that displays
 img_urls <- unique(senatorstats$image)
@@ -812,12 +818,10 @@ tags$img(src=src)
 img_urls <- unique(senatorstats$image)
 src <- img_urls[2]
 tags$img(src=src)
-
-
 ```
 
 #### 5.4.3 Senator Bill Submitted 
-We see from the bar plot that republician senator David Vitter from Louisina submitted the most number of bills, 204 bills. This visualization will be very useful when we break it down by session since some of the senator stayed in the Senate longer the others. The interactive plot in our website provides user to filter by sessions.
+We see from the bar plot that Republician Senator David Vitter from Louisiana submitted the most number of bills, 204 bills. This visualization will be very useful when we break it down by session since some of the Senators stayed in the Senate longer the others. The interactive plot in our website provides the ability for the user to filter by session.
 
 ```{r}
 senatordata1 <- mapdata
@@ -842,7 +846,7 @@ senatordata1 <- senatordata1 %>%
 ```
 
 #### 5.4.4 Senator Bill Passed 
-Some senators have submitted hundreds of bills, but how many are there that actually passed. We see from the plot below.
+Some Senators have submitted hundreds of bills, but how many of those actually passed? We can see in the plot below.
 
 ```{r}
 dat <- nodes %>% left_join(senatordata1)
@@ -1184,14 +1188,14 @@ ggplot(dat,aes(x=policy_area,y=Fitted_Probability,color=factor(party)))+geom_poi
 ggplot(dat,aes(x=state,y=Fitted_Probability,color=factor(party)))+geom_point(alpha=0.5)+scale_color_manual(values = c("#619CFF","#00BA38","#F8766D"))+theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-### 6.3.4 Limitation of the Model
+#### 6.3.4 Limitation of the Model
 
 We need to be very careful with what we can interpret from this model. The logistic regression model explains the variation of the outcome to some extent, but the model will not be a good predictive model becuase our data-set is too small and we could not taking in account many important factors such as, which party is in control of the Senate and the House, the party affiliation of the predisdent, and etc. To build a better model, we would need a dataset contains at least ten sessions of bills. Even if we had the data from past 20 years, the model should still not be a predictive model since congress is always evolving and each bill is not independent of each other. One should ideally incorporate time series effects in the model and use more than ten sessions of bills for greater insight. 
 
 
-## 6.4 Senator Activity 
+### 6.4 Senator Activity 
 
-### 6.4.1 Website homepage highlights
+#### 6.4.1 Website homepage highlights
 
 Using this tool, users can explore specific state and senator activity. Our homepage focused on some highlights:
 
@@ -1294,3 +1298,4 @@ highchart() %>%
   hc_title(text = "Public Lands and Natural Resources bills submitted") %>%
   hc_mapNavigation(enabled = TRUE) %>%
   hc_add_theme(thm)
+```
